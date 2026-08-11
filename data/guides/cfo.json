@@ -1,0 +1,32 @@
+[
+  {
+    "id":"guide_cfo_ai_governance","title":"CFO AI Governance Framework","slug":"cfo-ai-governance-framework","summary":"A finance-led framework for evaluating AI investment, controls, ownership, evidence, and reporting.","updated":"2026-08-11","audience":["CFO","Finance leadership","Audit committee"],
+    "sections":[
+      {"heading":"Start with the decision, not the model","content":"Define the business decision, accountable executive, affected workflow, financial exposure, and evidence required before evaluating a model or vendor.","bullets":["Named business owner","Documented decision or workflow","Expected financial outcome","Failure and escalation thresholds"]},
+      {"heading":"Create an AI investment register","content":"Maintain one finance-visible register of material AI initiatives. Record cost, owner, data used, deployment status, controls, expected benefit, and review date.","bullets":["Acquisition and operating cost","Benefit hypothesis and measurement method","Data and third-party dependencies","Human-review requirements","Retirement criteria"]},
+      {"heading":"Separate approval from assurance","content":"The executive sponsoring an AI initiative should not be the only person assessing its evidence. Finance, security, legal, risk, and the operating owner should have explicit review responsibilities.","bullets":["Business approval","Technical validation","Security and privacy review","Financial validation","Post-deployment monitoring"]},
+      {"heading":"Report outcomes and exceptions","content":"Board reporting should distinguish pilots, deployed systems, measured outcomes, control exceptions, and unresolved risks. Demonstrations and projected value are not realized value."}
+    ],
+    "sources":[{"title":"AI Risk Management Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/itl/ai-risk-management-framework"},{"title":"NIST AI RMF 1.0","publisher":"National Institute of Standards and Technology","url":"https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"}]
+  },
+  {
+    "id":"guide_cfo_erp_implementation","title":"CFO ERP Implementation Evidence Checklist","slug":"cfo-erp-implementation-evidence-checklist","summary":"A control-focused checklist for evaluating ERP scope, cost, readiness, security, migration, and benefits.","updated":"2026-08-11","audience":["CFO","CIO","Controller","Audit committee"],
+    "sections":[
+      {"heading":"Approve a bounded scope","content":"The business case should identify the legal entities, processes, reports, integrations, controls, and data included in the implementation. Unbounded transformation language is not a testable scope.","bullets":["Processes and entities in scope","Required financial reports","Integration inventory","Control ownership","Explicit exclusions"]},
+      {"heading":"Build a complete cost estimate","content":"Include software, implementation partners, internal labor, migration, integration, testing, training, security, parallel operations, contingency, and post-launch support.","bullets":["Assumptions and estimating method","One-time and recurring costs","Contingency basis","Sensitivity analysis","Independent review"]},
+      {"heading":"Treat data migration as financial control work","content":"Define source-to-target ownership, reconciliation thresholds, exception handling, retention requirements, and sign-off before migration begins.","bullets":["Data owners","Reconciliation evidence","Opening-balance approval","Failed-record treatment","Retention and audit trail"]},
+      {"heading":"Set evidence-based go-live gates","content":"Go-live should depend on completed controls, reconciled data, tested integrations, operational support, security review, and a documented rollback decision, not the calendar alone."}
+    ],
+    "sources":[{"title":"Cost Estimating and Assessment Guide","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-20-195g"},{"title":"Security and Privacy Controls for Information Systems and Organizations","publisher":"National Institute of Standards and Technology","url":"https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"}]
+  },
+  {
+    "id":"guide_cfo_revenue_recognition","title":"CFO Revenue Recognition Decision Record","slug":"cfo-revenue-recognition-decision-record","summary":"A structured record for documenting revenue-recognition judgments, evidence, approvals, and changes under the applicable accounting guidance.","updated":"2026-08-11","audience":["CFO","Controller","Revenue accounting","Audit committee"],
+    "sections":[
+      {"heading":"Identify the contract and evidence","content":"Record the executed agreement, amendments, enforceable rights, payment terms, collection considerations, and the accounting period covered by the analysis."},
+      {"heading":"Document performance obligations","content":"Identify the promised goods and services, the reasoning for whether they are distinct, and the evidence supporting any combination or separation judgment."},
+      {"heading":"Record price and allocation judgments","content":"Document fixed and variable consideration, constraints, significant financing considerations, noncash consideration, standalone selling prices, and the allocation method."},
+      {"heading":"Define recognition and change controls","content":"State whether each obligation is satisfied over time or at a point in time, the selected progress measure, source data, approval owner, reassessment triggers, and disclosure implications.","bullets":["Recognition trigger","Progress measure","Source-system evidence","Management review","Contract modification process","Disclosure owner"]}
+    ],
+    "sources":[{"title":"Revenue Recognition Implementation","publisher":"Financial Accounting Standards Board","url":"https://www.fasb.org/page/PageContent?pageId=/standards/implementing/revenue-recognition.html"},{"title":"Staff Accounting Bulletin No. 104","publisher":"U.S. Securities and Exchange Commission","url":"https://www.sec.gov/interps/account/sab104rev.pdf"}]
+  }
+]
