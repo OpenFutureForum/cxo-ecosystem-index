@@ -1,6 +1,6 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"CXO Ecosystem canonical entity schema 2.1.0",
+  "title":"CXO Ecosystem canonical entity schema 2.2.0",
   "type":"object",
   "required":["id","name","slug","entity_type","description","website","cxo_roles","categories","geographies","inclusion_basis","sources","date_added","last_verified","verification_status"],
   "properties":{
@@ -10,12 +10,13 @@
     "website":{"type":"string","format":"uri"},
     "cxo_roles":{"$ref":"#/$defs/ids"},"categories":{"$ref":"#/$defs/required_ids"},"provider_types":{"$ref":"#/$defs/ids"},
     "community_formats":{"$ref":"#/$defs/ids"},"event_formats":{"$ref":"#/$defs/ids"},"intelligence_types":{"$ref":"#/$defs/ids"},"resource_types":{"$ref":"#/$defs/ids"},"executive_needs":{"$ref":"#/$defs/ids"},"topics":{"$ref":"#/$defs/ids"},"audiences":{"$ref":"#/$defs/ids"},
-    "aliases":{"$ref":"#/$defs/ids"},"parent_company":{"type":["string","null"]},"relationship_notes":{"type":["string","null"]},"editorial_priority":{"type":["string","null"],"enum":["A","B","C",null]},
+    "aliases":{"$ref":"#/$defs/ids"},"parent_company":{"type":["string","null"]},"relationship_notes":{"type":["string","null"]},"editorial_priority":{"type":["string","null"],"enum":["A","B","C",null]},"facts":{"type":"array","items":{"$ref":"#/$defs/fact"}},
     "geographies":{"$ref":"#/$defs/required_ids"},"inclusion_basis":{"type":"array","minItems":1,"items":{"type":"string"}},"sources":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/source"}},"classification_evidence":{"type":"array","items":{"$ref":"#/$defs/evidence"}}
   },
   "$defs":{
     "ids":{"type":"array","uniqueItems":true,"items":{"type":"string"}},"required_ids":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string"}},
     "source":{"type":"object","required":["id","url","title","publisher","source_class","accessed_date","supports"],"properties":{"id":{"type":"string"},"url":{"type":"string","format":"uri"},"supports":{"type":"array","minItems":1,"items":{"type":"string"}}}},
-    "evidence":{"type":"object","required":["url","title","supports"],"properties":{"url":{"type":"string","format":"uri"},"supports":{"type":"array","minItems":1,"items":{"type":"string"}}}}
+    "evidence":{"type":"object","required":["url","title","supports"],"properties":{"url":{"type":"string","format":"uri"},"supports":{"type":"array","minItems":1,"items":{"type":"string"}}}},
+    "fact":{"type":"object","required":["id","field","value","source_ids","last_verified"],"properties":{"id":{"type":"string"},"field":{"type":"string"},"value":{},"source_ids":{"type":"array","minItems":1,"items":{"type":"string"}},"last_verified":{"type":"string","format":"date"},"as_of_date":{"type":"string","format":"date"}}}
   }
 }

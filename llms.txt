@@ -19,4 +19,4 @@ Canonical resources:
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Entity associations require evidence. Arbitrary filters are not canonical pages. Dataset version: 0.4.0. Schema version: 2.1.0.
+Entity associations require evidence. Arbitrary filters are not canonical pages. Dataset version: 0.5.0. Schema version: 2.2.0.

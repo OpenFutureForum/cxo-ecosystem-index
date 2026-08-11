@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.0 — 2026-08-11 — Fact Depth & Entity Resolution
+
+- Resolved all 18 former unresolved names against their intended canonical organizations and primary domains.
+- Expanded the dataset from 175 to 193 organizations while prioritizing fact depth over entity volume.
+- Added an explicit source-linked fact model with field, value, source IDs, and verification dates; volatile facts support as-of dates.
+- Added a data-quality dashboard and exceeded 1,000 sourced facts with 100% primary-source coverage.
+- Added category intelligence with documented denominators, role distributions, adjacent-category distributions, and source-coverage metrics.
+- Added CIO/CTO, CHRO, CLO/General Counsel, COO, and Board ecosystem navigation while preserving the deeper CFO hub.
+- Improved entity page titles, Dataset structured data, reconciliation reporting, and indexability thresholds.
+
 ## 0.4.0 — 2026-08-11 — Broad Ecosystem Expansion
 
 - Added 124 verified canonical organizations across finance, advisory, talent, CFO technology, enterprise AI, cybersecurity, research, insurance, associations, events, and functional technology.

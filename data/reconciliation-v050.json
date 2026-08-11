@@ -1,0 +1,20 @@
+[
+  {"original":"Altair VC","canonical":"AltaIR Capital","domain":"altair.vc","result":"Resolved and added; AltaLab retained as a program relationship.","category":"Venture Capital","confidence":"verified"},
+  {"original":"Nanostar Ventures","canonical":"Nanostar Ventures","domain":"nanostar.vc","result":"Resolved and added.","category":"Early-Stage Venture Capital","confidence":"verified"},
+  {"original":"Verano Capital Partners","canonical":"Verano Capital Partners","domain":"veranocapitalpartners.com","result":"Resolved and added conservatively; quantitative claims omitted.","category":"Investment Advisory","confidence":"high confidence"},
+  {"original":"ThinkingAI","canonical":"ThinkingAI","domain":"thinkingai.io","result":"Resolved and added.","category":"AI Agents","confidence":"verified"},
+  {"original":"Qognitive","canonical":"Qognitive","domain":"qognitive.io","result":"Resolved and added; qognitive.app excluded as unrelated.","category":"Machine Learning","confidence":"verified"},
+  {"original":"Agentic Fabriq","canonical":"Agentic Fabriq","domain":"agenticfabriq.com","result":"Resolved and added.","category":"Agent Identity","confidence":"verified"},
+  {"original":"Axari","canonical":"Axari Technologies, Inc.","domain":"axari.ai","result":"Resolved and added with Axari alias.","category":"AI Security","confidence":"verified"},
+  {"original":"Harden","canonical":"Harden","domain":"harden.run","result":"Resolved and added.","category":"Application Security","confidence":"verified"},
+  {"original":"Tenet Security","canonical":"Tenet Security","domain":"tenetsecurity.ai","result":"Resolved and added.","category":"Runtime Security","confidence":"verified"},
+  {"original":"AegisAI","canonical":"AegisAI","domain":"aegisai.ai","result":"Resolved and added.","category":"Email Security","confidence":"verified"},
+  {"original":"Agentrys","canonical":"Agentrys","domain":"agentrys.ai","result":"Resolved and added as semiconductor design automation, not cybersecurity.","category":"Electronic Design Automation","confidence":"verified"},
+  {"original":"AtomicZero","canonical":"Atomic Zero","domain":"atomiczero.io","result":"Resolved and added with normalized display name.","category":"Cybersecurity Consulting","confidence":"verified"},
+  {"original":"AgentWeb","canonical":"AgentWeb","domain":"agentweb.pro","result":"Resolved and added; unrelated AgentWeb domains excluded.","category":"Marketing Technology","confidence":"verified"},
+  {"original":"Everything AI","canonical":"Everything AI","domain":"geteverything.ai","result":"Resolved and added with limited claims.","category":"AI Agent Orchestration","confidence":"high confidence"},
+  {"original":"VelixAR AI","canonical":"Velixar AI","domain":"velixarai.com","result":"Resolved and added; capitalization does not indicate augmented reality.","category":"AI Infrastructure","confidence":"verified"},
+  {"original":"Transform","canonical":"Transform","domain":"transform.us","result":"Resolved and added as a people-and-work community and conference.","category":"Executive Communities","confidence":"verified"},
+  {"original":"Open Batch","canonical":"Open Batch","domain":"openbatch.ai","result":"Resolved and added; not classified as VC or as YC-affiliated.","category":"Startup Programs","confidence":"verified"},
+  {"original":"Curated Connections","canonical":"Curated Connections","domain":"curatedconnections.io","result":"Resolved and added as community software, not an executive community.","category":"Community Technology","confidence":"verified"}
+]

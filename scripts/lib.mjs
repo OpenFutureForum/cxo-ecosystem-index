@@ -10,9 +10,9 @@ const entityId=name=>`ent_${slug(name).replaceAll('-','_')}`;
 const expandRecord=(item,batchDate)=>({
  id:item.id||entityId(item.name),name:item.name,slug:item.slug||slug(item.name),entity_type:item.entity_type||'Organization',description:item.description,website:item.website,
  cxo_roles:item.cxo_roles,categories:item.categories,industries:item.industries||[],geographies:item.geographies||['United States'],
- aliases:item.aliases||[],parent_company:item.parent_company||null,relationship_notes:item.relationship_notes||null,editorial_priority:item.priority||null,
+ aliases:item.aliases||[],parent_company:item.parent_company||null,relationship_notes:item.relationship_notes||null,editorial_priority:item.priority||null,facts:item.facts||[],
  inclusion_basis:[item.inclusion_basis||`${item.name} is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions.`],
- sources:[{id:`src_${slug(item.name)}_official`,url:item.source_url||item.website,title:item.source_title||`${item.name} official website`,publisher:item.name,source_class:item.source_class||'official organization',accessed_date:batchDate,supports:['identity','description','website','categories','cxo_roles']}],
+ sources:[{id:`src_${slug(item.name)}_official`,url:item.source_url||item.website,title:item.source_title||`${item.name} official website`,publisher:item.name,source_class:item.source_class||'official organization',accessed_date:batchDate,supports:['identity','description','website','categories','cxo_roles',...(item.aliases?.length?['aliases']:[]),...(item.parent_company?['parent_company']:[]),...(item.relationship_notes?['relationship_notes']:[])]}],
  date_added:batchDate,last_verified:batchDate,verification_status:item.verification_status||'verified'
 });
 export async function load(){
@@ -21,16 +21,22 @@ export async function load(){
  const batches=await Promise.all(files.map(x=>readJSON(`data/entities/${x}`)));
  const expansionDir=path.join(root,'data/expansions');
  let expansions=[];try{const expansionFiles=(await fs.readdir(expansionDir)).filter(x=>x.endsWith('.json')).sort();for(const file of expansionFiles){const manifest=await readJSON(`data/expansions/${file}`);expansions.push(...manifest.entities.filter(item=>item.status==='added').map(item=>expandRecord(item,manifest.verified_date)));}}catch(error){if(error.code!=='ENOENT')throw error;}
+ let enrichments=[];try{enrichments=await readJSON('data/enrichments.json')}catch(error){if(error.code!=='ENOENT')throw error;}const enrichmentById=new Map(enrichments.map(item=>[item.entity_id,item]));
  const classifications=await readJSON('data/classifications.json');
  const byEntity=new Map(classifications.map(x=>[x.entity_id,x]));
- const entities=[...batches.flat(),...expansions].map(entity=>{
+ const enrichedRecords=[...batches.flat(),...expansions].map(entity=>{const addition=enrichmentById.get(entity.id);if(!addition)return entity;const {entity_id:ignored,sources=[],...fields}=addition;return {...entity,...fields,services:[...new Set([...(entity.services||[]),...(fields.services||[])])],products:[...new Set([...(entity.products||[]),...(fields.products||[])])],sources:[...(entity.sources||[]),...sources]};});
+ const entities=enrichedRecords.map(entity=>{
   const {entity_id:ignored,evidence=[],...extra}=byEntity.get(entity.id)||{};
-  return {...entity,provider_types:entity.categories.map(slug),community_formats:[],event_formats:[],intelligence_types:[],resource_types:[],executive_needs:[],topics:[],audiences:[],...extra,classification_evidence:evidence};
+  const merged={...entity,provider_types:entity.categories.map(slug),community_formats:[],event_formats:[],intelligence_types:[],resource_types:[],executive_needs:[],topics:[],audiences:[],...extra,classification_evidence:evidence};
+  const facts=new Map((merged.facts||[]).map(fact=>[`${fact.field}:${fact.value}`,fact]));
+  for(const source of merged.sources||[])for(const field of source.supports||[]){const raw=field==='identity'?merged.name:merged[field];const values=Array.isArray(raw)?raw:raw==null?[]:[raw];for(const value of values){if(typeof value==='object')continue;const key=`${field}:${value}`;const existing=facts.get(key);if(existing)existing.source_ids.push(source.id);else facts.set(key,{id:`fact_${slug(merged.name)}_${slug(field)}_${slug(value).slice(0,48)}`,field,value,source_ids:[source.id],last_verified:merged.last_verified});}}
+  return {...merged,facts:[...facts.values()]};
  });
  return {entities,taxonomy:await readJSON('data/taxonomy/core.json'),semantic:await readJSON('data/taxonomy/semantic.json'),definitions:await readJSON('data/definitions/core.json'),classifications};
 }
 export function stats(entities){
  const all=k=>new Set(entities.flatMap(e=>e[k]||[])).size;
  const sourceCount=entities.reduce((n,e)=>n+(e.sources?.length||0),0);
- return {generated_at:new Date().toISOString(),entities:entities.length,sourced_facts:entities.reduce((n,e)=>n+(e.sources||[]).reduce((m,s)=>m+(s.supports?.length||0),0),0),sources:sourceCount,verified_entities:entities.filter(e=>e.verification_status==='verified').length,cxo_functions:all('cxo_roles'),provider_categories:all('categories'),geographies:all('geographies'),industries:all('industries'),primary_source_coverage:entities.length?Math.round(100*entities.filter(e=>(e.sources||[]).some(s=>['official company','official organization','government','regulatory','investor relations'].includes(s.source_class))).length/entities.length):0};
+ const sourcedFacts=entities.reduce((n,e)=>n+(e.facts?.length||0),0);const verifiedRecent=entities.filter(e=>Date.parse(e.last_verified)>=Date.now()-365*24*60*60*1000).length;const primary=entities.filter(e=>(e.sources||[]).some(s=>['official company','official organization','government','regulatory','investor relations'].includes(s.source_class))).length;
+ return {generated_at:new Date().toISOString(),entities:entities.length,sourced_facts:sourcedFacts,facts_per_entity:entities.length?Number((sourcedFacts/entities.length).toFixed(1)):0,sources:sourceCount,average_sources_per_entity:entities.length?Number((sourceCount/entities.length).toFixed(1)):0,verified_entities:entities.filter(e=>e.verification_status==='verified').length,verified_within_12_months:verifiedRecent,volatile_facts_with_as_of_date:entities.reduce((n,e)=>n+(e.facts||[]).filter(f=>f.as_of_date).length,0),records_with_inclusion_basis:entities.filter(e=>e.inclusion_basis?.length).length,relationship_records:entities.filter(e=>e.parent_company||e.relationship_notes).length,cxo_functions:all('cxo_roles'),provider_categories:all('categories'),geographies:all('geographies'),industries:all('industries'),primary_source_coverage:entities.length?Math.round(100*primary/entities.length):0};
 }

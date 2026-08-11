@@ -40,7 +40,7 @@ test('canonical browse pages enforce the indexability gate',async()=>{
   for(const file of files){
    const id=file.replace(/\.html$/,'');
    const matches=entities.filter(entity=>entity[field].includes(id));
-   assert.ok(matches.length>=3,`${folder}/${file} has only ${matches.length} entities`);
+   assert.ok(matches.length>=(folder==='providers'?4:3),`${folder}/${file} has only ${matches.length} entities`);
    assert.ok(sitemap.includes(`${folder}/${file}`),`${folder}/${file} missing from sitemap`);
   }
  }
@@ -50,10 +50,24 @@ test('supplied organization expansion is fully reconciled',async()=>{
  const expansion=JSON.parse(await fs.readFile(path.join(root,'data/expansions/2026-08-supplied.json'),'utf8'));
  const validStatuses=new Set(['added','unresolved','duplicate','acquired','inactive']);
  assert.equal(expansion.entities.length,142);
- assert.equal(expansion.entities.filter(item=>item.status==='added').length,124);
- assert.equal(expansion.entities.filter(item=>item.status==='unresolved').length,18);
+ assert.equal(expansion.entities.filter(item=>item.status==='added').length,142);
+ assert.equal(expansion.entities.filter(item=>item.status==='unresolved').length,0);
  for(const item of expansion.entities){assert.ok(validStatuses.has(item.status),`${item.name} has no reconciliation status`);if(item.status==='added'){assert.ok(item.website,`${item.name} missing website`);assert.ok(entities.some(entity=>entity.name===item.name),`${item.name} missing canonical entity`);}else assert.ok(item.reason,`${item.name} missing resolution reason`);}
  for(const alias of expansion.duplicate_aliases)assert.ok(entities.some(entity=>entity.name===alias.canonical&&entity.aliases.includes(alias.supplied)),`${alias.supplied} alias was not merged`);
  const report=await fs.readFile(path.join(root,'docs/reconciliation-report.html'),'utf8');
  assert.ok(report.includes('Every name supplied in the expansion brief has been accounted for'));
+});
+
+test('v0.5 fact depth and former unresolved reconciliation are complete',async()=>{
+ const resolution=JSON.parse(await fs.readFile(path.join(root,'data/reconciliation-v050.json'),'utf8'));
+ assert.equal(resolution.length,18);
+ assert.equal(new Set(resolution.map(item=>item.original)).size,18);
+ const sourceIds=new Map(entities.map(entity=>[entity.id,new Set(entity.sources.map(source=>source.id))]));
+ let factCount=0;
+ for(const entity of entities)for(const fact of entity.facts){factCount++;assert.ok(fact.source_ids.length,`${entity.name}/${fact.id} missing source IDs`);for(const id of fact.source_ids)assert.ok(sourceIds.get(entity.id).has(id),`${entity.name}/${fact.id} references unknown source ${id}`);assert.ok(fact.last_verified);}
+ assert.ok(factCount>=1000,`only ${factCount} sourced facts`);
+ const statistics=JSON.parse(await fs.readFile(path.join(root,'docs/data/statistics.json'),'utf8'));
+ assert.equal(statistics.sourced_facts,factCount);
+ assert.equal(statistics.primary_source_coverage,100);
+ for(const page of ['cxo-ecosystems.html','cio-cto-ecosystem.html','chro-ecosystem.html','clo-general-counsel-ecosystem.html','coo-ecosystem.html','board-ecosystem.html','v050-report.html'])await fs.access(path.join(root,'docs',page));
 });
