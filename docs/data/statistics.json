@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T22:11:46.752Z",
+  "generated_at": "2026-08-11T22:27:57.110Z",
   "entities": 194,
   "sourced_facts": 2068,
   "facts_per_entity": 10.7,
@@ -17,7 +17,8 @@
   "primary_source_coverage": 100,
   "dataset_version": "0.7.1",
   "schema_version": "3.0.0",
-  "build_commit": "036816e34b5fc791df34f1b8137b27bed4a6a1bd",
+  "build_commit": "09636a8a77555cfba6e0e150e91398a8033df7de",
+  "release_fingerprint": "61689f41028271104f18a4965a75f9bd3d9336572e74d26954a814dea342a1c5",
   "last_dataset_update": "2026-08-11",
   "canonical_sources": 222,
   "sourced_relationships": 3,

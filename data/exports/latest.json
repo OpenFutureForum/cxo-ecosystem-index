@@ -1,0 +1,17 @@
+{
+  "kind": "Current Release Manifest",
+  "purpose": "Programmatic version discovery, debugging, provenance and external data consumers.",
+  "dataset_version": "0.7.1",
+  "schema_version": "3.0.0",
+  "build_commit": "09636a8a77555cfba6e0e150e91398a8033df7de",
+  "release_fingerprint": "61689f41028271104f18a4965a75f9bd3d9336572e74d26954a814dea342a1c5",
+  "organizations": 194,
+  "sourced_facts": 2068,
+  "canonical_sources": 222,
+  "generated_at": "2026-08-11T22:27:57.110Z",
+  "last_dataset_update": "2026-08-11",
+  "canonical_url": "https://openfutureforum.github.io/cxo-ecosystem-index/",
+  "data_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data.html",
+  "manifest_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data/build-manifest.json",
+  "search_index_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.30f1d363bd.json"
+}

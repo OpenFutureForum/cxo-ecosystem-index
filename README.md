@@ -17,7 +17,7 @@ Open-source intelligence on the companies, communities, capital providers, advis
 | Sourced relationships | 3 |
 | Derived reciprocal relationships | 3 |
 | Derived metrics | 72 |
-| Tests | 24 |
+| Tests | 25 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.

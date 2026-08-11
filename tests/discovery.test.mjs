@@ -18,19 +18,20 @@ test('homepage, Data page and freshness endpoints match the build manifest',asyn
  assert.ok(home.includes(`<strong>${manifest.canonical_sources}</strong><span>Canonical sources</span>`));
  for(const value of [manifest.organizations,manifest.sourced_facts,manifest.canonical_sources])assert.ok(dataPage.includes(`<strong>${value}</strong>`));
  const latest=JSON.parse(await fs.readFile(path.join(docs,'data/latest.json'),'utf8'));
- assert.equal(latest.dataset_version,manifest.dataset_version);assert.equal(latest.build_commit,manifest.build_commit);
+ assert.equal(latest.dataset_version,manifest.dataset_version);assert.equal(latest.build_commit,manifest.build_commit);assert.equal(latest.release_fingerprint,manifest.release_fingerprint);
+ assert.ok(home.includes(manifest.release_fingerprint));assert.ok(dataPage.includes(manifest.release_fingerprint));
 });
 
 test('canonical homepage is clean and filter state cannot become canonical',()=>{
  assert.ok(home.includes(`<link rel="canonical" href="${base}">`));
  assert.ok(!home.match(/<link rel="canonical"[^>]*[?&](?:v|utm_|role|location)=/));
- assert.ok(home.includes('<meta name="robots" content="index,follow">'));
+ assert.ok(!home.includes('<meta name="robots" content="index,follow">'));
 });
 
-test('sitemap contains unique clean canonical URLs with lastmod',()=>{
+test('sitemap contains unique clean canonical URLs and only meaningful lastmod values',()=>{
  const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match=>match[1]);
  const lastmods=[...sitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map(match=>match[1]);
- assert.equal(new Set(urls).size,urls.length);assert.equal(lastmods.length,urls.length);
+ assert.equal(new Set(urls).size,urls.length);assert.ok(lastmods.length>0);assert.ok(lastmods.length<urls.length);
  assert.ok(urls.every(url=>!url.includes('?')));assert.ok(!urls.some(url=>url.includes('/data/quality/')));
  assert.ok(lastmods.every(value=>/^\d{4}-\d{2}-\d{2}$/.test(value)));
 });
@@ -48,6 +49,14 @@ test('README status block matches generated metrics',async()=>{
 
 test('robots and Data authority hub expose current canonical resources',async()=>{
  const robots=await fs.readFile(path.join(docs,'robots.txt'),'utf8');assert.ok(robots.includes('Allow: /'));assert.ok(robots.includes(`${base}sitemap.xml`));
- for(const resource of ['entities.json','entities.csv','facts.json','sources.json','relationships.json','knowledge-graph.json','search-index.json','taxonomy.json','definitions.json','intelligence.json','benchmarks.json','market-maps.json','build-manifest.json','latest.json'])assert.ok(dataPage.includes(`data/${resource}`),`Data page missing ${resource}`);
+ for(const resource of ['entities.json','entities.csv','facts.json','sources.json','relationships.json','knowledge-graph.json','taxonomy.json','definitions.json','intelligence.json','benchmarks.json','market-maps.json','build-manifest.json','latest.json'])assert.ok(dataPage.includes(`data/${resource}`),`Data page missing ${resource}`);
+ assert.match(dataPage,/data\/search-index\.[a-f0-9]{10}\.json/);
+ for(const property of ['DataCatalog','Dataset','DataDownload','includedInDataCatalog','isBasedOn','sameAs'])assert.ok(dataPage.includes(`\"${property}\"`),`Data structured data missing ${property}`);
  assert.ok(dataPage.includes('CITATION.cff'));
+});
+
+test('Search Console handoff is explicit and does not claim submission',async()=>{
+ const handoff=JSON.parse(await fs.readFile(path.join(docs,'reports/search-console-handoff.json'),'utf8'));
+ assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,15);
+ assert.equal(handoff.sitemap_url,`${base}sitemap.xml`);assert.ok(handoff.priority_urls.every(url=>!url.includes('?')));
 });

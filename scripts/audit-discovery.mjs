@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import {root} from './lib.mjs';
 
 const docs=path.join(root,'docs');
@@ -14,7 +15,7 @@ const urlToFile=url=>{const pathname=new URL(url).pathname.replace('/cxo-ecosyst
 const fileMap=new Map();
 const errors=[];
 const canonicalOwners=new Map();
-let pagesMissingTitles=0,pagesMissingDescriptions=0,pagesMissingStructuredData=0,queryCanonicals=0;
+let pagesMissingTitles=0,pagesMissingDescriptions=0,pagesMissingStructuredData=0,queryCanonicals=0,noindexPages=0;
 for(const file of htmlFiles){
  const html=await fs.readFile(file,'utf8');fileMap.set(file,html);
  const canonicals=[...html.matchAll(/<link rel="canonical" href="([^"]+)"/g)].map(match=>match[1]);
@@ -28,14 +29,14 @@ for(const file of htmlFiles){
  if(!/<title>[^<]+<\/title>/.test(html)){pagesMissingTitles++;errors.push(`${relative(file)}: missing title`);}
  if(!/<meta name="description" content="[^"]+">/.test(html)){pagesMissingDescriptions++;errors.push(`${relative(file)}: missing description`);}
  if(!/<script type="application\/ld\+json">/.test(html)){pagesMissingStructuredData++;errors.push(`${relative(file)}: missing structured data`);}
- if(!/<meta name="robots" content="index,follow">/.test(html))errors.push(`${relative(file)}: missing explicit index,follow`);
+ if(/<meta name="robots" content="[^"]*noindex/i.test(html))noindexPages++;
 }
 
 const sitemap=await fs.readFile(path.join(docs,'sitemap.xml'),'utf8');
 const sitemapUrls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match=>match[1]);
 const sitemapLastmods=[...sitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map(match=>match[1]);
 if(new Set(sitemapUrls).size!==sitemapUrls.length)errors.push('sitemap: duplicate URLs');
-if(sitemapLastmods.length!==sitemapUrls.length)errors.push('sitemap: every URL must have one lastmod');
+if(sitemapLastmods.length>sitemapUrls.length)errors.push('sitemap: more lastmod values than URLs');
 for(const value of sitemapLastmods)if(!/^\d{4}-\d{2}-\d{2}$/.test(value))errors.push(`sitemap: invalid lastmod ${value}`);
 const sitemapSet=new Set(sitemapUrls);
 for(const url of sitemapUrls){try{await fs.access(urlToFile(url));}catch{errors.push(`sitemap: missing target ${url}`);}}
@@ -51,6 +52,9 @@ for(const [file,html] of fileMap){const links=[];for(const match of html.matchAl
 const reached=new Set();const queue=[path.join(docs,'index.html')];while(queue.length){const file=queue.shift();if(reached.has(file))continue;reached.add(file);for(const target of graph.get(file)||[])if(!reached.has(target))queue.push(target);}
 const orphanPages=sitemapUrls.map(url=>urlToFile(url)).filter(file=>!reached.has(file)).map(relative);
 for(const orphan of orphanPages)errors.push(`orphan indexable page: ${orphan}`);
+const representativePaths=['data.html','data-quality.html','providers/cfo-technology.html','intelligence/cfo-technology.html','intelligence/compare-cfo-spend-platforms.html','entities/ramp.html'];
+const representativeReachability=Object.fromEntries(representativePaths.map(item=>[item,reached.has(path.join(docs,item))]));
+for(const [item,isReached] of Object.entries(representativeReachability))if(!isReached)errors.push(`static crawl graph did not reach representative page: ${item}`);
 
 const manifest=JSON.parse(await fs.readFile(path.join(docs,'data/build-manifest.json'),'utf8'));
 const latest=JSON.parse(await fs.readFile(path.join(docs,'data/latest.json'),'utf8'));
@@ -62,7 +66,15 @@ for(const [label,key] of [['Organizations','organizations'],['Sourced facts','so
 }
 if(!home.includes(`Dataset v${manifest.dataset_version}`))errors.push('homepage dataset version does not match manifest');
 if(!home.includes(`Schema ${manifest.schema_version}`))errors.push('homepage schema version does not match manifest');
-if(latest.dataset_version!==manifest.dataset_version||latest.schema_version!==manifest.schema_version||latest.build_commit!==manifest.build_commit)errors.push('latest endpoint does not match build manifest');
+const fingerprintFields={dataset_version:manifest.dataset_version,schema_version:manifest.schema_version,build_commit:manifest.build_commit,organizations:manifest.organizations,sourced_facts:manifest.sourced_facts,canonical_sources:manifest.canonical_sources};
+const expectedFingerprint=crypto.createHash('sha256').update(JSON.stringify(fingerprintFields)).digest('hex');
+if(manifest.release_fingerprint!==expectedFingerprint)errors.push('build manifest release fingerprint is not reproducible from its declared fields');
+if(latest.dataset_version!==manifest.dataset_version||latest.schema_version!==manifest.schema_version||latest.build_commit!==manifest.build_commit||latest.release_fingerprint!==manifest.release_fingerprint)errors.push('current release manifest does not match build manifest');
+if(!home.includes(manifest.release_fingerprint))errors.push('homepage does not visibly expose the release fingerprint');
+if(!dataPage.includes(manifest.release_fingerprint))errors.push('Data page does not visibly expose the release fingerprint');
+if(!dataPage.includes('Current Release Manifest')||!dataPage.includes('not a search-engine recrawl mechanism'))errors.push('Data page does not explain the Current Release Manifest purpose');
+if(!/data\/search-index\.[a-f0-9]{10}\.json/.test(dataPage))errors.push('Data page does not link the fingerprinted search index');
+for(const property of ['DataCatalog','Dataset','DataDownload','datePublished','dateModified','includedInDataCatalog','isBasedOn','sameAs'])if(!dataPage.includes(`\"${property}\"`))errors.push(`Data page structured data missing ${property}`);
 
 const historicalPages=new Set(['v050-report.html','reconciliation-report.html']);let staleVersionStrings=0;
 for(const [file,html] of fileMap){if(historicalPages.has(relative(file)))continue;for(const pattern of [/dataset version 0\.7\.0/gi,/Dataset 0\.7\.0/g,/1,380\s*<\/strong><span>Sourced facts/gi,/1380\s*<\/strong><span>Sourced facts/gi]){const matches=html.match(pattern)||[];staleVersionStrings+=matches.length;}}
@@ -72,7 +84,7 @@ for(const [file,html] of fileMap)for(const match of html.matchAll(/(?:href|src)=
 const readme=await fs.readFile(path.join(root,'README.md'),'utf8');
 for(const value of [manifest.dataset_version,manifest.schema_version,manifest.organizations.toLocaleString('en-US'),manifest.sourced_facts.toLocaleString('en-US'),manifest.canonical_sources.toLocaleString('en-US')])if(!readme.includes(`| ${value} |`))errors.push(`README status block missing ${value}`);
 
-const report={dataset_version:manifest.dataset_version,schema_version:manifest.schema_version,deployment_commit:manifest.build_commit,generated_at:manifest.generated_at,indexable_pages:sitemapUrls.length,sitemap_urls:sitemapUrls.length,pages_with_meaningful_lastmod:sitemapLastmods.length,orphan_pages:orphanPages,canonical_errors:errors.filter(error=>error.includes('canonical')).length,query_string_canonicals:queryCanonicals,noindex_pages:0,broken_links:brokenLinks,pages_missing_titles:pagesMissingTitles,pages_missing_descriptions:pagesMissingDescriptions,pages_missing_structured_data:pagesMissingStructuredData,stale_version_strings:staleVersionStrings};
+const report={dataset_version:manifest.dataset_version,schema_version:manifest.schema_version,deployment_commit:manifest.build_commit,release_fingerprint:manifest.release_fingerprint,generated_at:manifest.generated_at,indexable_pages:sitemapUrls.length,sitemap_urls:sitemapUrls.length,pages_with_meaningful_lastmod:sitemapLastmods.length,static_crawl_start:'index.html',static_crawl_reached_pages:reached.size,representative_page_reachability:representativeReachability,orphan_pages:orphanPages,canonical_errors:errors.filter(error=>error.includes('canonical')).length,query_string_canonicals:queryCanonicals,noindex_pages:noindexPages,broken_links:brokenLinks,pages_missing_titles:pagesMissingTitles,pages_missing_descriptions:pagesMissingDescriptions,pages_missing_structured_data:pagesMissingStructuredData,stale_version_strings:staleVersionStrings};
 await fs.mkdir(path.join(docs,'reports'),{recursive:true});await fs.writeFile(path.join(docs,'reports/discovery-audit.json'),JSON.stringify(report,null,2)+'\n');
 if(errors.length){console.error(errors.join('\n'));process.exit(1);}
 console.log(`Discovery audit passed: ${sitemapUrls.length} indexable pages, 0 canonical errors, 0 orphans, 0 broken links.`);

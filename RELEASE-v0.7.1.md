@@ -30,8 +30,19 @@ The audit identified and fixed canonical-path mismatches for Wilson Sonsini and 
 - Last dataset update: 2026-08-11
 - Build commit: resolved from `GITHUB_SHA` for the deployed artifact
 - Build manifest: `/data/build-manifest.json`
-- Latest-release endpoint: `/data/latest.json`
-- Sitemap `lastmod`: derived from entity verification dates, guide update dates, or current dataset dependencies
+- Current Release Manifest: `/data/latest.json`, for programmatic discovery, debugging, provenance, and external consumers rather than search-engine recrawl signaling
+- Deterministic release fingerprint: SHA-256 over dataset version, schema version, build commit, organization count, sourced-fact count, and canonical-source count
+- Sitemap `lastmod`: dependency-derived and omitted when a trustworthy meaningful date is unavailable
+
+## Priority corrections
+
+- Kept one conventional `/sitemap.xml`; no sitemap index, ping endpoint, or claimed Search Console submission was added.
+- Removed default `index,follow` robots metadata while retaining clean canonicals and ordinary crawl behavior.
+- Added a fingerprinted search-index asset alongside the stable compatibility endpoint.
+- Strengthened `DataCatalog`, `Dataset`, and `DataDownload` metadata across core exports and analytical cohorts.
+- Added a no-JavaScript static crawl graph from the homepage with representative entity, provider, intelligence, comparison, quality, and data-page assertions.
+- Added a generated Search Console handoff with 15 clean priority URLs and explicit `not submitted` status.
+- Changed post-deploy verification to compare the production fingerprint with the deployment artifact and fail on mismatch.
 
 ## Dataset consistency
 
@@ -47,7 +58,7 @@ Homepage, Data page, README status block, build manifest, latest endpoint, and g
 
 ## Validation
 
-- 24 tests
+- 25 tests
 - Internal links checked across 279 HTML pages
 - Canonical validation: passed
 - Orphan-page validation: passed
