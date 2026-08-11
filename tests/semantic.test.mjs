@@ -45,3 +45,15 @@ test('canonical browse pages enforce the indexability gate',async()=>{
   }
  }
 });
+
+test('supplied organization expansion is fully reconciled',async()=>{
+ const expansion=JSON.parse(await fs.readFile(path.join(root,'data/expansions/2026-08-supplied.json'),'utf8'));
+ const validStatuses=new Set(['added','unresolved','duplicate','acquired','inactive']);
+ assert.equal(expansion.entities.length,142);
+ assert.equal(expansion.entities.filter(item=>item.status==='added').length,124);
+ assert.equal(expansion.entities.filter(item=>item.status==='unresolved').length,18);
+ for(const item of expansion.entities){assert.ok(validStatuses.has(item.status),`${item.name} has no reconciliation status`);if(item.status==='added'){assert.ok(item.website,`${item.name} missing website`);assert.ok(entities.some(entity=>entity.name===item.name),`${item.name} missing canonical entity`);}else assert.ok(item.reason,`${item.name} missing resolution reason`);}
+ for(const alias of expansion.duplicate_aliases)assert.ok(entities.some(entity=>entity.name===alias.canonical&&entity.aliases.includes(alias.supplied)),`${alias.supplied} alias was not merged`);
+ const report=await fs.readFile(path.join(root,'docs/reconciliation-report.html'),'utf8');
+ assert.ok(report.includes('Every name supplied in the expansion brief has been accounted for'));
+});

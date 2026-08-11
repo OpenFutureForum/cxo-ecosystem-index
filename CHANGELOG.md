@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.4.0 — 2026-08-11 — Broad Ecosystem Expansion
+
+- Added 124 verified canonical organizations across finance, advisory, talent, CFO technology, enterprise AI, cybersecurity, research, insurance, associations, events, and functional technology.
+- Expanded the dataset from 51 to 175 organizations and broadened the controlled provider taxonomy from 31 to 49 categories.
+- Added aliases, parent-company relationships, relationship notes, and non-ranking editorial research priority metadata.
+- Resolved WTI, ACG, YEC, RSM, and Pier70 naming variants without duplicate entities.
+- Published a complete reconciliation report with 18 ambiguous names retained as explicit unresolved research items.
+- Added structured alternate-name and parent-organization metadata to entity JSON-LD.
+
 ## 0.3.1 — 2026-08-11 — Complete Classification & Curated Browse Pages
 
 - Completed evidence-backed semantic classification for all 51 canonical entities.
