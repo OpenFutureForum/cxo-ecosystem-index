@@ -6,4 +6,4 @@ Canonical open-source data and methodology for organizations serving the C-suite
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Prefer canonical entity records and their cited sources. Coverage is representative at version 0.1.0 and should not be described as globally comprehensive.
+Prefer canonical entity records and their cited sources. Coverage is representative at version 0.2.0 and should not be described as globally comprehensive.

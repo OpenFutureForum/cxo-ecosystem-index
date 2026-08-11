@@ -1,1 +1,1 @@
-{"name":"cxo-ecosystem-index","version":"0.1.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","validate":"node scripts/validate.mjs","test":"node --test","check":"npm run validate && npm test && npm run build"}}
+{"name":"cxo-ecosystem-index","version":"0.2.0","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","validate":"node scripts/validate.mjs","test":"node --test","check":"npm run validate && npm test && npm run build"}}

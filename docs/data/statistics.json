@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T17:25:53.115Z",
-  "entities": 12,
-  "sourced_facts": 33,
-  "sources": 12,
-  "verified_entities": 12,
+  "generated_at": "2026-08-11T17:41:43.260Z",
+  "entities": 51,
+  "sourced_facts": 134,
+  "sources": 51,
+  "verified_entities": 51,
   "cxo_functions": 11,
-  "provider_categories": 18,
+  "provider_categories": 21,
   "geographies": 12,
-  "industries": 11,
+  "industries": 15,
   "primary_source_coverage": 100
 }
