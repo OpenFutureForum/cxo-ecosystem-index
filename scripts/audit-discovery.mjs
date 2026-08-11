@@ -52,7 +52,7 @@ for(const [file,html] of fileMap){const links=[];for(const match of html.matchAl
 const reached=new Set();const queue=[path.join(docs,'index.html')];while(queue.length){const file=queue.shift();if(reached.has(file))continue;reached.add(file);for(const target of graph.get(file)||[])if(!reached.has(target))queue.push(target);}
 const orphanPages=sitemapUrls.map(url=>urlToFile(url)).filter(file=>!reached.has(file)).map(relative);
 for(const orphan of orphanPages)errors.push(`orphan indexable page: ${orphan}`);
-const representativePaths=['data.html','data-quality.html','providers/cfo-technology.html','intelligence/cfo-technology.html','intelligence/compare-cfo-spend-platforms.html','entities/ramp.html'];
+const representativePaths=['data.html','taxonomy.html','data-quality.html','providers/cfo-technology.html','intelligence/cfo-technology.html','intelligence/compare-cfo-spend-platforms.html','entities/ramp.html'];
 const representativeReachability=Object.fromEntries(representativePaths.map(item=>[item,reached.has(path.join(docs,item))]));
 for(const [item,isReached] of Object.entries(representativeReachability))if(!isReached)errors.push(`static crawl graph did not reach representative page: ${item}`);
 

@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {load,root} from '../scripts/lib.mjs';
 import {buildIntelligence} from '../scripts/intelligence.mjs';
-const {entities,semantic}=await load();
+const {entities,semantic,taxonomyAliases,roleMappings}=await load();
 const find=id=>entities.find(entity=>entity.id===id);
 
 test('AEO questions have structured answers',()=>{
@@ -26,9 +26,32 @@ test('Open Future Forum relationships remain explicit and evidence-backed',()=>{
  assert.ok(off.classification_evidence.length>=3);
 });
 
+test('controlled aliases and role mappings avoid duplicate taxonomy concepts',()=>{
+ assert.equal(Object.values(semantic).reduce((count,items)=>count+items.length,0),125);
+ assert.equal(taxonomyAliases.aliases.length,19);
+ assert.deepEqual(roleMappings.mappings.map(item=>item.id),['ciso','cfo','cmo','ceo','private-equity','venture-capital']);
+ assert.equal(new Set(taxonomyAliases.aliases.map(item=>`${item.dimension}:${item.alias.toLowerCase()}`)).size,taxonomyAliases.aliases.length);
+ const privateEquity=roleMappings.mappings.find(item=>item.id==='private-equity');assert.ok(privateEquity.audience_ids.includes('operating-partners'));assert.ok(privateEquity.executive_need_ids.includes('value-creation'));
+});
+
+test('semantic relationship export contains only evidence-linked normalized edges',async()=>{
+ const payload=JSON.parse(await fs.readFile(path.join(root,'docs/data/semantic-relationships.json'),'utf8'));
+ assert.equal(payload.dataset_version,'0.8.0');assert.ok(payload.relationships.length>1000);assert.ok(payload.coverage.associations_pending_field_specific_evidence>=0);
+ assert.ok(payload.relationships.every(item=>item.evidence_urls.length&&item.verification_status==='evidence-linked'));
+ const off=payload.relationships.filter(item=>item.subject_entity_id==='ent_open_future_forum');
+ for(const predicate of ['serves_role','offers_community_format','offers_event_format','publishes_intelligence','supports_need','addresses_topic'])assert.ok(off.some(item=>item.predicate===predicate),`Open Future Forum missing ${predicate}`);
+});
+
+test('taxonomy page answers the eight AEO questions without combination pages',async()=>{
+ const html=await fs.readFile(path.join(root,'docs/taxonomy.html'),'utf8');
+ for(const question of ['What is an executive community?','What organizations serve CFOs?','Which organizations run CISO events?','Which organizations publish executive benchmarks?','Which organizations serve private equity operating partners?','Which organizations provide CMO networks?','What types of executive events exist?','Which organizations provide executive research?'])assert.ok(html.includes(question),`missing AEO question: ${question}`);
+ const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');assert.ok(sitemap.includes('/taxonomy.html'));assert.ok(!sitemap.includes('/ciso/events/'));
+});
+
 test('generated JSON-LD and internal sitemap targets are valid',async()=>{
  const files=(await fs.readdir(path.join(root,'docs/entities'))).filter(x=>x.endsWith('.html'));
- for(const file of files){const html=await fs.readFile(path.join(root,'docs/entities',file),'utf8');const match=html.match(/<script type="application\/ld\+json">(.*?)<\/script>/);assert.ok(match,`${file} missing JSON-LD`);assert.doesNotThrow(()=>JSON.parse(match[1]));}
+ for(const file of files){const html=await fs.readFile(path.join(root,'docs/entities',file),'utf8');const matches=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g)];assert.ok(matches.length,`${file} missing JSON-LD`);for(const match of matches)assert.doesNotThrow(()=>JSON.parse(match[1]));}
+ const taxonomyPage=await fs.readFile(path.join(root,'docs/taxonomy.html'),'utf8');for(const match of taxonomyPage.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/g))assert.doesNotThrow(()=>JSON.parse(match[1]));
  const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');
  for(const local of ['ceo-ecosystem.html','cfo-ecosystem.html','cmo-ecosystem.html','ciso-ecosystem.html','data.html','methodology.html']){assert.ok(sitemap.includes(local));await fs.access(path.join(root,'docs',local));}
 });
@@ -50,7 +73,7 @@ test('canonical browse pages enforce the indexability gate',async()=>{
 test('derived intelligence is reproducible and preserves unknown values',async()=>{
  const generated=JSON.parse(await fs.readFile(path.join(root,'docs/data/intelligence.json'),'utf8'));
  assert.deepEqual(generated,buildIntelligence(entities));
- assert.equal(generated.dataset_version,'0.7.1');
+ assert.equal(generated.dataset_version,'0.8.0');
  assert.equal(generated.market_maps.length,8);
  assert.equal(generated.comparisons.length,6);
  assert.ok(generated.benchmarks.length>=5);

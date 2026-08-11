@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.7.1",
+  "dataset_version": "0.8.0",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -3041,7 +3041,10 @@
       "supports": [
         "description",
         "services",
-        "geographies"
+        "geographies",
+        "categories",
+        "cxo_roles",
+        "industries"
       ]
     },
     {

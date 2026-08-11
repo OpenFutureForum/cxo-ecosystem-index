@@ -1,4 +1,4 @@
-# Search Console Handoff — v0.7.1
+# Search Console Handoff — v0.8.0
 
 This file is a manual handoff checklist. The build does not ping search engines and does not claim that any URL or sitemap has been submitted.
 
@@ -22,7 +22,8 @@ This file is a manual handoff checklist. The build does not ping search engines 
 12. <https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/ai-security.html>
 13. <https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/compare-cfo-spend-platforms.html>
 14. <https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/ai-capability.html>
-15. <https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html>
+15. <https://openfutureforum.github.io/cxo-ecosystem-index/taxonomy.html>
+16. <https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html>
 
 ## Manual handoff steps
 

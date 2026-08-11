@@ -9,15 +9,15 @@ Open-source intelligence on the companies, communities, capital providers, advis
 
 | Measure | Current value |
 |---|---:|
-| Release | 0.7.1 |
+| Release | 0.8.0 |
 | Entity schema | 3.0.0 |
 | Canonical organizations | 194 |
-| Sourced facts | 2,068 |
+| Sourced facts | 2,079 |
 | Canonical sources | 222 |
 | Sourced relationships | 3 |
 | Derived reciprocal relationships | 3 |
 | Derived metrics | 72 |
-| Tests | 25 |
+| Tests | 28 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.
@@ -41,12 +41,29 @@ GitHub Pages uses the workflow deployment mode. The Actions-built `docs/` artifa
 - `data/entities/`: canonical entity records
 - `data/enrichments.json`: reviewed source-backed fact depth
 - `data/taxonomy/`: controlled classifications
+- `data/taxonomy/role-mappings.json`: normalized CXO, private-equity, VC, and CVC semantic lenses
 - `data/definitions/`: stable terminology
 - `data/relationships/`: sourced relationship records
-- `data/exports/`: generated entities, facts, sources, relationships, knowledge graph, search index, cohorts, market maps, comparisons, and benchmarks
+- `data/exports/`: generated entities, facts, sources, organization and semantic relationships, knowledge graph, taxonomy, role mappings, search index, cohorts, market maps, comparisons, and benchmarks
 - `scripts/`: deterministic generation, governance, discovery auditing, and live deployment verification
 
-The Index maps executive roles, provider types, communities, events, research, decision resources, executive needs, leadership topics, industries, and geographies. Multi-category organizations retain one canonical record. Missing values remain unknown rather than being inferred.
+## What the Index Maps
+
+The CXO Ecosystem Index maps organizations across several independent dimensions:
+
+- executive roles and additional audiences served
+- provider type
+- ongoing community and membership format
+- time-bounded event format
+- research and intelligence type
+- framework or decision-resource type
+- executive need or outcome supported
+- leadership priority or topic addressed
+- industry and geography
+
+These dimensions separate what an organization is from whom it serves, what it offers, what it publishes, and which documented needs or topics it addresses. Multi-category organizations retain one canonical record. Missing values remain unknown rather than being inferred.
+
+Dataset v0.8.0 also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
 
 ## Local verification
 

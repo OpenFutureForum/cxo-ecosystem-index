@@ -1,0 +1,1001 @@
+{
+  "dataset_version": "0.8.0",
+  "semantic": {
+    "community_formats": [
+      {
+        "id": "executive-community",
+        "label": "Executive Community",
+        "definition": "An ongoing organized network designed to facilitate relationships, knowledge sharing, or collaboration among senior executives."
+      },
+      {
+        "id": "executive-network",
+        "label": "Executive Network",
+        "definition": "An organized network connecting senior executives across recurring interactions or shared professional interests."
+      },
+      {
+        "id": "peer-network",
+        "label": "Peer Network",
+        "definition": "A network primarily composed of professionals holding comparable seniority or responsibilities."
+      },
+      {
+        "id": "peer-group",
+        "label": "Peer Group",
+        "definition": "A recurring, facilitated group of peers who exchange experience around shared responsibilities."
+      },
+      {
+        "id": "membership-organization",
+        "label": "Membership Organization",
+        "definition": "An organization providing ongoing access, programming, or services through a defined membership model."
+      },
+      {
+        "id": "executive-forum",
+        "label": "Executive Forum",
+        "definition": "A recurring setting for structured discussion among senior leaders."
+      },
+      {
+        "id": "executive-board",
+        "label": "Executive Board",
+        "definition": "A structured group of executives convened for advice, peer exchange, or governance-oriented discussion."
+      },
+      {
+        "id": "advisory-board",
+        "label": "Advisory Board",
+        "definition": "A non-governing group convened to provide experience, perspective, or advice to an organization or program."
+      }
+    ],
+    "event_formats": [
+      {
+        "id": "executive-event",
+        "label": "Executive Event",
+        "definition": "A time-bounded gathering primarily intended for senior business leaders."
+      },
+      {
+        "id": "conference",
+        "label": "Conference",
+        "definition": "A multi-session event organized around presentations, discussion, and professional exchange."
+      },
+      {
+        "id": "executive-summit",
+        "label": "Executive Summit",
+        "definition": "A structured leadership event centered on strategic discussion, presentations, panels, or facilitated exchange."
+      },
+      {
+        "id": "executive-dinner",
+        "label": "Executive Dinner",
+        "definition": "A curated meal-based gathering primarily designed for executive conversation and relationship-building."
+      },
+      {
+        "id": "private-dinner",
+        "label": "Private Dinner",
+        "definition": "A non-public meal-based gathering with controlled participation."
+      },
+      {
+        "id": "roundtable",
+        "label": "Roundtable",
+        "definition": "A facilitated discussion in which participants contribute around a defined issue."
+      },
+      {
+        "id": "networking-event",
+        "label": "Networking Event",
+        "definition": "A time-bounded gathering designed primarily to create professional connections."
+      },
+      {
+        "id": "panel",
+        "label": "Panel",
+        "definition": "A moderated event in which multiple speakers discuss a defined topic."
+      },
+      {
+        "id": "fireside-chat",
+        "label": "Fireside Chat",
+        "definition": "An interview-style conversation between a moderator and one or more featured speakers."
+      },
+      {
+        "id": "workshop",
+        "label": "Workshop",
+        "definition": "A participatory session designed to develop knowledge or produce a practical output."
+      },
+      {
+        "id": "retreat",
+        "label": "Retreat",
+        "definition": "An extended gathering away from normal operations for reflection, planning, or peer exchange."
+      },
+      {
+        "id": "private-executive-gathering",
+        "label": "Private Executive Gathering",
+        "definition": "A non-public, time-bounded gathering with participation limited to a defined executive audience."
+      },
+      {
+        "id": "forum-event",
+        "label": "Forum Event",
+        "definition": "A time-bounded event organized around structured presentation, discussion, or exchange on a defined subject."
+      },
+      {
+        "id": "breakfast",
+        "label": "Executive Breakfast",
+        "definition": "A meal-based executive gathering held primarily during morning hours."
+      },
+      {
+        "id": "mixer",
+        "label": "Mixer",
+        "definition": "An informal professional gathering designed primarily for introductions and conversation."
+      },
+      {
+        "id": "peer-event",
+        "label": "Peer Event",
+        "definition": "A time-bounded gathering primarily for participants with comparable seniority or responsibilities."
+      },
+      {
+        "id": "leadership-event",
+        "label": "Leadership Event",
+        "definition": "An event centered on leadership responsibilities, decisions, or professional development."
+      },
+      {
+        "id": "offsite",
+        "label": "Offsite",
+        "definition": "A gathering held away from normal operations for planning, development, or facilitated discussion."
+      },
+      {
+        "id": "conference-week-event",
+        "label": "Conference-Week Event",
+        "definition": "An independently organized event scheduled during the week of a larger industry conference."
+      }
+    ],
+    "intelligence_types": [
+      {
+        "id": "executive-research",
+        "label": "Executive Research",
+        "definition": "Research focused on senior executives, executive decisions, or leadership organizations."
+      },
+      {
+        "id": "research-report",
+        "label": "Research Report",
+        "definition": "A published document presenting a defined research question, evidence, and findings."
+      },
+      {
+        "id": "first-party-research",
+        "label": "First-Party Research",
+        "definition": "Research based on data collected directly by the publishing organization."
+      },
+      {
+        "id": "survey",
+        "label": "Survey",
+        "definition": "Structured data collected through questions administered to a defined population."
+      },
+      {
+        "id": "qualitative-research",
+        "label": "Qualitative Research",
+        "definition": "Research using interviews, observations, or other non-numeric evidence to identify themes and explanations."
+      },
+      {
+        "id": "benchmark",
+        "label": "Benchmark",
+        "definition": "Structured comparative data used to show patterns or relative performance."
+      },
+      {
+        "id": "market-map",
+        "label": "Market Map",
+        "definition": "A categorized representation of organizations or products in a defined market."
+      },
+      {
+        "id": "index",
+        "label": "Index",
+        "definition": "A structured factual collection of entities meeting published inclusion criteria."
+      },
+      {
+        "id": "editorial-commentary",
+        "label": "Editorial Commentary",
+        "definition": "Analysis or opinion that is distinct from original empirical research."
+      },
+      {
+        "id": "executive-insights",
+        "label": "Executive Insights",
+        "definition": "Evidence-based observations intended to inform senior leadership decisions."
+      },
+      {
+        "id": "industry-intelligence",
+        "label": "Industry Intelligence",
+        "definition": "Structured information and analysis about a defined industry, market, or competitive environment."
+      },
+      {
+        "id": "trends-research",
+        "label": "Trends Research",
+        "definition": "Research examining changes or directional patterns over a defined period."
+      },
+      {
+        "id": "priorities-research",
+        "label": "Priorities Research",
+        "definition": "Research identifying the stated concerns, plans, or decision priorities of a defined population."
+      },
+      {
+        "id": "best-practices",
+        "label": "Best Practices",
+        "definition": "Evidence-based or experience-based practices presented as useful approaches rather than guaranteed outcomes."
+      }
+    ],
+    "resource_types": [
+      {
+        "id": "framework",
+        "label": "Framework",
+        "definition": "A structured model for understanding or making decisions about a defined issue."
+      },
+      {
+        "id": "playbook",
+        "label": "Playbook",
+        "definition": "A practical sequence of principles, actions, or templates for a recurring task."
+      },
+      {
+        "id": "toolkit",
+        "label": "Toolkit",
+        "definition": "A collection of practical tools intended for use in a defined workflow."
+      },
+      {
+        "id": "guide",
+        "label": "Guide",
+        "definition": "An educational resource explaining a defined subject or decision."
+      },
+      {
+        "id": "checklist",
+        "label": "Checklist",
+        "definition": "A structured list used to confirm required actions, evidence, or conditions."
+      },
+      {
+        "id": "maturity-model",
+        "label": "Maturity Model",
+        "definition": "A model describing progressive levels of capability or adoption."
+      },
+      {
+        "id": "decision-framework",
+        "label": "Decision Framework",
+        "definition": "A repeatable structure for evaluating alternatives and evidence."
+      },
+      {
+        "id": "operating-model",
+        "label": "Operating Model",
+        "definition": "A description of how responsibilities, processes, systems, and governance work together."
+      },
+      {
+        "id": "roadmap",
+        "label": "Roadmap",
+        "definition": "A sequenced plan connecting current conditions to intended future capabilities."
+      },
+      {
+        "id": "benchmarking-tool",
+        "label": "Benchmarking Tool",
+        "definition": "A tool used to compare an organization, capability, or result with a defined reference population or standard."
+      }
+    ],
+    "executive_needs": [
+      {
+        "id": "executive-networking",
+        "label": "Executive Networking",
+        "definition": "Access to structured opportunities for professional relationship-building among executives."
+      },
+      {
+        "id": "peer-learning",
+        "label": "Peer Learning",
+        "definition": "Learning through the exchange of experience among people with comparable responsibilities."
+      },
+      {
+        "id": "leadership-development",
+        "label": "Leadership Development",
+        "definition": "Development of knowledge, judgment, and capabilities relevant to leadership roles."
+      },
+      {
+        "id": "strategic-insight",
+        "label": "Strategic Insight",
+        "definition": "Evidence or perspective intended to inform strategy."
+      },
+      {
+        "id": "decision-support",
+        "label": "Decision Support",
+        "definition": "Information, analysis, or structured processes that assist a decision without guaranteeing an outcome."
+      },
+      {
+        "id": "professional-development",
+        "label": "Professional Development",
+        "definition": "Structured learning intended to improve professional capability."
+      },
+      {
+        "id": "deal-flow",
+        "label": "Deal Flow",
+        "definition": "Access to potential investment or transaction opportunities."
+      },
+      {
+        "id": "fundraising",
+        "label": "Fundraising",
+        "definition": "Support or relationships relevant to raising capital."
+      },
+      {
+        "id": "portfolio-support",
+        "label": "Portfolio Support",
+        "definition": "Resources or assistance directed to companies held by an investment organization."
+      },
+      {
+        "id": "value-creation",
+        "label": "Value Creation",
+        "definition": "Activities intended to improve the performance or strategic position of an organization."
+      },
+      {
+        "id": "portfolio-operations",
+        "label": "Portfolio Operations",
+        "definition": "Operational work performed across investment portfolio companies."
+      },
+      {
+        "id": "governance",
+        "label": "Governance",
+        "definition": "Structures and processes used for oversight, accountability, and decision rights."
+      },
+      {
+        "id": "risk-management",
+        "label": "Risk Management",
+        "definition": "Identification, assessment, treatment, and monitoring of risk."
+      },
+      {
+        "id": "transformation",
+        "label": "Transformation",
+        "definition": "Material change to an organization's strategy, operations, systems, or structure."
+      },
+      {
+        "id": "talent",
+        "label": "Talent",
+        "definition": "Work related to identifying, recruiting, assessing, developing, and retaining people."
+      },
+      {
+        "id": "capital-formation",
+        "label": "Capital Formation",
+        "definition": "Activities used to obtain equity, debt, or other capital for an organization or fund."
+      },
+      {
+        "id": "board-effectiveness",
+        "label": "Board Effectiveness",
+        "definition": "Practices intended to improve board oversight, deliberation, and accountability."
+      },
+      {
+        "id": "business-growth",
+        "label": "Business Growth",
+        "definition": "Support relevant to expanding revenue, customers, products, markets, or organizational capacity without implying a guaranteed result."
+      },
+      {
+        "id": "collaboration",
+        "label": "Collaboration",
+        "definition": "Structured opportunities for people or organizations to work together on shared questions or activities."
+      },
+      {
+        "id": "best-practice-sharing",
+        "label": "Best-Practice Sharing",
+        "definition": "Exchange of documented or experience-based approaches among practitioners."
+      },
+      {
+        "id": "lp-relationships",
+        "label": "LP Relationships",
+        "definition": "Relationship-building and communication between investment managers and limited partners."
+      },
+      {
+        "id": "operational-excellence",
+        "label": "Operational Excellence",
+        "definition": "Disciplined improvement of operating processes, controls, quality, and execution."
+      }
+    ],
+    "topics": [
+      {
+        "id": "artificial-intelligence",
+        "label": "Artificial Intelligence",
+        "definition": "Computing systems performing tasks associated with prediction, generation, reasoning, or decision support."
+      },
+      {
+        "id": "enterprise-ai",
+        "label": "Enterprise AI",
+        "definition": "AI systems deployed in organizational workflows, products, or decision processes."
+      },
+      {
+        "id": "ai-governance",
+        "label": "AI Governance",
+        "definition": "Responsibilities, policies, controls, and evidence used to direct and oversee AI systems."
+      },
+      {
+        "id": "cybersecurity",
+        "label": "Cybersecurity",
+        "definition": "Protection of information systems, identities, networks, applications, and data from digital threats."
+      },
+      {
+        "id": "identity",
+        "label": "Identity",
+        "definition": "Management and protection of digital identities, authentication, and access."
+      },
+      {
+        "id": "finance-transformation",
+        "label": "Finance Transformation",
+        "definition": "Material change to finance processes, systems, organization, or decision practices."
+      },
+      {
+        "id": "fpa",
+        "label": "FP&A",
+        "definition": "Financial planning and analysis, including budgeting, forecasting, and performance analysis."
+      },
+      {
+        "id": "capital-strategy",
+        "label": "Capital Strategy",
+        "definition": "Decisions about funding sources, capital structure, allocation, and liquidity."
+      },
+      {
+        "id": "growth",
+        "label": "Growth",
+        "definition": "Expansion of revenue, customers, products, markets, or organizational capacity."
+      },
+      {
+        "id": "go-to-market",
+        "label": "Go-to-Market",
+        "definition": "The coordinated approach used to reach, sell to, and serve target customers."
+      },
+      {
+        "id": "marketing",
+        "label": "Marketing",
+        "definition": "Activities used to understand markets, communicate value, and create demand."
+      },
+      {
+        "id": "attribution",
+        "label": "Attribution",
+        "definition": "Methods used to estimate how marketing interactions contribute to outcomes."
+      },
+      {
+        "id": "board-governance",
+        "label": "Board Governance",
+        "definition": "Board-level oversight, decision rights, accountability, and reporting."
+      },
+      {
+        "id": "corporate-governance",
+        "label": "Corporate Governance",
+        "definition": "Structures and processes used to direct, oversee, and hold a corporation accountable."
+      },
+      {
+        "id": "risk",
+        "label": "Risk",
+        "definition": "Potential events or conditions that may affect objectives, performance, assets, or obligations."
+      },
+      {
+        "id": "portfolio-operations",
+        "label": "Portfolio Operations",
+        "definition": "Operating activities carried out across private-investment portfolio companies."
+      },
+      {
+        "id": "value-creation",
+        "label": "Value Creation",
+        "definition": "Strategic and operating activity intended to improve enterprise value."
+      },
+      {
+        "id": "venture-capital",
+        "label": "Venture Capital",
+        "definition": "Equity investment in privately held companies, commonly at early or growth stages."
+      },
+      {
+        "id": "corporate-venture-capital",
+        "label": "Corporate Venture Capital",
+        "definition": "Venture investment conducted by or on behalf of a corporation."
+      },
+      {
+        "id": "private-equity",
+        "label": "Private Equity",
+        "definition": "Private investment strategies involving ownership stakes in companies."
+      },
+      {
+        "id": "private-markets",
+        "label": "Private Markets",
+        "definition": "Investment markets for privately negotiated equity, credit, real assets, and related strategies."
+      },
+      {
+        "id": "emerging-technology",
+        "label": "Emerging Technology",
+        "definition": "Technologies in relatively early stages of commercial or institutional adoption."
+      },
+      {
+        "id": "ai-transformation",
+        "label": "AI Transformation",
+        "definition": "Material organizational change enabled by or required for the adoption of artificial intelligence."
+      },
+      {
+        "id": "agentic-ai",
+        "label": "Agentic AI",
+        "definition": "AI systems designed to plan or perform multi-step actions with a degree of operational autonomy."
+      },
+      {
+        "id": "ai-security",
+        "label": "AI Security",
+        "definition": "Protection of AI systems, models, data, interfaces, and dependent workflows from misuse or compromise."
+      },
+      {
+        "id": "agent-governance",
+        "label": "Agent Governance",
+        "definition": "Responsibilities, controls, permissions, and evidence used to oversee AI agents and their actions."
+      },
+      {
+        "id": "ai-budgeting",
+        "label": "AI Budgeting",
+        "definition": "Planning, allocation, and oversight of spending associated with artificial intelligence programs."
+      },
+      {
+        "id": "ai-marketing",
+        "label": "AI Marketing",
+        "definition": "Use and governance of artificial intelligence in marketing analysis, content, operations, or customer engagement."
+      },
+      {
+        "id": "customer-acquisition",
+        "label": "Customer Acquisition",
+        "definition": "Activities and economics associated with gaining new customers."
+      },
+      {
+        "id": "corporate-strategy",
+        "label": "Corporate Strategy",
+        "definition": "Enterprise-level choices about direction, scope, capabilities, markets, and allocation of resources."
+      },
+      {
+        "id": "leadership",
+        "label": "Leadership",
+        "definition": "Responsibilities and practices associated with directing organizations, teams, or major functions."
+      },
+      {
+        "id": "board-reporting",
+        "label": "Board Reporting",
+        "definition": "Information and evidence prepared to support board oversight and decisions."
+      },
+      {
+        "id": "cybersecurity-leadership",
+        "label": "Cybersecurity Leadership",
+        "definition": "Leadership responsibilities for cybersecurity strategy, risk, resilience, and organizational accountability."
+      },
+      {
+        "id": "finance-leadership",
+        "label": "Finance Leadership",
+        "definition": "Leadership responsibilities for finance strategy, operations, controls, capital, and performance."
+      },
+      {
+        "id": "marketing-leadership",
+        "label": "Marketing Leadership",
+        "definition": "Leadership responsibilities for market strategy, brand, demand, customer acquisition, and marketing performance."
+      },
+      {
+        "id": "gp-lp",
+        "label": "GP/LP",
+        "definition": "The relationship between general partners managing investment funds and limited partners supplying capital."
+      },
+      {
+        "id": "fundraising",
+        "label": "Fundraising",
+        "definition": "Activities undertaken to secure capital for a company, fund, or other organization."
+      },
+      {
+        "id": "exits",
+        "label": "Exits",
+        "definition": "Transactions through which owners realize or transfer an investment, including sales and public offerings."
+      },
+      {
+        "id": "dealmaking",
+        "label": "Dealmaking",
+        "definition": "Sourcing, evaluating, negotiating, and completing investments or corporate transactions."
+      },
+      {
+        "id": "ai-investing",
+        "label": "AI Investing",
+        "definition": "Investment activity focused on artificial intelligence companies, infrastructure, applications, or enabling technologies."
+      }
+    ],
+    "audiences": [
+      {
+        "id": "private-equity-leaders",
+        "label": "Private Equity Leaders",
+        "definition": "Professionals leading investment or operating functions in private equity."
+      },
+      {
+        "id": "operating-partners",
+        "label": "Operating Partners",
+        "definition": "Private equity professionals focused primarily on portfolio-company performance, operations, transformation, or value creation."
+      },
+      {
+        "id": "venture-capital-investors",
+        "label": "Venture Capital Investors",
+        "definition": "Professionals investing venture capital in privately held companies."
+      },
+      {
+        "id": "corporate-venture-investors",
+        "label": "Corporate Venture Investors",
+        "definition": "Professionals making venture investments for corporations."
+      },
+      {
+        "id": "founders",
+        "label": "Founders",
+        "definition": "People who establish and build companies or organizations."
+      },
+      {
+        "id": "ai-leaders",
+        "label": "AI Leaders",
+        "definition": "Executives and senior operators responsible for AI strategy, development, governance, or adoption."
+      },
+      {
+        "id": "board-members",
+        "label": "Board Members",
+        "definition": "Directors serving on corporate, nonprofit, or advisory boards."
+      },
+      {
+        "id": "portfolio-executives",
+        "label": "Portfolio Executives",
+        "definition": "Executives working in companies held by private investment organizations."
+      },
+      {
+        "id": "pe-finance-operations-leaders",
+        "label": "PE CFO / COO Leaders",
+        "definition": "Finance and operating executives working in or with private-equity-backed companies."
+      },
+      {
+        "id": "general-partners",
+        "label": "General Partners",
+        "definition": "Investment professionals or organizations responsible for managing a private investment fund."
+      },
+      {
+        "id": "limited-partners",
+        "label": "Limited Partners",
+        "definition": "Investors that commit capital to a private investment fund without managing its daily operations."
+      },
+      {
+        "id": "emerging-managers",
+        "label": "Emerging Managers",
+        "definition": "Investment managers building relatively new firms, funds, or institutional track records."
+      }
+    ]
+  },
+  "aliases": {
+    "schema_version": "1.1.0",
+    "policy": "Aliases redirect to an existing controlled term in the named dimension and never create a second canonical category.",
+    "aliases": [
+      {
+        "dimension": "community_formats",
+        "alias": "C-Suite Network",
+        "canonical_id": "executive-network"
+      },
+      {
+        "dimension": "community_formats",
+        "alias": "Executive Membership",
+        "canonical_id": "membership-organization"
+      },
+      {
+        "dimension": "community_formats",
+        "alias": "Leadership Community",
+        "canonical_id": "executive-community"
+      },
+      {
+        "dimension": "community_formats",
+        "alias": "Professional Network",
+        "canonical_id": "executive-network"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Executive Events",
+        "canonical_id": "executive-event"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Executive Conference",
+        "canonical_id": "conference"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Summit",
+        "canonical_id": "executive-summit"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Leadership Summit",
+        "canonical_id": "executive-summit"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Executive Roundtable",
+        "canonical_id": "roundtable"
+      },
+      {
+        "dimension": "event_formats",
+        "alias": "Fireside",
+        "canonical_id": "fireside-chat"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Research Reports",
+        "canonical_id": "research-report"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Surveys",
+        "canonical_id": "survey"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Benchmarks",
+        "canonical_id": "benchmark"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Benchmarking",
+        "canonical_id": "benchmark"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Indexes",
+        "canonical_id": "index"
+      },
+      {
+        "dimension": "intelligence_types",
+        "alias": "Market Maps",
+        "canonical_id": "market-map"
+      },
+      {
+        "dimension": "resource_types",
+        "alias": "Decision Tool",
+        "canonical_id": "decision-framework"
+      },
+      {
+        "dimension": "executive_needs",
+        "alias": "Best Practice Sharing",
+        "canonical_id": "best-practice-sharing"
+      },
+      {
+        "dimension": "topics",
+        "alias": "Capital",
+        "canonical_id": "capital-strategy"
+      }
+    ]
+  },
+  "role_mappings": {
+    "schema_version": "1.0.0",
+    "dataset_version": "0.8.0",
+    "description": "Controlled semantic lenses for common executive and investment audiences. A mapping describes relevant vocabulary; it does not assert that every organization serving the audience offers every mapped format or topic.",
+    "mappings": [
+      {
+        "id": "ciso",
+        "label": "CISO ecosystem",
+        "role_ids": [
+          "CISO"
+        ],
+        "audience_ids": [],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network",
+          "peer-group"
+        ],
+        "event_format_ids": [
+          "executive-event",
+          "conference",
+          "executive-summit",
+          "executive-dinner",
+          "roundtable"
+        ],
+        "intelligence_type_ids": [
+          "executive-research",
+          "benchmark",
+          "priorities-research"
+        ],
+        "executive_need_ids": [
+          "peer-learning",
+          "strategic-insight",
+          "decision-support",
+          "governance",
+          "risk-management"
+        ],
+        "topic_ids": [
+          "cybersecurity-leadership",
+          "cybersecurity",
+          "ai-security",
+          "agent-governance",
+          "identity",
+          "risk",
+          "board-reporting"
+        ]
+      },
+      {
+        "id": "cfo",
+        "label": "CFO ecosystem",
+        "role_ids": [
+          "CFO"
+        ],
+        "audience_ids": [],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network",
+          "peer-group"
+        ],
+        "event_format_ids": [
+          "executive-event",
+          "conference",
+          "executive-summit",
+          "executive-dinner",
+          "roundtable"
+        ],
+        "intelligence_type_ids": [
+          "executive-research",
+          "benchmark",
+          "priorities-research"
+        ],
+        "executive_need_ids": [
+          "peer-learning",
+          "strategic-insight",
+          "decision-support",
+          "transformation",
+          "capital-formation"
+        ],
+        "topic_ids": [
+          "finance-leadership",
+          "finance-transformation",
+          "enterprise-ai",
+          "ai-budgeting",
+          "capital-strategy",
+          "fpa"
+        ]
+      },
+      {
+        "id": "cmo",
+        "label": "CMO ecosystem",
+        "role_ids": [
+          "CMO"
+        ],
+        "audience_ids": [],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network",
+          "peer-group"
+        ],
+        "event_format_ids": [
+          "executive-event",
+          "conference",
+          "executive-summit",
+          "executive-dinner"
+        ],
+        "intelligence_type_ids": [
+          "executive-research",
+          "benchmark",
+          "priorities-research"
+        ],
+        "executive_need_ids": [
+          "peer-learning",
+          "strategic-insight",
+          "decision-support",
+          "business-growth"
+        ],
+        "topic_ids": [
+          "marketing-leadership",
+          "ai-marketing",
+          "go-to-market",
+          "attribution",
+          "growth",
+          "customer-acquisition"
+        ]
+      },
+      {
+        "id": "ceo",
+        "label": "CEO ecosystem",
+        "role_ids": [
+          "CEO"
+        ],
+        "audience_ids": [],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network",
+          "peer-group",
+          "membership-organization"
+        ],
+        "event_format_ids": [
+          "executive-event",
+          "executive-summit",
+          "conference",
+          "executive-dinner",
+          "roundtable"
+        ],
+        "intelligence_type_ids": [
+          "executive-research",
+          "executive-insights"
+        ],
+        "executive_need_ids": [
+          "executive-networking",
+          "peer-learning",
+          "strategic-insight",
+          "business-growth",
+          "governance"
+        ],
+        "topic_ids": [
+          "leadership",
+          "corporate-strategy",
+          "growth",
+          "capital-strategy",
+          "board-governance",
+          "artificial-intelligence"
+        ]
+      },
+      {
+        "id": "private-equity",
+        "label": "Private equity ecosystem",
+        "role_ids": [],
+        "audience_ids": [
+          "private-equity-leaders",
+          "operating-partners",
+          "portfolio-executives",
+          "pe-finance-operations-leaders",
+          "general-partners",
+          "limited-partners"
+        ],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network"
+        ],
+        "event_format_ids": [
+          "conference",
+          "forum-event",
+          "executive-summit",
+          "executive-dinner"
+        ],
+        "intelligence_type_ids": [
+          "industry-intelligence",
+          "market-map",
+          "benchmark"
+        ],
+        "executive_need_ids": [
+          "value-creation",
+          "portfolio-operations",
+          "operational-excellence",
+          "portfolio-support",
+          "fundraising",
+          "lp-relationships"
+        ],
+        "topic_ids": [
+          "private-equity",
+          "private-markets",
+          "gp-lp",
+          "fundraising",
+          "exits",
+          "dealmaking",
+          "portfolio-operations",
+          "value-creation"
+        ]
+      },
+      {
+        "id": "venture-capital",
+        "label": "VC and CVC ecosystem",
+        "role_ids": [],
+        "audience_ids": [
+          "venture-capital-investors",
+          "corporate-venture-investors",
+          "founders",
+          "emerging-managers",
+          "general-partners",
+          "limited-partners"
+        ],
+        "community_format_ids": [
+          "executive-community",
+          "executive-network",
+          "peer-network"
+        ],
+        "event_format_ids": [
+          "conference",
+          "executive-summit",
+          "executive-dinner",
+          "networking-event"
+        ],
+        "intelligence_type_ids": [
+          "industry-intelligence",
+          "market-map",
+          "trends-research"
+        ],
+        "executive_need_ids": [
+          "deal-flow",
+          "fundraising",
+          "lp-relationships",
+          "portfolio-support",
+          "executive-networking"
+        ],
+        "topic_ids": [
+          "venture-capital",
+          "corporate-venture-capital",
+          "emerging-technology",
+          "ai-investing",
+          "fundraising",
+          "gp-lp"
+        ]
+      }
+    ]
+  }
+}

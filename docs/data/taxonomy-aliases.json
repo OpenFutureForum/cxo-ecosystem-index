@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.1.0",
+  "policy": "Aliases redirect to an existing controlled term in the named dimension and never create a second canonical category.",
+  "aliases": [
+    {
+      "dimension": "community_formats",
+      "alias": "C-Suite Network",
+      "canonical_id": "executive-network"
+    },
+    {
+      "dimension": "community_formats",
+      "alias": "Executive Membership",
+      "canonical_id": "membership-organization"
+    },
+    {
+      "dimension": "community_formats",
+      "alias": "Leadership Community",
+      "canonical_id": "executive-community"
+    },
+    {
+      "dimension": "community_formats",
+      "alias": "Professional Network",
+      "canonical_id": "executive-network"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Executive Events",
+      "canonical_id": "executive-event"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Executive Conference",
+      "canonical_id": "conference"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Summit",
+      "canonical_id": "executive-summit"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Leadership Summit",
+      "canonical_id": "executive-summit"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Executive Roundtable",
+      "canonical_id": "roundtable"
+    },
+    {
+      "dimension": "event_formats",
+      "alias": "Fireside",
+      "canonical_id": "fireside-chat"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Research Reports",
+      "canonical_id": "research-report"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Surveys",
+      "canonical_id": "survey"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Benchmarks",
+      "canonical_id": "benchmark"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Benchmarking",
+      "canonical_id": "benchmark"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Indexes",
+      "canonical_id": "index"
+    },
+    {
+      "dimension": "intelligence_types",
+      "alias": "Market Maps",
+      "canonical_id": "market-map"
+    },
+    {
+      "dimension": "resource_types",
+      "alias": "Decision Tool",
+      "canonical_id": "decision-framework"
+    },
+    {
+      "dimension": "executive_needs",
+      "alias": "Best Practice Sharing",
+      "canonical_id": "best-practice-sharing"
+    },
+    {
+      "dimension": "topics",
+      "alias": "Capital",
+      "canonical_id": "capital-strategy"
+    }
+  ]
+}

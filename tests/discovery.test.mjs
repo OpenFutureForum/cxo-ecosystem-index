@@ -49,7 +49,7 @@ test('README status block matches generated metrics',async()=>{
 
 test('robots and Data authority hub expose current canonical resources',async()=>{
  const robots=await fs.readFile(path.join(docs,'robots.txt'),'utf8');assert.ok(robots.includes('Allow: /'));assert.ok(robots.includes(`${base}sitemap.xml`));
- for(const resource of ['entities.json','entities.csv','facts.json','sources.json','relationships.json','knowledge-graph.json','taxonomy.json','definitions.json','intelligence.json','benchmarks.json','market-maps.json','build-manifest.json','latest.json'])assert.ok(dataPage.includes(`data/${resource}`),`Data page missing ${resource}`);
+ for(const resource of ['entities.json','entities.csv','facts.json','sources.json','relationships.json','semantic-relationships.json','semantic-relationship.schema.json','knowledge-graph.json','taxonomy.json','taxonomy-aliases.json','role-mappings.json','definitions.json','intelligence.json','benchmarks.json','market-maps.json','build-manifest.json','latest.json'])assert.ok(dataPage.includes(`data/${resource}`),`Data page missing ${resource}`);
  assert.match(dataPage,/data\/search-index\.[a-f0-9]{10}\.json/);
  for(const property of ['DataCatalog','Dataset','DataDownload','includedInDataCatalog','isBasedOn','sameAs'])assert.ok(dataPage.includes(`\"${property}\"`),`Data structured data missing ${property}`);
  assert.ok(dataPage.includes('CITATION.cff'));
@@ -57,6 +57,6 @@ test('robots and Data authority hub expose current canonical resources',async()=
 
 test('Search Console handoff is explicit and does not claim submission',async()=>{
  const handoff=JSON.parse(await fs.readFile(path.join(docs,'reports/search-console-handoff.json'),'utf8'));
- assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,15);
+ assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,16);
  assert.equal(handoff.sitemap_url,`${base}sitemap.xml`);assert.ok(handoff.priority_urls.every(url=>!url.includes('?')));
 });

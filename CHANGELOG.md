@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.8.0 — 2026-08-11 — CXO Formats, Intelligence & Outcomes Knowledge Map
+
+### Added
+
+- Expanded the controlled vocabulary from 82 to 125 neutral, reusable terms across formats, intelligence, resources, needs, topics, and audiences.
+- Added 19 governed aliases so near-synonyms resolve to canonical terms instead of creating duplicate categories.
+- Added normalized semantic mappings for CEO, CFO, CMO, CISO, private-equity, VC, and CVC ecosystems.
+- Added evidence-linked semantic relationship exports and incorporated them into the unified knowledge graph.
+- Added one substantive taxonomy and AEO authority page with definitions, mappings, aliases, and eight dataset-backed answers.
+- Expanded search-index fields, entity JSON-LD, role/provider taxonomy lenses, DataCatalog downloads, and `llms.txt`.
+
+### Preserved
+
+- No arbitrary role/format/topic/geography combination pages were generated.
+- Existing canonical entity IDs, URLs, source records, entity schema 3.0.0, and stable exports remain compatible.
+- Unsupported entity associations remain empty rather than inferred.
+
 ## 0.7.1 — 2026-08-11 — Discovery & Crawlability
 
 ### Fixed

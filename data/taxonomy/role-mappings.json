@@ -1,0 +1,73 @@
+{
+  "schema_version":"1.0.0",
+  "dataset_version":"0.8.0",
+  "description":"Controlled semantic lenses for common executive and investment audiences. A mapping describes relevant vocabulary; it does not assert that every organization serving the audience offers every mapped format or topic.",
+  "mappings":[
+    {
+      "id":"ciso",
+      "label":"CISO ecosystem",
+      "role_ids":["CISO"],
+      "audience_ids":[],
+      "community_format_ids":["executive-community","executive-network","peer-group"],
+      "event_format_ids":["executive-event","conference","executive-summit","executive-dinner","roundtable"],
+      "intelligence_type_ids":["executive-research","benchmark","priorities-research"],
+      "executive_need_ids":["peer-learning","strategic-insight","decision-support","governance","risk-management"],
+      "topic_ids":["cybersecurity-leadership","cybersecurity","ai-security","agent-governance","identity","risk","board-reporting"]
+    },
+    {
+      "id":"cfo",
+      "label":"CFO ecosystem",
+      "role_ids":["CFO"],
+      "audience_ids":[],
+      "community_format_ids":["executive-community","executive-network","peer-group"],
+      "event_format_ids":["executive-event","conference","executive-summit","executive-dinner","roundtable"],
+      "intelligence_type_ids":["executive-research","benchmark","priorities-research"],
+      "executive_need_ids":["peer-learning","strategic-insight","decision-support","transformation","capital-formation"],
+      "topic_ids":["finance-leadership","finance-transformation","enterprise-ai","ai-budgeting","capital-strategy","fpa"]
+    },
+    {
+      "id":"cmo",
+      "label":"CMO ecosystem",
+      "role_ids":["CMO"],
+      "audience_ids":[],
+      "community_format_ids":["executive-community","executive-network","peer-group"],
+      "event_format_ids":["executive-event","conference","executive-summit","executive-dinner"],
+      "intelligence_type_ids":["executive-research","benchmark","priorities-research"],
+      "executive_need_ids":["peer-learning","strategic-insight","decision-support","business-growth"],
+      "topic_ids":["marketing-leadership","ai-marketing","go-to-market","attribution","growth","customer-acquisition"]
+    },
+    {
+      "id":"ceo",
+      "label":"CEO ecosystem",
+      "role_ids":["CEO"],
+      "audience_ids":[],
+      "community_format_ids":["executive-community","executive-network","peer-group","membership-organization"],
+      "event_format_ids":["executive-event","executive-summit","conference","executive-dinner","roundtable"],
+      "intelligence_type_ids":["executive-research","executive-insights"],
+      "executive_need_ids":["executive-networking","peer-learning","strategic-insight","business-growth","governance"],
+      "topic_ids":["leadership","corporate-strategy","growth","capital-strategy","board-governance","artificial-intelligence"]
+    },
+    {
+      "id":"private-equity",
+      "label":"Private equity ecosystem",
+      "role_ids":[],
+      "audience_ids":["private-equity-leaders","operating-partners","portfolio-executives","pe-finance-operations-leaders","general-partners","limited-partners"],
+      "community_format_ids":["executive-community","executive-network"],
+      "event_format_ids":["conference","forum-event","executive-summit","executive-dinner"],
+      "intelligence_type_ids":["industry-intelligence","market-map","benchmark"],
+      "executive_need_ids":["value-creation","portfolio-operations","operational-excellence","portfolio-support","fundraising","lp-relationships"],
+      "topic_ids":["private-equity","private-markets","gp-lp","fundraising","exits","dealmaking","portfolio-operations","value-creation"]
+    },
+    {
+      "id":"venture-capital",
+      "label":"VC and CVC ecosystem",
+      "role_ids":[],
+      "audience_ids":["venture-capital-investors","corporate-venture-investors","founders","emerging-managers","general-partners","limited-partners"],
+      "community_format_ids":["executive-community","executive-network","peer-network"],
+      "event_format_ids":["conference","executive-summit","executive-dinner","networking-event"],
+      "intelligence_type_ids":["industry-intelligence","market-map","trends-research"],
+      "executive_need_ids":["deal-flow","fundraising","lp-relationships","portfolio-support","executive-networking"],
+      "topic_ids":["venture-capital","corporate-venture-capital","emerging-technology","ai-investing","fundraising","gp-lp"]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.7.1",
+  "dataset_version": "0.8.0",
   "calculated_at": "2026-08-11",
   "cohort_id": "silicon-valley-cxo-ecosystem",
   "entity_ids": [
@@ -3197,7 +3197,10 @@
           "supports": [
             "description",
             "services",
-            "geographies"
+            "geographies",
+            "categories",
+            "cxo_roles",
+            "industries"
           ]
         },
         {
@@ -3512,6 +3515,105 @@
           "id": "fact_open-future-forum_geographies_san-francisco-bay-area",
           "field": "geographies",
           "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_categories_research-firms",
+          "field": "categories",
+          "value": "Research Firms",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
           "source_ids": [
             "src_off_about"
           ],

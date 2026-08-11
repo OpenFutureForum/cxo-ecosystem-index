@@ -4,7 +4,8 @@ await readJSON('data/entity.schema.json');
 await readJSON('data/intelligence.schema.json');
 await readJSON('data/source.schema.json');
 await readJSON('data/relationship.schema.json');
-const {entities,taxonomy,semantic,classifications}=await load();
+await readJSON('data/semantic-relationship.schema.json');
+const {entities,taxonomy,semantic,taxonomyAliases,roleMappings,classifications}=await load();
 const relationships=await readJSON('data/relationships/relationships.json');
 const errors=[];
 const seen={id:new Set(),slug:new Set(),name:new Set()};
@@ -21,6 +22,22 @@ for(const dimension of dimensions){
   if(!term.definition)errors.push(`taxonomy: missing definition for ${dimension}/${term.id}`);
   vocab[dimension].add(term.id);labels.add(term.label.toLowerCase());
  }
+}
+const seenAliases=new Set();
+for(const item of taxonomyAliases.aliases||[]){
+ const aliasKey=`${item.dimension}:${item.alias.toLowerCase()}`;
+ if(seenAliases.has(aliasKey))errors.push(`taxonomy alias: duplicate ${aliasKey}`);seenAliases.add(aliasKey);
+ if(!vocab[item.dimension])errors.push(`taxonomy alias: unknown dimension ${item.dimension}`);
+ else if(!vocab[item.dimension].has(item.canonical_id))errors.push(`taxonomy alias: unknown target ${item.dimension}/${item.canonical_id}`);
+ const canonicalLabel=(semantic[item.dimension]||[]).find(term=>term.id===item.canonical_id)?.label.toLowerCase();
+ if(canonicalLabel===item.alias.toLowerCase())errors.push(`taxonomy alias: ${item.alias} duplicates its canonical label`);
+}
+const mappingDimensions={audience_ids:'audiences',community_format_ids:'community_formats',event_format_ids:'event_formats',intelligence_type_ids:'intelligence_types',executive_need_ids:'executive_needs',topic_ids:'topics'};
+const mappingIds=new Set();
+for(const mapping of roleMappings.mappings||[]){
+ if(mappingIds.has(mapping.id))errors.push(`role mappings: duplicate ${mapping.id}`);mappingIds.add(mapping.id);
+ for(const role of mapping.role_ids||[])if(!taxonomy.cxo_roles.includes(role))errors.push(`role mappings/${mapping.id}: unknown role ${role}`);
+ for(const [field,dimension] of Object.entries(mappingDimensions))for(const id of mapping[field]||[])if(!vocab[dimension].has(id))errors.push(`role mappings/${mapping.id}: unknown ${dimension} term ${id}`);
 }
 for(const [index,entity] of entities.entries()){
  for(const key of required)if(entity[key]==null||(Array.isArray(entity[key])&&!entity[key].length))errors.push(`${entity.id||index}: missing ${key}`);

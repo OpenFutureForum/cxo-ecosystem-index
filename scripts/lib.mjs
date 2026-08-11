@@ -32,7 +32,7 @@ export async function load(){
   for(const source of merged.sources||[])for(const field of source.supports||[]){const raw=field==='identity'?merged.name:merged[field];const values=Array.isArray(raw)?raw:raw==null?[]:[raw];for(const value of values){if(typeof value==='object')continue;const key=`${field}:${value}`;const existing=facts.get(key);if(existing)existing.source_ids.push(source.id);else facts.set(key,{id:`fact_${slug(merged.name)}_${slug(field)}_${slug(value).slice(0,48)}`,field,value,source_ids:[source.id],last_verified:merged.last_verified});}}
   return {...merged,facts:[...facts.values()]};
  });
- return {entities,taxonomy:await readJSON('data/taxonomy/core.json'),semantic:await readJSON('data/taxonomy/semantic.json'),definitions:await readJSON('data/definitions/core.json'),classifications};
+ return {entities,taxonomy:await readJSON('data/taxonomy/core.json'),semantic:await readJSON('data/taxonomy/semantic.json'),taxonomyAliases:await readJSON('data/taxonomy/aliases.json'),roleMappings:await readJSON('data/taxonomy/role-mappings.json'),definitions:await readJSON('data/definitions/core.json'),classifications};
 }
 export function stats(entities){
  const all=k=>new Set(entities.flatMap(e=>e[k]||[])).size;

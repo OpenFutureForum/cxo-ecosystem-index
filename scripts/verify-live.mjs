@@ -19,12 +19,13 @@ for(let attempt=1;attempt<=12;attempt++){
 
 const checks=[
  ['',html=>html.includes(`Dataset v${expected.dataset_version}`)&&html.includes(`<strong>${expected.organizations}</strong><span>Organizations</span>`)&&html.includes(`<strong>${expected.sourced_facts}</strong><span>Sourced facts</span>`)&&html.includes(expected.release_fingerprint)&&html.includes(`<link rel="canonical" href="${base}">`)],
- ['data.html',html=>html.includes(`>${expected.schema_version}</dd>`)&&html.includes(expected.release_fingerprint)&&html.includes('data/knowledge-graph.json')&&html.includes('Current Release Manifest')&&/data\/search-index\.[a-f0-9]{10}\.json/.test(html)],
+ ['data.html',html=>html.includes(`>${expected.schema_version}</dd>`)&&html.includes(expected.release_fingerprint)&&html.includes(`<strong>${expected.semantic_relationships}</strong><span>Semantic relationships</span>`)&&html.includes('data/knowledge-graph.json')&&html.includes('Current Release Manifest')&&/data\/search-index\.[a-f0-9]{10}\.json/.test(html)],
+ ['taxonomy.html',html=>html.includes('CXO formats, intelligence and outcomes taxonomy')&&html.includes('What is an executive community?')&&html.includes('data/semantic-relationships.json')],
  ['methodology.html',html=>html.includes(`<link rel="canonical" href="${base}methodology.html">`)],
  ['sitemap.xml',xml=>[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].every(match=>!match[1].includes('?'))&&xml.includes(`<loc>${base}</loc>`)&&!xml.includes('<sitemapindex')],
  ['robots.txt',text=>text.split('\n').filter(line=>line.startsWith('Sitemap:')).length===1&&text.includes(`${base}sitemap.xml`)],
  ['data/latest.json',text=>{const value=JSON.parse(text);return value.kind==='Current Release Manifest'&&value.release_fingerprint===expected.release_fingerprint;}],
- ['data/knowledge-graph.json'],['data/entities.json'],['data/facts.json'],['data/sources.json'],['data/relationships.json'],
+ ['data/knowledge-graph.json'],['data/entities.json'],['data/facts.json'],['data/sources.json'],['data/relationships.json'],['data/semantic-relationships.json',text=>{const value=JSON.parse(text);return value.relationships.length===expected.semantic_relationships&&value.relationships.every(item=>item.evidence_urls.length);} ],['data/role-mappings.json',text=>JSON.parse(text).dataset_version===expected.dataset_version],
  ['entities/ramp.html',html=>html.includes(`<link rel="canonical" href="${base}entities/ramp.html">`)&&html.includes('<h1>Ramp</h1>')],
  ['providers/cfo-technology.html',html=>html.includes('CFO Technology')],['cfo-ecosystem.html',html=>html.includes('CFO Ecosystem')],
  ['intelligence/cfo-technology.html',html=>html.includes('<b>Dataset snapshot:</b>')&&html.includes('Category distribution')],

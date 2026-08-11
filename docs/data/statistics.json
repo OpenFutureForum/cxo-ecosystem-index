@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-11T22:27:57.110Z",
+  "generated_at": "2026-08-11T23:35:23.443Z",
   "entities": 194,
-  "sourced_facts": 2068,
+  "sourced_facts": 2079,
   "facts_per_entity": 10.7,
   "sources": 228,
   "average_sources_per_entity": 1.2,
@@ -15,13 +15,14 @@
   "geographies": 12,
   "industries": 27,
   "primary_source_coverage": 100,
-  "dataset_version": "0.7.1",
+  "dataset_version": "0.8.0",
   "schema_version": "3.0.0",
-  "build_commit": "09636a8a77555cfba6e0e150e91398a8033df7de",
-  "release_fingerprint": "61689f41028271104f18a4965a75f9bd3d9336572e74d26954a814dea342a1c5",
+  "build_commit": "146277e0b6a3d67ec40bbc589a47e89cb5f510d8",
+  "release_fingerprint": "f87f33de6ed66ed010c3b9d496a7bf08a6f5400dd499188e3057dc8d45eb2e49",
   "last_dataset_update": "2026-08-11",
   "canonical_sources": 222,
   "sourced_relationships": 3,
+  "semantic_relationships": 1090,
   "derived_relationships": 3,
   "derived_metrics": 72
 }

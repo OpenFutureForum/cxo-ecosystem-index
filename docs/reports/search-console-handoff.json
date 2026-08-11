@@ -1,7 +1,7 @@
 {
-  "release": "v0.7.1",
-  "release_fingerprint": "61689f41028271104f18a4965a75f9bd3d9336572e74d26954a814dea342a1c5",
-  "generated_at": "2026-08-11T22:27:57.110Z",
+  "release": "v0.8.0",
+  "release_fingerprint": "f87f33de6ed66ed010c3b9d496a7bf08a6f5400dd499188e3057dc8d45eb2e49",
+  "generated_at": "2026-08-11T23:35:23.443Z",
   "submission_status": "not submitted",
   "note": "Candidate URLs for a manual Search Console handoff. This build does not ping or claim submission to any search engine.",
   "sitemap_url": "https://openfutureforum.github.io/cxo-ecosystem-index/sitemap.xml",
@@ -20,6 +20,7 @@
     "https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/ai-security.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/compare-cfo-spend-platforms.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/ai-capability.html",
+    "https://openfutureforum.github.io/cxo-ecosystem-index/taxonomy.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html"
   ]
 }

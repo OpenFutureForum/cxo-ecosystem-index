@@ -1,0 +1,36 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"CXO Ecosystem semantic relationship export 1.0.0",
+  "type":"object",
+  "required":["dataset_version","schema_version","coverage","relationships"],
+  "properties":{
+    "dataset_version":{"type":"string"},
+    "schema_version":{"const":"1.0.0"},
+    "coverage":{
+      "type":"object",
+      "required":["total_classified_associations","evidence_linked_relationships","associations_pending_field_specific_evidence"],
+      "properties":{
+        "total_classified_associations":{"type":"integer","minimum":0},
+        "evidence_linked_relationships":{"type":"integer","minimum":0},
+        "associations_pending_field_specific_evidence":{"type":"integer","minimum":0}
+      }
+    },
+    "relationships":{
+      "type":"array",
+      "items":{
+        "type":"object",
+        "required":["id","subject_entity_id","predicate","object_dimension","object_id","object_label","evidence_urls","verification_status"],
+        "properties":{
+          "id":{"type":"string","pattern":"^sem_"},
+          "subject_entity_id":{"type":"string","pattern":"^ent_"},
+          "predicate":{"enum":["serves_role","provides_type","offers_community_format","offers_event_format","publishes_intelligence","provides_resource","supports_need","addresses_topic","serves_audience","operates_in"]},
+          "object_dimension":{"type":"string"},
+          "object_id":{"type":"string"},
+          "object_label":{"type":"string"},
+          "evidence_urls":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string","format":"uri"}},
+          "verification_status":{"const":"evidence-linked"}
+        }
+      }
+    }
+  }
+}

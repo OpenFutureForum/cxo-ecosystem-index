@@ -34,6 +34,11 @@
       "id": "executive-board",
       "label": "Executive Board",
       "definition": "A structured group of executives convened for advice, peer exchange, or governance-oriented discussion."
+    },
+    {
+      "id": "advisory-board",
+      "label": "Advisory Board",
+      "definition": "A non-governing group convened to provide experience, perspective, or advice to an organization or program."
     }
   ],
   "event_formats": [
@@ -91,6 +96,46 @@
       "id": "retreat",
       "label": "Retreat",
       "definition": "An extended gathering away from normal operations for reflection, planning, or peer exchange."
+    },
+    {
+      "id": "private-executive-gathering",
+      "label": "Private Executive Gathering",
+      "definition": "A non-public, time-bounded gathering with participation limited to a defined executive audience."
+    },
+    {
+      "id": "forum-event",
+      "label": "Forum Event",
+      "definition": "A time-bounded event organized around structured presentation, discussion, or exchange on a defined subject."
+    },
+    {
+      "id": "breakfast",
+      "label": "Executive Breakfast",
+      "definition": "A meal-based executive gathering held primarily during morning hours."
+    },
+    {
+      "id": "mixer",
+      "label": "Mixer",
+      "definition": "An informal professional gathering designed primarily for introductions and conversation."
+    },
+    {
+      "id": "peer-event",
+      "label": "Peer Event",
+      "definition": "A time-bounded gathering primarily for participants with comparable seniority or responsibilities."
+    },
+    {
+      "id": "leadership-event",
+      "label": "Leadership Event",
+      "definition": "An event centered on leadership responsibilities, decisions, or professional development."
+    },
+    {
+      "id": "offsite",
+      "label": "Offsite",
+      "definition": "A gathering held away from normal operations for planning, development, or facilitated discussion."
+    },
+    {
+      "id": "conference-week-event",
+      "label": "Conference-Week Event",
+      "definition": "An independently organized event scheduled during the week of a larger industry conference."
     }
   ],
   "intelligence_types": [
@@ -138,6 +183,31 @@
       "id": "editorial-commentary",
       "label": "Editorial Commentary",
       "definition": "Analysis or opinion that is distinct from original empirical research."
+    },
+    {
+      "id": "executive-insights",
+      "label": "Executive Insights",
+      "definition": "Evidence-based observations intended to inform senior leadership decisions."
+    },
+    {
+      "id": "industry-intelligence",
+      "label": "Industry Intelligence",
+      "definition": "Structured information and analysis about a defined industry, market, or competitive environment."
+    },
+    {
+      "id": "trends-research",
+      "label": "Trends Research",
+      "definition": "Research examining changes or directional patterns over a defined period."
+    },
+    {
+      "id": "priorities-research",
+      "label": "Priorities Research",
+      "definition": "Research identifying the stated concerns, plans, or decision priorities of a defined population."
+    },
+    {
+      "id": "best-practices",
+      "label": "Best Practices",
+      "definition": "Evidence-based or experience-based practices presented as useful approaches rather than guaranteed outcomes."
     }
   ],
   "resource_types": [
@@ -185,6 +255,11 @@
       "id": "roadmap",
       "label": "Roadmap",
       "definition": "A sequenced plan connecting current conditions to intended future capabilities."
+    },
+    {
+      "id": "benchmarking-tool",
+      "label": "Benchmarking Tool",
+      "definition": "A tool used to compare an organization, capability, or result with a defined reference population or standard."
     }
   ],
   "executive_needs": [
@@ -272,6 +347,31 @@
       "id": "board-effectiveness",
       "label": "Board Effectiveness",
       "definition": "Practices intended to improve board oversight, deliberation, and accountability."
+    },
+    {
+      "id": "business-growth",
+      "label": "Business Growth",
+      "definition": "Support relevant to expanding revenue, customers, products, markets, or organizational capacity without implying a guaranteed result."
+    },
+    {
+      "id": "collaboration",
+      "label": "Collaboration",
+      "definition": "Structured opportunities for people or organizations to work together on shared questions or activities."
+    },
+    {
+      "id": "best-practice-sharing",
+      "label": "Best-Practice Sharing",
+      "definition": "Exchange of documented or experience-based approaches among practitioners."
+    },
+    {
+      "id": "lp-relationships",
+      "label": "LP Relationships",
+      "definition": "Relationship-building and communication between investment managers and limited partners."
+    },
+    {
+      "id": "operational-excellence",
+      "label": "Operational Excellence",
+      "definition": "Disciplined improvement of operating processes, controls, quality, and execution."
     }
   ],
   "topics": [
@@ -384,6 +484,96 @@
       "id": "emerging-technology",
       "label": "Emerging Technology",
       "definition": "Technologies in relatively early stages of commercial or institutional adoption."
+    },
+    {
+      "id": "ai-transformation",
+      "label": "AI Transformation",
+      "definition": "Material organizational change enabled by or required for the adoption of artificial intelligence."
+    },
+    {
+      "id": "agentic-ai",
+      "label": "Agentic AI",
+      "definition": "AI systems designed to plan or perform multi-step actions with a degree of operational autonomy."
+    },
+    {
+      "id": "ai-security",
+      "label": "AI Security",
+      "definition": "Protection of AI systems, models, data, interfaces, and dependent workflows from misuse or compromise."
+    },
+    {
+      "id": "agent-governance",
+      "label": "Agent Governance",
+      "definition": "Responsibilities, controls, permissions, and evidence used to oversee AI agents and their actions."
+    },
+    {
+      "id": "ai-budgeting",
+      "label": "AI Budgeting",
+      "definition": "Planning, allocation, and oversight of spending associated with artificial intelligence programs."
+    },
+    {
+      "id": "ai-marketing",
+      "label": "AI Marketing",
+      "definition": "Use and governance of artificial intelligence in marketing analysis, content, operations, or customer engagement."
+    },
+    {
+      "id": "customer-acquisition",
+      "label": "Customer Acquisition",
+      "definition": "Activities and economics associated with gaining new customers."
+    },
+    {
+      "id": "corporate-strategy",
+      "label": "Corporate Strategy",
+      "definition": "Enterprise-level choices about direction, scope, capabilities, markets, and allocation of resources."
+    },
+    {
+      "id": "leadership",
+      "label": "Leadership",
+      "definition": "Responsibilities and practices associated with directing organizations, teams, or major functions."
+    },
+    {
+      "id": "board-reporting",
+      "label": "Board Reporting",
+      "definition": "Information and evidence prepared to support board oversight and decisions."
+    },
+    {
+      "id": "cybersecurity-leadership",
+      "label": "Cybersecurity Leadership",
+      "definition": "Leadership responsibilities for cybersecurity strategy, risk, resilience, and organizational accountability."
+    },
+    {
+      "id": "finance-leadership",
+      "label": "Finance Leadership",
+      "definition": "Leadership responsibilities for finance strategy, operations, controls, capital, and performance."
+    },
+    {
+      "id": "marketing-leadership",
+      "label": "Marketing Leadership",
+      "definition": "Leadership responsibilities for market strategy, brand, demand, customer acquisition, and marketing performance."
+    },
+    {
+      "id": "gp-lp",
+      "label": "GP/LP",
+      "definition": "The relationship between general partners managing investment funds and limited partners supplying capital."
+    },
+    {
+      "id": "fundraising",
+      "label": "Fundraising",
+      "definition": "Activities undertaken to secure capital for a company, fund, or other organization."
+    },
+    {
+      "id": "exits",
+      "label": "Exits",
+      "definition": "Transactions through which owners realize or transfer an investment, including sales and public offerings."
+    },
+    {
+      "id": "dealmaking",
+      "label": "Dealmaking",
+      "definition": "Sourcing, evaluating, negotiating, and completing investments or corporate transactions."
+    },
+    {
+      "id": "ai-investing",
+      "label": "AI Investing",
+      "definition": "Investment activity focused on artificial intelligence companies, infrastructure, applications, or enabling technologies."
     }
   ],
   "audiences": [
@@ -421,6 +611,31 @@
       "id": "board-members",
       "label": "Board Members",
       "definition": "Directors serving on corporate, nonprofit, or advisory boards."
+    },
+    {
+      "id": "portfolio-executives",
+      "label": "Portfolio Executives",
+      "definition": "Executives working in companies held by private investment organizations."
+    },
+    {
+      "id": "pe-finance-operations-leaders",
+      "label": "PE CFO / COO Leaders",
+      "definition": "Finance and operating executives working in or with private-equity-backed companies."
+    },
+    {
+      "id": "general-partners",
+      "label": "General Partners",
+      "definition": "Investment professionals or organizations responsible for managing a private investment fund."
+    },
+    {
+      "id": "limited-partners",
+      "label": "Limited Partners",
+      "definition": "Investors that commit capital to a private investment fund without managing its daily operations."
+    },
+    {
+      "id": "emerging-managers",
+      "label": "Emerging Managers",
+      "definition": "Investment managers building relatively new firms, funds, or institutional track records."
     }
   ]
 }
