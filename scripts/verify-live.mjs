@@ -28,7 +28,7 @@ const checks=[
  ['entities/ramp.html',html=>html.includes(`<link rel="canonical" href="${base}entities/ramp.html">`)&&html.includes('<h1>Ramp</h1>')],
  ['providers/cfo-technology.html',html=>html.includes('CFO Technology')],['cfo-ecosystem.html',html=>html.includes('CFO Ecosystem')],
  ['intelligence/cfo-technology.html',html=>html.includes('<b>Dataset snapshot:</b>')&&html.includes('Category distribution')],
- ['intelligence/compare-cfo-spend-platforms.html',html=>html.includes('CFO Spend Platforms')],
+ ['intelligence/compare-cfo-spend-platforms.html',html=>html.includes('CFO Spend &amp; Finance Platforms')&&html.includes('<table>')],
  ['intelligence/ai-capability.html',html=>html.includes('AI Capability')],
  ['reports/search-console-handoff.json',text=>JSON.parse(text).submission_status==='not submitted']
 ];
