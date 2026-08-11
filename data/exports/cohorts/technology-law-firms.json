@@ -61,46 +61,130 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_wsgr_emerging_companies_2026",
+          "url": "https://www.wsgr.com/en/services/practice-areas/corporate/emerging-companies.html",
+          "title": "Emerging Companies and Venture Capital",
+          "publisher": "Wilson Sonsini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services",
+            "operating_geographies",
+            "represented_private_companies",
+            "represented_public_companies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "provider_types": [
-        "law-firms"
+      "capabilities": [
+        "emerging companies",
+        "venture capital",
+        "corporate formation",
+        "corporate governance",
+        "data privacy",
+        "cybersecurity",
+        "mergers and acquisitions",
+        "patents and innovations",
+        "tax",
+        "technology transactions",
+        "venture finance",
+        "fund formation",
+        "private equity",
+        "capital markets",
+        "artificial intelligence and machine learning"
       ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "governance",
-        "risk-management",
-        "capital-formation"
+      "services": [
+        "startup legal counsel",
+        "venture financing counsel",
+        "company formation counsel",
+        "technology transactions counsel"
       ],
-      "topics": [
-        "corporate-governance",
-        "venture-capital",
-        "emerging-technology"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.wsgr.com/en/services/index.html",
-          "title": "Wilson Sonsini Services",
-          "supports": [
-            "topics",
-            "executive_needs"
-          ]
-        }
+      "operating_geographies": [
+        "Palo Alto",
+        "San Francisco",
+        "New York",
+        "Boston",
+        "Austin",
+        "Seattle",
+        "London",
+        "Washington DC"
       ],
       "facts": [
+        {
+          "id": "fact-wsgr-private-companies",
+          "field": "represented_private_companies",
+          "value": 3000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ]
+        },
+        {
+          "id": "fact-wsgr-public-companies",
+          "field": "represented_public_companies",
+          "value": 300,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ]
+        },
         {
           "id": "fact_wilson-sonsini-goodrich-rosati_description_law-firm-serving-technology-life-sciences-growth",
           "field": "description",
           "value": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
           "source_ids": [
             "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_startup-legal-counsel",
+          "field": "services",
+          "value": "startup legal counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_venture-financing-counsel",
+          "field": "services",
+          "value": "venture financing counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_company-formation-counsel",
+          "field": "services",
+          "value": "company formation counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_technology-transactions-counsel",
+          "field": "services",
+          "value": "technology transactions counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -139,6 +223,242 @@
             "src_wsgr"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_emerging-companies",
+          "field": "capabilities",
+          "value": "emerging companies",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_venture-capital",
+          "field": "capabilities",
+          "value": "venture capital",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_corporate-formation",
+          "field": "capabilities",
+          "value": "corporate formation",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_data-privacy",
+          "field": "capabilities",
+          "value": "data privacy",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_patents-and-innovations",
+          "field": "capabilities",
+          "value": "patents and innovations",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_tax",
+          "field": "capabilities",
+          "value": "tax",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_venture-finance",
+          "field": "capabilities",
+          "value": "venture finance",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_fund-formation",
+          "field": "capabilities",
+          "value": "fund formation",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_artificial-intelligence-and-machine-learning",
+          "field": "capabilities",
+          "value": "artificial intelligence and machine learning",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_palo-alto",
+          "field": "operating_geographies",
+          "value": "Palo Alto",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_san-francisco",
+          "field": "operating_geographies",
+          "value": "San Francisco",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_new-york",
+          "field": "operating_geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_boston",
+          "field": "operating_geographies",
+          "value": "Boston",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_austin",
+          "field": "operating_geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_seattle",
+          "field": "operating_geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_london",
+          "field": "operating_geographies",
+          "value": "London",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_washington-dc",
+          "field": "operating_geographies",
+          "value": "Washington DC",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Wilson Sonsini Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
         }
       ]
     },
@@ -187,11 +507,56 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_fenwick_corporate_venture_2026",
+          "url": "https://www.fenwick.com/services/practices/corporate-venture",
+          "title": "Corporate Venture",
+          "publisher": "Fenwick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
+        },
+        {
+          "id": "src_fenwick_privacy_cyber_2026",
+          "url": "https://www.fenwick.com/services/practices/privacy-cybersecurity",
+          "title": "Privacy and Cybersecurity",
+          "publisher": "Fenwick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "startup and venture capital",
+        "corporate venture",
+        "mergers and acquisitions",
+        "privacy",
+        "cybersecurity",
+        "artificial intelligence",
+        "machine learning",
+        "technology transactions",
+        "corporate governance",
+        "private equity",
+        "data security",
+        "venture financing"
+      ],
+      "services": [
+        "corporate venture counsel",
+        "privacy compliance",
+        "cybersecurity incident counsel",
+        "technology transactions counsel"
+      ],
+      "products": [],
       "provider_types": [
         "law-firms"
       ],
@@ -231,6 +596,50 @@
           "last_verified": "2026-08-11"
         },
         {
+          "id": "fact_fenwick-west_services_corporate-venture-counsel",
+          "field": "services",
+          "value": "corporate venture counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_privacy-compliance",
+          "field": "services",
+          "value": "privacy compliance",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_cybersecurity-incident-counsel",
+          "field": "services",
+          "value": "cybersecurity incident counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_technology-transactions-counsel",
+          "field": "services",
+          "value": "technology transactions counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
           "id": "fact_fenwick-west_industries_technology",
           "field": "industries",
           "value": "Technology",
@@ -263,6 +672,126 @@
           "value": "Life Sciences",
           "source_ids": [
             "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_startup-and-venture-capital",
+          "field": "capabilities",
+          "value": "startup and venture capital",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_corporate-venture",
+          "field": "capabilities",
+          "value": "corporate venture",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_privacy",
+          "field": "capabilities",
+          "value": "privacy",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_artificial-intelligence",
+          "field": "capabilities",
+          "value": "artificial intelligence",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_machine-learning",
+          "field": "capabilities",
+          "value": "machine learning",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_data-security",
+          "field": "capabilities",
+          "value": "data security",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_venture-financing",
+          "field": "capabilities",
+          "value": "venture financing",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -422,42 +951,66 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_cooley_ai_transactions_2025",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-03-04-cooley-again-ranks-among-top-ai-transactional-firms",
+          "title": "Cooley AI Transactional Activity",
+          "publisher": "Cooley",
+          "source_class": "official company",
+          "published_date": "2025-03-04",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "reported_ai_venture_transactions",
+            "reported_ai_venture_transaction_value"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
-      "provider_types": [
-        "law-firms"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "governance",
-        "risk-management",
-        "capital-formation"
-      ],
-      "topics": [
-        "corporate-governance",
-        "venture-capital",
-        "private-equity",
-        "emerging-technology"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.cooley.com/services",
-          "title": "Cooley Services",
-          "supports": [
-            "topics",
-            "executive_needs"
-          ]
-        }
+      "capabilities": [
+        "artificial intelligence transactions",
+        "venture capital",
+        "emerging companies",
+        "mergers and acquisitions",
+        "private equity",
+        "technology transactions",
+        "company formation",
+        "capital markets",
+        "fund formation",
+        "privacy",
+        "cybersecurity",
+        "intellectual property"
       ],
       "facts": [
+        {
+          "id": "fact-cooley-ai-transactions-2024",
+          "field": "reported_ai_venture_transactions",
+          "value": 450,
+          "operator": ">=",
+          "as_of_date": "2024-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ]
+        },
+        {
+          "id": "fact-cooley-ai-transaction-value-2024",
+          "field": "reported_ai_venture_transaction_value",
+          "value": 17700000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2024-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ]
+        },
         {
           "id": "fact_cooley_description_law-firm-with-documented-practices-serving-compa",
           "field": "description",
@@ -538,6 +1091,144 @@
             "src_cooley_services"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_artificial-intelligence-transactions",
+          "field": "capabilities",
+          "value": "artificial intelligence transactions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_venture-capital",
+          "field": "capabilities",
+          "value": "venture capital",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_emerging-companies",
+          "field": "capabilities",
+          "value": "emerging companies",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_company-formation",
+          "field": "capabilities",
+          "value": "company formation",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_fund-formation",
+          "field": "capabilities",
+          "value": "fund formation",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_privacy",
+          "field": "capabilities",
+          "value": "privacy",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_intellectual-property",
+          "field": "capabilities",
+          "value": "intellectual property",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "private-equity",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cooley.com/services",
+          "title": "Cooley Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
         }
       ]
     },
@@ -968,6 +1659,103 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-orrick-tech-companies-2026",
+          "field": "technology_companies_advised",
+          "value": 5000,
+          "qualifier": "nearly",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-unicorns-2026",
+          "field": "unicorn_companies_advised",
+          "value": 100,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-investors-2026",
+          "field": "investors_advised",
+          "value": 400,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-vc-value-2023-2025",
+          "field": "venture_financing_value",
+          "value": 157000000000,
+          "currency": "USD",
+          "period_start": "2023-01-01",
+          "period_end": "2025-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-vc-count-2023-2025",
+          "field": "venture_financing_count",
+          "value": 3000,
+          "qualifier": "approximately",
+          "period_start": "2023-01-01",
+          "period_end": "2025-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-tech-lawyers-2026",
+          "field": "technology_company_lawyers",
+          "value": 150,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-markets-2026",
+          "field": "technology_markets",
+          "value": 20,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-countries-2026",
+          "field": "countries_of_client_activity",
+          "value": 70,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
           "id": "fact_orrick_identity_orrick",
           "field": "identity",
           "value": "Orrick",
@@ -1038,6 +1826,294 @@
             "src_orrick_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_technology-company-counsel",
+          "field": "services",
+          "value": "technology-company counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_venture-financing-counsel",
+          "field": "services",
+          "value": "venture financing counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_intellectual-property-counsel",
+          "field": "services",
+          "value": "intellectual-property counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_talent-counsel",
+          "field": "services",
+          "value": "talent counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_data-privacy-counsel",
+          "field": "services",
+          "value": "data-privacy counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_public-policy-counsel",
+          "field": "services",
+          "value": "public-policy counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_corporate-governance-counsel",
+          "field": "services",
+          "value": "corporate-governance counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_mergers-and-acquisitions-counsel",
+          "field": "services",
+          "value": "mergers and acquisitions counsel",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_company-formation",
+          "field": "capabilities",
+          "value": "company formation",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_venture-financing",
+          "field": "capabilities",
+          "value": "venture financing",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_intellectual-property",
+          "field": "capabilities",
+          "value": "intellectual property",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_employment-and-executive-compensation",
+          "field": "capabilities",
+          "value": "employment and executive compensation",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_data-privacy",
+          "field": "capabilities",
+          "value": "data privacy",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_public-policy",
+          "field": "capabilities",
+          "value": "public policy",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_artificial-intelligence",
+          "field": "capabilities",
+          "value": "artificial intelligence",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_fintech",
+          "field": "capabilities",
+          "value": "fintech",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_healthtech",
+          "field": "capabilities",
+          "value": "healthtech",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_consumer-technology",
+          "field": "capabilities",
+          "value": "consumer technology",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_enterprise-software",
+          "field": "capabilities",
+          "value": "enterprise software",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_mobility",
+          "field": "capabilities",
+          "value": "mobility",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_energy-technology",
+          "field": "capabilities",
+          "value": "energy technology",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_united-states",
+          "field": "operating_geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_europe",
+          "field": "operating_geographies",
+          "value": "Europe",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_asia",
+          "field": "operating_geographies",
+          "value": "Asia",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_africa",
+          "field": "operating_geographies",
+          "value": "Africa",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_latin-america",
+          "field": "operating_geographies",
+          "value": "Latin America",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_middle-east",
+          "field": "operating_geographies",
+          "value": "Middle East",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1058,11 +2134,71 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_orrick_technology_2026",
+          "url": "https://www.orrick.com/en/Practices/Technology-Companies-Group",
+          "title": "Technology Companies Group",
+          "publisher": "Orrick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "capabilities",
+            "operating_geographies",
+            "technology_companies_advised",
+            "unicorn_companies_advised",
+            "investors_advised",
+            "venture_financing_value",
+            "venture_financing_count",
+            "technology_company_lawyers",
+            "technology_markets",
+            "countries_of_client_activity"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "technology-company counsel",
+        "venture financing counsel",
+        "intellectual-property counsel",
+        "talent counsel",
+        "data-privacy counsel",
+        "public-policy counsel",
+        "corporate-governance counsel",
+        "mergers and acquisitions counsel"
+      ],
+      "capabilities": [
+        "company formation",
+        "venture financing",
+        "capital markets",
+        "corporate governance",
+        "mergers and acquisitions",
+        "intellectual property",
+        "technology transactions",
+        "employment and executive compensation",
+        "data privacy",
+        "cybersecurity",
+        "public policy",
+        "artificial intelligence",
+        "fintech",
+        "healthtech",
+        "consumer technology",
+        "enterprise software",
+        "mobility",
+        "energy technology"
+      ],
+      "operating_geographies": [
+        "United States",
+        "Europe",
+        "Asia",
+        "Africa",
+        "Latin America",
+        "Middle East"
+      ],
+      "products": [],
       "provider_types": [
         "law-firms"
       ],

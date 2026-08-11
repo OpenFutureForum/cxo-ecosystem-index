@@ -679,6 +679,240 @@
             "src_agentic_fabriq_yc"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-identity-management",
+          "field": "capabilities",
+          "value": "agent identity management",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_delegated-user-identity",
+          "field": "capabilities",
+          "value": "delegated user identity",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_fine-grained-agent-authorization",
+          "field": "capabilities",
+          "value": "fine-grained agent authorization",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_resource-level-permission-policies",
+          "field": "capabilities",
+          "value": "resource-level permission policies",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_real-time-policy-enforcement",
+          "field": "capabilities",
+          "value": "real-time policy enforcement",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_credential-vault",
+          "field": "capabilities",
+          "value": "credential vault",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_token-exchange",
+          "field": "capabilities",
+          "value": "token exchange",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_authentication-verification",
+          "field": "capabilities",
+          "value": "authentication verification",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_real-time-activity-monitoring",
+          "field": "capabilities",
+          "value": "real-time activity monitoring",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_immutable-audit-logs",
+          "field": "capabilities",
+          "value": "immutable audit logs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_incident-tracing",
+          "field": "capabilities",
+          "value": "incident tracing",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-sdks",
+          "field": "capabilities",
+          "value": "agent SDKs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_rest-apis",
+          "field": "capabilities",
+          "value": "REST APIs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_mcp-integration",
+          "field": "capabilities",
+          "value": "MCP integration",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_identity-provider-integration",
+          "field": "capabilities",
+          "value": "identity-provider integration",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-lifecycle-management",
+          "field": "capabilities",
+          "value": "agent lifecycle management",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_gmail",
+          "field": "integrations",
+          "value": "Gmail",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-drive",
+          "field": "integrations",
+          "value": "Google Drive",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-calendar",
+          "field": "integrations",
+          "value": "Google Calendar",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-meet",
+          "field": "integrations",
+          "value": "Google Meet",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_slack",
+          "field": "integrations",
+          "value": "Slack",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_github",
+          "field": "integrations",
+          "value": "GitHub",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_notion",
+          "field": "integrations",
+          "value": "Notion",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_microsoft-teams",
+          "field": "integrations",
+          "value": "Microsoft Teams",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_onedrive",
+          "field": "integrations",
+          "value": "OneDrive",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_microsoft-365",
+          "field": "integrations",
+          "value": "Microsoft 365",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -714,6 +948,18 @@
             "accelerator_batch",
             "entity_status"
           ]
+        },
+        {
+          "id": "src_agentic_fabriq_product_2026",
+          "url": "https://www.agenticfabriq.com/what-is-agentic-fabriq",
+          "title": "Identity and Permissioning for AI Agents",
+          "publisher": "Agentic Fabriq",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "integrations"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -724,6 +970,36 @@
       "founders": [
         "Paulina Xu",
         "Matthew Xu"
+      ],
+      "capabilities": [
+        "agent identity management",
+        "delegated user identity",
+        "fine-grained agent authorization",
+        "resource-level permission policies",
+        "real-time policy enforcement",
+        "credential vault",
+        "token exchange",
+        "authentication verification",
+        "real-time activity monitoring",
+        "immutable audit logs",
+        "incident tracing",
+        "agent SDKs",
+        "REST APIs",
+        "MCP integration",
+        "identity-provider integration",
+        "agent lifecycle management"
+      ],
+      "integrations": [
+        "Gmail",
+        "Google Drive",
+        "Google Calendar",
+        "Google Meet",
+        "Slack",
+        "GitHub",
+        "Notion",
+        "Microsoft Teams",
+        "OneDrive",
+        "Microsoft 365"
       ],
       "services": [],
       "products": [],
@@ -1162,6 +1438,186 @@
             "src_tenet-security_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_ai-agent-discovery",
+          "field": "capabilities",
+          "value": "AI-agent discovery",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_agent-runtime-visibility",
+          "field": "capabilities",
+          "value": "agent runtime visibility",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_prompt-injection-detection",
+          "field": "capabilities",
+          "value": "prompt-injection detection",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_prompt-injection-blocking",
+          "field": "capabilities",
+          "value": "prompt-injection blocking",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_tool-abuse-detection",
+          "field": "capabilities",
+          "value": "tool-abuse detection",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_privilege-escalation-protection",
+          "field": "capabilities",
+          "value": "privilege-escalation protection",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_agent-hijacking-protection",
+          "field": "capabilities",
+          "value": "agent-hijacking protection",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_session-reconstruction",
+          "field": "capabilities",
+          "value": "session reconstruction",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_forensic-investigation",
+          "field": "capabilities",
+          "value": "forensic investigation",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_agent-red-teaming",
+          "field": "capabilities",
+          "value": "agent red teaming",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_owasp-agent-testing",
+          "field": "capabilities",
+          "value": "OWASP agent testing",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_mitre-atlas-testing",
+          "field": "capabilities",
+          "value": "MITRE ATLAS testing",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_nist-ai-rmf-support",
+          "field": "capabilities",
+          "value": "NIST AI RMF support",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_eu-ai-act-support",
+          "field": "capabilities",
+          "value": "EU AI Act support",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_cloud-agent-security",
+          "field": "capabilities",
+          "value": "cloud-agent security",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_capabilities_endpoint-agent-security",
+          "field": "capabilities",
+          "value": "endpoint-agent security",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_services_agent-risk-assessment",
+          "field": "services",
+          "value": "agent risk assessment",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_services_runtime-agent-defense",
+          "field": "services",
+          "value": "runtime agent defense",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_services_agent-validation",
+          "field": "services",
+          "value": "agent validation",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_services_security-stack-integration",
+          "field": "services",
+          "value": "security-stack integration",
+          "source_ids": [
+            "src_tenet_how_it_works_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1182,11 +1638,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_tenet_how_it_works_2026",
+          "url": "https://tenetsecurity.ai/how-it-works/",
+          "title": "Preemptive Agent Defense",
+          "publisher": "Tenet Security",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "AI-agent discovery",
+        "agent runtime visibility",
+        "prompt-injection detection",
+        "prompt-injection blocking",
+        "tool-abuse detection",
+        "privilege-escalation protection",
+        "agent-hijacking protection",
+        "session reconstruction",
+        "forensic investigation",
+        "agent red teaming",
+        "OWASP agent testing",
+        "MITRE ATLAS testing",
+        "NIST AI RMF support",
+        "EU AI Act support",
+        "cloud-agent security",
+        "endpoint-agent security"
+      ],
+      "services": [
+        "agent risk assessment",
+        "runtime agent defense",
+        "agent validation",
+        "security-stack integration"
+      ],
+      "products": [],
       "provider_types": [
         "ai-security",
         "runtime-security",
@@ -1226,6 +1719,17 @@
       "relationship_notes": null,
       "editorial_priority": "B",
       "facts": [
+        {
+          "id": "fact-aegis-api-integration",
+          "field": "claimed_api_integration_minutes",
+          "value": 5,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ]
+        },
         {
           "id": "fact_aegisai_identity_aegisai",
           "field": "identity",
@@ -1297,6 +1801,168 @@
             "src_aegisai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_ai-native-email-security",
+          "field": "capabilities",
+          "value": "AI-native email security",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_agentic-threat-detection",
+          "field": "capabilities",
+          "value": "agentic threat detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_phishing-detection",
+          "field": "capabilities",
+          "value": "phishing detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_business-email-compromise-detection",
+          "field": "capabilities",
+          "value": "business-email-compromise detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_zero-day-email-detection",
+          "field": "capabilities",
+          "value": "zero-day email detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_api-deployment",
+          "field": "capabilities",
+          "value": "API deployment",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_google-workspace-integration",
+          "field": "capabilities",
+          "value": "Google Workspace integration",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_microsoft-365-integration",
+          "field": "capabilities",
+          "value": "Microsoft 365 integration",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_automated-response",
+          "field": "capabilities",
+          "value": "automated response",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_llm-based-detection",
+          "field": "capabilities",
+          "value": "LLM-based detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_self-learning-detection",
+          "field": "capabilities",
+          "value": "self-learning detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_vip-threat-visibility",
+          "field": "capabilities",
+          "value": "VIP threat visibility",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_role-based-threat-visibility",
+          "field": "capabilities",
+          "value": "role-based threat visibility",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_executive-reporting",
+          "field": "capabilities",
+          "value": "executive reporting",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_capabilities_multi-agent-detection",
+          "field": "capabilities",
+          "value": "multi-agent detection",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_services_automated-email-security",
+          "field": "services",
+          "value": "automated email security",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_services_incident-response",
+          "field": "services",
+          "value": "incident response",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_services_email-threat-reporting",
+          "field": "services",
+          "value": "email threat reporting",
+          "source_ids": [
+            "src_aegisai_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1317,11 +1983,47 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_aegisai_product_2026",
+          "url": "https://www.aegisai.ai/",
+          "title": "AI-native Email Security",
+          "publisher": "AegisAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services",
+            "claimed_api_integration_minutes"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "AI-native email security",
+        "agentic threat detection",
+        "phishing detection",
+        "business-email-compromise detection",
+        "zero-day email detection",
+        "API deployment",
+        "Google Workspace integration",
+        "Microsoft 365 integration",
+        "automated response",
+        "LLM-based detection",
+        "self-learning detection",
+        "VIP threat visibility",
+        "role-based threat visibility",
+        "executive reporting",
+        "multi-agent detection"
+      ],
+      "services": [
+        "automated email security",
+        "incident response",
+        "email threat reporting"
+      ],
+      "products": [],
       "provider_types": [
         "email-security",
         "ai-security",

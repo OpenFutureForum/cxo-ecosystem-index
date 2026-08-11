@@ -60,11 +60,41 @@
             "services",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_korn_ferry_assessment_2026",
+          "url": "https://www.kornferry.com/capabilities/assessment-succession/professional-leadership-assessment",
+          "title": "Leadership and Professional Assessments",
+          "publisher": "Korn Ferry",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "leadership assessment",
+        "professional assessment",
+        "success profiles",
+        "talent benchmarking",
+        "executive search",
+        "CEO selection",
+        "executive onboarding",
+        "leadership development",
+        "professional development",
+        "executive coaching",
+        "talent-gap analysis",
+        "leadership-potential analysis",
+        "performance assessment",
+        "readiness assessment",
+        "organizational transformation"
+      ],
+      "services": [],
+      "products": [],
       "provider_types": [
         "executive-search",
         "consulting",
@@ -196,6 +226,141 @@
             "src_korn_ferry"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_leadership-assessment",
+          "field": "capabilities",
+          "value": "leadership assessment",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_professional-assessment",
+          "field": "capabilities",
+          "value": "professional assessment",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_success-profiles",
+          "field": "capabilities",
+          "value": "success profiles",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_talent-benchmarking",
+          "field": "capabilities",
+          "value": "talent benchmarking",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_executive-search",
+          "field": "capabilities",
+          "value": "executive search",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_ceo-selection",
+          "field": "capabilities",
+          "value": "CEO selection",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_executive-onboarding",
+          "field": "capabilities",
+          "value": "executive onboarding",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_leadership-development",
+          "field": "capabilities",
+          "value": "leadership development",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_professional-development",
+          "field": "capabilities",
+          "value": "professional development",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_executive-coaching",
+          "field": "capabilities",
+          "value": "executive coaching",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_talent-gap-analysis",
+          "field": "capabilities",
+          "value": "talent-gap analysis",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_leadership-potential-analysis",
+          "field": "capabilities",
+          "value": "leadership-potential analysis",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_performance-assessment",
+          "field": "capabilities",
+          "value": "performance assessment",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_readiness-assessment",
+          "field": "capabilities",
+          "value": "readiness assessment",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_capabilities_organizational-transformation",
+          "field": "capabilities",
+          "value": "organizational transformation",
+          "source_ids": [
+            "src_korn_ferry_assessment_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ]
     },
@@ -244,11 +409,47 @@
             "description",
             "services"
           ]
+        },
+        {
+          "id": "src_rra_ceo_succession_2026",
+          "url": "https://www.russellreynolds.com/en/expertise/functions/boards/ceo-succession",
+          "title": "CEO Succession",
+          "publisher": "Russell Reynolds Associates",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "board search",
+        "CEO search",
+        "executive search",
+        "board succession",
+        "CEO succession",
+        "C-suite succession",
+        "assessment and benchmarking",
+        "executive development",
+        "executive transition",
+        "team performance",
+        "executive mentoring",
+        "board composition",
+        "board effectiveness",
+        "AI and technology leadership",
+        "leadership analytics"
+      ],
+      "services": [
+        "succession advisory",
+        "leadership performance",
+        "board advisory",
+        "executive research"
+      ],
+      "products": [],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -287,6 +488,181 @@
           "value": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
           "source_ids": [
             "src_rra"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_succession-advisory",
+          "field": "services",
+          "value": "succession advisory",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_leadership-performance",
+          "field": "services",
+          "value": "leadership performance",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_board-advisory",
+          "field": "services",
+          "value": "board advisory",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_executive-research",
+          "field": "services",
+          "value": "executive research",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-search",
+          "field": "capabilities",
+          "value": "board search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ceo-search",
+          "field": "capabilities",
+          "value": "CEO search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-search",
+          "field": "capabilities",
+          "value": "executive search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-succession",
+          "field": "capabilities",
+          "value": "board succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ceo-succession",
+          "field": "capabilities",
+          "value": "CEO succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_c-suite-succession",
+          "field": "capabilities",
+          "value": "C-suite succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_assessment-and-benchmarking",
+          "field": "capabilities",
+          "value": "assessment and benchmarking",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-development",
+          "field": "capabilities",
+          "value": "executive development",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-transition",
+          "field": "capabilities",
+          "value": "executive transition",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_team-performance",
+          "field": "capabilities",
+          "value": "team performance",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-mentoring",
+          "field": "capabilities",
+          "value": "executive mentoring",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-composition",
+          "field": "capabilities",
+          "value": "board composition",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-effectiveness",
+          "field": "capabilities",
+          "value": "board effectiveness",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ai-and-technology-leadership",
+          "field": "capabilities",
+          "value": "AI and technology leadership",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_leadership-analytics",
+          "field": "capabilities",
+          "value": "leadership analytics",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -434,7 +810,9 @@
         "executive search",
         "board advisory",
         "leadership advisory",
-        "succession planning"
+        "succession planning",
+        "research and insight",
+        "global executive search"
       ],
       "inclusion_basis": [
         "provides documented executive search and board advisory services"
@@ -452,12 +830,42 @@
             "services",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_spencer_stuart_capabilities_2026",
+          "url": "https://www.spencerstuart.com/",
+          "title": "Executive Search, Board and Leadership Consulting",
+          "publisher": "Spencer Stuart",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "capabilities": [
+        "executive search",
+        "board and CEO advisory",
+        "CEO succession planning",
+        "executive assessment",
+        "leadership consulting",
+        "HR and talent advisory",
+        "AI leadership",
+        "CEO performance acceleration",
+        "board governance research",
+        "private equity leadership",
+        "technology leadership",
+        "financial officer search",
+        "marketing officer search",
+        "legal and compliance officer search",
+        "operations officer search"
+      ],
+      "products": [],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -504,7 +912,8 @@
           "field": "services",
           "value": "executive search",
           "source_ids": [
-            "src_spencer_services"
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -513,7 +922,8 @@
           "field": "services",
           "value": "board advisory",
           "source_ids": [
-            "src_spencer_services"
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -522,7 +932,8 @@
           "field": "services",
           "value": "leadership advisory",
           "source_ids": [
-            "src_spencer_services"
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -531,7 +942,28 @@
           "field": "services",
           "value": "succession planning",
           "source_ids": [
-            "src_spencer_services"
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_research-and-insight",
+          "field": "services",
+          "value": "research and insight",
+          "source_ids": [
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_global-executive-search",
+          "field": "services",
+          "value": "global executive search",
+          "source_ids": [
+            "src_spencer_services",
+            "src_spencer_stuart_capabilities_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -633,6 +1065,141 @@
             "src_spencer_services"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_executive-search",
+          "field": "capabilities",
+          "value": "executive search",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_board-and-ceo-advisory",
+          "field": "capabilities",
+          "value": "board and CEO advisory",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_ceo-succession-planning",
+          "field": "capabilities",
+          "value": "CEO succession planning",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_executive-assessment",
+          "field": "capabilities",
+          "value": "executive assessment",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_leadership-consulting",
+          "field": "capabilities",
+          "value": "leadership consulting",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_hr-and-talent-advisory",
+          "field": "capabilities",
+          "value": "HR and talent advisory",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_ai-leadership",
+          "field": "capabilities",
+          "value": "AI leadership",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_ceo-performance-acceleration",
+          "field": "capabilities",
+          "value": "CEO performance acceleration",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_board-governance-research",
+          "field": "capabilities",
+          "value": "board governance research",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_private-equity-leadership",
+          "field": "capabilities",
+          "value": "private equity leadership",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_technology-leadership",
+          "field": "capabilities",
+          "value": "technology leadership",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_financial-officer-search",
+          "field": "capabilities",
+          "value": "financial officer search",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_marketing-officer-search",
+          "field": "capabilities",
+          "value": "marketing officer search",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_legal-and-compliance-officer-search",
+          "field": "capabilities",
+          "value": "legal and compliance officer search",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_capabilities_operations-officer-search",
+          "field": "capabilities",
+          "value": "operations officer search",
+          "source_ids": [
+            "src_spencer_stuart_capabilities_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ]
     },
@@ -652,7 +1219,20 @@
         "Executive Search",
         "Consulting"
       ],
-      "industries": [],
+      "industries": [
+        "consumer",
+        "education",
+        "nonprofit and social impact",
+        "financial services",
+        "healthcare and life sciences",
+        "industrial",
+        "media and entertainment",
+        "private equity",
+        "professional and technology services",
+        "real estate",
+        "sports music and entertainment",
+        "technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -663,6 +1243,18 @@
       "relationship_notes": null,
       "editorial_priority": "A",
       "facts": [
+        {
+          "id": "fact-zrg-country-reach-2026",
+          "field": "countries_served",
+          "value": 35,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ]
+        },
         {
           "id": "fact_zrg_identity_zrg",
           "field": "identity",
@@ -743,6 +1335,384 @@
             "src_zrg_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_executive-search",
+          "field": "services",
+          "value": "executive search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_interim-solutions",
+          "field": "services",
+          "value": "interim solutions",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_project-consulting",
+          "field": "services",
+          "value": "project consulting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_fractional-talent",
+          "field": "services",
+          "value": "fractional talent",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_full-time-talent",
+          "field": "services",
+          "value": "full-time talent",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_strategic-finance-support",
+          "field": "services",
+          "value": "strategic finance support",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_consulting-solutions",
+          "field": "services",
+          "value": "consulting solutions",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_services_embedded-recruiting",
+          "field": "services",
+          "value": "embedded recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_executive-assessment",
+          "field": "capabilities",
+          "value": "executive assessment",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_business-acceleration",
+          "field": "capabilities",
+          "value": "business acceleration",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_culture-consulting",
+          "field": "capabilities",
+          "value": "culture consulting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_executive-coaching",
+          "field": "capabilities",
+          "value": "executive coaching",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_leadership-coaching",
+          "field": "capabilities",
+          "value": "leadership coaching",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_leadership-development",
+          "field": "capabilities",
+          "value": "leadership development",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_outplacement",
+          "field": "capabilities",
+          "value": "outplacement",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_career-transition",
+          "field": "capabilities",
+          "value": "career transition",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_blended-recruiting",
+          "field": "capabilities",
+          "value": "blended recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_diversity-recruiting",
+          "field": "capabilities",
+          "value": "diversity recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_enterprise-recruiting",
+          "field": "capabilities",
+          "value": "enterprise recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_multi-country-recruiting",
+          "field": "capabilities",
+          "value": "multi-country recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_on-demand-recruiting",
+          "field": "capabilities",
+          "value": "on-demand recruiting",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_board-services",
+          "field": "capabilities",
+          "value": "board services",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_financial-officer-search",
+          "field": "capabilities",
+          "value": "financial-officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_human-resources-officer-search",
+          "field": "capabilities",
+          "value": "human-resources-officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_digital-and-technology-officer-search",
+          "field": "capabilities",
+          "value": "digital and technology officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_legal-officer-search",
+          "field": "capabilities",
+          "value": "legal officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_marketing-and-sales-officer-search",
+          "field": "capabilities",
+          "value": "marketing and sales officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_risk-and-compliance-officer-search",
+          "field": "capabilities",
+          "value": "risk and compliance officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_strategy-and-transformation-officer-search",
+          "field": "capabilities",
+          "value": "strategy and transformation officer search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_capabilities_supply-chain-and-operations-search",
+          "field": "capabilities",
+          "value": "supply-chain and operations search",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_consumer",
+          "field": "industries",
+          "value": "consumer",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_education",
+          "field": "industries",
+          "value": "education",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_nonprofit-and-social-impact",
+          "field": "industries",
+          "value": "nonprofit and social impact",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_financial-services",
+          "field": "industries",
+          "value": "financial services",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_healthcare-and-life-sciences",
+          "field": "industries",
+          "value": "healthcare and life sciences",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_industrial",
+          "field": "industries",
+          "value": "industrial",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_media-and-entertainment",
+          "field": "industries",
+          "value": "media and entertainment",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_private-equity",
+          "field": "industries",
+          "value": "private equity",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_professional-and-technology-services",
+          "field": "industries",
+          "value": "professional and technology services",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_real-estate",
+          "field": "industries",
+          "value": "real estate",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_sports-music-and-entertainment",
+          "field": "industries",
+          "value": "sports music and entertainment",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_industries_technology",
+          "field": "industries",
+          "value": "technology",
+          "source_ids": [
+            "src_zrg_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -764,11 +1734,60 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_zrg_home_2026",
+          "url": "https://www.zrgpartners.com/",
+          "title": "ZRG Global Talent Advisory",
+          "publisher": "ZRG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "capabilities",
+            "industries",
+            "countries_served"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "executive search",
+        "interim solutions",
+        "project consulting",
+        "fractional talent",
+        "full-time talent",
+        "strategic finance support",
+        "consulting solutions",
+        "embedded recruiting"
+      ],
+      "capabilities": [
+        "executive assessment",
+        "business acceleration",
+        "culture consulting",
+        "executive coaching",
+        "leadership coaching",
+        "leadership development",
+        "outplacement",
+        "career transition",
+        "blended recruiting",
+        "diversity recruiting",
+        "enterprise recruiting",
+        "multi-country recruiting",
+        "on-demand recruiting",
+        "board services",
+        "financial-officer search",
+        "human-resources-officer search",
+        "digital and technology officer search",
+        "legal officer search",
+        "marketing and sales officer search",
+        "risk and compliance officer search",
+        "strategy and transformation officer search",
+        "supply-chain and operations search"
+      ],
+      "products": [],
       "provider_types": [
         "executive-search",
         "consulting"

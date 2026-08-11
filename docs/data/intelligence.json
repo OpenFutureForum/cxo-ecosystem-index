@@ -436,22 +436,36 @@
         {
           "id": "venture-startup",
           "name": "Venture & Startup",
-          "count": 3,
-          "share": 0.3333,
+          "count": 4,
+          "share": 0.4444,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
-            "ent_cooley"
+            "ent_cooley",
+            "ent_orrick"
           ]
         },
         {
           "id": "m-a",
           "name": "M&A",
+          "count": 5,
+          "share": 0.5556,
+          "entity_ids": [
+            "ent_wilson_sonsini",
+            "ent_fenwick_west",
+            "ent_cooley",
+            "ent_foley_lardner",
+            "ent_orrick"
+          ]
+        },
+        {
+          "id": "cybersecurity-privacy",
+          "name": "Cybersecurity & Privacy",
           "count": 2,
           "share": 0.2222,
           "entity_ids": [
-            "ent_cooley",
-            "ent_foley_lardner"
+            "ent_fenwick_west",
+            "ent_orrick"
           ]
         },
         {
@@ -470,13 +484,14 @@
         {
           "id": "governance",
           "name": "Governance",
-          "count": 4,
-          "share": 0.4444,
+          "count": 5,
+          "share": 0.5556,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_latham_watkins",
-            "ent_cooley"
+            "ent_cooley",
+            "ent_orrick"
           ]
         }
       ],
@@ -1031,7 +1046,7 @@
             "ent_ramp": "Verified",
             "ent_brex": "Not verified",
             "ent_coupa": "Verified",
-            "ent_bill": "Not verified"
+            "ent_bill": "Verified"
           }
         },
         {
@@ -1129,8 +1144,8 @@
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
             "ent_blackline": "Verified",
-            "ent_puzzle": "Not verified",
-            "ent_rillet": "Not verified",
+            "ent_puzzle": "Verified",
+            "ent_rillet": "Verified",
             "ent_xero": "Not verified",
             "ent_intuit": "Not verified",
             "ent_pilot": "Not verified"
@@ -1171,7 +1186,7 @@
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
             "ent_blackline": "Verified",
-            "ent_puzzle": "Not verified",
+            "ent_puzzle": "Verified",
             "ent_rillet": "Not verified",
             "ent_xero": "Not verified",
             "ent_intuit": "Not verified",
@@ -1290,7 +1305,7 @@
           "values": {
             "ent_vistage": "Not verified",
             "ent_young_presidents_organization": "Verified",
-            "ent_entrepreneurs_organization": "Not verified",
+            "ent_entrepreneurs_organization": "Verified",
             "ent_chief": "Verified",
             "ent_open_future_forum": "Verified"
           }
@@ -1303,7 +1318,7 @@
           "values": {
             "ent_vistage": "Not verified",
             "ent_young_presidents_organization": "Not verified",
-            "ent_entrepreneurs_organization": "Not verified",
+            "ent_entrepreneurs_organization": "Verified",
             "ent_chief": "Not verified",
             "ent_open_future_forum": "Verified"
           }
@@ -1624,7 +1639,7 @@
             "ent_cooley": "Verified",
             "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
-            "ent_orrick": "Not verified",
+            "ent_orrick": "Verified",
             "ent_dla_piper": "Not verified"
           }
         },
@@ -1678,9 +1693,9 @@
           "values": {
             "ent_wilson_sonsini": "Not verified",
             "ent_cooley": "Not verified",
-            "ent_fenwick_west": "Not verified",
+            "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
-            "ent_orrick": "Not verified",
+            "ent_orrick": "Verified",
             "ent_dla_piper": "Not verified"
           }
         },
@@ -4020,14 +4035,14 @@
       "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
-      "total_facts": 1380,
-      "average_facts_per_entity": 7.11,
-      "median_facts_per_entity": 7,
-      "entities_with_3_plus": 176,
-      "entities_with_5_plus": 167,
-      "entities_with_10_plus": 19,
-      "entities_with_20_plus": 2,
-      "entities_needing_enrichment": 27,
+      "total_facts": 2068,
+      "average_facts_per_entity": 10.66,
+      "median_facts_per_entity": 8,
+      "entities_with_3_plus": 178,
+      "entities_with_5_plus": 169,
+      "entities_with_10_plus": 36,
+      "entities_with_20_plus": 24,
+      "entities_needing_enrichment": 25,
       "verified_entities": 192,
       "verified_within_12_months": 194,
       "missing_headquarters": 191,
@@ -4035,27 +4050,27 @@
       "conflicting_facts": 0,
       "stale_facts": 0,
       "primary_source_entities": 194,
-      "volatile_facts_with_as_of_date": 14,
+      "volatile_facts_with_as_of_date": 58,
       "fact_distribution": [
         [
           "0–2",
-          18
+          16
         ],
         [
           "3–5",
-          18
+          16
         ],
         [
           "6–10",
-          144
+          131
         ],
         [
           "11–20",
-          12
+          9
         ],
         [
           "20+",
-          2
+          24
         ]
       ],
       "source_fields": [

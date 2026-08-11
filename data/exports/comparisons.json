@@ -108,7 +108,7 @@
             "ent_ramp": "Verified",
             "ent_brex": "Not verified",
             "ent_coupa": "Verified",
-            "ent_bill": "Not verified"
+            "ent_bill": "Verified"
           }
         },
         {
@@ -206,8 +206,8 @@
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
             "ent_blackline": "Verified",
-            "ent_puzzle": "Not verified",
-            "ent_rillet": "Not verified",
+            "ent_puzzle": "Verified",
+            "ent_rillet": "Verified",
             "ent_xero": "Not verified",
             "ent_intuit": "Not verified",
             "ent_pilot": "Not verified"
@@ -248,7 +248,7 @@
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
             "ent_blackline": "Verified",
-            "ent_puzzle": "Not verified",
+            "ent_puzzle": "Verified",
             "ent_rillet": "Not verified",
             "ent_xero": "Not verified",
             "ent_intuit": "Not verified",
@@ -367,7 +367,7 @@
           "values": {
             "ent_vistage": "Not verified",
             "ent_young_presidents_organization": "Verified",
-            "ent_entrepreneurs_organization": "Not verified",
+            "ent_entrepreneurs_organization": "Verified",
             "ent_chief": "Verified",
             "ent_open_future_forum": "Verified"
           }
@@ -380,7 +380,7 @@
           "values": {
             "ent_vistage": "Not verified",
             "ent_young_presidents_organization": "Not verified",
-            "ent_entrepreneurs_organization": "Not verified",
+            "ent_entrepreneurs_organization": "Verified",
             "ent_chief": "Not verified",
             "ent_open_future_forum": "Verified"
           }
@@ -701,7 +701,7 @@
             "ent_cooley": "Verified",
             "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
-            "ent_orrick": "Not verified",
+            "ent_orrick": "Verified",
             "ent_dla_piper": "Not verified"
           }
         },
@@ -755,9 +755,9 @@
           "values": {
             "ent_wilson_sonsini": "Not verified",
             "ent_cooley": "Not verified",
-            "ent_fenwick_west": "Not verified",
+            "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
-            "ent_orrick": "Not verified",
+            "ent_orrick": "Verified",
             "ent_dla_piper": "Not verified"
           }
         },

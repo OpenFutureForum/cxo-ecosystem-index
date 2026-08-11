@@ -158,6 +158,27 @@
       ]
     },
     {
+      "id": "src_aegisai_product_2026",
+      "url": "https://www.aegisai.ai/",
+      "title": "AI-native Email Security",
+      "publisher": "AegisAI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_aegisai"
+      ],
+      "alias_source_ids": [
+        "src_aegisai_product_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services",
+        "claimed_api_integration_minutes"
+      ]
+    },
+    {
       "id": "src_affirm_official",
       "url": "https://www.affirm.com/",
       "title": "Affirm official website",
@@ -178,6 +199,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_agentic_fabriq_product_2026",
+      "url": "https://www.agenticfabriq.com/what-is-agentic-fabriq",
+      "title": "Identity and Permissioning for AI Agents",
+      "publisher": "Agentic Fabriq",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_agentic_fabriq"
+      ],
+      "alias_source_ids": [
+        "src_agentic_fabriq_product_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "integrations"
       ]
     },
     {
@@ -618,6 +659,30 @@
       ]
     },
     {
+      "id": "src_bill_ai_2026",
+      "url": "https://www.bill.com/product/ai",
+      "title": "BILL AI Agents for Financial Operations",
+      "publisher": "BILL",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bill"
+      ],
+      "alias_source_ids": [
+        "src_bill_ai_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "capabilities",
+        "integrations",
+        "customer_segments",
+        "countries_supported"
+      ]
+    },
+    {
       "id": "src_bill_official",
       "url": "https://www.bill.com/",
       "title": "BILL official website",
@@ -692,14 +757,19 @@
         "ent_blackline"
       ],
       "alias_source_ids": [
-        "src_blackline_official"
+        "src_blackline_official",
+        "src_blackline_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "capabilities",
+        "customer_segments",
+        "customer_count"
       ]
     },
     {
@@ -744,6 +814,29 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_bmo_technology_2026",
+      "url": "https://commercial.bmo.com/en/ca/industry-expertise/technology/",
+      "title": "BMO Technology Banking",
+      "publisher": "BMO",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bmo"
+      ],
+      "alias_source_ids": [
+        "src_bmo_technology_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "operating_geographies",
+        "technology_credit_exposure",
+        "technology_client_count",
+        "technology_banking_experience_years"
       ]
     },
     {
@@ -826,14 +919,22 @@
         "ent_brex"
       ],
       "alias_source_ids": [
-        "src_brex_official"
+        "src_brex_official",
+        "src_brex_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "capabilities",
+        "customer_segments",
+        "customer_count",
+        "countries_supported",
+        "erp_integrations",
+        "average_hours_saved_per_year",
+        "reported_expense_automation_rate"
       ]
     },
     {
@@ -1092,6 +1193,29 @@
       ]
     },
     {
+      "id": "src_chief_membership_2026",
+      "url": "https://chief.com/membership",
+      "title": "Chief Membership",
+      "publisher": "Chief",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_chief"
+      ],
+      "alias_source_ids": [
+        "src_chief_membership_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "locations",
+        "executive_coaching_sessions",
+        "quarterly_executive_courses",
+        "membership_term"
+      ]
+    },
+    {
       "id": "src_citi",
       "url": "https://www.citigroup.com/global/businesses",
       "title": "Businesses",
@@ -1206,6 +1330,29 @@
       ]
     },
     {
+      "id": "src_comerica_technology_2026",
+      "url": "https://www.comerica.com/business/solutions/specialized-industries/technology.html",
+      "title": "Technology and Life Sciences Banking",
+      "publisher": "Comerica",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_comerica"
+      ],
+      "alias_source_ids": [
+        "src_comerica_technology_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services",
+        "operating_geographies",
+        "fund_solution_range",
+        "technology_banking_experience_years"
+      ]
+    },
+    {
       "id": "src_compose-ai_official",
       "url": "https://www.compose.ai/",
       "title": "Compose AI official website",
@@ -1249,6 +1396,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_cooley_ai_transactions_2025",
+      "url": "https://www.cooley.com/news/coverage/2025/2025-03-04-cooley-again-ranks-among-top-ai-transactional-firms",
+      "title": "Cooley AI Transactional Activity",
+      "publisher": "Cooley",
+      "source_type": "official-company",
+      "published_date": "2025-03-04",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cooley"
+      ],
+      "alias_source_ids": [
+        "src_cooley_ai_transactions_2025"
+      ],
+      "supports": [
+        "capabilities",
+        "reported_ai_venture_transactions",
+        "reported_ai_venture_transaction_value"
       ]
     },
     {
@@ -1520,6 +1688,32 @@
       ]
     },
     {
+      "id": "src_eo_us_qualification_2026",
+      "url": "https://member.eonetwork.org/atlarge-us/membership-qualification/",
+      "title": "EO At Large - U.S. Membership Qualification",
+      "publisher": "Entrepreneurs' Organization",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_entrepreneurs_organization"
+      ],
+      "alias_source_ids": [
+        "src_eo_us_qualification_2026"
+      ],
+      "supports": [
+        "application_required",
+        "invite_only",
+        "capabilities",
+        "services",
+        "annual_revenue_requirement",
+        "annual_membership_fee",
+        "initiation_fee",
+        "maximum_joining_age"
+      ]
+    },
+    {
       "id": "src_era-group_official",
       "url": "https://era.group/",
       "title": "ERA Group official website",
@@ -1647,6 +1841,46 @@
         "description",
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_fenwick_corporate_venture_2026",
+      "url": "https://www.fenwick.com/services/practices/corporate-venture",
+      "title": "Corporate Venture",
+      "publisher": "Fenwick",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fenwick_west"
+      ],
+      "alias_source_ids": [
+        "src_fenwick_corporate_venture_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services"
+      ]
+    },
+    {
+      "id": "src_fenwick_privacy_cyber_2026",
+      "url": "https://www.fenwick.com/services/practices/privacy-cybersecurity",
+      "title": "Privacy and Cybersecurity",
+      "publisher": "Fenwick",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fenwick_west"
+      ],
+      "alias_source_ids": [
+        "src_fenwick_privacy_cyber_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services"
       ]
     },
     {
@@ -2395,6 +2629,25 @@
       ]
     },
     {
+      "id": "src_korn_ferry_assessment_2026",
+      "url": "https://www.kornferry.com/capabilities/assessment-succession/professional-leadership-assessment",
+      "title": "Leadership and Professional Assessments",
+      "publisher": "Korn Ferry",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_korn_ferry"
+      ],
+      "alias_source_ids": [
+        "src_korn_ferry_assessment_2026"
+      ],
+      "supports": [
+        "capabilities"
+      ]
+    },
+    {
       "id": "src_kpmg",
       "url": "https://kpmg.com/xx/en/what-we-do.html",
       "title": "What We Do",
@@ -2834,6 +3087,30 @@
       ]
     },
     {
+      "id": "src_off_select_explainer",
+      "url": "https://openfutureforum.com/what-is-forum-select",
+      "title": "What Is Forum Select?",
+      "publisher": "Open Future Forum",
+      "source_type": "official-company",
+      "published_date": "2026-01-15",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_open_future_forum"
+      ],
+      "alias_source_ids": [
+        "src_off_select_explainer"
+      ],
+      "supports": [
+        "capabilities",
+        "services",
+        "event_guest_range",
+        "event_duration_hours",
+        "membership_fee",
+        "event_frequency"
+      ]
+    },
+    {
       "id": "src_oguz-law_official",
       "url": "https://oguz.law/",
       "title": "Oguz Law official website",
@@ -3017,6 +3294,35 @@
       ]
     },
     {
+      "id": "src_orrick_technology_2026",
+      "url": "https://www.orrick.com/en/Practices/Technology-Companies-Group",
+      "title": "Technology Companies Group",
+      "publisher": "Orrick",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_orrick"
+      ],
+      "alias_source_ids": [
+        "src_orrick_technology_2026"
+      ],
+      "supports": [
+        "services",
+        "capabilities",
+        "operating_geographies",
+        "technology_companies_advised",
+        "unicorn_companies_advised",
+        "investors_advised",
+        "venture_financing_value",
+        "venture_financing_count",
+        "technology_company_lawyers",
+        "technology_markets",
+        "countries_of_client_activity"
+      ]
+    },
+    {
       "id": "src_pan_products",
       "url": "https://www.paloaltonetworks.com/products",
       "title": "Products",
@@ -3141,14 +3447,19 @@
         "ent_pilot"
       ],
       "alias_source_ids": [
-        "src_pilot_official"
+        "src_pilot_official",
+        "src_pilot_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "services",
+        "capabilities",
+        "customer_segments",
+        "customer_count"
       ]
     },
     {
@@ -3279,14 +3590,22 @@
         "ent_puzzle"
       ],
       "alias_source_ids": [
-        "src_puzzle_official"
+        "src_puzzle_official",
+        "src_puzzle_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "capabilities",
+        "integrations",
+        "customer_segments",
+        "organization_customer_count",
+        "claimed_repetitive_work_automation_rate",
+        "claimed_month_end_close_reduction"
       ]
     },
     {
@@ -3441,14 +3760,20 @@
         "ent_rillet"
       ],
       "alias_source_ids": [
-        "src_rillet_official"
+        "src_rillet_official",
+        "src_rillet_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "capabilities",
+        "integrations",
+        "customer_segments",
+        "finance_team_customer_count"
       ]
     },
     {
@@ -3514,6 +3839,26 @@
       ],
       "supports": [
         "description",
+        "services"
+      ]
+    },
+    {
+      "id": "src_rra_ceo_succession_2026",
+      "url": "https://www.russellreynolds.com/en/expertise/functions/boards/ceo-succession",
+      "title": "CEO Succession",
+      "publisher": "Russell Reynolds Associates",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_russell_reynolds_associates"
+      ],
+      "alias_source_ids": [
+        "src_rra_ceo_succession_2026"
+      ],
+      "supports": [
+        "capabilities",
         "services"
       ]
     },
@@ -3835,6 +4180,26 @@
       ]
     },
     {
+      "id": "src_spencer_stuart_capabilities_2026",
+      "url": "https://www.spencerstuart.com/",
+      "title": "Executive Search, Board and Leadership Consulting",
+      "publisher": "Spencer Stuart",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_spencer_stuart"
+      ],
+      "alias_source_ids": [
+        "src_spencer_stuart_capabilities_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services"
+      ]
+    },
+    {
       "id": "src_stanford_exec",
       "url": "https://www.gsb.stanford.edu/exec-ed/programs",
       "title": "Executive Education Programs",
@@ -3919,6 +4284,26 @@
       "supports": [
         "current_display_name",
         "announced_future_name"
+      ]
+    },
+    {
+      "id": "src_tenet_how_it_works_2026",
+      "url": "https://tenetsecurity.ai/how-it-works/",
+      "title": "Preemptive Agent Defense",
+      "publisher": "Tenet Security",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tenet_security"
+      ],
+      "alias_source_ids": [
+        "src_tenet_how_it_works_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services"
       ]
     },
     {
@@ -4372,6 +4757,29 @@
       ]
     },
     {
+      "id": "src_wsgr_emerging_companies_2026",
+      "url": "https://www.wsgr.com/en/services/practice-areas/corporate/emerging-companies.html",
+      "title": "Emerging Companies and Venture Capital",
+      "publisher": "Wilson Sonsini",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wilson_sonsini"
+      ],
+      "alias_source_ids": [
+        "src_wsgr_emerging_companies_2026"
+      ],
+      "supports": [
+        "capabilities",
+        "services",
+        "operating_geographies",
+        "represented_private_companies",
+        "represented_public_companies"
+      ]
+    },
+    {
       "id": "src_xero_official",
       "url": "https://www.xero.com/",
       "title": "Xero official website",
@@ -4392,6 +4800,31 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_xero_us_2026",
+      "url": "https://www.xero.com/us/",
+      "title": "Xero Accounting Software for Small Businesses",
+      "publisher": "Xero",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_xero"
+      ],
+      "alias_source_ids": [
+        "src_xero_us_2026"
+      ],
+      "supports": [
+        "products",
+        "capabilities",
+        "customer_segments",
+        "customer_count",
+        "app_integration_count",
+        "accountant_bookkeeper_partner_count",
+        "onboarding_support_days"
       ]
     },
     {
@@ -4567,7 +5000,8 @@
         "ent_zrg"
       ],
       "alias_source_ids": [
-        "src_zrg_official"
+        "src_zrg_official",
+        "src_zrg_home_2026"
       ],
       "supports": [
         "identity",
@@ -4575,7 +5009,11 @@
         "website",
         "categories",
         "cxo_roles",
-        "aliases"
+        "aliases",
+        "services",
+        "capabilities",
+        "industries",
+        "countries_served"
       ]
     },
     {

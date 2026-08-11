@@ -182,6 +182,44 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-puzzle-customers-2026",
+          "field": "organization_customer_count",
+          "value": 7000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ]
+        },
+        {
+          "id": "fact-puzzle-automation-2026",
+          "field": "claimed_repetitive_work_automation_rate",
+          "minimum": 85,
+          "maximum": 95,
+          "unit": "percent",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ]
+        },
+        {
+          "id": "fact-puzzle-close-improvement-2026",
+          "field": "claimed_month_end_close_reduction",
+          "value": 50,
+          "operator": "<=",
+          "unit": "percent faster",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ]
+        },
+        {
           "id": "fact_puzzle_identity_puzzle",
           "field": "identity",
           "value": "Puzzle",
@@ -234,6 +272,402 @@
             "src_puzzle_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_ai-close",
+          "field": "products",
+          "value": "AI Close",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_accrual-automation",
+          "field": "products",
+          "value": "Accrual Automation",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_invoicing",
+          "field": "products",
+          "value": "Invoicing",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_revenue-recognition",
+          "field": "products",
+          "value": "Revenue Recognition",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_api-and-mcp",
+          "field": "products",
+          "value": "API and MCP",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_accuracy-ai",
+          "field": "products",
+          "value": "Accuracy AI",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_products_ai-native-general-ledger",
+          "field": "products",
+          "value": "AI-native general ledger",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_continuous-accounting",
+          "field": "capabilities",
+          "value": "continuous accounting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_ai-transaction-categorization",
+          "field": "capabilities",
+          "value": "AI transaction categorization",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_ai-reconciliation",
+          "field": "capabilities",
+          "value": "AI reconciliation",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_ai-assisted-month-end-close",
+          "field": "capabilities",
+          "value": "AI-assisted month-end close",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_human-approval-before-ledger-posting",
+          "field": "capabilities",
+          "value": "human approval before ledger posting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_real-time-cash-reporting",
+          "field": "capabilities",
+          "value": "real-time cash reporting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_real-time-burn-reporting",
+          "field": "capabilities",
+          "value": "real-time burn reporting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_real-time-runway-reporting",
+          "field": "capabilities",
+          "value": "real-time runway reporting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_continuous-revenue-recognition",
+          "field": "capabilities",
+          "value": "continuous revenue recognition",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_cash-accounting",
+          "field": "capabilities",
+          "value": "cash accounting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_accrual-accounting",
+          "field": "capabilities",
+          "value": "accrual accounting",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_exception-detection",
+          "field": "capabilities",
+          "value": "exception detection",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_variance-flagging",
+          "field": "capabilities",
+          "value": "variance flagging",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_journal-entry-preparation",
+          "field": "capabilities",
+          "value": "journal-entry preparation",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_multi-client-accounting-environments",
+          "field": "capabilities",
+          "value": "multi-client accounting environments",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_customizable-charts-of-accounts",
+          "field": "capabilities",
+          "value": "customizable charts of accounts",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_centralized-firm-oversight",
+          "field": "capabilities",
+          "value": "centralized firm oversight",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_soc-2-controls",
+          "field": "capabilities",
+          "value": "SOC 2 controls",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_role-based-access",
+          "field": "capabilities",
+          "value": "role-based access",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_encryption-in-transit",
+          "field": "capabilities",
+          "value": "encryption in transit",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_encryption-at-rest",
+          "field": "capabilities",
+          "value": "encryption at rest",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_audit-traceability",
+          "field": "capabilities",
+          "value": "audit traceability",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_guided-onboarding",
+          "field": "capabilities",
+          "value": "guided onboarding",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_capabilities_quickbooks-history-import",
+          "field": "capabilities",
+          "value": "QuickBooks history import",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_stripe",
+          "field": "integrations",
+          "value": "Stripe",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_brex",
+          "field": "integrations",
+          "value": "Brex",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_mercury",
+          "field": "integrations",
+          "value": "Mercury",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_ramp",
+          "field": "integrations",
+          "value": "Ramp",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_deel",
+          "field": "integrations",
+          "value": "Deel",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_gusto",
+          "field": "integrations",
+          "value": "Gusto",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_rippling",
+          "field": "integrations",
+          "value": "Rippling",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_integrations_quickbooks",
+          "field": "integrations",
+          "value": "QuickBooks",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_customer-segments_accounting-firms",
+          "field": "customer_segments",
+          "value": "accounting firms",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_customer-segments_small-and-midsize-businesses",
+          "field": "customer_segments",
+          "value": "small and midsize businesses",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_customer-segments_high-growth-companies",
+          "field": "customer_segments",
+          "value": "high-growth companies",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_customer-segments_high-transaction-businesses",
+          "field": "customer_segments",
+          "value": "high-transaction businesses",
+          "source_ids": [
+            "src_puzzle_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -254,11 +688,81 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_puzzle_home_2026",
+          "url": "https://puzzle.io/",
+          "title": "Puzzle AI Accounting Software",
+          "publisher": "Puzzle",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "capabilities",
+            "integrations",
+            "customer_segments",
+            "organization_customer_count",
+            "claimed_repetitive_work_automation_rate",
+            "claimed_month_end_close_reduction"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI Close",
+        "Accrual Automation",
+        "Invoicing",
+        "Revenue Recognition",
+        "API and MCP",
+        "Accuracy AI",
+        "AI-native general ledger"
+      ],
+      "capabilities": [
+        "continuous accounting",
+        "AI transaction categorization",
+        "AI reconciliation",
+        "AI-assisted month-end close",
+        "human approval before ledger posting",
+        "real-time cash reporting",
+        "real-time burn reporting",
+        "real-time runway reporting",
+        "continuous revenue recognition",
+        "cash accounting",
+        "accrual accounting",
+        "exception detection",
+        "variance flagging",
+        "journal-entry preparation",
+        "multi-client accounting environments",
+        "customizable charts of accounts",
+        "centralized firm oversight",
+        "SOC 2 controls",
+        "role-based access",
+        "encryption in transit",
+        "encryption at rest",
+        "audit traceability",
+        "guided onboarding",
+        "QuickBooks history import"
+      ],
+      "integrations": [
+        "Stripe",
+        "Brex",
+        "Mercury",
+        "Ramp",
+        "Deel",
+        "Gusto",
+        "Rippling",
+        "QuickBooks"
+      ],
+      "customer_segments": [
+        "accounting firms",
+        "startups",
+        "small and midsize businesses",
+        "high-growth companies",
+        "high-transaction businesses"
+      ],
+      "services": [],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -878,6 +1382,65 @@
           ]
         },
         {
+          "id": "fact-brex-customers-2026",
+          "field": "customer_count",
+          "value": 35000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-countries-2026",
+          "field": "countries_supported",
+          "value": 120,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-erp-integrations-2026",
+          "field": "erp_integrations",
+          "value": 1000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-hours-saved-2025",
+          "field": "average_hours_saved_per_year",
+          "value": 756,
+          "as_of_date": "2025-03-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-automation-rate-2025",
+          "field": "reported_expense_automation_rate",
+          "value": 71,
+          "unit": "percent",
+          "as_of_date": "2025-03-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
           "id": "fact_brex_identity_brex",
           "field": "identity",
           "value": "Brex",
@@ -1020,6 +1583,186 @@
             "src_brex_acquisition_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_spend-controls",
+          "field": "capabilities",
+          "value": "spend controls",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_automated-receipt-capture",
+          "field": "capabilities",
+          "value": "automated receipt capture",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_ai-expense-assistant",
+          "field": "capabilities",
+          "value": "AI expense assistant",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_travel-booking",
+          "field": "capabilities",
+          "value": "travel booking",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_global-payments",
+          "field": "capabilities",
+          "value": "global payments",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_invoice-automation",
+          "field": "capabilities",
+          "value": "invoice automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_payment-automation",
+          "field": "capabilities",
+          "value": "payment automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_vendor-specific-cards",
+          "field": "capabilities",
+          "value": "vendor-specific cards",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_procurement-approvals",
+          "field": "capabilities",
+          "value": "procurement approvals",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_ai-accounting-suggestions",
+          "field": "capabilities",
+          "value": "AI accounting suggestions",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_accrual-automation",
+          "field": "capabilities",
+          "value": "accrual automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_general-ledger-coding",
+          "field": "capabilities",
+          "value": "general-ledger coding",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_purchase-card-controls",
+          "field": "capabilities",
+          "value": "purchase-card controls",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_mobile-expense-management",
+          "field": "capabilities",
+          "value": "mobile expense management",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_treasury-management",
+          "field": "capabilities",
+          "value": "treasury management",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_erp-integration",
+          "field": "capabilities",
+          "value": "ERP integration",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_mid-size-companies",
+          "field": "customer_segments",
+          "value": "mid-size companies",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_enterprises",
+          "field": "customer_segments",
+          "value": "enterprises",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_global-companies",
+          "field": "customer_segments",
+          "value": "global companies",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1056,6 +1799,23 @@
             "entity_status",
             "parent_company"
           ]
+        },
+        {
+          "id": "src_brex_home_2026",
+          "url": "https://www.brex.com/",
+          "title": "Brex: Corporate Cards, Banking and Expense Management",
+          "publisher": "Brex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "customer_segments",
+            "customer_count",
+            "countries_supported",
+            "erp_integrations",
+            "average_hours_saved_per_year",
+            "reported_expense_automation_rate"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1073,6 +1833,30 @@
         "travel",
         "treasury",
         "AI agents"
+      ],
+      "capabilities": [
+        "spend controls",
+        "automated receipt capture",
+        "AI expense assistant",
+        "travel booking",
+        "global payments",
+        "invoice automation",
+        "payment automation",
+        "vendor-specific cards",
+        "procurement approvals",
+        "AI accounting suggestions",
+        "accrual automation",
+        "general-ledger coding",
+        "purchase-card controls",
+        "mobile expense management",
+        "treasury management",
+        "ERP integration"
+      ],
+      "customer_segments": [
+        "startups",
+        "mid-size companies",
+        "enterprises",
+        "global companies"
       ],
       "services": [],
       "provider_types": [
@@ -1227,6 +2011,18 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-blackline-customers-2026",
+          "field": "customer_count",
+          "value": 4300,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ]
+        },
+        {
           "id": "fact_blackline_identity_blackline",
           "field": "identity",
           "value": "BlackLine",
@@ -1279,6 +2075,438 @@
             "src_blackline_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_studio360",
+          "field": "products",
+          "value": "Studio360",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_verity-ai",
+          "field": "products",
+          "value": "Verity AI",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_financial-close-and-consolidation",
+          "field": "products",
+          "value": "Financial Close and Consolidation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_account-reconciliations",
+          "field": "products",
+          "value": "Account Reconciliations",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_transaction-matching",
+          "field": "products",
+          "value": "Transaction Matching",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_journal-entry",
+          "field": "products",
+          "value": "Journal Entry",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_smart-close-for-sap",
+          "field": "products",
+          "value": "Smart Close for SAP",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_account-analysis",
+          "field": "products",
+          "value": "Account Analysis",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_reporting-and-analysis",
+          "field": "products",
+          "value": "Reporting and Analysis",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_consolidation",
+          "field": "products",
+          "value": "Consolidation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_task-management",
+          "field": "products",
+          "value": "Task Management",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_compliance",
+          "field": "products",
+          "value": "Compliance",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_journal-risk-analyser",
+          "field": "products",
+          "value": "Journal Risk Analyser",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_intercompany-create",
+          "field": "products",
+          "value": "Intercompany Create",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_intercompany-balance-and-resolve",
+          "field": "products",
+          "value": "Intercompany Balance and Resolve",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_intercompany-net-and-settle",
+          "field": "products",
+          "value": "Intercompany Net and Settle",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_einvoicing-and-payments",
+          "field": "products",
+          "value": "eInvoicing and Payments",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_cash-application",
+          "field": "products",
+          "value": "Cash Application",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_ar-intelligence",
+          "field": "products",
+          "value": "AR Intelligence",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_collections-management",
+          "field": "products",
+          "value": "Collections Management",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_credit-and-risk-management",
+          "field": "products",
+          "value": "Credit and Risk Management",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_products_disputes-and-deductions-management",
+          "field": "products",
+          "value": "Disputes and Deductions Management",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_multi-agent-reconciliation-preparation",
+          "field": "capabilities",
+          "value": "multi-agent reconciliation preparation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_documentation-analysis",
+          "field": "capabilities",
+          "value": "documentation analysis",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_transaction-matching",
+          "field": "capabilities",
+          "value": "transaction matching",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_audit-ready-reconciliation-assembly",
+          "field": "capabilities",
+          "value": "audit-ready reconciliation assembly",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_audit-trails",
+          "field": "capabilities",
+          "value": "audit trails",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_record-to-report-automation",
+          "field": "capabilities",
+          "value": "record-to-report automation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_invoice-to-cash-automation",
+          "field": "capabilities",
+          "value": "invoice-to-cash automation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_financial-data-integration",
+          "field": "capabilities",
+          "value": "financial-data integration",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_workflow-orchestration",
+          "field": "capabilities",
+          "value": "workflow orchestration",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_financial-dashboards",
+          "field": "capabilities",
+          "value": "financial dashboards",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_process-design-templates",
+          "field": "capabilities",
+          "value": "process-design templates",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_governance-controls",
+          "field": "capabilities",
+          "value": "governance controls",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_risk-management-controls",
+          "field": "capabilities",
+          "value": "risk-management controls",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_journal-entry-automation",
+          "field": "capabilities",
+          "value": "journal-entry automation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_financial-statement-generation",
+          "field": "capabilities",
+          "value": "financial-statement generation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_anomaly-detection",
+          "field": "capabilities",
+          "value": "anomaly detection",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_predictive-intercompany-guidance",
+          "field": "capabilities",
+          "value": "predictive intercompany guidance",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_global-intercompany-billing",
+          "field": "capabilities",
+          "value": "global intercompany billing",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_autonomous-reconciliation",
+          "field": "capabilities",
+          "value": "autonomous reconciliation",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_remittance-data-capture",
+          "field": "capabilities",
+          "value": "remittance-data capture",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_cash-flow-forecasting",
+          "field": "capabilities",
+          "value": "cash-flow forecasting",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_capabilities_customer-payment-prediction",
+          "field": "capabilities",
+          "value": "customer-payment prediction",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_customer-segments_enterprise-finance-teams",
+          "field": "customer_segments",
+          "value": "enterprise finance teams",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_customer-segments_cfo-organizations",
+          "field": "customer_segments",
+          "value": "CFO organizations",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_customer-segments_accounting-teams",
+          "field": "customer_segments",
+          "value": "accounting teams",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_customer-segments_accounts-receivable-teams",
+          "field": "customer_segments",
+          "value": "accounts-receivable teams",
+          "source_ids": [
+            "src_blackline_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1299,11 +2527,80 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_blackline_home_2026",
+          "url": "https://www.blackline.com/",
+          "title": "The Agentic Financial Operations Platform",
+          "publisher": "BlackLine",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "capabilities",
+            "customer_segments",
+            "customer_count"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Studio360",
+        "Verity AI",
+        "Financial Close and Consolidation",
+        "Account Reconciliations",
+        "Transaction Matching",
+        "Journal Entry",
+        "Smart Close for SAP",
+        "Account Analysis",
+        "Reporting and Analysis",
+        "Consolidation",
+        "Task Management",
+        "Compliance",
+        "Journal Risk Analyser",
+        "Intercompany Create",
+        "Intercompany Balance and Resolve",
+        "Intercompany Net and Settle",
+        "eInvoicing and Payments",
+        "Cash Application",
+        "AR Intelligence",
+        "Collections Management",
+        "Credit and Risk Management",
+        "Disputes and Deductions Management"
+      ],
+      "capabilities": [
+        "multi-agent reconciliation preparation",
+        "documentation analysis",
+        "transaction matching",
+        "audit-ready reconciliation assembly",
+        "audit trails",
+        "record-to-report automation",
+        "invoice-to-cash automation",
+        "financial-data integration",
+        "workflow orchestration",
+        "financial dashboards",
+        "process-design templates",
+        "governance controls",
+        "risk-management controls",
+        "journal-entry automation",
+        "financial-statement generation",
+        "anomaly detection",
+        "predictive intercompany guidance",
+        "global intercompany billing",
+        "autonomous reconciliation",
+        "remittance-data capture",
+        "cash-flow forecasting",
+        "customer-payment prediction"
+      ],
+      "customer_segments": [
+        "enterprise finance teams",
+        "CFO organizations",
+        "accounting teams",
+        "accounts-receivable teams"
+      ],
+      "services": [],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -1342,6 +2639,18 @@
       "relationship_notes": null,
       "editorial_priority": "A",
       "facts": [
+        {
+          "id": "fact-pilot-customers-2026",
+          "field": "customer_count",
+          "value": 3000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ]
+        },
         {
           "id": "fact_pilot_identity_pilot",
           "field": "identity",
@@ -1413,6 +2722,267 @@
             "src_pilot_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_bookkeeping",
+          "field": "services",
+          "value": "bookkeeping",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_tax-preparation",
+          "field": "services",
+          "value": "tax preparation",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_tax-compliance",
+          "field": "services",
+          "value": "tax compliance",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_cfo-advisory",
+          "field": "services",
+          "value": "CFO advisory",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_coo-advisory",
+          "field": "services",
+          "value": "COO advisory",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_financial-modeling",
+          "field": "services",
+          "value": "financial modeling",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_cash-flow-planning",
+          "field": "services",
+          "value": "cash-flow planning",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_fundraising-support",
+          "field": "services",
+          "value": "fundraising support",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_valuation-support",
+          "field": "services",
+          "value": "valuation support",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_international-expansion-support",
+          "field": "services",
+          "value": "international-expansion support",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_intelligent-financial-dashboards",
+          "field": "capabilities",
+          "value": "intelligent financial dashboards",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_real-time-expense-tracking",
+          "field": "capabilities",
+          "value": "real-time expense tracking",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_cash-flow-scenario-modeling",
+          "field": "capabilities",
+          "value": "cash-flow scenario modeling",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_irs-ready-books",
+          "field": "capabilities",
+          "value": "IRS-ready books",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_accrual-accounting",
+          "field": "capabilities",
+          "value": "accrual accounting",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_kpi-dashboards",
+          "field": "capabilities",
+          "value": "KPI dashboards",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_financial-projections",
+          "field": "capabilities",
+          "value": "financial projections",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_data-room-preparation",
+          "field": "capabilities",
+          "value": "data-room preparation",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_cost-analysis",
+          "field": "capabilities",
+          "value": "cost analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_profitability-analysis",
+          "field": "capabilities",
+          "value": "profitability analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_hiring-affordability-analysis",
+          "field": "capabilities",
+          "value": "hiring affordability analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_exit-readiness-planning",
+          "field": "capabilities",
+          "value": "exit-readiness planning",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_strategic-finance-guidance",
+          "field": "capabilities",
+          "value": "strategic finance guidance",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_us-based-advisory-team",
+          "field": "capabilities",
+          "value": "US-based advisory team",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_small-businesses",
+          "field": "customer_segments",
+          "value": "small businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_growth-stage-businesses",
+          "field": "customer_segments",
+          "value": "growth-stage businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_venture-backed-companies",
+          "field": "customer_segments",
+          "value": "venture-backed companies",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_founder-led-businesses",
+          "field": "customer_segments",
+          "value": "founder-led businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1433,11 +3003,61 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_pilot_home_2026",
+          "url": "https://pilot.com/",
+          "title": "Pilot Bookkeeping, Tax and Advisory",
+          "publisher": "Pilot",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "capabilities",
+            "customer_segments",
+            "customer_count"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "bookkeeping",
+        "tax preparation",
+        "tax compliance",
+        "CFO advisory",
+        "COO advisory",
+        "financial modeling",
+        "cash-flow planning",
+        "fundraising support",
+        "valuation support",
+        "international-expansion support"
+      ],
+      "capabilities": [
+        "intelligent financial dashboards",
+        "real-time expense tracking",
+        "cash-flow scenario modeling",
+        "IRS-ready books",
+        "accrual accounting",
+        "KPI dashboards",
+        "financial projections",
+        "data-room preparation",
+        "cost analysis",
+        "profitability analysis",
+        "hiring affordability analysis",
+        "exit-readiness planning",
+        "strategic finance guidance",
+        "US-based advisory team"
+      ],
+      "customer_segments": [
+        "startups",
+        "small businesses",
+        "growth-stage businesses",
+        "venture-backed companies",
+        "founder-led businesses"
+      ],
+      "products": [],
       "provider_types": [
         "accounting",
         "finance-advisory",
@@ -1475,6 +3095,18 @@
       "relationship_notes": null,
       "editorial_priority": "A",
       "facts": [
+        {
+          "id": "fact-rillet-finance-teams-2026",
+          "field": "finance_team_customer_count",
+          "value": 400,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ]
+        },
         {
           "id": "fact_rillet_identity_rillet",
           "field": "identity",
@@ -1528,6 +3160,546 @@
             "src_rillet_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_ai-native-erp",
+          "field": "products",
+          "value": "AI-native ERP",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_aura-ai",
+          "field": "products",
+          "value": "Aura AI",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_perpetual-general-ledger",
+          "field": "products",
+          "value": "perpetual general ledger",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_advanced-revenue-recognition",
+          "field": "products",
+          "value": "advanced revenue recognition",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_native-integrations",
+          "field": "products",
+          "value": "native integrations",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_multi-entity-accounting",
+          "field": "products",
+          "value": "multi-entity accounting",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_close-management",
+          "field": "products",
+          "value": "close management",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_real-time-reporting",
+          "field": "products",
+          "value": "real-time reporting",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_security-and-permissions",
+          "field": "products",
+          "value": "security and permissions",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_accounts-receivable",
+          "field": "products",
+          "value": "accounts receivable",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_bank-reconciliation",
+          "field": "products",
+          "value": "bank reconciliation",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_products_gaap-reporting",
+          "field": "products",
+          "value": "GAAP reporting",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_continuous-close",
+          "field": "capabilities",
+          "value": "continuous close",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_source-traceable-entries",
+          "field": "capabilities",
+          "value": "source-traceable entries",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_natural-language-general-ledger-queries",
+          "field": "capabilities",
+          "value": "natural-language general-ledger queries",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_ai-accounting-workflow-agents",
+          "field": "capabilities",
+          "value": "AI accounting workflow agents",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_multi-currency-accounting",
+          "field": "capabilities",
+          "value": "multi-currency accounting",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_accounting-consolidation",
+          "field": "capabilities",
+          "value": "accounting consolidation",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_zero-day-close",
+          "field": "capabilities",
+          "value": "zero-day close",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_unified-gaap-metrics",
+          "field": "capabilities",
+          "value": "unified GAAP metrics",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_operator-metrics",
+          "field": "capabilities",
+          "value": "operator metrics",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_role-based-permissions",
+          "field": "capabilities",
+          "value": "role-based permissions",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_audit-trails",
+          "field": "capabilities",
+          "value": "audit trails",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_revenue-recognition-for-sales-led-growth",
+          "field": "capabilities",
+          "value": "revenue recognition for sales-led growth",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_revenue-recognition-for-product-led-growth",
+          "field": "capabilities",
+          "value": "revenue recognition for product-led growth",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_usage-based-revenue-recognition",
+          "field": "capabilities",
+          "value": "usage-based revenue recognition",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_live-book-analysis",
+          "field": "capabilities",
+          "value": "live-book analysis",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_cross-system-financial-analysis",
+          "field": "capabilities",
+          "value": "cross-system financial analysis",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_capabilities_cpa-led-implementation",
+          "field": "capabilities",
+          "value": "CPA-led implementation",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_j-p-morgan",
+          "field": "integrations",
+          "value": "J.P. Morgan",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_anaplan",
+          "field": "integrations",
+          "value": "Anaplan",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_amazon-web-services",
+          "field": "integrations",
+          "value": "Amazon Web Services",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_maxio",
+          "field": "integrations",
+          "value": "Maxio",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_brex",
+          "field": "integrations",
+          "value": "Brex",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_ramp",
+          "field": "integrations",
+          "value": "Ramp",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_zip",
+          "field": "integrations",
+          "value": "Zip",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_rippling",
+          "field": "integrations",
+          "value": "Rippling",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_snowflake",
+          "field": "integrations",
+          "value": "Snowflake",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_adp",
+          "field": "integrations",
+          "value": "ADP",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_rbc",
+          "field": "integrations",
+          "value": "RBC",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_float",
+          "field": "integrations",
+          "value": "Float",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_aleph",
+          "field": "integrations",
+          "value": "Aleph",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_deel",
+          "field": "integrations",
+          "value": "Deel",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_gusto",
+          "field": "integrations",
+          "value": "Gusto",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_tipalti",
+          "field": "integrations",
+          "value": "Tipalti",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_stripe",
+          "field": "integrations",
+          "value": "Stripe",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_bank-of-america",
+          "field": "integrations",
+          "value": "Bank of America",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_bill",
+          "field": "integrations",
+          "value": "BILL",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_salesforce",
+          "field": "integrations",
+          "value": "Salesforce",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_hubspot",
+          "field": "integrations",
+          "value": "HubSpot",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_anrok",
+          "field": "integrations",
+          "value": "Anrok",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_avalara",
+          "field": "integrations",
+          "value": "Avalara",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_integrations_claude",
+          "field": "integrations",
+          "value": "Claude",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_mid-size-companies",
+          "field": "customer_segments",
+          "value": "mid-size companies",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_enterprises",
+          "field": "customer_segments",
+          "value": "enterprises",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_saas-companies",
+          "field": "customer_segments",
+          "value": "SaaS companies",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_private-equity-backed-companies",
+          "field": "customer_segments",
+          "value": "private-equity-backed companies",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_customer-segments_accounting-firms",
+          "field": "customer_segments",
+          "value": "accounting firms",
+          "source_ids": [
+            "src_rillet_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1548,11 +3720,95 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_rillet_home_2026",
+          "url": "https://www.rillet.com/",
+          "title": "Rillet: The AI-Native ERP",
+          "publisher": "Rillet",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "capabilities",
+            "integrations",
+            "customer_segments",
+            "finance_team_customer_count"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI-native ERP",
+        "Aura AI",
+        "perpetual general ledger",
+        "advanced revenue recognition",
+        "native integrations",
+        "multi-entity accounting",
+        "close management",
+        "real-time reporting",
+        "security and permissions",
+        "accounts receivable",
+        "accounts payable",
+        "bank reconciliation",
+        "GAAP reporting"
+      ],
+      "capabilities": [
+        "continuous close",
+        "source-traceable entries",
+        "natural-language general-ledger queries",
+        "AI accounting workflow agents",
+        "multi-currency accounting",
+        "accounting consolidation",
+        "zero-day close",
+        "unified GAAP metrics",
+        "operator metrics",
+        "role-based permissions",
+        "audit trails",
+        "revenue recognition for sales-led growth",
+        "revenue recognition for product-led growth",
+        "usage-based revenue recognition",
+        "live-book analysis",
+        "cross-system financial analysis",
+        "CPA-led implementation"
+      ],
+      "integrations": [
+        "J.P. Morgan",
+        "Anaplan",
+        "Amazon Web Services",
+        "Maxio",
+        "Brex",
+        "Ramp",
+        "Zip",
+        "Rippling",
+        "Snowflake",
+        "ADP",
+        "RBC",
+        "Float",
+        "Aleph",
+        "Deel",
+        "Gusto",
+        "Tipalti",
+        "Stripe",
+        "Bank of America",
+        "BILL",
+        "Salesforce",
+        "HubSpot",
+        "Anrok",
+        "Avalara",
+        "Claude"
+      ],
+      "customer_segments": [
+        "startups",
+        "mid-size companies",
+        "enterprises",
+        "SaaS companies",
+        "private-equity-backed companies",
+        "accounting firms"
+      ],
+      "services": [],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -1741,6 +3997,18 @@
           ]
         },
         {
+          "id": "fact-bill-countries-2026",
+          "field": "countries_supported",
+          "value": 130,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ]
+        },
+        {
           "id": "fact_bill_identity_bill",
           "field": "identity",
           "value": "BILL",
@@ -1811,6 +4079,528 @@
             "src_bill_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_quickbooks",
+          "field": "integrations",
+          "value": "QuickBooks",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_sage-intacct",
+          "field": "integrations",
+          "value": "Sage Intacct",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_oracle-netsuite",
+          "field": "integrations",
+          "value": "Oracle NetSuite",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_microsoft-dynamics",
+          "field": "integrations",
+          "value": "Microsoft Dynamics",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_xero",
+          "field": "integrations",
+          "value": "Xero",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_acumatica",
+          "field": "integrations",
+          "value": "Acumatica",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_slack",
+          "field": "integrations",
+          "value": "Slack",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_hris-platforms",
+          "field": "integrations",
+          "value": "HRIS platforms",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_integrations_rillet",
+          "field": "integrations",
+          "value": "Rillet",
+          "source_ids": [
+            "src_bill_rillet_2026",
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_accounts-receivable",
+          "field": "products",
+          "value": "accounts receivable",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_budgets",
+          "field": "products",
+          "value": "budgets",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_credit",
+          "field": "products",
+          "value": "credit",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_payments",
+          "field": "products",
+          "value": "payments",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_ai-transaction-agent",
+          "field": "products",
+          "value": "AI transaction agent",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_invoice-coding-agent",
+          "field": "products",
+          "value": "Invoice Coding Agent",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_w-9-agent",
+          "field": "products",
+          "value": "W-9 Agent",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_products_transaction-agent",
+          "field": "products",
+          "value": "Transaction Agent",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_ai-powered-financial-operations",
+          "field": "services",
+          "value": "AI-powered financial operations",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_invoice-automation",
+          "field": "services",
+          "value": "invoice automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_expense-automation",
+          "field": "services",
+          "value": "expense automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_payment-automation",
+          "field": "services",
+          "value": "payment automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_cash-flow-management",
+          "field": "services",
+          "value": "cash-flow management",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_services_procurement-automation",
+          "field": "services",
+          "value": "procurement automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_invoice-data-extraction",
+          "field": "capabilities",
+          "value": "invoice data extraction",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_invoice-coding",
+          "field": "capabilities",
+          "value": "invoice coding",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_duplicate-invoice-detection",
+          "field": "capabilities",
+          "value": "duplicate-invoice detection",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_missing-bill-detection",
+          "field": "capabilities",
+          "value": "missing-bill detection",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_w-9-automation",
+          "field": "capabilities",
+          "value": "W-9 automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_vendor-processing",
+          "field": "capabilities",
+          "value": "vendor processing",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_receipt-capture",
+          "field": "capabilities",
+          "value": "receipt capture",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_receipt-matching",
+          "field": "capabilities",
+          "value": "receipt matching",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_transaction-categorization",
+          "field": "capabilities",
+          "value": "transaction categorization",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_fraud-detection",
+          "field": "capabilities",
+          "value": "fraud detection",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_vendor-validation",
+          "field": "capabilities",
+          "value": "vendor validation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_ai-financial-assistant",
+          "field": "capabilities",
+          "value": "AI financial assistant",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_accounts-payable-automation",
+          "field": "capabilities",
+          "value": "accounts-payable automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_accounts-receivable-automation",
+          "field": "capabilities",
+          "value": "accounts-receivable automation",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_spend-management",
+          "field": "capabilities",
+          "value": "spend management",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_expense-management",
+          "field": "capabilities",
+          "value": "expense management",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_procurement",
+          "field": "capabilities",
+          "value": "procurement",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_invoicing",
+          "field": "capabilities",
+          "value": "invoicing",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_capabilities_approval-controls",
+          "field": "capabilities",
+          "value": "approval controls",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_small-businesses",
+          "field": "customer_segments",
+          "value": "small businesses",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_midsize-companies",
+          "field": "customer_segments",
+          "value": "midsize companies",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_suppliers",
+          "field": "customer_segments",
+          "value": "suppliers",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_accounting-firms",
+          "field": "customer_segments",
+          "value": "accounting firms",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_construction",
+          "field": "customer_segments",
+          "value": "construction",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_education",
+          "field": "customer_segments",
+          "value": "education",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_healthcare",
+          "field": "customer_segments",
+          "value": "healthcare",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_hospitality",
+          "field": "customer_segments",
+          "value": "hospitality",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_manufacturing",
+          "field": "customer_segments",
+          "value": "manufacturing",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_nonprofits",
+          "field": "customer_segments",
+          "value": "nonprofits",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_professional-services",
+          "field": "customer_segments",
+          "value": "professional services",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_retail-and-ecommerce",
+          "field": "customer_segments",
+          "value": "retail and ecommerce",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_customer-segments_software-and-technology",
+          "field": "customer_segments",
+          "value": "software and technology",
+          "source_ids": [
+            "src_bill_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1855,6 +4645,22 @@
           "supports": [
             "integrations"
           ]
+        },
+        {
+          "id": "src_bill_ai_2026",
+          "url": "https://www.bill.com/product/ai",
+          "title": "BILL AI Agents for Financial Operations",
+          "publisher": "BILL",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "capabilities",
+            "integrations",
+            "customer_segments",
+            "countries_supported"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1867,12 +4673,65 @@
         "budgets",
         "credit",
         "payments",
-        "AI transaction agent"
+        "AI transaction agent",
+        "Invoice Coding Agent",
+        "W-9 Agent",
+        "Transaction Agent"
       ],
       "services": [
         "AI-powered financial operations",
         "invoice automation",
-        "expense automation"
+        "expense automation",
+        "payment automation",
+        "cash-flow management",
+        "procurement automation"
+      ],
+      "capabilities": [
+        "invoice data extraction",
+        "invoice coding",
+        "duplicate-invoice detection",
+        "missing-bill detection",
+        "W-9 automation",
+        "vendor processing",
+        "receipt capture",
+        "receipt matching",
+        "transaction categorization",
+        "fraud detection",
+        "vendor validation",
+        "AI financial assistant",
+        "accounts-payable automation",
+        "accounts-receivable automation",
+        "spend management",
+        "expense management",
+        "procurement",
+        "invoicing",
+        "approval controls"
+      ],
+      "integrations": [
+        "QuickBooks",
+        "Sage Intacct",
+        "Oracle NetSuite",
+        "Microsoft Dynamics",
+        "Xero",
+        "Acumatica",
+        "Slack",
+        "HRIS platforms",
+        "Rillet"
+      ],
+      "customer_segments": [
+        "small businesses",
+        "midsize companies",
+        "suppliers",
+        "accounting firms",
+        "construction",
+        "education",
+        "healthcare",
+        "hospitality",
+        "manufacturing",
+        "nonprofits",
+        "professional services",
+        "retail and ecommerce",
+        "software and technology"
       ],
       "provider_types": [
         "cfo-technology",
@@ -2192,6 +5051,52 @@
       "editorial_priority": "B",
       "facts": [
         {
+          "id": "fact-xero-customers-2026",
+          "field": "customer_count",
+          "value": 5000000,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_xero_us_2026"
+          ]
+        },
+        {
+          "id": "fact-xero-apps-2026",
+          "field": "app_integration_count",
+          "value": 1000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_xero_us_2026"
+          ]
+        },
+        {
+          "id": "fact-xero-partners-2026",
+          "field": "accountant_bookkeeper_partner_count",
+          "value": 250000,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_xero_us_2026"
+          ]
+        },
+        {
+          "id": "fact-xero-onboarding-support-2026",
+          "field": "onboarding_support_days",
+          "value": 90,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_xero_us_2026"
+          ]
+        },
+        {
           "id": "fact_xero_identity_xero",
           "field": "identity",
           "value": "Xero",
@@ -2244,6 +5149,510 @@
             "src_xero_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-accounting-software",
+          "field": "products",
+          "value": "Xero Accounting Software",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_jax-ai-finance-partner",
+          "field": "products",
+          "value": "JAX AI finance partner",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-payroll",
+          "field": "products",
+          "value": "Xero Payroll",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-projects",
+          "field": "products",
+          "value": "Xero Projects",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-expenses",
+          "field": "products",
+          "value": "Xero Expenses",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-cashbook",
+          "field": "products",
+          "value": "Xero Cashbook",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-ledger",
+          "field": "products",
+          "value": "Xero Ledger",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_xero-partner-hub",
+          "field": "products",
+          "value": "Xero Partner Hub",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_syft-analytics",
+          "field": "products",
+          "value": "Syft Analytics",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_products_hubdoc",
+          "field": "products",
+          "value": "Hubdoc",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_invoicing",
+          "field": "capabilities",
+          "value": "invoicing",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_online-payments",
+          "field": "capabilities",
+          "value": "online payments",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_bill-payment",
+          "field": "capabilities",
+          "value": "bill payment",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_purchase-orders",
+          "field": "capabilities",
+          "value": "purchase orders",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_receipt-scanning",
+          "field": "capabilities",
+          "value": "receipt scanning",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_expense-claims",
+          "field": "capabilities",
+          "value": "expense claims",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_bank-reconciliation",
+          "field": "capabilities",
+          "value": "bank reconciliation",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_payroll",
+          "field": "capabilities",
+          "value": "payroll",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_project-tracking",
+          "field": "capabilities",
+          "value": "project tracking",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_mileage-tracking",
+          "field": "capabilities",
+          "value": "mileage tracking",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_quotes",
+          "field": "capabilities",
+          "value": "quotes",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_fixed-asset-management",
+          "field": "capabilities",
+          "value": "fixed-asset management",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_ai-financial-answers",
+          "field": "capabilities",
+          "value": "AI financial answers",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_ai-quote-creation",
+          "field": "capabilities",
+          "value": "AI quote creation",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_ai-invoice-creation",
+          "field": "capabilities",
+          "value": "AI invoice creation",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_paperless-record-keeping",
+          "field": "capabilities",
+          "value": "paperless record keeping",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_invoice-reminders",
+          "field": "capabilities",
+          "value": "invoice reminders",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_trend-analysis",
+          "field": "capabilities",
+          "value": "trend analysis",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_customizable-reporting",
+          "field": "capabilities",
+          "value": "customizable reporting",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_automated-bill-entry",
+          "field": "capabilities",
+          "value": "automated bill entry",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_real-time-reports",
+          "field": "capabilities",
+          "value": "real-time reports",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_w-9-management",
+          "field": "capabilities",
+          "value": "W-9 management",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_1099-management",
+          "field": "capabilities",
+          "value": "1099 management",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_sales-tax-management",
+          "field": "capabilities",
+          "value": "sales-tax management",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_cash-flow-forecasting",
+          "field": "capabilities",
+          "value": "cash-flow forecasting",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_performance-dashboards",
+          "field": "capabilities",
+          "value": "performance dashboards",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_financial-health-scorecards",
+          "field": "capabilities",
+          "value": "financial health scorecards",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_kpi-analysis",
+          "field": "capabilities",
+          "value": "KPI analysis",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_ratio-analysis",
+          "field": "capabilities",
+          "value": "ratio analysis",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_multi-currency-accounting",
+          "field": "capabilities",
+          "value": "multi-currency accounting",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_time-tracking",
+          "field": "capabilities",
+          "value": "time tracking",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_project-cost-tracking",
+          "field": "capabilities",
+          "value": "project-cost tracking",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_inventory-management",
+          "field": "capabilities",
+          "value": "inventory management",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_capabilities_international-bill-payments",
+          "field": "capabilities",
+          "value": "international bill payments",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_self-employed-professionals",
+          "field": "customer_segments",
+          "value": "self-employed professionals",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_small-businesses",
+          "field": "customer_segments",
+          "value": "small businesses",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_medium-sized-businesses",
+          "field": "customer_segments",
+          "value": "medium-sized businesses",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_accountants",
+          "field": "customer_segments",
+          "value": "accountants",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_bookkeepers",
+          "field": "customer_segments",
+          "value": "bookkeepers",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_large-accounting-firms",
+          "field": "customer_segments",
+          "value": "large accounting firms",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_nonprofits",
+          "field": "customer_segments",
+          "value": "nonprofits",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_construction-companies",
+          "field": "customer_segments",
+          "value": "construction companies",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_independent-contractors",
+          "field": "customer_segments",
+          "value": "independent contractors",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_real-estate-businesses",
+          "field": "customer_segments",
+          "value": "real-estate businesses",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_customer-segments_retail-businesses",
+          "field": "customer_segments",
+          "value": "retail businesses",
+          "source_ids": [
+            "src_xero_us_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2264,11 +5673,91 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_xero_us_2026",
+          "url": "https://www.xero.com/us/",
+          "title": "Xero Accounting Software for Small Businesses",
+          "publisher": "Xero",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "capabilities",
+            "customer_segments",
+            "customer_count",
+            "app_integration_count",
+            "accountant_bookkeeper_partner_count",
+            "onboarding_support_days"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Xero Accounting Software",
+        "JAX AI finance partner",
+        "Xero Payroll",
+        "Xero Projects",
+        "Xero Expenses",
+        "Xero Cashbook",
+        "Xero Ledger",
+        "Xero Partner Hub",
+        "Syft Analytics",
+        "Hubdoc"
+      ],
+      "capabilities": [
+        "invoicing",
+        "online payments",
+        "bill payment",
+        "purchase orders",
+        "receipt scanning",
+        "expense claims",
+        "bank reconciliation",
+        "payroll",
+        "project tracking",
+        "mileage tracking",
+        "quotes",
+        "fixed-asset management",
+        "AI financial answers",
+        "AI quote creation",
+        "AI invoice creation",
+        "paperless record keeping",
+        "invoice reminders",
+        "trend analysis",
+        "customizable reporting",
+        "automated bill entry",
+        "real-time reports",
+        "W-9 management",
+        "1099 management",
+        "sales-tax management",
+        "cash-flow forecasting",
+        "performance dashboards",
+        "financial health scorecards",
+        "KPI analysis",
+        "ratio analysis",
+        "multi-currency accounting",
+        "time tracking",
+        "project-cost tracking",
+        "inventory management",
+        "international bill payments"
+      ],
+      "customer_segments": [
+        "self-employed professionals",
+        "small businesses",
+        "medium-sized businesses",
+        "accountants",
+        "bookkeepers",
+        "large accounting firms",
+        "nonprofits",
+        "construction companies",
+        "startups",
+        "independent contractors",
+        "real-estate businesses",
+        "retail businesses"
+      ],
+      "services": [],
       "provider_types": [
         "accounting-software",
         "cfo-technology"

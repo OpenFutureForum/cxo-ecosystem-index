@@ -4,14 +4,20 @@
     "founded_year":2019,
     "founders":["Murray Newlands"],
     "programs":["Forum Select","Forum Events","executive peer groups","executive boards","original research"],
-    "services":["executive communities","private executive events","original research"],
+    "services":["executive communities","private executive events","original research","quarterly executive dinners","off-the-record peer discussion","member referrals","public Forum Events"],
+    "capabilities":["invitation-only membership","C-suite peer groups","board-director community","CEO forums","CFO forums","CMO forums","CISO forums","AI leadership forums","executive research","private dinners"],
     "facts":[
       {"id":"fact-off-founded","field":"founded_year","value":2019,"last_verified":"2026-08-11","source_ids":["src_off_about"]},
-      {"id":"fact-off-founder","field":"founder","value":"Murray Newlands","last_verified":"2026-08-11","source_ids":["src_off_about"]}
+      {"id":"fact-off-founder","field":"founder","value":"Murray Newlands","last_verified":"2026-08-11","source_ids":["src_off_about"]},
+      {"id":"fact-off-select-min-guests","field":"event_guest_range","minimum":8,"maximum":30,"as_of_date":"2026-05-17","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_off_select_explainer"]},
+      {"id":"fact-off-select-duration","field":"event_duration_hours","minimum":2.5,"maximum":3,"as_of_date":"2026-05-17","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_off_select_explainer"]},
+      {"id":"fact-off-select-fee","field":"membership_fee","value":0,"currency":"USD","as_of_date":"2026-05-17","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_off_select_explainer"]},
+      {"id":"fact-off-select-frequency","field":"event_frequency","value":"quarterly","as_of_date":"2026-05-17","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_off_select_explainer"]}
     ],
     "sources":[
       {"id":"src_off_forum_select","url":"https://openfutureforum.com/forum-select","title":"Forum Select","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services","application_required","invite_only"]},
-      {"id":"src_off_research","url":"https://openfutureforum.com/research/","title":"Open Future Forum Research","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services"]}
+      {"id":"src_off_research","url":"https://openfutureforum.com/research/","title":"Open Future Forum Research","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services"]},
+      {"id":"src_off_select_explainer","url":"https://openfutureforum.com/what-is-forum-select","title":"What Is Forum Select?","publisher":"Open Future Forum","source_class":"official company","published_date":"2026-01-15","accessed_date":"2026-08-11","supports":["capabilities","services","event_guest_range","event_duration_hours","membership_fee","event_frequency"]}
     ]
   },
   {
@@ -33,25 +39,37 @@
     "founded_year":2017,
     "headquarters":"San Francisco, California, United States",
     "products":["corporate cards","spend management","banking","expense management","accounting automation","bill pay","travel","treasury","AI agents"],
+    "capabilities":["spend controls","automated receipt capture","AI expense assistant","travel booking","global payments","invoice automation","payment automation","vendor-specific cards","procurement approvals","AI accounting suggestions","accrual automation","general-ledger coding","purchase-card controls","mobile expense management","treasury management","ERP integration"],
+    "customer_segments":["startups","mid-size companies","enterprises","global companies"],
     "facts":[
       {"id":"fact-brex-founded","field":"founded_year","value":2017,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]},
       {"id":"fact-brex-headquarters","field":"headquarters","value":"San Francisco, California, United States","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]},
-      {"id":"fact-brex-lifecycle","field":"entity_status","value":"active acquired brand","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]}
+      {"id":"fact-brex-lifecycle","field":"entity_status","value":"active acquired brand","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]},
+      {"id":"fact-brex-customers-2026","field":"customer_count","value":35000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_home_2026"]},
+      {"id":"fact-brex-countries-2026","field":"countries_supported","value":120,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_home_2026"]},
+      {"id":"fact-brex-erp-integrations-2026","field":"erp_integrations","value":1000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_home_2026"]},
+      {"id":"fact-brex-hours-saved-2025","field":"average_hours_saved_per_year","value":756,"as_of_date":"2025-03-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_home_2026"]},
+      {"id":"fact-brex-automation-rate-2025","field":"reported_expense_automation_rate","value":71,"unit":"percent","as_of_date":"2025-03-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_home_2026"]}
     ],
-    "sources":[{"id":"src_brex_acquisition_2026","url":"https://www.brex.com/journal/capital-one-completes-acquisition-of-brex","title":"Capital One Completes Acquisition of Brex","publisher":"Brex","source_class":"official company","published_date":"2026-04-07","accessed_date":"2026-08-11","supports":["founded_year","headquarters","products","entity_status","parent_company"]}]
+    "sources":[{"id":"src_brex_acquisition_2026","url":"https://www.brex.com/journal/capital-one-completes-acquisition-of-brex","title":"Capital One Completes Acquisition of Brex","publisher":"Brex","source_class":"official company","published_date":"2026-04-07","accessed_date":"2026-08-11","supports":["founded_year","headquarters","products","entity_status","parent_company"]},{"id":"src_brex_home_2026","url":"https://www.brex.com/","title":"Brex: Corporate Cards, Banking and Expense Management","publisher":"Brex","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","customer_segments","customer_count","countries_supported","erp_integrations","average_hours_saved_per_year","reported_expense_automation_rate"]}]
   },
   {
     "entity_id":"ent_bill",
-    "products":["accounts payable","accounts receivable","expense management","budgets","credit","payments","AI transaction agent"],
-    "services":["AI-powered financial operations","invoice automation","expense automation"],
+    "products":["accounts payable","accounts receivable","expense management","budgets","credit","payments","AI transaction agent","Invoice Coding Agent","W-9 Agent","Transaction Agent"],
+    "services":["AI-powered financial operations","invoice automation","expense automation","payment automation","cash-flow management","procurement automation"],
+    "capabilities":["invoice data extraction","invoice coding","duplicate-invoice detection","missing-bill detection","W-9 automation","vendor processing","receipt capture","receipt matching","transaction categorization","fraud detection","vendor validation","AI financial assistant","accounts-payable automation","accounts-receivable automation","spend management","expense management","procurement","invoicing","approval controls"],
+    "integrations":["QuickBooks","Sage Intacct","Oracle NetSuite","Microsoft Dynamics","Xero","Acumatica","Slack","HRIS platforms","Rillet"],
+    "customer_segments":["small businesses","midsize companies","suppliers","accounting firms","construction","education","healthcare","hospitality","manufacturing","nonprofits","professional services","retail and ecommerce","software and technology"],
     "facts":[
       {"id":"fact-bill-businesses-2026","field":"customer_count","value":500000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_official"]},
       {"id":"fact-bill-ai-positioning","field":"documented_ai_capability","value":true,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_official"]},
       {"id":"fact-bill-public-pricing","field":"public_pricing","value":true,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_pricing_2026"]}
+      ,{"id":"fact-bill-countries-2026","field":"countries_supported","value":130,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_ai_2026"]}
     ],
     "sources":[
       {"id":"src_bill_pricing_2026","url":"https://www.bill.com/product/pricing","title":"BILL Pricing and Plans","publisher":"BILL","source_class":"official company","accessed_date":"2026-08-11","supports":["public_pricing"]},
-      {"id":"src_bill_rillet_2026","url":"https://www.bill.com/product-updates","title":"BILL Product Updates: BILL and Rillet","publisher":"BILL","source_class":"official company","published_date":"2026-04-29","accessed_date":"2026-08-11","supports":["integrations"]}
+      {"id":"src_bill_rillet_2026","url":"https://www.bill.com/product-updates","title":"BILL Product Updates: BILL and Rillet","publisher":"BILL","source_class":"official company","published_date":"2026-04-29","accessed_date":"2026-08-11","supports":["integrations"]},
+      {"id":"src_bill_ai_2026","url":"https://www.bill.com/product/ai","title":"BILL AI Agents for Financial Operations","publisher":"BILL","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services","capabilities","integrations","customer_segments","countries_supported"]}
     ]
   },
   {
@@ -59,12 +77,14 @@
     "founded_year":2025,
     "headquarters":"San Francisco, California, United States",
     "founders":["Paulina Xu","Matthew Xu"],
+    "capabilities":["agent identity management","delegated user identity","fine-grained agent authorization","resource-level permission policies","real-time policy enforcement","credential vault","token exchange","authentication verification","real-time activity monitoring","immutable audit logs","incident tracing","agent SDKs","REST APIs","MCP integration","identity-provider integration","agent lifecycle management"],
+    "integrations":["Gmail","Google Drive","Google Calendar","Google Meet","Slack","GitHub","Notion","Microsoft Teams","OneDrive","Microsoft 365"],
     "facts":[
       {"id":"fact-agentic-fabriq-founded","field":"founded_year","value":2025,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]},
       {"id":"fact-agentic-fabriq-hq","field":"headquarters","value":"San Francisco, California, United States","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]},
       {"id":"fact-agentic-fabriq-batch","field":"accelerator_batch","value":"Winter 2026","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]}
     ],
-    "sources":[{"id":"src_agentic_fabriq_yc","url":"https://www.ycombinator.com/companies/agentic-fabriq","title":"Agentic Fabriq company profile","publisher":"Y Combinator","source_class":"accelerator profile","accessed_date":"2026-08-11","supports":["founded_year","headquarters","founders","accelerator_batch","entity_status"]}]
+    "sources":[{"id":"src_agentic_fabriq_yc","url":"https://www.ycombinator.com/companies/agentic-fabriq","title":"Agentic Fabriq company profile","publisher":"Y Combinator","source_class":"accelerator profile","accessed_date":"2026-08-11","supports":["founded_year","headquarters","founders","accelerator_batch","entity_status"]},{"id":"src_agentic_fabriq_product_2026","url":"https://www.agenticfabriq.com/what-is-agentic-fabriq","title":"Identity and Permissioning for AI Agents","publisher":"Agentic Fabriq","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","integrations"]}]
   },
   {
     "entity_id":"ent_young_presidents_organization",
@@ -81,12 +101,17 @@
     "entity_id":"ent_chief",
     "application_required":true,
     "services":["curated peer advisory groups","executive coaching","confidential executive community"],
+    "capabilities":["Core Groups","executive coaching","Clubhouse access","Wharton executive courses","member summits","in-person programming","virtual programming","curated dinners","peer networking","board-readiness education","AI education","entrepreneurship education","finance education"],
+    "locations":["New York City","San Francisco","Chicago","Washington DC"],
     "facts":[
       {"id":"fact-chief-core-groups","field":"peer_groups","value":true,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]},
       {"id":"fact-chief-core-meetings","field":"scheduled_group_meetings_per_year","value":6,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]},
-      {"id":"fact-chief-confidential","field":"confidential_format","value":true,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]}
+      {"id":"fact-chief-confidential","field":"confidential_format","value":true,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]},
+      {"id":"fact-chief-coaching-sessions","field":"executive_coaching_sessions","value":4,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_membership_2026"]},
+      {"id":"fact-chief-wharton-courses","field":"quarterly_executive_courses","value":4,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_membership_2026"]},
+      {"id":"fact-chief-membership-term","field":"membership_term","value":"annual","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_membership_2026"]}
     ],
-    "sources":[{"id":"src_chief_core_groups","url":"https://chief.com/core-groups","title":"Chief Core Groups","publisher":"Chief","source_class":"official company","accessed_date":"2026-08-11","supports":["application_required","services","peer_groups","scheduled_group_meetings_per_year","confidential_format"]}]
+    "sources":[{"id":"src_chief_core_groups","url":"https://chief.com/core-groups","title":"Chief Core Groups","publisher":"Chief","source_class":"official company","accessed_date":"2026-08-11","supports":["application_required","services","peer_groups","scheduled_group_meetings_per_year","confidential_format"]},{"id":"src_chief_membership_2026","url":"https://chief.com/membership","title":"Chief Membership","publisher":"Chief","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","locations","executive_coaching_sessions","quarterly_executive_courses","membership_term"]}]
   },
   {
     "entity_id":"ent_silicon_valley_bank",
@@ -95,5 +120,137 @@
       {"id":"fact-svb-future-rebrand","field":"announced_future_name","value":"First Citizens Innovation Banking and First Citizens Fund Banking","valid_from":"2026-10-01","as_of_date":"2026-04-23","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_svb_rebrand_announcement"]}
     ],
     "sources":[{"id":"src_svb_rebrand_announcement","url":"https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026","title":"First Citizens Bank to Align Brand Names in Q4 2026","publisher":"First Citizens Bank","source_class":"official company","published_date":"2026-04-23","accessed_date":"2026-08-11","supports":["current_display_name","announced_future_name"]}]
+  },
+  {
+    "entity_id":"ent_korn_ferry",
+    "capabilities":["leadership assessment","professional assessment","success profiles","talent benchmarking","executive search","CEO selection","executive onboarding","leadership development","professional development","executive coaching","talent-gap analysis","leadership-potential analysis","performance assessment","readiness assessment","organizational transformation"],
+    "sources":[{"id":"src_korn_ferry_assessment_2026","url":"https://www.kornferry.com/capabilities/assessment-succession/professional-leadership-assessment","title":"Leadership and Professional Assessments","publisher":"Korn Ferry","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities"]}]
+  },
+  {
+    "entity_id":"ent_spencer_stuart",
+    "capabilities":["executive search","board and CEO advisory","CEO succession planning","executive assessment","leadership consulting","HR and talent advisory","AI leadership","CEO performance acceleration","board governance research","private equity leadership","technology leadership","financial officer search","marketing officer search","legal and compliance officer search","operations officer search"],
+    "services":["research and insight","global executive search","board advisory"],
+    "sources":[{"id":"src_spencer_stuart_capabilities_2026","url":"https://www.spencerstuart.com/","title":"Executive Search, Board and Leadership Consulting","publisher":"Spencer Stuart","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services"]}]
+  },
+  {
+    "entity_id":"ent_russell_reynolds_associates",
+    "capabilities":["board search","CEO search","executive search","board succession","CEO succession","C-suite succession","assessment and benchmarking","executive development","executive transition","team performance","executive mentoring","board composition","board effectiveness","AI and technology leadership","leadership analytics"],
+    "services":["succession advisory","leadership performance","board advisory","executive research"],
+    "sources":[{"id":"src_rra_ceo_succession_2026","url":"https://www.russellreynolds.com/en/expertise/functions/boards/ceo-succession","title":"CEO Succession","publisher":"Russell Reynolds Associates","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services"]}]
+  },
+  {
+    "entity_id":"ent_wilson_sonsini",
+    "capabilities":["emerging companies","venture capital","corporate formation","corporate governance","data privacy","cybersecurity","mergers and acquisitions","patents and innovations","tax","technology transactions","venture finance","fund formation","private equity","capital markets","artificial intelligence and machine learning"],
+    "services":["startup legal counsel","venture financing counsel","company formation counsel","technology transactions counsel"],
+    "operating_geographies":["Palo Alto","San Francisco","New York","Boston","Austin","Seattle","London","Washington DC"],
+    "facts":[{"id":"fact-wsgr-private-companies","field":"represented_private_companies","value":3000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_wsgr_emerging_companies_2026"]},{"id":"fact-wsgr-public-companies","field":"represented_public_companies","value":300,"operator":">","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_wsgr_emerging_companies_2026"]}],
+    "sources":[{"id":"src_wsgr_emerging_companies_2026","url":"https://www.wsgr.com/en/services/practice-areas/corporate/emerging-companies.html","title":"Emerging Companies and Venture Capital","publisher":"Wilson Sonsini","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services","operating_geographies","represented_private_companies","represented_public_companies"]}]
+  },
+  {
+    "entity_id":"ent_fenwick_west",
+    "capabilities":["startup and venture capital","corporate venture","mergers and acquisitions","privacy","cybersecurity","artificial intelligence","machine learning","technology transactions","corporate governance","private equity","data security","venture financing"],
+    "services":["corporate venture counsel","privacy compliance","cybersecurity incident counsel","technology transactions counsel"],
+    "sources":[{"id":"src_fenwick_corporate_venture_2026","url":"https://www.fenwick.com/services/practices/corporate-venture","title":"Corporate Venture","publisher":"Fenwick","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services"]},{"id":"src_fenwick_privacy_cyber_2026","url":"https://www.fenwick.com/services/practices/privacy-cybersecurity","title":"Privacy and Cybersecurity","publisher":"Fenwick","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services"]}]
+  },
+  {
+    "entity_id":"ent_cooley",
+    "capabilities":["artificial intelligence transactions","venture capital","emerging companies","mergers and acquisitions","private equity","technology transactions","company formation","capital markets","fund formation","privacy","cybersecurity","intellectual property"],
+    "facts":[{"id":"fact-cooley-ai-transactions-2024","field":"reported_ai_venture_transactions","value":450,"operator":">=","as_of_date":"2024-12-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_cooley_ai_transactions_2025"]},{"id":"fact-cooley-ai-transaction-value-2024","field":"reported_ai_venture_transaction_value","value":17700000000,"operator":">=","currency":"USD","as_of_date":"2024-12-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_cooley_ai_transactions_2025"]}],
+    "sources":[{"id":"src_cooley_ai_transactions_2025","url":"https://www.cooley.com/news/coverage/2025/2025-03-04-cooley-again-ranks-among-top-ai-transactional-firms","title":"Cooley AI Transactional Activity","publisher":"Cooley","source_class":"official company","published_date":"2025-03-04","accessed_date":"2026-08-11","supports":["capabilities","reported_ai_venture_transactions","reported_ai_venture_transaction_value"]}]
+  },
+  {
+    "entity_id":"ent_comerica",
+    "capabilities":["technology banking","life sciences banking","growth capital lending","MRR financing","ARR financing","working capital lending","cash-flow lending","acquisition financing","dividend recap financing","equity fund services","venture debt","recurring-revenue credit","healthcare financing","cash management","capital-call financing"],
+    "services":["early-stage financing","mid-stage financing","fund banking","treasury management","investment strategies"],
+    "operating_geographies":["United States","Canada","Israel","Palo Alto","San Francisco","New York"],
+    "facts":[{"id":"fact-comerica-fund-range","field":"fund_solution_range","minimum":500000,"maximum":100000000,"currency":"USD","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_comerica_technology_2026"]},{"id":"fact-comerica-tech-experience","field":"technology_banking_experience_years","value":30,"operator":">","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_comerica_technology_2026"]}],
+    "sources":[{"id":"src_comerica_technology_2026","url":"https://www.comerica.com/business/solutions/specialized-industries/technology.html","title":"Technology and Life Sciences Banking","publisher":"Comerica","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services","operating_geographies","fund_solution_range","technology_banking_experience_years"]}]
+  },
+  {
+    "entity_id":"ent_bmo",
+    "capabilities":["technology banking","growth-stage banking","commercial banking","corporate banking","recurring-revenue lending","specialized debt financing","capital markets access","bank syndication","multinational corporate banking","lifecycle banking"],
+    "operating_geographies":["United States","Canada","North America"],
+    "facts":[{"id":"fact-bmo-tech-credit-2026","field":"technology_credit_exposure","value":8000000000,"currency":"USD","qualifier":"approximately","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bmo_technology_2026"]},{"id":"fact-bmo-tech-clients-2026","field":"technology_client_count","value":900,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bmo_technology_2026"]},{"id":"fact-bmo-tech-experience","field":"technology_banking_experience_years","value":30,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bmo_technology_2026"]}],
+    "sources":[{"id":"src_bmo_technology_2026","url":"https://commercial.bmo.com/en/ca/industry-expertise/technology/","title":"BMO Technology Banking","publisher":"BMO","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","operating_geographies","technology_credit_exposure","technology_client_count","technology_banking_experience_years"]}]
+  },
+  {
+    "entity_id":"ent_tenet_security",
+    "capabilities":["AI-agent discovery","agent runtime visibility","prompt-injection detection","prompt-injection blocking","tool-abuse detection","privilege-escalation protection","agent-hijacking protection","session reconstruction","forensic investigation","agent red teaming","OWASP agent testing","MITRE ATLAS testing","NIST AI RMF support","EU AI Act support","cloud-agent security","endpoint-agent security"],
+    "services":["agent risk assessment","runtime agent defense","agent validation","security-stack integration"],
+    "sources":[{"id":"src_tenet_how_it_works_2026","url":"https://tenetsecurity.ai/how-it-works/","title":"Preemptive Agent Defense","publisher":"Tenet Security","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services"]}]
+  },
+  {
+    "entity_id":"ent_aegisai",
+    "capabilities":["AI-native email security","agentic threat detection","phishing detection","business-email-compromise detection","zero-day email detection","API deployment","Google Workspace integration","Microsoft 365 integration","automated response","LLM-based detection","self-learning detection","VIP threat visibility","role-based threat visibility","executive reporting","multi-agent detection"],
+    "services":["automated email security","incident response","email threat reporting"],
+    "facts":[{"id":"fact-aegis-api-integration","field":"claimed_api_integration_minutes","value":5,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_aegisai_product_2026"]}],
+    "sources":[{"id":"src_aegisai_product_2026","url":"https://www.aegisai.ai/","title":"AI-native Email Security","publisher":"AegisAI","source_class":"official company","accessed_date":"2026-08-11","supports":["capabilities","services","claimed_api_integration_minutes"]}]
+  },
+  {
+    "entity_id":"ent_entrepreneurs_organization",
+    "application_required":true,
+    "invite_only":true,
+    "capabilities":["peer forums","chapter network","global events","executive education","virtual learning","leadership development","entrepreneur community","venture-backed qualification pathway"],
+    "services":["forum training","chapter membership","member orientation","exclusive member benefits"],
+    "facts":[{"id":"fact-eo-revenue-threshold","field":"annual_revenue_requirement","value":1000000,"operator":">","currency":"USD","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_eo_us_qualification_2026"]},{"id":"fact-eo-global-dues-us","field":"annual_membership_fee","value":1900,"currency":"USD","billing_period":"annual","plan":"EO At Large - U.S. global dues","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_eo_us_qualification_2026"]},{"id":"fact-eo-initiation-us","field":"initiation_fee","value":1000,"currency":"USD","plan":"EO At Large - U.S.","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_eo_us_qualification_2026"]},{"id":"fact-eo-max-join-age","field":"maximum_joining_age","value":49,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_eo_us_qualification_2026"]}],
+    "sources":[{"id":"src_eo_us_qualification_2026","url":"https://member.eonetwork.org/atlarge-us/membership-qualification/","title":"EO At Large - U.S. Membership Qualification","publisher":"Entrepreneurs' Organization","source_class":"official organization","accessed_date":"2026-08-11","supports":["application_required","invite_only","capabilities","services","annual_revenue_requirement","annual_membership_fee","initiation_fee","maximum_joining_age"]}]
+  },
+  {
+    "entity_id":"ent_rillet",
+    "products":["AI-native ERP","Aura AI","perpetual general ledger","advanced revenue recognition","native integrations","multi-entity accounting","close management","real-time reporting","security and permissions","accounts receivable","accounts payable","bank reconciliation","GAAP reporting"],
+    "capabilities":["continuous close","source-traceable entries","natural-language general-ledger queries","AI accounting workflow agents","multi-currency accounting","accounting consolidation","zero-day close","unified GAAP metrics","operator metrics","role-based permissions","audit trails","revenue recognition for sales-led growth","revenue recognition for product-led growth","usage-based revenue recognition","live-book analysis","cross-system financial analysis","CPA-led implementation"],
+    "integrations":["J.P. Morgan","Anaplan","Amazon Web Services","Maxio","Brex","Ramp","Zip","Rippling","Snowflake","ADP","RBC","Float","Aleph","Deel","Gusto","Tipalti","Stripe","Bank of America","BILL","Salesforce","HubSpot","Anrok","Avalara","Claude"],
+    "customer_segments":["startups","mid-size companies","enterprises","SaaS companies","private-equity-backed companies","accounting firms"],
+    "facts":[{"id":"fact-rillet-finance-teams-2026","field":"finance_team_customer_count","value":400,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_rillet_home_2026"]}],
+    "sources":[{"id":"src_rillet_home_2026","url":"https://www.rillet.com/","title":"Rillet: The AI-Native ERP","publisher":"Rillet","source_class":"official company","accessed_date":"2026-08-11","supports":["products","capabilities","integrations","customer_segments","finance_team_customer_count"]}]
+  },
+  {
+    "entity_id":"ent_zrg",
+    "services":["executive search","interim solutions","project consulting","fractional talent","full-time talent","strategic finance support","consulting solutions","embedded recruiting"],
+    "capabilities":["executive assessment","business acceleration","culture consulting","executive coaching","leadership coaching","leadership development","outplacement","career transition","blended recruiting","diversity recruiting","enterprise recruiting","multi-country recruiting","on-demand recruiting","board services","financial-officer search","human-resources-officer search","digital and technology officer search","legal officer search","marketing and sales officer search","risk and compliance officer search","strategy and transformation officer search","supply-chain and operations search"],
+    "industries":["consumer","education","nonprofit and social impact","financial services","healthcare and life sciences","industrial","media and entertainment","private equity","professional and technology services","real estate","sports music and entertainment","technology"],
+    "facts":[{"id":"fact-zrg-country-reach-2026","field":"countries_served","value":35,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_zrg_home_2026"]}],
+    "sources":[{"id":"src_zrg_home_2026","url":"https://www.zrgpartners.com/","title":"ZRG Global Talent Advisory","publisher":"ZRG","source_class":"official company","accessed_date":"2026-08-11","supports":["services","capabilities","industries","countries_served"]}]
+  },
+  {
+    "entity_id":"ent_orrick",
+    "services":["technology-company counsel","venture financing counsel","intellectual-property counsel","talent counsel","data-privacy counsel","public-policy counsel","corporate-governance counsel","mergers and acquisitions counsel"],
+    "capabilities":["company formation","venture financing","capital markets","corporate governance","mergers and acquisitions","intellectual property","technology transactions","employment and executive compensation","data privacy","cybersecurity","public policy","artificial intelligence","fintech","healthtech","consumer technology","enterprise software","mobility","energy technology"],
+    "operating_geographies":["United States","Europe","Asia","Africa","Latin America","Middle East"],
+    "facts":[{"id":"fact-orrick-tech-companies-2026","field":"technology_companies_advised","value":5000,"qualifier":"nearly","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-unicorns-2026","field":"unicorn_companies_advised","value":100,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-investors-2026","field":"investors_advised","value":400,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-vc-value-2023-2025","field":"venture_financing_value","value":157000000000,"currency":"USD","period_start":"2023-01-01","period_end":"2025-12-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-vc-count-2023-2025","field":"venture_financing_count","value":3000,"qualifier":"approximately","period_start":"2023-01-01","period_end":"2025-12-31","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-tech-lawyers-2026","field":"technology_company_lawyers","value":150,"operator":">","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-markets-2026","field":"technology_markets","value":20,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]},{"id":"fact-orrick-countries-2026","field":"countries_of_client_activity","value":70,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_orrick_technology_2026"]}],
+    "sources":[{"id":"src_orrick_technology_2026","url":"https://www.orrick.com/en/Practices/Technology-Companies-Group","title":"Technology Companies Group","publisher":"Orrick","source_class":"official company","accessed_date":"2026-08-11","supports":["services","capabilities","operating_geographies","technology_companies_advised","unicorn_companies_advised","investors_advised","venture_financing_value","venture_financing_count","technology_company_lawyers","technology_markets","countries_of_client_activity"]}]
+  },
+  {
+    "entity_id":"ent_blackline",
+    "products":["Studio360","Verity AI","Financial Close and Consolidation","Account Reconciliations","Transaction Matching","Journal Entry","Smart Close for SAP","Account Analysis","Reporting and Analysis","Consolidation","Task Management","Compliance","Journal Risk Analyser","Intercompany Create","Intercompany Balance and Resolve","Intercompany Net and Settle","eInvoicing and Payments","Cash Application","AR Intelligence","Collections Management","Credit and Risk Management","Disputes and Deductions Management"],
+    "capabilities":["multi-agent reconciliation preparation","documentation analysis","transaction matching","audit-ready reconciliation assembly","audit trails","record-to-report automation","invoice-to-cash automation","financial-data integration","workflow orchestration","financial dashboards","process-design templates","governance controls","risk-management controls","journal-entry automation","financial-statement generation","anomaly detection","predictive intercompany guidance","global intercompany billing","autonomous reconciliation","remittance-data capture","cash-flow forecasting","customer-payment prediction"],
+    "customer_segments":["enterprise finance teams","CFO organizations","accounting teams","accounts-receivable teams"],
+    "facts":[{"id":"fact-blackline-customers-2026","field":"customer_count","value":4300,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_blackline_home_2026"]}],
+    "sources":[{"id":"src_blackline_home_2026","url":"https://www.blackline.com/","title":"The Agentic Financial Operations Platform","publisher":"BlackLine","source_class":"official company","accessed_date":"2026-08-11","supports":["products","capabilities","customer_segments","customer_count"]}]
+  },
+  {
+    "entity_id":"ent_puzzle",
+    "products":["AI Close","Accrual Automation","Invoicing","Revenue Recognition","API and MCP","Accuracy AI","AI-native general ledger"],
+    "capabilities":["continuous accounting","AI transaction categorization","AI reconciliation","AI-assisted month-end close","human approval before ledger posting","real-time cash reporting","real-time burn reporting","real-time runway reporting","continuous revenue recognition","cash accounting","accrual accounting","exception detection","variance flagging","journal-entry preparation","multi-client accounting environments","customizable charts of accounts","centralized firm oversight","SOC 2 controls","role-based access","encryption in transit","encryption at rest","audit traceability","guided onboarding","QuickBooks history import"],
+    "integrations":["Stripe","Brex","Mercury","Ramp","Deel","Gusto","Rippling","QuickBooks"],
+    "customer_segments":["accounting firms","startups","small and midsize businesses","high-growth companies","high-transaction businesses"],
+    "facts":[{"id":"fact-puzzle-customers-2026","field":"organization_customer_count","value":7000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_puzzle_home_2026"]},{"id":"fact-puzzle-automation-2026","field":"claimed_repetitive_work_automation_rate","minimum":85,"maximum":95,"unit":"percent","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_puzzle_home_2026"]},{"id":"fact-puzzle-close-improvement-2026","field":"claimed_month_end_close_reduction","value":50,"operator":"<=","unit":"percent faster","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_puzzle_home_2026"]}],
+    "sources":[{"id":"src_puzzle_home_2026","url":"https://puzzle.io/","title":"Puzzle AI Accounting Software","publisher":"Puzzle","source_class":"official company","accessed_date":"2026-08-11","supports":["products","capabilities","integrations","customer_segments","organization_customer_count","claimed_repetitive_work_automation_rate","claimed_month_end_close_reduction"]}]
+  },
+  {
+    "entity_id":"ent_pilot",
+    "services":["bookkeeping","tax preparation","tax compliance","CFO advisory","COO advisory","financial modeling","cash-flow planning","fundraising support","valuation support","international-expansion support"],
+    "capabilities":["intelligent financial dashboards","real-time expense tracking","cash-flow scenario modeling","IRS-ready books","accrual accounting","KPI dashboards","financial projections","data-room preparation","cost analysis","profitability analysis","hiring affordability analysis","exit-readiness planning","strategic finance guidance","US-based advisory team"],
+    "customer_segments":["startups","small businesses","growth-stage businesses","venture-backed companies","founder-led businesses"],
+    "facts":[{"id":"fact-pilot-customers-2026","field":"customer_count","value":3000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_pilot_home_2026"]}],
+    "sources":[{"id":"src_pilot_home_2026","url":"https://pilot.com/","title":"Pilot Bookkeeping, Tax and Advisory","publisher":"Pilot","source_class":"official company","accessed_date":"2026-08-11","supports":["services","capabilities","customer_segments","customer_count"]}]
+  },
+  {
+    "entity_id":"ent_xero",
+    "products":["Xero Accounting Software","JAX AI finance partner","Xero Payroll","Xero Projects","Xero Expenses","Xero Cashbook","Xero Ledger","Xero Partner Hub","Syft Analytics","Hubdoc"],
+    "capabilities":["invoicing","online payments","bill payment","purchase orders","receipt scanning","expense claims","bank reconciliation","payroll","project tracking","mileage tracking","quotes","fixed-asset management","AI financial answers","AI quote creation","AI invoice creation","paperless record keeping","invoice reminders","trend analysis","customizable reporting","automated bill entry","real-time reports","W-9 management","1099 management","sales-tax management","cash-flow forecasting","performance dashboards","financial health scorecards","KPI analysis","ratio analysis","multi-currency accounting","time tracking","project-cost tracking","inventory management","international bill payments"],
+    "customer_segments":["self-employed professionals","small businesses","medium-sized businesses","accountants","bookkeepers","large accounting firms","nonprofits","construction companies","startups","independent contractors","real-estate businesses","retail businesses"],
+    "facts":[{"id":"fact-xero-customers-2026","field":"customer_count","value":5000000,"operator":">","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_xero_us_2026"]},{"id":"fact-xero-apps-2026","field":"app_integration_count","value":1000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_xero_us_2026"]},{"id":"fact-xero-partners-2026","field":"accountant_bookkeeper_partner_count","value":250000,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_xero_us_2026"]},{"id":"fact-xero-onboarding-support-2026","field":"onboarding_support_days","value":90,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_xero_us_2026"]}],
+    "sources":[{"id":"src_xero_us_2026","url":"https://www.xero.com/us/","title":"Xero Accounting Software for Small Businesses","publisher":"Xero","source_class":"official company","accessed_date":"2026-08-11","supports":["products","capabilities","customer_segments","customer_count","app_integration_count","accountant_bookkeeper_partner_count","onboarding_support_days"]}]
   }
 ]

@@ -8,6 +8,8 @@
 - Added Capital One as a canonical entity and sourced Brex acquisition and BILL–Rillet integration relationships.
 - Preserved Silicon Valley Bank as the current name while representing its Q4 2026 rebrand as a future announcement.
 - Added current official evidence for Ramp, BILL, Brex, Agentic Fabriq, YPO, Chief, and SVB.
+- Expanded official-source fact depth to 2,068 sourced facts, including richer CFO-technology, executive-search, banking, law-firm, executive-community, and AI-security records.
+- Added detailed product, capability, integration, customer-segment, and dated quantitative evidence for Rillet, BlackLine, Puzzle, Pilot, Xero, ZRG, Orrick, BMO, Comerica, Tenet Security, AegisAI, and other priority entities.
 - Expanded validation to cover acquisitions, derived reciprocal edges, future facts, canonical analytical IDs, denominators, and cohort equivalence.
 
 ## 0.6.1 — 2026-08-11 — Data Governance and Knowledge Graph

@@ -435,22 +435,36 @@
         {
           "id": "venture-startup",
           "name": "Venture & Startup",
-          "count": 3,
-          "share": 0.3333,
+          "count": 4,
+          "share": 0.4444,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
-            "ent_cooley"
+            "ent_cooley",
+            "ent_orrick"
           ]
         },
         {
           "id": "m-a",
           "name": "M&A",
+          "count": 5,
+          "share": 0.5556,
+          "entity_ids": [
+            "ent_wilson_sonsini",
+            "ent_fenwick_west",
+            "ent_cooley",
+            "ent_foley_lardner",
+            "ent_orrick"
+          ]
+        },
+        {
+          "id": "cybersecurity-privacy",
+          "name": "Cybersecurity & Privacy",
           "count": 2,
           "share": 0.2222,
           "entity_ids": [
-            "ent_cooley",
-            "ent_foley_lardner"
+            "ent_fenwick_west",
+            "ent_orrick"
           ]
         },
         {
@@ -469,13 +483,14 @@
         {
           "id": "governance",
           "name": "Governance",
-          "count": 4,
-          "share": 0.4444,
+          "count": 5,
+          "share": 0.5556,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_latham_watkins",
-            "ent_cooley"
+            "ent_cooley",
+            "ent_orrick"
           ]
         }
       ],

@@ -79,11 +79,47 @@
             "description",
             "services"
           ]
+        },
+        {
+          "id": "src_rra_ceo_succession_2026",
+          "url": "https://www.russellreynolds.com/en/expertise/functions/boards/ceo-succession",
+          "title": "CEO Succession",
+          "publisher": "Russell Reynolds Associates",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "board search",
+        "CEO search",
+        "executive search",
+        "board succession",
+        "CEO succession",
+        "C-suite succession",
+        "assessment and benchmarking",
+        "executive development",
+        "executive transition",
+        "team performance",
+        "executive mentoring",
+        "board composition",
+        "board effectiveness",
+        "AI and technology leadership",
+        "leadership analytics"
+      ],
+      "services": [
+        "succession advisory",
+        "leadership performance",
+        "board advisory",
+        "executive research"
+      ],
+      "products": [],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -122,6 +158,181 @@
           "value": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
           "source_ids": [
             "src_rra"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_succession-advisory",
+          "field": "services",
+          "value": "succession advisory",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_leadership-performance",
+          "field": "services",
+          "value": "leadership performance",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_board-advisory",
+          "field": "services",
+          "value": "board advisory",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_services_executive-research",
+          "field": "services",
+          "value": "executive research",
+          "source_ids": [
+            "src_rra",
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-search",
+          "field": "capabilities",
+          "value": "board search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ceo-search",
+          "field": "capabilities",
+          "value": "CEO search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-search",
+          "field": "capabilities",
+          "value": "executive search",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-succession",
+          "field": "capabilities",
+          "value": "board succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ceo-succession",
+          "field": "capabilities",
+          "value": "CEO succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_c-suite-succession",
+          "field": "capabilities",
+          "value": "C-suite succession",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_assessment-and-benchmarking",
+          "field": "capabilities",
+          "value": "assessment and benchmarking",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-development",
+          "field": "capabilities",
+          "value": "executive development",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-transition",
+          "field": "capabilities",
+          "value": "executive transition",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_team-performance",
+          "field": "capabilities",
+          "value": "team performance",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_executive-mentoring",
+          "field": "capabilities",
+          "value": "executive mentoring",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-composition",
+          "field": "capabilities",
+          "value": "board composition",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_board-effectiveness",
+          "field": "capabilities",
+          "value": "board effectiveness",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_ai-and-technology-leadership",
+          "field": "capabilities",
+          "value": "AI and technology leadership",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_russell-reynolds-associates_capabilities_leadership-analytics",
+          "field": "capabilities",
+          "value": "leadership analytics",
+          "source_ids": [
+            "src_rra_ceo_succession_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -269,46 +480,130 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_wsgr_emerging_companies_2026",
+          "url": "https://www.wsgr.com/en/services/practice-areas/corporate/emerging-companies.html",
+          "title": "Emerging Companies and Venture Capital",
+          "publisher": "Wilson Sonsini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services",
+            "operating_geographies",
+            "represented_private_companies",
+            "represented_public_companies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "provider_types": [
-        "law-firms"
+      "capabilities": [
+        "emerging companies",
+        "venture capital",
+        "corporate formation",
+        "corporate governance",
+        "data privacy",
+        "cybersecurity",
+        "mergers and acquisitions",
+        "patents and innovations",
+        "tax",
+        "technology transactions",
+        "venture finance",
+        "fund formation",
+        "private equity",
+        "capital markets",
+        "artificial intelligence and machine learning"
       ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "governance",
-        "risk-management",
-        "capital-formation"
+      "services": [
+        "startup legal counsel",
+        "venture financing counsel",
+        "company formation counsel",
+        "technology transactions counsel"
       ],
-      "topics": [
-        "corporate-governance",
-        "venture-capital",
-        "emerging-technology"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.wsgr.com/en/services/index.html",
-          "title": "Wilson Sonsini Services",
-          "supports": [
-            "topics",
-            "executive_needs"
-          ]
-        }
+      "operating_geographies": [
+        "Palo Alto",
+        "San Francisco",
+        "New York",
+        "Boston",
+        "Austin",
+        "Seattle",
+        "London",
+        "Washington DC"
       ],
       "facts": [
+        {
+          "id": "fact-wsgr-private-companies",
+          "field": "represented_private_companies",
+          "value": 3000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ]
+        },
+        {
+          "id": "fact-wsgr-public-companies",
+          "field": "represented_public_companies",
+          "value": 300,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ]
+        },
         {
           "id": "fact_wilson-sonsini-goodrich-rosati_description_law-firm-serving-technology-life-sciences-growth",
           "field": "description",
           "value": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
           "source_ids": [
             "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_startup-legal-counsel",
+          "field": "services",
+          "value": "startup legal counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_venture-financing-counsel",
+          "field": "services",
+          "value": "venture financing counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_company-formation-counsel",
+          "field": "services",
+          "value": "company formation counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_services_technology-transactions-counsel",
+          "field": "services",
+          "value": "technology transactions counsel",
+          "source_ids": [
+            "src_wsgr",
+            "src_wsgr_emerging_companies_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -347,6 +642,242 @@
             "src_wsgr"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_emerging-companies",
+          "field": "capabilities",
+          "value": "emerging companies",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_venture-capital",
+          "field": "capabilities",
+          "value": "venture capital",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_corporate-formation",
+          "field": "capabilities",
+          "value": "corporate formation",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_data-privacy",
+          "field": "capabilities",
+          "value": "data privacy",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_patents-and-innovations",
+          "field": "capabilities",
+          "value": "patents and innovations",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_tax",
+          "field": "capabilities",
+          "value": "tax",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_venture-finance",
+          "field": "capabilities",
+          "value": "venture finance",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_fund-formation",
+          "field": "capabilities",
+          "value": "fund formation",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_capabilities_artificial-intelligence-and-machine-learning",
+          "field": "capabilities",
+          "value": "artificial intelligence and machine learning",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_palo-alto",
+          "field": "operating_geographies",
+          "value": "Palo Alto",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_san-francisco",
+          "field": "operating_geographies",
+          "value": "San Francisco",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_new-york",
+          "field": "operating_geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_boston",
+          "field": "operating_geographies",
+          "value": "Boston",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_austin",
+          "field": "operating_geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_seattle",
+          "field": "operating_geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_london",
+          "field": "operating_geographies",
+          "value": "London",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_operating-geographies_washington-dc",
+          "field": "operating_geographies",
+          "value": "Washington DC",
+          "source_ids": [
+            "src_wsgr_emerging_companies_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Wilson Sonsini Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
         }
       ]
     },
@@ -395,11 +926,56 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_fenwick_corporate_venture_2026",
+          "url": "https://www.fenwick.com/services/practices/corporate-venture",
+          "title": "Corporate Venture",
+          "publisher": "Fenwick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
+        },
+        {
+          "id": "src_fenwick_privacy_cyber_2026",
+          "url": "https://www.fenwick.com/services/practices/privacy-cybersecurity",
+          "title": "Privacy and Cybersecurity",
+          "publisher": "Fenwick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "capabilities": [
+        "startup and venture capital",
+        "corporate venture",
+        "mergers and acquisitions",
+        "privacy",
+        "cybersecurity",
+        "artificial intelligence",
+        "machine learning",
+        "technology transactions",
+        "corporate governance",
+        "private equity",
+        "data security",
+        "venture financing"
+      ],
+      "services": [
+        "corporate venture counsel",
+        "privacy compliance",
+        "cybersecurity incident counsel",
+        "technology transactions counsel"
+      ],
+      "products": [],
       "provider_types": [
         "law-firms"
       ],
@@ -439,6 +1015,50 @@
           "last_verified": "2026-08-11"
         },
         {
+          "id": "fact_fenwick-west_services_corporate-venture-counsel",
+          "field": "services",
+          "value": "corporate venture counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_privacy-compliance",
+          "field": "services",
+          "value": "privacy compliance",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_cybersecurity-incident-counsel",
+          "field": "services",
+          "value": "cybersecurity incident counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_services_technology-transactions-counsel",
+          "field": "services",
+          "value": "technology transactions counsel",
+          "source_ids": [
+            "src_fenwick",
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
           "id": "fact_fenwick-west_industries_technology",
           "field": "industries",
           "value": "Technology",
@@ -471,6 +1091,126 @@
           "value": "Life Sciences",
           "source_ids": [
             "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_startup-and-venture-capital",
+          "field": "capabilities",
+          "value": "startup and venture capital",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_corporate-venture",
+          "field": "capabilities",
+          "value": "corporate venture",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_privacy",
+          "field": "capabilities",
+          "value": "privacy",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_artificial-intelligence",
+          "field": "capabilities",
+          "value": "artificial intelligence",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_machine-learning",
+          "field": "capabilities",
+          "value": "machine learning",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_data-security",
+          "field": "capabilities",
+          "value": "data security",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_capabilities_venture-financing",
+          "field": "capabilities",
+          "value": "venture financing",
+          "source_ids": [
+            "src_fenwick_corporate_venture_2026",
+            "src_fenwick_privacy_cyber_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -2435,7 +3175,11 @@
         "research",
         "executive communities",
         "private executive events",
-        "original research"
+        "original research",
+        "quarterly executive dinners",
+        "off-the-record peer discussion",
+        "member referrals",
+        "public Forum Events"
       ],
       "application_required": true,
       "invite_only": true,
@@ -2481,6 +3225,23 @@
             "programs",
             "services"
           ]
+        },
+        {
+          "id": "src_off_select_explainer",
+          "url": "https://openfutureforum.com/what-is-forum-select",
+          "title": "What Is Forum Select?",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "published_date": "2026-01-15",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "services",
+            "event_guest_range",
+            "event_duration_hours",
+            "membership_fee",
+            "event_frequency"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -2497,6 +3258,18 @@
         "executive peer groups",
         "executive boards",
         "original research"
+      ],
+      "capabilities": [
+        "invitation-only membership",
+        "C-suite peer groups",
+        "board-director community",
+        "CEO forums",
+        "CFO forums",
+        "CMO forums",
+        "CISO forums",
+        "AI leadership forums",
+        "executive research",
+        "private dinners"
       ],
       "facts": [
         {
@@ -2518,6 +3291,53 @@
           ]
         },
         {
+          "id": "fact-off-select-min-guests",
+          "field": "event_guest_range",
+          "minimum": 8,
+          "maximum": 30,
+          "as_of_date": "2026-05-17",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_off_select_explainer"
+          ]
+        },
+        {
+          "id": "fact-off-select-duration",
+          "field": "event_duration_hours",
+          "minimum": 2.5,
+          "maximum": 3,
+          "as_of_date": "2026-05-17",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_off_select_explainer"
+          ]
+        },
+        {
+          "id": "fact-off-select-fee",
+          "field": "membership_fee",
+          "value": 0,
+          "currency": "USD",
+          "as_of_date": "2026-05-17",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_off_select_explainer"
+          ]
+        },
+        {
+          "id": "fact-off-select-frequency",
+          "field": "event_frequency",
+          "value": "quarterly",
+          "as_of_date": "2026-05-17",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_off_select_explainer"
+          ]
+        },
+        {
           "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
           "field": "description",
           "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
@@ -2533,7 +3353,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2544,7 +3365,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2555,7 +3377,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2566,7 +3389,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2577,7 +3401,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2588,7 +3413,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2599,7 +3425,8 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2610,7 +3437,56 @@
           "source_ids": [
             "src_off_about",
             "src_off_forum_select",
-            "src_off_research"
+            "src_off_research",
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_quarterly-executive-dinners",
+          "field": "services",
+          "value": "quarterly executive dinners",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research",
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_off-the-record-peer-discussion",
+          "field": "services",
+          "value": "off-the-record peer discussion",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research",
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_member-referrals",
+          "field": "services",
+          "value": "member referrals",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research",
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_public-forum-events",
+          "field": "services",
+          "value": "public Forum Events",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research",
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2706,6 +3582,96 @@
           "value": true,
           "source_ids": [
             "src_off_forum_select"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_invitation-only-membership",
+          "field": "capabilities",
+          "value": "invitation-only membership",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_c-suite-peer-groups",
+          "field": "capabilities",
+          "value": "C-suite peer groups",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_board-director-community",
+          "field": "capabilities",
+          "value": "board-director community",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_ceo-forums",
+          "field": "capabilities",
+          "value": "CEO forums",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_cfo-forums",
+          "field": "capabilities",
+          "value": "CFO forums",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_cmo-forums",
+          "field": "capabilities",
+          "value": "CMO forums",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_ciso-forums",
+          "field": "capabilities",
+          "value": "CISO forums",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_ai-leadership-forums",
+          "field": "capabilities",
+          "value": "AI leadership forums",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_executive-research",
+          "field": "capabilities",
+          "value": "executive research",
+          "source_ids": [
+            "src_off_select_explainer"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_capabilities_private-dinners",
+          "field": "capabilities",
+          "value": "private dinners",
+          "source_ids": [
+            "src_off_select_explainer"
           ],
           "last_verified": "2026-08-11"
         }
@@ -2857,42 +3823,66 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_cooley_ai_transactions_2025",
+          "url": "https://www.cooley.com/news/coverage/2025/2025-03-04-cooley-again-ranks-among-top-ai-transactional-firms",
+          "title": "Cooley AI Transactional Activity",
+          "publisher": "Cooley",
+          "source_class": "official company",
+          "published_date": "2025-03-04",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "reported_ai_venture_transactions",
+            "reported_ai_venture_transaction_value"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
-      "provider_types": [
-        "law-firms"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "governance",
-        "risk-management",
-        "capital-formation"
-      ],
-      "topics": [
-        "corporate-governance",
-        "venture-capital",
-        "private-equity",
-        "emerging-technology"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.cooley.com/services",
-          "title": "Cooley Services",
-          "supports": [
-            "topics",
-            "executive_needs"
-          ]
-        }
+      "capabilities": [
+        "artificial intelligence transactions",
+        "venture capital",
+        "emerging companies",
+        "mergers and acquisitions",
+        "private equity",
+        "technology transactions",
+        "company formation",
+        "capital markets",
+        "fund formation",
+        "privacy",
+        "cybersecurity",
+        "intellectual property"
       ],
       "facts": [
+        {
+          "id": "fact-cooley-ai-transactions-2024",
+          "field": "reported_ai_venture_transactions",
+          "value": 450,
+          "operator": ">=",
+          "as_of_date": "2024-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ]
+        },
+        {
+          "id": "fact-cooley-ai-transaction-value-2024",
+          "field": "reported_ai_venture_transaction_value",
+          "value": 17700000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2024-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ]
+        },
         {
           "id": "fact_cooley_description_law-firm-with-documented-practices-serving-compa",
           "field": "description",
@@ -2973,6 +3963,144 @@
             "src_cooley_services"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_artificial-intelligence-transactions",
+          "field": "capabilities",
+          "value": "artificial intelligence transactions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_venture-capital",
+          "field": "capabilities",
+          "value": "venture capital",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_emerging-companies",
+          "field": "capabilities",
+          "value": "emerging companies",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_private-equity",
+          "field": "capabilities",
+          "value": "private equity",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_company-formation",
+          "field": "capabilities",
+          "value": "company formation",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_fund-formation",
+          "field": "capabilities",
+          "value": "fund formation",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_privacy",
+          "field": "capabilities",
+          "value": "privacy",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_capabilities_intellectual-property",
+          "field": "capabilities",
+          "value": "intellectual property",
+          "source_ids": [
+            "src_cooley_ai_transactions_2025"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "private-equity",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cooley.com/services",
+          "title": "Cooley Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
         }
       ]
     },
@@ -3652,6 +4780,65 @@
           ]
         },
         {
+          "id": "fact-brex-customers-2026",
+          "field": "customer_count",
+          "value": 35000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-countries-2026",
+          "field": "countries_supported",
+          "value": 120,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-erp-integrations-2026",
+          "field": "erp_integrations",
+          "value": 1000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-hours-saved-2025",
+          "field": "average_hours_saved_per_year",
+          "value": 756,
+          "as_of_date": "2025-03-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-automation-rate-2025",
+          "field": "reported_expense_automation_rate",
+          "value": 71,
+          "unit": "percent",
+          "as_of_date": "2025-03-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_home_2026"
+          ]
+        },
+        {
           "id": "fact_brex_identity_brex",
           "field": "identity",
           "value": "Brex",
@@ -3794,6 +4981,186 @@
             "src_brex_acquisition_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_spend-controls",
+          "field": "capabilities",
+          "value": "spend controls",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_automated-receipt-capture",
+          "field": "capabilities",
+          "value": "automated receipt capture",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_ai-expense-assistant",
+          "field": "capabilities",
+          "value": "AI expense assistant",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_travel-booking",
+          "field": "capabilities",
+          "value": "travel booking",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_global-payments",
+          "field": "capabilities",
+          "value": "global payments",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_invoice-automation",
+          "field": "capabilities",
+          "value": "invoice automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_payment-automation",
+          "field": "capabilities",
+          "value": "payment automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_vendor-specific-cards",
+          "field": "capabilities",
+          "value": "vendor-specific cards",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_procurement-approvals",
+          "field": "capabilities",
+          "value": "procurement approvals",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_ai-accounting-suggestions",
+          "field": "capabilities",
+          "value": "AI accounting suggestions",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_accrual-automation",
+          "field": "capabilities",
+          "value": "accrual automation",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_general-ledger-coding",
+          "field": "capabilities",
+          "value": "general-ledger coding",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_purchase-card-controls",
+          "field": "capabilities",
+          "value": "purchase-card controls",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_mobile-expense-management",
+          "field": "capabilities",
+          "value": "mobile expense management",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_treasury-management",
+          "field": "capabilities",
+          "value": "treasury management",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_capabilities_erp-integration",
+          "field": "capabilities",
+          "value": "ERP integration",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_mid-size-companies",
+          "field": "customer_segments",
+          "value": "mid-size companies",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_enterprises",
+          "field": "customer_segments",
+          "value": "enterprises",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_customer-segments_global-companies",
+          "field": "customer_segments",
+          "value": "global companies",
+          "source_ids": [
+            "src_brex_home_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3830,6 +5197,23 @@
             "entity_status",
             "parent_company"
           ]
+        },
+        {
+          "id": "src_brex_home_2026",
+          "url": "https://www.brex.com/",
+          "title": "Brex: Corporate Cards, Banking and Expense Management",
+          "publisher": "Brex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "customer_segments",
+            "customer_count",
+            "countries_supported",
+            "erp_integrations",
+            "average_hours_saved_per_year",
+            "reported_expense_automation_rate"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -3847,6 +5231,30 @@
         "travel",
         "treasury",
         "AI agents"
+      ],
+      "capabilities": [
+        "spend controls",
+        "automated receipt capture",
+        "AI expense assistant",
+        "travel booking",
+        "global payments",
+        "invoice automation",
+        "payment automation",
+        "vendor-specific cards",
+        "procurement approvals",
+        "AI accounting suggestions",
+        "accrual automation",
+        "general-ledger coding",
+        "purchase-card controls",
+        "mobile expense management",
+        "treasury management",
+        "ERP integration"
+      ],
+      "customer_segments": [
+        "startups",
+        "mid-size companies",
+        "enterprises",
+        "global companies"
       ],
       "services": [],
       "provider_types": [
@@ -4029,6 +5437,240 @@
             "src_agentic_fabriq_yc"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-identity-management",
+          "field": "capabilities",
+          "value": "agent identity management",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_delegated-user-identity",
+          "field": "capabilities",
+          "value": "delegated user identity",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_fine-grained-agent-authorization",
+          "field": "capabilities",
+          "value": "fine-grained agent authorization",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_resource-level-permission-policies",
+          "field": "capabilities",
+          "value": "resource-level permission policies",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_real-time-policy-enforcement",
+          "field": "capabilities",
+          "value": "real-time policy enforcement",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_credential-vault",
+          "field": "capabilities",
+          "value": "credential vault",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_token-exchange",
+          "field": "capabilities",
+          "value": "token exchange",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_authentication-verification",
+          "field": "capabilities",
+          "value": "authentication verification",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_real-time-activity-monitoring",
+          "field": "capabilities",
+          "value": "real-time activity monitoring",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_immutable-audit-logs",
+          "field": "capabilities",
+          "value": "immutable audit logs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_incident-tracing",
+          "field": "capabilities",
+          "value": "incident tracing",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-sdks",
+          "field": "capabilities",
+          "value": "agent SDKs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_rest-apis",
+          "field": "capabilities",
+          "value": "REST APIs",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_mcp-integration",
+          "field": "capabilities",
+          "value": "MCP integration",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_identity-provider-integration",
+          "field": "capabilities",
+          "value": "identity-provider integration",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_capabilities_agent-lifecycle-management",
+          "field": "capabilities",
+          "value": "agent lifecycle management",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_gmail",
+          "field": "integrations",
+          "value": "Gmail",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-drive",
+          "field": "integrations",
+          "value": "Google Drive",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-calendar",
+          "field": "integrations",
+          "value": "Google Calendar",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_google-meet",
+          "field": "integrations",
+          "value": "Google Meet",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_slack",
+          "field": "integrations",
+          "value": "Slack",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_github",
+          "field": "integrations",
+          "value": "GitHub",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_notion",
+          "field": "integrations",
+          "value": "Notion",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_microsoft-teams",
+          "field": "integrations",
+          "value": "Microsoft Teams",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_onedrive",
+          "field": "integrations",
+          "value": "OneDrive",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_integrations_microsoft-365",
+          "field": "integrations",
+          "value": "Microsoft 365",
+          "source_ids": [
+            "src_agentic_fabriq_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -4064,6 +5706,18 @@
             "accelerator_batch",
             "entity_status"
           ]
+        },
+        {
+          "id": "src_agentic_fabriq_product_2026",
+          "url": "https://www.agenticfabriq.com/what-is-agentic-fabriq",
+          "title": "Identity and Permissioning for AI Agents",
+          "publisher": "Agentic Fabriq",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "capabilities",
+            "integrations"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4074,6 +5728,36 @@
       "founders": [
         "Paulina Xu",
         "Matthew Xu"
+      ],
+      "capabilities": [
+        "agent identity management",
+        "delegated user identity",
+        "fine-grained agent authorization",
+        "resource-level permission policies",
+        "real-time policy enforcement",
+        "credential vault",
+        "token exchange",
+        "authentication verification",
+        "real-time activity monitoring",
+        "immutable audit logs",
+        "incident tracing",
+        "agent SDKs",
+        "REST APIs",
+        "MCP integration",
+        "identity-provider integration",
+        "agent lifecycle management"
+      ],
+      "integrations": [
+        "Gmail",
+        "Google Drive",
+        "Google Calendar",
+        "Google Meet",
+        "Slack",
+        "GitHub",
+        "Notion",
+        "Microsoft Teams",
+        "OneDrive",
+        "Microsoft 365"
       ],
       "services": [],
       "products": [],
