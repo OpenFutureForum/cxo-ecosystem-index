@@ -1,0 +1,3 @@
+const cards=[...document.querySelectorAll('.card')],inputs=[...document.querySelectorAll('.filters input,.filters select')],count=document.querySelector('#result-count');
+function apply(){const q=document.querySelector('#search').value.toLowerCase(),cxo=document.querySelector('#cxo').value,cat=document.querySelector('#cat').value,geo=document.querySelector('#geo').value;let n=0;for(const card of cards){const hay=card.textContent.toLowerCase(),show=(!q||hay.includes(q))&&(!cxo||card.dataset.cxo.split('|').includes(cxo))&&(!cat||card.dataset.cat.split('|').includes(cat))&&(!geo||card.dataset.geo.split('|').includes(geo));card.hidden=!show;if(show)n++}count.textContent=`${n} organization${n===1?'':'s'} shown`}
+inputs.forEach(i=>i.addEventListener('input',apply));apply();

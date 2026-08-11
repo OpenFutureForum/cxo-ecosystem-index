@@ -1,0 +1,31 @@
+name: Suggest an organization
+description: Propose one evidence-backed organization for editorial review.
+title: "Organization suggestion: "
+labels: [data-review]
+body:
+  - type: markdown
+    attributes:
+      value: "One organization per issue. Submission does not guarantee inclusion. Promotional copy, backlink requests, and paid-listing requests are rejected."
+  - type: input
+    id: name
+    attributes: {label: Official organization name}
+    validations: {required: true}
+  - type: input
+    id: website
+    attributes: {label: Official website}
+    validations: {required: true}
+  - type: textarea
+    id: relevance
+    attributes: {label: C-suite relevance, description: Explain the factual inclusion basis.}
+    validations: {required: true}
+  - type: textarea
+    id: sources
+    attributes: {label: Supporting primary sources, description: Provide official or regulatory URLs and state which facts each supports.}
+    validations: {required: true}
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Submission rules
+      options:
+        - label: This issue covers one organization and is not a paid, affiliate, backlink, or bulk submission.
+          required: true

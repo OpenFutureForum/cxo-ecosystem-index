@@ -1,0 +1,42 @@
+[
+  {
+    "term": "Executive Community",
+    "slug": "executive-community",
+    "definition": "An organized network serving senior leaders through recurring peer interaction, shared professional context, or structured programming."
+  },
+  {
+    "term": "CEO Peer Group",
+    "slug": "ceo-peer-group",
+    "definition": "A recurring group designed for chief executives to discuss decisions and operating challenges with other CEOs."
+  },
+  {
+    "term": "CFO Technology",
+    "slug": "cfo-technology",
+    "definition": "Enterprise software whose documented primary users or buyers include finance leaders and their organizations."
+  },
+  {
+    "term": "AI Governance",
+    "slug": "ai-governance",
+    "definition": "Policies, responsibilities, controls, and evidence used to direct and oversee artificial-intelligence systems."
+  },
+  {
+    "term": "Executive Search",
+    "slug": "executive-search",
+    "definition": "Professional recruitment focused on senior leadership and board appointments."
+  },
+  {
+    "term": "Venture Bank",
+    "slug": "venture-bank",
+    "definition": "A bank with documented products or teams serving venture-backed companies and their investors."
+  },
+  {
+    "term": "Private Credit",
+    "slug": "private-credit",
+    "definition": "Non-bank lending strategies that provide privately negotiated debt capital to companies or financial sponsors."
+  },
+  {
+    "term": "Board Network",
+    "slug": "board-network",
+    "definition": "A professional network centered on board directors, board candidates, governance, or board education."
+  }
+]

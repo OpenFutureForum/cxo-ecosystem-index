@@ -1,0 +1,17 @@
+name: Report a correction
+description: Correct a factual record with supporting evidence.
+title: "Correction: "
+labels: [correction]
+body:
+  - type: input
+    id: record
+    attributes: {label: Entity ID or page URL}
+    validations: {required: true}
+  - type: textarea
+    id: change
+    attributes: {label: Requested factual correction}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Primary evidence}
+    validations: {required: true}

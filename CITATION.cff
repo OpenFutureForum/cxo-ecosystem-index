@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the versioned release used in your work."
+title: "CXO Ecosystem Index"
+type: dataset
+authors:
+  - family-names: Newlands
+    given-names: Murray
+repository-code: "https://github.com/OpenFutureForum/cxo-ecosystem-index"
+url: "https://openfutureforum.github.io/cxo-ecosystem-index/"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-11
