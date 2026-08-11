@@ -1,0 +1,53 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {root} from '../scripts/lib.mjs';
+
+const docs=path.join(root,'docs');
+const base='https://openfutureforum.github.io/cxo-ecosystem-index/';
+const manifest=JSON.parse(await fs.readFile(path.join(docs,'data/build-manifest.json'),'utf8'));
+const home=await fs.readFile(path.join(docs,'index.html'),'utf8');
+const dataPage=await fs.readFile(path.join(docs,'data.html'),'utf8');
+const sitemap=await fs.readFile(path.join(docs,'sitemap.xml'),'utf8');
+
+test('homepage, Data page and freshness endpoints match the build manifest',async()=>{
+ assert.ok(home.includes(`Dataset v${manifest.dataset_version}`));
+ assert.ok(home.includes(`<strong>${manifest.organizations}</strong><span>Organizations</span>`));
+ assert.ok(home.includes(`<strong>${manifest.sourced_facts}</strong><span>Sourced facts</span>`));
+ assert.ok(home.includes(`<strong>${manifest.canonical_sources}</strong><span>Canonical sources</span>`));
+ for(const value of [manifest.organizations,manifest.sourced_facts,manifest.canonical_sources])assert.ok(dataPage.includes(`<strong>${value}</strong>`));
+ const latest=JSON.parse(await fs.readFile(path.join(docs,'data/latest.json'),'utf8'));
+ assert.equal(latest.dataset_version,manifest.dataset_version);assert.equal(latest.build_commit,manifest.build_commit);
+});
+
+test('canonical homepage is clean and filter state cannot become canonical',()=>{
+ assert.ok(home.includes(`<link rel="canonical" href="${base}">`));
+ assert.ok(!home.match(/<link rel="canonical"[^>]*[?&](?:v|utm_|role|location)=/));
+ assert.ok(home.includes('<meta name="robots" content="index,follow">'));
+});
+
+test('sitemap contains unique clean canonical URLs with lastmod',()=>{
+ const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(match=>match[1]);
+ const lastmods=[...sitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map(match=>match[1]);
+ assert.equal(new Set(urls).size,urls.length);assert.equal(lastmods.length,urls.length);
+ assert.ok(urls.every(url=>!url.includes('?')));assert.ok(!urls.some(url=>url.includes('/data/quality/')));
+ assert.ok(lastmods.every(value=>/^\d{4}-\d{2}-\d{2}$/.test(value)));
+});
+
+test('static HTML uses content-hashed assets and exposes primary discovery links',()=>{
+ assert.match(home,/assets\/style\.[a-f0-9]{10}\.css/);assert.match(home,/assets\/app\.[a-f0-9]{10}\.js/);
+ for(const href of ['cxo-ecosystems.html','providers/','intelligence/','data.html','methodology.html','data-quality.html','intelligence/cfo-technology.html','intelligence/compare-cfo-spend-platforms.html'])assert.ok(home.includes(`href="${href}`),`homepage missing ${href}`);
+});
+
+test('README status block matches generated metrics',async()=>{
+ const readme=await fs.readFile(path.join(root,'README.md'),'utf8');
+ for(const value of [manifest.dataset_version,manifest.schema_version,manifest.organizations.toLocaleString('en-US'),manifest.sourced_facts.toLocaleString('en-US'),manifest.canonical_sources.toLocaleString('en-US')])assert.ok(readme.includes(`| ${value} |`),`README missing ${value}`);
+ assert.ok(readme.includes('.github/workflows/pages.yml'));
+});
+
+test('robots and Data authority hub expose current canonical resources',async()=>{
+ const robots=await fs.readFile(path.join(docs,'robots.txt'),'utf8');assert.ok(robots.includes('Allow: /'));assert.ok(robots.includes(`${base}sitemap.xml`));
+ for(const resource of ['entities.json','entities.csv','facts.json','sources.json','relationships.json','knowledge-graph.json','search-index.json','taxonomy.json','definitions.json','intelligence.json','benchmarks.json','market-maps.json','build-manifest.json','latest.json'])assert.ok(dataPage.includes(`data/${resource}`),`Data page missing ${resource}`);
+ assert.ok(dataPage.includes('CITATION.cff'));
+});

@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.7.1 — 2026-08-11 — Discovery & Crawlability
+
+### Fixed
+
+- Removed duplicate generated HTML copies and the redundant nested data-quality route from the deployable site.
+- Enforced clean self-referencing canonical URLs, consistent internal hub URLs, and sitemap-only canonical indexable routes.
+- Replaced universal sitemap timestamps with page-dependency last-modified values.
+
+### Added
+
+- Added build-manifest and latest-release JSON endpoints with version, schema, commit, timestamps, and live dataset metrics.
+- Added static homepage release metadata, canonical-source and relationship statistics, richer Data authority links, breadcrumbs, and contextual entity discovery links.
+- Added content-hashed CSS and JavaScript references without query parameters on canonical HTML pages.
+- Added canonical, sitemap, orphan-page, stale-output, manifest-consistency, structured-data, and static-crawl validation.
+- Added post-deployment endpoint and live-content verification to the GitHub Pages workflow.
+
 ## 0.7.0 — 2026-08-11 — CXO Intelligence Release
 
 - Published eight evidence-backed market maps, six factual comparisons, six benchmarks, and 71 separately counted derived metrics.

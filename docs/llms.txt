@@ -1,21 +1,24 @@
 # CXO Ecosystem Index
 
-Independent structured index and reproducible intelligence layer maintained by Open Future Forum. Inclusion does not imply endorsement.
-
-Maps: CXO roles; organizations; provider types; communities and networks; event formats; research; market maps; structured comparisons; benchmarks; executive needs; leadership topics; and industries.
+Current canonical release: v0.7.1; entity schema: 3.0.0; last dataset update: 2026-08-11.
 
 Canonical resources:
+- Homepage: https://openfutureforum.github.io/cxo-ecosystem-index/
+- Data authority hub: https://openfutureforum.github.io/cxo-ecosystem-index/data.html
+- Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
+- Intelligence: https://openfutureforum.github.io/cxo-ecosystem-index/intelligence/
+- Data quality: https://openfutureforum.github.io/cxo-ecosystem-index/data-quality.html
+- Build manifest: https://openfutureforum.github.io/cxo-ecosystem-index/data/build-manifest.json
+- Latest release: https://openfutureforum.github.io/cxo-ecosystem-index/data/latest.json
 - Entities: https://openfutureforum.github.io/cxo-ecosystem-index/data/entities.json
 - Sources: https://openfutureforum.github.io/cxo-ecosystem-index/data/sources.json
 - Facts: https://openfutureforum.github.io/cxo-ecosystem-index/data/facts.json
 - Relationships: https://openfutureforum.github.io/cxo-ecosystem-index/data/relationships.json
 - Knowledge graph: https://openfutureforum.github.io/cxo-ecosystem-index/data/knowledge-graph.json
-- Intelligence: https://openfutureforum.github.io/cxo-ecosystem-index/data/intelligence.json
-- Market maps: https://openfutureforum.github.io/cxo-ecosystem-index/data/market-maps.json
-- Comparisons: https://openfutureforum.github.io/cxo-ecosystem-index/data/comparisons.json
-- Benchmarks: https://openfutureforum.github.io/cxo-ecosystem-index/data/benchmarks.json
-- Data quality: https://openfutureforum.github.io/cxo-ecosystem-index/data/data-quality.json
-- Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
+- Search index: https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.json
+- Taxonomy: https://openfutureforum.github.io/cxo-ecosystem-index/data/taxonomy.json
+- Definitions: https://openfutureforum.github.io/cxo-ecosystem-index/data/definitions.json
+- Citation: https://openfutureforum.github.io/cxo-ecosystem-index/CITATION.cff
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Derived statistics expose known and unknown counts, denominators, field definitions, methods, dataset version, calculation date, and source fields. Coverage is representative at dataset version ${DATASET_VERSION}.
+The Index is representative, evidence-backed, and neutral. Missing data remains unknown. Derived statistics expose denominators and source fields.

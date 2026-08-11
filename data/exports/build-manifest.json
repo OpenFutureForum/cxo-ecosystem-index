@@ -1,0 +1,20 @@
+{
+  "project": "CXO Ecosystem Index",
+  "dataset_version": "0.7.1",
+  "schema_version": "3.0.0",
+  "build_commit": "036816e34b5fc791df34f1b8137b27bed4a6a1bd",
+  "generated_at": "2026-08-11T22:11:46.752Z",
+  "last_dataset_update": "2026-08-11",
+  "organizations": 194,
+  "sourced_facts": 2068,
+  "canonical_sources": 222,
+  "verified_entities": 192,
+  "provider_categories": 60,
+  "cxo_functions": 11,
+  "geographic_markets": 12,
+  "sourced_relationships": 3,
+  "derived_relationships": 3,
+  "derived_metrics": 72,
+  "canonical_url": "https://openfutureforum.github.io/cxo-ecosystem-index/",
+  "data_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data.html"
+}

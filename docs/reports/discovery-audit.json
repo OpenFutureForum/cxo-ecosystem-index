@@ -1,0 +1,18 @@
+{
+  "dataset_version": "0.7.1",
+  "schema_version": "3.0.0",
+  "deployment_commit": "036816e34b5fc791df34f1b8137b27bed4a6a1bd",
+  "generated_at": "2026-08-11T22:11:46.752Z",
+  "indexable_pages": 279,
+  "sitemap_urls": 279,
+  "pages_with_meaningful_lastmod": 279,
+  "orphan_pages": [],
+  "canonical_errors": 0,
+  "query_string_canonicals": 0,
+  "noindex_pages": 0,
+  "broken_links": 0,
+  "pages_missing_titles": 0,
+  "pages_missing_descriptions": 0,
+  "pages_missing_structured_data": 0,
+  "stale_version_strings": 0
+}

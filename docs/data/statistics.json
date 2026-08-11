@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:33:58.915Z",
+  "generated_at": "2026-08-11T22:11:46.752Z",
   "entities": 194,
   "sourced_facts": 2068,
   "facts_per_entity": 10.7,
@@ -14,5 +14,13 @@
   "provider_categories": 60,
   "geographies": 12,
   "industries": 27,
-  "primary_source_coverage": 100
+  "primary_source_coverage": 100,
+  "dataset_version": "0.7.1",
+  "schema_version": "3.0.0",
+  "build_commit": "036816e34b5fc791df34f1b8137b27bed4a6a1bd",
+  "last_dataset_update": "2026-08-11",
+  "canonical_sources": 222,
+  "sourced_relationships": 3,
+  "derived_relationships": 3,
+  "derived_metrics": 72
 }
