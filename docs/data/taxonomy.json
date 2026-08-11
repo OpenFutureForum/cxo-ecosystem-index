@@ -254,6 +254,21 @@
       "definition": "Identification, assessment, treatment, and monitoring of risk."
     },
     {
+      "id": "transformation",
+      "label": "Transformation",
+      "definition": "Material change to an organization's strategy, operations, systems, or structure."
+    },
+    {
+      "id": "talent",
+      "label": "Talent",
+      "definition": "Work related to identifying, recruiting, assessing, developing, and retaining people."
+    },
+    {
+      "id": "capital-formation",
+      "label": "Capital Formation",
+      "definition": "Activities used to obtain equity, debt, or other capital for an organization or fund."
+    },
+    {
       "id": "board-effectiveness",
       "label": "Board Effectiveness",
       "definition": "Practices intended to improve board oversight, deliberation, and accountability."
@@ -324,6 +339,16 @@
       "id": "board-governance",
       "label": "Board Governance",
       "definition": "Board-level oversight, decision rights, accountability, and reporting."
+    },
+    {
+      "id": "corporate-governance",
+      "label": "Corporate Governance",
+      "definition": "Structures and processes used to direct, oversee, and hold a corporation accountable."
+    },
+    {
+      "id": "risk",
+      "label": "Risk",
+      "definition": "Potential events or conditions that may affect objectives, performance, assets, or obligations."
     },
     {
       "id": "portfolio-operations",

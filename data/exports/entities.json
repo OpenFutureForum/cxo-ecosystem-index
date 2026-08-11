@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0.0",
-  "dataset_version": "0.3.0",
-  "generated_at": "2026-08-11T18:07:16.850Z",
+  "dataset_version": "0.3.1",
+  "generated_at": "2026-08-11T18:17:43.060Z",
   "dimensions": [
     "provider_types",
     "community_formats",
@@ -297,10 +297,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.kornferry.com/capabilities/talent-acquisition/executive-search",
+          "title": "Korn Ferry Executive Search",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_russell_reynolds_associates",
@@ -360,10 +379,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.russellreynolds.com/en/capabilities",
+          "title": "Russell Reynolds Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_heidrick_struggles",
@@ -425,10 +463,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.heidrick.com/en/services/executive-search",
+          "title": "Heidrick & Struggles Executive Search",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_wilson_sonsini",
@@ -489,10 +546,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Wilson Sonsini Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_fenwick_west",
@@ -551,10 +625,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.fenwick.com/",
+          "title": "Fenwick",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_latham_watkins",
@@ -614,10 +705,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "private-equity",
+        "private-markets",
+        "capital-strategy"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.lw.com/en/practices",
+          "title": "Latham & Watkins Practices",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_pwc",
@@ -679,10 +788,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "risk-management",
+        "transformation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "cybersecurity",
+        "risk"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.pwc.com/gx/en/services.html",
+          "title": "PwC Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_ey",
@@ -747,10 +875,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "risk-management",
+        "transformation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "cybersecurity",
+        "risk"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.ey.com/en_gl/services",
+          "title": "EY Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_kpmg",
@@ -812,10 +959,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "risk-management",
+        "transformation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "cybersecurity",
+        "risk"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://kpmg.com/xx/en/what-we-do.html",
+          "title": "KPMG Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_mckinsey",
@@ -873,10 +1039,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.mckinsey.com/capabilities",
+          "title": "McKinsey Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_bcg",
@@ -937,10 +1122,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.bcg.com/capabilities",
+          "title": "BCG Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_bain",
@@ -997,10 +1201,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market",
+        "private-equity"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.bain.com/consulting-services/",
+          "title": "Bain Consulting Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_bank_of_america",
@@ -1056,10 +1280,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://business.bofa.com/",
+          "title": "Bank of America Business Banking and Markets",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_citi",
@@ -1116,10 +1357,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.citigroup.com/global/businesses",
+          "title": "Citi Businesses",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_hsbc",
@@ -1173,10 +1431,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.hsbc.com/who-we-are/businesses-and-customers/",
+          "title": "HSBC Businesses and Customers",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_evercore",
@@ -1228,10 +1503,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.evercore.com/our-businesses/investment-banking/",
+          "title": "Evercore Investment Banking",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_lazard",
@@ -1285,10 +1578,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
+          "title": "Lazard Financial Advisory",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_houlihan_lokey",
@@ -1343,10 +1654,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.hl.com/services/",
+          "title": "Houlihan Lokey Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_andreessen_horowitz",
@@ -2580,10 +2909,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "leadership-development",
+        "professional-development",
+        "strategic-insight"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "board-governance",
+        "growth"
+      ],
+      "audiences": [
+        "board-members",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.gsb.stanford.edu/exec-ed/programs",
+          "title": "Stanford Executive Education Programs",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_wharton_executive_education",
@@ -2640,10 +2990,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "leadership-development",
+        "professional-development",
+        "strategic-insight"
+      ],
+      "topics": [
+        "finance-transformation",
+        "marketing",
+        "growth"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://executiveeducation.wharton.upenn.edu/for-individuals/",
+          "title": "Wharton Programs for Individuals",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_mit_sloan_executive_education",
@@ -2702,10 +3069,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "leadership-development",
+        "professional-development",
+        "strategic-insight"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://executive.mit.edu/course-finder.html",
+          "title": "MIT Sloan Executive Education Course Finder",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_open_future_forum",
@@ -3107,10 +3494,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.spencerstuart.com/what-we-do",
+          "title": "Spencer Stuart Services",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_cooley",
@@ -3187,10 +3593,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "private-equity",
+        "emerging-technology"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.cooley.com/services",
+          "title": "Cooley Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_deloitte",
@@ -3280,10 +3704,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "risk-management",
+        "transformation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "cybersecurity",
+        "risk"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.deloitte.com/global/en/services.html",
+          "title": "Deloitte Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_jpmorgan",
@@ -3361,10 +3804,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/about/our-business",
+          "title": "JPMorgan Chase Businesses",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_sequoia_capital",
@@ -3619,10 +4079,25 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.workday.com/",
+          "title": "Workday",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_palo_alto_networks",
@@ -3786,10 +4261,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "leadership-development",
+        "professional-development",
+        "strategic-insight"
+      ],
+      "topics": [
+        "board-governance",
+        "growth"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.exed.hbs.edu/",
+          "title": "Harvard Business School Executive Education",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -10,4 +10,4 @@ Canonical resources:
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Entity associations require evidence. Filter combinations are not canonical pages. Coverage is representative at dataset version 0.3.0.
+Entity associations require evidence. Filter combinations are not canonical pages. Coverage is representative at dataset version 0.3.1.

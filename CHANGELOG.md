@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-08-11 — Complete Classification & Curated Browse Pages
+
+- Completed evidence-backed semantic classification for all 51 canonical entities.
+- Expanded the controlled vocabulary to 82 terms, including transformation, talent, capital formation, corporate governance, and risk.
+- Added canonical provider and community-format browse pages only where at least three classified entities satisfy the indexability gate.
+- Added the curated pages to homepage discovery and the XML sitemap while keeping arbitrary intersections as filter state.
+
 ## 0.3.0 — 2026-08-11 — CXO Formats, Intelligence & Outcomes Taxonomy
 
 - Added controlled community, event, intelligence, resource, executive-need, topic, and audience vocabularies with stable IDs and definitions.

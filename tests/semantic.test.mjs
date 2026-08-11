@@ -31,3 +31,17 @@ test('generated JSON-LD and internal sitemap targets are valid',async()=>{
  const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');
  for(const local of ['ceo-ecosystem.html','cfo-ecosystem.html','cmo-ecosystem.html','ciso-ecosystem.html','data.html','methodology.html']){assert.ok(sitemap.includes(local));await fs.access(path.join(root,'docs',local));}
 });
+
+test('canonical browse pages enforce the indexability gate',async()=>{
+ const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');
+ for(const [folder,field] of [['providers','provider_types'],['formats','community_formats']]){
+  const files=(await fs.readdir(path.join(root,'docs',folder))).filter(file=>file.endsWith('.html'));
+  assert.ok(files.length>0,`${folder} pages were not generated`);
+  for(const file of files){
+   const id=file.replace(/\.html$/,'');
+   const matches=entities.filter(entity=>entity[field].includes(id));
+   assert.ok(matches.length>=3,`${folder}/${file} has only ${matches.length} entities`);
+   assert.ok(sitemap.includes(`${folder}/${file}`),`${folder}/${file} missing from sitemap`);
+  }
+ }
+});
