@@ -21,7 +21,7 @@ const checks=[
  ['',html=>html.includes(`Dataset v${expected.dataset_version}`)&&html.includes(`<strong>${expected.organizations}</strong><span>Organizations</span>`)&&html.includes(`<strong>${expected.sourced_facts}</strong><span>Sourced facts</span>`)&&html.includes(expected.release_fingerprint)&&html.includes(`<link rel="canonical" href="${base}">`)],
  ['data.html',html=>html.includes(`>${expected.schema_version}</dd>`)&&html.includes(expected.release_fingerprint)&&html.includes('data/knowledge-graph.json')&&html.includes('Current Release Manifest')&&/data\/search-index\.[a-f0-9]{10}\.json/.test(html)],
  ['methodology.html',html=>html.includes(`<link rel="canonical" href="${base}methodology.html">`)],
- ['sitemap.xml',xml=>!xml.includes('?')&&xml.includes(`<loc>${base}</loc>`)&&!xml.includes('<sitemapindex')],
+ ['sitemap.xml',xml=>[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].every(match=>!match[1].includes('?'))&&xml.includes(`<loc>${base}</loc>`)&&!xml.includes('<sitemapindex')],
  ['robots.txt',text=>text.split('\n').filter(line=>line.startsWith('Sitemap:')).length===1&&text.includes(`${base}sitemap.xml`)],
  ['data/latest.json',text=>{const value=JSON.parse(text);return value.kind==='Current Release Manifest'&&value.release_fingerprint===expected.release_fingerprint;}],
  ['data/knowledge-graph.json'],['data/entities.json'],['data/facts.json'],['data/sources.json'],['data/relationships.json'],
