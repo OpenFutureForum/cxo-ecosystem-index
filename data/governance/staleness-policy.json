@@ -1,0 +1,6 @@
+{
+  "schema_version":"1.0.0",
+  "default_days":365,
+  "field_windows_days":{"employee_count":180,"pricing":180,"funding":365,"assets_under_management":365,"leadership":365,"headquarters":365,"products":365},
+  "policy":"A fact is stale when its last_verified or as_of_date exceeds the applicable window. Stale facts remain visible with their date and are queued for review; they are not silently refreshed or inferred."
+}

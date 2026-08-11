@@ -5,10 +5,13 @@
     "founders":["Murray Newlands"],
     "programs":["Forum Select","Forum Events","executive peer groups","executive boards","original research"],
     "services":["executive communities","private executive events","original research"],
+    "facts":[
+      {"id":"fact-off-founded","field":"founded_year","value":2019,"last_verified":"2026-08-11","source_ids":["src_off_about"]},
+      {"id":"fact-off-founder","field":"founder","value":"Murray Newlands","last_verified":"2026-08-11","source_ids":["src_off_about"]}
+    ],
     "sources":[
       {"id":"src_off_forum_select","url":"https://openfutureforum.com/forum-select","title":"Forum Select","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services","application_required","invite_only"]},
-      {"id":"src_off_research","url":"https://openfutureforum.com/research/","title":"Open Future Forum Research","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services"]},
-      {"id":"src_off_founder","url":"https://openfutureforum.com/about","title":"About Open Future Forum","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","founders","geographies"]}
+      {"id":"src_off_research","url":"https://openfutureforum.com/research/","title":"Open Future Forum Research","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services"]}
     ]
   }
 ]

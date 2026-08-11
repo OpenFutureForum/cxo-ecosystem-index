@@ -50,7 +50,7 @@ test('canonical browse pages enforce the indexability gate',async()=>{
 test('derived intelligence is reproducible and preserves unknown values',async()=>{
  const generated=JSON.parse(await fs.readFile(path.join(root,'docs/data/intelligence.json'),'utf8'));
  assert.deepEqual(generated,buildIntelligence(entities));
- assert.equal(generated.dataset_version,'0.6.0');
+ assert.equal(generated.dataset_version,'0.6.1');
  assert.equal(generated.market_maps.length,8);
  assert.equal(generated.comparisons.length,6);
  assert.ok(generated.benchmarks.length>=5);

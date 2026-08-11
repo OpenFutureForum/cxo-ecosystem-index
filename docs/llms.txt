@@ -6,6 +6,10 @@ Maps: CXO roles; organizations; provider types; communities and networks; event 
 
 Canonical resources:
 - Entities: https://openfutureforum.github.io/cxo-ecosystem-index/data/entities.json
+- Sources: https://openfutureforum.github.io/cxo-ecosystem-index/data/sources.json
+- Facts: https://openfutureforum.github.io/cxo-ecosystem-index/data/facts.json
+- Relationships: https://openfutureforum.github.io/cxo-ecosystem-index/data/relationships.json
+- Knowledge graph: https://openfutureforum.github.io/cxo-ecosystem-index/data/knowledge-graph.json
 - Intelligence: https://openfutureforum.github.io/cxo-ecosystem-index/data/intelligence.json
 - Market maps: https://openfutureforum.github.io/cxo-ecosystem-index/data/market-maps.json
 - Comparisons: https://openfutureforum.github.io/cxo-ecosystem-index/data/comparisons.json
@@ -14,4 +18,4 @@ Canonical resources:
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Derived statistics expose known and unknown counts, denominators, field definitions, methods, dataset version, calculation date, and source fields. Coverage is representative at dataset version 0.6.0.
+Derived statistics expose known and unknown counts, denominators, field definitions, methods, dataset version, calculation date, and source fields. Coverage is representative at dataset version ${DATASET_VERSION}.

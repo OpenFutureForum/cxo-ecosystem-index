@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11T20:25:29.659Z",
+  "generated_at": "2026-08-11T20:53:32.289Z",
   "entities": 193,
   "sourced_facts": 1322,
   "facts_per_entity": 6.8,
-  "sources": 196,
+  "sources": 195,
   "average_sources_per_entity": 1,
   "verified_entities": 191,
   "verified_within_12_months": 193,

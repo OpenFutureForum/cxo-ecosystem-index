@@ -1,7 +1,7 @@
 {
-  "schema_version": "2.2.0",
-  "dataset_version": "0.6.0",
-  "generated_at": "2026-08-11T20:25:29.659Z",
+  "schema_version": "3.0.0",
+  "dataset_version": "0.6.1",
+  "generated_at": "2026-08-11T20:53:32.289Z",
   "dimensions": [
     "provider_types",
     "community_formats",
@@ -4506,19 +4506,6 @@
             "programs",
             "services"
           ]
-        },
-        {
-          "id": "src_off_founder",
-          "url": "https://openfutureforum.com/about",
-          "title": "About Open Future Forum",
-          "publisher": "Open Future Forum",
-          "source_class": "official company",
-          "accessed_date": "2026-08-11",
-          "supports": [
-            "founded_year",
-            "founders",
-            "geographies"
-          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4536,91 +4523,25 @@
         "executive boards",
         "original research"
       ],
-      "products": [],
-      "provider_types": [
-        "executive-communities",
-        "research-firms"
-      ],
-      "community_formats": [
-        "executive-community",
-        "executive-network",
-        "peer-group",
-        "executive-forum",
-        "executive-board"
-      ],
-      "event_formats": [
-        "executive-event",
-        "executive-dinner",
-        "private-dinner",
-        "roundtable",
-        "networking-event",
-        "panel",
-        "fireside-chat"
-      ],
-      "intelligence_types": [
-        "executive-research",
-        "research-report",
-        "first-party-research",
-        "survey",
-        "qualitative-research",
-        "benchmark"
-      ],
-      "resource_types": [
-        "guide",
-        "framework"
-      ],
-      "executive_needs": [
-        "executive-networking",
-        "peer-learning",
-        "strategic-insight",
-        "decision-support",
-        "governance"
-      ],
-      "topics": [
-        "artificial-intelligence",
-        "enterprise-ai",
-        "ai-governance",
-        "cybersecurity",
-        "board-governance",
-        "private-equity",
-        "venture-capital"
-      ],
-      "audiences": [
-        "private-equity-leaders",
-        "venture-capital-investors",
-        "corporate-venture-investors",
-        "founders",
-        "ai-leaders",
-        "board-members"
-      ],
-      "classification_evidence": [
-        {
-          "url": "https://openfutureforum.com/forum-select",
-          "title": "Forum Select",
-          "supports": [
-            "community_formats",
-            "event_formats",
-            "executive_needs"
-          ]
-        },
-        {
-          "url": "https://openfutureforum.com/research/",
-          "title": "Open Future Forum Research",
-          "supports": [
-            "intelligence_types",
-            "topics"
-          ]
-        },
-        {
-          "url": "https://openfutureforum.com/about",
-          "title": "About Open Future Forum",
-          "supports": [
-            "audiences",
-            "community_formats"
-          ]
-        }
-      ],
       "facts": [
+        {
+          "id": "fact-off-founded",
+          "field": "founded_year",
+          "value": 2019,
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-founder",
+          "field": "founder",
+          "value": "Murray Newlands",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
         {
           "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
           "field": "description",
@@ -4723,8 +4644,7 @@
           "field": "geographies",
           "value": "United States",
           "source_ids": [
-            "src_off_about",
-            "src_off_founder"
+            "src_off_about"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4733,8 +4653,7 @@
           "field": "geographies",
           "value": "Silicon Valley",
           "source_ids": [
-            "src_off_about",
-            "src_off_founder"
+            "src_off_about"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4743,8 +4662,7 @@
           "field": "geographies",
           "value": "San Francisco Bay Area",
           "source_ids": [
-            "src_off_about",
-            "src_off_founder"
+            "src_off_about"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4815,24 +4733,90 @@
             "src_off_forum_select"
           ],
           "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "executive-communities",
+        "research-firms"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "peer-group",
+        "executive-forum",
+        "executive-board"
+      ],
+      "event_formats": [
+        "executive-event",
+        "executive-dinner",
+        "private-dinner",
+        "roundtable",
+        "networking-event",
+        "panel",
+        "fireside-chat"
+      ],
+      "intelligence_types": [
+        "executive-research",
+        "research-report",
+        "first-party-research",
+        "survey",
+        "qualitative-research",
+        "benchmark"
+      ],
+      "resource_types": [
+        "guide",
+        "framework"
+      ],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "strategic-insight",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "cybersecurity",
+        "board-governance",
+        "private-equity",
+        "venture-capital"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "venture-capital-investors",
+        "corporate-venture-investors",
+        "founders",
+        "ai-leaders",
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs"
+          ]
         },
         {
-          "id": "fact_open-future-forum_founded-year_2019",
-          "field": "founded_year",
-          "value": 2019,
-          "source_ids": [
-            "src_off_founder"
-          ],
-          "last_verified": "2026-08-11"
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "supports": [
+            "intelligence_types",
+            "topics"
+          ]
         },
         {
-          "id": "fact_open-future-forum_founders_murray-newlands",
-          "field": "founders",
-          "value": "Murray Newlands",
-          "source_ids": [
-            "src_off_founder"
-          ],
-          "last_verified": "2026-08-11"
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "supports": [
+            "audiences",
+            "community_formats"
+          ]
         }
       ]
     },
@@ -20497,9 +20481,12 @@
         {
           "id": "fact-altair-aum",
           "field": "assets_under_management",
-          "value": "approximately $600 million",
+          "value": 600000000,
+          "currency": "USD",
+          "qualifier": "approximately",
           "as_of_date": "2026-08-11",
           "last_verified": "2026-08-11",
+          "verification_status": "verified",
           "source_ids": [
             "src_altair-capital_official"
           ]
@@ -20507,9 +20494,11 @@
         {
           "id": "fact-altair-portfolio",
           "field": "portfolio_companies",
-          "value": "400+",
+          "value": 400,
+          "operator": ">=",
           "as_of_date": "2026-08-11",
           "last_verified": "2026-08-11",
+          "verification_status": "verified",
           "source_ids": [
             "src_altair-capital_official"
           ]
@@ -20519,6 +20508,7 @@
           "field": "geographic_focus",
           "value": "United States, Europe, and Israel",
           "last_verified": "2026-08-11",
+          "verification_status": "verified",
           "source_ids": [
             "src_altair-capital_official"
           ]

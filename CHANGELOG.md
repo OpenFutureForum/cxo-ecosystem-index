@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.6.1 — 2026-08-11 — Data Governance and Knowledge Graph
+
+- Added canonical source, fact, relationship, and unified knowledge-graph exports.
+- Added sourced relationships with explicitly marked derived reciprocal edges.
+- Added metric-level cohort, numerator, unknown, and exclusion trace IDs.
+- Hardened numeric facts, currency and date validation, identity checks, and referential integrity.
+- Added staleness, taxonomy-alias governance, and a public roadmap.
+
 ## 0.6.0 — 2026-08-11 — Intelligence Layer
 
 - Added a reproducible derived-intelligence engine with explicit dataset version, calculation date, denominators, unknown counts, field definitions, methods, and source fields.

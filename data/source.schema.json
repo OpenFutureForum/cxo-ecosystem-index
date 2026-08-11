@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"CXO Ecosystem canonical source schema 1.0.0","type":"object",
+  "required":["id","url","title","publisher","source_type","accessed_date","primary_source"],
+  "properties":{"id":{"type":"string"},"url":{"type":"string","format":"uri"},"title":{"type":"string"},"publisher":{"type":"string"},"source_type":{"enum":["regulatory","government","official-company","investor-relations","official-press-release","official-documentation","academic","major-business-media","industry-research","database","other"]},"published_date":{"type":["string","null"],"format":"date"},"accessed_date":{"type":"string","format":"date"},"primary_source":{"type":"boolean"}}
+}

@@ -1,6 +1,6 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"CXO Ecosystem derived intelligence schema 1.0.0",
+  "title":"CXO Ecosystem derived intelligence schema 1.1.0",
   "type":"object",
   "required":["dataset_version","calculated_at","market_maps","comparisons","benchmarks"],
   "properties":{
@@ -13,6 +13,6 @@
   "$defs":{
     "marketMap":{"type":"object","required":["id","title","definition","dataset_version","calculated_at","total_entities","known_count","unknown_count","coverage","buckets","entity_ids","source_fields"]},
     "comparison":{"type":"object","required":["comparison_id","title","dataset_version","generated_at","entity_ids","dimensions"]},
-    "metric":{"type":"object","required":["id","name","value","value_type","numerator","denominator","known_count","unknown_count","coverage","scope","field_definition","method","dataset_version","calculated_at","source_fields"]}
+    "metric":{"type":"object","required":["id","name","value","value_type","numerator","denominator","known_count","unknown_count","coverage","scope","field_definition","method","dataset_version","calculated_at","source_fields","cohort_entity_ids","numerator_entity_ids","unknown_entity_ids","excluded_entity_ids","schema_version"]}
   }
 }
