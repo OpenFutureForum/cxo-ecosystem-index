@@ -4,6 +4,7 @@
 
 - Expanded the canonical dataset from 12 to 51 sourced organizations.
 - Added coverage across executive communities, search, law, accounting, consulting, banking, investment banking, venture capital, private equity, enterprise technology, cybersecurity, and executive education.
+- Added a neutral CFO taxonomy and data-driven CFO ecosystem hub covering operating contexts, finance functions, systems, and decision resources.
 - Updated the loader to support independent, reviewable data batches without duplicating entities.
 
 ## 0.1.0 — 2026-08-11
