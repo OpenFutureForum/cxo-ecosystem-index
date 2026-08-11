@@ -1,6 +1,6 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"CXO Ecosystem derived intelligence schema 1.1.0",
+  "title":"CXO Ecosystem derived intelligence schema 1.2.0",
   "type":"object",
   "required":["dataset_version","calculated_at","market_maps","comparisons","benchmarks"],
   "properties":{

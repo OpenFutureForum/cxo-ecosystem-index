@@ -13,5 +13,87 @@
       {"id":"src_off_forum_select","url":"https://openfutureforum.com/forum-select","title":"Forum Select","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services","application_required","invite_only"]},
       {"id":"src_off_research","url":"https://openfutureforum.com/research/","title":"Open Future Forum Research","publisher":"Open Future Forum","source_class":"official company","accessed_date":"2026-08-11","supports":["programs","services"]}
     ]
+  },
+  {
+    "entity_id":"ent_ramp",
+    "headquarters":"New York, New York, United States",
+    "products":["corporate cards","expense management","accounts payable","procurement","travel","treasury","automated bookkeeping","AI token spend management"],
+    "services":["finance automation","AI-assisted finance workflows"],
+    "facts":[
+      {"id":"fact-ramp-customers-2026","field":"customer_count","value":70000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ramp_vendor_2026"]},
+      {"id":"fact-ramp-tpv-2026","field":"annualized_total_payment_volume","value":100000000000,"operator":">=","currency":"USD","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ramp_vendor_2026"]},
+      {"id":"fact-ramp-customer-savings-2026","field":"customer_savings","value":12000000000,"operator":">=","currency":"USD","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ramp_vendor_2026"]},
+      {"id":"fact-ramp-hours-saved-2026","field":"customer_hours_saved","value":27000000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ramp_vendor_2026"]},
+      {"id":"fact-ramp-headquarters","field":"headquarters","value":"New York, New York, United States","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ramp_vendor_2026"]}
+    ],
+    "sources":[{"id":"src_ramp_vendor_2026","url":"https://ramp.com/vendors/ramp","title":"Ramp: data-backed company and product profile","publisher":"Ramp","source_class":"official company","published_date":"2026-07-28","accessed_date":"2026-08-11","supports":["products","services","headquarters","customer_count","annualized_total_payment_volume","customer_savings","customer_hours_saved"]}]
+  },
+  {
+    "entity_id":"ent_brex",
+    "founded_year":2017,
+    "headquarters":"San Francisco, California, United States",
+    "products":["corporate cards","spend management","banking","expense management","accounting automation","bill pay","travel","treasury","AI agents"],
+    "facts":[
+      {"id":"fact-brex-founded","field":"founded_year","value":2017,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]},
+      {"id":"fact-brex-headquarters","field":"headquarters","value":"San Francisco, California, United States","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]},
+      {"id":"fact-brex-lifecycle","field":"entity_status","value":"active acquired brand","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_brex_acquisition_2026"]}
+    ],
+    "sources":[{"id":"src_brex_acquisition_2026","url":"https://www.brex.com/journal/capital-one-completes-acquisition-of-brex","title":"Capital One Completes Acquisition of Brex","publisher":"Brex","source_class":"official company","published_date":"2026-04-07","accessed_date":"2026-08-11","supports":["founded_year","headquarters","products","entity_status","parent_company"]}]
+  },
+  {
+    "entity_id":"ent_bill",
+    "products":["accounts payable","accounts receivable","expense management","budgets","credit","payments","AI transaction agent"],
+    "services":["AI-powered financial operations","invoice automation","expense automation"],
+    "facts":[
+      {"id":"fact-bill-businesses-2026","field":"customer_count","value":500000,"operator":">=","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_official"]},
+      {"id":"fact-bill-ai-positioning","field":"documented_ai_capability","value":true,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_official"]},
+      {"id":"fact-bill-public-pricing","field":"public_pricing","value":true,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_bill_pricing_2026"]}
+    ],
+    "sources":[
+      {"id":"src_bill_pricing_2026","url":"https://www.bill.com/product/pricing","title":"BILL Pricing and Plans","publisher":"BILL","source_class":"official company","accessed_date":"2026-08-11","supports":["public_pricing"]},
+      {"id":"src_bill_rillet_2026","url":"https://www.bill.com/product-updates","title":"BILL Product Updates: BILL and Rillet","publisher":"BILL","source_class":"official company","published_date":"2026-04-29","accessed_date":"2026-08-11","supports":["integrations"]}
+    ]
+  },
+  {
+    "entity_id":"ent_agentic_fabriq",
+    "founded_year":2025,
+    "headquarters":"San Francisco, California, United States",
+    "founders":["Paulina Xu","Matthew Xu"],
+    "facts":[
+      {"id":"fact-agentic-fabriq-founded","field":"founded_year","value":2025,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]},
+      {"id":"fact-agentic-fabriq-hq","field":"headquarters","value":"San Francisco, California, United States","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]},
+      {"id":"fact-agentic-fabriq-batch","field":"accelerator_batch","value":"Winter 2026","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_agentic_fabriq_yc"]}
+    ],
+    "sources":[{"id":"src_agentic_fabriq_yc","url":"https://www.ycombinator.com/companies/agentic-fabriq","title":"Agentic Fabriq company profile","publisher":"Y Combinator","source_class":"accelerator profile","accessed_date":"2026-08-11","supports":["founded_year","headquarters","founders","accelerator_batch","entity_status"]}]
+  },
+  {
+    "entity_id":"ent_young_presidents_organization",
+    "founded_year":1950,
+    "application_required":true,
+    "facts":[
+      {"id":"fact-ypo-founded","field":"founded_year","value":1950,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ypo_what_is"]},
+      {"id":"fact-ypo-members-2026","field":"member_count","value":38000,"operator":">","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ypo_what_is"]},
+      {"id":"fact-ypo-global","field":"geographic_scope","value":"global","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_ypo_what_is"]}
+    ],
+    "sources":[{"id":"src_ypo_what_is","url":"https://www.ypo.org/what-is-ypo/","title":"What Is YPO?","publisher":"YPO","source_class":"official organization","accessed_date":"2026-08-11","supports":["founded_year","member_count","geographic_scope","application_required"]}]
+  },
+  {
+    "entity_id":"ent_chief",
+    "application_required":true,
+    "services":["curated peer advisory groups","executive coaching","confidential executive community"],
+    "facts":[
+      {"id":"fact-chief-core-groups","field":"peer_groups","value":true,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]},
+      {"id":"fact-chief-core-meetings","field":"scheduled_group_meetings_per_year","value":6,"as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]},
+      {"id":"fact-chief-confidential","field":"confidential_format","value":true,"last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_chief_core_groups"]}
+    ],
+    "sources":[{"id":"src_chief_core_groups","url":"https://chief.com/core-groups","title":"Chief Core Groups","publisher":"Chief","source_class":"official company","accessed_date":"2026-08-11","supports":["application_required","services","peer_groups","scheduled_group_meetings_per_year","confidential_format"]}]
+  },
+  {
+    "entity_id":"ent_silicon_valley_bank",
+    "facts":[
+      {"id":"fact-svb-current-brand-2026","field":"current_display_name","value":"Silicon Valley Bank","as_of_date":"2026-08-11","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_svb_rebrand_announcement"]},
+      {"id":"fact-svb-future-rebrand","field":"announced_future_name","value":"First Citizens Innovation Banking and First Citizens Fund Banking","valid_from":"2026-10-01","as_of_date":"2026-04-23","last_verified":"2026-08-11","verification_status":"verified","source_ids":["src_svb_rebrand_announcement"]}
+    ],
+    "sources":[{"id":"src_svb_rebrand_announcement","url":"https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026","title":"First Citizens Bank to Align Brand Names in Q4 2026","publisher":"First Citizens Bank","source_class":"official company","published_date":"2026-04-23","accessed_date":"2026-08-11","supports":["current_display_name","announced_future_name"]}]
   }
 ]

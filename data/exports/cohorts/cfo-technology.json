@@ -1,0 +1,2671 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "cfo-technology",
+  "entity_ids": [
+    "ent_coupa",
+    "ent_puzzle",
+    "ent_tesorio",
+    "ent_vic_ai",
+    "ent_ramp",
+    "ent_brex",
+    "ent_anrok",
+    "ent_blackline",
+    "ent_pilot",
+    "ent_rillet",
+    "ent_zenskar",
+    "ent_bill",
+    "ent_carta",
+    "ent_zeni",
+    "ent_xero",
+    "ent_pulley",
+    "ent_paygentic",
+    "ent_finrep"
+  ],
+  "entities": [
+    {
+      "id": "ent_coupa",
+      "name": "Coupa",
+      "slug": "coupa",
+      "entity_type": "Organization",
+      "description": "Coupa provides spend-management, procurement, invoicing, expense and supply-chain software.",
+      "website": "https://www.coupa.com/",
+      "cxo_roles": [
+        "CFO",
+        "COO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_coupa_identity_coupa",
+          "field": "identity",
+          "value": "Coupa",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_description_coupa-provides-spend-management-procurement-invo",
+          "field": "description",
+          "value": "Coupa provides spend-management, procurement, invoicing, expense and supply-chain software.",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_website_https-www-coupa-com",
+          "field": "website",
+          "value": "https://www.coupa.com/",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Coupa is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_coupa_official",
+          "url": "https://www.coupa.com/",
+          "title": "Coupa official website",
+          "publisher": "Coupa",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_puzzle",
+      "name": "Puzzle",
+      "slug": "puzzle",
+      "entity_type": "Organization",
+      "description": "Puzzle provides accounting software and financial reporting for startups.",
+      "website": "https://puzzle.io/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_puzzle_identity_puzzle",
+          "field": "identity",
+          "value": "Puzzle",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_description_puzzle-provides-accounting-software-and-financia",
+          "field": "description",
+          "value": "Puzzle provides accounting software and financial reporting for startups.",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_website_https-puzzle-io",
+          "field": "website",
+          "value": "https://puzzle.io/",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_puzzle_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_puzzle_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Puzzle is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_puzzle_official",
+          "url": "https://puzzle.io/",
+          "title": "Puzzle official website",
+          "publisher": "Puzzle",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_tesorio",
+      "name": "Tesorio",
+      "slug": "tesorio",
+      "entity_type": "Organization",
+      "description": "Tesorio provides accounts-receivable automation and cash-flow management software.",
+      "website": "https://www.tesorio.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Treasury Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_tesorio_identity_tesorio",
+          "field": "identity",
+          "value": "Tesorio",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tesorio_description_tesorio-provides-accounts-receivable-automation-",
+          "field": "description",
+          "value": "Tesorio provides accounts-receivable automation and cash-flow management software.",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tesorio_website_https-www-tesorio-com",
+          "field": "website",
+          "value": "https://www.tesorio.com/",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tesorio_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tesorio_categories_treasury-technology",
+          "field": "categories",
+          "value": "Treasury Technology",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tesorio_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_tesorio_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Tesorio is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_tesorio_official",
+          "url": "https://www.tesorio.com/",
+          "title": "Tesorio official website",
+          "publisher": "Tesorio",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "treasury-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_vic_ai",
+      "name": "Vic.ai",
+      "slug": "vic-ai",
+      "entity_type": "Organization",
+      "description": "Vic.ai provides artificial-intelligence software for invoice processing and accounts-payable automation.",
+      "website": "https://www.vic.ai/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_vic-ai_identity_vic-ai",
+          "field": "identity",
+          "value": "Vic.ai",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_description_vic-ai-provides-artificial-intelligence-software",
+          "field": "description",
+          "value": "Vic.ai provides artificial-intelligence software for invoice processing and accounts-payable automation.",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_website_https-www-vic-ai",
+          "field": "website",
+          "value": "https://www.vic.ai/",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Vic.ai is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_vic-ai_official",
+          "url": "https://www.vic.ai/",
+          "title": "Vic.ai official website",
+          "publisher": "Vic.ai",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "artificial-intelligence",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_ramp",
+      "name": "Ramp",
+      "slug": "ramp",
+      "entity_type": "Organization",
+      "description": "Ramp provides corporate cards, expense management, accounts-payable automation and finance software.",
+      "website": "https://ramp.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Fintech"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-ramp-customers-2026",
+          "field": "customer_count",
+          "value": 70000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-tpv-2026",
+          "field": "annualized_total_payment_volume",
+          "value": 100000000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-customer-savings-2026",
+          "field": "customer_savings",
+          "value": 12000000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-hours-saved-2026",
+          "field": "customer_hours_saved",
+          "value": 27000000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-headquarters",
+          "field": "headquarters",
+          "value": "New York, New York, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026",
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact_ramp_identity_ramp",
+          "field": "identity",
+          "value": "Ramp",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_description_ramp-provides-corporate-cards-expense-management",
+          "field": "description",
+          "value": "Ramp provides corporate cards, expense management, accounts-payable automation and finance software.",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_website_https-ramp-com",
+          "field": "website",
+          "value": "https://ramp.com/",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_ramp_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_corporate-cards",
+          "field": "products",
+          "value": "corporate cards",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_procurement",
+          "field": "products",
+          "value": "procurement",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_travel",
+          "field": "products",
+          "value": "travel",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_treasury",
+          "field": "products",
+          "value": "treasury",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_automated-bookkeeping",
+          "field": "products",
+          "value": "automated bookkeeping",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_ai-token-spend-management",
+          "field": "products",
+          "value": "AI token spend management",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_services_finance-automation",
+          "field": "services",
+          "value": "finance automation",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_services_ai-assisted-finance-workflows",
+          "field": "services",
+          "value": "AI-assisted finance workflows",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Ramp is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_ramp_official",
+          "url": "https://ramp.com/",
+          "title": "Ramp official website",
+          "publisher": "Ramp",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_ramp_vendor_2026",
+          "url": "https://ramp.com/vendors/ramp",
+          "title": "Ramp: data-backed company and product profile",
+          "publisher": "Ramp",
+          "source_class": "official company",
+          "published_date": "2026-07-28",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "headquarters",
+            "customer_count",
+            "annualized_total_payment_volume",
+            "customer_savings",
+            "customer_hours_saved"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "headquarters": "New York, New York, United States",
+      "products": [
+        "corporate cards",
+        "expense management",
+        "accounts payable",
+        "procurement",
+        "travel",
+        "treasury",
+        "automated bookkeeping",
+        "AI token spend management"
+      ],
+      "services": [
+        "finance automation",
+        "AI-assisted finance workflows"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_brex",
+      "name": "Brex",
+      "slug": "brex",
+      "entity_type": "Organization",
+      "description": "Brex provides corporate cards, spend management, travel and treasury products for businesses.",
+      "website": "https://www.brex.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Fintech"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-brex-founded",
+          "field": "founded_year",
+          "value": 2017,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-headquarters",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-lifecycle",
+          "field": "entity_status",
+          "value": "active acquired brand",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact_brex_identity_brex",
+          "field": "identity",
+          "value": "Brex",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_description_brex-provides-corporate-cards-spend-management-t",
+          "field": "description",
+          "value": "Brex provides corporate cards, spend management, travel and treasury products for businesses.",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_website_https-www-brex-com",
+          "field": "website",
+          "value": "https://www.brex.com/",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_corporate-cards",
+          "field": "products",
+          "value": "corporate cards",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_spend-management",
+          "field": "products",
+          "value": "spend management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_banking",
+          "field": "products",
+          "value": "banking",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_accounting-automation",
+          "field": "products",
+          "value": "accounting automation",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_bill-pay",
+          "field": "products",
+          "value": "bill pay",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_travel",
+          "field": "products",
+          "value": "travel",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_treasury",
+          "field": "products",
+          "value": "treasury",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_ai-agents",
+          "field": "products",
+          "value": "AI agents",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Brex is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_brex_official",
+          "url": "https://www.brex.com/",
+          "title": "Brex official website",
+          "publisher": "Brex",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_brex_acquisition_2026",
+          "url": "https://www.brex.com/journal/capital-one-completes-acquisition-of-brex",
+          "title": "Capital One Completes Acquisition of Brex",
+          "publisher": "Brex",
+          "source_class": "official company",
+          "published_date": "2026-04-07",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "entity_status",
+            "parent_company"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2017,
+      "headquarters": "San Francisco, California, United States",
+      "products": [
+        "corporate cards",
+        "spend management",
+        "banking",
+        "expense management",
+        "accounting automation",
+        "bill pay",
+        "travel",
+        "treasury",
+        "AI agents"
+      ],
+      "services": [],
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_anrok",
+      "name": "Anrok",
+      "slug": "anrok",
+      "entity_type": "Organization",
+      "description": "Anrok provides sales-tax compliance software for software companies.",
+      "website": "https://www.anrok.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Tax Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_anrok_identity_anrok",
+          "field": "identity",
+          "value": "Anrok",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anrok_description_anrok-provides-sales-tax-compliance-software-for",
+          "field": "description",
+          "value": "Anrok provides sales-tax compliance software for software companies.",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anrok_website_https-www-anrok-com",
+          "field": "website",
+          "value": "https://www.anrok.com/",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anrok_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anrok_categories_tax-technology",
+          "field": "categories",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anrok_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_anrok_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Anrok is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_anrok_official",
+          "url": "https://www.anrok.com/",
+          "title": "Anrok official website",
+          "publisher": "Anrok",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "tax-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_blackline",
+      "name": "BlackLine",
+      "slug": "blackline",
+      "entity_type": "Organization",
+      "description": "BlackLine provides financial-close, intercompany-accounting and accounts-receivable automation software.",
+      "website": "https://www.blackline.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_blackline_identity_blackline",
+          "field": "identity",
+          "value": "BlackLine",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_description_blackline-provides-financial-close-intercompany-",
+          "field": "description",
+          "value": "BlackLine provides financial-close, intercompany-accounting and accounts-receivable automation software.",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_website_https-www-blackline-com",
+          "field": "website",
+          "value": "https://www.blackline.com/",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_blackline_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_blackline_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "BlackLine is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_blackline_official",
+          "url": "https://www.blackline.com/",
+          "title": "BlackLine official website",
+          "publisher": "BlackLine",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_pilot",
+      "name": "Pilot",
+      "slug": "pilot",
+      "entity_type": "Organization",
+      "description": "Pilot provides bookkeeping, tax and finance services for startups and small businesses.",
+      "website": "https://pilot.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Accounting",
+        "Finance Advisory",
+        "CFO Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_pilot_identity_pilot",
+          "field": "identity",
+          "value": "Pilot",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_description_pilot-provides-bookkeeping-tax-and-finance-servi",
+          "field": "description",
+          "value": "Pilot provides bookkeeping, tax and finance services for startups and small businesses.",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_website_https-pilot-com",
+          "field": "website",
+          "value": "https://pilot.com/",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Pilot is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pilot_official",
+          "url": "https://pilot.com/",
+          "title": "Pilot official website",
+          "publisher": "Pilot",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "accounting",
+        "finance-advisory",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_rillet",
+      "name": "Rillet",
+      "slug": "rillet",
+      "entity_type": "Organization",
+      "description": "Rillet provides enterprise-resource-planning and accounting software for modern finance teams.",
+      "website": "https://www.rillet.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_rillet_identity_rillet",
+          "field": "identity",
+          "value": "Rillet",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_description_rillet-provides-enterprise-resource-planning-and",
+          "field": "description",
+          "value": "Rillet provides enterprise-resource-planning and accounting software for modern finance teams.",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_website_https-www-rillet-com",
+          "field": "website",
+          "value": "https://www.rillet.com/",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rillet_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_rillet_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Rillet is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_rillet_official",
+          "url": "https://www.rillet.com/",
+          "title": "Rillet official website",
+          "publisher": "Rillet",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_zenskar",
+      "name": "Zenskar",
+      "slug": "zenskar",
+      "entity_type": "Organization",
+      "description": "Zenskar provides billing, revenue-recognition and accounts-receivable automation software.",
+      "website": "https://www.zenskar.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_zenskar_identity_zenskar",
+          "field": "identity",
+          "value": "Zenskar",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zenskar_description_zenskar-provides-billing-revenue-recognition-and",
+          "field": "description",
+          "value": "Zenskar provides billing, revenue-recognition and accounts-receivable automation software.",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zenskar_website_https-www-zenskar-com",
+          "field": "website",
+          "value": "https://www.zenskar.com/",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zenskar_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zenskar_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zenskar_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_zenskar_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Zenskar is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_zenskar_official",
+          "url": "https://www.zenskar.com/",
+          "title": "Zenskar official website",
+          "publisher": "Zenskar",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_bill",
+      "name": "BILL",
+      "slug": "bill",
+      "entity_type": "Organization",
+      "description": "BILL provides accounts-payable, accounts-receivable, spend and expense-management software.",
+      "website": "https://www.bill.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Payments"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Bill.com"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-bill-businesses-2026",
+          "field": "customer_count",
+          "value": 500000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_official"
+          ]
+        },
+        {
+          "id": "fact-bill-ai-positioning",
+          "field": "documented_ai_capability",
+          "value": true,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_official"
+          ]
+        },
+        {
+          "id": "fact-bill-public-pricing",
+          "field": "public_pricing",
+          "value": true,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_pricing_2026"
+          ]
+        },
+        {
+          "id": "fact_bill_identity_bill",
+          "field": "identity",
+          "value": "BILL",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_description_bill-provides-accounts-payable-accounts-receivab",
+          "field": "description",
+          "value": "BILL provides accounts-payable, accounts-receivable, spend and expense-management software.",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_website_https-www-bill-com",
+          "field": "website",
+          "value": "https://www.bill.com/",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_categories_payments",
+          "field": "categories",
+          "value": "Payments",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bill_aliases_bill-com",
+          "field": "aliases",
+          "value": "Bill.com",
+          "source_ids": [
+            "src_bill_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "BILL is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_bill_official",
+          "url": "https://www.bill.com/",
+          "title": "BILL official website",
+          "publisher": "BILL",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        },
+        {
+          "id": "src_bill_pricing_2026",
+          "url": "https://www.bill.com/product/pricing",
+          "title": "BILL Pricing and Plans",
+          "publisher": "BILL",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "public_pricing"
+          ]
+        },
+        {
+          "id": "src_bill_rillet_2026",
+          "url": "https://www.bill.com/product-updates",
+          "title": "BILL Product Updates: BILL and Rillet",
+          "publisher": "BILL",
+          "source_class": "official company",
+          "published_date": "2026-04-29",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "integrations"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "accounts payable",
+        "accounts receivable",
+        "expense management",
+        "budgets",
+        "credit",
+        "payments",
+        "AI transaction agent"
+      ],
+      "services": [
+        "AI-powered financial operations",
+        "invoice automation",
+        "expense automation"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "payments"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_carta",
+      "name": "Carta",
+      "slug": "carta",
+      "entity_type": "Organization",
+      "description": "Carta provides cap-table, equity-management, valuation and private-market administration software.",
+      "website": "https://carta.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO"
+      ],
+      "categories": [
+        "Equity Management",
+        "Private Market Infrastructure",
+        "CFO Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_carta_identity_carta",
+          "field": "identity",
+          "value": "Carta",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_description_carta-provides-cap-table-equity-management-valua",
+          "field": "description",
+          "value": "Carta provides cap-table, equity-management, valuation and private-market administration software.",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_website_https-carta-com",
+          "field": "website",
+          "value": "https://carta.com/",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_equity-management",
+          "field": "categories",
+          "value": "Equity Management",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_private-market-infrastructure",
+          "field": "categories",
+          "value": "Private Market Infrastructure",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Carta is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_carta_official",
+          "url": "https://carta.com/",
+          "title": "Carta official website",
+          "publisher": "Carta",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "equity-management",
+        "private-market-infrastructure",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_zeni",
+      "name": "Zeni",
+      "slug": "zeni",
+      "entity_type": "Organization",
+      "description": "Zeni provides bookkeeping, accounting and finance operations services supported by software and artificial intelligence.",
+      "website": "https://www.zeni.ai/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_zeni_identity_zeni",
+          "field": "identity",
+          "value": "Zeni",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_description_zeni-provides-bookkeeping-accounting-and-finance",
+          "field": "description",
+          "value": "Zeni provides bookkeeping, accounting and finance operations services supported by software and artificial intelligence.",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_website_https-www-zeni-ai",
+          "field": "website",
+          "value": "https://www.zeni.ai/",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Zeni is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_zeni_official",
+          "url": "https://www.zeni.ai/",
+          "title": "Zeni official website",
+          "publisher": "Zeni",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_xero",
+      "name": "Xero",
+      "slug": "xero",
+      "entity_type": "Organization",
+      "description": "Xero provides cloud accounting, invoicing, payroll and financial-management software for small businesses and advisors.",
+      "website": "https://www.xero.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "Accounting Software",
+        "CFO Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_xero_identity_xero",
+          "field": "identity",
+          "value": "Xero",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_description_xero-provides-cloud-accounting-invoicing-payroll",
+          "field": "description",
+          "value": "Xero provides cloud accounting, invoicing, payroll and financial-management software for small businesses and advisors.",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_website_https-www-xero-com",
+          "field": "website",
+          "value": "https://www.xero.com/",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xero_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_xero_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Xero is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_xero_official",
+          "url": "https://www.xero.com/",
+          "title": "Xero official website",
+          "publisher": "Xero",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "accounting-software",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_pulley",
+      "name": "Pulley",
+      "slug": "pulley",
+      "entity_type": "Organization",
+      "description": "Pulley provides cap-table management, equity administration and valuation software.",
+      "website": "https://pulley.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO"
+      ],
+      "categories": [
+        "Equity Management",
+        "CFO Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_pulley_identity_pulley",
+          "field": "identity",
+          "value": "Pulley",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_description_pulley-provides-cap-table-management-equity-admi",
+          "field": "description",
+          "value": "Pulley provides cap-table management, equity administration and valuation software.",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_website_https-pulley-com",
+          "field": "website",
+          "value": "https://pulley.com/",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_categories_equity-management",
+          "field": "categories",
+          "value": "Equity Management",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pulley_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_pulley_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Pulley is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pulley_official",
+          "url": "https://pulley.com/",
+          "title": "Pulley official website",
+          "publisher": "Pulley",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "equity-management",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_paygentic",
+      "name": "Paygentic",
+      "slug": "paygentic",
+      "entity_type": "Organization",
+      "description": "Paygentic develops financial-technology software for business finance workflows.",
+      "website": "https://paygentic.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Fintech"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_paygentic_identity_paygentic",
+          "field": "identity",
+          "value": "Paygentic",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_paygentic_description_paygentic-develops-financial-technology-software",
+          "field": "description",
+          "value": "Paygentic develops financial-technology software for business finance workflows.",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_paygentic_website_https-paygentic-com",
+          "field": "website",
+          "value": "https://paygentic.com/",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_paygentic_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_paygentic_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_paygentic_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_paygentic_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Paygentic is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_paygentic_official",
+          "url": "https://paygentic.com/",
+          "title": "Paygentic official website",
+          "publisher": "Paygentic",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_finrep",
+      "name": "Finrep",
+      "slug": "finrep",
+      "entity_type": "Organization",
+      "description": "Finrep provides artificial-intelligence software for financial reporting and SEC filing workflows.",
+      "website": "https://finrep.ai/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Finrep.ai"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_finrep_identity_finrep",
+          "field": "identity",
+          "value": "Finrep",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_description_finrep-provides-artificial-intelligence-software",
+          "field": "description",
+          "value": "Finrep provides artificial-intelligence software for financial reporting and SEC filing workflows.",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_website_https-finrep-ai",
+          "field": "website",
+          "value": "https://finrep.ai/",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_aliases_finrep-ai",
+          "field": "aliases",
+          "value": "Finrep.ai",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Finrep is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_finrep_official",
+          "url": "https://finrep.ai/",
+          "title": "Finrep official website",
+          "publisher": "Finrep",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "artificial-intelligence",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

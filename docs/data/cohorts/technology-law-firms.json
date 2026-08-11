@@ -1,0 +1,1192 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "technology-law-firms",
+  "entity_ids": [
+    "ent_wilson_sonsini",
+    "ent_fenwick_west",
+    "ent_latham_watkins",
+    "ent_cooley",
+    "ent_foley_lardner",
+    "ent_dla_piper",
+    "ent_simmons_simmons",
+    "ent_orrick",
+    "ent_oguz_law"
+  ],
+  "entities": [
+    {
+      "id": "ent_wilson_sonsini",
+      "name": "Wilson Sonsini Goodrich & Rosati",
+      "slug": "wilson-sonsini",
+      "entity_type": "law firm",
+      "description": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
+      "website": "https://www.wsgr.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York",
+        "Boston",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented corporate, technology, and investment legal services"
+      ],
+      "sources": [
+        {
+          "id": "src_wsgr",
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Services",
+          "publisher": "Wilson Sonsini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Wilson Sonsini Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_description_law-firm-serving-technology-life-sciences-growth",
+          "field": "description",
+          "value": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_fenwick_west",
+      "name": "Fenwick & West",
+      "slug": "fenwick-west",
+      "entity_type": "law firm",
+      "description": "Law firm serving technology and life-sciences companies and investors.",
+      "website": "https://www.fenwick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York"
+      ],
+      "inclusion_basis": [
+        "provides documented legal services to technology and life-sciences companies"
+      ],
+      "sources": [
+        {
+          "id": "src_fenwick",
+          "url": "https://www.fenwick.com/",
+          "title": "Fenwick",
+          "publisher": "Fenwick & West",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.fenwick.com/",
+          "title": "Fenwick",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_fenwick-west_description_law-firm-serving-technology-and-life-sciences-co",
+          "field": "description",
+          "value": "Law firm serving technology and life-sciences companies and investors.",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_latham_watkins",
+      "name": "Latham & Watkins",
+      "slug": "latham-watkins",
+      "entity_type": "law firm",
+      "description": "Law firm providing corporate, finance, litigation, regulatory, and transactional legal services.",
+      "website": "https://www.lw.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology",
+        "Financial Services",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented corporate, finance, regulatory, and transaction legal services"
+      ],
+      "sources": [
+        {
+          "id": "src_latham",
+          "url": "https://www.lw.com/en/practices",
+          "title": "Practices",
+          "publisher": "Latham & Watkins",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "private-equity",
+        "private-markets",
+        "capital-strategy"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.lw.com/en/practices",
+          "title": "Latham & Watkins Practices",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_latham-watkins_description_law-firm-providing-corporate-finance-litigation-",
+          "field": "description",
+          "value": "Law firm providing corporate, finance, litigation, regulatory, and transactional legal services.",
+          "source_ids": [
+            "src_latham"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_cooley",
+      "name": "Cooley",
+      "slug": "cooley",
+      "aliases": [
+        "Cooley LLP"
+      ],
+      "entity_type": "law firm",
+      "description": "Law firm with documented practices serving companies, investors, and technology-sector clients.",
+      "website": "https://www.cooley.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "subcategories": [
+        "Corporate Law",
+        "Venture Capital Law",
+        "M&A",
+        "Technology Transactions"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York",
+        "Boston",
+        "London"
+      ],
+      "services": [
+        "corporate",
+        "venture capital",
+        "mergers and acquisitions",
+        "technology transactions"
+      ],
+      "inclusion_basis": [
+        "provides documented legal services to companies and investors in technology and growth markets"
+      ],
+      "sources": [
+        {
+          "id": "src_cooley_services",
+          "url": "https://www.cooley.com/services",
+          "title": "Services",
+          "publisher": "Cooley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "private-equity",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cooley.com/services",
+          "title": "Cooley Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_cooley_description_law-firm-with-documented-practices-serving-compa",
+          "field": "description",
+          "value": "Law firm with documented practices serving companies, investors, and technology-sector clients.",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_corporate",
+          "field": "services",
+          "value": "corporate",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_venture-capital",
+          "field": "services",
+          "value": "venture capital",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_mergers-and-acquisitions",
+          "field": "services",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_technology-transactions",
+          "field": "services",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_foley_lardner",
+      "name": "Foley & Lardner",
+      "slug": "foley-lardner",
+      "entity_type": "Organization",
+      "description": "Foley & Lardner is a law firm advising companies on corporate, transactions, litigation, intellectual property and regulatory matters.",
+      "website": "https://www.foley.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Foley"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_foley-lardner_identity_foley-lardner",
+          "field": "identity",
+          "value": "Foley & Lardner",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_description_foley-lardner-is-a-law-firm-advising-companies-o",
+          "field": "description",
+          "value": "Foley & Lardner is a law firm advising companies on corporate, transactions, litigation, intellectual property and regulatory matters.",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_website_https-www-foley-com",
+          "field": "website",
+          "value": "https://www.foley.com/",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_aliases_foley",
+          "field": "aliases",
+          "value": "Foley",
+          "source_ids": [
+            "src_foley-lardner_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Foley & Lardner is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_foley-lardner_official",
+          "url": "https://www.foley.com/",
+          "title": "Foley & Lardner official website",
+          "publisher": "Foley & Lardner",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_dla_piper",
+      "name": "DLA Piper",
+      "slug": "dla-piper",
+      "entity_type": "Organization",
+      "description": "DLA Piper is a global law firm advising companies, investors and institutions across corporate, finance, regulatory and disputes matters.",
+      "website": "https://www.dlapiper.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_dla-piper_identity_dla-piper",
+          "field": "identity",
+          "value": "DLA Piper",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_description_dla-piper-is-a-global-law-firm-advising-companie",
+          "field": "description",
+          "value": "DLA Piper is a global law firm advising companies, investors and institutions across corporate, finance, regulatory and disputes matters.",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_website_https-www-dlapiper-com",
+          "field": "website",
+          "value": "https://www.dlapiper.com/",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_dla-piper_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "DLA Piper is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_dla-piper_official",
+          "url": "https://www.dlapiper.com/",
+          "title": "DLA Piper official website",
+          "publisher": "DLA Piper",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_simmons_simmons",
+      "name": "Simmons & Simmons",
+      "slug": "simmons-simmons",
+      "entity_type": "Organization",
+      "description": "Simmons & Simmons is an international law firm focused on regulated sectors including financial services, technology and life sciences.",
+      "website": "https://www.simmons-simmons.com/",
+      "cxo_roles": [
+        "CFO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_simmons-simmons_identity_simmons-simmons",
+          "field": "identity",
+          "value": "Simmons & Simmons",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_description_simmons-simmons-is-an-international-law-firm-foc",
+          "field": "description",
+          "value": "Simmons & Simmons is an international law firm focused on regulated sectors including financial services, technology and life sciences.",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_website_https-www-simmons-simmons-com",
+          "field": "website",
+          "value": "https://www.simmons-simmons.com/",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_simmons-simmons_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Simmons & Simmons is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_simmons-simmons_official",
+          "url": "https://www.simmons-simmons.com/",
+          "title": "Simmons & Simmons official website",
+          "publisher": "Simmons & Simmons",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_orrick",
+      "name": "Orrick",
+      "slug": "orrick",
+      "entity_type": "Organization",
+      "description": "Orrick is a law firm advising technology, energy, infrastructure and finance clients.",
+      "website": "https://www.orrick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_orrick_identity_orrick",
+          "field": "identity",
+          "value": "Orrick",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_description_orrick-is-a-law-firm-advising-technology-energy-",
+          "field": "description",
+          "value": "Orrick is a law firm advising technology, energy, infrastructure and finance clients.",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_website_https-www-orrick-com",
+          "field": "website",
+          "value": "https://www.orrick.com/",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Orrick is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_orrick_official",
+          "url": "https://www.orrick.com/",
+          "title": "Orrick official website",
+          "publisher": "Orrick",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_oguz_law",
+      "name": "Oguz Law",
+      "slug": "oguz-law",
+      "entity_type": "Organization",
+      "description": "Oguz Law is a law firm providing legal services to companies and individuals.",
+      "website": "https://oguz.law/",
+      "cxo_roles": [
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_oguz-law_identity_oguz-law",
+          "field": "identity",
+          "value": "Oguz Law",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oguz-law_description_oguz-law-is-a-law-firm-providing-legal-services-",
+          "field": "description",
+          "value": "Oguz Law is a law firm providing legal services to companies and individuals.",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oguz-law_website_https-oguz-law",
+          "field": "website",
+          "value": "https://oguz.law/",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oguz-law_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oguz-law_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oguz-law_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_oguz-law_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Oguz Law is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_oguz-law_official",
+          "url": "https://oguz.law/",
+          "title": "Oguz Law official website",
+          "publisher": "Oguz Law",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

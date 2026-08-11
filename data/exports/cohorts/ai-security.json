@@ -1,0 +1,1601 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "ai-security",
+  "entity_ids": [
+    "ent_adaptive_security",
+    "ent_witnessai",
+    "ent_airmdr",
+    "ent_resemble_ai",
+    "ent_agentic_fabriq",
+    "ent_axari_technologies_inc",
+    "ent_harden",
+    "ent_tenet_security",
+    "ent_aegisai",
+    "ent_counterrun_ai",
+    "ent_atomic_zero"
+  ],
+  "entities": [
+    {
+      "id": "ent_adaptive_security",
+      "name": "Adaptive Security",
+      "slug": "adaptive-security",
+      "entity_type": "Organization",
+      "description": "Adaptive Security provides artificial-intelligence security training and simulated social-engineering testing.",
+      "website": "https://www.adaptivesecurity.com/",
+      "cxo_roles": [
+        "CISO"
+      ],
+      "categories": [
+        "AI Security",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_adaptive-security_identity_adaptive-security",
+          "field": "identity",
+          "value": "Adaptive Security",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_description_adaptive-security-provides-artificial-intelligen",
+          "field": "description",
+          "value": "Adaptive Security provides artificial-intelligence security training and simulated social-engineering testing.",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_website_https-www-adaptivesecurity-com",
+          "field": "website",
+          "value": "https://www.adaptivesecurity.com/",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_adaptive-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Adaptive Security is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_adaptive-security_official",
+          "url": "https://www.adaptivesecurity.com/",
+          "title": "Adaptive Security official website",
+          "publisher": "Adaptive Security",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_witnessai",
+      "name": "WitnessAI",
+      "slug": "witnessai",
+      "entity_type": "Organization",
+      "description": "WitnessAI provides security, governance and observability controls for enterprise use of artificial intelligence.",
+      "website": "https://witness.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "AI Security",
+        "Cybersecurity",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_witnessai_identity_witnessai",
+          "field": "identity",
+          "value": "WitnessAI",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_description_witnessai-provides-security-governance-and-obser",
+          "field": "description",
+          "value": "WitnessAI provides security, governance and observability controls for enterprise use of artificial intelligence.",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_website_https-witness-ai",
+          "field": "website",
+          "value": "https://witness.ai/",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "WitnessAI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_witnessai_official",
+          "url": "https://witness.ai/",
+          "title": "WitnessAI official website",
+          "publisher": "WitnessAI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "cybersecurity",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_airmdr",
+      "name": "AirMDR",
+      "slug": "airmdr",
+      "entity_type": "Organization",
+      "description": "AirMDR provides managed detection and response services using automation and artificial intelligence.",
+      "website": "https://www.airmdr.com/",
+      "cxo_roles": [
+        "CISO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "AI Security"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_airmdr_identity_airmdr",
+          "field": "identity",
+          "value": "AirMDR",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_description_airmdr-provides-managed-detection-and-response-s",
+          "field": "description",
+          "value": "AirMDR provides managed detection and response services using automation and artificial intelligence.",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_website_https-www-airmdr-com",
+          "field": "website",
+          "value": "https://www.airmdr.com/",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "AirMDR is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_airmdr_official",
+          "url": "https://www.airmdr.com/",
+          "title": "AirMDR official website",
+          "publisher": "AirMDR",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "ai-security"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_resemble_ai",
+      "name": "Resemble AI",
+      "slug": "resemble-ai",
+      "entity_type": "Organization",
+      "description": "Resemble AI provides synthetic-voice technology and tools for detecting and managing audio deepfakes.",
+      "website": "https://www.resemble.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CISO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Security"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_resemble-ai_identity_resemble-ai",
+          "field": "identity",
+          "value": "Resemble AI",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_description_resemble-ai-provides-synthetic-voice-technology-",
+          "field": "description",
+          "value": "Resemble AI provides synthetic-voice technology and tools for detecting and managing audio deepfakes.",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_website_https-www-resemble-ai",
+          "field": "website",
+          "value": "https://www.resemble.ai/",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Resemble AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_resemble-ai_official",
+          "url": "https://www.resemble.ai/",
+          "title": "Resemble AI official website",
+          "publisher": "Resemble AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-security"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_agentic_fabriq",
+      "name": "Agentic Fabriq",
+      "slug": "agentic-fabriq",
+      "entity_type": "Organization",
+      "description": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+      "website": "https://agenticfabriq.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Security",
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-agentic-fabriq-founded",
+          "field": "founded_year",
+          "value": 2025,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-hq",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-batch",
+          "field": "accelerator_batch",
+          "value": "Winter 2026",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact_agentic-fabriq_identity_agentic-fabriq",
+          "field": "identity",
+          "value": "Agentic Fabriq",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_description_agentic-fabriq-provides-identity-and-permissioni",
+          "field": "description",
+          "value": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_website_https-agenticfabriq-com",
+          "field": "website",
+          "value": "https://agenticfabriq.com/",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_agent-identity",
+          "field": "categories",
+          "value": "Agent Identity",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_identity-and-access-management",
+          "field": "categories",
+          "value": "Identity and Access Management",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_paulina-xu",
+          "field": "founders",
+          "value": "Paulina Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_matthew-xu",
+          "field": "founders",
+          "value": "Matthew Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Agentic Fabriq is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_agentic-fabriq_official",
+          "url": "https://agenticfabriq.com/",
+          "title": "Agentic Fabriq official website",
+          "publisher": "Agentic Fabriq",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_agentic_fabriq_yc",
+          "url": "https://www.ycombinator.com/companies/agentic-fabriq",
+          "title": "Agentic Fabriq company profile",
+          "publisher": "Y Combinator",
+          "source_class": "accelerator profile",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "founders",
+            "accelerator_batch",
+            "entity_status"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2025,
+      "headquarters": "San Francisco, California, United States",
+      "founders": [
+        "Paulina Xu",
+        "Matthew Xu"
+      ],
+      "services": [],
+      "products": [],
+      "provider_types": [
+        "ai-security",
+        "agent-identity",
+        "identity-and-access-management",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_axari_technologies_inc",
+      "name": "Axari Technologies, Inc.",
+      "slug": "axari-technologies-inc",
+      "entity_type": "Organization",
+      "description": "Axari develops artificial-intelligence agents for security operations, governance, risk, compliance and vulnerability management.",
+      "website": "https://axari.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "AI Security",
+        "GRC Automation",
+        "AI Agents"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Axari"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_axari-technologies-inc_identity_axari-technologies-inc",
+          "field": "identity",
+          "value": "Axari Technologies, Inc.",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_description_axari-develops-artificial-intelligence-agents-fo",
+          "field": "description",
+          "value": "Axari develops artificial-intelligence agents for security operations, governance, risk, compliance and vulnerability management.",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_website_https-axari-ai",
+          "field": "website",
+          "value": "https://axari.ai/",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_grc-automation",
+          "field": "categories",
+          "value": "GRC Automation",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_aliases_axari",
+          "field": "aliases",
+          "value": "Axari",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Axari Technologies, Inc. is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_axari-technologies-inc_official",
+          "url": "https://axari.ai/",
+          "title": "Axari Technologies, Inc. official website",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "ai-security",
+        "grc-automation",
+        "ai-agents"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_harden",
+      "name": "Harden",
+      "slug": "harden",
+      "entity_type": "Organization",
+      "description": "Harden provides security and governance controls for applications built with artificial intelligence.",
+      "website": "https://harden.run/",
+      "cxo_roles": [
+        "CISO",
+        "CTO",
+        "CIO"
+      ],
+      "categories": [
+        "AI Security",
+        "Application Security",
+        "Runtime Security",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_harden_identity_harden",
+          "field": "identity",
+          "value": "Harden",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_description_harden-provides-security-and-governance-controls",
+          "field": "description",
+          "value": "Harden provides security and governance controls for applications built with artificial intelligence.",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_website_https-harden-run",
+          "field": "website",
+          "value": "https://harden.run/",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_categories_application-security",
+          "field": "categories",
+          "value": "Application Security",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_categories_runtime-security",
+          "field": "categories",
+          "value": "Runtime Security",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_harden_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Harden is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_harden_official",
+          "url": "https://harden.run/",
+          "title": "Harden official website",
+          "publisher": "Harden",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "application-security",
+        "runtime-security",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_tenet_security",
+      "name": "Tenet Security",
+      "slug": "tenet-security",
+      "entity_type": "Organization",
+      "description": "Tenet Security develops runtime security controls for enterprise artificial-intelligence agents.",
+      "website": "https://tenetsecurity.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CTO",
+        "CIO"
+      ],
+      "categories": [
+        "AI Security",
+        "Runtime Security",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_tenet-security_identity_tenet-security",
+          "field": "identity",
+          "value": "Tenet Security",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_description_tenet-security-develops-runtime-security-control",
+          "field": "description",
+          "value": "Tenet Security develops runtime security controls for enterprise artificial-intelligence agents.",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_website_https-tenetsecurity-ai",
+          "field": "website",
+          "value": "https://tenetsecurity.ai/",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_categories_runtime-security",
+          "field": "categories",
+          "value": "Runtime Security",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_tenet-security_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Tenet Security is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_tenet-security_official",
+          "url": "https://tenetsecurity.ai/",
+          "title": "Tenet Security official website",
+          "publisher": "Tenet Security",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "runtime-security",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_aegisai",
+      "name": "AegisAI",
+      "slug": "aegisai",
+      "entity_type": "Organization",
+      "description": "AegisAI provides agentic email-security software for detecting phishing, business-email compromise and emerging threats.",
+      "website": "https://aegisai.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "Email Security",
+        "AI Security",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_aegisai_identity_aegisai",
+          "field": "identity",
+          "value": "AegisAI",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_description_aegisai-provides-agentic-email-security-software",
+          "field": "description",
+          "value": "AegisAI provides agentic email-security software for detecting phishing, business-email compromise and emerging threats.",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_website_https-aegisai-ai",
+          "field": "website",
+          "value": "https://aegisai.ai/",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_categories_email-security",
+          "field": "categories",
+          "value": "Email Security",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_aegisai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_aegisai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "AegisAI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_aegisai_official",
+          "url": "https://aegisai.ai/",
+          "title": "AegisAI official website",
+          "publisher": "AegisAI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "email-security",
+        "ai-security",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_counterrun_ai",
+      "name": "CounterRun.ai",
+      "slug": "counterrun-ai",
+      "entity_type": "Organization",
+      "description": "CounterRun.ai develops artificial-intelligence threat-intelligence and defense software.",
+      "website": "https://counterrun.ai/",
+      "cxo_roles": [
+        "CISO"
+      ],
+      "categories": [
+        "AI Security",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_counterrun-ai_identity_counterrun-ai",
+          "field": "identity",
+          "value": "CounterRun.ai",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_description_counterrun-ai-develops-artificial-intelligence-t",
+          "field": "description",
+          "value": "CounterRun.ai develops artificial-intelligence threat-intelligence and defense software.",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_website_https-counterrun-ai",
+          "field": "website",
+          "value": "https://counterrun.ai/",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_counterrun-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "CounterRun.ai is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_counterrun-ai_official",
+          "url": "https://counterrun.ai/",
+          "title": "CounterRun.ai official website",
+          "publisher": "CounterRun.ai",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_atomic_zero",
+      "name": "Atomic Zero",
+      "slug": "atomic-zero",
+      "entity_type": "Organization",
+      "description": "Atomic Zero provides artificial-intelligence, automation and security consulting services.",
+      "website": "https://atomiczero.io/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "AI Security",
+        "Consulting"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "AtomicZero"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_atomic-zero_identity_atomic-zero",
+          "field": "identity",
+          "value": "Atomic Zero",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_description_atomic-zero-provides-artificial-intelligence-aut",
+          "field": "description",
+          "value": "Atomic Zero provides artificial-intelligence, automation and security consulting services.",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_website_https-atomiczero-io",
+          "field": "website",
+          "value": "https://atomiczero.io/",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atomic-zero_aliases_atomiczero",
+          "field": "aliases",
+          "value": "AtomicZero",
+          "source_ids": [
+            "src_atomic-zero_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Atomic Zero is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_atomic-zero_official",
+          "url": "https://atomiczero.io/",
+          "title": "Atomic Zero official website",
+          "publisher": "Atomic Zero",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "ai-security",
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

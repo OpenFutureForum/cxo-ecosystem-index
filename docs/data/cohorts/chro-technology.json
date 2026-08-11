@@ -1,0 +1,1237 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "chro-technology",
+  "entity_ids": [
+    "ent_escalon",
+    "ent_findem",
+    "ent_rippling",
+    "ent_deel",
+    "ent_lattice",
+    "ent_trinet",
+    "ent_insperity",
+    "ent_15five",
+    "ent_optimhire",
+    "ent_transform"
+  ],
+  "entities": [
+    {
+      "id": "ent_escalon",
+      "name": "Escalon",
+      "slug": "escalon",
+      "entity_type": "Organization",
+      "description": "Escalon provides outsourced accounting, finance, tax, payroll and human-resources services.",
+      "website": "https://escalon.services/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CHRO"
+      ],
+      "categories": [
+        "Finance Advisory",
+        "Accounting",
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_escalon_identity_escalon",
+          "field": "identity",
+          "value": "Escalon",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_description_escalon-provides-outsourced-accounting-finance-t",
+          "field": "description",
+          "value": "Escalon provides outsourced accounting, finance, tax, payroll and human-resources services.",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_website_https-escalon-services",
+          "field": "website",
+          "value": "https://escalon.services/",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_escalon_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Escalon is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_escalon_official",
+          "url": "https://escalon.services/",
+          "title": "Escalon official website",
+          "publisher": "Escalon",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "finance-advisory",
+        "accounting",
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_findem",
+      "name": "Findem",
+      "slug": "findem",
+      "entity_type": "Organization",
+      "description": "Findem provides talent-sourcing and recruiting software using company and people data.",
+      "website": "https://www.findem.ai/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Recruiting",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_findem_identity_findem",
+          "field": "identity",
+          "value": "Findem",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_description_findem-provides-talent-sourcing-and-recruiting-s",
+          "field": "description",
+          "value": "Findem provides talent-sourcing and recruiting software using company and people data.",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_website_https-www-findem-ai",
+          "field": "website",
+          "value": "https://www.findem.ai/",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Findem is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_findem_official",
+          "url": "https://www.findem.ai/",
+          "title": "Findem official website",
+          "publisher": "Findem",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology",
+        "recruiting",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_rippling",
+      "name": "Rippling",
+      "slug": "rippling",
+      "entity_type": "Organization",
+      "description": "Rippling provides workforce-management software for payroll, benefits, human resources, identity and device management.",
+      "website": "https://www.rippling.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_rippling_identity_rippling",
+          "field": "identity",
+          "value": "Rippling",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_description_rippling-provides-workforce-management-software-",
+          "field": "description",
+          "value": "Rippling provides workforce-management software for payroll, benefits, human resources, identity and device management.",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_website_https-www-rippling-com",
+          "field": "website",
+          "value": "https://www.rippling.com/",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Rippling is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_rippling_official",
+          "url": "https://www.rippling.com/",
+          "title": "Rippling official website",
+          "publisher": "Rippling",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_deel",
+      "name": "Deel",
+      "slug": "deel",
+      "entity_type": "Organization",
+      "description": "Deel provides global payroll, employer-of-record, contractor and workforce-management services.",
+      "website": "https://www.deel.com/",
+      "cxo_roles": [
+        "CFO",
+        "CHRO",
+        "CLO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_deel_identity_deel",
+          "field": "identity",
+          "value": "Deel",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_description_deel-provides-global-payroll-employer-of-record-",
+          "field": "description",
+          "value": "Deel provides global payroll, employer-of-record, contractor and workforce-management services.",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_website_https-www-deel-com",
+          "field": "website",
+          "value": "https://www.deel.com/",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_deel_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Deel is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_deel_official",
+          "url": "https://www.deel.com/",
+          "title": "Deel official website",
+          "publisher": "Deel",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_lattice",
+      "name": "Lattice",
+      "slug": "lattice",
+      "entity_type": "Organization",
+      "description": "Lattice provides performance-management, employee-engagement and people-management software.",
+      "website": "https://lattice.com/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_lattice_identity_lattice",
+          "field": "identity",
+          "value": "Lattice",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_description_lattice-provides-performance-management-employee",
+          "field": "description",
+          "value": "Lattice provides performance-management, employee-engagement and people-management software.",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_website_https-lattice-com",
+          "field": "website",
+          "value": "https://lattice.com/",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Lattice is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_lattice_official",
+          "url": "https://lattice.com/",
+          "title": "Lattice official website",
+          "publisher": "Lattice",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_trinet",
+      "name": "TriNet",
+      "slug": "trinet",
+      "entity_type": "Organization",
+      "description": "TriNet provides professional-employer-organization, payroll, benefits and human-resources services.",
+      "website": "https://www.trinet.com/",
+      "cxo_roles": [
+        "CFO",
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_trinet_identity_trinet",
+          "field": "identity",
+          "value": "TriNet",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_description_trinet-provides-professional-employer-organizati",
+          "field": "description",
+          "value": "TriNet provides professional-employer-organization, payroll, benefits and human-resources services.",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_website_https-www-trinet-com",
+          "field": "website",
+          "value": "https://www.trinet.com/",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_trinet_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "TriNet is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_trinet_official",
+          "url": "https://www.trinet.com/",
+          "title": "TriNet official website",
+          "publisher": "TriNet",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_insperity",
+      "name": "Insperity",
+      "slug": "insperity",
+      "entity_type": "Organization",
+      "description": "Insperity provides human-resources, payroll, benefits and professional-employer-organization services.",
+      "website": "https://www.insperity.com/",
+      "cxo_roles": [
+        "CFO",
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_insperity_identity_insperity",
+          "field": "identity",
+          "value": "Insperity",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_description_insperity-provides-human-resources-payroll-benef",
+          "field": "description",
+          "value": "Insperity provides human-resources, payroll, benefits and professional-employer-organization services.",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_website_https-www-insperity-com",
+          "field": "website",
+          "value": "https://www.insperity.com/",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_insperity_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Insperity is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_insperity_official",
+          "url": "https://www.insperity.com/",
+          "title": "Insperity official website",
+          "publisher": "Insperity",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_15five",
+      "name": "15Five",
+      "slug": "15five",
+      "entity_type": "Organization",
+      "description": "15Five provides performance-management, engagement and manager-effectiveness software.",
+      "website": "https://www.15five.com/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_15five_identity_15five",
+          "field": "identity",
+          "value": "15Five",
+          "source_ids": [
+            "src_15five_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_description_15five-provides-performance-management-engagemen",
+          "field": "description",
+          "value": "15Five provides performance-management, engagement and manager-effectiveness software.",
+          "source_ids": [
+            "src_15five_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_website_https-www-15five-com",
+          "field": "website",
+          "value": "https://www.15five.com/",
+          "source_ids": [
+            "src_15five_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_15five_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_15five_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "15Five is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_15five_official",
+          "url": "https://www.15five.com/",
+          "title": "15Five official website",
+          "publisher": "15Five",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_optimhire",
+      "name": "OptimHire",
+      "slug": "optimhire",
+      "entity_type": "Organization",
+      "description": "OptimHire operates a recruiting platform connecting employers with technology talent.",
+      "website": "https://optimhire.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CTO"
+      ],
+      "categories": [
+        "Recruiting",
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_optimhire_identity_optimhire",
+          "field": "identity",
+          "value": "OptimHire",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_description_optimhire-operates-a-recruiting-platform-connect",
+          "field": "description",
+          "value": "OptimHire operates a recruiting platform connecting employers with technology talent.",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_website_https-optimhire-com",
+          "field": "website",
+          "value": "https://optimhire.com/",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "OptimHire is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_optimhire_official",
+          "url": "https://optimhire.com/",
+          "title": "OptimHire official website",
+          "publisher": "OptimHire",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "recruiting",
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_transform",
+      "name": "Transform",
+      "slug": "transform",
+      "entity_type": "Organization",
+      "description": "Transform operates a professional community and conference focused on people, work, human resources and workforce technology.",
+      "website": "https://transform.us/",
+      "cxo_roles": [
+        "CHRO",
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Conferences",
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_transform_identity_transform",
+          "field": "identity",
+          "value": "Transform",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_description_transform-operates-a-professional-community-and-",
+          "field": "description",
+          "value": "Transform operates a professional community and conference focused on people, work, human resources and workforce technology.",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_website_https-transform-us",
+          "field": "website",
+          "value": "https://transform.us/",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_conferences",
+          "field": "categories",
+          "value": "Conferences",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Transform is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_transform_official",
+          "url": "https://transform.us/",
+          "title": "Transform official website",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "conferences",
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

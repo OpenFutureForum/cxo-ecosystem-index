@@ -1,0 +1,10 @@
+id,name,website,entity_type,cxo_roles,categories,headquarters,geographies,founded_year,verification_status
+"ent_wilson_sonsini","Wilson Sonsini Goodrich & Rosati","https://www.wsgr.com/","law firm","CEO|CFO|CLO|General Counsel|Board","Law Firms","","United States|Silicon Valley|San Francisco Bay Area|New York|Boston|London","","verified"
+"ent_fenwick_west","Fenwick & West","https://www.fenwick.com/","law firm","CEO|CFO|CLO|General Counsel|Board","Law Firms","","United States|Silicon Valley|San Francisco Bay Area|New York","","verified"
+"ent_latham_watkins","Latham & Watkins","https://www.lw.com/","law firm","CEO|CFO|CLO|General Counsel|Board","Law Firms","","United States|Los Angeles|New York|San Francisco Bay Area|London|Singapore","","verified"
+"ent_cooley","Cooley","https://www.cooley.com/","law firm","CEO|CFO|CLO|General Counsel|Board","Law Firms","","United States|Silicon Valley|San Francisco Bay Area|New York|Boston|London","","verified"
+"ent_foley_lardner","Foley & Lardner","https://www.foley.com/","Organization","CEO|CFO|CLO|General Counsel","Law Firms","","United States","","verified"
+"ent_dla_piper","DLA Piper","https://www.dlapiper.com/","Organization","CEO|CFO|CLO|General Counsel","Law Firms","","United States","","verified"
+"ent_simmons_simmons","Simmons & Simmons","https://www.simmons-simmons.com/","Organization","CFO|CLO|General Counsel","Law Firms","","United States","","verified"
+"ent_orrick","Orrick","https://www.orrick.com/","Organization","CEO|CFO|CLO|General Counsel","Law Firms","","United States","","verified"
+"ent_oguz_law","Oguz Law","https://oguz.law/","Organization","CLO|General Counsel","Law Firms","","United States","","verified"

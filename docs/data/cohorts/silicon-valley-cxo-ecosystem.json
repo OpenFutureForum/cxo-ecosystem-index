@@ -1,0 +1,4096 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "silicon-valley-cxo-ecosystem",
+  "entity_ids": [
+    "ent_russell_reynolds_associates",
+    "ent_heidrick_struggles",
+    "ent_wilson_sonsini",
+    "ent_fenwick_west",
+    "ent_latham_watkins",
+    "ent_mckinsey",
+    "ent_bcg",
+    "ent_bain",
+    "ent_evercore",
+    "ent_lazard",
+    "ent_houlihan_lokey",
+    "ent_andreessen_horowitz",
+    "ent_accel",
+    "ent_lightspeed",
+    "ent_kkr",
+    "ent_silver_lake",
+    "ent_anaplan",
+    "ent_salesforce",
+    "ent_adobe",
+    "ent_zscaler",
+    "ent_stanford_executive_education",
+    "ent_open_future_forum",
+    "ent_cooley",
+    "ent_sequoia_capital",
+    "ent_thoma_bravo",
+    "ent_workday",
+    "ent_palo_alto_networks",
+    "ent_brex",
+    "ent_agentic_fabriq"
+  ],
+  "entities": [
+    {
+      "id": "ent_russell_reynolds_associates",
+      "name": "Russell Reynolds Associates",
+      "slug": "russell-reynolds-associates",
+      "entity_type": "executive search firm",
+      "description": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
+      "website": "https://www.russellreynolds.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Boston",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search, succession, and board advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_rra",
+          "url": "https://www.russellreynolds.com/en/capabilities",
+          "title": "Capabilities",
+          "publisher": "Russell Reynolds Associates",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.russellreynolds.com/en/capabilities",
+          "title": "Russell Reynolds Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_russell-reynolds-associates_description_leadership-advisory-firm-providing-executive-sea",
+          "field": "description",
+          "value": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
+          "source_ids": [
+            "src_rra"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_heidrick_struggles",
+      "name": "Heidrick & Struggles",
+      "slug": "heidrick-struggles",
+      "entity_type": "executive search firm",
+      "description": "Leadership advisory firm providing executive search, leadership assessment, and consulting services.",
+      "website": "https://www.heidrick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Consulting",
+        "Board Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "Chicago",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search and leadership consulting services"
+      ],
+      "sources": [
+        {
+          "id": "src_heidrick",
+          "url": "https://www.heidrick.com/en/services/executive-search",
+          "title": "Executive Search",
+          "publisher": "Heidrick & Struggles",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.heidrick.com/en/services/executive-search",
+          "title": "Heidrick & Struggles Executive Search",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_heidrick-struggles_description_leadership-advisory-firm-providing-executive-sea",
+          "field": "description",
+          "value": "Leadership advisory firm providing executive search, leadership assessment, and consulting services.",
+          "source_ids": [
+            "src_heidrick"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_wilson_sonsini",
+      "name": "Wilson Sonsini Goodrich & Rosati",
+      "slug": "wilson-sonsini",
+      "entity_type": "law firm",
+      "description": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
+      "website": "https://www.wsgr.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York",
+        "Boston",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented corporate, technology, and investment legal services"
+      ],
+      "sources": [
+        {
+          "id": "src_wsgr",
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Services",
+          "publisher": "Wilson Sonsini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.wsgr.com/en/services/index.html",
+          "title": "Wilson Sonsini Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_description_law-firm-serving-technology-life-sciences-growth",
+          "field": "description",
+          "value": "Law firm serving technology, life-sciences, growth-company, and investor clients.",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wilson-sonsini-goodrich-rosati_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_wsgr"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_fenwick_west",
+      "name": "Fenwick & West",
+      "slug": "fenwick-west",
+      "entity_type": "law firm",
+      "description": "Law firm serving technology and life-sciences companies and investors.",
+      "website": "https://www.fenwick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York"
+      ],
+      "inclusion_basis": [
+        "provides documented legal services to technology and life-sciences companies"
+      ],
+      "sources": [
+        {
+          "id": "src_fenwick",
+          "url": "https://www.fenwick.com/",
+          "title": "Fenwick",
+          "publisher": "Fenwick & West",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.fenwick.com/",
+          "title": "Fenwick",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_fenwick-west_description_law-firm-serving-technology-and-life-sciences-co",
+          "field": "description",
+          "value": "Law firm serving technology and life-sciences companies and investors.",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_fenwick-west_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_fenwick"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_latham_watkins",
+      "name": "Latham & Watkins",
+      "slug": "latham-watkins",
+      "entity_type": "law firm",
+      "description": "Law firm providing corporate, finance, litigation, regulatory, and transactional legal services.",
+      "website": "https://www.lw.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology",
+        "Financial Services",
+        "Energy"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented corporate, finance, regulatory, and transaction legal services"
+      ],
+      "sources": [
+        {
+          "id": "src_latham",
+          "url": "https://www.lw.com/en/practices",
+          "title": "Practices",
+          "publisher": "Latham & Watkins",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "private-equity",
+        "private-markets",
+        "capital-strategy"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.lw.com/en/practices",
+          "title": "Latham & Watkins Practices",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_latham-watkins_description_law-firm-providing-corporate-finance-litigation-",
+          "field": "description",
+          "value": "Law firm providing corporate, finance, litigation, regulatory, and transactional legal services.",
+          "source_ids": [
+            "src_latham"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_mckinsey",
+      "name": "McKinsey & Company",
+      "slug": "mckinsey-company",
+      "entity_type": "consultancy",
+      "description": "Management consulting firm advising organizations on strategy, operations, technology, organization, and transformation.",
+      "website": "https://www.mckinsey.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "Board"
+      ],
+      "categories": [
+        "Consulting"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Boston",
+        "Silicon Valley",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented management consulting services to executive teams"
+      ],
+      "sources": [
+        {
+          "id": "src_mckinsey",
+          "url": "https://www.mckinsey.com/capabilities",
+          "title": "Capabilities",
+          "publisher": "McKinsey & Company",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.mckinsey.com/capabilities",
+          "title": "McKinsey Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_mckinsey-company_description_management-consulting-firm-advising-organization",
+          "field": "description",
+          "value": "Management consulting firm advising organizations on strategy, operations, technology, organization, and transformation.",
+          "source_ids": [
+            "src_mckinsey"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_bcg",
+      "name": "Boston Consulting Group",
+      "slug": "boston-consulting-group",
+      "aliases": [
+        "BCG"
+      ],
+      "entity_type": "consultancy",
+      "description": "Management consulting firm advising organizations on strategy, technology, operations, and organizational change.",
+      "website": "https://www.bcg.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "Board"
+      ],
+      "categories": [
+        "Consulting"
+      ],
+      "geographies": [
+        "United States",
+        "Boston",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented management consulting services to executive teams"
+      ],
+      "sources": [
+        {
+          "id": "src_bcg",
+          "url": "https://www.bcg.com/capabilities",
+          "title": "Capabilities",
+          "publisher": "Boston Consulting Group",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.bcg.com/capabilities",
+          "title": "BCG Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_boston-consulting-group_description_management-consulting-firm-advising-organization",
+          "field": "description",
+          "value": "Management consulting firm advising organizations on strategy, technology, operations, and organizational change.",
+          "source_ids": [
+            "src_bcg"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_bain",
+      "name": "Bain & Company",
+      "slug": "bain-company",
+      "entity_type": "consultancy",
+      "description": "Management consulting firm advising organizations across strategy, operations, technology, transformation, and transactions.",
+      "website": "https://www.bain.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "Board"
+      ],
+      "categories": [
+        "Consulting"
+      ],
+      "geographies": [
+        "United States",
+        "Boston",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented management consulting services to executive teams"
+      ],
+      "sources": [
+        {
+          "id": "src_bain",
+          "url": "https://www.bain.com/consulting-services/",
+          "title": "Consulting Services",
+          "publisher": "Bain & Company",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation",
+        "value-creation"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "growth",
+        "go-to-market",
+        "private-equity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.bain.com/consulting-services/",
+          "title": "Bain Consulting Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_bain-company_description_management-consulting-firm-advising-organization",
+          "field": "description",
+          "value": "Management consulting firm advising organizations across strategy, operations, technology, transformation, and transactions.",
+          "source_ids": [
+            "src_bain"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_evercore",
+      "name": "Evercore",
+      "slug": "evercore",
+      "entity_type": "investment bank",
+      "description": "Independent investment-banking advisory firm providing strategic, restructuring, and capital-markets advice.",
+      "website": "https://www.evercore.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented strategic and financial advisory services to companies and boards"
+      ],
+      "sources": [
+        {
+          "id": "src_evercore",
+          "url": "https://www.evercore.com/our-businesses/investment-banking/",
+          "title": "Investment Banking",
+          "publisher": "Evercore",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.evercore.com/our-businesses/investment-banking/",
+          "title": "Evercore Investment Banking",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_evercore_description_independent-investment-banking-advisory-firm-pro",
+          "field": "description",
+          "value": "Independent investment-banking advisory firm providing strategic, restructuring, and capital-markets advice.",
+          "source_ids": [
+            "src_evercore"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_lazard",
+      "name": "Lazard",
+      "slug": "lazard",
+      "entity_type": "investment bank",
+      "description": "Financial-advisory and asset-management firm providing mergers and acquisitions, restructuring, and capital advice.",
+      "website": "https://www.lazard.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors",
+        "Wealth Management"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented financial advisory and asset-management services"
+      ],
+      "sources": [
+        {
+          "id": "src_lazard",
+          "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
+          "title": "Financial Advisory",
+          "publisher": "Lazard",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
+          "title": "Lazard Financial Advisory",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_lazard_description_financial-advisory-and-asset-management-firm-pro",
+          "field": "description",
+          "value": "Financial-advisory and asset-management firm providing mergers and acquisitions, restructuring, and capital advice.",
+          "source_ids": [
+            "src_lazard"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_houlihan_lokey",
+      "name": "Houlihan Lokey",
+      "slug": "houlihan-lokey",
+      "entity_type": "investment bank",
+      "description": "Investment bank providing mergers and acquisitions, capital solutions, financial restructuring, and valuation advisory.",
+      "website": "https://www.hl.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors",
+        "Finance Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented M&A, capital, restructuring, and valuation advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_hl",
+          "url": "https://www.hl.com/services/",
+          "title": "Services",
+          "publisher": "Houlihan Lokey",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.hl.com/services/",
+          "title": "Houlihan Lokey Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_houlihan-lokey_description_investment-bank-providing-mergers-and-acquisitio",
+          "field": "description",
+          "value": "Investment bank providing mergers and acquisitions, capital solutions, financial restructuring, and valuation advisory.",
+          "source_ids": [
+            "src_hl"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_andreessen_horowitz",
+      "name": "Andreessen Horowitz",
+      "slug": "andreessen-horowitz",
+      "aliases": [
+        "a16z"
+      ],
+      "entity_type": "venture capital firm",
+      "description": "Venture-capital firm investing in technology companies across multiple stages and sectors.",
+      "website": "https://a16z.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Venture Capital"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented venture capital to technology companies"
+      ],
+      "sources": [
+        {
+          "id": "src_a16z",
+          "url": "https://a16z.com/portfolio/",
+          "title": "Portfolio",
+          "publisher": "Andreessen Horowitz",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://a16z.com/portfolio/",
+          "title": "a16z Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_andreessen-horowitz_description_venture-capital-firm-investing-in-technology-com",
+          "field": "description",
+          "value": "Venture-capital firm investing in technology companies across multiple stages and sectors.",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_andreessen-horowitz_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_andreessen-horowitz_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_andreessen-horowitz_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_andreessen-horowitz_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_andreessen-horowitz_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_a16z"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_accel",
+      "name": "Accel",
+      "slug": "accel",
+      "entity_type": "venture capital firm",
+      "description": "Venture-capital firm investing in technology companies across early and growth stages.",
+      "website": "https://www.accel.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Venture Capital"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Fintech"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented venture capital to technology companies"
+      ],
+      "sources": [
+        {
+          "id": "src_accel",
+          "url": "https://www.accel.com/companies",
+          "title": "Companies",
+          "publisher": "Accel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.accel.com/companies",
+          "title": "Accel Companies",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_accel_description_venture-capital-firm-investing-in-technology-com",
+          "field": "description",
+          "value": "Venture-capital firm investing in technology companies across early and growth stages.",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_accel_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_accel_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_accel_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_accel_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_accel_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_accel"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_lightspeed",
+      "name": "Lightspeed Venture Partners",
+      "slug": "lightspeed-venture-partners",
+      "aliases": [
+        "Lightspeed"
+      ],
+      "entity_type": "venture capital firm",
+      "description": "Venture-capital firm investing in enterprise, consumer, health, and financial-technology companies.",
+      "website": "https://lsvp.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Venture Capital"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented venture capital across technology markets"
+      ],
+      "sources": [
+        {
+          "id": "src_lightspeed",
+          "url": "https://lsvp.com/portfolio/",
+          "title": "Portfolio",
+          "publisher": "Lightspeed Venture Partners",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://lsvp.com/portfolio/",
+          "title": "Lightspeed Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_lightspeed-venture-partners_description_venture-capital-firm-investing-in-enterprise-con",
+          "field": "description",
+          "value": "Venture-capital firm investing in enterprise, consumer, health, and financial-technology companies.",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lightspeed-venture-partners_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lightspeed-venture-partners_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lightspeed-venture-partners_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lightspeed-venture-partners_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lightspeed-venture-partners_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_lightspeed"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_kkr",
+      "name": "KKR",
+      "slug": "kkr",
+      "entity_type": "private equity firm",
+      "description": "Investment firm operating private equity, credit, infrastructure, real-estate, and capital-markets strategies.",
+      "website": "https://www.kkr.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Private Equity",
+        "Private Credit"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology",
+        "Healthcare",
+        "Industrial"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented private-equity and credit capital to companies"
+      ],
+      "sources": [
+        {
+          "id": "src_kkr",
+          "url": "https://www.kkr.com/",
+          "title": "KKR",
+          "publisher": "KKR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "private-equity",
+        "private-credit"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "operating-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.kkr.com/",
+          "title": "KKR",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_kkr_description_investment-firm-operating-private-equity-credit-",
+          "field": "description",
+          "value": "Investment firm operating private equity, credit, infrastructure, real-estate, and capital-markets strategies.",
+          "source_ids": [
+            "src_kkr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_kkr_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_kkr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_kkr_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_kkr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_kkr_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_kkr"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_kkr_industries_industrial",
+          "field": "industries",
+          "value": "Industrial",
+          "source_ids": [
+            "src_kkr"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_silver_lake",
+      "name": "Silver Lake",
+      "slug": "silver-lake",
+      "entity_type": "private equity firm",
+      "description": "Technology investment firm focused on large-scale technology and technology-enabled companies.",
+      "website": "https://www.silverlake.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Private Equity"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented private-equity capital focused on technology companies"
+      ],
+      "sources": [
+        {
+          "id": "src_silver_lake",
+          "url": "https://www.silverlake.com/portfolio/",
+          "title": "Portfolio",
+          "publisher": "Silver Lake",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "private-equity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.silverlake.com/portfolio/",
+          "title": "Silver Lake Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_silver-lake_description_technology-investment-firm-focused-on-large-scal",
+          "field": "description",
+          "value": "Technology investment firm focused on large-scale technology and technology-enabled companies.",
+          "source_ids": [
+            "src_silver_lake"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silver-lake_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_silver_lake"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silver-lake_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_silver_lake"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silver-lake_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_silver_lake"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_anaplan",
+      "name": "Anaplan",
+      "slug": "anaplan",
+      "entity_type": "software company",
+      "description": "Enterprise planning software company supporting financial and operational planning.",
+      "website": "https://www.anaplan.com/",
+      "cxo_roles": [
+        "CFO",
+        "COO"
+      ],
+      "categories": [
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise planning software for finance and operations teams"
+      ],
+      "sources": [
+        {
+          "id": "src_anaplan",
+          "url": "https://www.anaplan.com/solutions/finance/",
+          "title": "Finance Solutions",
+          "publisher": "Anaplan",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.anaplan.com/solutions/finance/",
+          "title": "Anaplan Finance Solutions",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_anaplan_description_enterprise-planning-software-company-supporting-",
+          "field": "description",
+          "value": "Enterprise planning software company supporting financial and operational planning.",
+          "source_ids": [
+            "src_anaplan"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anaplan_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_anaplan"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_anaplan_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_anaplan"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_salesforce",
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "entity_type": "software company",
+      "description": "Enterprise software company providing customer relationship management, marketing, sales, service, data, and AI applications.",
+      "website": "https://www.salesforce.com/",
+      "cxo_roles": [
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented CRM, marketing, service, data, and AI applications"
+      ],
+      "sources": [
+        {
+          "id": "src_salesforce",
+          "url": "https://www.salesforce.com/products/",
+          "title": "Products",
+          "publisher": "Salesforce",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.salesforce.com/products/",
+          "title": "Salesforce Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_salesforce_description_enterprise-software-company-providing-customer-r",
+          "field": "description",
+          "value": "Enterprise software company providing customer relationship management, marketing, sales, service, data, and AI applications.",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_adobe",
+      "name": "Adobe",
+      "slug": "adobe",
+      "entity_type": "software company",
+      "description": "Software company providing creative, document, digital-experience, analytics, and marketing products.",
+      "website": "https://www.adobe.com/",
+      "cxo_roles": [
+        "CMO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Media",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented digital-experience, analytics, marketing, document, and creative software"
+      ],
+      "sources": [
+        {
+          "id": "src_adobe",
+          "url": "https://business.adobe.com/products/adobe-experience-cloud-products.html",
+          "title": "Experience Cloud Products",
+          "publisher": "Adobe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "marketing",
+        "attribution",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://business.adobe.com/products/adobe-experience-cloud-products.html",
+          "title": "Adobe Experience Cloud Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_adobe_description_software-company-providing-creative-document-dig",
+          "field": "description",
+          "value": "Software company providing creative, document, digital-experience, analytics, and marketing products.",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_zscaler",
+      "name": "Zscaler",
+      "slug": "zscaler",
+      "entity_type": "cybersecurity company",
+      "description": "Cybersecurity company providing zero-trust access, cloud-security, data-protection, and digital-experience products.",
+      "website": "https://www.zscaler.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Technology"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise zero-trust and cloud-security products"
+      ],
+      "sources": [
+        {
+          "id": "src_zscaler",
+          "url": "https://www.zscaler.com/products-and-solutions",
+          "title": "Products and Solutions",
+          "publisher": "Zscaler",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management"
+      ],
+      "topics": [
+        "cybersecurity",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.zscaler.com/products-and-solutions",
+          "title": "Zscaler Products and Solutions",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_zscaler_description_cybersecurity-company-providing-zero-trust-acces",
+          "field": "description",
+          "value": "Cybersecurity company providing zero-trust access, cloud-security, data-protection, and digital-experience products.",
+          "source_ids": [
+            "src_zscaler"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zscaler_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_zscaler"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zscaler_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_zscaler"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zscaler_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_zscaler"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_stanford_executive_education",
+      "name": "Stanford Graduate School of Business Executive Education",
+      "slug": "stanford-gsb-executive-education",
+      "entity_type": "university executive education program",
+      "description": "Executive-education programs for business leaders delivered by Stanford Graduate School of Business.",
+      "website": "https://www.gsb.stanford.edu/exec-ed",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Education"
+      ],
+      "industries": [
+        "Education",
+        "Professional Services"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented executive education for senior business leaders"
+      ],
+      "sources": [
+        {
+          "id": "src_stanford_exec",
+          "url": "https://www.gsb.stanford.edu/exec-ed/programs",
+          "title": "Executive Education Programs",
+          "publisher": "Stanford Graduate School of Business",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-education"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "leadership-development",
+        "professional-development",
+        "strategic-insight"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "board-governance",
+        "growth"
+      ],
+      "audiences": [
+        "board-members",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.gsb.stanford.edu/exec-ed/programs",
+          "title": "Stanford Executive Education Programs",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_description_executive-education-programs-for-business-leader",
+          "field": "description",
+          "value": "Executive-education programs for business leaders delivered by Stanford Graduate School of Business.",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stanford-graduate-school-of-business-executive-education_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_stanford_exec"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_open_future_forum",
+      "name": "Open Future Forum",
+      "slug": "open-future-forum",
+      "aliases": [],
+      "entity_type": "executive community",
+      "description": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+      "website": "https://openfutureforum.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CTO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Research Firms"
+      ],
+      "subcategories": [
+        "CEO communities",
+        "CFO communities",
+        "CMO communities",
+        "CISO communities",
+        "AI leadership communities",
+        "board networks"
+      ],
+      "industries": [
+        "Technology",
+        "Artificial Intelligence",
+        "Financial Services"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "services": [
+        "private executive gatherings",
+        "public events",
+        "peer groups",
+        "executive boards",
+        "research",
+        "executive communities",
+        "private executive events",
+        "original research"
+      ],
+      "application_required": true,
+      "invite_only": true,
+      "inclusion_basis": [
+        "operates documented programs for multiple C-suite functions"
+      ],
+      "sources": [
+        {
+          "id": "src_off_about",
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_off_forum_select",
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "programs",
+            "services",
+            "application_required",
+            "invite_only"
+          ]
+        },
+        {
+          "id": "src_off_research",
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "programs",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "founded_year": 2019,
+      "founders": [
+        "Murray Newlands"
+      ],
+      "programs": [
+        "Forum Select",
+        "Forum Events",
+        "executive peer groups",
+        "executive boards",
+        "original research"
+      ],
+      "facts": [
+        {
+          "id": "fact-off-founded",
+          "field": "founded_year",
+          "value": 2019,
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-founder",
+          "field": "founder",
+          "value": "Murray Newlands",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
+          "field": "description",
+          "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_private-executive-gatherings",
+          "field": "services",
+          "value": "private executive gatherings",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_public-events",
+          "field": "services",
+          "value": "public events",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_peer-groups",
+          "field": "services",
+          "value": "peer groups",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_executive-boards",
+          "field": "services",
+          "value": "executive boards",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_research",
+          "field": "services",
+          "value": "research",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_executive-communities",
+          "field": "services",
+          "value": "executive communities",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_private-executive-events",
+          "field": "services",
+          "value": "private executive events",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_original-research",
+          "field": "services",
+          "value": "original research",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_forum-select",
+          "field": "programs",
+          "value": "Forum Select",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_forum-events",
+          "field": "programs",
+          "value": "Forum Events",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_executive-peer-groups",
+          "field": "programs",
+          "value": "executive peer groups",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_executive-boards",
+          "field": "programs",
+          "value": "executive boards",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_original-research",
+          "field": "programs",
+          "value": "original research",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_off_forum_select"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_invite-only_true",
+          "field": "invite_only",
+          "value": true,
+          "source_ids": [
+            "src_off_forum_select"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "executive-communities",
+        "research-firms"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "peer-group",
+        "executive-forum",
+        "executive-board"
+      ],
+      "event_formats": [
+        "executive-event",
+        "executive-dinner",
+        "private-dinner",
+        "roundtable",
+        "networking-event",
+        "panel",
+        "fireside-chat"
+      ],
+      "intelligence_types": [
+        "executive-research",
+        "research-report",
+        "first-party-research",
+        "survey",
+        "qualitative-research",
+        "benchmark"
+      ],
+      "resource_types": [
+        "guide",
+        "framework"
+      ],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "strategic-insight",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "cybersecurity",
+        "board-governance",
+        "private-equity",
+        "venture-capital"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "venture-capital-investors",
+        "corporate-venture-investors",
+        "founders",
+        "ai-leaders",
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "supports": [
+            "intelligence_types",
+            "topics"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "supports": [
+            "audiences",
+            "community_formats"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_cooley",
+      "name": "Cooley",
+      "slug": "cooley",
+      "aliases": [
+        "Cooley LLP"
+      ],
+      "entity_type": "law firm",
+      "description": "Law firm with documented practices serving companies, investors, and technology-sector clients.",
+      "website": "https://www.cooley.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "subcategories": [
+        "Corporate Law",
+        "Venture Capital Law",
+        "M&A",
+        "Technology Transactions"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Life Sciences"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "New York",
+        "Boston",
+        "London"
+      ],
+      "services": [
+        "corporate",
+        "venture capital",
+        "mergers and acquisitions",
+        "technology transactions"
+      ],
+      "inclusion_basis": [
+        "provides documented legal services to companies and investors in technology and growth markets"
+      ],
+      "sources": [
+        {
+          "id": "src_cooley_services",
+          "url": "https://www.cooley.com/services",
+          "title": "Services",
+          "publisher": "Cooley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "capital-formation"
+      ],
+      "topics": [
+        "corporate-governance",
+        "venture-capital",
+        "private-equity",
+        "emerging-technology"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cooley.com/services",
+          "title": "Cooley Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_cooley_description_law-firm-with-documented-practices-serving-compa",
+          "field": "description",
+          "value": "Law firm with documented practices serving companies, investors, and technology-sector clients.",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_corporate",
+          "field": "services",
+          "value": "corporate",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_venture-capital",
+          "field": "services",
+          "value": "venture capital",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_mergers-and-acquisitions",
+          "field": "services",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_services_technology-transactions",
+          "field": "services",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cooley_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_cooley_services"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_sequoia_capital",
+      "name": "Sequoia Capital",
+      "slug": "sequoia-capital",
+      "aliases": [],
+      "entity_type": "venture capital firm",
+      "description": "Venture-capital firm investing across company-building stages and technology markets.",
+      "website": "https://www.sequoiacap.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Venture Capital"
+      ],
+      "subcategories": [
+        "Seed",
+        "Series A",
+        "Multi-stage",
+        "Growth"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence",
+        "Fintech",
+        "Healthcare"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "services": [
+        "venture capital investment"
+      ],
+      "inclusion_basis": [
+        "provides documented venture capital to technology companies"
+      ],
+      "sources": [
+        {
+          "id": "src_sequoia_companies",
+          "url": "https://www.sequoiacap.com/companies/",
+          "title": "Companies",
+          "publisher": "Sequoia Capital",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.sequoiacap.com/companies/",
+          "title": "Sequoia Companies",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_sequoia-capital_description_venture-capital-firm-investing-across-company-bu",
+          "field": "description",
+          "value": "Venture-capital firm investing across company-building stages and technology markets.",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sequoia-capital_services_venture-capital-investment",
+          "field": "services",
+          "value": "venture capital investment",
+          "source_ids": [
+            "src_sequoia_companies"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_thoma_bravo",
+      "name": "Thoma Bravo",
+      "slug": "thoma-bravo",
+      "aliases": [],
+      "entity_type": "private equity firm",
+      "description": "Private-equity investment firm focused on software and technology companies.",
+      "website": "https://www.thomabravo.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Private Equity"
+      ],
+      "subcategories": [
+        "Technology PE",
+        "Software PE",
+        "Buyout"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Cybersecurity"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "Chicago",
+        "London"
+      ],
+      "services": [
+        "private equity investment"
+      ],
+      "inclusion_basis": [
+        "provides documented private-equity capital to software and technology companies"
+      ],
+      "sources": [
+        {
+          "id": "src_thoma_about",
+          "url": "https://www.thomabravo.com/about",
+          "title": "About",
+          "publisher": "Thoma Bravo",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "private-equity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "operating-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.thomabravo.com/about",
+          "title": "About Thoma Bravo",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_thoma-bravo_description_private-equity-investment-firm-focused-on-softwa",
+          "field": "description",
+          "value": "Private-equity investment firm focused on software and technology companies.",
+          "source_ids": [
+            "src_thoma_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thoma-bravo_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_thoma_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thoma-bravo_industries_saas",
+          "field": "industries",
+          "value": "SaaS",
+          "source_ids": [
+            "src_thoma_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thoma-bravo_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_thoma_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thoma-bravo_services_private-equity-investment",
+          "field": "services",
+          "value": "private equity investment",
+          "source_ids": [
+            "src_thoma_about"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_workday",
+      "name": "Workday",
+      "slug": "workday",
+      "aliases": [],
+      "entity_type": "software company",
+      "description": "Enterprise software company providing finance and human-capital-management applications.",
+      "website": "https://www.workday.com/",
+      "cxo_roles": [
+        "CFO",
+        "CHRO",
+        "CIO"
+      ],
+      "categories": [
+        "Enterprise Technology"
+      ],
+      "subcategories": [
+        "ERP",
+        "Financial Reporting",
+        "HRIS",
+        "Workforce Analytics"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "products": [
+        "financial management",
+        "human capital management",
+        "planning"
+      ],
+      "customer_segments": [
+        "enterprise organizations"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise finance and human-capital software to CFO and CHRO organizations"
+      ],
+      "sources": [
+        {
+          "id": "src_workday_products",
+          "url": "https://www.workday.com/",
+          "title": "Workday",
+          "publisher": "Workday",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.workday.com/",
+          "title": "Workday",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_workday_description_enterprise-software-company-providing-finance-an",
+          "field": "description",
+          "value": "Enterprise software company providing finance and human-capital-management applications.",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_products_financial-management",
+          "field": "products",
+          "value": "financial management",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_products_human-capital-management",
+          "field": "products",
+          "value": "human capital management",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_products_planning",
+          "field": "products",
+          "value": "planning",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_workday_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_workday_products"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_palo_alto_networks",
+      "name": "Palo Alto Networks",
+      "slug": "palo-alto-networks",
+      "aliases": [],
+      "entity_type": "cybersecurity company",
+      "description": "Cybersecurity company providing network, cloud, security-operations, and AI-security products.",
+      "website": "https://www.paloaltonetworks.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "subcategories": [
+        "Network Security",
+        "Cloud Security",
+        "Security Operations",
+        "AI Security"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "products": [
+        "network security",
+        "cloud security",
+        "security operations",
+        "AI security"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise cybersecurity products used by CISO organizations"
+      ],
+      "sources": [
+        {
+          "id": "src_pan_products",
+          "url": "https://www.paloaltonetworks.com/products",
+          "title": "Products",
+          "publisher": "Palo Alto Networks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paloaltonetworks.com/products",
+          "title": "Palo Alto Networks Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_palo-alto-networks_description_cybersecurity-company-providing-network-cloud-se",
+          "field": "description",
+          "value": "Cybersecurity company providing network, cloud, security-operations, and AI-security products.",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_network-security",
+          "field": "products",
+          "value": "network security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_cloud-security",
+          "field": "products",
+          "value": "cloud security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_security-operations",
+          "field": "products",
+          "value": "security operations",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_ai-security",
+          "field": "products",
+          "value": "AI security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_brex",
+      "name": "Brex",
+      "slug": "brex",
+      "entity_type": "Organization",
+      "description": "Brex provides corporate cards, spend management, travel and treasury products for businesses.",
+      "website": "https://www.brex.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Fintech"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-brex-founded",
+          "field": "founded_year",
+          "value": 2017,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-headquarters",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-lifecycle",
+          "field": "entity_status",
+          "value": "active acquired brand",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact_brex_identity_brex",
+          "field": "identity",
+          "value": "Brex",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_description_brex-provides-corporate-cards-spend-management-t",
+          "field": "description",
+          "value": "Brex provides corporate cards, spend management, travel and treasury products for businesses.",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_website_https-www-brex-com",
+          "field": "website",
+          "value": "https://www.brex.com/",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_brex_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_corporate-cards",
+          "field": "products",
+          "value": "corporate cards",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_spend-management",
+          "field": "products",
+          "value": "spend management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_banking",
+          "field": "products",
+          "value": "banking",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_accounting-automation",
+          "field": "products",
+          "value": "accounting automation",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_bill-pay",
+          "field": "products",
+          "value": "bill pay",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_travel",
+          "field": "products",
+          "value": "travel",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_treasury",
+          "field": "products",
+          "value": "treasury",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_ai-agents",
+          "field": "products",
+          "value": "AI agents",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Brex is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_brex_official",
+          "url": "https://www.brex.com/",
+          "title": "Brex official website",
+          "publisher": "Brex",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_brex_acquisition_2026",
+          "url": "https://www.brex.com/journal/capital-one-completes-acquisition-of-brex",
+          "title": "Capital One Completes Acquisition of Brex",
+          "publisher": "Brex",
+          "source_class": "official company",
+          "published_date": "2026-04-07",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "entity_status",
+            "parent_company"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2017,
+      "headquarters": "San Francisco, California, United States",
+      "products": [
+        "corporate cards",
+        "spend management",
+        "banking",
+        "expense management",
+        "accounting automation",
+        "bill pay",
+        "travel",
+        "treasury",
+        "AI agents"
+      ],
+      "services": [],
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_agentic_fabriq",
+      "name": "Agentic Fabriq",
+      "slug": "agentic-fabriq",
+      "entity_type": "Organization",
+      "description": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+      "website": "https://agenticfabriq.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Security",
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-agentic-fabriq-founded",
+          "field": "founded_year",
+          "value": 2025,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-hq",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-batch",
+          "field": "accelerator_batch",
+          "value": "Winter 2026",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact_agentic-fabriq_identity_agentic-fabriq",
+          "field": "identity",
+          "value": "Agentic Fabriq",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_description_agentic-fabriq-provides-identity-and-permissioni",
+          "field": "description",
+          "value": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_website_https-agenticfabriq-com",
+          "field": "website",
+          "value": "https://agenticfabriq.com/",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_agent-identity",
+          "field": "categories",
+          "value": "Agent Identity",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_identity-and-access-management",
+          "field": "categories",
+          "value": "Identity and Access Management",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_paulina-xu",
+          "field": "founders",
+          "value": "Paulina Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_matthew-xu",
+          "field": "founders",
+          "value": "Matthew Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Agentic Fabriq is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_agentic-fabriq_official",
+          "url": "https://agenticfabriq.com/",
+          "title": "Agentic Fabriq official website",
+          "publisher": "Agentic Fabriq",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_agentic_fabriq_yc",
+          "url": "https://www.ycombinator.com/companies/agentic-fabriq",
+          "title": "Agentic Fabriq company profile",
+          "publisher": "Y Combinator",
+          "source_class": "accelerator profile",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "founders",
+            "accelerator_batch",
+            "entity_status"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2025,
+      "headquarters": "San Francisco, California, United States",
+      "founders": [
+        "Paulina Xu",
+        "Matthew Xu"
+      ],
+      "services": [],
+      "products": [],
+      "provider_types": [
+        "ai-security",
+        "agent-identity",
+        "identity-and-access-management",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

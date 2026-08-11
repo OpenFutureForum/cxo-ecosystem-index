@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.7.0 — 2026-08-11 — CXO Intelligence Release
+
+- Published eight evidence-backed market maps, six factual comparisons, six benchmarks, and 71 separately counted derived metrics.
+- Added downloadable CSV/JSON analytical cohorts for every market map and the Silicon Valley CXO ecosystem.
+- Added the first geographic intelligence page and a comprehensive `/data/quality/` dashboard.
+- Added Capital One as a canonical entity and sourced Brex acquisition and BILL–Rillet integration relationships.
+- Preserved Silicon Valley Bank as the current name while representing its Q4 2026 rebrand as a future announcement.
+- Added current official evidence for Ramp, BILL, Brex, Agentic Fabriq, YPO, Chief, and SVB.
+- Expanded validation to cover acquisitions, derived reciprocal edges, future facts, canonical analytical IDs, denominators, and cohort equivalence.
+
 ## 0.6.1 — 2026-08-11 — Data Governance and Knowledge Graph
 
 - Added canonical source, fact, relationship, and unified knowledge-graph exports.

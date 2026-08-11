@@ -1,0 +1,1710 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "executive-communities",
+  "entity_ids": [
+    "ent_vistage",
+    "ent_entrepreneurs_organization",
+    "ent_pavilion",
+    "ent_open_future_forum",
+    "ent_chief",
+    "ent_young_presidents_organization",
+    "ent_association_for_corporate_growth",
+    "ent_young_entrepreneur_council",
+    "ent_hacker_dojo",
+    "ent_transform",
+    "ent_open_batch"
+  ],
+  "entities": [
+    {
+      "id": "ent_vistage",
+      "name": "Vistage",
+      "slug": "vistage",
+      "entity_type": "executive community",
+      "description": "Peer advisory and executive coaching organization serving chief executives and business owners.",
+      "website": "https://www.vistage.com/",
+      "cxo_roles": [
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Executive Coaching"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "inclusion_basis": [
+        "operates documented CEO peer advisory groups and executive coaching programs"
+      ],
+      "sources": [
+        {
+          "id": "src_vistage",
+          "url": "https://www.vistage.com/membership/",
+          "title": "Membership",
+          "publisher": "Vistage",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "executive-coaching"
+      ],
+      "community_formats": [
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "peer-learning",
+        "leadership-development",
+        "decision-support"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.vistage.com/membership/",
+          "title": "Vistage Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_vistage_description_peer-advisory-and-executive-coaching-organizatio",
+          "field": "description",
+          "value": "Peer advisory and executive coaching organization serving chief executives and business owners.",
+          "source_ids": [
+            "src_vistage"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vistage_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_vistage"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_entrepreneurs_organization",
+      "name": "Entrepreneurs' Organization",
+      "slug": "entrepreneurs-organization",
+      "aliases": [
+        "EO"
+      ],
+      "entity_type": "executive community",
+      "description": "Peer membership organization for entrepreneurs and business owners with chapters and forum programs.",
+      "website": "https://eonetwork.org/",
+      "cxo_roles": [
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Corporate Membership Organizations"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "inclusion_basis": [
+        "operates documented peer forums and chapters for entrepreneurs"
+      ],
+      "sources": [
+        {
+          "id": "src_eo",
+          "url": "https://eonetwork.org/membership/",
+          "title": "Membership",
+          "publisher": "Entrepreneurs' Organization",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://eonetwork.org/membership/",
+          "title": "EO Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_entrepreneurs-organization_description_peer-membership-organization-for-entrepreneurs-a",
+          "field": "description",
+          "value": "Peer membership organization for entrepreneurs and business owners with chapters and forum programs.",
+          "source_ids": [
+            "src_eo"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_entrepreneurs-organization_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_eo"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_pavilion",
+      "name": "Pavilion",
+      "slug": "pavilion",
+      "entity_type": "executive community",
+      "description": "Membership and learning organization for go-to-market executives and professionals.",
+      "website": "https://www.joinpavilion.com/",
+      "cxo_roles": [
+        "CEO",
+        "CMO",
+        "COO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Executive Education"
+      ],
+      "geographies": [
+        "United States",
+        "New York"
+      ],
+      "inclusion_basis": [
+        "operates documented membership and education programs for go-to-market leaders"
+      ],
+      "sources": [
+        {
+          "id": "src_pavilion",
+          "url": "https://www.joinpavilion.com/membership",
+          "title": "Membership",
+          "publisher": "Pavilion",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "executive-education"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "executive-event",
+        "workshop"
+      ],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "professional-development"
+      ],
+      "topics": [
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.joinpavilion.com/membership",
+          "title": "Pavilion Membership",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_pavilion_description_membership-and-learning-organization-for-go-to-m",
+          "field": "description",
+          "value": "Membership and learning organization for go-to-market executives and professionals.",
+          "source_ids": [
+            "src_pavilion"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pavilion_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pavilion"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pavilion_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_pavilion"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pavilion_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_pavilion"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_open_future_forum",
+      "name": "Open Future Forum",
+      "slug": "open-future-forum",
+      "aliases": [],
+      "entity_type": "executive community",
+      "description": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+      "website": "https://openfutureforum.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CTO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Research Firms"
+      ],
+      "subcategories": [
+        "CEO communities",
+        "CFO communities",
+        "CMO communities",
+        "CISO communities",
+        "AI leadership communities",
+        "board networks"
+      ],
+      "industries": [
+        "Technology",
+        "Artificial Intelligence",
+        "Financial Services"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "services": [
+        "private executive gatherings",
+        "public events",
+        "peer groups",
+        "executive boards",
+        "research",
+        "executive communities",
+        "private executive events",
+        "original research"
+      ],
+      "application_required": true,
+      "invite_only": true,
+      "inclusion_basis": [
+        "operates documented programs for multiple C-suite functions"
+      ],
+      "sources": [
+        {
+          "id": "src_off_about",
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_off_forum_select",
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "programs",
+            "services",
+            "application_required",
+            "invite_only"
+          ]
+        },
+        {
+          "id": "src_off_research",
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "programs",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "founded_year": 2019,
+      "founders": [
+        "Murray Newlands"
+      ],
+      "programs": [
+        "Forum Select",
+        "Forum Events",
+        "executive peer groups",
+        "executive boards",
+        "original research"
+      ],
+      "facts": [
+        {
+          "id": "fact-off-founded",
+          "field": "founded_year",
+          "value": 2019,
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-founder",
+          "field": "founder",
+          "value": "Murray Newlands",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
+          "field": "description",
+          "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_private-executive-gatherings",
+          "field": "services",
+          "value": "private executive gatherings",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_public-events",
+          "field": "services",
+          "value": "public events",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_peer-groups",
+          "field": "services",
+          "value": "peer groups",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_executive-boards",
+          "field": "services",
+          "value": "executive boards",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_research",
+          "field": "services",
+          "value": "research",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_executive-communities",
+          "field": "services",
+          "value": "executive communities",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_private-executive-events",
+          "field": "services",
+          "value": "private executive events",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_services_original-research",
+          "field": "services",
+          "value": "original research",
+          "source_ids": [
+            "src_off_about",
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_off_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_forum-select",
+          "field": "programs",
+          "value": "Forum Select",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_forum-events",
+          "field": "programs",
+          "value": "Forum Events",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_executive-peer-groups",
+          "field": "programs",
+          "value": "executive peer groups",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_executive-boards",
+          "field": "programs",
+          "value": "executive boards",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_programs_original-research",
+          "field": "programs",
+          "value": "original research",
+          "source_ids": [
+            "src_off_forum_select",
+            "src_off_research"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_off_forum_select"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-future-forum_invite-only_true",
+          "field": "invite_only",
+          "value": true,
+          "source_ids": [
+            "src_off_forum_select"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "executive-communities",
+        "research-firms"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "peer-group",
+        "executive-forum",
+        "executive-board"
+      ],
+      "event_formats": [
+        "executive-event",
+        "executive-dinner",
+        "private-dinner",
+        "roundtable",
+        "networking-event",
+        "panel",
+        "fireside-chat"
+      ],
+      "intelligence_types": [
+        "executive-research",
+        "research-report",
+        "first-party-research",
+        "survey",
+        "qualitative-research",
+        "benchmark"
+      ],
+      "resource_types": [
+        "guide",
+        "framework"
+      ],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "strategic-insight",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "cybersecurity",
+        "board-governance",
+        "private-equity",
+        "venture-capital"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "venture-capital-investors",
+        "corporate-venture-investors",
+        "founders",
+        "ai-leaders",
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "supports": [
+            "intelligence_types",
+            "topics"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "supports": [
+            "audiences",
+            "community_formats"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_chief",
+      "name": "Chief",
+      "slug": "chief",
+      "aliases": [],
+      "entity_type": "executive community",
+      "description": "A private network and membership organization for senior executive women.",
+      "website": "https://chief.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Corporate Membership Organizations"
+      ],
+      "subcategories": [
+        "women executive communities"
+      ],
+      "industries": [
+        "Professional Services"
+      ],
+      "geographies": [
+        "United States",
+        "New York"
+      ],
+      "application_required": true,
+      "inclusion_basis": [
+        "operates a documented membership network for senior executive women"
+      ],
+      "sources": [
+        {
+          "id": "src_chief_about",
+          "url": "https://chief.com/",
+          "title": "Chief",
+          "publisher": "Chief",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "customer_segments"
+          ]
+        },
+        {
+          "id": "src_chief_core_groups",
+          "url": "https://chief.com/core-groups",
+          "title": "Chief Core Groups",
+          "publisher": "Chief",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "application_required",
+            "services",
+            "peer_groups",
+            "scheduled_group_meetings_per_year",
+            "confidential_format"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "services": [
+        "curated peer advisory groups",
+        "executive coaching",
+        "confidential executive community"
+      ],
+      "facts": [
+        {
+          "id": "fact-chief-core-groups",
+          "field": "peer_groups",
+          "value": true,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact-chief-core-meetings",
+          "field": "scheduled_group_meetings_per_year",
+          "value": 6,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact-chief-confidential",
+          "field": "confidential_format",
+          "value": true,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact_chief_description_a-private-network-and-membership-organization-fo",
+          "field": "description",
+          "value": "A private network and membership organization for senior executive women.",
+          "source_ids": [
+            "src_chief_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_curated-peer-advisory-groups",
+          "field": "services",
+          "value": "curated peer advisory groups",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_executive-coaching",
+          "field": "services",
+          "value": "executive coaching",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_confidential-executive-community",
+          "field": "services",
+          "value": "confidential executive community",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://chief.com/",
+          "title": "Chief",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_young_presidents_organization",
+      "name": "YPO",
+      "slug": "ypo",
+      "aliases": [
+        "Young Presidents' Organization"
+      ],
+      "entity_type": "executive community",
+      "description": "A membership organization for chief executives with peer forums, chapters, and executive learning programs.",
+      "website": "https://www.ypo.org/",
+      "cxo_roles": [
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Corporate Membership Organizations"
+      ],
+      "subcategories": [
+        "CEO communities",
+        "CEO peer groups"
+      ],
+      "industries": [
+        "Professional Services"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "application_required": true,
+      "inclusion_basis": [
+        "operates documented peer forums and membership programs for chief executives"
+      ],
+      "sources": [
+        {
+          "id": "src_ypo_membership",
+          "url": "https://www.ypo.org/membership/",
+          "title": "YPO Membership",
+          "publisher": "YPO",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "application_required",
+            "services"
+          ]
+        },
+        {
+          "id": "src_ypo_what_is",
+          "url": "https://www.ypo.org/what-is-ypo/",
+          "title": "What Is YPO?",
+          "publisher": "YPO",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "member_count",
+            "geographic_scope",
+            "application_required"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "founded_year": 1950,
+      "facts": [
+        {
+          "id": "fact-ypo-founded",
+          "field": "founded_year",
+          "value": 1950,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is",
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact-ypo-members-2026",
+          "field": "member_count",
+          "value": 38000,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact-ypo-global",
+          "field": "geographic_scope",
+          "value": "global",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact_ypo_description_a-membership-organization-for-chief-executives-w",
+          "field": "description",
+          "value": "A membership organization for chief executives with peer forums, chapters, and executive learning programs.",
+          "source_ids": [
+            "src_ypo_membership"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ypo_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_ypo_membership",
+            "src_ypo_what_is"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "services": [],
+      "products": [],
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ypo.org/membership/",
+          "title": "YPO Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_association_for_corporate_growth",
+      "name": "Association for Corporate Growth",
+      "slug": "association-for-corporate-growth",
+      "entity_type": "Organization",
+      "description": "The Association for Corporate Growth is a membership organization serving middle-market mergers-and-acquisitions professionals and investors.",
+      "website": "https://www.acg.org/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Professional Associations",
+        "Executive Communities"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "ACG"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_association-for-corporate-growth_identity_association-for-corporate-growth",
+          "field": "identity",
+          "value": "Association for Corporate Growth",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_description_the-association-for-corporate-growth-is-a-member",
+          "field": "description",
+          "value": "The Association for Corporate Growth is a membership organization serving middle-market mergers-and-acquisitions professionals and investors.",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_website_https-www-acg-org",
+          "field": "website",
+          "value": "https://www.acg.org/",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_categories_professional-associations",
+          "field": "categories",
+          "value": "Professional Associations",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_aliases_acg",
+          "field": "aliases",
+          "value": "ACG",
+          "source_ids": [
+            "src_association-for-corporate-growth_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Association for Corporate Growth is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_association-for-corporate-growth_official",
+          "url": "https://www.acg.org/",
+          "title": "Association for Corporate Growth official website",
+          "publisher": "Association for Corporate Growth",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "professional-associations",
+        "executive-communities"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_young_entrepreneur_council",
+      "name": "Young Entrepreneur Council",
+      "slug": "young-entrepreneur-council",
+      "entity_type": "Organization",
+      "description": "Young Entrepreneur Council is a membership community for entrepreneurs and business owners.",
+      "website": "https://yec.co/",
+      "cxo_roles": [
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Professional Associations"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "YEC"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_young-entrepreneur-council_identity_young-entrepreneur-council",
+          "field": "identity",
+          "value": "Young Entrepreneur Council",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_description_young-entrepreneur-council-is-a-membership-commu",
+          "field": "description",
+          "value": "Young Entrepreneur Council is a membership community for entrepreneurs and business owners.",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_website_https-yec-co",
+          "field": "website",
+          "value": "https://yec.co/",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_categories_professional-associations",
+          "field": "categories",
+          "value": "Professional Associations",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_aliases_yec",
+          "field": "aliases",
+          "value": "YEC",
+          "source_ids": [
+            "src_young-entrepreneur-council_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Young Entrepreneur Council is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_young-entrepreneur-council_official",
+          "url": "https://yec.co/",
+          "title": "Young Entrepreneur Council official website",
+          "publisher": "Young Entrepreneur Council",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "professional-associations"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_hacker_dojo",
+      "name": "Hacker Dojo",
+      "slug": "hacker-dojo",
+      "entity_type": "Organization",
+      "description": "Hacker Dojo is a community-operated workspace and gathering place for technologists and entrepreneurs.",
+      "website": "https://hackerdojo.org/",
+      "cxo_roles": [
+        "CEO",
+        "CTO"
+      ],
+      "categories": [
+        "Executive Communities"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_hacker-dojo_identity_hacker-dojo",
+          "field": "identity",
+          "value": "Hacker Dojo",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_hacker-dojo_description_hacker-dojo-is-a-community-operated-workspace-an",
+          "field": "description",
+          "value": "Hacker Dojo is a community-operated workspace and gathering place for technologists and entrepreneurs.",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_hacker-dojo_website_https-hackerdojo-org",
+          "field": "website",
+          "value": "https://hackerdojo.org/",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_hacker-dojo_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_hacker-dojo_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_hacker-dojo_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_hacker-dojo_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Hacker Dojo is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_hacker-dojo_official",
+          "url": "https://hackerdojo.org/",
+          "title": "Hacker Dojo official website",
+          "publisher": "Hacker Dojo",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_transform",
+      "name": "Transform",
+      "slug": "transform",
+      "entity_type": "Organization",
+      "description": "Transform operates a professional community and conference focused on people, work, human resources and workforce technology.",
+      "website": "https://transform.us/",
+      "cxo_roles": [
+        "CHRO",
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Conferences",
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_transform_identity_transform",
+          "field": "identity",
+          "value": "Transform",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_description_transform-operates-a-professional-community-and-",
+          "field": "description",
+          "value": "Transform operates a professional community and conference focused on people, work, human resources and workforce technology.",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_website_https-transform-us",
+          "field": "website",
+          "value": "https://transform.us/",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_conferences",
+          "field": "categories",
+          "value": "Conferences",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_transform_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_transform_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Transform is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_transform_official",
+          "url": "https://transform.us/",
+          "title": "Transform official website",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "conferences",
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_open_batch",
+      "name": "Open Batch",
+      "slug": "open-batch",
+      "entity_type": "Organization",
+      "description": "Open Batch is a founder community and startup program for Y Combinator alumni building new companies.",
+      "website": "https://openbatch.ai/",
+      "cxo_roles": [
+        "CEO"
+      ],
+      "categories": [
+        "Executive Communities",
+        "Startup Programs",
+        "Accelerators"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": "Open Batch states that it is not officially affiliated with Y Combinator and does not invest, take equity or charge a participation fee.",
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_open-batch_identity_open-batch",
+          "field": "identity",
+          "value": "Open Batch",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_description_open-batch-is-a-founder-community-and-startup-pr",
+          "field": "description",
+          "value": "Open Batch is a founder community and startup program for Y Combinator alumni building new companies.",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_website_https-openbatch-ai",
+          "field": "website",
+          "value": "https://openbatch.ai/",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_categories_startup-programs",
+          "field": "categories",
+          "value": "Startup Programs",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_categories_accelerators",
+          "field": "categories",
+          "value": "Accelerators",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_open-batch_relationship-notes_open-batch-states-that-it-is-not-officially-affi",
+          "field": "relationship_notes",
+          "value": "Open Batch states that it is not officially affiliated with Y Combinator and does not invest, take equity or charge a participation fee.",
+          "source_ids": [
+            "src_open-batch_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Open Batch is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_open-batch_official",
+          "url": "https://openbatch.ai/",
+          "title": "Open Batch official website",
+          "publisher": "Open Batch",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "relationship_notes"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "startup-programs",
+        "accelerators"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

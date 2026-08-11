@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.6.1",
+  "dataset_version": "0.7.0",
   "calculated_at": "2026-08-11",
   "benchmarks": [
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
       "metrics": [
         {
@@ -54,8 +54,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -98,8 +98,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -195,8 +195,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -263,8 +263,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -335,8 +335,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -377,8 +377,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -413,8 +413,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.6.1",
-          "schema_version": "1.1.0",
+          "dataset_version": "0.7.0",
+          "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -474,6 +474,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -621,11 +622,11 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
-      "known_count": 0,
-      "unknown_count": 193,
-      "coverage": 0,
+      "known_count": 3,
+      "unknown_count": 191,
+      "coverage": 0.0155,
       "status": "insufficient coverage",
       "method": "Only source-supported founding_year values are eligible.",
       "source_fields": [
@@ -683,6 +684,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -826,7 +828,11 @@
         "ent_open_batch",
         "ent_curated_connections"
       ],
-      "entity_ids": [],
+      "entity_ids": [
+        "ent_young_presidents_organization",
+        "ent_brex",
+        "ent_agentic_fabriq"
+      ],
       "unknown_entity_ids": [
         "ent_vistage",
         "ent_entrepreneurs_organization",
@@ -869,7 +875,6 @@
         "ent_mit_sloan_executive_education",
         "ent_open_future_forum",
         "ent_chief",
-        "ent_young_presidents_organization",
         "ent_spencer_stuart",
         "ent_cooley",
         "ent_deloitte",
@@ -879,6 +884,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -935,7 +941,6 @@
         "ent_tesorio",
         "ent_vic_ai",
         "ent_ramp",
-        "ent_brex",
         "ent_plaid",
         "ent_anrok",
         "ent_blackline",
@@ -1002,7 +1007,6 @@
         "ent_contextqa",
         "ent_herculesai",
         "ent_atlas_cloud_ai",
-        "ent_agentic_fabriq",
         "ent_axari_technologies_inc",
         "ent_harden",
         "ent_tenet_security",
@@ -1027,11 +1031,11 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
-      "known_count": 0,
-      "unknown_count": 193,
-      "coverage": 0,
+      "known_count": 3,
+      "unknown_count": 191,
+      "coverage": 0.0155,
       "status": "insufficient coverage",
       "method": "Headquarters is kept separate from office and service geography; only sourced headquarters fields qualify.",
       "source_fields": [
@@ -1089,6 +1093,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -1232,7 +1237,11 @@
         "ent_open_batch",
         "ent_curated_connections"
       ],
-      "entity_ids": [],
+      "entity_ids": [
+        "ent_ramp",
+        "ent_brex",
+        "ent_agentic_fabriq"
+      ],
       "unknown_entity_ids": [
         "ent_vistage",
         "ent_entrepreneurs_organization",
@@ -1285,6 +1294,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -1340,8 +1350,6 @@
         "ent_puzzle",
         "ent_tesorio",
         "ent_vic_ai",
-        "ent_ramp",
-        "ent_brex",
         "ent_plaid",
         "ent_anrok",
         "ent_blackline",
@@ -1408,7 +1416,6 @@
         "ent_contextqa",
         "ent_herculesai",
         "ent_atlas_cloud_ai",
-        "ent_agentic_fabriq",
         "ent_axari_technologies_inc",
         "ent_harden",
         "ent_tenet_security",
@@ -1433,11 +1440,11 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
-      "known_count": 0,
+      "known_count": 1,
       "unknown_count": 193,
-      "coverage": 0,
+      "coverage": 0.0052,
       "status": "insufficient coverage",
       "method": "Missing public pricing is unknown, not false.",
       "source_fields": [
@@ -1495,6 +1502,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -1638,7 +1646,9 @@
         "ent_open_batch",
         "ent_curated_connections"
       ],
-      "entity_ids": [],
+      "entity_ids": [
+        "ent_bill"
+      ],
       "unknown_entity_ids": [
         "ent_vistage",
         "ent_entrepreneurs_organization",
@@ -1691,6 +1701,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -1754,7 +1765,6 @@
         "ent_pilot",
         "ent_rillet",
         "ent_zenskar",
-        "ent_bill",
         "ent_carta",
         "ent_mercury",
         "ent_rho",
@@ -1839,20 +1849,20 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
-      "total_entities": 193,
+      "total_entities": 194,
       "exactly_one": 30,
-      "two_to_three": 124,
+      "two_to_three": 125,
       "four_plus": 39,
       "role_distribution": [
         {
           "role": "CFO",
-          "count": 130
+          "count": 131
         },
         {
           "role": "CEO",
-          "count": 106
+          "count": 107
         },
         {
           "role": "CIO",
@@ -1947,6 +1957,7 @@
         "ent_workday",
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
+        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -2094,43 +2105,54 @@
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.6.1",
+      "dataset_version": "0.7.0",
       "calculated_at": "2026-08-11",
-      "total_entities": 193,
-      "total_facts": 1322,
+      "total_entities": 194,
+      "total_facts": 1380,
+      "average_facts_per_entity": 7.11,
       "median_facts_per_entity": 7,
-      "entities_with_3_plus": 173,
-      "entities_with_5_plus": 164,
-      "entities_with_10_plus": 14,
-      "entities_needing_enrichment": 29,
-      "primary_source_entities": 193,
-      "volatile_facts_with_as_of_date": 2,
+      "entities_with_3_plus": 176,
+      "entities_with_5_plus": 167,
+      "entities_with_10_plus": 19,
+      "entities_with_20_plus": 2,
+      "entities_needing_enrichment": 27,
+      "verified_entities": 192,
+      "verified_within_12_months": 194,
+      "missing_headquarters": 191,
+      "missing_founding_year": 190,
+      "conflicting_facts": 0,
+      "stale_facts": 0,
+      "primary_source_entities": 194,
+      "volatile_facts_with_as_of_date": 14,
       "fact_distribution": [
         [
           "0–2",
-          20
+          18
         ],
         [
           "3–5",
-          17
+          18
         ],
         [
           "6–10",
-          148
+          144
         ],
         [
           "11–20",
-          7
+          12
         ],
         [
           "20+",
-          1
+          2
         ]
       ],
       "source_fields": [
         "facts",
         "sources",
-        "last_verified"
+        "last_verified",
+        "headquarters",
+        "founded_year",
+        "verification_status"
       ]
     }
   ]

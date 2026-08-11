@@ -1,42 +1,53 @@
 {
   "id": "data-quality",
   "title": "Source & Data Quality Benchmark",
-  "dataset_version": "0.6.1",
+  "dataset_version": "0.7.0",
   "calculated_at": "2026-08-11",
-  "total_entities": 193,
-  "total_facts": 1322,
+  "total_entities": 194,
+  "total_facts": 1380,
+  "average_facts_per_entity": 7.11,
   "median_facts_per_entity": 7,
-  "entities_with_3_plus": 173,
-  "entities_with_5_plus": 164,
-  "entities_with_10_plus": 14,
-  "entities_needing_enrichment": 29,
-  "primary_source_entities": 193,
-  "volatile_facts_with_as_of_date": 2,
+  "entities_with_3_plus": 176,
+  "entities_with_5_plus": 167,
+  "entities_with_10_plus": 19,
+  "entities_with_20_plus": 2,
+  "entities_needing_enrichment": 27,
+  "verified_entities": 192,
+  "verified_within_12_months": 194,
+  "missing_headquarters": 191,
+  "missing_founding_year": 190,
+  "conflicting_facts": 0,
+  "stale_facts": 0,
+  "primary_source_entities": 194,
+  "volatile_facts_with_as_of_date": 14,
   "fact_distribution": [
     [
       "0–2",
-      20
+      18
     ],
     [
       "3–5",
-      17
+      18
     ],
     [
       "6–10",
-      148
+      144
     ],
     [
       "11–20",
-      7
+      12
     ],
     [
       "20+",
-      1
+      2
     ]
   ],
   "source_fields": [
     "facts",
     "sources",
-    "last_verified"
+    "last_verified",
+    "headquarters",
+    "founded_year",
+    "verification_status"
   ]
 }

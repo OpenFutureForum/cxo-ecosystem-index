@@ -1,0 +1,6022 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "enterprise-ai",
+  "entity_ids": [
+    "ent_oracle",
+    "ent_sap",
+    "ent_salesforce",
+    "ent_adobe",
+    "ent_crowdstrike",
+    "ent_palo_alto_networks",
+    "ent_harvey",
+    "ent_capgemini",
+    "ent_slalom",
+    "ent_cognizant",
+    "ent_findem",
+    "ent_vic_ai",
+    "ent_zeni",
+    "ent_microsoft",
+    "ent_nvidia",
+    "ent_intel",
+    "ent_databricks",
+    "ent_writer",
+    "ent_scale_ai",
+    "ent_glean",
+    "ent_servicenow",
+    "ent_centific",
+    "ent_you_com",
+    "ent_granica",
+    "ent_gumloop",
+    "ent_compose_ai",
+    "ent_applitools",
+    "ent_witnessai",
+    "ent_resemble_ai",
+    "ent_finrep",
+    "ent_thinkingai",
+    "ent_qognitive",
+    "ent_contextqa",
+    "ent_herculesai",
+    "ent_atlas_cloud_ai",
+    "ent_agentic_fabriq",
+    "ent_axari_technologies_inc",
+    "ent_agentrys",
+    "ent_agentweb",
+    "ent_code_conductor",
+    "ent_everything_ai",
+    "ent_xtrace",
+    "ent_velixar_ai"
+  ],
+  "entities": [
+    {
+      "id": "ent_oracle",
+      "name": "Oracle",
+      "slug": "oracle",
+      "entity_type": "software company",
+      "description": "Enterprise technology company providing cloud infrastructure, databases, applications, and finance systems.",
+      "website": "https://www.oracle.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CTO",
+        "CHRO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Austin"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise cloud, database, finance, and human-capital applications"
+      ],
+      "sources": [
+        {
+          "id": "src_oracle",
+          "url": "https://www.oracle.com/applications/",
+          "title": "Cloud Applications",
+          "publisher": "Oracle",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "risk-management"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.oracle.com/applications/",
+          "title": "Oracle Cloud Applications",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_oracle_description_enterprise-technology-company-providing-cloud-in",
+          "field": "description",
+          "value": "Enterprise technology company providing cloud infrastructure, databases, applications, and finance systems.",
+          "source_ids": [
+            "src_oracle"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oracle_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_oracle"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oracle_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_oracle"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oracle_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_oracle"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_oracle_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_oracle"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_sap",
+      "name": "SAP",
+      "slug": "sap",
+      "entity_type": "software company",
+      "description": "Enterprise software company providing ERP, finance, supply-chain, human-capital, data, and business applications.",
+      "website": "https://www.sap.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise applications used by finance, technology, operations, and HR organizations"
+      ],
+      "sources": [
+        {
+          "id": "src_sap",
+          "url": "https://www.sap.com/products.html",
+          "title": "Products",
+          "publisher": "SAP",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.sap.com/products.html",
+          "title": "SAP Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_sap_description_enterprise-software-company-providing-erp-financ",
+          "field": "description",
+          "value": "Enterprise software company providing ERP, finance, supply-chain, human-capital, data, and business applications.",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sap_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sap_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sap_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sap_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_sap_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_sap"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_salesforce",
+      "name": "Salesforce",
+      "slug": "salesforce",
+      "entity_type": "software company",
+      "description": "Enterprise software company providing customer relationship management, marketing, sales, service, data, and AI applications.",
+      "website": "https://www.salesforce.com/",
+      "cxo_roles": [
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented CRM, marketing, service, data, and AI applications"
+      ],
+      "sources": [
+        {
+          "id": "src_salesforce",
+          "url": "https://www.salesforce.com/products/",
+          "title": "Products",
+          "publisher": "Salesforce",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.salesforce.com/products/",
+          "title": "Salesforce Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_salesforce_description_enterprise-software-company-providing-customer-r",
+          "field": "description",
+          "value": "Enterprise software company providing customer relationship management, marketing, sales, service, data, and AI applications.",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_salesforce_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_salesforce"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_adobe",
+      "name": "Adobe",
+      "slug": "adobe",
+      "entity_type": "software company",
+      "description": "Software company providing creative, document, digital-experience, analytics, and marketing products.",
+      "website": "https://www.adobe.com/",
+      "cxo_roles": [
+        "CMO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Media",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "inclusion_basis": [
+        "provides documented digital-experience, analytics, marketing, document, and creative software"
+      ],
+      "sources": [
+        {
+          "id": "src_adobe",
+          "url": "https://business.adobe.com/products/adobe-experience-cloud-products.html",
+          "title": "Experience Cloud Products",
+          "publisher": "Adobe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "marketing",
+        "attribution",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://business.adobe.com/products/adobe-experience-cloud-products.html",
+          "title": "Adobe Experience Cloud Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_adobe_description_software-company-providing-creative-document-dig",
+          "field": "description",
+          "value": "Software company providing creative, document, digital-experience, analytics, and marketing products.",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adobe_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_adobe"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_crowdstrike",
+      "name": "CrowdStrike",
+      "slug": "crowdstrike",
+      "entity_type": "cybersecurity company",
+      "description": "Cybersecurity company providing endpoint, identity, cloud, exposure-management, and security-operations products.",
+      "website": "https://www.crowdstrike.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Austin"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise cybersecurity products used by security organizations"
+      ],
+      "sources": [
+        {
+          "id": "src_crowdstrike",
+          "url": "https://www.crowdstrike.com/platform/",
+          "title": "Falcon Platform",
+          "publisher": "CrowdStrike",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management"
+      ],
+      "topics": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.crowdstrike.com/platform/",
+          "title": "CrowdStrike Falcon Platform",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_crowdstrike_description_cybersecurity-company-providing-endpoint-identit",
+          "field": "description",
+          "value": "Cybersecurity company providing endpoint, identity, cloud, exposure-management, and security-operations products.",
+          "source_ids": [
+            "src_crowdstrike"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_crowdstrike_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_crowdstrike"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_crowdstrike_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_crowdstrike"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_crowdstrike_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_crowdstrike"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_palo_alto_networks",
+      "name": "Palo Alto Networks",
+      "slug": "palo-alto-networks",
+      "aliases": [],
+      "entity_type": "cybersecurity company",
+      "description": "Cybersecurity company providing network, cloud, security-operations, and AI-security products.",
+      "website": "https://www.paloaltonetworks.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "subcategories": [
+        "Network Security",
+        "Cloud Security",
+        "Security Operations",
+        "AI Security"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "products": [
+        "network security",
+        "cloud security",
+        "security operations",
+        "AI security"
+      ],
+      "inclusion_basis": [
+        "provides documented enterprise cybersecurity products used by CISO organizations"
+      ],
+      "sources": [
+        {
+          "id": "src_pan_products",
+          "url": "https://www.paloaltonetworks.com/products",
+          "title": "Products",
+          "publisher": "Palo Alto Networks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "products",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paloaltonetworks.com/products",
+          "title": "Palo Alto Networks Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_palo-alto-networks_description_cybersecurity-company-providing-network-cloud-se",
+          "field": "description",
+          "value": "Cybersecurity company providing network, cloud, security-operations, and AI-security products.",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_network-security",
+          "field": "products",
+          "value": "network security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_cloud-security",
+          "field": "products",
+          "value": "cloud security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_security-operations",
+          "field": "products",
+          "value": "security operations",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_products_ai-security",
+          "field": "products",
+          "value": "AI security",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_palo-alto-networks_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_pan_products"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_harvey",
+      "name": "Harvey",
+      "slug": "harvey",
+      "entity_type": "Organization",
+      "description": "Harvey develops generative-AI software for legal and professional-services work.",
+      "website": "https://www.harvey.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Legal Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_harvey_identity_harvey",
+          "field": "identity",
+          "value": "Harvey",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_description_harvey-develops-generative-ai-software-for-legal",
+          "field": "description",
+          "value": "Harvey develops generative-AI software for legal and professional-services work.",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_website_https-www-harvey-ai",
+          "field": "website",
+          "value": "https://www.harvey.ai/",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_categories_legal-technology",
+          "field": "categories",
+          "value": "Legal Technology",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harvey_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_harvey_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Harvey is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_harvey_official",
+          "url": "https://www.harvey.ai/",
+          "title": "Harvey official website",
+          "publisher": "Harvey",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "legal-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_capgemini",
+      "name": "Capgemini",
+      "slug": "capgemini",
+      "entity_type": "Organization",
+      "description": "Capgemini provides technology consulting, cloud, data, artificial-intelligence, engineering and cybersecurity services.",
+      "website": "https://www.capgemini.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "CTO",
+        "CISO"
+      ],
+      "categories": [
+        "Consulting",
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_capgemini_identity_capgemini",
+          "field": "identity",
+          "value": "Capgemini",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_description_capgemini-provides-technology-consulting-cloud-d",
+          "field": "description",
+          "value": "Capgemini provides technology consulting, cloud, data, artificial-intelligence, engineering and cybersecurity services.",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_website_https-www-capgemini-com",
+          "field": "website",
+          "value": "https://www.capgemini.com/",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_capgemini_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Capgemini is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_capgemini_official",
+          "url": "https://www.capgemini.com/",
+          "title": "Capgemini official website",
+          "publisher": "Capgemini",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting",
+        "enterprise-technology",
+        "artificial-intelligence",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_slalom",
+      "name": "Slalom",
+      "slug": "slalom",
+      "entity_type": "Organization",
+      "description": "Slalom provides business and technology consulting across strategy, cloud, data, artificial intelligence and organizational transformation.",
+      "website": "https://www.slalom.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Consulting",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_slalom_identity_slalom",
+          "field": "identity",
+          "value": "Slalom",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_description_slalom-provides-business-and-technology-consulti",
+          "field": "description",
+          "value": "Slalom provides business and technology consulting across strategy, cloud, data, artificial intelligence and organizational transformation.",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_website_https-www-slalom-com",
+          "field": "website",
+          "value": "https://www.slalom.com/",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_slalom_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Slalom is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_slalom_official",
+          "url": "https://www.slalom.com/",
+          "title": "Slalom official website",
+          "publisher": "Slalom",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_cognizant",
+      "name": "Cognizant",
+      "slug": "cognizant",
+      "entity_type": "Organization",
+      "description": "Cognizant provides technology consulting, digital engineering, cloud, data and artificial-intelligence services.",
+      "website": "https://www.cognizant.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Consulting",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_cognizant_identity_cognizant",
+          "field": "identity",
+          "value": "Cognizant",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_description_cognizant-provides-technology-consulting-digital",
+          "field": "description",
+          "value": "Cognizant provides technology consulting, digital engineering, cloud, data and artificial-intelligence services.",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_website_https-www-cognizant-com",
+          "field": "website",
+          "value": "https://www.cognizant.com/",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_cognizant_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Cognizant is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_cognizant_official",
+          "url": "https://www.cognizant.com/",
+          "title": "Cognizant official website",
+          "publisher": "Cognizant",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_findem",
+      "name": "Findem",
+      "slug": "findem",
+      "entity_type": "Organization",
+      "description": "Findem provides talent-sourcing and recruiting software using company and people data.",
+      "website": "https://www.findem.ai/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Recruiting",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_findem_identity_findem",
+          "field": "identity",
+          "value": "Findem",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_description_findem-provides-talent-sourcing-and-recruiting-s",
+          "field": "description",
+          "value": "Findem provides talent-sourcing and recruiting software using company and people data.",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_website_https-www-findem-ai",
+          "field": "website",
+          "value": "https://www.findem.ai/",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Findem is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_findem_official",
+          "url": "https://www.findem.ai/",
+          "title": "Findem official website",
+          "publisher": "Findem",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology",
+        "recruiting",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_vic_ai",
+      "name": "Vic.ai",
+      "slug": "vic-ai",
+      "entity_type": "Organization",
+      "description": "Vic.ai provides artificial-intelligence software for invoice processing and accounts-payable automation.",
+      "website": "https://www.vic.ai/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_vic-ai_identity_vic-ai",
+          "field": "identity",
+          "value": "Vic.ai",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_description_vic-ai-provides-artificial-intelligence-software",
+          "field": "description",
+          "value": "Vic.ai provides artificial-intelligence software for invoice processing and accounts-payable automation.",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_website_https-www-vic-ai",
+          "field": "website",
+          "value": "https://www.vic.ai/",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_vic-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Vic.ai is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_vic-ai_official",
+          "url": "https://www.vic.ai/",
+          "title": "Vic.ai official website",
+          "publisher": "Vic.ai",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "artificial-intelligence",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_zeni",
+      "name": "Zeni",
+      "slug": "zeni",
+      "entity_type": "Organization",
+      "description": "Zeni provides bookkeeping, accounting and finance operations services supported by software and artificial intelligence.",
+      "website": "https://www.zeni.ai/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Accounting",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_zeni_identity_zeni",
+          "field": "identity",
+          "value": "Zeni",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_description_zeni-provides-bookkeeping-accounting-and-finance",
+          "field": "description",
+          "value": "Zeni provides bookkeeping, accounting and finance operations services supported by software and artificial intelligence.",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_website_https-www-zeni-ai",
+          "field": "website",
+          "value": "https://www.zeni.ai/",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zeni_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_zeni_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Zeni is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_zeni_official",
+          "url": "https://www.zeni.ai/",
+          "title": "Zeni official website",
+          "publisher": "Zeni",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "accounting",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_microsoft",
+      "name": "Microsoft",
+      "slug": "microsoft",
+      "entity_type": "Organization",
+      "description": "Microsoft develops cloud, productivity, enterprise software, artificial-intelligence and cybersecurity products and services.",
+      "website": "https://www.microsoft.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "CTO",
+        "CISO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "AI Infrastructure",
+        "Cybersecurity"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_microsoft_identity_microsoft",
+          "field": "identity",
+          "value": "Microsoft",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_description_microsoft-develops-cloud-productivity-enterprise",
+          "field": "description",
+          "value": "Microsoft develops cloud, productivity, enterprise software, artificial-intelligence and cybersecurity products and services.",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_website_https-www-microsoft-com",
+          "field": "website",
+          "value": "https://www.microsoft.com/",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_microsoft_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Microsoft is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_microsoft_official",
+          "url": "https://www.microsoft.com/",
+          "title": "Microsoft official website",
+          "publisher": "Microsoft",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence",
+        "ai-infrastructure",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_nvidia",
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "entity_type": "Organization",
+      "description": "NVIDIA develops accelerated-computing hardware, software and infrastructure for artificial intelligence and other workloads.",
+      "website": "https://www.nvidia.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_nvidia_identity_nvidia",
+          "field": "identity",
+          "value": "NVIDIA",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_description_nvidia-develops-accelerated-computing-hardware-s",
+          "field": "description",
+          "value": "NVIDIA develops accelerated-computing hardware, software and infrastructure for artificial intelligence and other workloads.",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_website_https-www-nvidia-com",
+          "field": "website",
+          "value": "https://www.nvidia.com/",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_nvidia_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "NVIDIA is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_nvidia_official",
+          "url": "https://www.nvidia.com/",
+          "title": "NVIDIA official website",
+          "publisher": "NVIDIA",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-infrastructure",
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_intel",
+      "name": "Intel",
+      "slug": "intel",
+      "entity_type": "Organization",
+      "description": "Intel designs processors, accelerators, networking products and software for computing and data-center systems.",
+      "website": "https://www.intel.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_intel_identity_intel",
+          "field": "identity",
+          "value": "Intel",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_description_intel-designs-processors-accelerators-networking",
+          "field": "description",
+          "value": "Intel designs processors, accelerators, networking products and software for computing and data-center systems.",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_website_https-www-intel-com",
+          "field": "website",
+          "value": "https://www.intel.com/",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_intel_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Intel is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_intel_official",
+          "url": "https://www.intel.com/",
+          "title": "Intel official website",
+          "publisher": "Intel",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_databricks",
+      "name": "Databricks",
+      "slug": "databricks",
+      "entity_type": "Organization",
+      "description": "Databricks provides a data and artificial-intelligence platform for analytics, data engineering and machine learning.",
+      "website": "https://www.databricks.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_databricks_identity_databricks",
+          "field": "identity",
+          "value": "Databricks",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_description_databricks-provides-a-data-and-artificial-intell",
+          "field": "description",
+          "value": "Databricks provides a data and artificial-intelligence platform for analytics, data engineering and machine learning.",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_website_https-www-databricks-com",
+          "field": "website",
+          "value": "https://www.databricks.com/",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Databricks is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_databricks_official",
+          "url": "https://www.databricks.com/",
+          "title": "Databricks official website",
+          "publisher": "Databricks",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_writer",
+      "name": "Writer",
+      "slug": "writer",
+      "entity_type": "Organization",
+      "description": "Writer provides a generative-artificial-intelligence platform for enterprise applications and workflows.",
+      "website": "https://writer.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_writer_identity_writer",
+          "field": "identity",
+          "value": "Writer",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_description_writer-provides-a-generative-artificial-intellig",
+          "field": "description",
+          "value": "Writer provides a generative-artificial-intelligence platform for enterprise applications and workflows.",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_website_https-writer-com",
+          "field": "website",
+          "value": "https://writer.com/",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Writer is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_writer_official",
+          "url": "https://writer.com/",
+          "title": "Writer official website",
+          "publisher": "Writer",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_scale_ai",
+      "name": "Scale AI",
+      "slug": "scale-ai",
+      "entity_type": "Organization",
+      "description": "Scale AI provides data, evaluation and application infrastructure for developing and deploying artificial-intelligence systems.",
+      "website": "https://scale.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_scale-ai_identity_scale-ai",
+          "field": "identity",
+          "value": "Scale AI",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_description_scale-ai-provides-data-evaluation-and-applicatio",
+          "field": "description",
+          "value": "Scale AI provides data, evaluation and application infrastructure for developing and deploying artificial-intelligence systems.",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_website_https-scale-com",
+          "field": "website",
+          "value": "https://scale.com/",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_scale-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Scale AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_scale-ai_official",
+          "url": "https://scale.com/",
+          "title": "Scale AI official website",
+          "publisher": "Scale AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_glean",
+      "name": "Glean",
+      "slug": "glean",
+      "entity_type": "Organization",
+      "description": "Glean provides enterprise search, knowledge discovery and artificial-intelligence assistants.",
+      "website": "https://www.glean.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_glean_identity_glean",
+          "field": "identity",
+          "value": "Glean",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_description_glean-provides-enterprise-search-knowledge-disco",
+          "field": "description",
+          "value": "Glean provides enterprise search, knowledge discovery and artificial-intelligence assistants.",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_website_https-www-glean-com",
+          "field": "website",
+          "value": "https://www.glean.com/",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Glean is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_glean_official",
+          "url": "https://www.glean.com/",
+          "title": "Glean official website",
+          "publisher": "Glean",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_servicenow",
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "entity_type": "Organization",
+      "description": "ServiceNow provides enterprise workflow, IT operations, automation and artificial-intelligence software.",
+      "website": "https://www.servicenow.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CISO",
+        "COO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_servicenow_identity_servicenow",
+          "field": "identity",
+          "value": "ServiceNow",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_description_servicenow-provides-enterprise-workflow-it-opera",
+          "field": "description",
+          "value": "ServiceNow provides enterprise workflow, IT operations, automation and artificial-intelligence software.",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_website_https-www-servicenow-com",
+          "field": "website",
+          "value": "https://www.servicenow.com/",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "ServiceNow is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_servicenow_official",
+          "url": "https://www.servicenow.com/",
+          "title": "ServiceNow official website",
+          "publisher": "ServiceNow",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_centific",
+      "name": "Centific",
+      "slug": "centific",
+      "entity_type": "Organization",
+      "description": "Centific provides data, artificial-intelligence and digital-engineering services and platforms.",
+      "website": "https://www.centific.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Consulting",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_centific_identity_centific",
+          "field": "identity",
+          "value": "Centific",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_description_centific-provides-data-artificial-intelligence-a",
+          "field": "description",
+          "value": "Centific provides data, artificial-intelligence and digital-engineering services and platforms.",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_website_https-www-centific-com",
+          "field": "website",
+          "value": "https://www.centific.com/",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_centific_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Centific is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_centific_official",
+          "url": "https://www.centific.com/",
+          "title": "Centific official website",
+          "publisher": "Centific",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "consulting",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_you_com",
+      "name": "You.com",
+      "slug": "you-com",
+      "entity_type": "Organization",
+      "description": "You.com develops artificial-intelligence search and agent products for individuals and enterprises.",
+      "website": "https://you.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_you-com_identity_you-com",
+          "field": "identity",
+          "value": "You.com",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_description_you-com-develops-artificial-intelligence-search-",
+          "field": "description",
+          "value": "You.com develops artificial-intelligence search and agent products for individuals and enterprises.",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_website_https-you-com",
+          "field": "website",
+          "value": "https://you.com/",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_you-com_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "You.com is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_you-com_official",
+          "url": "https://you.com/",
+          "title": "You.com official website",
+          "publisher": "You.com",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_granica",
+      "name": "Granica",
+      "slug": "granica",
+      "entity_type": "Organization",
+      "description": "Granica provides data-efficiency and data-privacy infrastructure for artificial-intelligence workloads.",
+      "website": "https://granica.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CISO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_granica_identity_granica",
+          "field": "identity",
+          "value": "Granica",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_description_granica-provides-data-efficiency-and-data-privac",
+          "field": "description",
+          "value": "Granica provides data-efficiency and data-privacy infrastructure for artificial-intelligence workloads.",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_website_https-granica-ai",
+          "field": "website",
+          "value": "https://granica.ai/",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_granica_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_granica_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Granica is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_granica_official",
+          "url": "https://granica.ai/",
+          "title": "Granica official website",
+          "publisher": "Granica",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-infrastructure",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_gumloop",
+      "name": "Gumloop",
+      "slug": "gumloop",
+      "entity_type": "Organization",
+      "description": "Gumloop provides no-code workflow automation using artificial-intelligence models and business applications.",
+      "website": "https://www.gumloop.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "COO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_gumloop_identity_gumloop",
+          "field": "identity",
+          "value": "Gumloop",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_description_gumloop-provides-no-code-workflow-automation-usi",
+          "field": "description",
+          "value": "Gumloop provides no-code workflow automation using artificial-intelligence models and business applications.",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_website_https-www-gumloop-com",
+          "field": "website",
+          "value": "https://www.gumloop.com/",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_gumloop_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_gumloop_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Gumloop is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_gumloop_official",
+          "url": "https://www.gumloop.com/",
+          "title": "Gumloop official website",
+          "publisher": "Gumloop",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_compose_ai",
+      "name": "Compose AI",
+      "slug": "compose-ai",
+      "entity_type": "Organization",
+      "description": "Compose AI develops artificial-intelligence writing and autocomplete software.",
+      "website": "https://www.compose.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_compose-ai_identity_compose-ai",
+          "field": "identity",
+          "value": "Compose AI",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_description_compose-ai-develops-artificial-intelligence-writ",
+          "field": "description",
+          "value": "Compose AI develops artificial-intelligence writing and autocomplete software.",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_website_https-www-compose-ai",
+          "field": "website",
+          "value": "https://www.compose.ai/",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_compose-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Compose AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_compose-ai_official",
+          "url": "https://www.compose.ai/",
+          "title": "Compose AI official website",
+          "publisher": "Compose AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_applitools",
+      "name": "Applitools",
+      "slug": "applitools",
+      "entity_type": "Organization",
+      "description": "Applitools provides automated visual and functional testing software supported by artificial intelligence.",
+      "website": "https://applitools.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_applitools_identity_applitools",
+          "field": "identity",
+          "value": "Applitools",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_description_applitools-provides-automated-visual-and-functio",
+          "field": "description",
+          "value": "Applitools provides automated visual and functional testing software supported by artificial intelligence.",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_website_https-applitools-com",
+          "field": "website",
+          "value": "https://applitools.com/",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_applitools_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_applitools_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Applitools is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_applitools_official",
+          "url": "https://applitools.com/",
+          "title": "Applitools official website",
+          "publisher": "Applitools",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_witnessai",
+      "name": "WitnessAI",
+      "slug": "witnessai",
+      "entity_type": "Organization",
+      "description": "WitnessAI provides security, governance and observability controls for enterprise use of artificial intelligence.",
+      "website": "https://witness.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "AI Security",
+        "Cybersecurity",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_witnessai_identity_witnessai",
+          "field": "identity",
+          "value": "WitnessAI",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_description_witnessai-provides-security-governance-and-obser",
+          "field": "description",
+          "value": "WitnessAI provides security, governance and observability controls for enterprise use of artificial intelligence.",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_website_https-witness-ai",
+          "field": "website",
+          "value": "https://witness.ai/",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_witnessai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "WitnessAI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_witnessai_official",
+          "url": "https://witness.ai/",
+          "title": "WitnessAI official website",
+          "publisher": "WitnessAI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-security",
+        "cybersecurity",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_resemble_ai",
+      "name": "Resemble AI",
+      "slug": "resemble-ai",
+      "entity_type": "Organization",
+      "description": "Resemble AI provides synthetic-voice technology and tools for detecting and managing audio deepfakes.",
+      "website": "https://www.resemble.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CISO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Security"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_resemble-ai_identity_resemble-ai",
+          "field": "identity",
+          "value": "Resemble AI",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_description_resemble-ai-provides-synthetic-voice-technology-",
+          "field": "description",
+          "value": "Resemble AI provides synthetic-voice technology and tools for detecting and managing audio deepfakes.",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_website_https-www-resemble-ai",
+          "field": "website",
+          "value": "https://www.resemble.ai/",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_resemble-ai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_resemble-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Resemble AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_resemble-ai_official",
+          "url": "https://www.resemble.ai/",
+          "title": "Resemble AI official website",
+          "publisher": "Resemble AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-security"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_finrep",
+      "name": "Finrep",
+      "slug": "finrep",
+      "entity_type": "Organization",
+      "description": "Finrep provides artificial-intelligence software for financial reporting and SEC filing workflows.",
+      "website": "https://finrep.ai/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Finrep.ai"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_finrep_identity_finrep",
+          "field": "identity",
+          "value": "Finrep",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_description_finrep-provides-artificial-intelligence-software",
+          "field": "description",
+          "value": "Finrep provides artificial-intelligence software for financial reporting and SEC filing workflows.",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_website_https-finrep-ai",
+          "field": "website",
+          "value": "https://finrep.ai/",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_finrep_aliases_finrep-ai",
+          "field": "aliases",
+          "value": "Finrep.ai",
+          "source_ids": [
+            "src_finrep_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Finrep is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_finrep_official",
+          "url": "https://finrep.ai/",
+          "title": "Finrep official website",
+          "publisher": "Finrep",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cfo-technology",
+        "artificial-intelligence",
+        "accounting-software"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_thinkingai",
+      "name": "ThinkingAI",
+      "slug": "thinkingai",
+      "entity_type": "Organization",
+      "description": "ThinkingAI provides self-hosted artificial-intelligence agents that analyze enterprise data and automate decisions and actions.",
+      "website": "https://thinkingai.io/",
+      "cxo_roles": [
+        "CEO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Agents",
+        "Enterprise Automation"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_thinkingai_identity_thinkingai",
+          "field": "identity",
+          "value": "ThinkingAI",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_description_thinkingai-provides-self-hosted-artificial-intel",
+          "field": "description",
+          "value": "ThinkingAI provides self-hosted artificial-intelligence agents that analyze enterprise data and automate decisions and actions.",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_website_https-thinkingai-io",
+          "field": "website",
+          "value": "https://thinkingai.io/",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_categories_enterprise-automation",
+          "field": "categories",
+          "value": "Enterprise Automation",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_thinkingai_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_thinkingai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "ThinkingAI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_thinkingai_official",
+          "url": "https://thinkingai.io/",
+          "title": "ThinkingAI official website",
+          "publisher": "ThinkingAI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-agents",
+        "enterprise-automation"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_qognitive",
+      "name": "Qognitive",
+      "slug": "qognitive",
+      "entity_type": "Organization",
+      "description": "Qognitive develops analytical machine-learning technology informed by quantum mathematics and quantum cognition.",
+      "website": "https://qognitive.io/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": "This record refers to qognitive.io and is not associated with the unrelated qognitive.app organization.",
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_qognitive_identity_qognitive",
+          "field": "identity",
+          "value": "Qognitive",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_description_qognitive-develops-analytical-machine-learning-t",
+          "field": "description",
+          "value": "Qognitive develops analytical machine-learning technology informed by quantum mathematics and quantum cognition.",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_website_https-qognitive-io",
+          "field": "website",
+          "value": "https://qognitive.io/",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_categories_machine-learning",
+          "field": "categories",
+          "value": "Machine Learning",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_qognitive_relationship-notes_this-record-refers-to-qognitive-io-and-is-not-as",
+          "field": "relationship_notes",
+          "value": "This record refers to qognitive.io and is not associated with the unrelated qognitive.app organization.",
+          "source_ids": [
+            "src_qognitive_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Qognitive is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_qognitive_official",
+          "url": "https://qognitive.io/",
+          "title": "Qognitive official website",
+          "publisher": "Qognitive",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "relationship_notes"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "machine-learning"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_contextqa",
+      "name": "ContextQA",
+      "slug": "contextqa",
+      "entity_type": "Organization",
+      "description": "ContextQA provides automated software testing for enterprise applications and artificial-intelligence agents.",
+      "website": "https://contextqa.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_contextqa_identity_contextqa",
+          "field": "identity",
+          "value": "ContextQA",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_description_contextqa-provides-automated-software-testing-fo",
+          "field": "description",
+          "value": "ContextQA provides automated software testing for enterprise applications and artificial-intelligence agents.",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_website_https-contextqa-com",
+          "field": "website",
+          "value": "https://contextqa.com/",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_contextqa_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "ContextQA is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_contextqa_official",
+          "url": "https://contextqa.com/",
+          "title": "ContextQA official website",
+          "publisher": "ContextQA",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_herculesai",
+      "name": "HerculesAI",
+      "slug": "herculesai",
+      "entity_type": "Organization",
+      "description": "HerculesAI develops artificial-intelligence software for automating document-intensive enterprise workflows.",
+      "website": "https://hercules.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "COO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_herculesai_identity_herculesai",
+          "field": "identity",
+          "value": "HerculesAI",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_description_herculesai-develops-artificial-intelligence-soft",
+          "field": "description",
+          "value": "HerculesAI develops artificial-intelligence software for automating document-intensive enterprise workflows.",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_website_https-hercules-ai",
+          "field": "website",
+          "value": "https://hercules.ai/",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_herculesai_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_herculesai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "HerculesAI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_herculesai_official",
+          "url": "https://hercules.ai/",
+          "title": "HerculesAI official website",
+          "publisher": "HerculesAI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_atlas_cloud_ai",
+      "name": "Atlas Cloud AI",
+      "slug": "atlas-cloud-ai",
+      "entity_type": "Organization",
+      "description": "Atlas Cloud AI provides API access to artificial-intelligence models for image, video, audio and text generation.",
+      "website": "https://atlascloud.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_atlas-cloud-ai_identity_atlas-cloud-ai",
+          "field": "identity",
+          "value": "Atlas Cloud AI",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_description_atlas-cloud-ai-provides-api-access-to-artificial",
+          "field": "description",
+          "value": "Atlas Cloud AI provides API access to artificial-intelligence models for image, video, audio and text generation.",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_website_https-atlascloud-ai",
+          "field": "website",
+          "value": "https://atlascloud.ai/",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_atlas-cloud-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_atlas-cloud-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Atlas Cloud AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_atlas-cloud-ai_official",
+          "url": "https://atlascloud.ai/",
+          "title": "Atlas Cloud AI official website",
+          "publisher": "Atlas Cloud AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-infrastructure",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_agentic_fabriq",
+      "name": "Agentic Fabriq",
+      "slug": "agentic-fabriq",
+      "entity_type": "Organization",
+      "description": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+      "website": "https://agenticfabriq.com/",
+      "cxo_roles": [
+        "CISO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Security",
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-agentic-fabriq-founded",
+          "field": "founded_year",
+          "value": 2025,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-hq",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-batch",
+          "field": "accelerator_batch",
+          "value": "Winter 2026",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact_agentic-fabriq_identity_agentic-fabriq",
+          "field": "identity",
+          "value": "Agentic Fabriq",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_description_agentic-fabriq-provides-identity-and-permissioni",
+          "field": "description",
+          "value": "Agentic Fabriq provides identity and permissioning controls for artificial-intelligence agents.",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_website_https-agenticfabriq-com",
+          "field": "website",
+          "value": "https://agenticfabriq.com/",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_agent-identity",
+          "field": "categories",
+          "value": "Agent Identity",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_identity-and-access-management",
+          "field": "categories",
+          "value": "Identity and Access Management",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_agentic-fabriq_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_paulina-xu",
+          "field": "founders",
+          "value": "Paulina Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_matthew-xu",
+          "field": "founders",
+          "value": "Matthew Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Agentic Fabriq is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_agentic-fabriq_official",
+          "url": "https://agenticfabriq.com/",
+          "title": "Agentic Fabriq official website",
+          "publisher": "Agentic Fabriq",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_agentic_fabriq_yc",
+          "url": "https://www.ycombinator.com/companies/agentic-fabriq",
+          "title": "Agentic Fabriq company profile",
+          "publisher": "Y Combinator",
+          "source_class": "accelerator profile",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "founders",
+            "accelerator_batch",
+            "entity_status"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2025,
+      "headquarters": "San Francisco, California, United States",
+      "founders": [
+        "Paulina Xu",
+        "Matthew Xu"
+      ],
+      "services": [],
+      "products": [],
+      "provider_types": [
+        "ai-security",
+        "agent-identity",
+        "identity-and-access-management",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_axari_technologies_inc",
+      "name": "Axari Technologies, Inc.",
+      "slug": "axari-technologies-inc",
+      "entity_type": "Organization",
+      "description": "Axari develops artificial-intelligence agents for security operations, governance, risk, compliance and vulnerability management.",
+      "website": "https://axari.ai/",
+      "cxo_roles": [
+        "CISO",
+        "CIO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "AI Security",
+        "GRC Automation",
+        "AI Agents"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Axari"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_axari-technologies-inc_identity_axari-technologies-inc",
+          "field": "identity",
+          "value": "Axari Technologies, Inc.",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_description_axari-develops-artificial-intelligence-agents-fo",
+          "field": "description",
+          "value": "Axari develops artificial-intelligence agents for security operations, governance, risk, compliance and vulnerability management.",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_website_https-axari-ai",
+          "field": "website",
+          "value": "https://axari.ai/",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_grc-automation",
+          "field": "categories",
+          "value": "GRC Automation",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_aliases_axari",
+          "field": "aliases",
+          "value": "Axari",
+          "source_ids": [
+            "src_axari-technologies-inc_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Axari Technologies, Inc. is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_axari-technologies-inc_official",
+          "url": "https://axari.ai/",
+          "title": "Axari Technologies, Inc. official website",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "ai-security",
+        "grc-automation",
+        "ai-agents"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_agentrys",
+      "name": "Agentrys",
+      "slug": "agentrys",
+      "entity_type": "Organization",
+      "description": "Agentrys develops agentic design-automation software for semiconductor engineering and verification workflows.",
+      "website": "https://agentrys.ai/",
+      "cxo_roles": [
+        "CTO",
+        "CIO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Agents",
+        "Semiconductor Technology",
+        "Electronic Design Automation"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_agentrys_identity_agentrys",
+          "field": "identity",
+          "value": "Agentrys",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_description_agentrys-develops-agentic-design-automation-soft",
+          "field": "description",
+          "value": "Agentrys develops agentic design-automation software for semiconductor engineering and verification workflows.",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_website_https-agentrys-ai",
+          "field": "website",
+          "value": "https://agentrys.ai/",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_categories_semiconductor-technology",
+          "field": "categories",
+          "value": "Semiconductor Technology",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_categories_electronic-design-automation",
+          "field": "categories",
+          "value": "Electronic Design Automation",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentrys_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_agentrys_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Agentrys is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_agentrys_official",
+          "url": "https://agentrys.ai/",
+          "title": "Agentrys official website",
+          "publisher": "Agentrys",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-agents",
+        "semiconductor-technology",
+        "electronic-design-automation"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_agentweb",
+      "name": "AgentWeb",
+      "slug": "agentweb",
+      "entity_type": "Organization",
+      "description": "AgentWeb develops Emma, an artificial-intelligence product for delegating marketing and campaign work.",
+      "website": "https://agentweb.pro/",
+      "cxo_roles": [
+        "CMO",
+        "CEO"
+      ],
+      "categories": [
+        "Marketing Technology",
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": "This record refers to agentweb.pro and not similarly named AgentWeb domains.",
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_agentweb_identity_agentweb",
+          "field": "identity",
+          "value": "AgentWeb",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_description_agentweb-develops-emma-an-artificial-intelligenc",
+          "field": "description",
+          "value": "AgentWeb develops Emma, an artificial-intelligence product for delegating marketing and campaign work.",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_website_https-agentweb-pro",
+          "field": "website",
+          "value": "https://agentweb.pro/",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_categories_marketing-technology",
+          "field": "categories",
+          "value": "Marketing Technology",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentweb_relationship-notes_this-record-refers-to-agentweb-pro-and-not-simil",
+          "field": "relationship_notes",
+          "value": "This record refers to agentweb.pro and not similarly named AgentWeb domains.",
+          "source_ids": [
+            "src_agentweb_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "AgentWeb is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_agentweb_official",
+          "url": "https://agentweb.pro/",
+          "title": "AgentWeb official website",
+          "publisher": "AgentWeb",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "relationship_notes"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "marketing-technology",
+        "artificial-intelligence",
+        "ai-agents"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_code_conductor",
+      "name": "Code Conductor",
+      "slug": "code-conductor",
+      "entity_type": "Organization",
+      "description": "Code Conductor provides a no-code platform for building artificial-intelligence applications.",
+      "website": "https://codeconductor.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "CodeConductor.ai"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_code-conductor_identity_code-conductor",
+          "field": "identity",
+          "value": "Code Conductor",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_description_code-conductor-provides-a-no-code-platform-for-b",
+          "field": "description",
+          "value": "Code Conductor provides a no-code platform for building artificial-intelligence applications.",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_website_https-codeconductor-ai",
+          "field": "website",
+          "value": "https://codeconductor.ai/",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_code-conductor_aliases_codeconductor-ai",
+          "field": "aliases",
+          "value": "CodeConductor.ai",
+          "source_ids": [
+            "src_code-conductor_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Code Conductor is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_code-conductor_official",
+          "url": "https://codeconductor.ai/",
+          "title": "Code Conductor official website",
+          "publisher": "Code Conductor",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_everything_ai",
+      "name": "Everything AI",
+      "slug": "everything-ai",
+      "entity_type": "Organization",
+      "description": "Everything AI develops an orchestration platform for artificial-intelligence agents.",
+      "website": "https://geteverything.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "AI Agents",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_everything-ai_identity_everything-ai",
+          "field": "identity",
+          "value": "Everything AI",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_description_everything-ai-develops-an-orchestration-platform",
+          "field": "description",
+          "value": "Everything AI develops an orchestration platform for artificial-intelligence agents.",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_website_https-geteverything-ai",
+          "field": "website",
+          "value": "https://geteverything.ai/",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_everything-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_everything-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Everything AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_everything-ai_official",
+          "url": "https://geteverything.ai/",
+          "title": "Everything AI official website",
+          "publisher": "Everything AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "high confidence",
+      "provider_types": [
+        "artificial-intelligence",
+        "ai-agents",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_xtrace",
+      "name": "XTrace",
+      "slug": "xtrace",
+      "entity_type": "Organization",
+      "description": "XTrace provides procedural-memory infrastructure for artificial-intelligence agents.",
+      "website": "https://xtrace.ai/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Xtrace AI"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_xtrace_identity_xtrace",
+          "field": "identity",
+          "value": "XTrace",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_description_xtrace-provides-procedural-memory-infrastructure",
+          "field": "description",
+          "value": "XTrace provides procedural-memory infrastructure for artificial-intelligence agents.",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_website_https-xtrace-ai",
+          "field": "website",
+          "value": "https://xtrace.ai/",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_xtrace_aliases_xtrace-ai",
+          "field": "aliases",
+          "value": "Xtrace AI",
+          "source_ids": [
+            "src_xtrace_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "XTrace is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_xtrace_official",
+          "url": "https://xtrace.ai/",
+          "title": "XTrace official website",
+          "publisher": "XTrace",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-infrastructure",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_velixar_ai",
+      "name": "Velixar AI",
+      "slug": "velixar-ai",
+      "entity_type": "Organization",
+      "description": "Velixar AI provides governed persistent-memory infrastructure for artificial-intelligence systems and agents.",
+      "website": "https://velixarai.com/",
+      "cxo_roles": [
+        "CTO",
+        "CIO",
+        "CISO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "VelixAR AI",
+        "Velixar"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "C",
+      "facts": [
+        {
+          "id": "fact_velixar-ai_identity_velixar-ai",
+          "field": "identity",
+          "value": "Velixar AI",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_description_velixar-ai-provides-governed-persistent-memory-i",
+          "field": "description",
+          "value": "Velixar AI provides governed persistent-memory infrastructure for artificial-intelligence systems and agents.",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_website_https-velixarai-com",
+          "field": "website",
+          "value": "https://velixarai.com/",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_aliases_velixar-ai",
+          "field": "aliases",
+          "value": "VelixAR AI",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_velixar-ai_aliases_velixar",
+          "field": "aliases",
+          "value": "Velixar",
+          "source_ids": [
+            "src_velixar-ai_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Velixar AI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_velixar-ai_official",
+          "url": "https://velixarai.com/",
+          "title": "Velixar AI official website",
+          "publisher": "Velixar AI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "ai-infrastructure",
+        "artificial-intelligence",
+        "ai-agents"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.6.1",
+  "dataset_version": "0.7.0",
   "schema_version": "3.0.0",
   "facts": [
     {
@@ -1614,6 +1614,40 @@
       "entity_id": "ent_open_future_forum"
     },
     {
+      "id": "fact-chief-core-groups",
+      "field": "peer_groups",
+      "value": true,
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact-chief-core-meetings",
+      "field": "scheduled_group_meetings_per_year",
+      "value": 6,
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact-chief-confidential",
+      "field": "confidential_format",
+      "value": true,
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "entity_id": "ent_chief"
+    },
+    {
       "id": "fact_chief_description_a-private-network-and-membership-organization-fo",
       "field": "description",
       "value": "A private network and membership organization for senior executive women.",
@@ -1622,6 +1656,82 @@
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact_chief_application-required_true",
+      "field": "application_required",
+      "value": true,
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact_chief_services_curated-peer-advisory-groups",
+      "field": "services",
+      "value": "curated peer advisory groups",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact_chief_services_executive-coaching",
+      "field": "services",
+      "value": "executive coaching",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact_chief_services_confidential-executive-community",
+      "field": "services",
+      "value": "confidential executive community",
+      "source_ids": [
+        "src_chief_core_groups"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_chief"
+    },
+    {
+      "id": "fact-ypo-founded",
+      "field": "founded_year",
+      "value": 1950,
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ypo_what_is",
+        "src_ypo_what_is"
+      ],
+      "entity_id": "ent_young_presidents_organization"
+    },
+    {
+      "id": "fact-ypo-members-2026",
+      "field": "member_count",
+      "value": 38000,
+      "operator": ">",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ypo_what_is"
+      ],
+      "entity_id": "ent_young_presidents_organization"
+    },
+    {
+      "id": "fact-ypo-global",
+      "field": "geographic_scope",
+      "value": "global",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ypo_what_is"
+      ],
+      "entity_id": "ent_young_presidents_organization"
     },
     {
       "id": "fact_ypo_description_a-membership-organization-for-chief-executives-w",
@@ -1638,7 +1748,8 @@
       "field": "application_required",
       "value": true,
       "source_ids": [
-        "src_ypo_membership"
+        "src_ypo_membership",
+        "src_ypo_what_is"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_young_presidents_organization"
@@ -2314,6 +2425,116 @@
       "entity_id": "ent_harvard_business_school_exec_ed"
     },
     {
+      "id": "fact_capital-one_identity_capital-one",
+      "field": "identity",
+      "value": "Capital One",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_description_capital-one-is-a-technology-based-financial-serv",
+      "field": "description",
+      "value": "Capital One is a technology-based financial services company providing credit cards, consumer banking and commercial banking.",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_website_https-www-capitalone-com",
+      "field": "website",
+      "value": "https://www.capitalone.com/",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_categories_banks",
+      "field": "categories",
+      "value": "Banks",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_categories_payments",
+      "field": "categories",
+      "value": "Payments",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_operating-geographies_united-states",
+      "field": "operating_geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_operating-geographies_canada",
+      "field": "operating_geographies",
+      "value": "Canada",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_operating-geographies_united-kingdom",
+      "field": "operating_geographies",
+      "value": "United Kingdom",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
+      "id": "fact_capital-one_aliases_capital-one-financial-corporation",
+      "field": "aliases",
+      "value": "Capital One Financial Corporation",
+      "source_ids": [
+        "src_capital_one_about"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_capital_one"
+    },
+    {
       "id": "fact_first-citizens-bank_identity_first-citizens-bank",
       "field": "identity",
       "value": "First Citizens Bank",
@@ -2402,6 +2623,31 @@
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_first_citizens_bank"
+    },
+    {
+      "id": "fact-svb-current-brand-2026",
+      "field": "current_display_name",
+      "value": "Silicon Valley Bank",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_svb_rebrand_announcement"
+      ],
+      "entity_id": "ent_silicon_valley_bank"
+    },
+    {
+      "id": "fact-svb-future-rebrand",
+      "field": "announced_future_name",
+      "value": "First Citizens Innovation Banking and First Citizens Fund Banking",
+      "valid_from": "2026-10-01",
+      "as_of_date": "2026-04-23",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_svb_rebrand_announcement"
+      ],
+      "entity_id": "ent_silicon_valley_bank"
     },
     {
       "id": "fact_silicon-valley-bank_identity_silicon-valley-bank",
@@ -6574,6 +6820,72 @@
       "entity_id": "ent_vic_ai"
     },
     {
+      "id": "fact-ramp-customers-2026",
+      "field": "customer_count",
+      "value": 70000,
+      "operator": ">=",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact-ramp-tpv-2026",
+      "field": "annualized_total_payment_volume",
+      "value": 100000000000,
+      "operator": ">=",
+      "currency": "USD",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact-ramp-customer-savings-2026",
+      "field": "customer_savings",
+      "value": 12000000000,
+      "operator": ">=",
+      "currency": "USD",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact-ramp-hours-saved-2026",
+      "field": "customer_hours_saved",
+      "value": 27000000,
+      "operator": ">=",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact-ramp-headquarters",
+      "field": "headquarters",
+      "value": "New York, New York, United States",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_ramp_vendor_2026",
+        "src_ramp_vendor_2026"
+      ],
+      "entity_id": "ent_ramp"
+    },
+    {
       "id": "fact_ramp_identity_ramp",
       "field": "identity",
       "value": "Ramp",
@@ -6644,6 +6956,142 @@
       "entity_id": "ent_ramp"
     },
     {
+      "id": "fact_ramp_products_corporate-cards",
+      "field": "products",
+      "value": "corporate cards",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_expense-management",
+      "field": "products",
+      "value": "expense management",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_accounts-payable",
+      "field": "products",
+      "value": "accounts payable",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_procurement",
+      "field": "products",
+      "value": "procurement",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_travel",
+      "field": "products",
+      "value": "travel",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_treasury",
+      "field": "products",
+      "value": "treasury",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_automated-bookkeeping",
+      "field": "products",
+      "value": "automated bookkeeping",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_products_ai-token-spend-management",
+      "field": "products",
+      "value": "AI token spend management",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_services_finance-automation",
+      "field": "services",
+      "value": "finance automation",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_services_ai-assisted-finance-workflows",
+      "field": "services",
+      "value": "AI-assisted finance workflows",
+      "source_ids": [
+        "src_ramp_vendor_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact-brex-founded",
+      "field": "founded_year",
+      "value": 2017,
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_brex_acquisition_2026",
+        "src_brex_acquisition_2026"
+      ],
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact-brex-headquarters",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_brex_acquisition_2026",
+        "src_brex_acquisition_2026"
+      ],
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact-brex-lifecycle",
+      "field": "entity_status",
+      "value": "active acquired brand",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "entity_id": "ent_brex"
+    },
+    {
       "id": "fact_brex_identity_brex",
       "field": "identity",
       "value": "Brex",
@@ -6709,6 +7157,96 @@
       "value": "CFO",
       "source_ids": [
         "src_brex_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_corporate-cards",
+      "field": "products",
+      "value": "corporate cards",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_spend-management",
+      "field": "products",
+      "value": "spend management",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_banking",
+      "field": "products",
+      "value": "banking",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_expense-management",
+      "field": "products",
+      "value": "expense management",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_accounting-automation",
+      "field": "products",
+      "value": "accounting automation",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_bill-pay",
+      "field": "products",
+      "value": "bill pay",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_travel",
+      "field": "products",
+      "value": "travel",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_treasury",
+      "field": "products",
+      "value": "treasury",
+      "source_ids": [
+        "src_brex_acquisition_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brex"
+    },
+    {
+      "id": "fact_brex_products_ai-agents",
+      "field": "products",
+      "value": "AI agents",
+      "source_ids": [
+        "src_brex_acquisition_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_brex"
@@ -7122,6 +7660,43 @@
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact-bill-businesses-2026",
+      "field": "customer_count",
+      "value": 500000,
+      "operator": ">=",
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_bill_official"
+      ],
+      "entity_id": "ent_bill"
+    },
+    {
+      "id": "fact-bill-ai-positioning",
+      "field": "documented_ai_capability",
+      "value": true,
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_bill_official"
+      ],
+      "entity_id": "ent_bill"
+    },
+    {
+      "id": "fact-bill-public-pricing",
+      "field": "public_pricing",
+      "value": true,
+      "as_of_date": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_bill_pricing_2026"
+      ],
+      "entity_id": "ent_bill"
     },
     {
       "id": "fact_bill_identity_bill",
@@ -11662,6 +12237,41 @@
       "entity_id": "ent_atlas_cloud_ai"
     },
     {
+      "id": "fact-agentic-fabriq-founded",
+      "field": "founded_year",
+      "value": 2025,
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_agentic_fabriq_yc",
+        "src_agentic_fabriq_yc"
+      ],
+      "entity_id": "ent_agentic_fabriq"
+    },
+    {
+      "id": "fact-agentic-fabriq-hq",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_agentic_fabriq_yc",
+        "src_agentic_fabriq_yc"
+      ],
+      "entity_id": "ent_agentic_fabriq"
+    },
+    {
+      "id": "fact-agentic-fabriq-batch",
+      "field": "accelerator_batch",
+      "value": "Winter 2026",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "source_ids": [
+        "src_agentic_fabriq_yc"
+      ],
+      "entity_id": "ent_agentic_fabriq"
+    },
+    {
       "id": "fact_agentic-fabriq_identity_agentic-fabriq",
       "field": "identity",
       "value": "Agentic Fabriq",
@@ -11757,6 +12367,26 @@
       "value": "CTO",
       "source_ids": [
         "src_agentic-fabriq_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_agentic_fabriq"
+    },
+    {
+      "id": "fact_agentic-fabriq_founders_paulina-xu",
+      "field": "founders",
+      "value": "Paulina Xu",
+      "source_ids": [
+        "src_agentic_fabriq_yc"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_agentic_fabriq"
+    },
+    {
+      "id": "fact_agentic-fabriq_founders_matthew-xu",
+      "field": "founders",
+      "value": "Matthew Xu",
+      "source_ids": [
+        "src_agentic_fabriq_yc"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_agentic_fabriq"

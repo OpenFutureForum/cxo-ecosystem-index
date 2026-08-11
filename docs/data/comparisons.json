@@ -2,7 +2,7 @@
   {
     "comparison_id": "cfo-spend-platforms",
     "title": "CFO Spend & Finance Platforms",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_ramp",
@@ -90,10 +90,10 @@
         "fact_field": "accounts payable",
         "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
         "values": {
-          "ent_ramp": "Not verified",
+          "ent_ramp": "Verified",
           "ent_brex": "Not verified",
           "ent_coupa": "Not verified",
-          "ent_bill": "Not verified"
+          "ent_bill": "Verified"
         }
       },
       {
@@ -102,7 +102,7 @@
         "fact_field": "procurement",
         "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
         "values": {
-          "ent_ramp": "Not verified",
+          "ent_ramp": "Verified",
           "ent_brex": "Not verified",
           "ent_coupa": "Verified",
           "ent_bill": "Not verified"
@@ -137,7 +137,7 @@
   {
     "comparison_id": "accounting-close-systems",
     "title": "Accounting, Close & Finance Systems",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_blackline",
@@ -271,7 +271,7 @@
   {
     "comparison_id": "executive-communities",
     "title": "Executive Communities",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_vistage",
@@ -452,7 +452,7 @@
   {
     "comparison_id": "executive-search-firms",
     "title": "Executive Search Firms",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_korn_ferry",
@@ -651,7 +651,7 @@
   {
     "comparison_id": "technology-law-firms",
     "title": "Technology Law Firms",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_wilson_sonsini",
@@ -816,7 +816,7 @@
   {
     "comparison_id": "technology-venture-banking",
     "title": "Technology & Venture Banking",
-    "dataset_version": "0.6.1",
+    "dataset_version": "0.7.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_silicon_valley_bank",

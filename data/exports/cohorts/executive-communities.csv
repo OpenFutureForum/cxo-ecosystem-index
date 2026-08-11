@@ -1,0 +1,12 @@
+id,name,website,entity_type,cxo_roles,categories,headquarters,geographies,founded_year,verification_status
+"ent_vistage","Vistage","https://www.vistage.com/","executive community","CEO","Executive Communities|Executive Coaching","","United States","","verified"
+"ent_entrepreneurs_organization","Entrepreneurs' Organization","https://eonetwork.org/","executive community","CEO","Executive Communities|Corporate Membership Organizations","","United States","","verified"
+"ent_pavilion","Pavilion","https://www.joinpavilion.com/","executive community","CEO|CMO|COO","Executive Communities|Executive Education","","United States|New York","","verified"
+"ent_open_future_forum","Open Future Forum","https://openfutureforum.com/","executive community","CEO|CFO|CMO|CISO|CTO|Board","Executive Communities|Research Firms","","United States|Silicon Valley|San Francisco Bay Area","2019","verified"
+"ent_chief","Chief","https://chief.com/","executive community","CEO|CFO|CMO|CISO|CIO|CTO|COO|CHRO|CLO|General Counsel|Board","Executive Communities|Corporate Membership Organizations","","United States|New York","","verified"
+"ent_young_presidents_organization","YPO","https://www.ypo.org/","executive community","CEO","Executive Communities|Corporate Membership Organizations","","United States","1950","verified"
+"ent_association_for_corporate_growth","Association for Corporate Growth","https://www.acg.org/","Organization","CEO|CFO","Professional Associations|Executive Communities","","United States","","verified"
+"ent_young_entrepreneur_council","Young Entrepreneur Council","https://yec.co/","Organization","CEO","Executive Communities|Professional Associations","","United States","","verified"
+"ent_hacker_dojo","Hacker Dojo","https://hackerdojo.org/","Organization","CEO|CTO","Executive Communities","","United States","","verified"
+"ent_transform","Transform","https://transform.us/","Organization","CHRO|CEO","Executive Communities|Conferences|HR Technology","","United States","","verified"
+"ent_open_batch","Open Batch","https://openbatch.ai/","Organization","CEO","Executive Communities|Startup Programs|Accelerators","","United States","","verified"

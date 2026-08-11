@@ -1,7 +1,7 @@
 {
   "schema_version": "3.0.0",
-  "dataset_version": "0.6.1",
-  "generated_at": "2026-08-11T20:53:32.289Z",
+  "dataset_version": "0.7.0",
+  "generated_at": "2026-08-11T21:15:49.084Z",
   "dimensions": [
     "provider_types",
     "community_formats",
@@ -4871,12 +4871,111 @@
             "description",
             "customer_segments"
           ]
+        },
+        {
+          "id": "src_chief_core_groups",
+          "url": "https://chief.com/core-groups",
+          "title": "Chief Core Groups",
+          "publisher": "Chief",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "application_required",
+            "services",
+            "peer_groups",
+            "scheduled_group_meetings_per_year",
+            "confidential_format"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "services": [
+        "curated peer advisory groups",
+        "executive coaching",
+        "confidential executive community"
+      ],
+      "facts": [
+        {
+          "id": "fact-chief-core-groups",
+          "field": "peer_groups",
+          "value": true,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact-chief-core-meetings",
+          "field": "scheduled_group_meetings_per_year",
+          "value": 6,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact-chief-confidential",
+          "field": "confidential_format",
+          "value": true,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_chief_core_groups"
+          ]
+        },
+        {
+          "id": "fact_chief_description_a-private-network-and-membership-organization-fo",
+          "field": "description",
+          "value": "A private network and membership organization for senior executive women.",
+          "source_ids": [
+            "src_chief_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_curated-peer-advisory-groups",
+          "field": "services",
+          "value": "curated peer advisory groups",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_executive-coaching",
+          "field": "services",
+          "value": "executive coaching",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_chief_services_confidential-executive-community",
+          "field": "services",
+          "value": "confidential executive community",
+          "source_ids": [
+            "src_chief_core_groups"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "products": [],
       "provider_types": [
         "executive-communities",
         "corporate-membership-organizations"
@@ -4904,17 +5003,6 @@
             "community_formats",
             "executive_needs"
           ]
-        }
-      ],
-      "facts": [
-        {
-          "id": "fact_chief_description_a-private-network-and-membership-organization-fo",
-          "field": "description",
-          "value": "A private network and membership organization for senior executive women.",
-          "source_ids": [
-            "src_chief_about"
-          ],
-          "last_verified": "2026-08-11"
         }
       ]
     },
@@ -4962,12 +5050,83 @@
             "application_required",
             "services"
           ]
+        },
+        {
+          "id": "src_ypo_what_is",
+          "url": "https://www.ypo.org/what-is-ypo/",
+          "title": "What Is YPO?",
+          "publisher": "YPO",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "member_count",
+            "geographic_scope",
+            "application_required"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "founded_year": 1950,
+      "facts": [
+        {
+          "id": "fact-ypo-founded",
+          "field": "founded_year",
+          "value": 1950,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is",
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact-ypo-members-2026",
+          "field": "member_count",
+          "value": 38000,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact-ypo-global",
+          "field": "geographic_scope",
+          "value": "global",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ypo_what_is"
+          ]
+        },
+        {
+          "id": "fact_ypo_description_a-membership-organization-for-chief-executives-w",
+          "field": "description",
+          "value": "A membership organization for chief executives with peer forums, chapters, and executive learning programs.",
+          "source_ids": [
+            "src_ypo_membership"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ypo_application-required_true",
+          "field": "application_required",
+          "value": true,
+          "source_ids": [
+            "src_ypo_membership",
+            "src_ypo_what_is"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "services": [],
+      "products": [],
       "provider_types": [
         "executive-communities",
         "corporate-membership-organizations"
@@ -4996,26 +5155,6 @@
             "community_formats",
             "executive_needs"
           ]
-        }
-      ],
-      "facts": [
-        {
-          "id": "fact_ypo_description_a-membership-organization-for-chief-executives-w",
-          "field": "description",
-          "value": "A membership organization for chief executives with peer forums, chapters, and executive learning programs.",
-          "source_ids": [
-            "src_ypo_membership"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_ypo_application-required_true",
-          "field": "application_required",
-          "value": true,
-          "source_ids": [
-            "src_ypo_membership"
-          ],
-          "last_verified": "2026-08-11"
         }
       ]
     },
@@ -6511,6 +6650,175 @@
       ]
     },
     {
+      "id": "ent_capital_one",
+      "name": "Capital One",
+      "slug": "capital-one",
+      "entity_type": "Financial institution",
+      "description": "Capital One is a technology-based financial services company providing credit cards, consumer banking and commercial banking.",
+      "website": "https://www.capitalone.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Payments"
+      ],
+      "industries": [
+        "Financial Services"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "operating_geographies": [
+        "United States",
+        "Canada",
+        "United Kingdom"
+      ],
+      "aliases": [
+        "Capital One Financial Corporation"
+      ],
+      "inclusion_basis": [
+        "canonical parent organization for the completed acquisition of Brex and a documented banking and payments provider"
+      ],
+      "sources": [
+        {
+          "id": "src_capital_one_about",
+          "url": "https://www.capitalone.com/about/",
+          "title": "About Capital One",
+          "publisher": "Capital One",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "industries",
+            "geographies",
+            "operating_geographies",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "payments"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [],
+      "facts": [
+        {
+          "id": "fact_capital-one_identity_capital-one",
+          "field": "identity",
+          "value": "Capital One",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_description_capital-one-is-a-technology-based-financial-serv",
+          "field": "description",
+          "value": "Capital One is a technology-based financial services company providing credit cards, consumer banking and commercial banking.",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_website_https-www-capitalone-com",
+          "field": "website",
+          "value": "https://www.capitalone.com/",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_categories_payments",
+          "field": "categories",
+          "value": "Payments",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_united-states",
+          "field": "operating_geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_canada",
+          "field": "operating_geographies",
+          "value": "Canada",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_united-kingdom",
+          "field": "operating_geographies",
+          "value": "United Kingdom",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_aliases_capital-one-financial-corporation",
+          "field": "aliases",
+          "value": "Capital One Financial Corporation",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
       "id": "ent_first_citizens_bank",
       "name": "First Citizens Bank",
       "slug": "first-citizens-bank",
@@ -6682,6 +6990,29 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-svb-current-brand-2026",
+          "field": "current_display_name",
+          "value": "Silicon Valley Bank",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
+          "id": "fact-svb-future-rebrand",
+          "field": "announced_future_name",
+          "value": "First Citizens Innovation Banking and First Citizens Fund Banking",
+          "valid_from": "2026-10-01",
+          "as_of_date": "2026-04-23",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
           "id": "fact_silicon-valley-bank_identity_silicon-valley-bank",
           "field": "identity",
           "value": "Silicon Valley Bank",
@@ -6784,11 +7115,26 @@
             "parent_company",
             "relationship_notes"
           ]
+        },
+        {
+          "id": "src_svb_rebrand_announcement",
+          "url": "https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026",
+          "title": "First Citizens Bank to Align Brand Names in Q4 2026",
+          "publisher": "First Citizens Bank",
+          "source_class": "official company",
+          "published_date": "2026-04-23",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "current_display_name",
+            "announced_future_name"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [],
+      "products": [],
       "provider_types": [
         "banks"
       ],
@@ -13789,6 +14135,67 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-ramp-customers-2026",
+          "field": "customer_count",
+          "value": 70000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-tpv-2026",
+          "field": "annualized_total_payment_volume",
+          "value": 100000000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-customer-savings-2026",
+          "field": "customer_savings",
+          "value": 12000000000,
+          "operator": ">=",
+          "currency": "USD",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-hours-saved-2026",
+          "field": "customer_hours_saved",
+          "value": 27000000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
+          "id": "fact-ramp-headquarters",
+          "field": "headquarters",
+          "value": "New York, New York, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_ramp_vendor_2026",
+            "src_ramp_vendor_2026"
+          ]
+        },
+        {
           "id": "fact_ramp_identity_ramp",
           "field": "identity",
           "value": "Ramp",
@@ -13850,6 +14257,96 @@
             "src_ramp_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_corporate-cards",
+          "field": "products",
+          "value": "corporate cards",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_procurement",
+          "field": "products",
+          "value": "procurement",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_travel",
+          "field": "products",
+          "value": "travel",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_treasury",
+          "field": "products",
+          "value": "treasury",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_automated-bookkeeping",
+          "field": "products",
+          "value": "automated bookkeeping",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_products_ai-token-spend-management",
+          "field": "products",
+          "value": "AI token spend management",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_services_finance-automation",
+          "field": "services",
+          "value": "finance automation",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ramp_services_ai-assisted-finance-workflows",
+          "field": "services",
+          "value": "AI-assisted finance workflows",
+          "source_ids": [
+            "src_ramp_vendor_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -13870,11 +14367,44 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_ramp_vendor_2026",
+          "url": "https://ramp.com/vendors/ramp",
+          "title": "Ramp: data-backed company and product profile",
+          "publisher": "Ramp",
+          "source_class": "official company",
+          "published_date": "2026-07-28",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "headquarters",
+            "customer_count",
+            "annualized_total_payment_volume",
+            "customer_savings",
+            "customer_hours_saved"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "headquarters": "New York, New York, United States",
+      "products": [
+        "corporate cards",
+        "expense management",
+        "accounts payable",
+        "procurement",
+        "travel",
+        "treasury",
+        "automated bookkeeping",
+        "AI token spend management"
+      ],
+      "services": [
+        "finance automation",
+        "AI-assisted finance workflows"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -13913,6 +14443,39 @@
       "relationship_notes": null,
       "editorial_priority": "A",
       "facts": [
+        {
+          "id": "fact-brex-founded",
+          "field": "founded_year",
+          "value": 2017,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-headquarters",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026",
+            "src_brex_acquisition_2026"
+          ]
+        },
+        {
+          "id": "fact-brex-lifecycle",
+          "field": "entity_status",
+          "value": "active acquired brand",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ]
+        },
         {
           "id": "fact_brex_identity_brex",
           "field": "identity",
@@ -13975,6 +14538,87 @@
             "src_brex_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_corporate-cards",
+          "field": "products",
+          "value": "corporate cards",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_spend-management",
+          "field": "products",
+          "value": "spend management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_banking",
+          "field": "products",
+          "value": "banking",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_accounting-automation",
+          "field": "products",
+          "value": "accounting automation",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_bill-pay",
+          "field": "products",
+          "value": "bill pay",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_travel",
+          "field": "products",
+          "value": "travel",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_treasury",
+          "field": "products",
+          "value": "treasury",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brex_products_ai-agents",
+          "field": "products",
+          "value": "AI agents",
+          "source_ids": [
+            "src_brex_acquisition_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -13995,11 +14639,41 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_brex_acquisition_2026",
+          "url": "https://www.brex.com/journal/capital-one-completes-acquisition-of-brex",
+          "title": "Capital One Completes Acquisition of Brex",
+          "publisher": "Brex",
+          "source_class": "official company",
+          "published_date": "2026-04-07",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "entity_status",
+            "parent_company"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 2017,
+      "headquarters": "San Francisco, California, United States",
+      "products": [
+        "corporate cards",
+        "spend management",
+        "banking",
+        "expense management",
+        "accounting automation",
+        "bill pay",
+        "travel",
+        "treasury",
+        "AI agents"
+      ],
+      "services": [],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -14777,6 +15451,40 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-bill-businesses-2026",
+          "field": "customer_count",
+          "value": 500000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_official"
+          ]
+        },
+        {
+          "id": "fact-bill-ai-positioning",
+          "field": "documented_ai_capability",
+          "value": true,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_official"
+          ]
+        },
+        {
+          "id": "fact-bill-public-pricing",
+          "field": "public_pricing",
+          "value": true,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_bill_pricing_2026"
+          ]
+        },
+        {
           "id": "fact_bill_identity_bill",
           "field": "identity",
           "value": "BILL",
@@ -14868,11 +15576,48 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_bill_pricing_2026",
+          "url": "https://www.bill.com/product/pricing",
+          "title": "BILL Pricing and Plans",
+          "publisher": "BILL",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "public_pricing"
+          ]
+        },
+        {
+          "id": "src_bill_rillet_2026",
+          "url": "https://www.bill.com/product-updates",
+          "title": "BILL Product Updates: BILL and Rillet",
+          "publisher": "BILL",
+          "source_class": "official company",
+          "published_date": "2026-04-29",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "integrations"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "accounts payable",
+        "accounts receivable",
+        "expense management",
+        "budgets",
+        "credit",
+        "payments",
+        "AI transaction agent"
+      ],
+      "services": [
+        "AI-powered financial operations",
+        "invoice automation",
+        "expense automation"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -22570,6 +23315,38 @@
       "editorial_priority": "A",
       "facts": [
         {
+          "id": "fact-agentic-fabriq-founded",
+          "field": "founded_year",
+          "value": 2025,
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-hq",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc",
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
+          "id": "fact-agentic-fabriq-batch",
+          "field": "accelerator_batch",
+          "value": "Winter 2026",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ]
+        },
+        {
           "id": "fact_agentic-fabriq_identity_agentic-fabriq",
           "field": "identity",
           "value": "Agentic Fabriq",
@@ -22658,6 +23435,24 @@
             "src_agentic-fabriq_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_paulina-xu",
+          "field": "founders",
+          "value": "Paulina Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_agentic-fabriq_founders_matthew-xu",
+          "field": "founders",
+          "value": "Matthew Xu",
+          "source_ids": [
+            "src_agentic_fabriq_yc"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -22678,11 +23473,34 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_agentic_fabriq_yc",
+          "url": "https://www.ycombinator.com/companies/agentic-fabriq",
+          "title": "Agentic Fabriq company profile",
+          "publisher": "Y Combinator",
+          "source_class": "accelerator profile",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "founders",
+            "accelerator_batch",
+            "entity_status"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 2025,
+      "headquarters": "San Francisco, California, United States",
+      "founders": [
+        "Paulina Xu",
+        "Matthew Xu"
+      ],
+      "services": [],
+      "products": [],
       "provider_types": [
         "ai-security",
         "agent-identity",

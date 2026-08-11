@@ -1,0 +1,2910 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "banking-capital",
+  "entity_ids": [
+    "ent_bank_of_america",
+    "ent_citi",
+    "ent_hsbc",
+    "ent_evercore",
+    "ent_lazard",
+    "ent_houlihan_lokey",
+    "ent_jpmorgan",
+    "ent_capital_one",
+    "ent_first_citizens_bank",
+    "ent_silicon_valley_bank",
+    "ent_wells_fargo",
+    "ent_citizens_private_bank",
+    "ent_bmo",
+    "ent_morgan_stanley",
+    "ent_comerica",
+    "ent_stifel",
+    "ent_deutsche_bank",
+    "ent_bny",
+    "ent_leader_bank",
+    "ent_brighttower",
+    "ent_intrepid_investment_bankers",
+    "ent_capital_ip_investment_partners",
+    "ent_indian_hills_advisors"
+  ],
+  "entities": [
+    {
+      "id": "ent_bank_of_america",
+      "name": "Bank of America",
+      "slug": "bank-of-america",
+      "entity_type": "bank",
+      "description": "Financial institution providing commercial banking, investment banking, treasury, lending, and wealth-management services.",
+      "website": "https://www.bankofamerica.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Chicago",
+        "Los Angeles",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented banking, treasury, lending, and capital-markets services"
+      ],
+      "sources": [
+        {
+          "id": "src_bofa",
+          "url": "https://business.bofa.com/",
+          "title": "Business Banking and Markets",
+          "publisher": "Bank of America",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://business.bofa.com/",
+          "title": "Bank of America Business Banking and Markets",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_bank-of-america_description_financial-institution-providing-commercial-banki",
+          "field": "description",
+          "value": "Financial institution providing commercial banking, investment banking, treasury, lending, and wealth-management services.",
+          "source_ids": [
+            "src_bofa"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_citi",
+      "name": "Citi",
+      "slug": "citi",
+      "aliases": [
+        "Citigroup"
+      ],
+      "entity_type": "bank",
+      "description": "Financial institution providing banking, markets, services, lending, and wealth-management capabilities.",
+      "website": "https://www.citigroup.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented corporate banking, markets, treasury, and wealth services"
+      ],
+      "sources": [
+        {
+          "id": "src_citi",
+          "url": "https://www.citigroup.com/global/businesses",
+          "title": "Businesses",
+          "publisher": "Citi",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.citigroup.com/global/businesses",
+          "title": "Citi Businesses",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_citi_description_financial-institution-providing-banking-markets-",
+          "field": "description",
+          "value": "Financial institution providing banking, markets, services, lending, and wealth-management capabilities.",
+          "source_ids": [
+            "src_citi"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_hsbc",
+      "name": "HSBC",
+      "slug": "hsbc",
+      "entity_type": "bank",
+      "description": "Banking organization providing commercial banking, global banking and markets, and wealth services.",
+      "website": "https://www.hsbc.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented commercial banking, markets, and wealth services"
+      ],
+      "sources": [
+        {
+          "id": "src_hsbc",
+          "url": "https://www.hsbc.com/who-we-are/businesses-and-customers/",
+          "title": "Businesses and Customers",
+          "publisher": "HSBC",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.hsbc.com/who-we-are/businesses-and-customers/",
+          "title": "HSBC Businesses and Customers",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_hsbc_description_banking-organization-providing-commercial-bankin",
+          "field": "description",
+          "value": "Banking organization providing commercial banking, global banking and markets, and wealth services.",
+          "source_ids": [
+            "src_hsbc"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_evercore",
+      "name": "Evercore",
+      "slug": "evercore",
+      "entity_type": "investment bank",
+      "description": "Independent investment-banking advisory firm providing strategic, restructuring, and capital-markets advice.",
+      "website": "https://www.evercore.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented strategic and financial advisory services to companies and boards"
+      ],
+      "sources": [
+        {
+          "id": "src_evercore",
+          "url": "https://www.evercore.com/our-businesses/investment-banking/",
+          "title": "Investment Banking",
+          "publisher": "Evercore",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.evercore.com/our-businesses/investment-banking/",
+          "title": "Evercore Investment Banking",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_evercore_description_independent-investment-banking-advisory-firm-pro",
+          "field": "description",
+          "value": "Independent investment-banking advisory firm providing strategic, restructuring, and capital-markets advice.",
+          "source_ids": [
+            "src_evercore"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_lazard",
+      "name": "Lazard",
+      "slug": "lazard",
+      "entity_type": "investment bank",
+      "description": "Financial-advisory and asset-management firm providing mergers and acquisitions, restructuring, and capital advice.",
+      "website": "https://www.lazard.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors",
+        "Wealth Management"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented financial advisory and asset-management services"
+      ],
+      "sources": [
+        {
+          "id": "src_lazard",
+          "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
+          "title": "Financial Advisory",
+          "publisher": "Lazard",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
+          "title": "Lazard Financial Advisory",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_lazard_description_financial-advisory-and-asset-management-firm-pro",
+          "field": "description",
+          "value": "Financial-advisory and asset-management firm providing mergers and acquisitions, restructuring, and capital advice.",
+          "source_ids": [
+            "src_lazard"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_houlihan_lokey",
+      "name": "Houlihan Lokey",
+      "slug": "houlihan-lokey",
+      "entity_type": "investment bank",
+      "description": "Investment bank providing mergers and acquisitions, capital solutions, financial restructuring, and valuation advisory.",
+      "website": "https://www.hl.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors",
+        "Finance Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "inclusion_basis": [
+        "provides documented M&A, capital, restructuring, and valuation advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_hl",
+          "url": "https://www.hl.com/services/",
+          "title": "Services",
+          "publisher": "Houlihan Lokey",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-equity",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.hl.com/services/",
+          "title": "Houlihan Lokey Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_houlihan-lokey_description_investment-bank-providing-mergers-and-acquisitio",
+          "field": "description",
+          "value": "Investment bank providing mergers and acquisitions, capital solutions, financial restructuring, and valuation advisory.",
+          "source_ids": [
+            "src_hl"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_jpmorgan",
+      "name": "JPMorgan Chase",
+      "slug": "jpmorgan-chase",
+      "aliases": [
+        "J.P. Morgan",
+        "Chase"
+      ],
+      "entity_type": "bank",
+      "description": "Financial institution providing commercial banking, investment banking, treasury, payments, and private-banking services.",
+      "website": "https://www.jpmorganchase.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "subcategories": [
+        "Commercial Banking",
+        "Technology Banking",
+        "Treasury Services",
+        "Capital Raising",
+        "M&A"
+      ],
+      "industries": [
+        "Financial Services",
+        "Fintech",
+        "Technology"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
+      ],
+      "services": [
+        "commercial banking",
+        "investment banking",
+        "treasury services",
+        "payments",
+        "private banking"
+      ],
+      "inclusion_basis": [
+        "provides documented banking and capital-markets services to companies and executives"
+      ],
+      "sources": [
+        {
+          "id": "src_jpm_business",
+          "url": "https://www.jpmorganchase.com/about/our-business",
+          "title": "Our Business",
+          "publisher": "JPMorgan Chase",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/about/our-business",
+          "title": "JPMorgan Chase Businesses",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_jpmorgan-chase_description_financial-institution-providing-commercial-banki",
+          "field": "description",
+          "value": "Financial institution providing commercial banking, investment banking, treasury, payments, and private-banking services.",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_jpmorgan-chase_services_commercial-banking",
+          "field": "services",
+          "value": "commercial banking",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_jpmorgan-chase_services_investment-banking",
+          "field": "services",
+          "value": "investment banking",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_jpmorgan-chase_services_treasury-services",
+          "field": "services",
+          "value": "treasury services",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_jpmorgan-chase_services_payments",
+          "field": "services",
+          "value": "payments",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_jpmorgan-chase_services_private-banking",
+          "field": "services",
+          "value": "private banking",
+          "source_ids": [
+            "src_jpm_business"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_capital_one",
+      "name": "Capital One",
+      "slug": "capital-one",
+      "entity_type": "Financial institution",
+      "description": "Capital One is a technology-based financial services company providing credit cards, consumer banking and commercial banking.",
+      "website": "https://www.capitalone.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Payments"
+      ],
+      "industries": [
+        "Financial Services"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "operating_geographies": [
+        "United States",
+        "Canada",
+        "United Kingdom"
+      ],
+      "aliases": [
+        "Capital One Financial Corporation"
+      ],
+      "inclusion_basis": [
+        "canonical parent organization for the completed acquisition of Brex and a documented banking and payments provider"
+      ],
+      "sources": [
+        {
+          "id": "src_capital_one_about",
+          "url": "https://www.capitalone.com/about/",
+          "title": "About Capital One",
+          "publisher": "Capital One",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "industries",
+            "geographies",
+            "operating_geographies",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "payments"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [],
+      "facts": [
+        {
+          "id": "fact_capital-one_identity_capital-one",
+          "field": "identity",
+          "value": "Capital One",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_description_capital-one-is-a-technology-based-financial-serv",
+          "field": "description",
+          "value": "Capital One is a technology-based financial services company providing credit cards, consumer banking and commercial banking.",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_website_https-www-capitalone-com",
+          "field": "website",
+          "value": "https://www.capitalone.com/",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_categories_payments",
+          "field": "categories",
+          "value": "Payments",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_united-states",
+          "field": "operating_geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_canada",
+          "field": "operating_geographies",
+          "value": "Canada",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_operating-geographies_united-kingdom",
+          "field": "operating_geographies",
+          "value": "United Kingdom",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-one_aliases_capital-one-financial-corporation",
+          "field": "aliases",
+          "value": "Capital One Financial Corporation",
+          "source_ids": [
+            "src_capital_one_about"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_first_citizens_bank",
+      "name": "First Citizens Bank",
+      "slug": "first-citizens-bank",
+      "entity_type": "Organization",
+      "description": "First Citizens Bank provides commercial, private and personal banking services and is a subsidiary of First Citizens BancShares.",
+      "website": "https://www.firstcitizens.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "First Citizens"
+      ],
+      "parent_company": "First Citizens BancShares, Inc.",
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_first-citizens-bank_identity_first-citizens-bank",
+          "field": "identity",
+          "value": "First Citizens Bank",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_description_first-citizens-bank-provides-commercial-private-",
+          "field": "description",
+          "value": "First Citizens Bank provides commercial, private and personal banking services and is a subsidiary of First Citizens BancShares.",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_website_https-www-firstcitizens-com",
+          "field": "website",
+          "value": "https://www.firstcitizens.com/",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_aliases_first-citizens",
+          "field": "aliases",
+          "value": "First Citizens",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_first-citizens-bank_parent-company_first-citizens-bancshares-inc",
+          "field": "parent_company",
+          "value": "First Citizens BancShares, Inc.",
+          "source_ids": [
+            "src_first-citizens-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "First Citizens Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_first-citizens-bank_official",
+          "url": "https://www.firstcitizens.com/",
+          "title": "First Citizens Bank official website",
+          "publisher": "First Citizens Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases",
+            "parent_company"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_silicon_valley_bank",
+      "name": "Silicon Valley Bank",
+      "slug": "silicon-valley-bank",
+      "entity_type": "Organization",
+      "description": "Silicon Valley Bank provides commercial banking and financial services to companies and investors in innovation markets.",
+      "website": "https://www.svb.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "SVB"
+      ],
+      "parent_company": "First Citizens Bank",
+      "relationship_notes": "SVB operates as a division of First Citizens Bank following the 2023 acquisition.",
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-svb-current-brand-2026",
+          "field": "current_display_name",
+          "value": "Silicon Valley Bank",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
+          "id": "fact-svb-future-rebrand",
+          "field": "announced_future_name",
+          "value": "First Citizens Innovation Banking and First Citizens Fund Banking",
+          "valid_from": "2026-10-01",
+          "as_of_date": "2026-04-23",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
+          "id": "fact_silicon-valley-bank_identity_silicon-valley-bank",
+          "field": "identity",
+          "value": "Silicon Valley Bank",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_description_silicon-valley-bank-provides-commercial-banking-",
+          "field": "description",
+          "value": "Silicon Valley Bank provides commercial banking and financial services to companies and investors in innovation markets.",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_website_https-www-svb-com",
+          "field": "website",
+          "value": "https://www.svb.com/",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_aliases_svb",
+          "field": "aliases",
+          "value": "SVB",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_parent-company_first-citizens-bank",
+          "field": "parent_company",
+          "value": "First Citizens Bank",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_relationship-notes_svb-operates-as-a-division-of-first-citizens-ban",
+          "field": "relationship_notes",
+          "value": "SVB operates as a division of First Citizens Bank following the 2023 acquisition.",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Silicon Valley Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_silicon-valley-bank_official",
+          "url": "https://www.svb.com/",
+          "title": "Silicon Valley Bank official website",
+          "publisher": "Silicon Valley Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases",
+            "parent_company",
+            "relationship_notes"
+          ]
+        },
+        {
+          "id": "src_svb_rebrand_announcement",
+          "url": "https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026",
+          "title": "First Citizens Bank to Align Brand Names in Q4 2026",
+          "publisher": "First Citizens Bank",
+          "source_class": "official company",
+          "published_date": "2026-04-23",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "current_display_name",
+            "announced_future_name"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [],
+      "products": [],
+      "provider_types": [
+        "banks"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_wells_fargo",
+      "name": "Wells Fargo",
+      "slug": "wells-fargo",
+      "entity_type": "Organization",
+      "description": "Wells Fargo provides commercial banking, corporate and investment banking, and wealth-management services.",
+      "website": "https://www.wellsfargo.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_wells-fargo_identity_wells-fargo",
+          "field": "identity",
+          "value": "Wells Fargo",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_description_wells-fargo-provides-commercial-banking-corporat",
+          "field": "description",
+          "value": "Wells Fargo provides commercial banking, corporate and investment banking, and wealth-management services.",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_website_https-www-wellsfargo-com",
+          "field": "website",
+          "value": "https://www.wellsfargo.com/",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_wells-fargo_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Wells Fargo is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_wells-fargo_official",
+          "url": "https://www.wellsfargo.com/",
+          "title": "Wells Fargo official website",
+          "publisher": "Wells Fargo",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_citizens_private_bank",
+      "name": "Citizens Private Bank",
+      "slug": "citizens-private-bank",
+      "entity_type": "Organization",
+      "description": "Citizens Private Bank provides private-banking, lending and wealth services as part of Citizens Financial Group.",
+      "website": "https://www.citizensprivatebank.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": "Citizens Financial Group, Inc.",
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_citizens-private-bank_identity_citizens-private-bank",
+          "field": "identity",
+          "value": "Citizens Private Bank",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_description_citizens-private-bank-provides-private-banking-l",
+          "field": "description",
+          "value": "Citizens Private Bank provides private-banking, lending and wealth services as part of Citizens Financial Group.",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_website_https-www-citizensprivatebank-com",
+          "field": "website",
+          "value": "https://www.citizensprivatebank.com/",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_parent-company_citizens-financial-group-inc",
+          "field": "parent_company",
+          "value": "Citizens Financial Group, Inc.",
+          "source_ids": [
+            "src_citizens-private-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Citizens Private Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_citizens-private-bank_official",
+          "url": "https://www.citizensprivatebank.com/",
+          "title": "Citizens Private Bank official website",
+          "publisher": "Citizens Private Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "parent_company"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_bmo",
+      "name": "BMO",
+      "slug": "bmo",
+      "entity_type": "Organization",
+      "description": "BMO provides commercial banking, capital-markets and wealth-management services.",
+      "website": "https://www.bmo.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Bank of Montreal"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_bmo_identity_bmo",
+          "field": "identity",
+          "value": "BMO",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_description_bmo-provides-commercial-banking-capital-markets-",
+          "field": "description",
+          "value": "BMO provides commercial banking, capital-markets and wealth-management services.",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_website_https-www-bmo-com",
+          "field": "website",
+          "value": "https://www.bmo.com/",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bmo_aliases_bank-of-montreal",
+          "field": "aliases",
+          "value": "Bank of Montreal",
+          "source_ids": [
+            "src_bmo_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "BMO is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_bmo_official",
+          "url": "https://www.bmo.com/",
+          "title": "BMO official website",
+          "publisher": "BMO",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_morgan_stanley",
+      "name": "Morgan Stanley",
+      "slug": "morgan-stanley",
+      "entity_type": "Organization",
+      "description": "Morgan Stanley provides investment banking, capital-markets, wealth-management and investment-management services.",
+      "website": "https://www.morganstanley.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "Board"
+      ],
+      "categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_morgan-stanley_identity_morgan-stanley",
+          "field": "identity",
+          "value": "Morgan Stanley",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_description_morgan-stanley-provides-investment-banking-capit",
+          "field": "description",
+          "value": "Morgan Stanley provides investment banking, capital-markets, wealth-management and investment-management services.",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_website_https-www-morganstanley-com",
+          "field": "website",
+          "value": "https://www.morganstanley.com/",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_morgan-stanley_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Morgan Stanley is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_morgan-stanley_official",
+          "url": "https://www.morganstanley.com/",
+          "title": "Morgan Stanley official website",
+          "publisher": "Morgan Stanley",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_comerica",
+      "name": "Comerica",
+      "slug": "comerica",
+      "entity_type": "Organization",
+      "description": "Comerica provides commercial banking, treasury-management and wealth-management services.",
+      "website": "https://www.comerica.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_comerica_identity_comerica",
+          "field": "identity",
+          "value": "Comerica",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_description_comerica-provides-commercial-banking-treasury-ma",
+          "field": "description",
+          "value": "Comerica provides commercial banking, treasury-management and wealth-management services.",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_website_https-www-comerica-com",
+          "field": "website",
+          "value": "https://www.comerica.com/",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_comerica_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_comerica_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Comerica is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_comerica_official",
+          "url": "https://www.comerica.com/",
+          "title": "Comerica official website",
+          "publisher": "Comerica",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_stifel",
+      "name": "Stifel",
+      "slug": "stifel",
+      "entity_type": "Organization",
+      "description": "Stifel provides investment banking, brokerage, research and wealth-management services.",
+      "website": "https://www.stifel.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_stifel_identity_stifel",
+          "field": "identity",
+          "value": "Stifel",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_description_stifel-provides-investment-banking-brokerage-res",
+          "field": "description",
+          "value": "Stifel provides investment banking, brokerage, research and wealth-management services.",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_website_https-www-stifel-com",
+          "field": "website",
+          "value": "https://www.stifel.com/",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_stifel_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Stifel is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_stifel_official",
+          "url": "https://www.stifel.com/",
+          "title": "Stifel official website",
+          "publisher": "Stifel",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_deutsche_bank",
+      "name": "Deutsche Bank",
+      "slug": "deutsche-bank",
+      "entity_type": "Organization",
+      "description": "Deutsche Bank provides corporate banking, investment banking, private banking and asset-management services.",
+      "website": "https://www.db.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Investment Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_deutsche-bank_identity_deutsche-bank",
+          "field": "identity",
+          "value": "Deutsche Bank",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_description_deutsche-bank-provides-corporate-banking-investm",
+          "field": "description",
+          "value": "Deutsche Bank provides corporate banking, investment banking, private banking and asset-management services.",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_website_https-www-db-com",
+          "field": "website",
+          "value": "https://www.db.com/",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_deutsche-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Deutsche Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_deutsche-bank_official",
+          "url": "https://www.db.com/",
+          "title": "Deutsche Bank official website",
+          "publisher": "Deutsche Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_bny",
+      "name": "BNY",
+      "slug": "bny",
+      "entity_type": "Organization",
+      "description": "BNY provides asset servicing, custody, clearing, issuer and treasury services to institutions.",
+      "website": "https://www.bny.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks",
+        "Wealth Management"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "Bank of New York Mellon",
+        "BNY Mellon"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_bny_identity_bny",
+          "field": "identity",
+          "value": "BNY",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_description_bny-provides-asset-servicing-custody-clearing-is",
+          "field": "description",
+          "value": "BNY provides asset servicing, custody, clearing, issuer and treasury services to institutions.",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_website_https-www-bny-com",
+          "field": "website",
+          "value": "https://www.bny.com/",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_categories_wealth-management",
+          "field": "categories",
+          "value": "Wealth Management",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_aliases_bank-of-new-york-mellon",
+          "field": "aliases",
+          "value": "Bank of New York Mellon",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_bny_aliases_bny-mellon",
+          "field": "aliases",
+          "value": "BNY Mellon",
+          "source_ids": [
+            "src_bny_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "BNY is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_bny_official",
+          "url": "https://www.bny.com/",
+          "title": "BNY official website",
+          "publisher": "BNY",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_leader_bank",
+      "name": "Leader Bank",
+      "slug": "leader-bank",
+      "entity_type": "Organization",
+      "description": "Leader Bank provides commercial, residential and consumer banking services.",
+      "website": "https://www.leaderbank.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_leader-bank_identity_leader-bank",
+          "field": "identity",
+          "value": "Leader Bank",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_description_leader-bank-provides-commercial-residential-and-",
+          "field": "description",
+          "value": "Leader Bank provides commercial, residential and consumer banking services.",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_website_https-www-leaderbank-com",
+          "field": "website",
+          "value": "https://www.leaderbank.com/",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_leader-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Leader Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_leader-bank_official",
+          "url": "https://www.leaderbank.com/",
+          "title": "Leader Bank official website",
+          "publisher": "Leader Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "banks"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_brighttower",
+      "name": "BrightTower",
+      "slug": "brighttower",
+      "entity_type": "Organization",
+      "description": "BrightTower advises technology companies on mergers, acquisitions and capital transactions.",
+      "website": "https://www.brighttower.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_brighttower_identity_brighttower",
+          "field": "identity",
+          "value": "BrightTower",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_description_brighttower-advises-technology-companies-on-merg",
+          "field": "description",
+          "value": "BrightTower advises technology companies on mergers, acquisitions and capital transactions.",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_website_https-www-brighttower-com",
+          "field": "website",
+          "value": "https://www.brighttower.com/",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_categories_m-a-advisors",
+          "field": "categories",
+          "value": "M&A Advisors",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_brighttower_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "BrightTower is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_brighttower_official",
+          "url": "https://www.brighttower.com/",
+          "title": "BrightTower official website",
+          "publisher": "BrightTower",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_intrepid_investment_bankers",
+      "name": "Intrepid Investment Bankers",
+      "slug": "intrepid-investment-bankers",
+      "entity_type": "Organization",
+      "description": "Intrepid Investment Bankers provides mergers-and-acquisitions and capital advisory services to middle-market companies.",
+      "website": "https://intrepidib.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_intrepid-investment-bankers_identity_intrepid-investment-bankers",
+          "field": "identity",
+          "value": "Intrepid Investment Bankers",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_description_intrepid-investment-bankers-provides-mergers-and",
+          "field": "description",
+          "value": "Intrepid Investment Bankers provides mergers-and-acquisitions and capital advisory services to middle-market companies.",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_website_https-intrepidib-com",
+          "field": "website",
+          "value": "https://intrepidib.com/",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_categories_m-a-advisors",
+          "field": "categories",
+          "value": "M&A Advisors",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Intrepid Investment Bankers is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_intrepid-investment-bankers_official",
+          "url": "https://intrepidib.com/",
+          "title": "Intrepid Investment Bankers official website",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_capital_ip_investment_partners",
+      "name": "Capital IP Investment Partners",
+      "slug": "capital-ip-investment-partners",
+      "entity_type": "Organization",
+      "description": "Capital IP Investment Partners provides investment and transaction services to technology companies and investors.",
+      "website": "https://capitalip.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Venture Capital",
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": "One canonical record covers both supplied category references.",
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_capital-ip-investment-partners_identity_capital-ip-investment-partners",
+          "field": "identity",
+          "value": "Capital IP Investment Partners",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_description_capital-ip-investment-partners-provides-investme",
+          "field": "description",
+          "value": "Capital IP Investment Partners provides investment and transaction services to technology companies and investors.",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_website_https-capitalip-com",
+          "field": "website",
+          "value": "https://capitalip.com/",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_categories_venture-capital",
+          "field": "categories",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_categories_m-a-advisors",
+          "field": "categories",
+          "value": "M&A Advisors",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_relationship-notes_one-canonical-record-covers-both-supplied-catego",
+          "field": "relationship_notes",
+          "value": "One canonical record covers both supplied category references.",
+          "source_ids": [
+            "src_capital-ip-investment-partners_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Capital IP Investment Partners is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_capital-ip-investment-partners_official",
+          "url": "https://capitalip.com/",
+          "title": "Capital IP Investment Partners official website",
+          "publisher": "Capital IP Investment Partners",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "relationship_notes"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital",
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_indian_hills_advisors",
+      "name": "Indian Hills Advisors",
+      "slug": "indian-hills-advisors",
+      "entity_type": "Organization",
+      "description": "Indian Hills Advisors provides mergers-and-acquisitions and strategic advisory services.",
+      "website": "https://indianhillsadvisors.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "M&A Advisors",
+        "Investment Banks"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_indian-hills-advisors_identity_indian-hills-advisors",
+          "field": "identity",
+          "value": "Indian Hills Advisors",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_description_indian-hills-advisors-provides-mergers-and-acqui",
+          "field": "description",
+          "value": "Indian Hills Advisors provides mergers-and-acquisitions and strategic advisory services.",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_website_https-indianhillsadvisors-com",
+          "field": "website",
+          "value": "https://indianhillsadvisors.com/",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_categories_m-a-advisors",
+          "field": "categories",
+          "value": "M&A Advisors",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_indian-hills-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Indian Hills Advisors is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_indian-hills-advisors_official",
+          "url": "https://indianhillsadvisors.com/",
+          "title": "Indian Hills Advisors official website",
+          "publisher": "Indian Hills Advisors",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "m-a-advisors",
+        "investment-banks"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

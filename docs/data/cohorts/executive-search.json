@@ -1,0 +1,1169 @@
+{
+  "dataset_version": "0.7.0",
+  "calculated_at": "2026-08-11",
+  "cohort_id": "executive-search",
+  "entity_ids": [
+    "ent_korn_ferry",
+    "ent_russell_reynolds_associates",
+    "ent_heidrick_struggles",
+    "ent_spencer_stuart",
+    "ent_zrg",
+    "ent_robert_half",
+    "ent_findem",
+    "ent_optimhire"
+  ],
+  "entities": [
+    {
+      "id": "ent_korn_ferry",
+      "name": "Korn Ferry",
+      "slug": "korn-ferry",
+      "entity_type": "executive search firm",
+      "description": "Organizational consulting firm providing executive search, leadership, talent, and workforce services.",
+      "website": "https://www.kornferry.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Consulting",
+        "Board Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "New York",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search and leadership advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_korn_ferry",
+          "url": "https://www.kornferry.com/capabilities/talent-acquisition/executive-search",
+          "title": "Executive Search",
+          "publisher": "Korn Ferry",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.kornferry.com/capabilities/talent-acquisition/executive-search",
+          "title": "Korn Ferry Executive Search",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_korn-ferry_description_organizational-consulting-firm-providing-executi",
+          "field": "description",
+          "value": "Organizational consulting firm providing executive search, leadership, talent, and workforce services.",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_korn-ferry_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_korn_ferry"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_russell_reynolds_associates",
+      "name": "Russell Reynolds Associates",
+      "slug": "russell-reynolds-associates",
+      "entity_type": "executive search firm",
+      "description": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
+      "website": "https://www.russellreynolds.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Boston",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search, succession, and board advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_rra",
+          "url": "https://www.russellreynolds.com/en/capabilities",
+          "title": "Capabilities",
+          "publisher": "Russell Reynolds Associates",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.russellreynolds.com/en/capabilities",
+          "title": "Russell Reynolds Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_russell-reynolds-associates_description_leadership-advisory-firm-providing-executive-sea",
+          "field": "description",
+          "value": "Leadership advisory firm providing executive search, succession, assessment, and board services.",
+          "source_ids": [
+            "src_rra"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_heidrick_struggles",
+      "name": "Heidrick & Struggles",
+      "slug": "heidrick-struggles",
+      "entity_type": "executive search firm",
+      "description": "Leadership advisory firm providing executive search, leadership assessment, and consulting services.",
+      "website": "https://www.heidrick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Consulting",
+        "Board Advisory"
+      ],
+      "geographies": [
+        "United States",
+        "Chicago",
+        "New York",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search and leadership consulting services"
+      ],
+      "sources": [
+        {
+          "id": "src_heidrick",
+          "url": "https://www.heidrick.com/en/services/executive-search",
+          "title": "Executive Search",
+          "publisher": "Heidrick & Struggles",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.heidrick.com/en/services/executive-search",
+          "title": "Heidrick & Struggles Executive Search",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_heidrick-struggles_description_leadership-advisory-firm-providing-executive-sea",
+          "field": "description",
+          "value": "Leadership advisory firm providing executive search, leadership assessment, and consulting services.",
+          "source_ids": [
+            "src_heidrick"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_spencer_stuart",
+      "name": "Spencer Stuart",
+      "slug": "spencer-stuart",
+      "aliases": [],
+      "entity_type": "executive search firm",
+      "description": "Executive search and leadership advisory firm serving senior executives and boards.",
+      "website": "https://www.spencerstuart.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CMO",
+        "CISO",
+        "CIO",
+        "CTO",
+        "COO",
+        "CHRO",
+        "CLO",
+        "General Counsel",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "subcategories": [
+        "CEO Search",
+        "CFO Search",
+        "Board Search",
+        "Leadership Assessment",
+        "Succession Planning"
+      ],
+      "industries": [
+        "Professional Services"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Boston",
+        "Chicago",
+        "London",
+        "Singapore"
+      ],
+      "services": [
+        "executive search",
+        "board advisory",
+        "leadership advisory",
+        "succession planning"
+      ],
+      "inclusion_basis": [
+        "provides documented executive search and board advisory services"
+      ],
+      "sources": [
+        {
+          "id": "src_spencer_services",
+          "url": "https://www.spencerstuart.com/what-we-do",
+          "title": "What We Do",
+          "publisher": "Spencer Stuart",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "services",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "corporate-governance"
+      ],
+      "audiences": [
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.spencerstuart.com/what-we-do",
+          "title": "Spencer Stuart Services",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_spencer-stuart_description_executive-search-and-leadership-advisory-firm-se",
+          "field": "description",
+          "value": "Executive search and leadership advisory firm serving senior executives and boards.",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_executive-search",
+          "field": "services",
+          "value": "executive search",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_board-advisory",
+          "field": "services",
+          "value": "board advisory",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_leadership-advisory",
+          "field": "services",
+          "value": "leadership advisory",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_services_succession-planning",
+          "field": "services",
+          "value": "succession planning",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_spencer-stuart_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_spencer_services"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_zrg",
+      "name": "ZRG",
+      "slug": "zrg",
+      "entity_type": "Organization",
+      "description": "ZRG provides executive search, interim talent and leadership advisory services.",
+      "website": "https://www.zrgpartners.com/",
+      "cxo_roles": [
+        "CEO",
+        "CHRO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Consulting"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [
+        "ZRG Partners"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_zrg_identity_zrg",
+          "field": "identity",
+          "value": "ZRG",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_description_zrg-provides-executive-search-interim-talent-and",
+          "field": "description",
+          "value": "ZRG provides executive search, interim talent and leadership advisory services.",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_website_https-www-zrgpartners-com",
+          "field": "website",
+          "value": "https://www.zrgpartners.com/",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_aliases_zrg-partners",
+          "field": "aliases",
+          "value": "ZRG Partners",
+          "source_ids": [
+            "src_zrg_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "ZRG is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_zrg_official",
+          "url": "https://www.zrgpartners.com/",
+          "title": "ZRG official website",
+          "publisher": "ZRG",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_robert_half",
+      "name": "Robert Half",
+      "slug": "robert-half",
+      "entity_type": "Organization",
+      "description": "Robert Half provides professional staffing, recruiting and consulting services, including finance and technology talent.",
+      "website": "https://www.roberthalf.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CHRO"
+      ],
+      "categories": [
+        "Recruiting",
+        "Consulting"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_robert-half_identity_robert-half",
+          "field": "identity",
+          "value": "Robert Half",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_description_robert-half-provides-professional-staffing-recru",
+          "field": "description",
+          "value": "Robert Half provides professional staffing, recruiting and consulting services, including finance and technology talent.",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_website_https-www-roberthalf-com",
+          "field": "website",
+          "value": "https://www.roberthalf.com/",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_robert-half_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Robert Half is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_robert-half_official",
+          "url": "https://www.roberthalf.com/",
+          "title": "Robert Half official website",
+          "publisher": "Robert Half",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "recruiting",
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_findem",
+      "name": "Findem",
+      "slug": "findem",
+      "entity_type": "Organization",
+      "description": "Findem provides talent-sourcing and recruiting software using company and people data.",
+      "website": "https://www.findem.ai/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Recruiting",
+        "Artificial Intelligence"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_findem_identity_findem",
+          "field": "identity",
+          "value": "Findem",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_description_findem-provides-talent-sourcing-and-recruiting-s",
+          "field": "description",
+          "value": "Findem provides talent-sourcing and recruiting software using company and people data.",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_website_https-www-findem-ai",
+          "field": "website",
+          "value": "https://www.findem.ai/",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_findem_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Findem is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_findem_official",
+          "url": "https://www.findem.ai/",
+          "title": "Findem official website",
+          "publisher": "Findem",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "hr-technology",
+        "recruiting",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_optimhire",
+      "name": "OptimHire",
+      "slug": "optimhire",
+      "entity_type": "Organization",
+      "description": "OptimHire operates a recruiting platform connecting employers with technology talent.",
+      "website": "https://optimhire.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CTO"
+      ],
+      "categories": [
+        "Recruiting",
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_optimhire_identity_optimhire",
+          "field": "identity",
+          "value": "OptimHire",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_description_optimhire-operates-a-recruiting-platform-connect",
+          "field": "description",
+          "value": "OptimHire operates a recruiting platform connecting employers with technology talent.",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_website_https-optimhire-com",
+          "field": "website",
+          "value": "https://optimhire.com/",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_optimhire_official"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "OptimHire is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_optimhire_official",
+          "url": "https://optimhire.com/",
+          "title": "OptimHire official website",
+          "publisher": "OptimHire",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "provider_types": [
+        "recruiting",
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    }
+  ]
+}

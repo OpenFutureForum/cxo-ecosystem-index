@@ -3,7 +3,7 @@ export const SOURCE_SCHEMA_VERSION='1.0.0';
 export const RELATIONSHIP_SCHEMA_VERSION='1.0.0';
 export const SUPPORTED_CURRENCIES=new Set(['USD','EUR','GBP','CAD','CHF','JPY','AUD','SGD']);
 export const RELATIONSHIP_TYPES=new Set(['parent_of','subsidiary_of','has_division','division_of','acquired','acquired_by','funded_by','invested_in','integrates_with','partner_of','member_of','advised_by','sponsor_of']);
-export const INVERSE_RELATIONSHIPS={parent_of:'subsidiary_of',subsidiary_of:'parent_of',has_division:'division_of',division_of:'has_division',acquired:'acquired_by',acquired_by:'acquired',funded_by:'invested_in',invested_in:'funded_by'};
+export const INVERSE_RELATIONSHIPS={parent_of:'subsidiary_of',subsidiary_of:'parent_of',has_division:'division_of',division_of:'has_division',acquired:'acquired_by',acquired_by:'acquired',funded_by:'invested_in',invested_in:'funded_by',integrates_with:'integrates_with',partner_of:'partner_of'};
 const PRIMARY_CLASSES=new Set(['official company','official organization','government','regulatory','investor relations']);
 const sourceType=value=>({'official company':'official-company','official organization':'official-company','government':'government','regulatory':'regulatory','investor relations':'investor-relations'}[value]||value?.replaceAll(' ','-')||'other');
 
@@ -18,7 +18,7 @@ export function buildKnowledgeGraph(entities,relationships,sources){
  for(const relation of relationships){if(!ids.has(relation.subject_entity_id))errors.push(`${relation.id}: unknown subject`);if(!ids.has(relation.object_entity_id))errors.push(`${relation.id}: unknown object`);if(!RELATIONSHIP_TYPES.has(relation.predicate))errors.push(`${relation.id}: unsupported predicate ${relation.predicate}`);for(const id of relation.source_ids||[])if(!sourceIds.has(id))errors.push(`${relation.id}: unknown source ${id}`);}
  if(errors.length)throw new Error(errors.join('\n'));
  const reciprocal=relationships.flatMap(relation=>{const inverse=INVERSE_RELATIONSHIPS[relation.predicate];return inverse?[{...relation,id:`${relation.id}__inverse`,subject_entity_id:relation.object_entity_id,predicate:inverse,object_entity_id:relation.subject_entity_id,derived_reciprocal:true,source_relationship_id:relation.id}]:[];});
- return {schema_version:RELATIONSHIP_SCHEMA_VERSION,dataset_version:'0.6.1',generated_at:'2026-08-11',sourced_relationship_count:relationships.length,derived_reciprocal_count:reciprocal.length,relationships:[...relationships,...reciprocal]};
+ return {schema_version:RELATIONSHIP_SCHEMA_VERSION,dataset_version:'0.7.0',generated_at:'2026-08-11',sourced_relationship_count:relationships.length,derived_reciprocal_count:reciprocal.length,relationships:[...relationships,...reciprocal]};
 }
 
 export function factDisplay(fact){
