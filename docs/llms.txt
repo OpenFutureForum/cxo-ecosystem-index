@@ -1,15 +1,17 @@
 # CXO Ecosystem Index
 
-Independent structured index maintained by Open Future Forum. Inclusion does not imply endorsement.
+Independent structured index and reproducible intelligence layer maintained by Open Future Forum. Inclusion does not imply endorsement.
 
-Maps: CXO roles; organizations; provider types; communities and networks; membership formats; event formats; research and benchmarks; decision resources; executive needs; leadership topics; and geographies.
+Maps: CXO roles; organizations; provider types; communities and networks; event formats; research; market maps; structured comparisons; benchmarks; executive needs; leadership topics; and industries.
 
 Canonical resources:
 - Entities: https://openfutureforum.github.io/cxo-ecosystem-index/data/entities.json
-- Taxonomy: https://openfutureforum.github.io/cxo-ecosystem-index/data/taxonomy.json
-- Statistics: https://openfutureforum.github.io/cxo-ecosystem-index/data/statistics.json
-- v0.5.0 report: https://openfutureforum.github.io/cxo-ecosystem-index/v050-report.html
+- Intelligence: https://openfutureforum.github.io/cxo-ecosystem-index/data/intelligence.json
+- Market maps: https://openfutureforum.github.io/cxo-ecosystem-index/data/market-maps.json
+- Comparisons: https://openfutureforum.github.io/cxo-ecosystem-index/data/comparisons.json
+- Benchmarks: https://openfutureforum.github.io/cxo-ecosystem-index/data/benchmarks.json
+- Data quality: https://openfutureforum.github.io/cxo-ecosystem-index/data/data-quality.json
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Entity associations require evidence. Filter combinations are not canonical pages. Coverage is representative at dataset version 0.5.0.
+Derived statistics expose known and unknown counts, denominators, field definitions, methods, dataset version, calculation date, and source fields. Coverage is representative at dataset version 0.6.0.

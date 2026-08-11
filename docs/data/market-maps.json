@@ -1,0 +1,918 @@
+[
+  {
+    "id": "cfo-technology",
+    "title": "CFO Technology Market Map",
+    "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 18,
+    "known_count": 16,
+    "unknown_count": 2,
+    "coverage": 0.8889,
+    "buckets": [
+      {
+        "id": "spend-management",
+        "name": "Spend Management",
+        "count": 4,
+        "share": 0.2222,
+        "entity_ids": [
+          "ent_coupa",
+          "ent_ramp",
+          "ent_brex",
+          "ent_bill"
+        ]
+      },
+      {
+        "id": "ap-payments",
+        "name": "AP & Payments",
+        "count": 1,
+        "share": 0.0556,
+        "entity_ids": [
+          "ent_bill"
+        ]
+      },
+      {
+        "id": "accounting-erp-close",
+        "name": "Accounting, ERP & Close",
+        "count": 7,
+        "share": 0.3889,
+        "entity_ids": [
+          "ent_puzzle",
+          "ent_vic_ai",
+          "ent_blackline",
+          "ent_rillet",
+          "ent_zenskar",
+          "ent_xero",
+          "ent_finrep"
+        ]
+      },
+      {
+        "id": "treasury-cash-ar",
+        "name": "Treasury, Cash & AR",
+        "count": 1,
+        "share": 0.0556,
+        "entity_ids": [
+          "ent_tesorio"
+        ]
+      },
+      {
+        "id": "tax",
+        "name": "Tax",
+        "count": 1,
+        "share": 0.0556,
+        "entity_ids": [
+          "ent_anrok"
+        ]
+      },
+      {
+        "id": "equity-private-markets",
+        "name": "Equity & Private Markets",
+        "count": 2,
+        "share": 0.1111,
+        "entity_ids": [
+          "ent_carta",
+          "ent_pulley"
+        ]
+      },
+      {
+        "id": "finance-ai",
+        "name": "Finance AI",
+        "count": 3,
+        "share": 0.1667,
+        "entity_ids": [
+          "ent_vic_ai",
+          "ent_zeni",
+          "ent_finrep"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_coupa",
+      "ent_puzzle",
+      "ent_tesorio",
+      "ent_vic_ai",
+      "ent_ramp",
+      "ent_brex",
+      "ent_anrok",
+      "ent_blackline",
+      "ent_pilot",
+      "ent_rillet",
+      "ent_zenskar",
+      "ent_bill",
+      "ent_carta",
+      "ent_zeni",
+      "ent_xero",
+      "ent_pulley",
+      "ent_paygentic",
+      "ent_finrep"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "ai-security",
+    "title": "AI Security Market Map",
+    "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 11,
+    "known_count": 9,
+    "unknown_count": 2,
+    "coverage": 0.8182,
+    "buckets": [
+      {
+        "id": "agent-identity-permissions",
+        "name": "Agent Identity & Permissions",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_agentic_fabriq"
+        ]
+      },
+      {
+        "id": "ai-governance-ciso-operations",
+        "name": "AI Governance & CISO Operations",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_axari_technologies_inc"
+        ]
+      },
+      {
+        "id": "agent-runtime-security",
+        "name": "Agent Runtime Security",
+        "count": 2,
+        "share": 0.1818,
+        "entity_ids": [
+          "ent_harden",
+          "ent_tenet_security"
+        ]
+      },
+      {
+        "id": "ai-application-security",
+        "name": "AI Application Security",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_harden"
+        ]
+      },
+      {
+        "id": "ai-email-security",
+        "name": "AI Email Security",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_aegisai"
+        ]
+      },
+      {
+        "id": "ai-exposure-governance",
+        "name": "AI Exposure & Governance",
+        "count": 4,
+        "share": 0.3636,
+        "entity_ids": [
+          "ent_adaptive_security",
+          "ent_witnessai",
+          "ent_axari_technologies_inc",
+          "ent_harden"
+        ]
+      },
+      {
+        "id": "security-operations-mdr",
+        "name": "Security Operations & MDR",
+        "count": 2,
+        "share": 0.1818,
+        "entity_ids": [
+          "ent_airmdr",
+          "ent_axari_technologies_inc"
+        ]
+      },
+      {
+        "id": "synthetic-media-security",
+        "name": "Synthetic Media Security",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_resemble_ai"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_adaptive_security",
+      "ent_witnessai",
+      "ent_airmdr",
+      "ent_resemble_ai",
+      "ent_agentic_fabriq",
+      "ent_axari_technologies_inc",
+      "ent_harden",
+      "ent_tenet_security",
+      "ent_aegisai",
+      "ent_counterrun_ai",
+      "ent_atomic_zero"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "executive-communities",
+    "title": "Executive Communities Market Map",
+    "definition": "Membership, peer and founder organizations classified as Executive Communities.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 11,
+    "known_count": 10,
+    "unknown_count": 1,
+    "coverage": 0.9091,
+    "buckets": [
+      {
+        "id": "ceo-peer-advisory",
+        "name": "CEO Peer Advisory",
+        "count": 4,
+        "share": 0.3636,
+        "entity_ids": [
+          "ent_vistage",
+          "ent_entrepreneurs_organization",
+          "ent_open_future_forum",
+          "ent_young_presidents_organization"
+        ]
+      },
+      {
+        "id": "founder-networks",
+        "name": "Founder Networks",
+        "count": 5,
+        "share": 0.4545,
+        "entity_ids": [
+          "ent_entrepreneurs_organization",
+          "ent_open_future_forum",
+          "ent_young_entrepreneur_council",
+          "ent_hacker_dojo",
+          "ent_open_batch"
+        ]
+      },
+      {
+        "id": "functional-executive-communities",
+        "name": "Functional Executive Communities",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_open_future_forum"
+        ]
+      },
+      {
+        "id": "private-capital-m-a-communities",
+        "name": "Private Capital & M&A Communities",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_association_for_corporate_growth"
+        ]
+      },
+      {
+        "id": "women-executive-networks",
+        "name": "Women Executive Networks",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_chief"
+        ]
+      },
+      {
+        "id": "future-of-work-people-leadership",
+        "name": "Future of Work & People Leadership",
+        "count": 2,
+        "share": 0.1818,
+        "entity_ids": [
+          "ent_chief",
+          "ent_transform"
+        ]
+      },
+      {
+        "id": "curated-multi-cxo-communities",
+        "name": "Curated Multi-CXO Communities",
+        "count": 1,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_open_future_forum"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_vistage",
+      "ent_entrepreneurs_organization",
+      "ent_pavilion",
+      "ent_open_future_forum",
+      "ent_chief",
+      "ent_young_presidents_organization",
+      "ent_association_for_corporate_growth",
+      "ent_young_entrepreneur_council",
+      "ent_hacker_dojo",
+      "ent_transform",
+      "ent_open_batch"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "executive-search",
+    "title": "Executive Search Market Map",
+    "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 8,
+    "known_count": 8,
+    "unknown_count": 0,
+    "coverage": 1,
+    "buckets": [
+      {
+        "id": "retained-executive-search",
+        "name": "Retained Executive Search",
+        "count": 5,
+        "share": 0.625,
+        "entity_ids": [
+          "ent_korn_ferry",
+          "ent_russell_reynolds_associates",
+          "ent_heidrick_struggles",
+          "ent_spencer_stuart",
+          "ent_zrg"
+        ]
+      },
+      {
+        "id": "technology-enabled-talent-intelligence",
+        "name": "Technology-Enabled Talent Intelligence",
+        "count": 2,
+        "share": 0.25,
+        "entity_ids": [
+          "ent_findem",
+          "ent_optimhire"
+        ]
+      },
+      {
+        "id": "staffing-professional-talent",
+        "name": "Staffing & Professional Talent",
+        "count": 1,
+        "share": 0.125,
+        "entity_ids": [
+          "ent_robert_half"
+        ]
+      },
+      {
+        "id": "board-search",
+        "name": "Board Search",
+        "count": 4,
+        "share": 0.5,
+        "entity_ids": [
+          "ent_korn_ferry",
+          "ent_russell_reynolds_associates",
+          "ent_heidrick_struggles",
+          "ent_spencer_stuart"
+        ]
+      },
+      {
+        "id": "leadership-assessment-succession",
+        "name": "Leadership Assessment & Succession",
+        "count": 3,
+        "share": 0.375,
+        "entity_ids": [
+          "ent_russell_reynolds_associates",
+          "ent_heidrick_struggles",
+          "ent_spencer_stuart"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_korn_ferry",
+      "ent_russell_reynolds_associates",
+      "ent_heidrick_struggles",
+      "ent_spencer_stuart",
+      "ent_zrg",
+      "ent_robert_half",
+      "ent_findem",
+      "ent_optimhire"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "technology-law-firms",
+    "title": "Technology Law Firm Landscape",
+    "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 9,
+    "known_count": 7,
+    "unknown_count": 2,
+    "coverage": 0.7778,
+    "buckets": [
+      {
+        "id": "venture-startup",
+        "name": "Venture & Startup",
+        "count": 3,
+        "share": 0.3333,
+        "entity_ids": [
+          "ent_wilson_sonsini",
+          "ent_fenwick_west",
+          "ent_cooley"
+        ]
+      },
+      {
+        "id": "m-a",
+        "name": "M&A",
+        "count": 2,
+        "share": 0.2222,
+        "entity_ids": [
+          "ent_cooley",
+          "ent_foley_lardner"
+        ]
+      },
+      {
+        "id": "technology-transactions",
+        "name": "Technology Transactions",
+        "count": 5,
+        "share": 0.5556,
+        "entity_ids": [
+          "ent_wilson_sonsini",
+          "ent_fenwick_west",
+          "ent_cooley",
+          "ent_simmons_simmons",
+          "ent_orrick"
+        ]
+      },
+      {
+        "id": "governance",
+        "name": "Governance",
+        "count": 4,
+        "share": 0.4444,
+        "entity_ids": [
+          "ent_wilson_sonsini",
+          "ent_fenwick_west",
+          "ent_latham_watkins",
+          "ent_cooley"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_wilson_sonsini",
+      "ent_fenwick_west",
+      "ent_latham_watkins",
+      "ent_cooley",
+      "ent_foley_lardner",
+      "ent_dla_piper",
+      "ent_simmons_simmons",
+      "ent_orrick",
+      "ent_oguz_law"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "banking-capital",
+    "title": "Banking & Capital Ecosystem Map",
+    "definition": "Banks and investment banks organized by documented business capabilities.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 22,
+    "known_count": 22,
+    "unknown_count": 0,
+    "coverage": 1,
+    "buckets": [
+      {
+        "id": "commercial-banking",
+        "name": "Commercial Banking",
+        "count": 9,
+        "share": 0.4091,
+        "entity_ids": [
+          "ent_bank_of_america",
+          "ent_hsbc",
+          "ent_jpmorgan",
+          "ent_first_citizens_bank",
+          "ent_silicon_valley_bank",
+          "ent_wells_fargo",
+          "ent_bmo",
+          "ent_comerica",
+          "ent_leader_bank"
+        ]
+      },
+      {
+        "id": "venture-startup-banking",
+        "name": "Venture & Startup Banking",
+        "count": 2,
+        "share": 0.0909,
+        "entity_ids": [
+          "ent_silicon_valley_bank",
+          "ent_capital_ip_investment_partners"
+        ]
+      },
+      {
+        "id": "technology-banking",
+        "name": "Technology Banking",
+        "count": 3,
+        "share": 0.1364,
+        "entity_ids": [
+          "ent_jpmorgan",
+          "ent_brighttower",
+          "ent_capital_ip_investment_partners"
+        ]
+      },
+      {
+        "id": "treasury-payments",
+        "name": "Treasury & Payments",
+        "count": 4,
+        "share": 0.1818,
+        "entity_ids": [
+          "ent_bank_of_america",
+          "ent_jpmorgan",
+          "ent_comerica",
+          "ent_bny"
+        ]
+      },
+      {
+        "id": "investment-banking",
+        "name": "Investment Banking",
+        "count": 16,
+        "share": 0.7273,
+        "entity_ids": [
+          "ent_bank_of_america",
+          "ent_citi",
+          "ent_hsbc",
+          "ent_evercore",
+          "ent_lazard",
+          "ent_houlihan_lokey",
+          "ent_jpmorgan",
+          "ent_wells_fargo",
+          "ent_bmo",
+          "ent_morgan_stanley",
+          "ent_stifel",
+          "ent_deutsche_bank",
+          "ent_brighttower",
+          "ent_intrepid_investment_bankers",
+          "ent_capital_ip_investment_partners",
+          "ent_indian_hills_advisors"
+        ]
+      },
+      {
+        "id": "private-banking-wealth",
+        "name": "Private Banking & Wealth",
+        "count": 14,
+        "share": 0.6364,
+        "entity_ids": [
+          "ent_bank_of_america",
+          "ent_citi",
+          "ent_hsbc",
+          "ent_lazard",
+          "ent_jpmorgan",
+          "ent_first_citizens_bank",
+          "ent_wells_fargo",
+          "ent_citizens_private_bank",
+          "ent_bmo",
+          "ent_morgan_stanley",
+          "ent_comerica",
+          "ent_stifel",
+          "ent_deutsche_bank",
+          "ent_bny"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_bank_of_america",
+      "ent_citi",
+      "ent_hsbc",
+      "ent_evercore",
+      "ent_lazard",
+      "ent_houlihan_lokey",
+      "ent_jpmorgan",
+      "ent_first_citizens_bank",
+      "ent_silicon_valley_bank",
+      "ent_wells_fargo",
+      "ent_citizens_private_bank",
+      "ent_bmo",
+      "ent_morgan_stanley",
+      "ent_comerica",
+      "ent_stifel",
+      "ent_deutsche_bank",
+      "ent_bny",
+      "ent_leader_bank",
+      "ent_brighttower",
+      "ent_intrepid_investment_bankers",
+      "ent_capital_ip_investment_partners",
+      "ent_indian_hills_advisors"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "chro-technology",
+    "title": "CHRO Technology Market Map",
+    "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 10,
+    "known_count": 9,
+    "unknown_count": 1,
+    "coverage": 0.9,
+    "buckets": [
+      {
+        "id": "hris-workforce-management",
+        "name": "HRIS & Workforce Management",
+        "count": 2,
+        "share": 0.2,
+        "entity_ids": [
+          "ent_rippling",
+          "ent_transform"
+        ]
+      },
+      {
+        "id": "payroll",
+        "name": "Payroll",
+        "count": 5,
+        "share": 0.5,
+        "entity_ids": [
+          "ent_escalon",
+          "ent_rippling",
+          "ent_deel",
+          "ent_trinet",
+          "ent_insperity"
+        ]
+      },
+      {
+        "id": "peo",
+        "name": "PEO",
+        "count": 3,
+        "share": 0.3,
+        "entity_ids": [
+          "ent_findem",
+          "ent_lattice",
+          "ent_transform"
+        ]
+      },
+      {
+        "id": "recruiting-talent-intelligence",
+        "name": "Recruiting & Talent Intelligence",
+        "count": 2,
+        "share": 0.2,
+        "entity_ids": [
+          "ent_findem",
+          "ent_optimhire"
+        ]
+      },
+      {
+        "id": "benefits",
+        "name": "Benefits",
+        "count": 3,
+        "share": 0.3,
+        "entity_ids": [
+          "ent_rippling",
+          "ent_trinet",
+          "ent_insperity"
+        ]
+      },
+      {
+        "id": "hr-ai",
+        "name": "HR AI",
+        "count": 1,
+        "share": 0.1,
+        "entity_ids": [
+          "ent_findem"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_escalon",
+      "ent_findem",
+      "ent_rippling",
+      "ent_deel",
+      "ent_lattice",
+      "ent_trinet",
+      "ent_insperity",
+      "ent_15five",
+      "ent_optimhire",
+      "ent_transform"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  },
+  {
+    "id": "enterprise-ai",
+    "title": "Enterprise AI Market Map",
+    "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
+    "dataset_version": "0.6.0",
+    "calculated_at": "2026-08-11",
+    "total_entities": 43,
+    "known_count": 35,
+    "unknown_count": 8,
+    "coverage": 0.814,
+    "buckets": [
+      {
+        "id": "compute-ai-infrastructure",
+        "name": "Compute & AI Infrastructure",
+        "count": 1,
+        "share": 0.0233,
+        "entity_ids": [
+          "ent_intel"
+        ]
+      },
+      {
+        "id": "data-ai-platforms",
+        "name": "Data & AI Platforms",
+        "count": 3,
+        "share": 0.0698,
+        "entity_ids": [
+          "ent_adobe",
+          "ent_databricks",
+          "ent_qognitive"
+        ]
+      },
+      {
+        "id": "enterprise-ai-platforms",
+        "name": "Enterprise AI Platforms",
+        "count": 22,
+        "share": 0.5116,
+        "entity_ids": [
+          "ent_oracle",
+          "ent_sap",
+          "ent_salesforce",
+          "ent_adobe",
+          "ent_crowdstrike",
+          "ent_palo_alto_networks",
+          "ent_capgemini",
+          "ent_slalom",
+          "ent_cognizant",
+          "ent_microsoft",
+          "ent_nvidia",
+          "ent_intel",
+          "ent_databricks",
+          "ent_writer",
+          "ent_glean",
+          "ent_servicenow",
+          "ent_centific",
+          "ent_gumloop",
+          "ent_applitools",
+          "ent_contextqa",
+          "ent_herculesai",
+          "ent_code_conductor"
+        ]
+      },
+      {
+        "id": "agent-platforms",
+        "name": "Agent Platforms",
+        "count": 6,
+        "share": 0.1395,
+        "entity_ids": [
+          "ent_thinkingai",
+          "ent_axari_technologies_inc",
+          "ent_agentrys",
+          "ent_agentweb",
+          "ent_everything_ai",
+          "ent_velixar_ai"
+        ]
+      },
+      {
+        "id": "enterprise-search-knowledge",
+        "name": "Enterprise Search & Knowledge",
+        "count": 2,
+        "share": 0.0465,
+        "entity_ids": [
+          "ent_glean",
+          "ent_you_com"
+        ]
+      },
+      {
+        "id": "automation",
+        "name": "Automation",
+        "count": 1,
+        "share": 0.0233,
+        "entity_ids": [
+          "ent_thinkingai"
+        ]
+      },
+      {
+        "id": "domain-specific-ai",
+        "name": "Domain-Specific AI",
+        "count": 16,
+        "share": 0.3721,
+        "entity_ids": [
+          "ent_oracle",
+          "ent_sap",
+          "ent_salesforce",
+          "ent_adobe",
+          "ent_crowdstrike",
+          "ent_palo_alto_networks",
+          "ent_harvey",
+          "ent_capgemini",
+          "ent_zeni",
+          "ent_microsoft",
+          "ent_witnessai",
+          "ent_resemble_ai",
+          "ent_agentic_fabriq",
+          "ent_axari_technologies_inc",
+          "ent_agentrys",
+          "ent_agentweb"
+        ]
+      },
+      {
+        "id": "semiconductor-engineering-ai",
+        "name": "Semiconductor & Engineering AI",
+        "count": 1,
+        "share": 0.0233,
+        "entity_ids": [
+          "ent_agentrys"
+        ]
+      }
+    ],
+    "entity_ids": [
+      "ent_oracle",
+      "ent_sap",
+      "ent_salesforce",
+      "ent_adobe",
+      "ent_crowdstrike",
+      "ent_palo_alto_networks",
+      "ent_harvey",
+      "ent_capgemini",
+      "ent_slalom",
+      "ent_cognizant",
+      "ent_findem",
+      "ent_vic_ai",
+      "ent_zeni",
+      "ent_microsoft",
+      "ent_nvidia",
+      "ent_intel",
+      "ent_databricks",
+      "ent_writer",
+      "ent_scale_ai",
+      "ent_glean",
+      "ent_servicenow",
+      "ent_centific",
+      "ent_you_com",
+      "ent_granica",
+      "ent_gumloop",
+      "ent_compose_ai",
+      "ent_applitools",
+      "ent_witnessai",
+      "ent_resemble_ai",
+      "ent_finrep",
+      "ent_thinkingai",
+      "ent_qognitive",
+      "ent_contextqa",
+      "ent_herculesai",
+      "ent_atlas_cloud_ai",
+      "ent_agentic_fabriq",
+      "ent_axari_technologies_inc",
+      "ent_agentrys",
+      "ent_agentweb",
+      "ent_code_conductor",
+      "ent_everything_ai",
+      "ent_xtrace",
+      "ent_velixar_ai"
+    ],
+    "source_fields": [
+      "categories",
+      "subcategories",
+      "products",
+      "services",
+      "description",
+      "cxo_roles"
+    ]
+  }
+]

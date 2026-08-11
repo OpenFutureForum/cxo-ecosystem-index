@@ -1,5 +1,6 @@
 import {load,readJSON} from './lib.mjs';
 await readJSON('data/entity.schema.json');
+await readJSON('data/intelligence.schema.json');
 const {entities,taxonomy,semantic,classifications}=await load();
 const errors=[];
 const seen={id:new Set(),slug:new Set(),name:new Set()};

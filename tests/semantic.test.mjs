@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {load,root} from '../scripts/lib.mjs';
+import {buildIntelligence} from '../scripts/intelligence.mjs';
 const {entities,semantic}=await load();
 const find=id=>entities.find(entity=>entity.id===id);
 
@@ -35,7 +36,7 @@ test('generated JSON-LD and internal sitemap targets are valid',async()=>{
 test('canonical browse pages enforce the indexability gate',async()=>{
  const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');
  for(const [folder,field] of [['providers','provider_types'],['formats','community_formats']]){
-  const files=(await fs.readdir(path.join(root,'docs',folder))).filter(file=>file.endsWith('.html'));
+  const files=(await fs.readdir(path.join(root,'docs',folder))).filter(file=>file.endsWith('.html')&&file!=='index.html');
   assert.ok(files.length>0,`${folder} pages were not generated`);
   for(const file of files){
    const id=file.replace(/\.html$/,'');
@@ -44,6 +45,22 @@ test('canonical browse pages enforce the indexability gate',async()=>{
    assert.ok(sitemap.includes(`${folder}/${file}`),`${folder}/${file} missing from sitemap`);
   }
  }
+});
+
+test('derived intelligence is reproducible and preserves unknown values',async()=>{
+ const generated=JSON.parse(await fs.readFile(path.join(root,'docs/data/intelligence.json'),'utf8'));
+ assert.deepEqual(generated,buildIntelligence(entities));
+ assert.equal(generated.dataset_version,'0.6.0');
+ assert.equal(generated.market_maps.length,8);
+ assert.equal(generated.comparisons.length,6);
+ assert.ok(generated.benchmarks.length>=5);
+ assert.deepEqual(generated.comparisons.map(item=>item.entity_ids.length),[4,6,5,5,6,7]);
+ const entityIds=new Set(entities.map(entity=>entity.id));
+ for(const map of generated.market_maps){assert.ok(map.calculated_at);for(const id of map.entity_ids)assert.ok(entityIds.has(id));for(const bucket of map.buckets)for(const id of bucket.entity_ids)assert.ok(entityIds.has(id));}
+ for(const comparison of generated.comparisons){for(const id of comparison.entity_ids)assert.ok(entityIds.has(id));for(const dimension of comparison.dimensions)for(const id of comparison.entity_ids)assert.ok(Object.hasOwn(dimension.values,id));}
+ for(const benchmark of generated.benchmarks)for(const item of benchmark.metrics||[]){assert.equal(item.known_count+item.unknown_count,item.known_count+item.unknown_count);assert.ok(item.denominator===item.known_count);if(item.coverage<.6)assert.ok(item.notes);}
+ const age=generated.benchmarks.find(item=>item.id==='company-age');assert.equal(age.status,'insufficient coverage');assert.ok(age.unknown_count>age.known_count);
+ const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');for(const map of generated.market_maps)assert.ok(sitemap.includes(`intelligence/${map.id}.html`));for(const comparison of generated.comparisons)assert.ok(sitemap.includes(`intelligence/compare-${comparison.comparison_id}.html`));
 });
 
 test('supplied organization expansion is fully reconciled',async()=>{

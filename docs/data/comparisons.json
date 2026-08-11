@@ -1,0 +1,989 @@
+[
+  {
+    "comparison_id": "cfo-spend-platforms",
+    "title": "CFO Spend & Finance Platforms",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_ramp",
+      "ent_brex",
+      "ent_coupa",
+      "ent_bill"
+    ],
+    "dimensions": [
+      {
+        "id": "provider-categories",
+        "label": "Provider categories",
+        "fact_field": "categories",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": [
+            "CFO Technology",
+            "Spend Management",
+            "Fintech"
+          ],
+          "ent_brex": [
+            "CFO Technology",
+            "Spend Management",
+            "Fintech"
+          ],
+          "ent_coupa": [
+            "CFO Technology",
+            "Spend Management",
+            "Enterprise Technology"
+          ],
+          "ent_bill": [
+            "CFO Technology",
+            "Spend Management",
+            "Payments"
+          ]
+        }
+      },
+      {
+        "id": "cxo-audience",
+        "label": "CXO audience",
+        "fact_field": "cxo_roles",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": [
+            "CFO"
+          ],
+          "ent_brex": [
+            "CFO"
+          ],
+          "ent_coupa": [
+            "CFO",
+            "COO"
+          ],
+          "ent_bill": [
+            "CFO"
+          ]
+        }
+      },
+      {
+        "id": "spend-management",
+        "label": "Spend management",
+        "fact_field": "spend management",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Verified",
+          "ent_brex": "Verified",
+          "ent_coupa": "Verified",
+          "ent_bill": "Verified"
+        }
+      },
+      {
+        "id": "corporate-cards",
+        "label": "Corporate cards",
+        "fact_field": "corporate card",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Verified",
+          "ent_brex": "Verified",
+          "ent_coupa": "Not verified",
+          "ent_bill": "Not verified"
+        }
+      },
+      {
+        "id": "ap-automation",
+        "label": "AP automation",
+        "fact_field": "accounts payable",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Not verified",
+          "ent_brex": "Not verified",
+          "ent_coupa": "Not verified",
+          "ent_bill": "Not verified"
+        }
+      },
+      {
+        "id": "procurement",
+        "label": "Procurement",
+        "fact_field": "procurement",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Not verified",
+          "ent_brex": "Not verified",
+          "ent_coupa": "Verified",
+          "ent_bill": "Not verified"
+        }
+      },
+      {
+        "id": "payments",
+        "label": "Payments",
+        "fact_field": "payments",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Not verified",
+          "ent_brex": "Not verified",
+          "ent_coupa": "Not verified",
+          "ent_bill": "Verified"
+        }
+      },
+      {
+        "id": "ai-capability",
+        "label": "AI capability",
+        "fact_field": "artificial intelligence",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_ramp": "Not verified",
+          "ent_brex": "Not verified",
+          "ent_coupa": "Not verified",
+          "ent_bill": "Not verified"
+        }
+      }
+    ]
+  },
+  {
+    "comparison_id": "accounting-close-systems",
+    "title": "Accounting, Close & Finance Systems",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_blackline",
+      "ent_puzzle",
+      "ent_rillet",
+      "ent_xero",
+      "ent_intuit",
+      "ent_pilot"
+    ],
+    "dimensions": [
+      {
+        "id": "provider-categories",
+        "label": "Provider categories",
+        "fact_field": "categories",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": [
+            "CFO Technology",
+            "Accounting Software"
+          ],
+          "ent_puzzle": [
+            "CFO Technology",
+            "Accounting Software"
+          ],
+          "ent_rillet": [
+            "CFO Technology",
+            "Accounting Software"
+          ],
+          "ent_xero": [
+            "Accounting Software",
+            "CFO Technology"
+          ],
+          "ent_intuit": [
+            "Accounting Software",
+            "Tax Technology",
+            "Fintech"
+          ],
+          "ent_pilot": [
+            "Accounting",
+            "Finance Advisory",
+            "CFO Technology"
+          ]
+        }
+      },
+      {
+        "id": "accounting-system",
+        "label": "Accounting system",
+        "fact_field": "accounting",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Verified",
+          "ent_puzzle": "Verified",
+          "ent_rillet": "Verified",
+          "ent_xero": "Verified",
+          "ent_intuit": "Verified",
+          "ent_pilot": "Verified"
+        }
+      },
+      {
+        "id": "financial-close",
+        "label": "Financial close",
+        "fact_field": "close",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Verified",
+          "ent_puzzle": "Not verified",
+          "ent_rillet": "Not verified",
+          "ent_xero": "Not verified",
+          "ent_intuit": "Not verified",
+          "ent_pilot": "Not verified"
+        }
+      },
+      {
+        "id": "bookkeeping-service",
+        "label": "Bookkeeping service",
+        "fact_field": "bookkeeping",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Not verified",
+          "ent_puzzle": "Not verified",
+          "ent_rillet": "Not verified",
+          "ent_xero": "Not verified",
+          "ent_intuit": "Not verified",
+          "ent_pilot": "Verified"
+        }
+      },
+      {
+        "id": "erp",
+        "label": "ERP",
+        "fact_field": "enterprise-resource-planning",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Not verified",
+          "ent_puzzle": "Not verified",
+          "ent_rillet": "Verified",
+          "ent_xero": "Not verified",
+          "ent_intuit": "Not verified",
+          "ent_pilot": "Not verified"
+        }
+      },
+      {
+        "id": "automation",
+        "label": "Automation",
+        "fact_field": "automation",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Verified",
+          "ent_puzzle": "Not verified",
+          "ent_rillet": "Not verified",
+          "ent_xero": "Not verified",
+          "ent_intuit": "Not verified",
+          "ent_pilot": "Not verified"
+        }
+      },
+      {
+        "id": "ai-capability",
+        "label": "AI capability",
+        "fact_field": "artificial intelligence",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_blackline": "Not verified",
+          "ent_puzzle": "Not verified",
+          "ent_rillet": "Not verified",
+          "ent_xero": "Not verified",
+          "ent_intuit": "Not verified",
+          "ent_pilot": "Not verified"
+        }
+      }
+    ]
+  },
+  {
+    "comparison_id": "executive-communities",
+    "title": "Executive Communities",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_vistage",
+      "ent_young_presidents_organization",
+      "ent_entrepreneurs_organization",
+      "ent_chief",
+      "ent_open_future_forum"
+    ],
+    "dimensions": [
+      {
+        "id": "cxo-audience",
+        "label": "CXO audience",
+        "fact_field": "cxo_roles",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": [
+            "CEO"
+          ],
+          "ent_young_presidents_organization": [
+            "CEO"
+          ],
+          "ent_entrepreneurs_organization": [
+            "CEO"
+          ],
+          "ent_chief": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CISO",
+            "CIO",
+            "CTO",
+            "COO",
+            "CHRO",
+            "CLO",
+            "General Counsel",
+            "Board"
+          ],
+          "ent_open_future_forum": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CISO",
+            "CTO",
+            "Board"
+          ]
+        }
+      },
+      {
+        "id": "community-formats",
+        "label": "Community formats",
+        "fact_field": "community_formats",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": [
+            "peer-network",
+            "peer-group",
+            "membership-organization"
+          ],
+          "ent_young_presidents_organization": [
+            "executive-community",
+            "peer-network",
+            "peer-group",
+            "membership-organization"
+          ],
+          "ent_entrepreneurs_organization": [
+            "executive-community",
+            "peer-network",
+            "peer-group",
+            "membership-organization"
+          ],
+          "ent_chief": [
+            "executive-community",
+            "executive-network",
+            "membership-organization"
+          ],
+          "ent_open_future_forum": [
+            "executive-community",
+            "executive-network",
+            "peer-group",
+            "executive-forum",
+            "executive-board"
+          ]
+        }
+      },
+      {
+        "id": "application-required",
+        "label": "Application required",
+        "fact_field": "application_required",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": "Not verified",
+          "ent_young_presidents_organization": "Verified",
+          "ent_entrepreneurs_organization": "Not verified",
+          "ent_chief": "Verified",
+          "ent_open_future_forum": "Verified"
+        }
+      },
+      {
+        "id": "invite-only-components",
+        "label": "Invite-only components",
+        "fact_field": "invite_only",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": "Not verified",
+          "ent_young_presidents_organization": "Not verified",
+          "ent_entrepreneurs_organization": "Not verified",
+          "ent_chief": "Not verified",
+          "ent_open_future_forum": "Verified"
+        }
+      },
+      {
+        "id": "peer-groups",
+        "label": "Peer groups",
+        "fact_field": "peer group",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": "Not verified",
+          "ent_young_presidents_organization": "Verified",
+          "ent_entrepreneurs_organization": "Not verified",
+          "ent_chief": "Not verified",
+          "ent_open_future_forum": "Verified"
+        }
+      },
+      {
+        "id": "private-events",
+        "label": "Private events",
+        "fact_field": "private",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": "Not verified",
+          "ent_young_presidents_organization": "Not verified",
+          "ent_entrepreneurs_organization": "Not verified",
+          "ent_chief": "Verified",
+          "ent_open_future_forum": "Verified"
+        }
+      },
+      {
+        "id": "research",
+        "label": "Research",
+        "fact_field": "research",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": "Not verified",
+          "ent_young_presidents_organization": "Not verified",
+          "ent_entrepreneurs_organization": "Not verified",
+          "ent_chief": "Not verified",
+          "ent_open_future_forum": "Verified"
+        }
+      },
+      {
+        "id": "geography",
+        "label": "Geography",
+        "fact_field": "geographies",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_vistage": [
+            "United States"
+          ],
+          "ent_young_presidents_organization": [
+            "United States"
+          ],
+          "ent_entrepreneurs_organization": [
+            "United States"
+          ],
+          "ent_chief": [
+            "United States",
+            "New York"
+          ],
+          "ent_open_future_forum": [
+            "United States",
+            "Silicon Valley",
+            "San Francisco Bay Area"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "comparison_id": "executive-search-firms",
+    "title": "Executive Search Firms",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_korn_ferry",
+      "ent_spencer_stuart",
+      "ent_russell_reynolds_associates",
+      "ent_heidrick_struggles",
+      "ent_zrg"
+    ],
+    "dimensions": [
+      {
+        "id": "cxo-audience",
+        "label": "CXO audience",
+        "fact_field": "cxo_roles",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CISO",
+            "CIO",
+            "CTO",
+            "COO",
+            "CHRO",
+            "CLO",
+            "Board"
+          ],
+          "ent_spencer_stuart": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CISO",
+            "CIO",
+            "CTO",
+            "COO",
+            "CHRO",
+            "CLO",
+            "General Counsel",
+            "Board"
+          ],
+          "ent_russell_reynolds_associates": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CIO",
+            "CTO",
+            "COO",
+            "CHRO",
+            "CLO",
+            "Board"
+          ],
+          "ent_heidrick_struggles": [
+            "CEO",
+            "CFO",
+            "CMO",
+            "CIO",
+            "CTO",
+            "COO",
+            "CHRO",
+            "CLO",
+            "Board"
+          ],
+          "ent_zrg": [
+            "CEO",
+            "CHRO",
+            "Board"
+          ]
+        }
+      },
+      {
+        "id": "provider-categories",
+        "label": "Provider categories",
+        "fact_field": "categories",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": [
+            "Executive Search",
+            "Consulting",
+            "Board Advisory"
+          ],
+          "ent_spencer_stuart": [
+            "Executive Search",
+            "Board Advisory"
+          ],
+          "ent_russell_reynolds_associates": [
+            "Executive Search",
+            "Board Advisory"
+          ],
+          "ent_heidrick_struggles": [
+            "Executive Search",
+            "Consulting",
+            "Board Advisory"
+          ],
+          "ent_zrg": [
+            "Executive Search",
+            "Consulting"
+          ]
+        }
+      },
+      {
+        "id": "board-search",
+        "label": "Board search",
+        "fact_field": "board",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": "Verified",
+          "ent_spencer_stuart": "Verified",
+          "ent_russell_reynolds_associates": "Verified",
+          "ent_heidrick_struggles": "Verified",
+          "ent_zrg": "Not verified"
+        }
+      },
+      {
+        "id": "private-equity-talent",
+        "label": "Private equity talent",
+        "fact_field": "private equity",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": "Not verified",
+          "ent_spencer_stuart": "Not verified",
+          "ent_russell_reynolds_associates": "Not verified",
+          "ent_heidrick_struggles": "Not verified",
+          "ent_zrg": "Not verified"
+        }
+      },
+      {
+        "id": "succession",
+        "label": "Succession",
+        "fact_field": "succession",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": "Not verified",
+          "ent_spencer_stuart": "Verified",
+          "ent_russell_reynolds_associates": "Verified",
+          "ent_heidrick_struggles": "Not verified",
+          "ent_zrg": "Not verified"
+        }
+      },
+      {
+        "id": "leadership-assessment",
+        "label": "Leadership assessment",
+        "fact_field": "leadership assessment",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": "Not verified",
+          "ent_spencer_stuart": "Verified",
+          "ent_russell_reynolds_associates": "Not verified",
+          "ent_heidrick_struggles": "Verified",
+          "ent_zrg": "Not verified"
+        }
+      },
+      {
+        "id": "geography",
+        "label": "Geography",
+        "fact_field": "geographies",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_korn_ferry": [
+            "United States",
+            "Los Angeles",
+            "New York",
+            "London",
+            "Singapore"
+          ],
+          "ent_spencer_stuart": [
+            "United States",
+            "New York",
+            "Boston",
+            "Chicago",
+            "London",
+            "Singapore"
+          ],
+          "ent_russell_reynolds_associates": [
+            "United States",
+            "New York",
+            "Boston",
+            "San Francisco Bay Area",
+            "London",
+            "Singapore"
+          ],
+          "ent_heidrick_struggles": [
+            "United States",
+            "Chicago",
+            "New York",
+            "San Francisco Bay Area",
+            "London",
+            "Singapore"
+          ],
+          "ent_zrg": [
+            "United States"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "comparison_id": "technology-law-firms",
+    "title": "Technology Law Firms",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_wilson_sonsini",
+      "ent_cooley",
+      "ent_fenwick_west",
+      "ent_foley_lardner",
+      "ent_orrick",
+      "ent_dla_piper"
+    ],
+    "dimensions": [
+      {
+        "id": "provider-categories",
+        "label": "Provider categories",
+        "fact_field": "categories",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": [
+            "Law Firms"
+          ],
+          "ent_cooley": [
+            "Law Firms"
+          ],
+          "ent_fenwick_west": [
+            "Law Firms"
+          ],
+          "ent_foley_lardner": [
+            "Law Firms"
+          ],
+          "ent_orrick": [
+            "Law Firms"
+          ],
+          "ent_dla_piper": [
+            "Law Firms"
+          ]
+        }
+      },
+      {
+        "id": "startup-venture",
+        "label": "Startup & venture",
+        "fact_field": "venture",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Verified",
+          "ent_cooley": "Verified",
+          "ent_fenwick_west": "Verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Not verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "private-equity",
+        "label": "Private equity",
+        "fact_field": "private equity",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Not verified",
+          "ent_cooley": "Not verified",
+          "ent_fenwick_west": "Not verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Not verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "m-a",
+        "label": "M&A",
+        "fact_field": "m&a",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Not verified",
+          "ent_cooley": "Verified",
+          "ent_fenwick_west": "Not verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Not verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "ai",
+        "label": "AI",
+        "fact_field": "artificial intelligence",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Not verified",
+          "ent_cooley": "Not verified",
+          "ent_fenwick_west": "Not verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Not verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "cybersecurity-privacy",
+        "label": "Cybersecurity & privacy",
+        "fact_field": "privacy",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Not verified",
+          "ent_cooley": "Not verified",
+          "ent_fenwick_west": "Not verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Not verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "technology-transactions",
+        "label": "Technology transactions",
+        "fact_field": "technology",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": "Verified",
+          "ent_cooley": "Verified",
+          "ent_fenwick_west": "Verified",
+          "ent_foley_lardner": "Not verified",
+          "ent_orrick": "Verified",
+          "ent_dla_piper": "Not verified"
+        }
+      },
+      {
+        "id": "geography",
+        "label": "Geography",
+        "fact_field": "geographies",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_wilson_sonsini": [
+            "United States",
+            "Silicon Valley",
+            "San Francisco Bay Area",
+            "New York",
+            "Boston",
+            "London"
+          ],
+          "ent_cooley": [
+            "United States",
+            "Silicon Valley",
+            "San Francisco Bay Area",
+            "New York",
+            "Boston",
+            "London"
+          ],
+          "ent_fenwick_west": [
+            "United States",
+            "Silicon Valley",
+            "San Francisco Bay Area",
+            "New York"
+          ],
+          "ent_foley_lardner": [
+            "United States"
+          ],
+          "ent_orrick": [
+            "United States"
+          ],
+          "ent_dla_piper": [
+            "United States"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "comparison_id": "technology-venture-banking",
+    "title": "Technology & Venture Banking",
+    "dataset_version": "0.6.0",
+    "generated_at": "2026-08-11",
+    "entity_ids": [
+      "ent_silicon_valley_bank",
+      "ent_first_citizens_bank",
+      "ent_comerica",
+      "ent_stifel",
+      "ent_bmo",
+      "ent_wells_fargo",
+      "ent_citizens_private_bank"
+    ],
+    "dimensions": [
+      {
+        "id": "provider-categories",
+        "label": "Provider categories",
+        "fact_field": "categories",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": [
+            "Banks"
+          ],
+          "ent_first_citizens_bank": [
+            "Banks",
+            "Wealth Management"
+          ],
+          "ent_comerica": [
+            "Banks",
+            "Wealth Management"
+          ],
+          "ent_stifel": [
+            "Investment Banks",
+            "Wealth Management"
+          ],
+          "ent_bmo": [
+            "Banks",
+            "Investment Banks",
+            "Wealth Management"
+          ],
+          "ent_wells_fargo": [
+            "Banks",
+            "Investment Banks",
+            "Wealth Management"
+          ],
+          "ent_citizens_private_bank": [
+            "Banks",
+            "Wealth Management"
+          ]
+        }
+      },
+      {
+        "id": "startup-banking",
+        "label": "Startup banking",
+        "fact_field": "startup",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Not verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Not verified"
+        }
+      },
+      {
+        "id": "venture-backed-focus",
+        "label": "Venture-backed focus",
+        "fact_field": "venture",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Not verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Not verified"
+        }
+      },
+      {
+        "id": "technology-banking",
+        "label": "Technology banking",
+        "fact_field": "technology",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Not verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Not verified"
+        }
+      },
+      {
+        "id": "treasury",
+        "label": "Treasury",
+        "fact_field": "treasury",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Not verified"
+        }
+      },
+      {
+        "id": "credit-lending",
+        "label": "Credit & lending",
+        "fact_field": "lending",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Not verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Verified"
+        }
+      },
+      {
+        "id": "private-banking",
+        "label": "Private banking",
+        "fact_field": "private banking",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": "Not verified",
+          "ent_first_citizens_bank": "Not verified",
+          "ent_comerica": "Not verified",
+          "ent_stifel": "Not verified",
+          "ent_bmo": "Not verified",
+          "ent_wells_fargo": "Not verified",
+          "ent_citizens_private_bank": "Not verified"
+        }
+      },
+      {
+        "id": "geography",
+        "label": "Geography",
+        "fact_field": "geographies",
+        "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
+        "values": {
+          "ent_silicon_valley_bank": [
+            "United States"
+          ],
+          "ent_first_citizens_bank": [
+            "United States"
+          ],
+          "ent_comerica": [
+            "United States"
+          ],
+          "ent_stifel": [
+            "United States"
+          ],
+          "ent_bmo": [
+            "United States"
+          ],
+          "ent_wells_fargo": [
+            "United States"
+          ],
+          "ent_citizens_private_bank": [
+            "United States"
+          ]
+        }
+      }
+    ]
+  }
+]

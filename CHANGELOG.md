@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.0 — 2026-08-11 — Intelligence Layer
+
+- Added a reproducible derived-intelligence engine with explicit dataset version, calculation date, denominators, unknown counts, field definitions, methods, and source fields.
+- Added eight substantial market maps, six structured comparison sets, and six coverage-aware dataset benchmarks.
+- Added first-class Intelligence, Providers, Industries, and public Data Quality discovery hubs.
+- Added machine-readable intelligence, market-map, comparison, benchmark, and data-quality JSON exports.
+- Added derived-data tests for reproducibility, unknown handling, denominator integrity, entity references, versions, and approved sitemap routes.
+- Updated homepage and navigation to foreground data plus intelligence without creating arbitrary filter pages.
+
 ## 0.5.0 — 2026-08-11 — Fact Depth & Entity Resolution
 
 - Resolved all 18 former unresolved names against their intended canonical organizations and primary domains.
