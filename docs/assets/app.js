@@ -1,3 +1,18 @@
-const cards=[...document.querySelectorAll('.card')],inputs=[...document.querySelectorAll('.filters input,.filters select')],count=document.querySelector('#result-count');
-function apply(){const q=document.querySelector('#search').value.toLowerCase(),cxo=document.querySelector('#cxo').value,cat=document.querySelector('#cat').value,geo=document.querySelector('#geo').value;let n=0;for(const card of cards){const hay=card.textContent.toLowerCase(),show=(!q||hay.includes(q))&&(!cxo||card.dataset.cxo.split('|').includes(cxo))&&(!cat||card.dataset.cat.split('|').includes(cat))&&(!geo||card.dataset.geo.split('|').includes(geo));card.hidden=!show;if(show)n++}count.textContent=`${n} organization${n===1?'':'s'} shown`}
-inputs.forEach(i=>i.addEventListener('input',apply));apply();
+const cards=[...document.querySelectorAll('.card[data-name]')];
+const controls=[...document.querySelectorAll('.filters input,.filters select')];
+const count=document.querySelector('#result-count');
+const values=id=>document.querySelector(`#${id}`)?.value||'';
+const contains=(card,key,value)=>!value||(card.dataset[key]||'').split('|').includes(value);
+function apply(){
+ const query=values('search').toLowerCase();
+ const selected={cxo:values('cxo'),provider:values('provider'),format:values('format'),topic:values('topic'),need:values('need'),geo:values('geo')};
+ let visible=0;
+ for(const card of cards){
+  const matches=(!query||card.textContent.toLowerCase().includes(query))&&Object.entries(selected).every(([key,value])=>contains(card,key,value));
+  card.hidden=!matches;
+  if(matches)visible++;
+ }
+ count.textContent=`${visible} organization${visible===1?'':'s'} shown`;
+}
+controls.forEach(control=>control.addEventListener('input',apply));
+apply();

@@ -1,0 +1,93 @@
+{
+  "community_formats":[
+    {"id":"executive-community","label":"Executive Community","definition":"An ongoing organized network designed to facilitate relationships, knowledge sharing, or collaboration among senior executives."},
+    {"id":"executive-network","label":"Executive Network","definition":"An organized network connecting senior executives across recurring interactions or shared professional interests."},
+    {"id":"peer-network","label":"Peer Network","definition":"A network primarily composed of professionals holding comparable seniority or responsibilities."},
+    {"id":"peer-group","label":"Peer Group","definition":"A recurring, facilitated group of peers who exchange experience around shared responsibilities."},
+    {"id":"membership-organization","label":"Membership Organization","definition":"An organization providing ongoing access, programming, or services through a defined membership model."},
+    {"id":"executive-forum","label":"Executive Forum","definition":"A recurring setting for structured discussion among senior leaders."},
+    {"id":"executive-board","label":"Executive Board","definition":"A structured group of executives convened for advice, peer exchange, or governance-oriented discussion."}
+  ],
+  "event_formats":[
+    {"id":"executive-event","label":"Executive Event","definition":"A time-bounded gathering primarily intended for senior business leaders."},
+    {"id":"conference","label":"Conference","definition":"A multi-session event organized around presentations, discussion, and professional exchange."},
+    {"id":"executive-summit","label":"Executive Summit","definition":"A structured leadership event centered on strategic discussion, presentations, panels, or facilitated exchange."},
+    {"id":"executive-dinner","label":"Executive Dinner","definition":"A curated meal-based gathering primarily designed for executive conversation and relationship-building."},
+    {"id":"private-dinner","label":"Private Dinner","definition":"A non-public meal-based gathering with controlled participation."},
+    {"id":"roundtable","label":"Roundtable","definition":"A facilitated discussion in which participants contribute around a defined issue."},
+    {"id":"networking-event","label":"Networking Event","definition":"A time-bounded gathering designed primarily to create professional connections."},
+    {"id":"panel","label":"Panel","definition":"A moderated event in which multiple speakers discuss a defined topic."},
+    {"id":"fireside-chat","label":"Fireside Chat","definition":"An interview-style conversation between a moderator and one or more featured speakers."},
+    {"id":"workshop","label":"Workshop","definition":"A participatory session designed to develop knowledge or produce a practical output."},
+    {"id":"retreat","label":"Retreat","definition":"An extended gathering away from normal operations for reflection, planning, or peer exchange."}
+  ],
+  "intelligence_types":[
+    {"id":"executive-research","label":"Executive Research","definition":"Research focused on senior executives, executive decisions, or leadership organizations."},
+    {"id":"research-report","label":"Research Report","definition":"A published document presenting a defined research question, evidence, and findings."},
+    {"id":"first-party-research","label":"First-Party Research","definition":"Research based on data collected directly by the publishing organization."},
+    {"id":"survey","label":"Survey","definition":"Structured data collected through questions administered to a defined population."},
+    {"id":"qualitative-research","label":"Qualitative Research","definition":"Research using interviews, observations, or other non-numeric evidence to identify themes and explanations."},
+    {"id":"benchmark","label":"Benchmark","definition":"Structured comparative data used to show patterns or relative performance."},
+    {"id":"market-map","label":"Market Map","definition":"A categorized representation of organizations or products in a defined market."},
+    {"id":"index","label":"Index","definition":"A structured factual collection of entities meeting published inclusion criteria."},
+    {"id":"editorial-commentary","label":"Editorial Commentary","definition":"Analysis or opinion that is distinct from original empirical research."}
+  ],
+  "resource_types":[
+    {"id":"framework","label":"Framework","definition":"A structured model for understanding or making decisions about a defined issue."},
+    {"id":"playbook","label":"Playbook","definition":"A practical sequence of principles, actions, or templates for a recurring task."},
+    {"id":"toolkit","label":"Toolkit","definition":"A collection of practical tools intended for use in a defined workflow."},
+    {"id":"guide","label":"Guide","definition":"An educational resource explaining a defined subject or decision."},
+    {"id":"checklist","label":"Checklist","definition":"A structured list used to confirm required actions, evidence, or conditions."},
+    {"id":"maturity-model","label":"Maturity Model","definition":"A model describing progressive levels of capability or adoption."},
+    {"id":"decision-framework","label":"Decision Framework","definition":"A repeatable structure for evaluating alternatives and evidence."},
+    {"id":"operating-model","label":"Operating Model","definition":"A description of how responsibilities, processes, systems, and governance work together."},
+    {"id":"roadmap","label":"Roadmap","definition":"A sequenced plan connecting current conditions to intended future capabilities."}
+  ],
+  "executive_needs":[
+    {"id":"executive-networking","label":"Executive Networking","definition":"Access to structured opportunities for professional relationship-building among executives."},
+    {"id":"peer-learning","label":"Peer Learning","definition":"Learning through the exchange of experience among people with comparable responsibilities."},
+    {"id":"leadership-development","label":"Leadership Development","definition":"Development of knowledge, judgment, and capabilities relevant to leadership roles."},
+    {"id":"strategic-insight","label":"Strategic Insight","definition":"Evidence or perspective intended to inform strategy."},
+    {"id":"decision-support","label":"Decision Support","definition":"Information, analysis, or structured processes that assist a decision without guaranteeing an outcome."},
+    {"id":"professional-development","label":"Professional Development","definition":"Structured learning intended to improve professional capability."},
+    {"id":"deal-flow","label":"Deal Flow","definition":"Access to potential investment or transaction opportunities."},
+    {"id":"fundraising","label":"Fundraising","definition":"Support or relationships relevant to raising capital."},
+    {"id":"portfolio-support","label":"Portfolio Support","definition":"Resources or assistance directed to companies held by an investment organization."},
+    {"id":"value-creation","label":"Value Creation","definition":"Activities intended to improve the performance or strategic position of an organization."},
+    {"id":"portfolio-operations","label":"Portfolio Operations","definition":"Operational work performed across investment portfolio companies."},
+    {"id":"governance","label":"Governance","definition":"Structures and processes used for oversight, accountability, and decision rights."},
+    {"id":"risk-management","label":"Risk Management","definition":"Identification, assessment, treatment, and monitoring of risk."},
+    {"id":"board-effectiveness","label":"Board Effectiveness","definition":"Practices intended to improve board oversight, deliberation, and accountability."}
+  ],
+  "topics":[
+    {"id":"artificial-intelligence","label":"Artificial Intelligence","definition":"Computing systems performing tasks associated with prediction, generation, reasoning, or decision support."},
+    {"id":"enterprise-ai","label":"Enterprise AI","definition":"AI systems deployed in organizational workflows, products, or decision processes."},
+    {"id":"ai-governance","label":"AI Governance","definition":"Responsibilities, policies, controls, and evidence used to direct and oversee AI systems."},
+    {"id":"cybersecurity","label":"Cybersecurity","definition":"Protection of information systems, identities, networks, applications, and data from digital threats."},
+    {"id":"identity","label":"Identity","definition":"Management and protection of digital identities, authentication, and access."},
+    {"id":"finance-transformation","label":"Finance Transformation","definition":"Material change to finance processes, systems, organization, or decision practices."},
+    {"id":"fpa","label":"FP&A","definition":"Financial planning and analysis, including budgeting, forecasting, and performance analysis."},
+    {"id":"capital-strategy","label":"Capital Strategy","definition":"Decisions about funding sources, capital structure, allocation, and liquidity."},
+    {"id":"growth","label":"Growth","definition":"Expansion of revenue, customers, products, markets, or organizational capacity."},
+    {"id":"go-to-market","label":"Go-to-Market","definition":"The coordinated approach used to reach, sell to, and serve target customers."},
+    {"id":"marketing","label":"Marketing","definition":"Activities used to understand markets, communicate value, and create demand."},
+    {"id":"attribution","label":"Attribution","definition":"Methods used to estimate how marketing interactions contribute to outcomes."},
+    {"id":"board-governance","label":"Board Governance","definition":"Board-level oversight, decision rights, accountability, and reporting."},
+    {"id":"portfolio-operations","label":"Portfolio Operations","definition":"Operating activities carried out across private-investment portfolio companies."},
+    {"id":"value-creation","label":"Value Creation","definition":"Strategic and operating activity intended to improve enterprise value."},
+    {"id":"venture-capital","label":"Venture Capital","definition":"Equity investment in privately held companies, commonly at early or growth stages."},
+    {"id":"corporate-venture-capital","label":"Corporate Venture Capital","definition":"Venture investment conducted by or on behalf of a corporation."},
+    {"id":"private-equity","label":"Private Equity","definition":"Private investment strategies involving ownership stakes in companies."},
+    {"id":"private-markets","label":"Private Markets","definition":"Investment markets for privately negotiated equity, credit, real assets, and related strategies."},
+    {"id":"emerging-technology","label":"Emerging Technology","definition":"Technologies in relatively early stages of commercial or institutional adoption."}
+  ],
+  "audiences":[
+    {"id":"private-equity-leaders","label":"Private Equity Leaders","definition":"Professionals leading investment or operating functions in private equity."},
+    {"id":"operating-partners","label":"Operating Partners","definition":"Private equity professionals focused primarily on portfolio-company performance, operations, transformation, or value creation."},
+    {"id":"venture-capital-investors","label":"Venture Capital Investors","definition":"Professionals investing venture capital in privately held companies."},
+    {"id":"corporate-venture-investors","label":"Corporate Venture Investors","definition":"Professionals making venture investments for corporations."},
+    {"id":"founders","label":"Founders","definition":"People who establish and build companies or organizations."},
+    {"id":"ai-leaders","label":"AI Leaders","definition":"Executives and senior operators responsible for AI strategy, development, governance, or adoption."},
+    {"id":"board-members","label":"Board Members","definition":"Directors serving on corporate, nonprofit, or advisory boards."}
+  ]
+}

@@ -1,6 +1,17 @@
 {
-  "version": "0.2.0",
-  "generated_at": "2026-08-11T17:53:49.463Z",
+  "schema_version": "2.0.0",
+  "dataset_version": "0.3.0",
+  "generated_at": "2026-08-11T18:07:16.850Z",
+  "dimensions": [
+    "provider_types",
+    "community_formats",
+    "event_formats",
+    "intelligence_types",
+    "resource_types",
+    "executive_needs",
+    "topics",
+    "audiences"
+  ],
   "entities": [
     {
       "id": "ent_vistage",
@@ -39,7 +50,36 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "executive-coaching"
+      ],
+      "community_formats": [
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "peer-learning",
+        "leadership-development",
+        "decision-support"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.vistage.com/membership/",
+          "title": "Vistage Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_entrepreneurs_organization",
@@ -81,7 +121,40 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://eonetwork.org/membership/",
+          "title": "EO Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_pavilion",
@@ -123,7 +196,45 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-communities",
+        "executive-education"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "executive-event",
+        "workshop"
+      ],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "professional-development"
+      ],
+      "topics": [
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.joinpavilion.com/membership",
+          "title": "Pavilion Membership",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_korn_ferry",
@@ -176,7 +287,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_russell_reynolds_associates",
@@ -227,7 +351,19 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_heidrick_struggles",
@@ -279,7 +415,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-search",
+        "consulting",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_wilson_sonsini",
@@ -332,7 +481,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_fenwick_west",
@@ -383,7 +543,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_latham_watkins",
@@ -435,7 +606,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_pwc",
@@ -487,7 +669,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "accounting",
+        "consulting",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_ey",
@@ -542,7 +737,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "accounting",
+        "consulting",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_kpmg",
@@ -594,7 +802,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "accounting",
+        "consulting",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_mckinsey",
@@ -644,7 +865,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_bcg",
@@ -697,7 +929,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_bain",
@@ -746,7 +989,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_bank_of_america",
@@ -792,7 +1046,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_citi",
@@ -839,7 +1106,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_hsbc",
@@ -883,7 +1163,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_evercore",
@@ -926,7 +1219,19 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_lazard",
@@ -970,7 +1275,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_houlihan_lokey",
@@ -1015,7 +1333,20 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_andreessen_horowitz",
@@ -1067,7 +1398,40 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://a16z.com/portfolio/",
+          "title": "a16z Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_accel",
@@ -1117,7 +1481,39 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.accel.com/companies",
+          "title": "Accel Companies",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_lightspeed",
@@ -1171,7 +1567,39 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://lsvp.com/portfolio/",
+          "title": "Lightspeed Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_kkr",
@@ -1223,7 +1651,41 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "private-equity",
+        "private-credit"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "operating-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.kkr.com/",
+          "title": "KKR",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_blackstone",
@@ -1272,7 +1734,41 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "private-equity",
+        "private-credit"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "operating-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.blackstone.com/our-businesses/",
+          "title": "Blackstone Businesses",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_silver_lake",
@@ -1322,7 +1818,37 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "private-equity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.silverlake.com/portfolio/",
+          "title": "Silver Lake Portfolio",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_oracle",
@@ -1370,7 +1896,35 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "risk-management"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.oracle.com/applications/",
+          "title": "Oracle Cloud Applications",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_sap",
@@ -1421,7 +1975,34 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.sap.com/products.html",
+          "title": "SAP Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_anaplan",
@@ -1468,7 +2049,32 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.anaplan.com/solutions/finance/",
+          "title": "Anaplan Finance Solutions",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_salesforce",
@@ -1516,7 +2122,35 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.salesforce.com/products/",
+          "title": "Salesforce Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_hubspot",
@@ -1563,7 +2197,33 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "go-to-market",
+        "marketing",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.hubspot.com/products",
+          "title": "HubSpot Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_adobe",
@@ -1612,7 +2272,35 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "marketing",
+        "attribution",
+        "growth"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://business.adobe.com/products/adobe-experience-cloud-products.html",
+          "title": "Adobe Experience Cloud Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_crowdstrike",
@@ -1660,7 +2348,35 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management"
+      ],
+      "topics": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.crowdstrike.com/platform/",
+          "title": "CrowdStrike Falcon Platform",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_zscaler",
@@ -1707,7 +2423,33 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management"
+      ],
+      "topics": [
+        "cybersecurity",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.zscaler.com/products-and-solutions",
+          "title": "Zscaler Products and Solutions",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_wiz",
@@ -1754,7 +2496,32 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management"
+      ],
+      "topics": [
+        "cybersecurity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.wiz.io/platform",
+          "title": "Wiz Platform",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_stanford_executive_education",
@@ -1805,7 +2572,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-education"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_wharton_executive_education",
@@ -1854,7 +2632,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-education"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_mit_sloan_executive_education",
@@ -1905,7 +2694,18 @@
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified"
+      "verification_status": "verified",
+      "provider_types": [
+        "executive-education"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_open_future_forum",
@@ -1975,7 +2775,90 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "executive-communities",
+        "research-firms"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "peer-group",
+        "executive-forum",
+        "executive-board"
+      ],
+      "event_formats": [
+        "executive-event",
+        "executive-dinner",
+        "private-dinner",
+        "roundtable",
+        "networking-event",
+        "panel",
+        "fireside-chat"
+      ],
+      "intelligence_types": [
+        "executive-research",
+        "research-report",
+        "first-party-research",
+        "survey",
+        "qualitative-research",
+        "benchmark"
+      ],
+      "resource_types": [
+        "guide",
+        "framework"
+      ],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "strategic-insight",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "cybersecurity",
+        "board-governance",
+        "private-equity",
+        "venture-capital"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "venture-capital-investors",
+        "corporate-venture-investors",
+        "founders",
+        "ai-leaders",
+        "board-members"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://openfutureforum.com/forum-select",
+          "title": "Forum Select",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "executive_needs"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/research/",
+          "title": "Open Future Forum Research",
+          "supports": [
+            "intelligence_types",
+            "topics"
+          ]
+        },
+        {
+          "url": "https://openfutureforum.com/about",
+          "title": "About Open Future Forum",
+          "supports": [
+            "audiences",
+            "community_formats"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_chief",
@@ -2033,7 +2916,36 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://chief.com/",
+          "title": "Chief",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_young_presidents_organization",
@@ -2084,7 +2996,37 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "executive-communities",
+        "corporate-membership-organizations"
+      ],
+      "community_formats": [
+        "executive-community",
+        "peer-network",
+        "peer-group",
+        "membership-organization"
+      ],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "leadership-development"
+      ],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ypo.org/membership/",
+          "title": "YPO Membership",
+          "supports": [
+            "community_formats",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_spencer_stuart",
@@ -2156,7 +3098,19 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_cooley",
@@ -2225,7 +3179,18 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_deloitte",
@@ -2305,7 +3270,20 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "accounting",
+        "consulting",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_jpmorgan",
@@ -2373,7 +3351,20 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "banks",
+        "investment-banks",
+        "wealth-management"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_sequoia_capital",
@@ -2434,7 +3425,40 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "deal-flow",
+        "fundraising",
+        "portfolio-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "venture-capital-investors",
+        "founders",
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.sequoiacap.com/companies/",
+          "title": "Sequoia Companies",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_thoma_bravo",
@@ -2493,7 +3517,40 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "private-equity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "portfolio-support",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "topics": [
+        "private-equity",
+        "private-markets",
+        "portfolio-operations",
+        "value-creation"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "operating-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.thomabravo.com/about",
+          "title": "About Thoma Bravo",
+          "supports": [
+            "topics",
+            "audiences",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_workday",
@@ -2554,7 +3611,18 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_palo_alto_networks",
@@ -2617,7 +3685,38 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "cybersecurity",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "cybersecurity",
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance",
+        "identity"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paloaltonetworks.com/products",
+          "title": "Palo Alto Networks Products",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_harvard_business_school_exec_ed",
@@ -2679,7 +3778,18 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "confidence": "high"
+      "confidence": "high",
+      "provider_types": [
+        "executive-education"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     }
   ]
 }

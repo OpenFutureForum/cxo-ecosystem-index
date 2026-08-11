@@ -30,4 +30,22 @@ The build validates canonical records, generates statistics and CSV/JSON exports
 - `data/exports/`: generated open datasets
 - `scripts/`: validation and deterministic site generation
 
+## What the Index Maps
+
+The CXO Ecosystem Index maps organizations across independent dimensions:
+
+- executive roles served
+- provider type
+- community and membership format
+- event format
+- research and intelligence
+- frameworks and decision resources
+- executive needs
+- leadership topics
+- geography
+
+These dimensions distinguish an ongoing community from a time-bounded event, original research from commentary, and an organization's type from the needs it addresses. Multi-category organizations retain one canonical entity record. Every controlled term has a stable ID and definition, and every entity-level association requires evidence.
+
+Arbitrary filter combinations remain application state. They do not automatically create indexable landing pages.
+
 See [METHODOLOGY.md](METHODOLOGY.md), [CONTRIBUTING.md](CONTRIBUTING.md), and [EDITORIAL-INDEPENDENCE.md](EDITORIAL-INDEPENDENCE.md).

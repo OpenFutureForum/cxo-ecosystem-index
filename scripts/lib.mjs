@@ -6,7 +6,18 @@ export const readJSON=async p=>JSON.parse(await fs.readFile(path.join(root,p),'u
 export const write=async(p,v)=>{const f=path.join(root,p);await fs.mkdir(path.dirname(f),{recursive:true});await fs.writeFile(f,v)};
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
-export async function load(){const dir=path.join(root,'data/entities');const files=(await fs.readdir(dir)).filter(x=>x.endsWith('.json')).sort();const batches=await Promise.all(files.map(x=>readJSON(`data/entities/${x}`)));return {entities:batches.flat(),taxonomy:await readJSON('data/taxonomy/core.json'),definitions:await readJSON('data/definitions/core.json')}}
+export async function load(){
+ const dir=path.join(root,'data/entities');
+ const files=(await fs.readdir(dir)).filter(x=>x.endsWith('.json')).sort();
+ const batches=await Promise.all(files.map(x=>readJSON(`data/entities/${x}`)));
+ const classifications=await readJSON('data/classifications.json');
+ const byEntity=new Map(classifications.map(x=>[x.entity_id,x]));
+ const entities=batches.flat().map(entity=>{
+  const {entity_id:ignored,evidence=[],...extra}=byEntity.get(entity.id)||{};
+  return {...entity,provider_types:entity.categories.map(slug),community_formats:[],event_formats:[],intelligence_types:[],resource_types:[],executive_needs:[],topics:[],audiences:[],...extra,classification_evidence:evidence};
+ });
+ return {entities,taxonomy:await readJSON('data/taxonomy/core.json'),semantic:await readJSON('data/taxonomy/semantic.json'),definitions:await readJSON('data/definitions/core.json'),classifications};
+}
 export function stats(entities){
  const all=k=>new Set(entities.flatMap(e=>e[k]||[])).size;
  const sourceCount=entities.reduce((n,e)=>n+(e.sources?.length||0),0);

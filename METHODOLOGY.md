@@ -22,6 +22,14 @@ Indexes are broad factual collections. Rankings are rare and require published s
 
 Entity, CXO, provider-category, methodology, and dataset pages are canonical. Arbitrary filter combinations remain application state and are excluded from the sitemap. New landing pages require stable intent, sufficient evidence, and distinct dataset-derived value.
 
+## Semantic classifications
+
+Entities may be classified across roles, provider types, community formats, event formats, intelligence types, resources, executive needs, topics, audiences, and geographies. Classifications use controlled terms with stable IDs and neutral definitions. Similar phrases map to one canonical term unless a durable functional distinction exists.
+
+Multi-category organizations retain one canonical entity record. A classification is assigned only when official organization, event, research, regulatory, government, or reputable third-party evidence shows that it represents a genuine offering, audience, or focus. A passing keyword mention is insufficient.
+
+Community formats describe ongoing structures. Event formats describe time-bounded gatherings. Research types distinguish empirical first-party work from editorial commentary.
+
 ## Freshness
 
 Stable facts are reviewed when credible corrections arise. Volatile facts are stored with `as_of_date` and prioritized for periodic review. Git history and releases preserve change history.

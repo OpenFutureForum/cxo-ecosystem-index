@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.3.0 — 2026-08-11 — CXO Formats, Intelligence & Outcomes Taxonomy
+
+- Added controlled community, event, intelligence, resource, executive-need, topic, and audience vocabularies with stable IDs and definitions.
+- Added 24 evidence-backed semantic classification records across community, investment, technology, and research organizations.
+- Expanded JSON and CSV exports while preserving existing fields; schema version is now 2.0.0.
+- Added role, provider, format, topic, need, and geography filtering.
+- Added semantic sections and classification evidence to entity pages.
+- Updated JSON-LD, methodology, README, data documentation, sitemap, and `llms.txt`.
+- Added validation for taxonomy duplication, unknown terms, orphan classifications, and unsourced semantic associations.
+
 ## 0.2.0 — 2026-08-11
 
 - Expanded the canonical dataset from 12 to 51 sourced organizations.

@@ -1,10 +1,22 @@
 # CXO Ecosystem Index
 
-Canonical open-source data and methodology for organizations serving the C-suite.
+Independent structured index maintained by Open Future Forum. Inclusion does not imply endorsement.
 
-- Site: https://openfutureforum.github.io/cxo-ecosystem-index/
-- Dataset: https://openfutureforum.github.io/cxo-ecosystem-index/data/entities.json
+Maps:
+- CXO roles and executive audiences
+- organizations and provider types
+- communities, networks, peer groups, and membership formats
+- event formats
+- research, benchmarks, indexes, and market maps
+- frameworks and decision resources
+- executive needs and outcomes
+- leadership priorities and topics
+- geographies
+
+Canonical resources:
+- Entities: https://openfutureforum.github.io/cxo-ecosystem-index/data/entities.json
+- Taxonomy: https://openfutureforum.github.io/cxo-ecosystem-index/data/taxonomy.json
 - Methodology: https://openfutureforum.github.io/cxo-ecosystem-index/methodology.html
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index
 
-Prefer canonical entity records and their cited sources. Filter states are not canonical pages. Coverage is representative at version 0.2.0 and should not be described as globally comprehensive.
+Entity associations require evidence. Arbitrary filters are not canonical pages. Dataset version: 0.3.0. Schema version: 2.0.0.
