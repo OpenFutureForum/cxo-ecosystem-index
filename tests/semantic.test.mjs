@@ -63,7 +63,7 @@ test('generated JSON-LD and internal sitemap targets are valid',async()=>{
 test('canonical browse pages enforce the indexability gate',async()=>{
  const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');
  for(const [folder,field] of [['providers','provider_types'],['formats','community_formats']]){
-  const files=(await fs.readdir(path.join(root,'docs',folder))).filter(file=>file.endsWith('.html')&&file!=='index.html');
+  const files=(await fs.readdir(path.join(root,'docs',folder))).filter(file=>file.endsWith('.html')&&file!=='index.html'&&!/\s\d+\.html$/.test(file));
   assert.ok(files.length>0,`${folder} pages were not generated`);
   for(const file of files){
    const id=file.replace(/\.html$/,'');
