@@ -85,3 +85,25 @@ test('Search Console handoff is explicit and does not claim submission',async()=
  assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,18);
  assert.equal(handoff.sitemap_url,`${base}sitemap.xml`);assert.ok(handoff.priority_urls.every(url=>!url.includes('?')));
 });
+
+test('coverage-limited intelligence is not promoted as decision-ready',async()=>{
+ const intelligence=JSON.parse(await fs.readFile(path.join(docs,'data/intelligence.json'),'utf8'));
+ const hub=await fs.readFile(path.join(docs,'intelligence/index.html'),'utf8');
+ assert.equal(intelligence.headline_coverage_threshold,0.6);
+ for(const item of [...intelligence.decision_tools,...intelligence.benchmarks.filter(entry=>entry.id!=='data-quality')]){
+  assert.equal(item.headline_eligible,item.coverage>=0.6,`${item.id} publication gate drift`);
+  const url=`${base}intelligence/${item.id}.html`;
+  const page=await fs.readFile(path.join(docs,'intelligence',`${item.id}.html`),'utf8');
+  if(item.headline_eligible){assert.ok(sitemap.includes(url));assert.ok(!page.includes('noindex,follow'));}
+  else {assert.ok(!sitemap.includes(url));assert.ok(page.includes('<meta name="robots" content="noindex,follow">'));assert.ok(!page.includes('FAQPage'));assert.ok(hub.includes('Coverage-limited research'));}
+ }
+});
+
+test('research hub covers CFO, CISO, CEO, CHRO and board resources',async()=>{
+ const research=await fs.readFile(path.join(docs,'research.html'),'utf8');
+ for(const role of ['CFO','CISO','CEO','CHRO','Board'])assert.ok(research.includes(`${role} GUIDE`),`research hub missing ${role}`);
+ for(const slug of ['ciso-ai-security-provider-evidence-checklist','ceo-ai-investment-governance-record','chro-workforce-ai-governance-checklist','board-cybersecurity-oversight-evidence-record']){
+  assert.ok(sitemap.includes(`${base}guides/${slug}.html`));
+  const page=await fs.readFile(path.join(docs,'guides',`${slug}.html`),'utf8');assert.ok(page.includes('Primary sources'));
+ }
+});

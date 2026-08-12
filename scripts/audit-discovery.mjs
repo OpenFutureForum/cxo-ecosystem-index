@@ -15,9 +15,11 @@ const urlToFile=url=>{const pathname=new URL(url).pathname.replace('/cxo-ecosyst
 const fileMap=new Map();
 const errors=[];
 const canonicalOwners=new Map();
+const indexableCanonicalOwners=new Map();
 let pagesMissingTitles=0,pagesMissingDescriptions=0,pagesMissingStructuredData=0,queryCanonicals=0,noindexPages=0;
 for(const file of htmlFiles){
  const html=await fs.readFile(file,'utf8');fileMap.set(file,html);
+ const isNoindex=/<meta name="robots" content="[^"]*noindex/i.test(html);if(isNoindex)noindexPages++;
  const canonicals=[...html.matchAll(/<link rel="canonical" href="([^"]+)"/g)].map(match=>match[1]);
  if(canonicals.length!==1)errors.push(`${relative(file)}: expected one canonical, found ${canonicals.length}`);
  else{
@@ -25,11 +27,11 @@ for(const file of htmlFiles){
   if(canonical.includes('?')){queryCanonicals++;errors.push(`${relative(file)}: query-string canonical ${canonical}`);}
   if(canonical!==expectedCanonical(file))errors.push(`${relative(file)}: canonical ${canonical} does not match ${expectedCanonical(file)}`);
   if(canonicalOwners.has(canonical))errors.push(`${relative(file)}: duplicate canonical also used by ${canonicalOwners.get(canonical)}`);else canonicalOwners.set(canonical,relative(file));
+  if(!isNoindex)indexableCanonicalOwners.set(canonical,relative(file));
  }
  if(!/<title>[^<]+<\/title>/.test(html)){pagesMissingTitles++;errors.push(`${relative(file)}: missing title`);}
  if(!/<meta name="description" content="[^"]+">/.test(html)){pagesMissingDescriptions++;errors.push(`${relative(file)}: missing description`);}
  if(!/<script type="application\/ld\+json">/.test(html)){pagesMissingStructuredData++;errors.push(`${relative(file)}: missing structured data`);}
- if(/<meta name="robots" content="[^"]*noindex/i.test(html))noindexPages++;
 }
 
 const sitemap=await fs.readFile(path.join(docs,'sitemap.xml'),'utf8');
@@ -40,8 +42,8 @@ if(sitemapLastmods.length>sitemapUrls.length)errors.push('sitemap: more lastmod 
 for(const value of sitemapLastmods)if(!/^\d{4}-\d{2}-\d{2}$/.test(value))errors.push(`sitemap: invalid lastmod ${value}`);
 const sitemapSet=new Set(sitemapUrls);
 for(const url of sitemapUrls){try{await fs.access(urlToFile(url));}catch{errors.push(`sitemap: missing target ${url}`);}}
-for(const canonical of canonicalOwners.keys())if(!sitemapSet.has(canonical))errors.push(`indexable canonical missing from sitemap: ${canonical}`);
-for(const url of sitemapUrls)if(!canonicalOwners.has(url))errors.push(`sitemap URL has no matching canonical page: ${url}`);
+for(const canonical of indexableCanonicalOwners.keys())if(!sitemapSet.has(canonical))errors.push(`indexable canonical missing from sitemap: ${canonical}`);
+for(const url of sitemapUrls)if(!indexableCanonicalOwners.has(url))errors.push(`sitemap URL has no matching indexable canonical page: ${url}`);
 
 const graph=new Map();
 let brokenLinks=0;

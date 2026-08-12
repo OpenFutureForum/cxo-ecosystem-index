@@ -1,18 +1,22 @@
 {
-  "dataset_version": "0.9.0",
-  "schema_version": "1.3.0",
+  "dataset_version": "0.9.1",
+  "schema_version": "1.4.0",
+  "headline_coverage_threshold": 0.6,
   "calculated_at": "2026-08-11",
   "market_maps": [
     {
       "id": "cfo-technology",
       "title": "CFO Technology Market Map",
       "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 18,
       "known_count": 16,
       "unknown_count": 2,
       "coverage": 0.8889,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "spend-management",
@@ -123,12 +127,15 @@
       "id": "ai-security",
       "title": "AI Security Market Map",
       "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 9,
       "unknown_count": 2,
       "coverage": 0.8182,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "agent-identity-permissions",
@@ -236,12 +243,15 @@
       "id": "executive-communities",
       "title": "Executive Communities Market Map",
       "definition": "Membership, peer and founder organizations classified as Executive Communities.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 10,
       "unknown_count": 1,
       "coverage": 0.9091,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "ceo-peer-advisory",
@@ -343,12 +353,15 @@
       "id": "executive-search",
       "title": "Executive Search Market Map",
       "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 8,
       "known_count": 8,
       "unknown_count": 0,
       "coverage": 1,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "retained-executive-search",
@@ -429,12 +442,15 @@
       "id": "technology-law-firms",
       "title": "Technology Law Firm Landscape",
       "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 9,
       "known_count": 9,
       "unknown_count": 0,
       "coverage": 1,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "venture-startup",
@@ -542,12 +558,15 @@
       "id": "banking-capital",
       "title": "Banking & Capital Ecosystem Map",
       "definition": "Banks and investment banks organized by documented business capabilities.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 23,
       "known_count": 23,
       "unknown_count": 0,
       "coverage": 1,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "commercial-banking",
@@ -690,12 +709,15 @@
       "id": "chro-technology",
       "title": "CHRO Technology Market Map",
       "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 10,
       "known_count": 10,
       "unknown_count": 0,
       "coverage": 1,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "hris-workforce-management",
@@ -809,12 +831,15 @@
       "id": "enterprise-ai",
       "title": "Enterprise AI Market Map",
       "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 43,
       "known_count": 37,
       "unknown_count": 6,
       "coverage": 0.8605,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "buckets": [
         {
           "id": "compute-ai-infrastructure",
@@ -1003,7 +1028,7 @@
     {
       "comparison_id": "cfo-spend-platforms",
       "title": "CFO Spend & Finance Platforms",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_ramp",
@@ -1138,7 +1163,7 @@
     {
       "comparison_id": "accounting-close-systems",
       "title": "Accounting, Close & Finance Systems",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_blackline",
@@ -1272,7 +1297,7 @@
     {
       "comparison_id": "executive-communities",
       "title": "Executive Communities",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_vistage",
@@ -1452,7 +1477,7 @@
     {
       "comparison_id": "executive-search-firms",
       "title": "Executive Search Firms",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_korn_ferry",
@@ -1640,7 +1665,7 @@
     {
       "comparison_id": "technology-law-firms",
       "title": "Technology Law Firms",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_wilson_sonsini",
@@ -1797,7 +1822,7 @@
     {
       "comparison_id": "technology-venture-banking",
       "title": "Technology & Venture Banking",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_silicon_valley_bank",
@@ -1976,8 +2001,13 @@
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
+      "coverage": 0.2,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
+      "status": "insufficient coverage",
       "metrics": [
         {
           "id": "ai-cfo-technology",
@@ -1990,6 +2020,9 @@
           "known_count": 18,
           "unknown_count": 0,
           "coverage": 1,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_coupa",
             "ent_puzzle",
@@ -2025,8 +2058,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2044,6 +2077,9 @@
           "known_count": 10,
           "unknown_count": 0,
           "coverage": 1,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_escalon",
             "ent_findem",
@@ -2069,8 +2105,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2088,6 +2124,9 @@
           "known_count": 25,
           "unknown_count": 11,
           "coverage": 0.6944,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_oracle",
             "ent_sap",
@@ -2166,8 +2205,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2185,6 +2224,9 @@
           "known_count": 15,
           "unknown_count": 4,
           "coverage": 0.7895,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_crowdstrike",
             "ent_zscaler",
@@ -2234,8 +2276,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2253,6 +2295,9 @@
           "known_count": 15,
           "unknown_count": 9,
           "coverage": 0.625,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_korn_ferry",
             "ent_heidrick_struggles",
@@ -2306,8 +2351,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2325,6 +2370,9 @@
           "known_count": 1,
           "unknown_count": 4,
           "coverage": 0.2,
+          "headline_eligible": false,
+          "publication_status": "coverage-limited",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_korn_ferry",
             "ent_russell_reynolds_associates",
@@ -2348,8 +2396,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2367,6 +2415,9 @@
           "known_count": 2,
           "unknown_count": 0,
           "coverage": 1,
+          "headline_eligible": true,
+          "publication_status": "decision-ready",
+          "headline_coverage_threshold": 0.6,
           "cohort_entity_ids": [
             "ent_harvey",
             "ent_signeasy"
@@ -2384,8 +2435,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.0",
-          "schema_version": "1.3.0",
+          "dataset_version": "0.9.1",
+          "schema_version": "1.4.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -2593,11 +2644,14 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "known_count": 35,
       "unknown_count": 159,
       "coverage": 0.1804,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
       "status": "insufficient coverage",
       "method": "Only source-supported founding_year values are eligible.",
       "source_fields": [
@@ -3002,11 +3056,14 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "known_count": 35,
       "unknown_count": 159,
       "coverage": 0.1804,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
       "status": "insufficient coverage",
       "method": "Headquarters is kept separate from office and service geography; only sourced headquarters fields qualify.",
       "source_fields": [
@@ -3411,11 +3468,14 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "known_count": 3,
       "unknown_count": 191,
       "coverage": 0.0155,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
       "status": "insufficient coverage",
       "method": "Missing public pricing is unknown, not false.",
       "source_fields": [
@@ -3820,59 +3880,65 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
-      "exactly_one": 30,
-      "two_to_three": 125,
-      "four_plus": 39,
+      "known_count": 162,
+      "unknown_count": 32,
+      "coverage": 0.8351,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
+      "exactly_one": 29,
+      "two_to_three": 113,
+      "four_plus": 20,
       "role_distribution": [
         {
           "role": "CFO",
-          "count": 131
+          "count": 100
         },
         {
           "role": "CEO",
-          "count": 107
+          "count": 75
         },
         {
           "role": "CIO",
-          "count": 74
+          "count": 63
         },
         {
           "role": "CTO",
-          "count": 64
-        },
-        {
-          "role": "Board",
-          "count": 40
+          "count": 53
         },
         {
           "role": "CISO",
-          "count": 34
+          "count": 27
         },
         {
           "role": "CHRO",
-          "count": 34
+          "count": 23
         },
         {
           "role": "COO",
-          "count": 33
-        },
-        {
-          "role": "CLO",
-          "count": 24
+          "count": 18
         },
         {
           "role": "CMO",
-          "count": 22
+          "count": 15
+        },
+        {
+          "role": "CLO",
+          "count": 13
+        },
+        {
+          "role": "Board",
+          "count": 10
         },
         {
           "role": "General Counsel",
-          "count": 15
+          "count": 9
         }
       ],
-      "method": "Counts canonical cxo_roles classifications. CLO and General Counsel remain sub-role tags but share one navigation hub.",
+      "method": "Counts only canonical cxo_roles classifications linked to a supporting source. CLO and General Counsel remain sub-role tags but share one navigation hub.",
       "source_fields": [
         "cxo_roles"
       ],
@@ -3881,29 +3947,6 @@
         "ent_entrepreneurs_organization",
         "ent_pavilion",
         "ent_korn_ferry",
-        "ent_russell_reynolds_associates",
-        "ent_heidrick_struggles",
-        "ent_wilson_sonsini",
-        "ent_fenwick_west",
-        "ent_latham_watkins",
-        "ent_pwc",
-        "ent_ey",
-        "ent_kpmg",
-        "ent_mckinsey",
-        "ent_bcg",
-        "ent_bain",
-        "ent_bank_of_america",
-        "ent_citi",
-        "ent_hsbc",
-        "ent_evercore",
-        "ent_lazard",
-        "ent_houlihan_lokey",
-        "ent_andreessen_horowitz",
-        "ent_accel",
-        "ent_lightspeed",
-        "ent_kkr",
-        "ent_blackstone",
-        "ent_silver_lake",
         "ent_oracle",
         "ent_sap",
         "ent_anaplan",
@@ -3917,18 +3960,9 @@
         "ent_wharton_executive_education",
         "ent_mit_sloan_executive_education",
         "ent_open_future_forum",
-        "ent_chief",
-        "ent_young_presidents_organization",
         "ent_spencer_stuart",
-        "ent_cooley",
-        "ent_deloitte",
-        "ent_jpmorgan",
-        "ent_sequoia_capital",
-        "ent_thoma_bravo",
         "ent_workday",
         "ent_palo_alto_networks",
-        "ent_harvard_business_school_exec_ed",
-        "ent_capital_one",
         "ent_first_citizens_bank",
         "ent_silicon_valley_bank",
         "ent_wells_fargo",
@@ -4071,13 +4105,50 @@
         "ent_transform",
         "ent_open_batch",
         "ent_curated_connections"
+      ],
+      "unknown_entity_ids": [
+        "ent_russell_reynolds_associates",
+        "ent_heidrick_struggles",
+        "ent_wilson_sonsini",
+        "ent_fenwick_west",
+        "ent_latham_watkins",
+        "ent_pwc",
+        "ent_ey",
+        "ent_kpmg",
+        "ent_mckinsey",
+        "ent_bcg",
+        "ent_bain",
+        "ent_bank_of_america",
+        "ent_citi",
+        "ent_hsbc",
+        "ent_evercore",
+        "ent_lazard",
+        "ent_houlihan_lokey",
+        "ent_andreessen_horowitz",
+        "ent_accel",
+        "ent_lightspeed",
+        "ent_kkr",
+        "ent_blackstone",
+        "ent_silver_lake",
+        "ent_chief",
+        "ent_young_presidents_organization",
+        "ent_cooley",
+        "ent_deloitte",
+        "ent_jpmorgan",
+        "ent_sequoia_capital",
+        "ent_thoma_bravo",
+        "ent_harvard_business_school_exec_ed",
+        "ent_capital_one"
       ]
     },
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.9.0",
+      "dataset_version": "0.9.1",
       "calculated_at": "2026-08-11",
+      "headline_eligible": true,
+      "publication_status": "quality-report",
+      "headline_coverage_threshold": 0.6,
       "total_entities": 194,
       "total_facts": 3262,
       "average_facts_per_entity": 16.81,
@@ -4133,14 +4204,17 @@
       "title": "Which providers serve both CFOs and private equity firms?",
       "question": "Which providers serve both CFOs and private equity firms?",
       "definition": "Organizations must have a CFO role classification plus evidence of a private-equity audience, topic, or industry.",
-      "dataset_version": "0.9.0",
-      "schema_version": "1.3.0",
+      "dataset_version": "0.9.1",
+      "schema_version": "1.4.0",
       "calculated_at": "2026-08-11",
       "direct_answer": "32 organizations currently meet every documented criterion in this dataset.",
       "total_entities": 194,
       "known_count": 171,
       "unknown_count": 23,
       "coverage": 0.8814,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "entity_ids": [
         "ent_latham_watkins",
         "ent_bain",
@@ -4207,21 +4281,24 @@
         "industries"
       ],
       "method": "Intersect the canonical CFO cohort with evidence-backed private-equity fields.",
-      "caveat": "This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false."
+      "caveat": "This is an evidence-backed dataset result, not a recommendation. Missing evidence remains unknown rather than false."
     },
     {
       "id": "executive-community-private-formats",
       "title": "Which executive communities offer private dinners or peer groups?",
       "question": "Which executive communities offer private dinners or peer groups?",
       "definition": "Executive Communities with evidence for peer groups, executive dinners, private dinners, or private executive gatherings.",
-      "dataset_version": "0.9.0",
-      "schema_version": "1.3.0",
+      "dataset_version": "0.9.1",
+      "schema_version": "1.4.0",
       "calculated_at": "2026-08-11",
       "direct_answer": "5 organizations currently meet every documented criterion in this dataset.",
       "total_entities": 194,
       "known_count": 191,
       "unknown_count": 3,
       "coverage": 0.9845,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "entity_ids": [
         "ent_vistage",
         "ent_entrepreneurs_organization",
@@ -4240,21 +4317,24 @@
         "event_formats"
       ],
       "method": "Filter the Executive Communities cohort using evidence-linked format classifications.",
-      "caveat": "This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false."
+      "caveat": "This is an evidence-backed dataset result, not a recommendation. Missing evidence remains unknown rather than false."
     },
     {
       "id": "ai-governance-security",
       "title": "Which AI providers address governance or security?",
       "question": "Which AI providers address governance or security?",
       "definition": "AI providers with evidence-linked AI governance, AI security, agent governance, or cybersecurity topics.",
-      "dataset_version": "0.9.0",
-      "schema_version": "1.3.0",
+      "dataset_version": "0.9.1",
+      "schema_version": "1.4.0",
       "calculated_at": "2026-08-11",
-      "direct_answer": "13 organizations currently meet every documented criterion in this dataset.",
+      "direct_answer": "Coverage is 58%; this exploratory result is not eligible for a headline answer.",
       "total_entities": 50,
       "known_count": 29,
       "unknown_count": 21,
       "coverage": 0.58,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
       "entity_ids": [
         "ent_crowdstrike",
         "ent_palo_alto_networks",
@@ -4298,21 +4378,24 @@
         "topics"
       ],
       "method": "Filter the AI provider cohort using controlled, evidence-linked topic classifications.",
-      "caveat": "This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false."
+      "caveat": "This is an evidence-backed dataset result, not a recommendation. Missing evidence remains unknown rather than false."
     },
     {
       "id": "venture-backed-technology-advisors",
       "title": "Which advisory firms serve venture-backed technology companies?",
       "question": "Which advisory firms serve venture-backed technology companies?",
       "definition": "Advisory providers need both founder or venture-capital relevance and a documented technology, software, startup, or SaaS industry focus.",
-      "dataset_version": "0.9.0",
-      "schema_version": "1.3.0",
+      "dataset_version": "0.9.1",
+      "schema_version": "1.4.0",
       "calculated_at": "2026-08-11",
       "direct_answer": "19 organizations currently meet every documented criterion in this dataset.",
       "total_entities": 64,
       "known_count": 42,
       "unknown_count": 22,
       "coverage": 0.6563,
+      "headline_eligible": true,
+      "publication_status": "decision-ready",
+      "headline_coverage_threshold": 0.6,
       "entity_ids": [
         "ent_wilson_sonsini",
         "ent_fenwick_west",
@@ -4365,21 +4448,24 @@
         "industries"
       ],
       "method": "Intersect advisory provider types with evidence-backed venture/founder and technology-market fields.",
-      "caveat": "This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false."
+      "caveat": "This is an evidence-backed dataset result, not a recommendation. Missing evidence remains unknown rather than false."
     },
     {
       "id": "silicon-valley-london",
       "title": "Which organizations operate in both Silicon Valley and London?",
       "question": "Which organizations operate in both Silicon Valley and London?",
       "definition": "Organizations need verified operating geography for both Silicon Valley or the San Francisco Bay Area and London.",
-      "dataset_version": "0.9.0",
-      "schema_version": "1.3.0",
+      "dataset_version": "0.9.1",
+      "schema_version": "1.4.0",
       "calculated_at": "2026-08-11",
-      "direct_answer": "6 organizations currently meet every documented criterion in this dataset.",
+      "direct_answer": "Coverage is 28%; this exploratory result is not eligible for a headline answer.",
       "total_entities": 194,
       "known_count": 55,
       "unknown_count": 139,
       "coverage": 0.2835,
+      "headline_eligible": false,
+      "publication_status": "coverage-limited",
+      "headline_coverage_threshold": 0.6,
       "entity_ids": [
         "ent_wilson_sonsini",
         "ent_lattice",
@@ -4534,7 +4620,7 @@
         "geography_status"
       ],
       "method": "Intersect only source-supported operating geographies; headquarters is not substituted for an operating market.",
-      "caveat": "This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false."
+      "caveat": "This is an evidence-backed dataset result, not a recommendation. Missing evidence remains unknown rather than false."
     }
   ]
 }

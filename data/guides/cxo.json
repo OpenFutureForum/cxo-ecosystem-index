@@ -1,0 +1,78 @@
+[
+  {
+    "id":"guide_ciso_ai_security_evidence",
+    "role":"CISO",
+    "title":"CISO AI Security Provider Evidence Checklist",
+    "slug":"ciso-ai-security-provider-evidence-checklist",
+    "summary":"A vendor-neutral record for testing AI-security claims against governance, architecture, controls, monitoring, and incident evidence.",
+    "updated":"2026-08-11",
+    "audience":["CISO","CIO","CTO","Security leadership","Risk committee"],
+    "sections":[
+      {"heading":"Define the protected system and decision boundary","content":"Record the AI system, data, identities, tools, deployment context, and business process in scope before comparing providers. A broad AI-security claim is not evidence of coverage for a specific system.","bullets":["System and model inventory","Human and machine identities","Data classifications","Permitted tools and actions","Business owner and security owner"]},
+      {"heading":"Map controls to documented risks","content":"Require each proposed control to identify the risk it addresses, where it is enforced, what evidence it produces, and which residual risks remain.","bullets":["Preventive and detective controls","Policy-enforcement location","Identity and permission model","Logging and evidence retention","Residual-risk owner"]},
+      {"heading":"Test operational evidence","content":"Evaluate integrations, deployment prerequisites, alert quality, failure behavior, administrator controls, and response workflows using the organization’s own representative scenarios."},
+      {"heading":"Set monitoring and reassessment triggers","content":"Document changes that require reassessment, including new models, agents, tools, data sources, permissions, integrations, attack methods, incidents, and material changes in vendor architecture."}
+    ],
+    "sources":[
+      {"title":"The NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"},
+      {"title":"AI Risk Management Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/itl/ai-risk-management-framework"}
+    ]
+  },
+  {
+    "id":"guide_ceo_ai_investment_governance",
+    "role":"CEO",
+    "title":"CEO AI Investment Governance Record",
+    "slug":"ceo-ai-investment-governance-record",
+    "summary":"A concise executive record for tying an AI investment to accountable ownership, measurable value, controlled risk, and a reviewable deployment decision.",
+    "updated":"2026-08-11",
+    "audience":["CEO","Executive committee","Business-unit leaders","Board directors"],
+    "sections":[
+      {"heading":"State the decision and intended outcome","content":"Identify the business decision or workflow being changed, the accountable executive, expected outcome, affected stakeholders, and the evidence that will distinguish value from activity."},
+      {"heading":"Record governance before deployment","content":"Assign ownership for business performance, data, technology, security, legal review, human oversight, and incident escalation before the system is placed into operational use."},
+      {"heading":"Approve measurable release gates","content":"Define the minimum evidence needed to continue from experiment to pilot and from pilot to production.","bullets":["Baseline and target outcome","Evaluation dataset or scenario set","Error and exception thresholds","Human-review requirements","Security and privacy approval","Stop or rollback criteria"]},
+      {"heading":"Review realized value and exceptions","content":"Separate projected benefit from measured benefit. Review operating cost, adoption, quality, control exceptions, incidents, and unresolved risks on a dated cadence."}
+    ],
+    "sources":[
+      {"title":"Artificial Intelligence: An Accountability Framework for Federal Agencies and Other Entities","publisher":"U.S. Government Accountability Office","url":"https://www.gao.gov/products/gao-21-519sp"},
+      {"title":"Artificial Intelligence Risk Management Framework 1.0","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10"}
+    ]
+  },
+  {
+    "id":"guide_chro_ai_workforce_governance",
+    "role":"CHRO",
+    "title":"CHRO Workforce AI Governance Checklist",
+    "slug":"chro-workforce-ai-governance-checklist",
+    "summary":"An evidence checklist for AI used in hiring, workforce decisions, employee services, performance processes, and people analytics.",
+    "updated":"2026-08-11",
+    "audience":["CHRO","People operations","Talent acquisition","Employment counsel","Data governance"],
+    "sections":[
+      {"heading":"Inventory workforce decisions involving AI","content":"Record every material use case, the decision it informs, affected worker or candidate population, data used, vendor or internal owner, and whether a person can review or override the result."},
+      {"heading":"Document data and evaluation evidence","content":"Identify training and operating data, population relevance, missing-data treatment, evaluation methods, known limitations, and evidence of performance across materially affected groups."},
+      {"heading":"Define human review and recourse","content":"Specify who reviews consequential results, what information the reviewer receives, how an affected person can raise an error, and how corrections propagate through connected systems."},
+      {"heading":"Monitor changes and outcomes","content":"Reassess when models, data, job families, geographies, decision thresholds, vendors, or workflows change. Track both operating performance and material workforce outcomes."}
+    ],
+    "sources":[
+      {"title":"AI Risk Management Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/itl/ai-risk-management-framework"},
+      {"title":"Privacy Framework","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/privacy-framework/privacy-framework"}
+    ]
+  },
+  {
+    "id":"guide_board_cybersecurity_oversight",
+    "role":"Board",
+    "title":"Board Cybersecurity Oversight Evidence Record",
+    "slug":"board-cybersecurity-oversight-evidence-record",
+    "summary":"A board-level evidence record for cybersecurity governance, risk visibility, material incidents, third-party exposure, and management accountability.",
+    "updated":"2026-08-11",
+    "audience":["Board directors","Audit committee","Risk committee","CEO","CISO"],
+    "sections":[
+      {"heading":"Define oversight responsibilities","content":"Record the committee or board responsibility, management owners, reporting cadence, escalation thresholds, and the relationship between cybersecurity and enterprise risk management."},
+      {"heading":"Require comparable risk evidence","content":"Use a stable reporting structure that distinguishes exposure, control coverage, significant exceptions, incidents, remediation status, third-party dependencies, and accepted residual risk."},
+      {"heading":"Prepare materiality and disclosure decisions","content":"Document who gathers incident facts, who assesses materiality, what financial and operational impacts are considered, who approves disclosures, and how unavailable information is followed up."},
+      {"heading":"Test readiness, not presentation quality","content":"Request evidence from exercises, incident reviews, control testing, remediation validation, and material third-party scenarios. A polished dashboard is not a substitute for tested response capability."}
+    ],
+    "sources":[
+      {"title":"Cybersecurity Risk Management, Strategy, Governance, and Incident Disclosure","publisher":"U.S. Securities and Exchange Commission","url":"https://www.sec.gov/rules-regulations/2023/07/s7-09-22"},
+      {"title":"The NIST Cybersecurity Framework 2.0","publisher":"National Institute of Standards and Technology","url":"https://www.nist.gov/publications/nist-cybersecurity-framework-csf-20"}
+    ]
+  }
+]

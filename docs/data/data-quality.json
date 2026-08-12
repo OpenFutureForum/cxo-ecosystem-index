@@ -1,8 +1,11 @@
 {
   "id": "data-quality",
   "title": "Source & Data Quality Benchmark",
-  "dataset_version": "0.9.0",
+  "dataset_version": "0.9.1",
   "calculated_at": "2026-08-11",
+  "headline_eligible": true,
+  "publication_status": "quality-report",
+  "headline_coverage_threshold": 0.6,
   "total_entities": 194,
   "total_facts": 3262,
   "average_facts_per_entity": 16.81,

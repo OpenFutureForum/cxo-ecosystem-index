@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.1 — 2026-08-11 — Intelligence Quality Gate & Cross-CXO Knowledge
+
+- Enforced the existing 60% evidence-coverage threshold at the generated interface, structured-data, robots, homepage, and sitemap layers.
+- Kept lower-coverage analyses available as transparent research coverage while removing decision-ready language and FAQ answer markup.
+- Added explicit `headline_eligible`, `publication_status`, and `headline_coverage_threshold` fields to derived intelligence exports.
+- Added a cross-CXO research hub and original, primary-source-backed decision resources for CISO, CEO, CHRO, and board users.
+- Preserved the 194-organization canonical dataset and neutral Open Future Forum classification while prioritizing depth over entity or page-count expansion.
+- Bumped the derived-intelligence schema to 1.4.0.
+
 ## 0.9.0 — 2026-08-11 — Relationship and Decision Intelligence
 
 - Removed the inherited United States geography default and now publish an empty geography with `geography_status: unknown` unless an operating market is source-supported.

@@ -9,7 +9,7 @@ Open-source intelligence on the companies, communities, capital providers, advis
 
 | Measure | Current value |
 |---|---:|
-| Release | 0.9.0 |
+| Release | 0.9.1 |
 | Entity schema | 3.2.0 |
 | Canonical organizations | 194 |
 | Sourced facts | 3,262 |
@@ -17,7 +17,7 @@ Open-source intelligence on the companies, communities, capital providers, advis
 | Sourced relationships | 27 |
 | Derived reciprocal relationships | 27 |
 | Derived metrics | 80 |
-| Tests | 37 |
+| Tests | 39 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.
@@ -45,6 +45,7 @@ GitHub Pages uses the workflow deployment mode. The Actions-built `docs/` artifa
 - `data/definitions/`: stable terminology
 - `data/relationships/`: sourced relationship records
 - `data/governance/completeness-standard.json`: neutral 100-point record-depth standard and bounded research-queue policy
+- `data/guides/`: primary-source-backed CFO, CISO, CEO, CHRO, and board decision resources
 - `data/exports/`: generated entities, facts, sources, organization and semantic relationships, knowledge graph, taxonomy, role mappings, search index, cohorts, market maps, comparisons, and benchmarks
 - `scripts/`: deterministic generation, governance, discovery auditing, and live deployment verification
 
@@ -67,6 +68,8 @@ These dimensions separate what an organization is from whom it serves, what it o
 The current dataset also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
 
 Every organization also receives a public profile-completeness result. The score measures research depth in the Index—not organizational quality or rank—and converts missing evidence into a P1, P2, P3, or maintenance research workflow. Complete results are published as JSON and CSV.
+
+Decision tools and benchmarks require at least 60% evidence coverage for headline placement, answer-engine structured data, and sitemap inclusion. Lower-coverage analyses remain available as transparent research coverage and retain their unknown counts, but are not presented as decision-ready answers.
 
 ## Local verification
 

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "0.9.0",
+  "dataset_version": "0.9.1",
   "description": "Controlled semantic lenses for common executive and investment audiences. A mapping describes relevant vocabulary; it does not assert that every organization serving the audience offers every mapped format or topic.",
   "mappings": [
     {
