@@ -203,6 +203,20 @@ test('the v0.9.6 depth pass makes CFO and CHRO maps decision-ready',async()=>{
  assert.equal(maps.get('chro-technology').headline_eligible,true);
 });
 
+test('the v0.9.7 light pass adds dated core facts conservatively',async()=>{
+ const [batch,manifest]=await Promise.all([
+  fs.readFile(path.join(root,'data/enrichments-p7.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/depth-pass-v0.9.7.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(batch.length,24);
+ assert.equal(batch.length,manifest.fact_depth_entities);
+ assert.equal(batch.filter(record=>record.founded_year).length,22);
+ assert.equal(batch.filter(record=>record.headquarters).length,21);
+ assert.equal(batch.flatMap(record=>record.facts).length,43);
+ assert.ok(batch.flatMap(record=>record.facts).every(fact=>fact.as_of_date==='2026-08-12'&&fact.source_ids.length));
+ assert.ok(batch.every(record=>record.sources.every(source=>source.url.startsWith('https://www.wikidata.org/wiki/Q'))));
+});
+
 test('generated completeness exports and public explanations agree',async()=>{
  const [json,csv,quality,profile,methodology]=await Promise.all([
   fs.readFile(path.join(root,'docs/data/completeness.json'),'utf8'),

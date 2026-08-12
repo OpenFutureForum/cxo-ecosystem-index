@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.7 — 2026-08-12 — Light Fact Depth & Relationship Graph Pass
+
+- Added 22 founding years and 21 headquarters records across 24 profiles using strict exact-name and official-domain entity resolution against Wikidata.
+- Added explicit verification dates to all 43 new facts and excluded ambiguous entity matches.
+- Added 18 sourced organization relationships covering integrations, official partner ecosystems, acquisitions, subsidiaries and business units.
+- Increased the sourced organization graph from 29 to 47 relationships while keeping derived reciprocal edges clearly identified.
+- Preserved the 500-organization count, 8 decision-ready market maps, neutral methodology and Open Future Forum's primary Executive Communities classification.
+
 ## 0.9.6 — 2026-08-12 — Functional Intelligence Depth Pass
 
 - Converted generic offering labels into 210 precise, source-supported functional facts across 70 CFO and CHRO technology profiles.

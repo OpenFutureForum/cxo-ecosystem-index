@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "schema_version": "1.0.0",
   "calculated_at": "2026-08-12",
   "standard": {
@@ -118,7 +118,7 @@
   },
   "summary": {
     "total_entities": 500,
-    "average_score": 76.4,
+    "average_score": 77.3,
     "median_score": 80,
     "tier_counts": {
       "decision-ready": 410,
@@ -170,17 +170,17 @@
       "id": "founded_year",
       "label": "Founded year",
       "weight": 10,
-      "known_count": 73,
-      "unknown_count": 427,
-      "coverage": 0.146
+      "known_count": 95,
+      "unknown_count": 405,
+      "coverage": 0.19
     },
     {
       "id": "headquarters",
       "label": "Headquarters",
       "weight": 10,
-      "known_count": 71,
-      "unknown_count": 429,
-      "coverage": 0.142
+      "known_count": 92,
+      "unknown_count": 408,
+      "coverage": 0.184
     },
     {
       "id": "operating_geography",
@@ -3434,37 +3434,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_akamai",
-      "name": "Akamai",
-      "slug": "akamai",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_aleph",
       "name": "Aleph",
       "slug": "aleph",
@@ -3771,37 +3740,6 @@
       ],
       "source_count": 3,
       "fact_count": 16,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_anthropic",
-      "name": "Anthropic",
-      "slug": "anthropic",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4147,37 +4085,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_axonius",
-      "name": "Axonius",
-      "slug": "axonius",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_baker_tilly",
       "name": "Baker Tilly",
       "slug": "baker-tilly",
@@ -4213,37 +4120,6 @@
       "name": "BambooHR",
       "slug": "bamboohr",
       "primary_category": "HR Technology",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_barracuda_networks",
-      "name": "Barracuda Networks",
-      "slug": "barracuda-networks",
-      "primary_category": "Cybersecurity",
       "editorial_priority": null,
       "score": 80,
       "tier": "decision-ready",
@@ -4398,37 +4274,6 @@
       "entity_id": "ent_beyondtrust",
       "name": "BeyondTrust",
       "slug": "beyondtrust",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_bigid",
-      "name": "BigID",
-      "slug": "bigid",
       "primary_category": "Cybersecurity",
       "editorial_priority": null,
       "score": 80,
@@ -4922,37 +4767,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_cato_networks",
-      "name": "Cato Networks",
-      "slug": "cato-networks",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_cch_tagetik",
       "name": "CCH Tagetik",
       "slug": "cch-tagetik",
@@ -4988,37 +4802,6 @@
       "name": "Celonis",
       "slug": "celonis",
       "primary_category": "Enterprise Automation",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_cerebras",
-      "name": "Cerebras",
-      "slug": "cerebras",
-      "primary_category": "Artificial Intelligence",
       "editorial_priority": null,
       "score": 80,
       "tier": "decision-ready",
@@ -5294,37 +5077,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_claroty",
-      "name": "Claroty",
-      "slug": "claroty",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_cloudbees",
       "name": "CloudBees",
       "slug": "cloudbees",
@@ -5421,37 +5173,6 @@
       "entity_id": "ent_cockroach_labs",
       "name": "Cockroach Labs",
       "slug": "cockroach-labs",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_cohere",
-      "name": "Cohere",
-      "slug": "cohere",
       "primary_category": "Artificial Intelligence",
       "editorial_priority": null,
       "score": 80,
@@ -6689,37 +6410,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_entrust",
-      "name": "Entrust",
-      "slug": "entrust",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_epicor",
       "name": "Epicor",
       "slug": "epicor",
@@ -7089,37 +6779,6 @@
       "source_count": 3,
       "fact_count": 22,
       "last_verified": "2026-08-11",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_forcepoint",
-      "name": "Forcepoint",
-      "slug": "forcepoint",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -7557,37 +7216,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_groq",
-      "name": "Groq",
-      "slug": "groq",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_guidehouse",
       "name": "Guidehouse",
       "slug": "guidehouse",
@@ -7867,37 +7495,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_hugging_face",
-      "name": "Hugging Face",
-      "slug": "hugging-face",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_huntress",
       "name": "Huntress",
       "slug": "huntress",
@@ -8018,37 +7615,6 @@
       ],
       "source_count": 3,
       "fact_count": 18,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_illumio",
-      "name": "Illumio",
-      "slug": "illumio",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8766,37 +8332,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_malwarebytes",
-      "name": "Malwarebytes",
-      "slug": "malwarebytes",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_marqeta",
       "name": "Marqeta",
       "slug": "marqeta",
@@ -8828,37 +8363,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_mimecast",
-      "name": "Mimecast",
-      "slug": "mimecast",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_mindbridge",
       "name": "MindBridge",
       "slug": "mindbridge",
@@ -8886,37 +8390,6 @@
       ],
       "source_count": 3,
       "fact_count": 18,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_mistral_ai",
-      "name": "Mistral AI",
-      "slug": "mistral-ai",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9661,37 +9134,6 @@
       ],
       "source_count": 3,
       "fact_count": 18,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_orca_security",
-      "name": "Orca Security",
-      "slug": "orca-security",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10595,37 +10037,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_qualys",
-      "name": "Qualys",
-      "slug": "qualys",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_raines_international",
       "name": "Raines International",
       "slug": "raines-international",
@@ -10715,37 +10126,6 @@
       ],
       "source_count": 3,
       "fact_count": 18,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_recorded_future",
-      "name": "Recorded Future",
-      "slug": "recorded-future",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -11587,37 +10967,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_sonicwall",
-      "name": "SonicWall",
-      "slug": "sonicwall",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_sovos",
       "name": "Sovos",
       "slug": "sovos",
@@ -11870,37 +11219,6 @@
       "name": "TalentLMS",
       "slug": "talentlms",
       "primary_category": "HR Technology",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_tanium",
-      "name": "Tanium",
-      "slug": "tanium",
-      "primary_category": "Cybersecurity",
       "editorial_priority": null,
       "score": 80,
       "tier": "decision-ready",
@@ -12238,37 +11556,6 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_together_ai",
-      "name": "Together AI",
-      "slug": "together-ai",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
       "entity_id": "ent_transearch",
       "name": "TRANSEARCH",
       "slug": "transearch",
@@ -12296,37 +11583,6 @@
       ],
       "source_count": 3,
       "fact_count": 16,
-      "last_verified": "2026-08-12",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_trend_micro",
-      "name": "Trend Micro",
-      "slug": "trend-micro",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": null,
-      "score": 80,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters"
-      ],
-      "source_count": 3,
-      "fact_count": 14,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -13819,6 +13075,37 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_barracuda_networks",
+      "name": "Barracuda Networks",
+      "slug": "barracuda-networks",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "headquarters"
+      ],
+      "source_count": 4,
+      "fact_count": 15,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_citizens_private_bank",
       "name": "Citizens Private Bank",
       "slug": "citizens-private-bank",
@@ -13847,6 +13134,37 @@
       "source_count": 4,
       "fact_count": 21,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_claroty",
+      "name": "Claroty",
+      "slug": "claroty",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "headquarters"
+      ],
+      "source_count": 4,
+      "fact_count": 15,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -13974,6 +13292,37 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_entrust",
+      "name": "Entrust",
+      "slug": "entrust",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 4,
+      "fact_count": 15,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_era_group",
       "name": "ERA Group",
       "slug": "era-group",
@@ -14095,6 +13444,37 @@
       "source_count": 5,
       "fact_count": 24,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_malwarebytes",
+      "name": "Malwarebytes",
+      "slug": "malwarebytes",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "headquarters"
+      ],
+      "source_count": 4,
+      "fact_count": 15,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -14249,6 +13629,37 @@
       ],
       "source_count": 4,
       "fact_count": 27,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_together_ai",
+      "name": "Together AI",
+      "slug": "together-ai",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 4,
+      "fact_count": 16,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -14780,6 +14191,66 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_akamai",
+      "name": "Akamai",
+      "slug": "akamai",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_anthropic",
+      "name": "Anthropic",
+      "slug": "anthropic",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_avenue_capital_group",
       "name": "Avenue Capital Group",
       "slug": "avenue-capital-group",
@@ -14810,6 +14281,36 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_axonius",
+      "name": "Axonius",
+      "slug": "axonius",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_bdev_ventures",
       "name": "BDEV Ventures",
       "slug": "bdev-ventures",
@@ -14837,6 +14338,36 @@
       "source_count": 4,
       "fact_count": 21,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_bigid",
+      "name": "BigID",
+      "slug": "bigid",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -14930,6 +14461,66 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_cato_networks",
+      "name": "Cato Networks",
+      "slug": "cato-networks",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_cerebras",
+      "name": "Cerebras",
+      "slug": "cerebras",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_cfgi",
       "name": "CFGI",
       "slug": "cfgi",
@@ -14957,6 +14548,36 @@
       "source_count": 5,
       "fact_count": 30,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_cohere",
+      "name": "Cohere",
+      "slug": "cohere",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -15050,6 +14671,66 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_forcepoint",
+      "name": "Forcepoint",
+      "slug": "forcepoint",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_groq",
+      "name": "Groq",
+      "slug": "groq",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_heffernan_insurance_brokers",
       "name": "Heffernan Insurance Brokers",
       "slug": "heffernan-insurance-brokers",
@@ -15077,6 +14758,66 @@
       "source_count": 5,
       "fact_count": 22,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_hugging_face",
+      "name": "Hugging Face",
+      "slug": "hugging-face",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_illumio",
+      "name": "Illumio",
+      "slug": "illumio",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -15320,6 +15061,66 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_mimecast",
+      "name": "Mimecast",
+      "slug": "mimecast",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_mistral_ai",
+      "name": "Mistral AI",
+      "slug": "mistral-ai",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 17,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_morgan_stanley",
       "name": "Morgan Stanley",
       "slug": "morgan-stanley",
@@ -15410,6 +15211,36 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_orca_security",
+      "name": "Orca Security",
+      "slug": "orca-security",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_pilot",
       "name": "Pilot",
       "slug": "pilot",
@@ -15467,6 +15298,66 @@
       "source_count": 5,
       "fact_count": 29,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_qualys",
+      "name": "Qualys",
+      "slug": "qualys",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_recorded_future",
+      "name": "Recorded Future",
+      "slug": "recorded-future",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {
@@ -15590,6 +15481,36 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_sonicwall",
+      "name": "SonicWall",
+      "slug": "sonicwall",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_stifel",
       "name": "Stifel",
       "slug": "stifel",
@@ -15617,6 +15538,66 @@
       "source_count": 4,
       "fact_count": 23,
       "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_tanium",
+      "name": "Tanium",
+      "slug": "tanium",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_trend_micro",
+      "name": "Trend Micro",
+      "slug": "trend-micro",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": null,
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 16,
+      "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
     {

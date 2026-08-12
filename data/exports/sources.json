@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -1734,6 +1734,26 @@
       ]
     },
     {
+      "id": "src_akamai_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q415598",
+      "title": "Akamai structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_akamai"
+      ],
+      "alias_source_ids": [
+        "src_akamai_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_aleph_about",
       "url": "https://www.getaleph.com/about-us",
       "title": "About Aleph",
@@ -2585,6 +2605,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_anthropic_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q116758847",
+      "title": "Anthropic structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_anthropic"
+      ],
+      "alias_source_ids": [
+        "src_anthropic_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -3712,6 +3752,26 @@
       ]
     },
     {
+      "id": "src_axonius_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q134100736",
+      "title": "Axonius structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_axonius"
+      ],
+      "alias_source_ids": [
+        "src_axonius_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_bain",
       "url": "https://www.bain.com/consulting-services/",
       "title": "Consulting Services",
@@ -3927,6 +3987,25 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_barracuda-networks_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q4863194",
+      "title": "Barracuda Networks structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_barracuda_networks"
+      ],
+      "alias_source_ids": [
+        "src_barracuda-networks_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -4516,6 +4595,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_bigid_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q106946293",
+      "title": "BigID structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_bigid"
+      ],
+      "alias_source_ids": [
+        "src_bigid_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -6177,6 +6276,26 @@
       ]
     },
     {
+      "id": "src_cato-networks_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q55647697",
+      "title": "Cato Networks structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_cato_networks"
+      ],
+      "alias_source_ids": [
+        "src_cato-networks_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_cch-tagetik_about",
       "url": "https://www.wolterskluwer.com/en/about-us",
       "title": "About CCH Tagetik",
@@ -6458,6 +6577,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_cerebras_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q66604886",
+      "title": "Cerebras structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_cerebras"
+      ],
+      "alias_source_ids": [
+        "src_cerebras_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -7364,6 +7503,25 @@
       ]
     },
     {
+      "id": "src_claroty_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q109986619",
+      "title": "Claroty structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_claroty"
+      ],
+      "alias_source_ids": [
+        "src_claroty_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
       "id": "src_cloudbees_about",
       "url": "https://www.cloudbees.com/company",
       "title": "About CloudBees",
@@ -7780,6 +7938,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_cohere_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q110363143",
+      "title": "Cohere structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_cohere"
+      ],
+      "alias_source_ids": [
+        "src_cohere_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -11289,6 +11467,25 @@
       ]
     },
     {
+      "id": "src_entrust_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q5380812",
+      "title": "Entrust structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_entrust"
+      ],
+      "alias_source_ids": [
+        "src_entrust_wikidata_v097"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_eo",
       "url": "https://eonetwork.org/membership/",
       "title": "Membership",
@@ -12714,6 +12911,26 @@
       ]
     },
     {
+      "id": "src_forcepoint_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q1934027",
+      "title": "Forcepoint structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_forcepoint"
+      ],
+      "alias_source_ids": [
+        "src_forcepoint_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_forescout_about",
       "url": "https://www.forescout.com/company/",
       "title": "About Forescout",
@@ -14065,6 +14282,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_groq_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q126050137",
+      "title": "Groq structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_groq"
+      ],
+      "alias_source_ids": [
+        "src_groq_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -15587,6 +15824,26 @@
       ]
     },
     {
+      "id": "src_hugging-face_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q108943604",
+      "title": "Hugging Face structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_hugging_face"
+      ],
+      "alias_source_ids": [
+        "src_hugging-face_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_huntress_about",
       "url": "https://www.huntress.com/platform/managed-ispm",
       "title": "About Huntress",
@@ -15918,6 +16175,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_illumio_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q19881127",
+      "title": "Illumio structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_illumio"
+      ],
+      "alias_source_ids": [
+        "src_illumio_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -18551,6 +18828,25 @@
       ]
     },
     {
+      "id": "src_malwarebytes_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q1783235",
+      "title": "Malwarebytes structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_malwarebytes"
+      ],
+      "alias_source_ids": [
+        "src_malwarebytes_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
       "id": "src_marqeta_about",
       "url": "https://www.marqeta.com/company",
       "title": "About Marqeta",
@@ -18941,6 +19237,26 @@
       ]
     },
     {
+      "id": "src_mimecast_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q16997846",
+      "title": "Mimecast structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_mimecast"
+      ],
+      "alias_source_ids": [
+        "src_mimecast_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_mindbridge_about",
       "url": "https://www.mindbridge.ai/company",
       "title": "About MindBridge",
@@ -19072,6 +19388,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_mistral-ai_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q119718658",
+      "title": "Mistral AI structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_mistral_ai"
+      ],
+      "alias_source_ids": [
+        "src_mistral-ai_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -21664,6 +22000,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_orca-security_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q108836932",
+      "title": "Orca Security structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_orca_security"
+      ],
+      "alias_source_ids": [
+        "src_orca-security_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -24305,6 +24661,26 @@
       ]
     },
     {
+      "id": "src_qualys_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q7268802",
+      "title": "Qualys structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_qualys"
+      ],
+      "alias_source_ids": [
+        "src_qualys_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_raines-international_about",
       "url": "https://rainesinternational.com/about/",
       "title": "About Raines International",
@@ -24656,6 +25032,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_recorded-future_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q7302875",
+      "title": "Recorded Future structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_recorded_future"
+      ],
+      "alias_source_ids": [
+        "src_recorded-future_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -27620,6 +28016,26 @@
       ]
     },
     {
+      "id": "src_sonicwall_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q616855",
+      "title": "SonicWall structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_sonicwall"
+      ],
+      "alias_source_ids": [
+        "src_sonicwall_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_sovos_about",
       "url": "https://sovos.com/about-us/",
       "title": "About Sovos",
@@ -28578,6 +28994,26 @@
       ]
     },
     {
+      "id": "src_tanium_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q28222607",
+      "title": "Tanium structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_tanium"
+      ],
+      "alias_source_ids": [
+        "src_tanium_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_temenos_about",
       "url": "https://www.temenos.com/about-us/",
       "title": "About Temenos",
@@ -29498,6 +29934,25 @@
       ]
     },
     {
+      "id": "src_together-ai_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q124071418",
+      "title": "Together AI structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_together_ai"
+      ],
+      "alias_source_ids": [
+        "src_together-ai_wikidata_v097"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_transacta_about_2026",
       "url": "https://transactacapital.com/about-us/",
       "title": "About Transacta Capital",
@@ -29783,6 +30238,26 @@
         "cxo_roles",
         "industries",
         "geographies"
+      ]
+    },
+    {
+      "id": "src_trend-micro_wikidata_v097",
+      "url": "https://www.wikidata.org/wiki/Q700974",
+      "title": "Trend Micro structured entity record",
+      "publisher": "Wikidata",
+      "source_type": "structured-knowledge-base",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_trend_micro"
+      ],
+      "alias_source_ids": [
+        "src_trend-micro_wikidata_v097"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {

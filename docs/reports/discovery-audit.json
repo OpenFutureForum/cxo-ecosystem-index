@@ -1,9 +1,9 @@
 {
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "schema_version": "3.2.0",
-  "deployment_commit": "0b2c8da1553655ce77ea960b05dbdf3b14c62a71",
-  "release_fingerprint": "d6e252f86978c44b7c6a8c2225b757bcbc3d11556c65b8d5d291bfb36e130d39",
-  "generated_at": "2026-08-12T15:36:24.609Z",
+  "deployment_commit": "38bcb955d7539cd48fb5b728bd006fa7caed20b5",
+  "release_fingerprint": "717e981ee2517fae586df61b0578b0b058131f2d7bc367111bb2dad10abdc156",
+  "generated_at": "2026-08-12T16:07:28.164Z",
   "indexable_pages": 617,
   "sitemap_urls": 617,
   "pages_with_meaningful_lastmod": 614,

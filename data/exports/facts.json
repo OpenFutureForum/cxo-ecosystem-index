@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "schema_version": "3.2.0",
   "facts": [
     {
@@ -19986,6 +19986,32 @@
       "entity_id": "ent_financial_executives_international"
     },
     {
+      "id": "fact_tanium_founded_year_v097",
+      "field": "founded_year",
+      "value": 2007,
+      "source_ids": [
+        "src_tanium_wikidata_v097",
+        "src_tanium_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_tanium"
+    },
+    {
+      "id": "fact_tanium_headquarters_v097",
+      "field": "headquarters",
+      "value": "Emeryville, California, United States",
+      "source_ids": [
+        "src_tanium_wikidata_v097",
+        "src_tanium_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_tanium"
+    },
+    {
       "id": "fact_tanium_identity_tanium",
       "field": "identity",
       "value": "Tanium",
@@ -20128,6 +20154,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_tanium"
+    },
+    {
+      "id": "fact_trend-micro_founded_year_v097",
+      "field": "founded_year",
+      "value": 1988,
+      "source_ids": [
+        "src_trend-micro_wikidata_v097",
+        "src_trend-micro_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_trend_micro"
+    },
+    {
+      "id": "fact_trend-micro_headquarters_v097",
+      "field": "headquarters",
+      "value": "Shinjuku, Tokyo, Japan",
+      "source_ids": [
+        "src_trend-micro_wikidata_v097",
+        "src_trend-micro_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_trend_micro"
     },
     {
       "id": "fact_trend-micro_identity_trend-micro",
@@ -20274,6 +20326,32 @@
       "entity_id": "ent_trend_micro"
     },
     {
+      "id": "fact_qualys_founded_year_v097",
+      "field": "founded_year",
+      "value": 1999,
+      "source_ids": [
+        "src_qualys_wikidata_v097",
+        "src_qualys_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_qualys"
+    },
+    {
+      "id": "fact_qualys_headquarters_v097",
+      "field": "headquarters",
+      "value": "Foster City, California, United States",
+      "source_ids": [
+        "src_qualys_wikidata_v097",
+        "src_qualys_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_qualys"
+    },
+    {
       "id": "fact_qualys_identity_qualys",
       "field": "identity",
       "value": "Qualys",
@@ -20416,6 +20494,19 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_qualys"
+    },
+    {
+      "id": "fact_barracuda-networks_founded_year_v097",
+      "field": "founded_year",
+      "value": 2003,
+      "source_ids": [
+        "src_barracuda-networks_wikidata_v097",
+        "src_barracuda-networks_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_barracuda_networks"
     },
     {
       "id": "fact_barracuda-networks_identity_barracuda-networks",
@@ -20562,6 +20653,19 @@
       "entity_id": "ent_barracuda_networks"
     },
     {
+      "id": "fact_malwarebytes_founded_year_v097",
+      "field": "founded_year",
+      "value": 2006,
+      "source_ids": [
+        "src_malwarebytes_wikidata_v097",
+        "src_malwarebytes_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_malwarebytes"
+    },
+    {
       "id": "fact_malwarebytes_identity_malwarebytes",
       "field": "identity",
       "value": "Malwarebytes",
@@ -20704,6 +20808,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_malwarebytes"
+    },
+    {
+      "id": "fact_mimecast_founded_year_v097",
+      "field": "founded_year",
+      "value": 2003,
+      "source_ids": [
+        "src_mimecast_wikidata_v097",
+        "src_mimecast_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_mimecast"
+    },
+    {
+      "id": "fact_mimecast_headquarters_v097",
+      "field": "headquarters",
+      "value": "London, United Kingdom",
+      "source_ids": [
+        "src_mimecast_wikidata_v097",
+        "src_mimecast_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_mimecast"
     },
     {
       "id": "fact_mimecast_identity_mimecast",
@@ -21138,6 +21268,32 @@
       "entity_id": "ent_island"
     },
     {
+      "id": "fact_axonius_founded_year_v097",
+      "field": "founded_year",
+      "value": 2017,
+      "source_ids": [
+        "src_axonius_wikidata_v097",
+        "src_axonius_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_axonius"
+    },
+    {
+      "id": "fact_axonius_headquarters_v097",
+      "field": "headquarters",
+      "value": "Tel Aviv, Israel",
+      "source_ids": [
+        "src_axonius_wikidata_v097",
+        "src_axonius_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_axonius"
+    },
+    {
       "id": "fact_axonius_identity_axonius",
       "field": "identity",
       "value": "Axonius",
@@ -21280,6 +21436,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_axonius"
+    },
+    {
+      "id": "fact_illumio_founded_year_v097",
+      "field": "founded_year",
+      "value": 2013,
+      "source_ids": [
+        "src_illumio_wikidata_v097",
+        "src_illumio_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_illumio"
+    },
+    {
+      "id": "fact_illumio_headquarters_v097",
+      "field": "headquarters",
+      "value": "Sunnyvale, California, United States",
+      "source_ids": [
+        "src_illumio_wikidata_v097",
+        "src_illumio_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_illumio"
     },
     {
       "id": "fact_illumio_identity_illumio",
@@ -21426,6 +21608,32 @@
       "entity_id": "ent_illumio"
     },
     {
+      "id": "fact_orca-security_founded_year_v097",
+      "field": "founded_year",
+      "value": 2019,
+      "source_ids": [
+        "src_orca-security_wikidata_v097",
+        "src_orca-security_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_orca_security"
+    },
+    {
+      "id": "fact_orca-security_headquarters_v097",
+      "field": "headquarters",
+      "value": "Tel Aviv, Israel",
+      "source_ids": [
+        "src_orca-security_wikidata_v097",
+        "src_orca-security_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_orca_security"
+    },
+    {
       "id": "fact_orca-security_identity_orca-security",
       "field": "identity",
       "value": "Orca Security",
@@ -21568,6 +21776,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_orca_security"
+    },
+    {
+      "id": "fact_forcepoint_founded_year_v097",
+      "field": "founded_year",
+      "value": 1994,
+      "source_ids": [
+        "src_forcepoint_wikidata_v097",
+        "src_forcepoint_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_forcepoint"
+    },
+    {
+      "id": "fact_forcepoint_headquarters_v097",
+      "field": "headquarters",
+      "value": "San Diego, California, United States",
+      "source_ids": [
+        "src_forcepoint_wikidata_v097",
+        "src_forcepoint_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_forcepoint"
     },
     {
       "id": "fact_forcepoint_identity_forcepoint",
@@ -21714,6 +21948,32 @@
       "entity_id": "ent_forcepoint"
     },
     {
+      "id": "fact_sonicwall_founded_year_v097",
+      "field": "founded_year",
+      "value": 1991,
+      "source_ids": [
+        "src_sonicwall_wikidata_v097",
+        "src_sonicwall_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_sonicwall"
+    },
+    {
+      "id": "fact_sonicwall_headquarters_v097",
+      "field": "headquarters",
+      "value": "Milpitas, California, United States",
+      "source_ids": [
+        "src_sonicwall_wikidata_v097",
+        "src_sonicwall_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_sonicwall"
+    },
+    {
       "id": "fact_sonicwall_identity_sonicwall",
       "field": "identity",
       "value": "SonicWall",
@@ -21858,6 +22118,32 @@
       "entity_id": "ent_sonicwall"
     },
     {
+      "id": "fact_cato-networks_founded_year_v097",
+      "field": "founded_year",
+      "value": 2015,
+      "source_ids": [
+        "src_cato-networks_wikidata_v097",
+        "src_cato-networks_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cato_networks"
+    },
+    {
+      "id": "fact_cato-networks_headquarters_v097",
+      "field": "headquarters",
+      "value": "Tel Aviv, Israel",
+      "source_ids": [
+        "src_cato-networks_wikidata_v097",
+        "src_cato-networks_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cato_networks"
+    },
+    {
       "id": "fact_cato-networks_identity_cato-networks",
       "field": "identity",
       "value": "Cato Networks",
@@ -22000,6 +22286,19 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_cato_networks"
+    },
+    {
+      "id": "fact_claroty_founded_year_v097",
+      "field": "founded_year",
+      "value": 2015,
+      "source_ids": [
+        "src_claroty_wikidata_v097",
+        "src_claroty_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_claroty"
     },
     {
       "id": "fact_claroty_identity_claroty",
@@ -22576,6 +22875,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_armis"
+    },
+    {
+      "id": "fact_bigid_founded_year_v097",
+      "field": "founded_year",
+      "value": 2016,
+      "source_ids": [
+        "src_bigid_wikidata_v097",
+        "src_bigid_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_bigid"
+    },
+    {
+      "id": "fact_bigid_headquarters_v097",
+      "field": "headquarters",
+      "value": "New York City, New York, United States",
+      "source_ids": [
+        "src_bigid_wikidata_v097",
+        "src_bigid_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_bigid"
     },
     {
       "id": "fact_bigid_identity_bigid",
@@ -24738,6 +25063,32 @@
       "entity_id": "ent_vectra_ai"
     },
     {
+      "id": "fact_recorded-future_founded_year_v097",
+      "field": "founded_year",
+      "value": 2008,
+      "source_ids": [
+        "src_recorded-future_wikidata_v097",
+        "src_recorded-future_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_recorded_future"
+    },
+    {
+      "id": "fact_recorded-future_headquarters_v097",
+      "field": "headquarters",
+      "value": "Somerville, Massachusetts, United States",
+      "source_ids": [
+        "src_recorded-future_wikidata_v097",
+        "src_recorded-future_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_recorded_future"
+    },
+    {
       "id": "fact_recorded-future_identity_recorded-future",
       "field": "identity",
       "value": "Recorded Future",
@@ -24882,6 +25233,19 @@
       "entity_id": "ent_recorded_future"
     },
     {
+      "id": "fact_entrust_headquarters_v097",
+      "field": "headquarters",
+      "value": "Shakopee, Minnesota, United States",
+      "source_ids": [
+        "src_entrust_wikidata_v097",
+        "src_entrust_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_entrust"
+    },
+    {
       "id": "fact_entrust_identity_entrust",
       "field": "identity",
       "value": "Entrust",
@@ -25024,6 +25388,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_entrust"
+    },
+    {
+      "id": "fact_anthropic_founded_year_v097",
+      "field": "founded_year",
+      "value": 2021,
+      "source_ids": [
+        "src_anthropic_wikidata_v097",
+        "src_anthropic_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_anthropic"
+    },
+    {
+      "id": "fact_anthropic_headquarters_v097",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_anthropic_wikidata_v097",
+        "src_anthropic_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_anthropic"
     },
     {
       "id": "fact_anthropic_identity_anthropic",
@@ -25180,6 +25570,32 @@
       "entity_id": "ent_anthropic"
     },
     {
+      "id": "fact_cohere_founded_year_v097",
+      "field": "founded_year",
+      "value": 2019,
+      "source_ids": [
+        "src_cohere_wikidata_v097",
+        "src_cohere_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cohere"
+    },
+    {
+      "id": "fact_cohere_headquarters_v097",
+      "field": "headquarters",
+      "value": "Toronto, Ontario, Canada",
+      "source_ids": [
+        "src_cohere_wikidata_v097",
+        "src_cohere_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cohere"
+    },
+    {
       "id": "fact_cohere_identity_cohere",
       "field": "identity",
       "value": "Cohere",
@@ -25332,6 +25748,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_cohere"
+    },
+    {
+      "id": "fact_mistral-ai_founded_year_v097",
+      "field": "founded_year",
+      "value": 2023,
+      "source_ids": [
+        "src_mistral-ai_wikidata_v097",
+        "src_mistral-ai_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_mistral_ai"
+    },
+    {
+      "id": "fact_mistral-ai_headquarters_v097",
+      "field": "headquarters",
+      "value": "Paris, France",
+      "source_ids": [
+        "src_mistral-ai_wikidata_v097",
+        "src_mistral-ai_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_mistral_ai"
     },
     {
       "id": "fact_mistral-ai_identity_mistral-ai",
@@ -25488,6 +25930,32 @@
       "entity_id": "ent_mistral_ai"
     },
     {
+      "id": "fact_hugging-face_founded_year_v097",
+      "field": "founded_year",
+      "value": 2016,
+      "source_ids": [
+        "src_hugging-face_wikidata_v097",
+        "src_hugging-face_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_hugging_face"
+    },
+    {
+      "id": "fact_hugging-face_headquarters_v097",
+      "field": "headquarters",
+      "value": "Brooklyn, New York, United States",
+      "source_ids": [
+        "src_hugging-face_wikidata_v097",
+        "src_hugging-face_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_hugging_face"
+    },
+    {
       "id": "fact_hugging-face_identity_hugging-face",
       "field": "identity",
       "value": "Hugging Face",
@@ -25640,6 +26108,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_hugging_face"
+    },
+    {
+      "id": "fact_cerebras_founded_year_v097",
+      "field": "founded_year",
+      "value": 2016,
+      "source_ids": [
+        "src_cerebras_wikidata_v097",
+        "src_cerebras_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cerebras"
+    },
+    {
+      "id": "fact_cerebras_headquarters_v097",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_cerebras_wikidata_v097",
+        "src_cerebras_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_cerebras"
     },
     {
       "id": "fact_cerebras_identity_cerebras",
@@ -25796,6 +26290,32 @@
       "entity_id": "ent_cerebras"
     },
     {
+      "id": "fact_groq_founded_year_v097",
+      "field": "founded_year",
+      "value": 2016,
+      "source_ids": [
+        "src_groq_wikidata_v097",
+        "src_groq_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_groq"
+    },
+    {
+      "id": "fact_groq_headquarters_v097",
+      "field": "headquarters",
+      "value": "Mountain View, California, United States",
+      "source_ids": [
+        "src_groq_wikidata_v097",
+        "src_groq_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_groq"
+    },
+    {
       "id": "fact_groq_identity_groq",
       "field": "identity",
       "value": "Groq",
@@ -25950,6 +26470,19 @@
       "entity_id": "ent_groq"
     },
     {
+      "id": "fact_together-ai_headquarters_v097",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_together-ai_wikidata_v097",
+        "src_together-ai_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_together_ai"
+    },
+    {
       "id": "fact_together-ai_identity_together-ai",
       "field": "identity",
       "value": "Together AI",
@@ -26102,6 +26635,32 @@
       ],
       "last_verified": "2026-08-12",
       "entity_id": "ent_together_ai"
+    },
+    {
+      "id": "fact_akamai_founded_year_v097",
+      "field": "founded_year",
+      "value": 1998,
+      "source_ids": [
+        "src_akamai_wikidata_v097",
+        "src_akamai_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_akamai"
+    },
+    {
+      "id": "fact_akamai_headquarters_v097",
+      "field": "headquarters",
+      "value": "Cambridge, Massachusetts, United States",
+      "source_ids": [
+        "src_akamai_wikidata_v097",
+        "src_akamai_wikidata_v097"
+      ],
+      "as_of_date": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "entity_id": "ent_akamai"
     },
     {
       "id": "fact_akamai_identity_akamai",

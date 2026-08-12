@@ -1,6 +1,6 @@
 import {slug} from './lib.mjs';
 
-export const DATASET_VERSION='0.9.6';
+export const DATASET_VERSION='0.9.7';
 export const CALCULATED_AT='2026-08-12';
 export const INTELLIGENCE_SCHEMA_VERSION='1.4.0';
 export const HEADLINE_COVERAGE_THRESHOLD=.6;

@@ -14,9 +14,10 @@ test('canonical sources and graph references are deterministic',()=>{
  assert.equal(new Set(sources.map(source=>source.url)).size,sources.length);
  const graph=buildKnowledgeGraph(entities,relationships,sources);
  assert.equal(graph.sourced_relationship_count,relationships.length);
- assert.equal(graph.sourced_relationship_count,29);
- assert.equal(graph.derived_reciprocal_count,29);
- assert.equal(graph.relationships.filter(edge=>edge.derived_reciprocal).length,29);
+ assert.equal(graph.sourced_relationship_count,47);
+ assert.equal(graph.derived_reciprocal_count,47);
+ assert.equal(graph.relationships.filter(edge=>edge.derived_reciprocal).length,47);
+ assert.equal(relationships.filter(edge=>edge.as_of_date==='2026-08-12').length>=18,true);
 });
 
 test('quantitative facts and derived metrics retain audit traces',async()=>{
@@ -37,6 +38,6 @@ test('quantitative facts and derived metrics retain audit traces',async()=>{
 test('governance exports are published',async()=>{
  for(const file of ['sources.json','facts.json','relationships.json','knowledge-graph.json','search-index.json'])await fs.access(path.join(root,'docs/data',file));
  const graph=JSON.parse(await fs.readFile(path.join(root,'docs/data/knowledge-graph.json'),'utf8'));
- assert.equal(graph.dataset_version,'0.9.6');
+ assert.equal(graph.dataset_version,'0.9.7');
  assert.equal(graph.schema_version,'3.2.0');
 });

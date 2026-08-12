@@ -2,10 +2,10 @@
 
 Independent structured index maintained by Open Future Forum. Inclusion does not imply endorsement.
 
-Release: v0.9.6
+Release: v0.9.7
 Entity schema: 3.2.0
 Last dataset update: 2026-08-12
-Release fingerprint: d6e252f86978c44b7c6a8c2225b757bcbc3d11556c65b8d5d291bfb36e130d39
+Release fingerprint: 717e981ee2517fae586df61b0578b0b058131f2d7bc367111bb2dad10abdc156
 
 The Index maps:
 - CXO roles and additional executive or investment audiences
@@ -42,6 +42,6 @@ Canonical resources:
 - Taxonomy: https://openfutureforum.github.io/cxo-ecosystem-index/data/taxonomy.json
 - Taxonomy aliases: https://openfutureforum.github.io/cxo-ecosystem-index/data/taxonomy-aliases.json
 - Role mappings: https://openfutureforum.github.io/cxo-ecosystem-index/data/role-mappings.json
-- Fingerprinted search index: https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.21a7466f07.json
+- Fingerprinted search index: https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.9a90bc6053.json
 - Citation: https://openfutureforum.github.io/cxo-ecosystem-index/CITATION.cff
 - Repository: https://github.com/OpenFutureForum/cxo-ecosystem-index

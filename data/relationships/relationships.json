@@ -1,70 +1,754 @@
 [
   {
-    "id":"rel_svb_division_of_first_citizens",
-    "subject_entity_id":"ent_silicon_valley_bank",
-    "predicate":"division_of",
-    "object_entity_id":"ent_first_citizens_bank",
-    "status":"current",
-    "valid_from":"2023-03-27",
-    "valid_to":null,
-    "as_of_date":"2026-08-11",
-    "verification_status":"verified",
-    "confidence":"high",
-    "source_ids":["src_silicon-valley-bank_official"],
-    "notes":"Silicon Valley Bank operates as a division of First Citizens Bank following the 2023 acquisition of substantially all deposits and loans."
+    "id": "rel_svb_division_of_first_citizens",
+    "subject_entity_id": "ent_silicon_valley_bank",
+    "predicate": "division_of",
+    "object_entity_id": "ent_first_citizens_bank",
+    "status": "current",
+    "valid_from": "2023-03-27",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_silicon-valley-bank_official"
+    ],
+    "notes": "Silicon Valley Bank operates as a division of First Citizens Bank following the 2023 acquisition of substantially all deposits and loans."
   },
   {
-    "id":"rel_brex_acquired_by_capital_one",
-    "subject_entity_id":"ent_brex",
-    "predicate":"acquired_by",
-    "object_entity_id":"ent_capital_one",
-    "status":"current",
-    "valid_from":"2026-04-07",
-    "valid_to":null,
-    "as_of_date":"2026-08-11",
-    "verification_status":"verified",
-    "confidence":"high",
-    "source_ids":["src_brex_acquisition_2026"],
-    "notes":"Capital One completed its acquisition of Brex on April 7, 2026. Brex continues operating under its brand with Pedro Franceschi as CEO."
+    "id": "rel_brex_acquired_by_capital_one",
+    "subject_entity_id": "ent_brex",
+    "predicate": "acquired_by",
+    "object_entity_id": "ent_capital_one",
+    "status": "current",
+    "valid_from": "2026-04-07",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_brex_acquisition_2026"
+    ],
+    "notes": "Capital One completed its acquisition of Brex on April 7, 2026. Brex continues operating under its brand with Pedro Franceschi as CEO."
   },
   {
-    "id":"rel_bill_integrates_with_rillet",
-    "subject_entity_id":"ent_bill",
-    "predicate":"integrates_with",
-    "object_entity_id":"ent_rillet",
-    "status":"current",
-    "valid_from":"2026-04-29",
-    "valid_to":null,
-    "as_of_date":"2026-08-11",
-    "verification_status":"verified",
-    "confidence":"high",
-    "source_ids":["src_bill_rillet_2026"],
-    "notes":"BILL announced a product integration with Rillet for synchronizing vendors, accounts, bills and payments."
+    "id": "rel_bill_integrates_with_rillet",
+    "subject_entity_id": "ent_bill",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_rillet",
+    "status": "current",
+    "valid_from": "2026-04-29",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_bill_rillet_2026"
+    ],
+    "notes": "BILL announced a product integration with Rillet for synchronizing vendors, accounts, bills and payments."
   },
-  {"id":"rel_affirm_partner_of_jpmorgan","subject_entity_id":"ent_affirm","predicate":"partner_of","object_entity_id":"ent_jpmorgan","status":"current","valid_from":"2025-03-25","valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_affirm_jpmorgan_2026"],"notes":"Affirm joined the J.P. Morgan Payments Partner Network and integrated its payment options with the Commerce Platform."},
-  {"id":"rel_ironarc_invested_in_scale_ai","subject_entity_id":"ent_ironarc_ventures","predicate":"invested_in","object_entity_id":"ent_scale_ai","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_ironarc_portfolio_2026"],"notes":"Scale AI appears in IronArc Ventures' official portfolio."},
-  {"id":"rel_opal_partner_of_dla_piper","subject_entity_id":"ent_opal_group","predicate":"partner_of","object_entity_id":"ent_dla_piper","status":"current","valid_from":"2026-03-31","valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_opal_dla_2026"],"notes":"Opal Group's fund-finance summit identifies DLA Piper as the exclusive host."},
-  {"id":"rel_payzen_integrates_with_oracle","subject_entity_id":"ent_payzen","predicate":"integrates_with","object_entity_id":"ent_oracle","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_payzen_platform_2026"],"notes":"PayZen documents pre-built integration with Cerner, an Oracle healthcare platform."},
-  {"id":"rel_databricks_integrates_with_microsoft","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_microsoft","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed connector for Microsoft Dynamics 365."},
-  {"id":"rel_databricks_integrates_with_salesforce","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_salesforce","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed connector for Salesforce Marketing Cloud."},
-  {"id":"rel_databricks_integrates_with_servicenow","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_servicenow","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed ServiceNow connector."},
-  {"id":"rel_databricks_integrates_with_sap","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_sap","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents managed SAP connectors."},
-  {"id":"rel_databricks_integrates_with_oracle","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_oracle","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed Oracle NetSuite connector."},
-  {"id":"rel_databricks_integrates_with_wiz","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_wiz","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed Wiz connector."},
-  {"id":"rel_databricks_integrates_with_workday","subject_entity_id":"ent_databricks","predicate":"integrates_with","object_entity_id":"ent_workday","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_databricks_connectors_2026"],"notes":"Databricks documents a managed Workday Reports connector."},
-  {"id":"rel_workday_partner_of_deloitte","subject_entity_id":"ent_workday","predicate":"partner_of","object_entity_id":"ent_deloitte","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_workday_partners_2026"],"notes":"Deloitte is listed as a Workday services partner."},
-  {"id":"rel_workday_partner_of_kpmg","subject_entity_id":"ent_workday","predicate":"partner_of","object_entity_id":"ent_kpmg","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_workday_partners_2026"],"notes":"KPMG is listed as a Workday services partner."},
-  {"id":"rel_workday_partner_of_cognizant","subject_entity_id":"ent_workday","predicate":"partner_of","object_entity_id":"ent_cognizant","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_workday_partners_2026"],"notes":"Cognizant is listed as a Workday services partner."},
-  {"id":"rel_workday_partner_of_pwc","subject_entity_id":"ent_workday","predicate":"partner_of","object_entity_id":"ent_pwc","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_workday_awards_2026"],"notes":"PwC is identified by Workday as a partner and regional Partner of the Year."},
-  {"id":"rel_servicenow_partner_of_cognizant","subject_entity_id":"ent_servicenow","predicate":"partner_of","object_entity_id":"ent_cognizant","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_servicenow_partner_awards_2026"],"notes":"ServiceNow identifies Cognizant as a 2026 partner-award recipient."},
-  {"id":"rel_servicenow_partner_of_deloitte","subject_entity_id":"ent_servicenow","predicate":"partner_of","object_entity_id":"ent_deloitte","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_servicenow_partner_awards_2026"],"notes":"ServiceNow identifies Deloitte as a 2026 partner-award recipient."},
-  {"id":"rel_servicenow_partner_of_kpmg","subject_entity_id":"ent_servicenow","predicate":"partner_of","object_entity_id":"ent_kpmg","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_servicenow_partner_awards_2026"],"notes":"ServiceNow identifies KPMG as a 2026 partner-award recipient."},
-  {"id":"rel_servicenow_partner_of_capgemini","subject_entity_id":"ent_servicenow","predicate":"partner_of","object_entity_id":"ent_capgemini","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_servicenow_partner_awards_2026"],"notes":"ServiceNow identifies Capgemini as a 2026 partner-award recipient."},
-  {"id":"rel_servicenow_partner_of_ey","subject_entity_id":"ent_servicenow","predicate":"partner_of","object_entity_id":"ent_ey","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_servicenow_partner_awards_2026"],"notes":"ServiceNow identifies EY as a 2026 partner-award recipient."},
-  {"id":"rel_nvidia_partner_of_microsoft","subject_entity_id":"ent_nvidia","predicate":"partner_of","object_entity_id":"ent_microsoft","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_nvidia_industry_partners_2026"],"notes":"Microsoft Azure is listed in NVIDIA's official industrial partner ecosystem."},
-  {"id":"rel_nvidia_partner_of_oracle","subject_entity_id":"ent_nvidia","predicate":"partner_of","object_entity_id":"ent_oracle","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_nvidia_industry_partners_2026"],"notes":"Oracle Cloud Infrastructure is listed in NVIDIA's official industrial partner ecosystem."},
-  {"id":"rel_nvidia_partner_of_servicenow","subject_entity_id":"ent_nvidia","predicate":"partner_of","object_entity_id":"ent_servicenow","status":"current","valid_from":"2026-05-05","valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_nvidia_servicenow_2026"],"notes":"NVIDIA and ServiceNow announced an expanded collaboration on governed autonomous AI agents."},
-  {"id":"rel_nvidia_partner_of_sap","subject_entity_id":"ent_nvidia","predicate":"partner_of","object_entity_id":"ent_sap","status":"current","valid_from":"2026-05-12","valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_nvidia_sap_2026"],"notes":"NVIDIA and SAP announced an expanded collaboration around secure specialized agents."},
-  {"id":"rel_bill_integrates_with_intuit","subject_entity_id":"ent_bill","predicate":"integrates_with","object_entity_id":"ent_intuit","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_bill_intuit_2026"],"notes":"BILL documents its current two-way integration with Intuit QuickBooks Online and Desktop."},
-  {"id":"rel_rippling_integrates_with_microsoft","subject_entity_id":"ent_rippling","predicate":"integrates_with","object_entity_id":"ent_microsoft","status":"current","valid_from":null,"valid_to":null,"as_of_date":"2026-08-11","verification_status":"verified","confidence":"high","source_ids":["src_rippling_microsoft_2026"],"notes":"Rippling documents its provisioning integration with Microsoft Entra ID for shared customers."}
+  {
+    "id": "rel_affirm_partner_of_jpmorgan",
+    "subject_entity_id": "ent_affirm",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_jpmorgan",
+    "status": "current",
+    "valid_from": "2025-03-25",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_affirm_jpmorgan_2026"
+    ],
+    "notes": "Affirm joined the J.P. Morgan Payments Partner Network and integrated its payment options with the Commerce Platform."
+  },
+  {
+    "id": "rel_ironarc_invested_in_scale_ai",
+    "subject_entity_id": "ent_ironarc_ventures",
+    "predicate": "invested_in",
+    "object_entity_id": "ent_scale_ai",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_ironarc_portfolio_2026"
+    ],
+    "notes": "Scale AI appears in IronArc Ventures' official portfolio."
+  },
+  {
+    "id": "rel_opal_partner_of_dla_piper",
+    "subject_entity_id": "ent_opal_group",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_dla_piper",
+    "status": "current",
+    "valid_from": "2026-03-31",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_opal_dla_2026"
+    ],
+    "notes": "Opal Group's fund-finance summit identifies DLA Piper as the exclusive host."
+  },
+  {
+    "id": "rel_payzen_integrates_with_oracle",
+    "subject_entity_id": "ent_payzen",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_oracle",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_payzen_platform_2026"
+    ],
+    "notes": "PayZen documents pre-built integration with Cerner, an Oracle healthcare platform."
+  },
+  {
+    "id": "rel_databricks_integrates_with_microsoft",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_microsoft",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed connector for Microsoft Dynamics 365."
+  },
+  {
+    "id": "rel_databricks_integrates_with_salesforce",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_salesforce",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed connector for Salesforce Marketing Cloud."
+  },
+  {
+    "id": "rel_databricks_integrates_with_servicenow",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_servicenow",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed ServiceNow connector."
+  },
+  {
+    "id": "rel_databricks_integrates_with_sap",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_sap",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents managed SAP connectors."
+  },
+  {
+    "id": "rel_databricks_integrates_with_oracle",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_oracle",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed Oracle NetSuite connector."
+  },
+  {
+    "id": "rel_databricks_integrates_with_wiz",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_wiz",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed Wiz connector."
+  },
+  {
+    "id": "rel_databricks_integrates_with_workday",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_workday",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed Workday Reports connector."
+  },
+  {
+    "id": "rel_workday_partner_of_deloitte",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_deloitte",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_partners_2026"
+    ],
+    "notes": "Deloitte is listed as a Workday services partner."
+  },
+  {
+    "id": "rel_workday_partner_of_kpmg",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_kpmg",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_partners_2026"
+    ],
+    "notes": "KPMG is listed as a Workday services partner."
+  },
+  {
+    "id": "rel_workday_partner_of_cognizant",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_cognizant",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_partners_2026"
+    ],
+    "notes": "Cognizant is listed as a Workday services partner."
+  },
+  {
+    "id": "rel_workday_partner_of_pwc",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_pwc",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_awards_2026"
+    ],
+    "notes": "PwC is identified by Workday as a partner and regional Partner of the Year."
+  },
+  {
+    "id": "rel_servicenow_partner_of_cognizant",
+    "subject_entity_id": "ent_servicenow",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_cognizant",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_servicenow_partner_awards_2026"
+    ],
+    "notes": "ServiceNow identifies Cognizant as a 2026 partner-award recipient."
+  },
+  {
+    "id": "rel_servicenow_partner_of_deloitte",
+    "subject_entity_id": "ent_servicenow",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_deloitte",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_servicenow_partner_awards_2026"
+    ],
+    "notes": "ServiceNow identifies Deloitte as a 2026 partner-award recipient."
+  },
+  {
+    "id": "rel_servicenow_partner_of_kpmg",
+    "subject_entity_id": "ent_servicenow",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_kpmg",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_servicenow_partner_awards_2026"
+    ],
+    "notes": "ServiceNow identifies KPMG as a 2026 partner-award recipient."
+  },
+  {
+    "id": "rel_servicenow_partner_of_capgemini",
+    "subject_entity_id": "ent_servicenow",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_capgemini",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_servicenow_partner_awards_2026"
+    ],
+    "notes": "ServiceNow identifies Capgemini as a 2026 partner-award recipient."
+  },
+  {
+    "id": "rel_servicenow_partner_of_ey",
+    "subject_entity_id": "ent_servicenow",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_ey",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_servicenow_partner_awards_2026"
+    ],
+    "notes": "ServiceNow identifies EY as a 2026 partner-award recipient."
+  },
+  {
+    "id": "rel_nvidia_partner_of_microsoft",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_microsoft",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Microsoft Azure is listed in NVIDIA's official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_oracle",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_oracle",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Oracle Cloud Infrastructure is listed in NVIDIA's official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_servicenow",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_servicenow",
+    "status": "current",
+    "valid_from": "2026-05-05",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_servicenow_2026"
+    ],
+    "notes": "NVIDIA and ServiceNow announced an expanded collaboration on governed autonomous AI agents."
+  },
+  {
+    "id": "rel_nvidia_partner_of_sap",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_sap",
+    "status": "current",
+    "valid_from": "2026-05-12",
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_sap_2026"
+    ],
+    "notes": "NVIDIA and SAP announced an expanded collaboration around secure specialized agents."
+  },
+  {
+    "id": "rel_bill_integrates_with_intuit",
+    "subject_entity_id": "ent_bill",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_intuit",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_bill_intuit_2026"
+    ],
+    "notes": "BILL documents its current two-way integration with Intuit QuickBooks Online and Desktop."
+  },
+  {
+    "id": "rel_rippling_integrates_with_microsoft",
+    "subject_entity_id": "ent_rippling",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_microsoft",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-11",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_rippling_microsoft_2026"
+    ],
+    "notes": "Rippling documents its provisioning integration with Microsoft Entra ID for shared customers."
+  },
+  {
+    "id": "rel_databricks_integrates_with_hubspot",
+    "subject_entity_id": "ent_databricks",
+    "predicate": "integrates_with",
+    "object_entity_id": "ent_hubspot",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_databricks_connectors_2026"
+    ],
+    "notes": "Databricks documents a managed HubSpot connector."
+  },
+  {
+    "id": "rel_workday_partner_of_accenture",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_accenture",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_partners_2026"
+    ],
+    "notes": "Accenture is listed in the official Workday partner marketplace."
+  },
+  {
+    "id": "rel_workday_partner_of_ibm",
+    "subject_entity_id": "ent_workday",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_ibm",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_workday_partners_2026"
+    ],
+    "notes": "IBM is listed in the official Workday partner marketplace."
+  },
+  {
+    "id": "rel_nvidia_partner_of_aws",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_amazon_web_services",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Amazon Web Services is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_google_cloud",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_google_cloud",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Google Cloud is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_dell",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_dell_technologies",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Dell Technologies is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_lenovo",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_lenovo",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Lenovo is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_supermicro",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_supermicro",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Supermicro is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_accenture",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_accenture",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Accenture is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_capgemini",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_capgemini",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Capgemini is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_deloitte",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_deloitte",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "Deloitte is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_nvidia_partner_of_ey",
+    "subject_entity_id": "ent_nvidia",
+    "predicate": "partner_of",
+    "object_entity_id": "ent_ey",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_nvidia_industry_partners_2026"
+    ],
+    "notes": "EY is listed in NVIDIA’s official industrial partner ecosystem."
+  },
+  {
+    "id": "rel_vmware_acquired_by_broadcom",
+    "subject_entity_id": "ent_vmware",
+    "predicate": "acquired_by",
+    "object_entity_id": "ent_broadcom",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_vmware_about"
+    ],
+    "notes": "VMware is a Broadcom company following Broadcom’s completed acquisition."
+  },
+  {
+    "id": "rel_hashicorp_acquired_by_ibm",
+    "subject_entity_id": "ent_hashicorp",
+    "predicate": "acquired_by",
+    "object_entity_id": "ent_ibm",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_hashicorp_about"
+    ],
+    "notes": "HashiCorp is an IBM company following IBM’s completed acquisition."
+  },
+  {
+    "id": "rel_red_hat_subsidiary_of_ibm",
+    "subject_entity_id": "ent_red_hat",
+    "predicate": "subsidiary_of",
+    "object_entity_id": "ent_ibm",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_red-hat_about"
+    ],
+    "notes": "Red Hat operates as an IBM subsidiary."
+  },
+  {
+    "id": "rel_github_subsidiary_of_microsoft",
+    "subject_entity_id": "ent_github",
+    "predicate": "subsidiary_of",
+    "object_entity_id": "ent_microsoft",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_github_about"
+    ],
+    "notes": "GitHub is a Microsoft subsidiary."
+  },
+  {
+    "id": "rel_netsuite_division_of_oracle",
+    "subject_entity_id": "ent_oracle_netsuite",
+    "predicate": "division_of",
+    "object_entity_id": "ent_oracle",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_oracle-netsuite_about"
+    ],
+    "notes": "NetSuite operates as an Oracle business unit."
+  },
+  {
+    "id": "rel_paycor_acquired_by_paychex",
+    "subject_entity_id": "ent_paycor",
+    "predicate": "acquired_by",
+    "object_entity_id": "ent_paychex",
+    "status": "current",
+    "valid_from": null,
+    "valid_to": null,
+    "as_of_date": "2026-08-12",
+    "verification_status": "verified",
+    "confidence": "high",
+    "source_ids": [
+      "src_paycor_about"
+    ],
+    "notes": "Paycor is a Paychex company following the completed acquisition."
+  }
 ]

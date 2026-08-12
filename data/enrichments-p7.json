@@ -1,0 +1,993 @@
+[
+  {
+    "entity_id": "ent_tanium",
+    "founded_year": 2007,
+    "headquarters": "Emeryville, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_tanium_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q28222607",
+        "title": "Tanium structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_tanium_founded_year_v097",
+        "field": "founded_year",
+        "value": 2007,
+        "source_ids": [
+          "src_tanium_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_tanium_headquarters_v097",
+        "field": "headquarters",
+        "value": "Emeryville, California, United States",
+        "source_ids": [
+          "src_tanium_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_trend_micro",
+    "founded_year": 1988,
+    "headquarters": "Shinjuku, Tokyo, Japan",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_trend-micro_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q700974",
+        "title": "Trend Micro structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_trend-micro_founded_year_v097",
+        "field": "founded_year",
+        "value": 1988,
+        "source_ids": [
+          "src_trend-micro_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_trend-micro_headquarters_v097",
+        "field": "headquarters",
+        "value": "Shinjuku, Tokyo, Japan",
+        "source_ids": [
+          "src_trend-micro_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_qualys",
+    "founded_year": 1999,
+    "headquarters": "Foster City, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_qualys_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q7268802",
+        "title": "Qualys structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_qualys_founded_year_v097",
+        "field": "founded_year",
+        "value": 1999,
+        "source_ids": [
+          "src_qualys_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_qualys_headquarters_v097",
+        "field": "headquarters",
+        "value": "Foster City, California, United States",
+        "source_ids": [
+          "src_qualys_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_barracuda_networks",
+    "founded_year": 2003,
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_barracuda-networks_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q4863194",
+        "title": "Barracuda Networks structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_barracuda-networks_founded_year_v097",
+        "field": "founded_year",
+        "value": 2003,
+        "source_ids": [
+          "src_barracuda-networks_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_malwarebytes",
+    "founded_year": 2006,
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_malwarebytes_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q1783235",
+        "title": "Malwarebytes structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_malwarebytes_founded_year_v097",
+        "field": "founded_year",
+        "value": 2006,
+        "source_ids": [
+          "src_malwarebytes_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mimecast",
+    "founded_year": 2003,
+    "headquarters": "London, United Kingdom",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_mimecast_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q16997846",
+        "title": "Mimecast structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_mimecast_founded_year_v097",
+        "field": "founded_year",
+        "value": 2003,
+        "source_ids": [
+          "src_mimecast_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_mimecast_headquarters_v097",
+        "field": "headquarters",
+        "value": "London, United Kingdom",
+        "source_ids": [
+          "src_mimecast_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_axonius",
+    "founded_year": 2017,
+    "headquarters": "Tel Aviv, Israel",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_axonius_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q134100736",
+        "title": "Axonius structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_axonius_founded_year_v097",
+        "field": "founded_year",
+        "value": 2017,
+        "source_ids": [
+          "src_axonius_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_axonius_headquarters_v097",
+        "field": "headquarters",
+        "value": "Tel Aviv, Israel",
+        "source_ids": [
+          "src_axonius_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_illumio",
+    "founded_year": 2013,
+    "headquarters": "Sunnyvale, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_illumio_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q19881127",
+        "title": "Illumio structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_illumio_founded_year_v097",
+        "field": "founded_year",
+        "value": 2013,
+        "source_ids": [
+          "src_illumio_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_illumio_headquarters_v097",
+        "field": "headquarters",
+        "value": "Sunnyvale, California, United States",
+        "source_ids": [
+          "src_illumio_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_orca_security",
+    "founded_year": 2019,
+    "headquarters": "Tel Aviv, Israel",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_orca-security_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q108836932",
+        "title": "Orca Security structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_orca-security_founded_year_v097",
+        "field": "founded_year",
+        "value": 2019,
+        "source_ids": [
+          "src_orca-security_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_orca-security_headquarters_v097",
+        "field": "headquarters",
+        "value": "Tel Aviv, Israel",
+        "source_ids": [
+          "src_orca-security_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_forcepoint",
+    "founded_year": 1994,
+    "headquarters": "San Diego, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_forcepoint_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q1934027",
+        "title": "Forcepoint structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_forcepoint_founded_year_v097",
+        "field": "founded_year",
+        "value": 1994,
+        "source_ids": [
+          "src_forcepoint_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_forcepoint_headquarters_v097",
+        "field": "headquarters",
+        "value": "San Diego, California, United States",
+        "source_ids": [
+          "src_forcepoint_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_sonicwall",
+    "founded_year": 1991,
+    "headquarters": "Milpitas, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_sonicwall_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q616855",
+        "title": "SonicWall structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_sonicwall_founded_year_v097",
+        "field": "founded_year",
+        "value": 1991,
+        "source_ids": [
+          "src_sonicwall_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_sonicwall_headquarters_v097",
+        "field": "headquarters",
+        "value": "Milpitas, California, United States",
+        "source_ids": [
+          "src_sonicwall_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cato_networks",
+    "founded_year": 2015,
+    "headquarters": "Tel Aviv, Israel",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cato-networks_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q55647697",
+        "title": "Cato Networks structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_cato-networks_founded_year_v097",
+        "field": "founded_year",
+        "value": 2015,
+        "source_ids": [
+          "src_cato-networks_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_cato-networks_headquarters_v097",
+        "field": "headquarters",
+        "value": "Tel Aviv, Israel",
+        "source_ids": [
+          "src_cato-networks_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_claroty",
+    "founded_year": 2015,
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_claroty_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q109986619",
+        "title": "Claroty structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_claroty_founded_year_v097",
+        "field": "founded_year",
+        "value": 2015,
+        "source_ids": [
+          "src_claroty_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_bigid",
+    "founded_year": 2016,
+    "headquarters": "New York City, New York, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_bigid_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q106946293",
+        "title": "BigID structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_bigid_founded_year_v097",
+        "field": "founded_year",
+        "value": 2016,
+        "source_ids": [
+          "src_bigid_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_bigid_headquarters_v097",
+        "field": "headquarters",
+        "value": "New York City, New York, United States",
+        "source_ids": [
+          "src_bigid_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_recorded_future",
+    "founded_year": 2008,
+    "headquarters": "Somerville, Massachusetts, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_recorded-future_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q7302875",
+        "title": "Recorded Future structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_recorded-future_founded_year_v097",
+        "field": "founded_year",
+        "value": 2008,
+        "source_ids": [
+          "src_recorded-future_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_recorded-future_headquarters_v097",
+        "field": "headquarters",
+        "value": "Somerville, Massachusetts, United States",
+        "source_ids": [
+          "src_recorded-future_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_entrust",
+    "headquarters": "Shakopee, Minnesota, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_entrust_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q5380812",
+        "title": "Entrust structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_entrust_headquarters_v097",
+        "field": "headquarters",
+        "value": "Shakopee, Minnesota, United States",
+        "source_ids": [
+          "src_entrust_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_anthropic",
+    "founded_year": 2021,
+    "headquarters": "San Francisco, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_anthropic_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q116758847",
+        "title": "Anthropic structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_anthropic_founded_year_v097",
+        "field": "founded_year",
+        "value": 2021,
+        "source_ids": [
+          "src_anthropic_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_anthropic_headquarters_v097",
+        "field": "headquarters",
+        "value": "San Francisco, California, United States",
+        "source_ids": [
+          "src_anthropic_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cohere",
+    "founded_year": 2019,
+    "headquarters": "Toronto, Ontario, Canada",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cohere_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q110363143",
+        "title": "Cohere structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_cohere_founded_year_v097",
+        "field": "founded_year",
+        "value": 2019,
+        "source_ids": [
+          "src_cohere_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_cohere_headquarters_v097",
+        "field": "headquarters",
+        "value": "Toronto, Ontario, Canada",
+        "source_ids": [
+          "src_cohere_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mistral_ai",
+    "founded_year": 2023,
+    "headquarters": "Paris, France",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_mistral-ai_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q119718658",
+        "title": "Mistral AI structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_mistral-ai_founded_year_v097",
+        "field": "founded_year",
+        "value": 2023,
+        "source_ids": [
+          "src_mistral-ai_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_mistral-ai_headquarters_v097",
+        "field": "headquarters",
+        "value": "Paris, France",
+        "source_ids": [
+          "src_mistral-ai_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hugging_face",
+    "founded_year": 2016,
+    "headquarters": "Brooklyn, New York, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_hugging-face_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q108943604",
+        "title": "Hugging Face structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_hugging-face_founded_year_v097",
+        "field": "founded_year",
+        "value": 2016,
+        "source_ids": [
+          "src_hugging-face_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_hugging-face_headquarters_v097",
+        "field": "headquarters",
+        "value": "Brooklyn, New York, United States",
+        "source_ids": [
+          "src_hugging-face_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cerebras",
+    "founded_year": 2016,
+    "headquarters": "San Francisco, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cerebras_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q66604886",
+        "title": "Cerebras structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_cerebras_founded_year_v097",
+        "field": "founded_year",
+        "value": 2016,
+        "source_ids": [
+          "src_cerebras_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_cerebras_headquarters_v097",
+        "field": "headquarters",
+        "value": "San Francisco, California, United States",
+        "source_ids": [
+          "src_cerebras_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_groq",
+    "founded_year": 2016,
+    "headquarters": "Mountain View, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_groq_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q126050137",
+        "title": "Groq structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_groq_founded_year_v097",
+        "field": "founded_year",
+        "value": 2016,
+        "source_ids": [
+          "src_groq_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_groq_headquarters_v097",
+        "field": "headquarters",
+        "value": "Mountain View, California, United States",
+        "source_ids": [
+          "src_groq_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_together_ai",
+    "headquarters": "San Francisco, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_together-ai_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q124071418",
+        "title": "Together AI structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_together-ai_headquarters_v097",
+        "field": "headquarters",
+        "value": "San Francisco, California, United States",
+        "source_ids": [
+          "src_together-ai_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_akamai",
+    "founded_year": 1998,
+    "headquarters": "Cambridge, Massachusetts, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_akamai_wikidata_v097",
+        "url": "https://www.wikidata.org/wiki/Q415598",
+        "title": "Akamai structured entity record",
+        "publisher": "Wikidata",
+        "source_class": "structured knowledge base",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "founded_year",
+          "headquarters"
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact_akamai_founded_year_v097",
+        "field": "founded_year",
+        "value": 1998,
+        "source_ids": [
+          "src_akamai_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      },
+      {
+        "id": "fact_akamai_headquarters_v097",
+        "field": "headquarters",
+        "value": "Cambridge, Massachusetts, United States",
+        "source_ids": [
+          "src_akamai_wikidata_v097"
+        ],
+        "as_of_date": "2026-08-12",
+        "last_verified": "2026-08-12",
+        "verification_status": "verified"
+      }
+    ]
+  }
+]

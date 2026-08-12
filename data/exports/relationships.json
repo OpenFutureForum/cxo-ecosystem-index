@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "generated_at": "2026-08-12",
-  "sourced_relationship_count": 29,
-  "derived_reciprocal_count": 29,
+  "sourced_relationship_count": 47,
+  "derived_reciprocal_count": 47,
   "relationships": [
     {
       "id": "rel_svb_division_of_first_citizens",
@@ -468,6 +468,294 @@
         "src_rippling_microsoft_2026"
       ],
       "notes": "Rippling documents its provisioning integration with Microsoft Entra ID for shared customers."
+    },
+    {
+      "id": "rel_databricks_integrates_with_hubspot",
+      "subject_entity_id": "ent_databricks",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_hubspot",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_databricks_connectors_2026"
+      ],
+      "notes": "Databricks documents a managed HubSpot connector."
+    },
+    {
+      "id": "rel_workday_partner_of_accenture",
+      "subject_entity_id": "ent_workday",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_accenture",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_workday_partners_2026"
+      ],
+      "notes": "Accenture is listed in the official Workday partner marketplace."
+    },
+    {
+      "id": "rel_workday_partner_of_ibm",
+      "subject_entity_id": "ent_workday",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_ibm",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_workday_partners_2026"
+      ],
+      "notes": "IBM is listed in the official Workday partner marketplace."
+    },
+    {
+      "id": "rel_nvidia_partner_of_aws",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_amazon_web_services",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Amazon Web Services is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_google_cloud",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_google_cloud",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Google Cloud is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_dell",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_dell_technologies",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Dell Technologies is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_lenovo",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_lenovo",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Lenovo is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_supermicro",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_supermicro",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Supermicro is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_accenture",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_accenture",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Accenture is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_capgemini",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_capgemini",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Capgemini is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_deloitte",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_deloitte",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Deloitte is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_nvidia_partner_of_ey",
+      "subject_entity_id": "ent_nvidia",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_ey",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "EY is listed in NVIDIA’s official industrial partner ecosystem."
+    },
+    {
+      "id": "rel_vmware_acquired_by_broadcom",
+      "subject_entity_id": "ent_vmware",
+      "predicate": "acquired_by",
+      "object_entity_id": "ent_broadcom",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_vmware_about"
+      ],
+      "notes": "VMware is a Broadcom company following Broadcom’s completed acquisition."
+    },
+    {
+      "id": "rel_hashicorp_acquired_by_ibm",
+      "subject_entity_id": "ent_hashicorp",
+      "predicate": "acquired_by",
+      "object_entity_id": "ent_ibm",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_hashicorp_about"
+      ],
+      "notes": "HashiCorp is an IBM company following IBM’s completed acquisition."
+    },
+    {
+      "id": "rel_red_hat_subsidiary_of_ibm",
+      "subject_entity_id": "ent_red_hat",
+      "predicate": "subsidiary_of",
+      "object_entity_id": "ent_ibm",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_red-hat_about"
+      ],
+      "notes": "Red Hat operates as an IBM subsidiary."
+    },
+    {
+      "id": "rel_github_subsidiary_of_microsoft",
+      "subject_entity_id": "ent_github",
+      "predicate": "subsidiary_of",
+      "object_entity_id": "ent_microsoft",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_github_about"
+      ],
+      "notes": "GitHub is a Microsoft subsidiary."
+    },
+    {
+      "id": "rel_netsuite_division_of_oracle",
+      "subject_entity_id": "ent_oracle_netsuite",
+      "predicate": "division_of",
+      "object_entity_id": "ent_oracle",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_oracle-netsuite_about"
+      ],
+      "notes": "NetSuite operates as an Oracle business unit."
+    },
+    {
+      "id": "rel_paycor_acquired_by_paychex",
+      "subject_entity_id": "ent_paycor",
+      "predicate": "acquired_by",
+      "object_entity_id": "ent_paychex",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_paycor_about"
+      ],
+      "notes": "Paycor is a Paychex company following the completed acquisition."
     },
     {
       "id": "rel_svb_division_of_first_citizens__inverse",
@@ -990,6 +1278,330 @@
       "notes": "Rippling documents its provisioning integration with Microsoft Entra ID for shared customers.",
       "derived_reciprocal": true,
       "source_relationship_id": "rel_rippling_integrates_with_microsoft"
+    },
+    {
+      "id": "rel_databricks_integrates_with_hubspot__inverse",
+      "subject_entity_id": "ent_hubspot",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_databricks",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_databricks_connectors_2026"
+      ],
+      "notes": "Databricks documents a managed HubSpot connector.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_databricks_integrates_with_hubspot"
+    },
+    {
+      "id": "rel_workday_partner_of_accenture__inverse",
+      "subject_entity_id": "ent_accenture",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_workday",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_workday_partners_2026"
+      ],
+      "notes": "Accenture is listed in the official Workday partner marketplace.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_workday_partner_of_accenture"
+    },
+    {
+      "id": "rel_workday_partner_of_ibm__inverse",
+      "subject_entity_id": "ent_ibm",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_workday",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_workday_partners_2026"
+      ],
+      "notes": "IBM is listed in the official Workday partner marketplace.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_workday_partner_of_ibm"
+    },
+    {
+      "id": "rel_nvidia_partner_of_aws__inverse",
+      "subject_entity_id": "ent_amazon_web_services",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Amazon Web Services is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_aws"
+    },
+    {
+      "id": "rel_nvidia_partner_of_google_cloud__inverse",
+      "subject_entity_id": "ent_google_cloud",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Google Cloud is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_google_cloud"
+    },
+    {
+      "id": "rel_nvidia_partner_of_dell__inverse",
+      "subject_entity_id": "ent_dell_technologies",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Dell Technologies is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_dell"
+    },
+    {
+      "id": "rel_nvidia_partner_of_lenovo__inverse",
+      "subject_entity_id": "ent_lenovo",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Lenovo is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_lenovo"
+    },
+    {
+      "id": "rel_nvidia_partner_of_supermicro__inverse",
+      "subject_entity_id": "ent_supermicro",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Supermicro is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_supermicro"
+    },
+    {
+      "id": "rel_nvidia_partner_of_accenture__inverse",
+      "subject_entity_id": "ent_accenture",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Accenture is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_accenture"
+    },
+    {
+      "id": "rel_nvidia_partner_of_capgemini__inverse",
+      "subject_entity_id": "ent_capgemini",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Capgemini is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_capgemini"
+    },
+    {
+      "id": "rel_nvidia_partner_of_deloitte__inverse",
+      "subject_entity_id": "ent_deloitte",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "Deloitte is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_deloitte"
+    },
+    {
+      "id": "rel_nvidia_partner_of_ey__inverse",
+      "subject_entity_id": "ent_ey",
+      "predicate": "partner_of",
+      "object_entity_id": "ent_nvidia",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "notes": "EY is listed in NVIDIA’s official industrial partner ecosystem.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_nvidia_partner_of_ey"
+    },
+    {
+      "id": "rel_vmware_acquired_by_broadcom__inverse",
+      "subject_entity_id": "ent_broadcom",
+      "predicate": "acquired",
+      "object_entity_id": "ent_vmware",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_vmware_about"
+      ],
+      "notes": "VMware is a Broadcom company following Broadcom’s completed acquisition.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_vmware_acquired_by_broadcom"
+    },
+    {
+      "id": "rel_hashicorp_acquired_by_ibm__inverse",
+      "subject_entity_id": "ent_ibm",
+      "predicate": "acquired",
+      "object_entity_id": "ent_hashicorp",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_hashicorp_about"
+      ],
+      "notes": "HashiCorp is an IBM company following IBM’s completed acquisition.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_hashicorp_acquired_by_ibm"
+    },
+    {
+      "id": "rel_red_hat_subsidiary_of_ibm__inverse",
+      "subject_entity_id": "ent_ibm",
+      "predicate": "parent_of",
+      "object_entity_id": "ent_red_hat",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_red-hat_about"
+      ],
+      "notes": "Red Hat operates as an IBM subsidiary.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_red_hat_subsidiary_of_ibm"
+    },
+    {
+      "id": "rel_github_subsidiary_of_microsoft__inverse",
+      "subject_entity_id": "ent_microsoft",
+      "predicate": "parent_of",
+      "object_entity_id": "ent_github",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_github_about"
+      ],
+      "notes": "GitHub is a Microsoft subsidiary.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_github_subsidiary_of_microsoft"
+    },
+    {
+      "id": "rel_netsuite_division_of_oracle__inverse",
+      "subject_entity_id": "ent_oracle",
+      "predicate": "has_division",
+      "object_entity_id": "ent_oracle_netsuite",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_oracle-netsuite_about"
+      ],
+      "notes": "NetSuite operates as an Oracle business unit.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_netsuite_division_of_oracle"
+    },
+    {
+      "id": "rel_paycor_acquired_by_paychex__inverse",
+      "subject_entity_id": "ent_paychex",
+      "predicate": "acquired",
+      "object_entity_id": "ent_paycor",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-12",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_paycor_about"
+      ],
+      "notes": "Paycor is a Paychex company following the completed acquisition.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_paycor_acquired_by_paychex"
     }
   ]
 }

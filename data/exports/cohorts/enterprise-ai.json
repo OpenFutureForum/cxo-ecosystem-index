@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.6",
+  "dataset_version": "0.9.7",
   "calculated_at": "2026-08-12",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -4825,44 +4825,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_anthropic_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q116758847",
+          "title": "Anthropic structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.anthropic.com/claude",
-          "title": "Anthropic products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2021,
+      "headquarters": "San Francisco, California, United States",
       "facts": [
+        {
+          "id": "fact_anthropic_founded_year_v097",
+          "field": "founded_year",
+          "value": 2021,
+          "source_ids": [
+            "src_anthropic_wikidata_v097",
+            "src_anthropic_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_anthropic_headquarters_v097",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_anthropic_wikidata_v097",
+            "src_anthropic_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_anthropic_identity_anthropic",
           "field": "identity",
@@ -5002,6 +5008,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.anthropic.com/claude",
+          "title": "Anthropic products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -5077,44 +5116,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_cohere_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q110363143",
+          "title": "Cohere structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://cohere.com/products",
-          "title": "Cohere products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2019,
+      "headquarters": "Toronto, Ontario, Canada",
       "facts": [
+        {
+          "id": "fact_cohere_founded_year_v097",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_cohere_wikidata_v097",
+            "src_cohere_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_cohere_headquarters_v097",
+          "field": "headquarters",
+          "value": "Toronto, Ontario, Canada",
+          "source_ids": [
+            "src_cohere_wikidata_v097",
+            "src_cohere_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_cohere_identity_cohere",
           "field": "identity",
@@ -5254,6 +5299,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://cohere.com/products",
+          "title": "Cohere products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -5329,44 +5407,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_mistral-ai_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q119718658",
+          "title": "Mistral AI structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://mistral.ai/products",
-          "title": "Mistral AI products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2023,
+      "headquarters": "Paris, France",
       "facts": [
+        {
+          "id": "fact_mistral-ai_founded_year_v097",
+          "field": "founded_year",
+          "value": 2023,
+          "source_ids": [
+            "src_mistral-ai_wikidata_v097",
+            "src_mistral-ai_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_mistral-ai_headquarters_v097",
+          "field": "headquarters",
+          "value": "Paris, France",
+          "source_ids": [
+            "src_mistral-ai_wikidata_v097",
+            "src_mistral-ai_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_mistral-ai_identity_mistral-ai",
           "field": "identity",
@@ -5506,6 +5590,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://mistral.ai/products",
+          "title": "Mistral AI products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -5581,44 +5698,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_hugging-face_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q108943604",
+          "title": "Hugging Face structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://huggingface.co/enterprise",
-          "title": "Hugging Face products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2016,
+      "headquarters": "Brooklyn, New York, United States",
       "facts": [
+        {
+          "id": "fact_hugging-face_founded_year_v097",
+          "field": "founded_year",
+          "value": 2016,
+          "source_ids": [
+            "src_hugging-face_wikidata_v097",
+            "src_hugging-face_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_hugging-face_headquarters_v097",
+          "field": "headquarters",
+          "value": "Brooklyn, New York, United States",
+          "source_ids": [
+            "src_hugging-face_wikidata_v097",
+            "src_hugging-face_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_hugging-face_identity_hugging-face",
           "field": "identity",
@@ -5758,6 +5881,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://huggingface.co/enterprise",
+          "title": "Hugging Face products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -5833,44 +5989,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_cerebras_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q66604886",
+          "title": "Cerebras structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.cerebras.ai/product-software",
-          "title": "Cerebras products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2016,
+      "headquarters": "San Francisco, California, United States",
       "facts": [
+        {
+          "id": "fact_cerebras_founded_year_v097",
+          "field": "founded_year",
+          "value": 2016,
+          "source_ids": [
+            "src_cerebras_wikidata_v097",
+            "src_cerebras_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_cerebras_headquarters_v097",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_cerebras_wikidata_v097",
+            "src_cerebras_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_cerebras_identity_cerebras",
           "field": "identity",
@@ -6010,6 +6172,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cerebras.ai/product-software",
+          "title": "Cerebras products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -6085,44 +6280,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_groq_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q126050137",
+          "title": "Groq structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://groq.com/groqcloud",
-          "title": "Groq products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 2016,
+      "headquarters": "Mountain View, California, United States",
       "facts": [
+        {
+          "id": "fact_groq_founded_year_v097",
+          "field": "founded_year",
+          "value": 2016,
+          "source_ids": [
+            "src_groq_wikidata_v097",
+            "src_groq_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_groq_headquarters_v097",
+          "field": "headquarters",
+          "value": "Mountain View, California, United States",
+          "source_ids": [
+            "src_groq_wikidata_v097",
+            "src_groq_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_groq_identity_groq",
           "field": "identity",
@@ -6262,6 +6463,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://groq.com/groqcloud",
+          "title": "Groq products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -6337,44 +6571,36 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_together-ai_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q124071418",
+          "title": "Together AI structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.together.ai/products",
-          "title": "Together AI products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "headquarters": "San Francisco, California, United States",
       "facts": [
+        {
+          "id": "fact_together-ai_headquarters_v097",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_together-ai_wikidata_v097",
+            "src_together-ai_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_together-ai_identity_together-ai",
           "field": "identity",
@@ -6514,6 +6740,39 @@
           ],
           "last_verified": "2026-08-12"
         }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.together.ai/products",
+          "title": "Together AI products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
       ]
     },
     {
@@ -6589,44 +6848,50 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_akamai_wikidata_v097",
+          "url": "https://www.wikidata.org/wiki/Q415598",
+          "title": "Akamai structured entity record",
+          "publisher": "Wikidata",
+          "source_class": "structured knowledge base",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "verified",
-      "primary_category": "Artificial Intelligence",
-      "secondary_categories": [
-        "Enterprise Technology"
-      ],
-      "provider_types": [
-        "artificial-intelligence",
-        "enterprise-technology"
-      ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [
-        "transformation",
-        "decision-support"
-      ],
-      "topics": [
-        "enterprise-ai",
-        "ai-transformation"
-      ],
-      "audiences": [],
-      "classification_evidence": [
-        {
-          "url": "https://www.akamai.com/products",
-          "title": "Akamai products and services",
-          "supports": [
-            "executive_needs",
-            "topics"
-          ]
-        }
-      ],
+      "founded_year": 1998,
+      "headquarters": "Cambridge, Massachusetts, United States",
       "facts": [
+        {
+          "id": "fact_akamai_founded_year_v097",
+          "field": "founded_year",
+          "value": 1998,
+          "source_ids": [
+            "src_akamai_wikidata_v097",
+            "src_akamai_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
+        {
+          "id": "fact_akamai_headquarters_v097",
+          "field": "headquarters",
+          "value": "Cambridge, Massachusetts, United States",
+          "source_ids": [
+            "src_akamai_wikidata_v097",
+            "src_akamai_wikidata_v097"
+          ],
+          "as_of_date": "2026-08-12",
+          "last_verified": "2026-08-12",
+          "verification_status": "verified"
+        },
         {
           "id": "fact_akamai_identity_akamai",
           "field": "identity",
@@ -6765,6 +7030,39 @@
             "src_akamai_offerings"
           ],
           "last_verified": "2026-08-12"
+        }
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.akamai.com/products",
+          "title": "Akamai products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
         }
       ]
     },
