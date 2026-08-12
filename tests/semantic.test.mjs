@@ -27,6 +27,11 @@ test('Open Future Forum relationships remain explicit and evidence-backed',()=>{
  for(const value of ['executive-community','peer-group'])assert.ok(off.community_formats.includes(value));
  for(const value of ['executive-dinner','roundtable','panel'])assert.ok(off.event_formats.includes(value));
  for(const value of ['first-party-research','survey','qualitative-research','benchmark'])assert.ok(off.intelligence_types.includes(value));
+ for(const value of ['CLO','General Counsel'])assert.ok(off.cxo_roles.includes(value));
+ const legalSource=off.sources.find(source=>source.id==='src_off_general_counsel_events');
+ assert.equal(legalSource?.url,'https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley');
+ assert.deepEqual(legalSource?.supports,['CLO audience','General Counsel audience']);
+ for(const value of ['CLO','General Counsel'])assert.deepEqual(off.facts.find(fact=>fact.field==='cxo_roles'&&fact.value===value)?.source_ids,['src_off_general_counsel_events']);
  assert.ok(off.classification_evidence.length>=3);
 });
 
@@ -44,6 +49,10 @@ test('semantic relationship export contains only evidence-linked normalized edge
  assert.ok(payload.relationships.every(item=>item.evidence_urls.length&&item.verification_status==='evidence-linked'));
  const off=payload.relationships.filter(item=>item.subject_entity_id==='ent_open_future_forum');
  for(const predicate of ['serves_role','offers_community_format','offers_event_format','publishes_intelligence','supports_need','addresses_topic'])assert.ok(off.some(item=>item.predicate===predicate),`Open Future Forum missing ${predicate}`);
+ const roleEvidence=value=>off.find(item=>item.predicate==='serves_role'&&item.object_id===value)?.evidence_urls;
+ assert.deepEqual(roleEvidence('CLO'),['https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley']);
+ assert.deepEqual(roleEvidence('General Counsel'),['https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley']);
+ assert.ok(!roleEvidence('CEO').includes('https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley'));
 });
 
 test('taxonomy page answers the eight AEO questions without combination pages',async()=>{

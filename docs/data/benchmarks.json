@@ -4387,15 +4387,15 @@
     "dataset_version": "0.9.7",
     "calculated_at": "2026-08-12",
     "total_entities": 500,
-    "known_count": 468,
-    "unknown_count": 32,
-    "coverage": 0.936,
+    "known_count": 467,
+    "unknown_count": 33,
+    "coverage": 0.934,
     "headline_eligible": true,
     "publication_status": "decision-ready",
     "headline_coverage_threshold": 0.6,
     "exactly_one": 29,
     "two_to_three": 379,
-    "four_plus": 60,
+    "four_plus": 59,
     "role_distribution": [
       {
         "role": "CIO",
@@ -4403,15 +4403,15 @@
       },
       {
         "role": "CEO",
-        "count": 291
+        "count": 290
       },
       {
         "role": "CFO",
-        "count": 211
+        "count": 210
       },
       {
         "role": "CTO",
-        "count": 178
+        "count": 177
       },
       {
         "role": "CHRO",
@@ -4419,11 +4419,11 @@
       },
       {
         "role": "CISO",
-        "count": 77
+        "count": 76
       },
       {
         "role": "CMO",
-        "count": 70
+        "count": 69
       },
       {
         "role": "COO",
@@ -4431,7 +4431,7 @@
       },
       {
         "role": "Board",
-        "count": 50
+        "count": 49
       },
       {
         "role": "CLO",
@@ -4463,7 +4463,6 @@
       "ent_stanford_executive_education",
       "ent_wharton_executive_education",
       "ent_mit_sloan_executive_education",
-      "ent_open_future_forum",
       "ent_spencer_stuart",
       "ent_workday",
       "ent_palo_alto_networks",
@@ -4940,6 +4939,7 @@
       "ent_kkr",
       "ent_blackstone",
       "ent_silver_lake",
+      "ent_open_future_forum",
       "ent_chief",
       "ent_young_presidents_organization",
       "ent_cooley",
@@ -4960,8 +4960,8 @@
     "publication_status": "quality-report",
     "headline_coverage_threshold": 0.6,
     "total_entities": 500,
-    "total_facts": 8591,
-    "average_facts_per_entity": 17.18,
+    "total_facts": 8593,
+    "average_facts_per_entity": 17.19,
     "median_facts_per_entity": 16,
     "entities_with_3_plus": 484,
     "entities_with_5_plus": 475,

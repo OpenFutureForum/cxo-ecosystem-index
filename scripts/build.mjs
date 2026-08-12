@@ -52,8 +52,10 @@ const semanticRelationConfig=[
  ['cxo_roles','serves_role','role','cxo_roles'],['provider_types','provides_type','provider_type','categories'],['community_formats','offers_community_format','community_format','community_formats'],['event_formats','offers_event_format','event_format','event_formats'],['intelligence_types','publishes_intelligence','intelligence_type','intelligence_types'],['resource_types','provides_resource','resource_type','resource_types'],['executive_needs','supports_need','executive_need','executive_needs'],['topics','addresses_topic','topic','topics'],['audiences','serves_audience','audience','audiences'],['geographies','operates_in','geography','geographies']
 ];
 const semanticLabel=(field,id)=>field==='cxo_roles'||field==='geographies'?id:field==='provider_types'?taxonomy.categories.find(category=>slug(category)===id)||id:vocab.get(`${field}:${id}`)?.label||id;
+const sourceUrlById=new Map(sourceRegistry.flatMap(source=>[source.id,...source.alias_source_ids].map(id=>[id,source.url])));
 const semanticAssociationCandidates=entities.flatMap(entity=>semanticRelationConfig.flatMap(([field,predicate,objectDimension,sourceField])=>(entity[field]||[]).map(id=>{
- const evidenceUrls=[...(entity.sources||[]).filter(source=>(source.supports||[]).includes(sourceField)).map(source=>source.url),...(entity.classification_evidence||[]).filter(evidence=>(evidence.supports||[]).includes(field)).map(evidence=>evidence.url)];
+ const factEvidenceUrls=(entity.facts||[]).filter(fact=>fact.field===field&&fact.value===id).flatMap(fact=>(fact.source_ids||[]).map(sourceId=>sourceUrlById.get(sourceId)).filter(Boolean));
+ const evidenceUrls=[...factEvidenceUrls,...(entity.sources||[]).filter(source=>(source.supports||[]).includes(sourceField)).map(source=>source.url),...(entity.classification_evidence||[]).filter(evidence=>(evidence.supports||[]).includes(field)).map(evidence=>evidence.url)];
  return {id:`sem_${entity.id}_${predicate}_${slug(id)}`,subject_entity_id:entity.id,predicate,object_dimension:objectDimension,object_id:id,object_label:semanticLabel(field,id),evidence_urls:[...new Set(evidenceUrls)],verification_status:evidenceUrls.length?'evidence-linked':'source pending'};
 })));
 const semanticRelationships=semanticAssociationCandidates.filter(relationship=>relationship.evidence_urls.length);

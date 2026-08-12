@@ -2426,6 +2426,86 @@
       "entity_id": "ent_open_future_forum"
     },
     {
+      "id": "fact-off-role-ceo",
+      "field": "cxo_roles",
+      "value": "CEO",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-cfo",
+      "field": "cxo_roles",
+      "value": "CFO",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-cmo",
+      "field": "cxo_roles",
+      "value": "CMO",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-ciso",
+      "field": "cxo_roles",
+      "value": "CISO",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-cto",
+      "field": "cxo_roles",
+      "value": "CTO",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-clo",
+      "field": "cxo_roles",
+      "value": "CLO",
+      "last_verified": "2026-08-12",
+      "source_ids": [
+        "src_off_general_counsel_events"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-general-counsel",
+      "field": "cxo_roles",
+      "value": "General Counsel",
+      "last_verified": "2026-08-12",
+      "source_ids": [
+        "src_off_general_counsel_events"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
+      "id": "fact-off-role-board",
+      "field": "cxo_roles",
+      "value": "Board",
+      "last_verified": "2026-08-11",
+      "source_ids": [
+        "src_off_about"
+      ],
+      "entity_id": "ent_open_future_forum"
+    },
+    {
       "id": "fact-off-select-min-guests",
       "field": "event_guest_range",
       "minimum": 8,
@@ -2483,7 +2563,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2496,7 +2576,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2509,7 +2589,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2522,7 +2602,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2535,7 +2615,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2548,7 +2628,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2561,7 +2641,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2574,7 +2654,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2587,7 +2667,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2600,7 +2680,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2613,7 +2693,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2626,7 +2706,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2639,7 +2719,7 @@
         "src_off_research",
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2649,7 +2729,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2659,7 +2739,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2669,7 +2749,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2679,7 +2759,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2689,67 +2769,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_ceo",
-      "field": "cxo_roles",
-      "value": "CEO",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_cfo",
-      "field": "cxo_roles",
-      "value": "CFO",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_cmo",
-      "field": "cxo_roles",
-      "value": "CMO",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_ciso",
-      "field": "cxo_roles",
-      "value": "CISO",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_cto",
-      "field": "cxo_roles",
-      "value": "CTO",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
-      "entity_id": "ent_open_future_forum"
-    },
-    {
-      "id": "fact_open-future-forum_cxo-roles_board",
-      "field": "cxo_roles",
-      "value": "Board",
-      "source_ids": [
-        "src_off_about"
-      ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2759,7 +2779,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2769,7 +2789,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2779,7 +2799,7 @@
       "source_ids": [
         "src_off_about"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2790,7 +2810,7 @@
         "src_off_forum_select",
         "src_off_research"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2801,7 +2821,7 @@
         "src_off_forum_select",
         "src_off_research"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2812,7 +2832,7 @@
         "src_off_forum_select",
         "src_off_research"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2823,7 +2843,7 @@
         "src_off_forum_select",
         "src_off_research"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2834,7 +2854,7 @@
         "src_off_forum_select",
         "src_off_research"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2844,7 +2864,7 @@
       "source_ids": [
         "src_off_forum_select"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2854,7 +2874,7 @@
       "source_ids": [
         "src_off_forum_select"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2864,7 +2884,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2874,7 +2894,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2884,7 +2904,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2894,7 +2914,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2904,7 +2924,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2914,7 +2934,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2924,7 +2944,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2934,7 +2954,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2944,7 +2964,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {
@@ -2954,7 +2974,7 @@
       "source_ids": [
         "src_off_select_explainer"
       ],
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "entity_id": "ent_open_future_forum"
     },
     {

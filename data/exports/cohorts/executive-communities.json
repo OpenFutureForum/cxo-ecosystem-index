@@ -558,6 +558,8 @@
         "CMO",
         "CISO",
         "CTO",
+        "CLO",
+        "General Counsel",
         "Board"
       ],
       "primary_category": "Executive Communities",
@@ -615,8 +617,19 @@
             "geographies",
             "primary_category",
             "categories",
-            "cxo_roles",
             "industries"
+          ]
+        },
+        {
+          "id": "src_off_general_counsel_events",
+          "url": "https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley",
+          "title": "Best General Counsel Events in San Francisco and Silicon Valley",
+          "publisher": "Open Future Forum",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "CLO audience",
+            "General Counsel audience"
           ]
         },
         {
@@ -664,7 +677,7 @@
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "confidence": "high",
       "founded_year": 2019,
@@ -704,6 +717,78 @@
           "id": "fact-off-founder",
           "field": "founder",
           "value": "Murray Newlands",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-cmo",
+          "field": "cxo_roles",
+          "value": "CMO",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "last_verified": "2026-08-11",
+          "source_ids": [
+            "src_off_about"
+          ]
+        },
+        {
+          "id": "fact-off-role-clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "last_verified": "2026-08-12",
+          "source_ids": [
+            "src_off_general_counsel_events"
+          ]
+        },
+        {
+          "id": "fact-off-role-general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "last_verified": "2026-08-12",
+          "source_ids": [
+            "src_off_general_counsel_events"
+          ]
+        },
+        {
+          "id": "fact-off-role-board",
+          "field": "cxo_roles",
+          "value": "Board",
           "last_verified": "2026-08-11",
           "source_ids": [
             "src_off_about"
@@ -763,7 +848,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_private-executive-gatherings",
@@ -775,7 +860,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_public-events",
@@ -787,7 +872,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_peer-groups",
@@ -799,7 +884,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_executive-boards",
@@ -811,7 +896,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_research",
@@ -823,7 +908,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_executive-communities",
@@ -835,7 +920,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_private-executive-events",
@@ -847,7 +932,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_original-research",
@@ -859,7 +944,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_quarterly-executive-dinners",
@@ -871,7 +956,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_off-the-record-peer-discussion",
@@ -883,7 +968,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_member-referrals",
@@ -895,7 +980,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_services_public-forum-events",
@@ -907,7 +992,7 @@
             "src_off_research",
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_geographies_united-states",
@@ -916,7 +1001,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_geographies_silicon-valley",
@@ -925,7 +1010,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_geographies_san-francisco-bay-area",
@@ -934,7 +1019,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_primary-category_executive-communities",
@@ -943,7 +1028,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_categories_executive-communities",
@@ -952,61 +1037,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_ceo",
-          "field": "cxo_roles",
-          "value": "CEO",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_cfo",
-          "field": "cxo_roles",
-          "value": "CFO",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_cmo",
-          "field": "cxo_roles",
-          "value": "CMO",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_ciso",
-          "field": "cxo_roles",
-          "value": "CISO",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_cto",
-          "field": "cxo_roles",
-          "value": "CTO",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
-          "id": "fact_open-future-forum_cxo-roles_board",
-          "field": "cxo_roles",
-          "value": "Board",
-          "source_ids": [
-            "src_off_about"
-          ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_industries_technology",
@@ -1015,7 +1046,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_industries_artificial-intelligence",
@@ -1024,7 +1055,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_industries_financial-services",
@@ -1033,7 +1064,7 @@
           "source_ids": [
             "src_off_about"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_programs_forum-select",
@@ -1043,7 +1074,7 @@
             "src_off_forum_select",
             "src_off_research"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_programs_forum-events",
@@ -1053,7 +1084,7 @@
             "src_off_forum_select",
             "src_off_research"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_programs_executive-peer-groups",
@@ -1063,7 +1094,7 @@
             "src_off_forum_select",
             "src_off_research"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_programs_executive-boards",
@@ -1073,7 +1104,7 @@
             "src_off_forum_select",
             "src_off_research"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_programs_original-research",
@@ -1083,7 +1114,7 @@
             "src_off_forum_select",
             "src_off_research"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_application-required_true",
@@ -1092,7 +1123,7 @@
           "source_ids": [
             "src_off_forum_select"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_invite-only_true",
@@ -1101,7 +1132,7 @@
           "source_ids": [
             "src_off_forum_select"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_invitation-only-membership",
@@ -1110,7 +1141,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_c-suite-peer-groups",
@@ -1119,7 +1150,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_board-director-community",
@@ -1128,7 +1159,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_ceo-forums",
@@ -1137,7 +1168,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_cfo-forums",
@@ -1146,7 +1177,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_cmo-forums",
@@ -1155,7 +1186,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_ciso-forums",
@@ -1164,7 +1195,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_ai-leadership-forums",
@@ -1173,7 +1204,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_executive-research",
@@ -1182,7 +1213,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-future-forum_capabilities_private-dinners",
@@ -1191,7 +1222,7 @@
           "source_ids": [
             "src_off_select_explainer"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         }
       ],
       "products": [],

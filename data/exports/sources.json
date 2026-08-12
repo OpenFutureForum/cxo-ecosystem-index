@@ -21158,7 +21158,6 @@
         "geographies",
         "primary_category",
         "categories",
-        "cxo_roles",
         "industries"
       ]
     },
@@ -21182,6 +21181,26 @@
         "services",
         "application_required",
         "invite_only"
+      ]
+    },
+    {
+      "id": "src_off_general_counsel_events",
+      "url": "https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley",
+      "title": "Best General Counsel Events in San Francisco and Silicon Valley",
+      "publisher": "Open Future Forum",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_open_future_forum"
+      ],
+      "alias_source_ids": [
+        "src_off_general_counsel_events"
+      ],
+      "supports": [
+        "CLO audience",
+        "General Counsel audience"
       ]
     },
     {

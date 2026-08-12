@@ -2,8 +2,8 @@
   "dataset_version": "0.9.7",
   "schema_version": "1.0.0",
   "coverage": {
-    "total_classified_associations": 5557,
-    "evidence_linked_relationships": 5282,
+    "total_classified_associations": 5559,
+    "evidence_linked_relationships": 5284,
     "associations_pending_field_specific_evidence": 275
   },
   "relationships": [
@@ -3952,6 +3952,30 @@
       "object_label": "CTO",
       "evidence_urls": [
         "https://openfutureforum.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_future_forum_serves_role_clo",
+      "subject_entity_id": "ent_open_future_forum",
+      "predicate": "serves_role",
+      "object_dimension": "role",
+      "object_id": "CLO",
+      "object_label": "CLO",
+      "evidence_urls": [
+        "https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_future_forum_serves_role_general-counsel",
+      "subject_entity_id": "ent_open_future_forum",
+      "predicate": "serves_role",
+      "object_dimension": "role",
+      "object_id": "General Counsel",
+      "object_label": "General Counsel",
+      "evidence_urls": [
+        "https://openfutureforum.com/blog/best-general-counsel-events-san-francisco-silicon-valley"
       ],
       "verification_status": "evidence-linked"
     },

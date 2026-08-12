@@ -12,8 +12,8 @@ Open-source intelligence on the companies, communities, capital providers, advis
 | Release | 0.9.7 |
 | Entity schema | 3.2.0 |
 | Canonical organizations | 500 |
-| Sourced facts | 8,591 |
-| Canonical sources | 1,520 |
+| Sourced facts | 8,593 |
+| Canonical sources | 1,521 |
 | Sourced relationships | 47 |
 | Derived reciprocal relationships | 47 |
 | Derived metrics | 84 |

@@ -427,7 +427,7 @@ entity_id,name,slug,primary_category,editorial_priority,score,tier,source_count,
 "ent_ghj","GHJ","ghj","Accounting","A","90","decision-ready","5","24","2026-08-11","Maintain","founded_year"
 "ent_malwarebytes","Malwarebytes","malwarebytes","Cybersecurity","","90","decision-ready","4","15","2026-08-12","Maintain","headquarters"
 "ent_oguz_law","Oguz Law","oguz-law","Law Firms","B","90","decision-ready","4","19","2026-08-11","Maintain","founded_year"
-"ent_open_future_forum","Open Future Forum","open-future-forum","Executive Communities","","90","decision-ready","4","50","2026-08-11","Maintain","headquarters"
+"ent_open_future_forum","Open Future Forum","open-future-forum","Executive Communities","","90","decision-ready","5","52","2026-08-12","Maintain","headquarters"
 "ent_ramp","Ramp","ramp","CFO Technology","A","90","decision-ready","4","23","2026-08-11","Maintain","operating_geography|industries"
 "ent_rippling","Rippling","rippling","HR Technology","A","90","decision-ready","6","28","2026-08-12","Maintain","founded_year"
 "ent_stripe","Stripe","stripe","Payments","B","90","decision-ready","4","27","2026-08-12","Maintain","founded_year"
