@@ -40,8 +40,10 @@ const checks=[
  ['providers/cfo-technology.html',html=>html.includes('CFO Technology')],['cfo-ecosystem.html',html=>html.includes('CFO Ecosystem')],
  ['intelligence/cfo-technology.html',html=>html.includes('<b>Dataset snapshot:</b>')&&html.includes('Category distribution')],
  ['intelligence/compare-cfo-spend-platforms.html',html=>html.includes('CFO Spend &amp; Finance Platforms')&&html.includes('<table>')],
- ['intelligence/ai-capability.html',html=>html.includes('AI Capability')],
- ['intelligence/ai-governance-security.html',html=>html.includes('EVIDENCE-BACKED DECISION TOOL')&&html.includes('DIRECT ANSWER')&&html.includes('Unknown records')],
+ ['intelligence/ai-capability.html',html=>html.includes('AI Capability')&&html.includes('<meta name="robots" content="noindex,follow">')],
+ ['intelligence/ai-governance-security.html',html=>html.includes('EXPLORATORY EVIDENCE VIEW')&&html.includes('COVERAGE-LIMITED RESEARCH')&&html.includes('Unknown records')&&html.includes('<meta name="robots" content="noindex,follow">')&&!html.includes('FAQPage')],
+ ['intelligence/',html=>html.includes('Decision-ready tools')&&html.includes('Coverage-limited research')&&html.includes('Publication gate')],
+ ['research.html',html=>html.includes('Executive decision resources')&&html.includes('CISO GUIDE')&&html.includes('CEO GUIDE')&&html.includes('CHRO GUIDE')&&html.includes('Board GUIDE')],
  ['entities/chameleon-ventures.html',html=>html.includes('<dt>Geography evidence status</dt><dd>unknown</dd>')&&html.includes('<dt>Operating geography</dt><dd>Not verified</dd>')],
  ['reports/search-console-handoff.json',text=>JSON.parse(text).submission_status==='not submitted']
 ];

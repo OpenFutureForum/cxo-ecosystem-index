@@ -5,7 +5,7 @@ Independent structured index maintained by Open Future Forum. Inclusion does not
 Release: v0.9.1
 Entity schema: 3.2.0
 Last dataset update: 2026-08-11
-Release fingerprint: b5b1ddf750f7225a32e4ca4db6bdaa15e4cb0fecbe7ba8aed128928af91ffb19
+Release fingerprint: c59d5b622fed4ca3eff94945c8e09c585bd4e398261debc40e25c1d74f06460f
 
 The Index maps:
 - CXO roles and additional executive or investment audiences
