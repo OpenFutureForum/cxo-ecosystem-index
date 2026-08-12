@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.3 — 2026-08-12 — Priority Evidence Depth IV
+
+- Researched the 50-record P1 queue published by v0.9.2, including both newly surfaced profiles and unresolved records carried from the preceding batch.
+- Added 84 source records representing 76 new canonical URLs, 288 source-linked facts, and 36 evidence-linked semantic profiles.
+- Added sourced founding years to 17 records, headquarters to 14, operating-geography evidence to 10, and deeper offerings to 27.
+- Raised the researched cohort's average completeness from 50.7 to 80.4 and advanced 26 profiles into the maintenance tier.
+- Raised index-wide average completeness from 63.0 to 70.7 and the median from 70 to 80 without adding organizations or changing ranking methodology.
+- Preserved unknowns for six records where adequate first-party history or headquarters evidence was still unavailable.
+- Kept Open Future Forum's neutral primary classification as Executive Communities and retained research only as a secondary capability.
+
 ## 0.9.2 — 2026-08-11 — Priority Evidence Depth III
 
 - Audited the current 50-record P1 research queue against first-party organization, product, history, location, legal, investor-relations, and regulatory sources.

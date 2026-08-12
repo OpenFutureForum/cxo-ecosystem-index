@@ -1,0 +1,426 @@
+[
+  {
+    "entity_id": "ent_agentrys",
+    "products": ["Agentrys Studio", "Agentic Design Automation platform"],
+    "services": ["semiconductor design workflow automation", "verification workflow automation", "engineering-agent orchestration"],
+    "industries": ["Technology", "Artificial Intelligence"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_agentrys_product_2026","url":"https://agentrys.ai/product","title":"Agentrys product","publisher":"Agentrys","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_agentrys_team_2026","url":"https://agentrys.ai/team","title":"Agentrys team","publisher":"Agentrys","source_class":"official company","accessed_date":"2026-08-12","supports":["services"]},
+      {"id":"src_agentrys_careers_2026","url":"https://agentrys.ai/careers","title":"Agentrys careers","publisher":"Agentrys","source_class":"official company","accessed_date":"2026-08-12","supports":["industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_atomic_zero",
+    "services": ["artificial-intelligence strategy consulting", "cybersecurity consulting", "business-process automation", "technology implementation"],
+    "industries": ["Artificial Intelligence", "Cybersecurity", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_atomic_zero_services_2026","url":"https://atomiczero.io/","title":"Atomic Zero services","publisher":"Atomic Zero","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_bernstein",
+    "founded_year": 1967,
+    "services": ["private wealth management", "investment research", "family-office wealth management", "investment advisory"],
+    "industries": ["Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_bernstein_story_2026","url":"https://www.bernstein.com/about-us/our-story.html","title":"Our story","publisher":"Bernstein","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","services"]},
+      {"id":"src_bernstein_family_office_2026","url":"https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html","title":"Family office wealth management services","publisher":"Bernstein","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]},
+      {"id":"src_bernstein_locations_2026","url":"https://www.bernstein.com/about-us/locations.html","title":"Bernstein locations","publisher":"Bernstein","source_class":"official company","accessed_date":"2026-08-12","supports":["services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_capital_ip_investment_partners",
+    "services": ["investment management", "technology investment", "strategic transaction advisory"],
+    "industries": ["Technology", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_capital_ip_services_2026","url":"https://capitalip.com/","title":"Capital IP Investment Partners","publisher":"Capital IP Investment Partners","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_chameleon_ventures",
+    "services": ["early-stage venture-capital investment", "founder support"],
+    "industries": ["Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_chameleon_services_2026","url":"https://www.chameleon.vc/","title":"Chameleon Ventures","publisher":"Chameleon Ventures","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_era_group",
+    "founded_year": 1992,
+    "geographies": ["United States", "London", "Singapore"],
+    "services": ["cost optimization consulting", "supplier management consulting", "supply-chain consulting", "procurement advisory"],
+    "industries": ["Financial Services", "Healthcare", "Manufacturing", "Technology", "Professional Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_era_about_2026","url":"https://www.eragroup.com/about","title":"About ERA Group","publisher":"ERA Group","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","services","industries","geographies"]},
+      {"id":"src_era_contact_2026","url":"https://www.eragroup.com/contact","title":"ERA Group offices","publisher":"ERA Group","source_class":"official company","accessed_date":"2026-08-12","supports":["geographies"]},
+      {"id":"src_era_financial_services_2026","url":"https://www.eragroup.com/sectors/financial-services","title":"Financial services sector","publisher":"ERA Group","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_granica",
+    "founded_year": 2019,
+    "headquarters": "Mountain View, California, United States",
+    "products": ["AI Data Readiness Platform", "data-compression infrastructure", "data-privacy and masking tools"],
+    "services": ["AI data preparation", "cloud-data compression", "data privacy and masking"],
+    "industries": ["Artificial Intelligence", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_granica_about_2026","url":"https://granica.ai/about","title":"About Granica","publisher":"Granica","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","headquarters","products","services","industries"]},
+      {"id":"src_granica_privacy_2026","url":"https://www.granica.ai/privacy-policy","title":"Granica privacy policy","publisher":"Granica","source_class":"official company","accessed_date":"2026-08-12","supports":["services"]},
+      {"id":"src_granica_terms_2026","url":"https://www.granica.ai/terms-of-service","title":"Granica terms of service","publisher":"Granica","source_class":"official company","accessed_date":"2026-08-12","supports":["products"]}
+    ]
+  },
+  {
+    "entity_id": "ent_gumloop",
+    "founded_year": 2023,
+    "products": ["Gumloop AI automation platform", "Gumstack", "workflow agents"],
+    "services": ["no-code AI automation", "agent orchestration", "business-workflow automation"],
+    "industries": ["Artificial Intelligence", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_gumloop_handbook_2026","url":"https://www.gumloop.com/blog/handbook/","title":"The Gumloop Handbook","publisher":"Gumloop","source_class":"official company","published_date":"2025-01-30","accessed_date":"2026-08-12","supports":["founded_year","services","industries"]},
+      {"id":"src_gumloop_gumstack_2026","url":"https://www.gumloop.com/products/gumstack","title":"Gumstack","publisher":"Gumloop","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_gumloop_series_a_2026","url":"https://www.gumloop.com/blog/gumloops-17m-series-a","title":"Gumloop's Series A","publisher":"Gumloop","source_class":"official company","published_date":"2025-01-10","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_harvey",
+    "headquarters": "San Francisco, California, United States",
+    "products": ["Harvey Agents", "Harvey Vault", "Harvey Knowledge", "Shared Spaces", "Command Center"],
+    "services": ["AI-assisted legal workflows", "professional-services knowledge work", "transactional and litigation workflow support"],
+    "industries": ["Professional Services", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_harvey_platform_2026","url":"https://www.harvey.ai/en-US/platform","title":"Harvey platform","publisher":"Harvey","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_harvey_company_2026","url":"https://www.harvey.ai/en-US/company","title":"Harvey company","publisher":"Harvey","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]},
+      {"id":"src_harvey_privacy_2026","url":"https://www.harvey.ai/legal/privacy-policy","title":"Harvey privacy policy","publisher":"Harvey","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_herculesai",
+    "founded_year": 2014,
+    "headquarters": "Campbell, California, United States",
+    "products": ["Hercules enterprise AI platform", "enterprise AI workers"],
+    "services": ["order-to-cash automation", "billing-accuracy automation", "cash-application automation", "document-workflow automation"],
+    "industries": ["Professional Services", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_hercules_about_2026","url":"https://www.hercules.ai/about-us","title":"About Hercules","publisher":"Hercules","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_hercules_platform_2026","url":"https://www.hercules.ai/our-platform","title":"Hercules platform","publisher":"Hercules","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_hercules_history_2026","url":"https://www.hercules.ai/post/pr-aderant-signs-deal-to-acquire-herculesai-legal-technology-assets-accelerating-ai-capabilities-in","title":"HerculesAI company information","publisher":"Hercules","source_class":"official company","published_date":"2025-08-07","accessed_date":"2026-08-12","supports":["founded_year","headquarters","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_intuit",
+    "founded_year": 1983,
+    "headquarters": "Mountain View, California, United States",
+    "geographies": ["United States", "London"],
+    "products": ["QuickBooks", "TurboTax", "Credit Karma", "Mailchimp"],
+    "services": ["accounting software", "tax preparation software", "personal-finance services", "marketing automation"],
+    "industries": ["Financial Services", "Fintech", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_intuit_origins_2026","url":"https://www.intuit.com/company/origins/","title":"Intuit origins","publisher":"Intuit","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","products","services"]},
+      {"id":"src_intuit_locations_2026","url":"https://www.intuit.com/company/locations/","title":"Worldwide office locations","publisher":"Intuit","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies"]},
+      {"id":"src_intuit_products_2026","url":"https://www.intuit.com/products/","title":"Intuit products","publisher":"Intuit","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_mastercard",
+    "founded_year": 1966,
+    "headquarters": "Purchase, New York, United States",
+    "geographies": ["United States", "New York", "London", "Singapore"],
+    "products": ["global payments network", "commercial payment products", "digital-asset payment solutions"],
+    "services": ["payment processing", "cybersecurity services", "data and analytics", "open-finance services"],
+    "industries": ["Financial Services", "Fintech"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_mastercard_10k_2026","url":"https://investor.mastercard.com/files/doc_financials/2024/q4/MA-12-31-2024-10-K-as-filed-with-exhibits.pdf","title":"Mastercard 2024 Form 10-K","publisher":"Mastercard Investor Relations","source_class":"investor relations","published_date":"2025-02-12","accessed_date":"2026-08-12","supports":["headquarters","services"]},
+      {"id":"src_mastercard_history_2026","url":"https://www.mastercard.com/brandcenter/us/en/brand-history.html","title":"Mastercard brand history","publisher":"Mastercard","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","geographies"]},
+      {"id":"src_mastercard_business_2026","url":"https://www.mastercard.com/us/en/business.html","title":"Mastercard business solutions","publisher":"Mastercard","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_mercury",
+    "founded_year": 2017,
+    "products": ["business checking and savings accounts", "corporate cards", "treasury products", "bill pay", "invoicing"],
+    "services": ["business banking through partner banks", "cash management", "payments", "financial workflow software"],
+    "industries": ["Fintech", "Financial Services", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_mercury_series_d_2026","url":"https://mercury.com/blog/series-d-announcement","title":"The future of banking","publisher":"Mercury","source_class":"official company","published_date":"2026-05-20","accessed_date":"2026-08-12","supports":["founded_year","products","services","industries"]},
+      {"id":"src_mercury_banking_2026","url":"https://mercury.com/banking","title":"Mercury banking","publisher":"Mercury","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_mercury_treasury_2026","url":"https://mercury.com/treasury","title":"Mercury Treasury","publisher":"Mercury","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_nanostar_ventures",
+    "services": ["pre-seed investment", "seed investment", "Series A investment", "founder support"],
+    "industries": ["Technology", "Artificial Intelligence", "Healthcare"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_nanostar_services_2026","url":"https://nanostar.vc/","title":"Nanostar Ventures","publisher":"Nanostar Ventures","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_open_batch",
+    "programs": ["founder community", "startup-building program", "peer collaboration for Y Combinator alumni"],
+    "services": ["founder peer community", "startup support"],
+    "industries": ["Technology", "Artificial Intelligence"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_open_batch_program_2026","url":"https://openbatch.ai/","title":"Open Batch","publisher":"Open Batch","source_class":"official company","accessed_date":"2026-08-12","supports":["programs","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_pulley",
+    "products": ["cap-table management", "409A valuations", "equity compliance", "fundraising modeling", "liquidity management"],
+    "services": ["equity administration", "managed equity services", "valuation support"],
+    "industries": ["Financial Services", "Fintech", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_pulley_cap_table_2026","url":"https://pulley.com/products/cap-table-management/equity-cap-tables","title":"Pulley cap-table management","publisher":"Pulley","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_pulley_valuations_2026","url":"https://pulley.com/products/fundraising/409a-valuations","title":"Pulley 409A valuations","publisher":"Pulley","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_pulley_terms_2026","url":"https://pulley.com/terms","title":"Pulley terms of service","publisher":"Pulley","source_class":"official company","accessed_date":"2026-08-12","supports":["products"]}
+    ]
+  },
+  {
+    "entity_id": "ent_qognitive",
+    "products": ["quantum-cognition analytical platform", "machine-learning decision models"],
+    "services": ["predictive analytics", "decision intelligence", "machine-learning analysis"],
+    "industries": ["Artificial Intelligence", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_qognitive_platform_2026","url":"https://qognitive.io/","title":"Qognitive","publisher":"Qognitive","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_qognitive_terms_2026","url":"https://www.qognitive.io/terms/","title":"Qognitive terms","publisher":"Qognitive","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_qognitive_privacy_2026","url":"https://www.qognitive.io/privacy/","title":"Qognitive privacy policy","publisher":"Qognitive","source_class":"official company","accessed_date":"2026-08-12","supports":["services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_resemble_ai",
+    "founded_year": 2019,
+    "products": ["Resemble AI voice platform", "DETECT deepfake detection", "Identity", "Watermarker"],
+    "services": ["synthetic-voice generation", "audio deepfake detection", "voice identity verification", "media watermarking"],
+    "industries": ["Artificial Intelligence", "Cybersecurity", "Media", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_resemble_about_2026","url":"https://www.resemble.ai/company/about-us","title":"About Resemble AI","publisher":"Resemble AI","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","services","industries"]},
+      {"id":"src_resemble_products_2026","url":"https://www.resemble.ai/products","title":"Resemble AI products","publisher":"Resemble AI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_resemble_finance_2026","url":"https://www.resemble.ai/solutions/finance","title":"Resemble AI for finance","publisher":"Resemble AI","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_rho",
+    "products": ["business banking accounts", "corporate cards", "treasury accounts", "bill pay", "expense management", "Rho Close"],
+    "services": ["cash management", "spend management", "payments", "accounting automation"],
+    "industries": ["Fintech", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_rho_about_2026","url":"https://rho.co/about","title":"About Rho","publisher":"Rho","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_rho_banking_2026","url":"https://www.rho.co/product/business-banking","title":"Rho business banking","publisher":"Rho","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_rho_close_2026","url":"https://www.rho.co/product/close","title":"Rho Close","publisher":"Rho","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_sharevault",
+    "products": ["ShareVault virtual data room", "secure document-sharing platform"],
+    "services": ["due-diligence document management", "secure external collaboration", "virtual-data-room administration"],
+    "industries": ["Life Sciences", "Financial Services", "Professional Services", "Real Estate"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_sharevault_about_2026","url":"https://sharevault.com/about-us","title":"About ShareVault","publisher":"ShareVault","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_sharevault_private_equity_2026","url":"https://sharevault.com/industries/private-equity/","title":"ShareVault for private equity","publisher":"ShareVault","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]},
+      {"id":"src_sharevault_life_sciences_2026","url":"https://sharevault.com/industries/life-sciences/","title":"ShareVault for life sciences","publisher":"ShareVault","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_signeasy",
+    "founded_year": 2010,
+    "products": ["electronic signatures", "intelligent contract management", "contract approvals", "bulk send", "shared workspaces"],
+    "services": ["electronic-signature workflows", "contract management", "document approvals"],
+    "industries": ["Professional Services", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_signeasy_company_history_2026","url":"https://signeasy.com/blog/company/introducing-intelligent-contract-management","title":"Introducing intelligent contract management","publisher":"Signeasy","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","products","services"]},
+      {"id":"src_signeasy_walkthrough_2026","url":"https://signeasy.com/product-walkthrough","title":"Signeasy product walkthrough","publisher":"Signeasy","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_signeasy_legal_teams_2026","url":"https://signeasy.com/solutions/legal","title":"Signeasy for legal teams","publisher":"Signeasy","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_stripe",
+    "headquarters": "San Francisco, California, United States and Dublin, Ireland",
+    "geographies": ["United States", "San Francisco Bay Area", "London", "Singapore"],
+    "products": ["Stripe Payments", "Stripe Billing", "Stripe Connect", "Stripe Terminal", "Stripe Treasury", "Stripe Capital"],
+    "services": ["online payment processing", "subscription billing", "financial infrastructure APIs", "professional services"],
+    "industries": ["Financial Services", "Fintech", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_stripe_information_2026","url":"https://stripe.com/newsroom/information","title":"Stripe company information","publisher":"Stripe","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies","products","services","industries"]},
+      {"id":"src_stripe_professional_services_2026","url":"https://stripe.com/professional-services","title":"Stripe professional services","publisher":"Stripe","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]},
+      {"id":"src_stripe_payments_2026","url":"https://stripe.com/payments","title":"Stripe Payments","publisher":"Stripe","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_transform",
+    "products": ["Transform conference", "Transform Exec memberships", "community content hub"],
+    "services": ["executive community", "workforce-technology conference", "peer networking", "provider discovery"],
+    "industries": ["Technology", "Professional Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_transform_about_2026","url":"https://transform.us/about/","title":"About Transform","publisher":"Transform","source_class":"official organization","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_transform_membership_2026","url":"https://transform.us/membership-terms/","title":"Transform membership terms","publisher":"Transform","source_class":"official organization","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_transform_home_2026","url":"https://transform.us/","title":"Transform community and conference","publisher":"Transform","source_class":"official organization","accessed_date":"2026-08-12","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_zeni",
+    "founded_year": 2019,
+    "headquarters": "Palo Alto, California, United States",
+    "geographies": ["United States"],
+    "products": ["AI bookkeeping", "accounts payable", "financial reporting", "bill pay", "employee reimbursements"],
+    "services": ["bookkeeping", "fractional CFO services", "startup tax services", "payroll services"],
+    "industries": ["Fintech", "Financial Services", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_zeni_about_2026","url":"https://www.zeni.ai/about-us","title":"About Zeni","publisher":"Zeni","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies","products","services","industries"]},
+      {"id":"src_zeni_history_2026","url":"https://www.zeni.ai/blog/the-journey-behind-zenis-rebrand","title":"The journey behind Zeni's rebrand","publisher":"Zeni","source_class":"official company","published_date":"2023-05-03","accessed_date":"2026-08-12","supports":["founded_year","services"]},
+      {"id":"src_zeni_getting_started_2026","url":"https://support.zeni.ai/article/getting-started-with-zeni-overview","title":"Getting started with Zeni","publisher":"Zeni","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_thinkingai",
+    "founded_year": 2015,
+    "products": ["Agentic Engine", "Autonomous Ops", "Total Context", "Governance Studio", "self-hosted AI agents"],
+    "services": ["enterprise-agent deployment", "decision automation", "self-hosted AI operations", "AI governance"],
+    "industries": ["Artificial Intelligence", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_thinkingai_about_2026","url":"https://thinkingai.io/en/about/","title":"About ThinkingAI","publisher":"ThinkingAI","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","products","services","industries"]},
+      {"id":"src_thinkingai_autonomous_ops_2026","url":"https://thinkingai.io/en/product/autonomous-ops/","title":"ThinkingAI Autonomous Ops","publisher":"ThinkingAI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_thinkingai_governance_2026","url":"https://thinkingai.io/en/product/governance-studio/","title":"ThinkingAI Governance Studio","publisher":"ThinkingAI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_aegisai",
+    "products": ["AegisAI email-security platform", "AI red teaming"],
+    "services": ["phishing detection", "business-email-compromise detection", "automated incident response", "AI security testing"],
+    "industries": ["Cybersecurity", "Artificial Intelligence", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_aegis_product_2026","url":"https://www.aegisai.ai/product","title":"AegisAI product","publisher":"AegisAI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]},
+      {"id":"src_aegis_company_2026","url":"https://www.aegisai.ai/company","title":"AegisAI company","publisher":"AegisAI","source_class":"official company","accessed_date":"2026-08-12","supports":["services","industries"]},
+      {"id":"src_aegis_red_team_2026","url":"https://www.aegisai.ai/ai-red-teaming","title":"AegisAI red teaming","publisher":"AegisAI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_xero",
+    "founded_year": 2006,
+    "headquarters": "Wellington, New Zealand",
+    "industries": ["Financial Services", "Fintech", "Technology"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_xero_about_2026","url":"https://www.xero.com/us/about/","title":"About Xero","publisher":"Xero","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","headquarters","products","industries"]},
+      {"id":"src_xero_brands_2026","url":"https://www.xero.com/us/about/our-brands/","title":"Xero brands","publisher":"Xero","source_class":"official company","accessed_date":"2026-08-12","supports":["products","industries"]},
+      {"id":"src_xero_terms_2026","url":"https://www.xero.com/us/legal/terms/","title":"Xero terms","publisher":"Xero","source_class":"official company","accessed_date":"2026-08-12","supports":["products"]}
+    ]
+  },
+  {
+    "entity_id": "ent_contextqa",
+    "headquarters": "San Francisco, California, United States",
+    "geographies": ["United States", "San Francisco Bay Area"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_contextqa_contact_2026","url":"https://contextqa.com/contact-us/","title":"ContextQA contact","publisher":"ContextQA","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies"]},
+      {"id":"src_contextqa_platform_2026","url":"https://contextqa.com/platform/","title":"ContextQA platform","publisher":"ContextQA","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_northwestern_mutual",
+    "geographies": ["United States"],
+    "products": ["life insurance", "disability insurance", "investment accounts", "wealth-management plans"],
+    "services": ["financial planning", "investment advisory", "business financial services", "wealth management"],
+    "industries": ["Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_northwestern_who_we_are_2026","url":"https://www.northwesternmutual.com/who-we-are/","title":"Who we are","publisher":"Northwestern Mutual","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries","geographies"]},
+      {"id":"src_northwestern_business_services_2026","url":"https://www.northwesternmutual.com/financial-planning/business-services/","title":"Northwestern Mutual business services","publisher":"Northwestern Mutual","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_compose_ai",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_compose_privacy_2026","url":"https://www.compose.ai/privacy-policy","title":"Compose AI privacy policy","publisher":"Compose AI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]},
+      {"id":"src_compose_terms_2026","url":"https://www.compose.ai/terms-of-service","title":"Compose AI terms","publisher":"Compose AI","source_class":"official company","accessed_date":"2026-08-12","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_burkland",
+    "founded_year": 2004,
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_burkland_press_2026","url":"https://burklandassociates.com/press/","title":"Burkland press kit","publisher":"Burkland","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_westcap",
+    "founded_year": 1997,
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_westcap_team_history_2026","url":"https://resources.westcap.com/team/","title":"WestCap team and history","publisher":"WestCap","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_western_technology_investment",
+    "founded_year": 1980,
+    "headquarters": "Portola Valley, California, United States",
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_wti_history_2026","url":"https://www.westerntech.com/","title":"Western Technology Investment","publisher":"Western Technology Investment","source_class":"official company","accessed_date":"2026-08-12","supports":["founded_year","headquarters","services","industries"]}
+    ]
+  },
+  {
+    "entity_id": "ent_adaptive_security",
+    "headquarters": "United States",
+    "geographies": ["United States"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_adaptive_legal_2026","url":"https://www.adaptivesecurity.com/legal","title":"Adaptive Security legal information","publisher":"Adaptive Security","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies","products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_airmdr",
+    "headquarters": "Menlo Park, California, United States",
+    "geographies": ["United States", "San Francisco Bay Area"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_airmdr_privacy_2026","url":"https://airmdr.com/privacy","title":"AirMDR privacy policy","publisher":"AirMDR","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_zenskar",
+    "founded_year": 2022,
+    "headquarters": "New York, New York, United States",
+    "geographies": ["United States", "New York"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_zenskar_seed_history_2026","url":"https://www.zenskar.com/blog/bessemer-leads-zenskar-seed-funding","title":"Zenskar seed funding and company history","publisher":"Zenskar","source_class":"official company","published_date":"2022-10-04","accessed_date":"2026-08-12","supports":["founded_year","headquarters","geographies","products","services"]}
+    ]
+  },
+  {
+    "entity_id": "ent_rippling",
+    "headquarters": "San Francisco, California, United States",
+    "industries": ["Technology", "Financial Services"],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {"id":"src_rippling_about_offices_2026","url":"https://www.rippling.com/company/about","title":"About Rippling","publisher":"Rippling","source_class":"official company","accessed_date":"2026-08-12","supports":["headquarters","geographies","products","services","industries"]}
+    ]
+  }
+]

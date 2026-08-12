@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "silicon-valley-cxo-ecosystem",
   "entity_ids": [
     "ent_wilson_sonsini",
@@ -16,16 +16,19 @@
     "ent_lattice",
     "ent_coupa",
     "ent_carta",
+    "ent_stripe",
     "ent_databricks",
     "ent_writer",
     "ent_glean",
     "ent_servicenow",
+    "ent_airmdr",
     "ent_pitchbook",
     "ent_affirm",
     "ent_pipe",
     "ent_bdev_ventures",
     "ent_ironarc_ventures",
     "ent_oguz_law",
+    "ent_contextqa",
     "ent_909cyber"
   ],
   "entities": [
@@ -1940,10 +1943,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "fundraising",
+        "portfolio-support",
+        "business-growth"
+      ],
+      "topics": [
+        "venture-capital",
+        "fundraising",
+        "growth"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.pier70ventures.com/about",
+          "title": "About Pier 70 Ventures",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_avenue_capital_group",
@@ -3952,7 +3976,10 @@
         "HR Technology",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Financial Services"
+      ],
       "geographies": [
         "United States",
         "San Francisco Bay Area",
@@ -3974,7 +4001,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_description_rippling-provides-workforce-management-software-",
@@ -3983,7 +4010,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_website_https-www-rippling-com",
@@ -3992,7 +4019,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_categories_hr-technology",
@@ -4001,7 +4028,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_categories_enterprise-technology",
@@ -4010,7 +4037,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_cfo",
@@ -4019,7 +4046,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_cio",
@@ -4028,7 +4055,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_chro",
@@ -4037,7 +4064,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_hr-management",
@@ -4046,9 +4073,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_payroll",
@@ -4057,9 +4085,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_it-management",
@@ -4068,9 +4097,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_finance-management",
@@ -4079,9 +4109,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_benefits-administration",
@@ -4090,9 +4121,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_expense-management",
@@ -4101,9 +4133,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_ai-workforce-tools",
@@ -4112,9 +4145,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_workforce-management-platform",
@@ -4124,9 +4158,10 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_global-payroll",
@@ -4136,9 +4171,10 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_device-and-identity-management",
@@ -4148,72 +4184,109 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_united-states",
           "field": "geographies",
           "value": "United States",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_san-francisco-bay-area",
           "field": "geographies",
           "value": "San Francisco Bay Area",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_new-york",
           "field": "geographies",
           "value": "New York",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_austin",
           "field": "geographies",
           "value": "Austin",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_seattle",
           "field": "geographies",
           "value": "Seattle",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_london",
           "field": "geographies",
           "value": "London",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_singapore",
           "field": "geographies",
           "value": "Singapore",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -4284,10 +4357,25 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_rippling_about_offices_2026",
+          "url": "https://www.rippling.com/company/about",
+          "title": "About Rippling",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "HR management",
@@ -4303,6 +4391,7 @@
         "global payroll",
         "device and identity management"
       ],
+      "headquarters": "San Francisco, California, United States",
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [
@@ -5470,6 +5559,414 @@
             "topics",
             "executive_needs",
             "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_stripe",
+      "name": "Stripe",
+      "slug": "stripe",
+      "entity_type": "Organization",
+      "description": "Stripe provides payments, billing, financial-infrastructure and business software through APIs and hosted products.",
+      "website": "https://stripe.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Payments",
+        "Fintech",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Fintech",
+        "Technology"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_stripe_identity_stripe",
+          "field": "identity",
+          "value": "Stripe",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_description_stripe-provides-payments-billing-financial-infra",
+          "field": "description",
+          "value": "Stripe provides payments, billing, financial-infrastructure and business software through APIs and hosted products.",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_website_https-stripe-com",
+          "field": "website",
+          "value": "https://stripe.com/",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_categories_payments",
+          "field": "categories",
+          "value": "Payments",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_stripe_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_headquarters_san-francisco-california-united-states-and-dubli",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States and Dublin, Ireland",
+          "source_ids": [
+            "src_stripe_information_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_stripe_information_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_stripe_information_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_stripe_information_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_stripe_information_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-payments",
+          "field": "products",
+          "value": "Stripe Payments",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-billing",
+          "field": "products",
+          "value": "Stripe Billing",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-connect",
+          "field": "products",
+          "value": "Stripe Connect",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-terminal",
+          "field": "products",
+          "value": "Stripe Terminal",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-treasury",
+          "field": "products",
+          "value": "Stripe Treasury",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_products_stripe-capital",
+          "field": "products",
+          "value": "Stripe Capital",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_services_online-payment-processing",
+          "field": "services",
+          "value": "online payment processing",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_services_subscription-billing",
+          "field": "services",
+          "value": "subscription billing",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_services_financial-infrastructure-apis",
+          "field": "services",
+          "value": "financial infrastructure APIs",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_services_professional-services",
+          "field": "services",
+          "value": "professional services",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026",
+            "src_stripe_payments_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_stripe_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_stripe_information_2026",
+            "src_stripe_professional_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ],
+      "inclusion_basis": [
+        "Stripe is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_stripe_official",
+          "url": "https://stripe.com/",
+          "title": "Stripe official website",
+          "publisher": "Stripe",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_stripe_information_2026",
+          "url": "https://stripe.com/newsroom/information",
+          "title": "Stripe company information",
+          "publisher": "Stripe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_stripe_professional_services_2026",
+          "url": "https://stripe.com/professional-services",
+          "title": "Stripe professional services",
+          "publisher": "Stripe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_stripe_payments_2026",
+          "url": "https://stripe.com/payments",
+          "title": "Stripe Payments",
+          "publisher": "Stripe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "headquarters": "San Francisco, California, United States and Dublin, Ireland",
+      "products": [
+        "Stripe Payments",
+        "Stripe Billing",
+        "Stripe Connect",
+        "Stripe Terminal",
+        "Stripe Treasury",
+        "Stripe Capital"
+      ],
+      "services": [
+        "online payment processing",
+        "subscription billing",
+        "financial infrastructure APIs",
+        "professional services"
+      ],
+      "geography_status": "verified",
+      "primary_category": "Payments",
+      "secondary_categories": [
+        "Fintech",
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "payments",
+        "fintech",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "operational-excellence",
+        "business-growth",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "growth",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://stripe.com/newsroom/information",
+          "title": "Stripe company information",
+          "supports": [
+            "topics",
+            "executive_needs"
           ]
         }
       ]
@@ -7066,6 +7563,343 @@
         {
           "url": "https://www.servicenow.com/products-by-category.html",
           "title": "ServiceNow Products by Category",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_airmdr",
+      "name": "AirMDR",
+      "slug": "airmdr",
+      "entity_type": "Organization",
+      "description": "AirMDR provides managed detection and response services using automation and artificial intelligence.",
+      "website": "https://www.airmdr.com/",
+      "cxo_roles": [
+        "CISO"
+      ],
+      "categories": [
+        "Cybersecurity",
+        "AI Security"
+      ],
+      "industries": [
+        "Cybersecurity",
+        "Small and Midsize Enterprises",
+        "Enterprise Technology"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_airmdr_identity_airmdr",
+          "field": "identity",
+          "value": "AirMDR",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_description_airmdr-provides-managed-detection-and-response-s",
+          "field": "description",
+          "value": "AirMDR provides managed detection and response services using automation and artificial intelligence.",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_website_https-www-airmdr-com",
+          "field": "website",
+          "value": "https://www.airmdr.com/",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_categories_ai-security",
+          "field": "categories",
+          "value": "AI Security",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_airmdr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_services_managed-detection-and-response",
+          "field": "services",
+          "value": "managed detection and response",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026",
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_services_24-7-security-operations-monitoring",
+          "field": "services",
+          "value": "24/7 security operations monitoring",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026",
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_services_alert-triage",
+          "field": "services",
+          "value": "alert triage",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026",
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_services_security-investigations",
+          "field": "services",
+          "value": "security investigations",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026",
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_services_threat-response",
+          "field": "services",
+          "value": "threat response",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026",
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_products_ai-soc-agent",
+          "field": "products",
+          "value": "AI SOC agent",
+          "source_ids": [
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_products_managed-detection-and-response-platform",
+          "field": "products",
+          "value": "managed detection and response platform",
+          "source_ids": [
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_industries_small-and-midsize-enterprises",
+          "field": "industries",
+          "value": "Small and Midsize Enterprises",
+          "source_ids": [
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_headquarters_menlo-park-california-united-states",
+          "field": "headquarters",
+          "value": "Menlo Park, California, United States",
+          "source_ids": [
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_airmdr_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_airmdr_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ],
+      "inclusion_basis": [
+        "AirMDR is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_airmdr_official",
+          "url": "https://www.airmdr.com/",
+          "title": "AirMDR official website",
+          "publisher": "AirMDR",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_airmdr_services_2026",
+          "url": "https://airmdr.com/services",
+          "title": "AirMDR Services",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_airmdr_platform_2026",
+          "url": "https://airmdr.com/airmdr-ai-soc-agent-and-platform",
+          "title": "AirMDR AI SOC Agent and Platform",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_airmdr_about_2026",
+          "url": "https://airmdr.com/about-us",
+          "title": "About AirMDR",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "services",
+            "products"
+          ]
+        },
+        {
+          "id": "src_airmdr_privacy_2026",
+          "url": "https://airmdr.com/privacy",
+          "title": "AirMDR privacy policy",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "products": [
+        "AI SOC agent",
+        "managed detection and response platform"
+      ],
+      "services": [
+        "managed detection and response",
+        "24/7 security operations monitoring",
+        "alert triage",
+        "security investigations",
+        "threat response"
+      ],
+      "headquarters": "Menlo Park, California, United States",
+      "geography_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "AI Security"
+      ],
+      "provider_types": [
+        "cybersecurity",
+        "ai-security"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "risk-management",
+        "operational-excellence"
+      ],
+      "topics": [
+        "cybersecurity",
+        "ai-security"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://airmdr.com/about-us",
+          "title": "About AirMDR",
           "supports": [
             "topics",
             "executive_needs",
@@ -9184,6 +10018,325 @@
         {
           "url": "https://oguz.law/business-law/",
           "title": "Oguz Law Business Law",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_contextqa",
+      "name": "ContextQA",
+      "slug": "contextqa",
+      "entity_type": "Organization",
+      "description": "ContextQA provides automated software testing for enterprise applications and artificial-intelligence agents.",
+      "website": "https://contextqa.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Software Development",
+        "Quality Assurance",
+        "Artificial Intelligence"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_contextqa_identity_contextqa",
+          "field": "identity",
+          "value": "ContextQA",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_description_contextqa-provides-automated-software-testing-fo",
+          "field": "description",
+          "value": "ContextQA provides automated software testing for enterprise applications and artificial-intelligence agents.",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_website_https-contextqa-com",
+          "field": "website",
+          "value": "https://contextqa.com/",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_contextqa_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_products_ai-powered-test-automation-platform",
+          "field": "products",
+          "value": "AI-powered test automation platform",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_products_self-healing-test-scripts",
+          "field": "products",
+          "value": "self-healing test scripts",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_products_plain-language-failure-diagnostics",
+          "field": "products",
+          "value": "plain-language failure diagnostics",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_services_software-test-automation",
+          "field": "services",
+          "value": "software test automation",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_services_test-coverage-augmentation",
+          "field": "services",
+          "value": "test coverage augmentation",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_services_failure-diagnosis",
+          "field": "services",
+          "value": "failure diagnosis",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_industries_software-development",
+          "field": "industries",
+          "value": "Software Development",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_industries_quality-assurance",
+          "field": "industries",
+          "value": "Quality Assurance",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ],
+      "inclusion_basis": [
+        "ContextQA is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_contextqa_official",
+          "url": "https://contextqa.com/",
+          "title": "ContextQA official website",
+          "publisher": "ContextQA",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_contextqa_about_2026",
+          "url": "https://contextqa.com/about-us/",
+          "title": "About ContextQA",
+          "publisher": "ContextQA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_contextqa_contact_2026",
+          "url": "https://contextqa.com/contact-us/",
+          "title": "ContextQA contact",
+          "publisher": "ContextQA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_contextqa_platform_2026",
+          "url": "https://contextqa.com/platform/",
+          "title": "ContextQA platform",
+          "publisher": "ContextQA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "products": [
+        "AI-powered test automation platform",
+        "self-healing test scripts",
+        "plain-language failure diagnostics"
+      ],
+      "services": [
+        "software test automation",
+        "test coverage augmentation",
+        "failure diagnosis"
+      ],
+      "headquarters": "San Francisco, California, United States",
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "operational-excellence",
+        "transformation",
+        "risk-management"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://contextqa.com/platform/",
+          "title": "ContextQA platform",
           "supports": [
             "topics",
             "executive_needs",

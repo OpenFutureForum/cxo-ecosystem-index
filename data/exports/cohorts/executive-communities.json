@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "executive-communities",
   "entity_ids": [
     "ent_vistage",
@@ -2655,7 +2655,10 @@
         "Conferences",
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Professional Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -2669,7 +2672,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_description_transform-operates-a-professional-community-and-",
@@ -2678,7 +2681,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_website_https-transform-us",
@@ -2687,7 +2690,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_executive-communities",
@@ -2696,7 +2699,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_conferences",
@@ -2705,7 +2708,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_hr-technology",
@@ -2714,7 +2717,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_cxo-roles_chro",
@@ -2723,7 +2726,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_cxo-roles_ceo",
@@ -2732,7 +2735,104 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_transform-conference",
+          "field": "products",
+          "value": "Transform conference",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_transform-exec-memberships",
+          "field": "products",
+          "value": "Transform Exec memberships",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_community-content-hub",
+          "field": "products",
+          "value": "community content hub",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_executive-community",
+          "field": "services",
+          "value": "executive community",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_workforce-technology-conference",
+          "field": "services",
+          "value": "workforce-technology conference",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_peer-networking",
+          "field": "services",
+          "value": "peer networking",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_provider-discovery",
+          "field": "services",
+          "value": "provider discovery",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -2753,11 +2853,60 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_transform_about_2026",
+          "url": "https://transform.us/about/",
+          "title": "About Transform",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_transform_membership_2026",
+          "url": "https://transform.us/membership-terms/",
+          "title": "Transform membership terms",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_transform_home_2026",
+          "url": "https://transform.us/",
+          "title": "Transform community and conference",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [
+        "Transform conference",
+        "Transform Exec memberships",
+        "community content hub"
+      ],
+      "services": [
+        "executive community",
+        "workforce-technology conference",
+        "peer networking",
+        "provider discovery"
+      ],
       "geography_status": "unknown",
       "primary_category": "Executive Communities",
       "secondary_categories": [
@@ -2769,14 +2918,39 @@
         "conferences",
         "hr-technology"
       ],
-      "community_formats": [],
-      "event_formats": [],
+      "community_formats": [
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "conference",
+        "panel"
+      ],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "professional-development"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://transform.us/about/",
+          "title": "About Transform",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_open_batch",
@@ -2793,7 +2967,10 @@
         "Startup Programs",
         "Accelerators"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -2807,7 +2984,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_description_open-batch-is-a-founder-community-and-startup-pr",
@@ -2816,7 +2993,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_website_https-openbatch-ai",
@@ -2825,7 +3002,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_categories_executive-communities",
@@ -2834,7 +3011,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_categories_startup-programs",
@@ -2843,7 +3020,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_categories_accelerators",
@@ -2852,7 +3029,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_cxo-roles_ceo",
@@ -2861,7 +3038,7 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_open-batch_relationship-notes_open-batch-states-that-it-is-not-officially-affi",
@@ -2870,7 +3047,70 @@
           "source_ids": [
             "src_open-batch_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_programs_founder-community",
+          "field": "programs",
+          "value": "founder community",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_programs_startup-building-program",
+          "field": "programs",
+          "value": "startup-building program",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_programs_peer-collaboration-for-y-combinator-alumni",
+          "field": "programs",
+          "value": "peer collaboration for Y Combinator alumni",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_services_founder-peer-community",
+          "field": "services",
+          "value": "founder peer community",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_services_startup-support",
+          "field": "services",
+          "value": "startup support",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_open-batch_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_open_batch_program_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -2892,11 +3132,34 @@
             "cxo_roles",
             "relationship_notes"
           ]
+        },
+        {
+          "id": "src_open_batch_program_2026",
+          "url": "https://openbatch.ai/",
+          "title": "Open Batch",
+          "publisher": "Open Batch",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "programs",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "programs": [
+        "founder community",
+        "startup-building program",
+        "peer collaboration for Y Combinator alumni"
+      ],
+      "services": [
+        "founder peer community",
+        "startup support"
+      ],
+      "products": [],
       "geography_status": "unknown",
       "primary_category": "Executive Communities",
       "secondary_categories": [
@@ -2908,14 +3171,38 @@
         "startup-programs",
         "accelerators"
       ],
-      "community_formats": [],
+      "community_formats": [
+        "peer-group",
+        "executive-network"
+      ],
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "peer-learning",
+        "collaboration",
+        "business-growth"
+      ],
+      "topics": [
+        "venture-capital",
+        "fundraising",
+        "growth"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://openbatch.ai/",
+          "title": "Open Batch",
+          "supports": [
+            "community_formats",
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     }
   ]
 }

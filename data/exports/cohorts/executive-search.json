@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "executive-search",
   "entity_ids": [
     "ent_korn_ferry",
@@ -2984,10 +2984,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "business-growth",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "leadership",
+        "growth"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://optimhire.com/ai-recruiter",
+          "title": "OptimHire AI Recruiter",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     }
   ]
 }

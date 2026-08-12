@@ -1,7 +1,7 @@
 id,name,website,entity_type,primary_category,secondary_categories,cxo_roles,categories,headquarters,geographies,geography_status,founded_year,verification_status
 "ent_escalon","Escalon","https://escalon.services/","Organization","Finance Advisory","Accounting|HR Technology","CEO|CFO|CHRO","Finance Advisory|Accounting|HR Technology","","United States","verified","2006","verified"
 "ent_findem","Findem","https://www.findem.ai/","Organization","HR Technology","Recruiting|Artificial Intelligence","CHRO","HR Technology|Recruiting|Artificial Intelligence","Redwood City, California, United States","United States","verified","","verified"
-"ent_rippling","Rippling","https://www.rippling.com/","Organization","HR Technology","Enterprise Technology","CFO|CIO|CHRO","HR Technology|Enterprise Technology","","United States|San Francisco Bay Area|New York|Austin|Seattle|London|Singapore","verified","","verified"
+"ent_rippling","Rippling","https://www.rippling.com/","Organization","HR Technology","Enterprise Technology","CFO|CIO|CHRO","HR Technology|Enterprise Technology","San Francisco, California, United States","United States|San Francisco Bay Area|New York|Austin|Seattle|London|Singapore","verified","","verified"
 "ent_deel","Deel","https://www.deel.com/","Organization","HR Technology","","CFO|CHRO|CLO","HR Technology","","United States","verified","2019","verified"
 "ent_lattice","Lattice","https://lattice.com/","Organization","HR Technology","","CHRO","HR Technology","San Francisco, California, United States","United States|San Francisco Bay Area|London","verified","","verified"
 "ent_trinet","TriNet","https://www.trinet.com/","Organization","HR Technology","","CFO|CHRO","HR Technology","","United States","verified","1988","verified"

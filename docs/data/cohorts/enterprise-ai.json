@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
     "ent_oracle",
@@ -852,7 +852,10 @@
         "Legal Technology",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Professional Services",
+        "Financial Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -866,7 +869,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_description_harvey-develops-generative-ai-software-for-legal",
@@ -875,7 +878,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_website_https-www-harvey-ai",
@@ -884,7 +887,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_categories_legal-technology",
@@ -893,7 +896,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_categories_artificial-intelligence",
@@ -902,7 +905,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_cxo-roles_cio",
@@ -911,7 +914,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_cxo-roles_cto",
@@ -920,7 +923,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_cxo-roles_clo",
@@ -929,7 +932,7 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_harvey_cxo-roles_general-counsel",
@@ -938,7 +941,112 @@
           "source_ids": [
             "src_harvey_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_products_harvey-agents",
+          "field": "products",
+          "value": "Harvey Agents",
+          "source_ids": [
+            "src_harvey_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_products_harvey-vault",
+          "field": "products",
+          "value": "Harvey Vault",
+          "source_ids": [
+            "src_harvey_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_products_harvey-knowledge",
+          "field": "products",
+          "value": "Harvey Knowledge",
+          "source_ids": [
+            "src_harvey_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_products_shared-spaces",
+          "field": "products",
+          "value": "Shared Spaces",
+          "source_ids": [
+            "src_harvey_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_products_command-center",
+          "field": "products",
+          "value": "Command Center",
+          "source_ids": [
+            "src_harvey_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_services_ai-assisted-legal-workflows",
+          "field": "services",
+          "value": "AI-assisted legal workflows",
+          "source_ids": [
+            "src_harvey_platform_2026",
+            "src_harvey_company_2026",
+            "src_harvey_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_services_professional-services-knowledge-work",
+          "field": "services",
+          "value": "professional-services knowledge work",
+          "source_ids": [
+            "src_harvey_platform_2026",
+            "src_harvey_company_2026",
+            "src_harvey_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_services_transactional-and-litigation-workflow-support",
+          "field": "services",
+          "value": "transactional and litigation workflow support",
+          "source_ids": [
+            "src_harvey_platform_2026",
+            "src_harvey_company_2026",
+            "src_harvey_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_harvey_company_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_harvey_company_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_harvey_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_harvey_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -959,11 +1067,60 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_harvey_platform_2026",
+          "url": "https://www.harvey.ai/en-US/platform",
+          "title": "Harvey platform",
+          "publisher": "Harvey",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_harvey_company_2026",
+          "url": "https://www.harvey.ai/en-US/company",
+          "title": "Harvey company",
+          "publisher": "Harvey",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_harvey_privacy_2026",
+          "url": "https://www.harvey.ai/legal/privacy-policy",
+          "title": "Harvey privacy policy",
+          "publisher": "Harvey",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "headquarters": "San Francisco, California, United States",
+      "products": [
+        "Harvey Agents",
+        "Harvey Vault",
+        "Harvey Knowledge",
+        "Shared Spaces",
+        "Command Center"
+      ],
+      "services": [
+        "AI-assisted legal workflows",
+        "professional-services knowledge work",
+        "transactional and litigation workflow support"
+      ],
       "geography_status": "unknown",
       "primary_category": "Legal Technology",
       "secondary_categories": [
@@ -977,10 +1134,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.harvey.ai/en-US/platform",
+          "title": "Harvey platform",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_capgemini",
@@ -2981,8 +3158,14 @@
         "Accounting",
         "Artificial Intelligence"
       ],
-      "industries": [],
-      "geographies": [],
+      "industries": [
+        "Fintech",
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2995,7 +3178,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_description_zeni-provides-bookkeeping-accounting-and-finance",
@@ -3004,7 +3187,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_website_https-www-zeni-ai",
@@ -3013,7 +3196,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_cfo-technology",
@@ -3022,7 +3205,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_accounting",
@@ -3031,7 +3214,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_artificial-intelligence",
@@ -3040,7 +3223,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_cxo-roles_ceo",
@@ -3049,7 +3232,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_cxo-roles_cfo",
@@ -3058,7 +3241,155 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_headquarters_palo-alto-california-united-states",
+          "field": "headquarters",
+          "value": "Palo Alto, California, United States",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_ai-bookkeeping",
+          "field": "products",
+          "value": "AI bookkeeping",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_financial-reporting",
+          "field": "products",
+          "value": "financial reporting",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_bill-pay",
+          "field": "products",
+          "value": "bill pay",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_employee-reimbursements",
+          "field": "products",
+          "value": "employee reimbursements",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_bookkeeping",
+          "field": "services",
+          "value": "bookkeeping",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_fractional-cfo-services",
+          "field": "services",
+          "value": "fractional CFO services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_startup-tax-services",
+          "field": "services",
+          "value": "startup tax services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_payroll-services",
+          "field": "services",
+          "value": "payroll services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_zeni_history_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -3079,12 +3410,67 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_zeni_about_2026",
+          "url": "https://www.zeni.ai/about-us",
+          "title": "About Zeni",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_zeni_history_2026",
+          "url": "https://www.zeni.ai/blog/the-journey-behind-zenis-rebrand",
+          "title": "The journey behind Zeni's rebrand",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "published_date": "2023-05-03",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "services"
+          ]
+        },
+        {
+          "id": "src_zeni_getting_started_2026",
+          "url": "https://support.zeni.ai/article/getting-started-with-zeni-overview",
+          "title": "Getting started with Zeni",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "unknown",
+      "founded_year": 2019,
+      "headquarters": "Palo Alto, California, United States",
+      "products": [
+        "AI bookkeeping",
+        "accounts payable",
+        "financial reporting",
+        "bill pay",
+        "employee reimbursements"
+      ],
+      "services": [
+        "bookkeeping",
+        "fractional CFO services",
+        "startup tax services",
+        "payroll services"
+      ],
+      "geography_status": "verified",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Accounting",
@@ -3099,10 +3485,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "operational-excellence",
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "artificial-intelligence"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.zeni.ai/about-us",
+          "title": "About Zeni",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_microsoft",
@@ -7072,7 +7478,10 @@
         "AI Infrastructure",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -7086,7 +7495,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_description_granica-provides-data-efficiency-and-data-privac",
@@ -7095,7 +7504,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_website_https-granica-ai",
@@ -7104,7 +7513,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_categories_ai-infrastructure",
@@ -7113,7 +7522,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_categories_artificial-intelligence",
@@ -7122,7 +7531,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_cxo-roles_cio",
@@ -7131,7 +7540,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_cxo-roles_cto",
@@ -7140,7 +7549,7 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_granica_cxo-roles_ciso",
@@ -7149,7 +7558,103 @@
           "source_ids": [
             "src_granica_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_granica_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_headquarters_mountain-view-california-united-states",
+          "field": "headquarters",
+          "value": "Mountain View, California, United States",
+          "source_ids": [
+            "src_granica_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_products_ai-data-readiness-platform",
+          "field": "products",
+          "value": "AI Data Readiness Platform",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_products_data-compression-infrastructure",
+          "field": "products",
+          "value": "data-compression infrastructure",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_products_data-privacy-and-masking-tools",
+          "field": "products",
+          "value": "data-privacy and masking tools",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_services_ai-data-preparation",
+          "field": "services",
+          "value": "AI data preparation",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_services_cloud-data-compression",
+          "field": "services",
+          "value": "cloud-data compression",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_services_data-privacy-and-masking",
+          "field": "services",
+          "value": "data privacy and masking",
+          "source_ids": [
+            "src_granica_about_2026",
+            "src_granica_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_granica_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_granica_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_granica_about_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -7170,11 +7675,60 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_granica_about_2026",
+          "url": "https://granica.ai/about",
+          "title": "About Granica",
+          "publisher": "Granica",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_granica_privacy_2026",
+          "url": "https://www.granica.ai/privacy-policy",
+          "title": "Granica privacy policy",
+          "publisher": "Granica",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_granica_terms_2026",
+          "url": "https://www.granica.ai/terms-of-service",
+          "title": "Granica terms of service",
+          "publisher": "Granica",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "founded_year": 2019,
+      "headquarters": "Mountain View, California, United States",
+      "products": [
+        "AI Data Readiness Platform",
+        "data-compression infrastructure",
+        "data-privacy and masking tools"
+      ],
+      "services": [
+        "AI data preparation",
+        "cloud-data compression",
+        "data privacy and masking"
+      ],
       "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
@@ -7188,10 +7742,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "risk-management",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-governance"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://granica.ai/about",
+          "title": "About Granica",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_gumloop",
@@ -7209,7 +7783,10 @@
         "Artificial Intelligence",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -7223,7 +7800,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_description_gumloop-provides-no-code-workflow-automation-usi",
@@ -7232,7 +7809,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_website_https-www-gumloop-com",
@@ -7241,7 +7818,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_categories_artificial-intelligence",
@@ -7250,7 +7827,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_categories_enterprise-technology",
@@ -7259,7 +7836,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_cxo-roles_cio",
@@ -7268,7 +7845,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_cxo-roles_cto",
@@ -7277,7 +7854,7 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_gumloop_cxo-roles_coo",
@@ -7286,7 +7863,97 @@
           "source_ids": [
             "src_gumloop_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_founded-year_2023",
+          "field": "founded_year",
+          "value": 2023,
+          "source_ids": [
+            "src_gumloop_handbook_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_services_no-code-ai-automation",
+          "field": "services",
+          "value": "no-code AI automation",
+          "source_ids": [
+            "src_gumloop_handbook_2026",
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_services_agent-orchestration",
+          "field": "services",
+          "value": "agent orchestration",
+          "source_ids": [
+            "src_gumloop_handbook_2026",
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_services_business-workflow-automation",
+          "field": "services",
+          "value": "business-workflow automation",
+          "source_ids": [
+            "src_gumloop_handbook_2026",
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_gumloop_handbook_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_gumloop_handbook_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_products_gumloop-ai-automation-platform",
+          "field": "products",
+          "value": "Gumloop AI automation platform",
+          "source_ids": [
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_products_gumstack",
+          "field": "products",
+          "value": "Gumstack",
+          "source_ids": [
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gumloop_products_workflow-agents",
+          "field": "products",
+          "value": "workflow agents",
+          "source_ids": [
+            "src_gumloop_gumstack_2026",
+            "src_gumloop_series_a_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -7307,11 +7974,61 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_gumloop_handbook_2026",
+          "url": "https://www.gumloop.com/blog/handbook/",
+          "title": "The Gumloop Handbook",
+          "publisher": "Gumloop",
+          "source_class": "official company",
+          "published_date": "2025-01-30",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_gumloop_gumstack_2026",
+          "url": "https://www.gumloop.com/products/gumstack",
+          "title": "Gumstack",
+          "publisher": "Gumloop",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_gumloop_series_a_2026",
+          "url": "https://www.gumloop.com/blog/gumloops-17m-series-a",
+          "title": "Gumloop's Series A",
+          "publisher": "Gumloop",
+          "source_class": "official company",
+          "published_date": "2025-01-10",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "founded_year": 2023,
+      "products": [
+        "Gumloop AI automation platform",
+        "Gumstack",
+        "workflow agents"
+      ],
+      "services": [
+        "no-code AI automation",
+        "agent orchestration",
+        "business-workflow automation"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -7325,10 +8042,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "business-growth"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "agentic-ai",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.gumloop.com/blog/handbook/",
+          "title": "The Gumloop Handbook",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_compose_ai",
@@ -7361,7 +8098,7 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_description_compose-ai-develops-artificial-intelligence-writ",
@@ -7370,7 +8107,7 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_website_https-www-compose-ai",
@@ -7379,7 +8116,7 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_categories_artificial-intelligence",
@@ -7388,7 +8125,7 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_cxo-roles_cio",
@@ -7397,7 +8134,7 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_cxo-roles_cto",
@@ -7406,70 +8143,84 @@
           "source_ids": [
             "src_compose-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_products_compose-ai-chrome-extension",
           "field": "products",
           "value": "Compose AI Chrome extension",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_products_ai-autocomplete",
           "field": "products",
           "value": "AI autocomplete",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_products_ai-writing-assistant",
           "field": "products",
           "value": "AI writing assistant",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_products_email-reply-generator",
           "field": "products",
           "value": "email reply generator",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_services_ai-assisted-writing",
           "field": "services",
           "value": "AI-assisted writing",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_services_text-generation",
           "field": "services",
           "value": "text generation",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_services_writing-personalization",
           "field": "services",
           "value": "writing personalization",
           "source_ids": [
-            "src_compose_product_2026"
+            "src_compose_product_2026",
+            "src_compose_privacy_2026",
+            "src_compose_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_industries_artificial-intelligence",
@@ -7478,7 +8229,7 @@
           "source_ids": [
             "src_compose_product_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_industries_productivity-software",
@@ -7487,7 +8238,7 @@
           "source_ids": [
             "src_compose_product_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_compose-ai_public-pricing_true",
@@ -7496,7 +8247,7 @@
           "source_ids": [
             "src_compose_product_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -7531,10 +8282,34 @@
             "industries",
             "public_pricing"
           ]
+        },
+        {
+          "id": "src_compose_privacy_2026",
+          "url": "https://www.compose.ai/privacy-policy",
+          "title": "Compose AI privacy policy",
+          "publisher": "Compose AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_compose_terms_2026",
+          "url": "https://www.compose.ai/terms-of-service",
+          "title": "Compose AI terms",
+          "publisher": "Compose AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "Compose AI Chrome extension",
@@ -8174,7 +8949,12 @@
         "Artificial Intelligence",
         "AI Security"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Media",
+        "Financial Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -8188,7 +8968,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_description_resemble-ai-provides-synthetic-voice-technology-",
@@ -8197,7 +8977,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_website_https-www-resemble-ai",
@@ -8206,7 +8986,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_categories_artificial-intelligence",
@@ -8215,7 +8995,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_categories_ai-security",
@@ -8224,7 +9004,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_cxo-roles_cio",
@@ -8233,7 +9013,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_cxo-roles_cto",
@@ -8242,7 +9022,7 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_resemble-ai_cxo-roles_ciso",
@@ -8251,7 +9031,136 @@
           "source_ids": [
             "src_resemble-ai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_resemble_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_services_synthetic-voice-generation",
+          "field": "services",
+          "value": "synthetic-voice generation",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_products_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_services_audio-deepfake-detection",
+          "field": "services",
+          "value": "audio deepfake detection",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_products_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_services_voice-identity-verification",
+          "field": "services",
+          "value": "voice identity verification",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_products_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_services_media-watermarking",
+          "field": "services",
+          "value": "media watermarking",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_products_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_industries_media",
+          "field": "industries",
+          "value": "Media",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_resemble_about_2026",
+            "src_resemble_finance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_products_resemble-ai-voice-platform",
+          "field": "products",
+          "value": "Resemble AI voice platform",
+          "source_ids": [
+            "src_resemble_products_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_products_detect-deepfake-detection",
+          "field": "products",
+          "value": "DETECT deepfake detection",
+          "source_ids": [
+            "src_resemble_products_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_products_identity",
+          "field": "products",
+          "value": "Identity",
+          "source_ids": [
+            "src_resemble_products_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_resemble-ai_products_watermarker",
+          "field": "products",
+          "value": "Watermarker",
+          "source_ids": [
+            "src_resemble_products_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -8272,11 +9181,61 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_resemble_about_2026",
+          "url": "https://www.resemble.ai/company/about-us",
+          "title": "About Resemble AI",
+          "publisher": "Resemble AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_resemble_products_2026",
+          "url": "https://www.resemble.ai/products",
+          "title": "Resemble AI products",
+          "publisher": "Resemble AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_resemble_finance_2026",
+          "url": "https://www.resemble.ai/solutions/finance",
+          "title": "Resemble AI for finance",
+          "publisher": "Resemble AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "founded_year": 2019,
+      "products": [
+        "Resemble AI voice platform",
+        "DETECT deepfake detection",
+        "Identity",
+        "Watermarker"
+      ],
+      "services": [
+        "synthetic-voice generation",
+        "audio deepfake detection",
+        "voice identity verification",
+        "media watermarking"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -8290,10 +9249,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "transformation",
+        "governance"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "ai-security",
+        "identity"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.resemble.ai/products",
+          "title": "Resemble AI products",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_finrep",
@@ -8578,10 +9557,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "operational-excellence",
+        "governance",
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.finrep.ai/about",
+          "title": "About Finrep",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_thinkingai",
@@ -8602,7 +9598,10 @@
         "AI Agents",
         "Enterprise Automation"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -8616,7 +9615,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_description_thinkingai-provides-self-hosted-artificial-intel",
@@ -8625,7 +9624,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_website_https-thinkingai-io",
@@ -8634,7 +9633,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_categories_artificial-intelligence",
@@ -8643,7 +9642,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_categories_ai-agents",
@@ -8652,7 +9651,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_categories_enterprise-automation",
@@ -8661,7 +9660,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_cxo-roles_ceo",
@@ -8670,7 +9669,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_cxo-roles_cmo",
@@ -8679,7 +9678,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_cxo-roles_cio",
@@ -8688,7 +9687,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_cxo-roles_cto",
@@ -8697,7 +9696,7 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_thinkingai_cxo-roles_coo",
@@ -8706,7 +9705,133 @@
           "source_ids": [
             "src_thinkingai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_founded-year_2015",
+          "field": "founded_year",
+          "value": 2015,
+          "source_ids": [
+            "src_thinkingai_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_products_agentic-engine",
+          "field": "products",
+          "value": "Agentic Engine",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_products_autonomous-ops",
+          "field": "products",
+          "value": "Autonomous Ops",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_products_total-context",
+          "field": "products",
+          "value": "Total Context",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_products_governance-studio",
+          "field": "products",
+          "value": "Governance Studio",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_products_self-hosted-ai-agents",
+          "field": "products",
+          "value": "self-hosted AI agents",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_services_enterprise-agent-deployment",
+          "field": "services",
+          "value": "enterprise-agent deployment",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_services_decision-automation",
+          "field": "services",
+          "value": "decision automation",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_services_self-hosted-ai-operations",
+          "field": "services",
+          "value": "self-hosted AI operations",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_thinkingai_about_2026",
+            "src_thinkingai_autonomous_ops_2026",
+            "src_thinkingai_governance_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_thinkingai_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_thinkingai_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_thinkingai_about_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -8727,11 +9852,63 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_thinkingai_about_2026",
+          "url": "https://thinkingai.io/en/about/",
+          "title": "About ThinkingAI",
+          "publisher": "ThinkingAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_thinkingai_autonomous_ops_2026",
+          "url": "https://thinkingai.io/en/product/autonomous-ops/",
+          "title": "ThinkingAI Autonomous Ops",
+          "publisher": "ThinkingAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_thinkingai_governance_2026",
+          "url": "https://thinkingai.io/en/product/governance-studio/",
+          "title": "ThinkingAI Governance Studio",
+          "publisher": "ThinkingAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "founded_year": 2015,
+      "products": [
+        "Agentic Engine",
+        "Autonomous Ops",
+        "Total Context",
+        "Governance Studio",
+        "self-hosted AI agents"
+      ],
+      "services": [
+        "enterprise-agent deployment",
+        "decision automation",
+        "self-hosted AI operations",
+        "AI governance"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -8747,10 +9924,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "agentic-ai",
+        "ai-governance"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://thinkingai.io/en/about/",
+          "title": "About ThinkingAI",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_qognitive",
@@ -8767,7 +9964,10 @@
         "Artificial Intelligence",
         "Machine Learning"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -8781,7 +9981,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_description_qognitive-develops-analytical-machine-learning-t",
@@ -8790,7 +9990,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_website_https-qognitive-io",
@@ -8799,7 +9999,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_categories_artificial-intelligence",
@@ -8808,7 +10008,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_categories_machine-learning",
@@ -8817,7 +10017,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_cxo-roles_cio",
@@ -8826,7 +10026,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_cxo-roles_cto",
@@ -8835,7 +10035,7 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_qognitive_relationship-notes_this-record-refers-to-qognitive-io-and-is-not-as",
@@ -8844,7 +10044,78 @@
           "source_ids": [
             "src_qognitive_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_products_quantum-cognition-analytical-platform",
+          "field": "products",
+          "value": "quantum-cognition analytical platform",
+          "source_ids": [
+            "src_qognitive_platform_2026",
+            "src_qognitive_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_products_machine-learning-decision-models",
+          "field": "products",
+          "value": "machine-learning decision models",
+          "source_ids": [
+            "src_qognitive_platform_2026",
+            "src_qognitive_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_services_predictive-analytics",
+          "field": "services",
+          "value": "predictive analytics",
+          "source_ids": [
+            "src_qognitive_platform_2026",
+            "src_qognitive_terms_2026",
+            "src_qognitive_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_services_decision-intelligence",
+          "field": "services",
+          "value": "decision intelligence",
+          "source_ids": [
+            "src_qognitive_platform_2026",
+            "src_qognitive_terms_2026",
+            "src_qognitive_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_services_machine-learning-analysis",
+          "field": "services",
+          "value": "machine-learning analysis",
+          "source_ids": [
+            "src_qognitive_platform_2026",
+            "src_qognitive_terms_2026",
+            "src_qognitive_privacy_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_qognitive_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_qognitive_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_qognitive_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -8866,11 +10137,56 @@
             "cxo_roles",
             "relationship_notes"
           ]
+        },
+        {
+          "id": "src_qognitive_platform_2026",
+          "url": "https://qognitive.io/",
+          "title": "Qognitive",
+          "publisher": "Qognitive",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_qognitive_terms_2026",
+          "url": "https://www.qognitive.io/terms/",
+          "title": "Qognitive terms",
+          "publisher": "Qognitive",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_qognitive_privacy_2026",
+          "url": "https://www.qognitive.io/privacy/",
+          "title": "Qognitive privacy policy",
+          "publisher": "Qognitive",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [
+        "quantum-cognition analytical platform",
+        "machine-learning decision models"
+      ],
+      "services": [
+        "predictive analytics",
+        "decision intelligence",
+        "machine-learning analysis"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -8884,10 +10200,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "strategic-insight",
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://qognitive.io/",
+          "title": "Qognitive",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_contextqa",
@@ -8909,7 +10245,10 @@
         "Quality Assurance",
         "Artificial Intelligence"
       ],
-      "geographies": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -8922,7 +10261,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_description_contextqa-provides-automated-software-testing-fo",
@@ -8931,7 +10270,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_website_https-contextqa-com",
@@ -8940,7 +10279,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_categories_artificial-intelligence",
@@ -8949,7 +10288,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_categories_enterprise-technology",
@@ -8958,7 +10297,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_cxo-roles_cio",
@@ -8967,7 +10306,7 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_cxo-roles_cto",
@@ -8976,88 +10315,124 @@
           "source_ids": [
             "src_contextqa_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_products_ai-powered-test-automation-platform",
           "field": "products",
           "value": "AI-powered test automation platform",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_products_self-healing-test-scripts",
           "field": "products",
           "value": "self-healing test scripts",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_products_plain-language-failure-diagnostics",
           "field": "products",
           "value": "plain-language failure diagnostics",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_services_software-test-automation",
           "field": "services",
           "value": "software test automation",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_services_test-coverage-augmentation",
           "field": "services",
           "value": "test coverage augmentation",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_services_failure-diagnosis",
           "field": "services",
           "value": "failure diagnosis",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_industries_software-development",
           "field": "industries",
           "value": "Software Development",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_industries_quality-assurance",
           "field": "industries",
           "value": "Quality Assurance",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_contextqa_industries_artificial-intelligence",
           "field": "industries",
           "value": "Artificial Intelligence",
           "source_ids": [
-            "src_contextqa_about_2026"
+            "src_contextqa_about_2026",
+            "src_contextqa_platform_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_contextqa_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_contextqa_contact_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -9091,10 +10466,35 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_contextqa_contact_2026",
+          "url": "https://contextqa.com/contact-us/",
+          "title": "ContextQA contact",
+          "publisher": "ContextQA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_contextqa_platform_2026",
+          "url": "https://contextqa.com/platform/",
+          "title": "ContextQA platform",
+          "publisher": "ContextQA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "AI-powered test automation platform",
@@ -9106,7 +10506,8 @@
         "test coverage augmentation",
         "failure diagnosis"
       ],
-      "geography_status": "unknown",
+      "headquarters": "San Francisco, California, United States",
+      "geography_status": "verified",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -9119,10 +10520,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "operational-excellence",
+        "transformation",
+        "risk-management"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://contextqa.com/platform/",
+          "title": "ContextQA platform",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_herculesai",
@@ -9140,7 +10560,10 @@
         "Artificial Intelligence",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Professional Services",
+        "Financial Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -9154,7 +10577,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_description_herculesai-develops-artificial-intelligence-soft",
@@ -9163,7 +10586,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_website_https-hercules-ai",
@@ -9172,7 +10595,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_categories_artificial-intelligence",
@@ -9181,7 +10604,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_categories_enterprise-technology",
@@ -9190,7 +10613,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_cxo-roles_cio",
@@ -9199,7 +10622,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_cxo-roles_cto",
@@ -9208,7 +10631,7 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_herculesai_cxo-roles_coo",
@@ -9217,7 +10640,109 @@
           "source_ids": [
             "src_herculesai_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_products_hercules-enterprise-ai-platform",
+          "field": "products",
+          "value": "Hercules enterprise AI platform",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_products_enterprise-ai-workers",
+          "field": "products",
+          "value": "enterprise AI workers",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_services_order-to-cash-automation",
+          "field": "services",
+          "value": "order-to-cash automation",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_services_billing-accuracy-automation",
+          "field": "services",
+          "value": "billing-accuracy automation",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_services_cash-application-automation",
+          "field": "services",
+          "value": "cash-application automation",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_services_document-workflow-automation",
+          "field": "services",
+          "value": "document-workflow automation",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_platform_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_hercules_about_2026",
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_founded-year_2014",
+          "field": "founded_year",
+          "value": 2014,
+          "source_ids": [
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_herculesai_headquarters_campbell-california-united-states",
+          "field": "headquarters",
+          "value": "Campbell, California, United States",
+          "source_ids": [
+            "src_hercules_history_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -9238,11 +10763,63 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_hercules_about_2026",
+          "url": "https://www.hercules.ai/about-us",
+          "title": "About Hercules",
+          "publisher": "Hercules",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_hercules_platform_2026",
+          "url": "https://www.hercules.ai/our-platform",
+          "title": "Hercules platform",
+          "publisher": "Hercules",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_hercules_history_2026",
+          "url": "https://www.hercules.ai/post/pr-aderant-signs-deal-to-acquire-herculesai-legal-technology-assets-accelerating-ai-capabilities-in",
+          "title": "HerculesAI company information",
+          "publisher": "Hercules",
+          "source_class": "official company",
+          "published_date": "2025-08-07",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "founded_year": 2014,
+      "headquarters": "Campbell, California, United States",
+      "products": [
+        "Hercules enterprise AI platform",
+        "enterprise AI workers"
+      ],
+      "services": [
+        "order-to-cash automation",
+        "billing-accuracy automation",
+        "cash-application automation",
+        "document-workflow automation"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -9256,10 +10833,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "agentic-ai",
+        "finance-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.hercules.ai/about-us",
+          "title": "About Hercules",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_atlas_cloud_ai",
@@ -10444,7 +12042,10 @@
         "Semiconductor Technology",
         "Electronic Design Automation"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -10458,7 +12059,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_description_agentrys-develops-agentic-design-automation-soft",
@@ -10467,7 +12068,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_website_https-agentrys-ai",
@@ -10476,7 +12077,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_categories_artificial-intelligence",
@@ -10485,7 +12086,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_categories_ai-agents",
@@ -10494,7 +12095,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_categories_semiconductor-technology",
@@ -10503,7 +12104,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_categories_electronic-design-automation",
@@ -10512,7 +12113,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_cxo-roles_cto",
@@ -10521,7 +12122,7 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_agentrys_cxo-roles_cio",
@@ -10530,7 +12131,75 @@
           "source_ids": [
             "src_agentrys_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_products_agentrys-studio",
+          "field": "products",
+          "value": "Agentrys Studio",
+          "source_ids": [
+            "src_agentrys_product_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_products_agentic-design-automation-platform",
+          "field": "products",
+          "value": "Agentic Design Automation platform",
+          "source_ids": [
+            "src_agentrys_product_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_services_semiconductor-design-workflow-automation",
+          "field": "services",
+          "value": "semiconductor design workflow automation",
+          "source_ids": [
+            "src_agentrys_product_2026",
+            "src_agentrys_team_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_services_verification-workflow-automation",
+          "field": "services",
+          "value": "verification workflow automation",
+          "source_ids": [
+            "src_agentrys_product_2026",
+            "src_agentrys_team_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_services_engineering-agent-orchestration",
+          "field": "services",
+          "value": "engineering-agent orchestration",
+          "source_ids": [
+            "src_agentrys_product_2026",
+            "src_agentrys_team_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_agentrys_product_2026",
+            "src_agentrys_careers_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_agentrys_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_agentrys_product_2026",
+            "src_agentrys_careers_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -10551,11 +12220,55 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_agentrys_product_2026",
+          "url": "https://agentrys.ai/product",
+          "title": "Agentrys product",
+          "publisher": "Agentrys",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_agentrys_team_2026",
+          "url": "https://agentrys.ai/team",
+          "title": "Agentrys team",
+          "publisher": "Agentrys",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_agentrys_careers_2026",
+          "url": "https://agentrys.ai/careers",
+          "title": "Agentrys careers",
+          "publisher": "Agentrys",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [
+        "Agentrys Studio",
+        "Agentic Design Automation platform"
+      ],
+      "services": [
+        "semiconductor design workflow automation",
+        "verification workflow automation",
+        "engineering-agent orchestration"
+      ],
       "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
@@ -10573,10 +12286,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "agentic-ai",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://agentrys.ai/product",
+          "title": "Agentrys product",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_agentweb",

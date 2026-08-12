@@ -1,9 +1,9 @@
 {
-  "dataset_version": "0.9.2",
+  "dataset_version": "0.9.3",
   "schema_version": "1.0.0",
   "coverage": {
-    "total_classified_associations": 2247,
-    "evidence_linked_relationships": 1972,
+    "total_classified_associations": 2506,
+    "evidence_linked_relationships": 2231,
     "associations_pending_field_specific_evidence": 275
   },
   "relationships": [
@@ -7197,6 +7197,78 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_bernstein_supports_need_strategic-insight",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "strategic-insight",
+      "object_label": "Strategic Insight",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_bernstein_supports_need_decision-support",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_bernstein_supports_need_capital-formation",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_bernstein_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_bernstein_addresses_topic_finance-leadership",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-leadership",
+      "object_label": "Finance Leadership",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_bernstein_addresses_topic_corporate-strategy",
+      "subject_entity_id": "ent_bernstein",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-strategy",
+      "object_label": "Corporate Strategy",
+      "evidence_urls": [
+        "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_leader_bank_serves_role_ceo",
       "subject_entity_id": "ent_leader_bank",
       "predicate": "serves_role",
@@ -7362,6 +7434,90 @@
       "object_label": "Wealth Management",
       "evidence_urls": [
         "https://www.northwesternmutual.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_supports_need_strategic-insight",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "strategic-insight",
+      "object_label": "Strategic Insight",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_supports_need_risk-management",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_supports_need_capital-formation",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_addresses_topic_finance-leadership",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-leadership",
+      "object_label": "Finance Leadership",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_addresses_topic_risk",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "risk",
+      "object_label": "Risk",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_northwestern_mutual_operates_in_united-states",
+      "subject_entity_id": "ent_northwestern_mutual",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.northwesternmutual.com/who-we-are/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -8174,6 +8330,102 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_chameleon_ventures_supports_need_fundraising",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_supports_need_portfolio-support",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "portfolio-support",
+      "object_label": "Portfolio Support",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_supports_need_business-growth",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_addresses_topic_fundraising",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_addresses_topic_growth",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_serves_audience_founders",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_chameleon_ventures_serves_audience_venture-capital-investors",
+      "subject_entity_id": "ent_chameleon_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "venture-capital-investors",
+      "object_label": "Venture Capital Investors",
+      "evidence_urls": [
+        "https://www.chameleon.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_pier_70_ventures_serves_role_ceo",
       "subject_entity_id": "ent_pier_70_ventures",
       "predicate": "serves_role",
@@ -8206,6 +8458,102 @@
       "object_label": "Venture Capital",
       "evidence_urls": [
         "https://www.pier70ventures.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_supports_need_fundraising",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_supports_need_portfolio-support",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "portfolio-support",
+      "object_label": "Portfolio Support",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_supports_need_business-growth",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_addresses_topic_fundraising",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_addresses_topic_growth",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_serves_audience_founders",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_serves_audience_venture-capital-investors",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "venture-capital-investors",
+      "object_label": "Venture Capital Investors",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -9762,6 +10110,90 @@
       "object_label": "Artificial Intelligence",
       "evidence_urls": [
         "https://www.harvey.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_supports_need_transformation",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_supports_need_operational-excellence",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_supports_need_decision-support",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_addresses_topic_enterprise-ai",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "enterprise-ai",
+      "object_label": "Enterprise AI",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_addresses_topic_agentic-ai",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "agentic-ai",
+      "object_label": "Agentic AI",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_harvey_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_harvey",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://www.harvey.ai/en-US/platform"
       ],
       "verification_status": "evidence-linked"
     },
@@ -11388,6 +11820,117 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_era_group_supports_need_operational-excellence",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_supports_need_transformation",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_supports_need_decision-support",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_addresses_topic_corporate-strategy",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-strategy",
+      "object_label": "Corporate Strategy",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_addresses_topic_risk",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "risk",
+      "object_label": "Risk",
+      "evidence_urls": [
+        "https://www.eragroup.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_operates_in_united-states",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.eragroup.com/about",
+        "https://www.eragroup.com/contact"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_operates_in_london",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.eragroup.com/about",
+        "https://www.eragroup.com/contact"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_era_group_operates_in_singapore",
+      "subject_entity_id": "ent_era_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.eragroup.com/about",
+        "https://www.eragroup.com/contact"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_capgemini_serves_role_ceo",
       "subject_entity_id": "ent_capgemini",
       "predicate": "serves_role",
@@ -12716,7 +13259,8 @@
       "object_id": "United States",
       "object_label": "United States",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12728,7 +13272,8 @@
       "object_id": "San Francisco Bay Area",
       "object_label": "San Francisco Bay Area",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12740,7 +13285,8 @@
       "object_id": "New York",
       "object_label": "New York",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12752,7 +13298,8 @@
       "object_id": "Austin",
       "object_label": "Austin",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12764,7 +13311,8 @@
       "object_id": "Seattle",
       "object_label": "Seattle",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12776,7 +13324,8 @@
       "object_id": "London",
       "object_label": "London",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12788,7 +13337,8 @@
       "object_id": "Singapore",
       "object_label": "Singapore",
       "evidence_urls": [
-        "https://www.rippling.com/en-CA/company/about"
+        "https://www.rippling.com/en-CA/company/about",
+        "https://www.rippling.com/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -13401,6 +13951,78 @@
       "object_label": "HR Technology",
       "evidence_urls": [
         "https://optimhire.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_supports_need_talent",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "talent",
+      "object_label": "Talent",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_supports_need_business-growth",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_supports_need_operational-excellence",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_addresses_topic_leadership",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "leadership",
+      "object_label": "Leadership",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_optimhire_addresses_topic_growth",
+      "subject_entity_id": "ent_optimhire",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://optimhire.com/ai-recruiter"
       ],
       "verification_status": "evidence-linked"
     },
@@ -14967,6 +15589,30 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_zenskar_operates_in_united-states",
+      "subject_entity_id": "ent_zenskar",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.zenskar.com/blog/bessemer-leads-zenskar-seed-funding"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zenskar_operates_in_new-york",
+      "subject_entity_id": "ent_zenskar",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.zenskar.com/blog/bessemer-leads-zenskar-seed-funding"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_bill_serves_role_cfo",
       "subject_entity_id": "ent_bill",
       "predicate": "serves_role",
@@ -15351,6 +15997,90 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_mercury_supports_need_operational-excellence",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_supports_need_decision-support",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_supports_need_business-growth",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_addresses_topic_growth",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mercury_serves_audience_founders",
+      "subject_entity_id": "ent_mercury",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://mercury.com/blog/series-d-announcement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_rho_serves_role_cfo",
       "subject_entity_id": "ent_rho",
       "predicate": "serves_role",
@@ -15395,6 +16125,78 @@
       "object_label": "Spend Management",
       "evidence_urls": [
         "https://www.rho.co/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_supports_need_operational-excellence",
+      "subject_entity_id": "ent_rho",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://rho.co/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_supports_need_decision-support",
+      "subject_entity_id": "ent_rho",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://rho.co/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_supports_need_capital-formation",
+      "subject_entity_id": "ent_rho",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://rho.co/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_rho",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://rho.co/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_rho",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://rho.co/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rho_serves_audience_founders",
+      "subject_entity_id": "ent_rho",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://rho.co/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -15555,6 +16357,102 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_zeni_supports_need_operational-excellence",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_supports_need_decision-support",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_supports_need_transformation",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_addresses_topic_fpa",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fpa",
+      "object_label": "FP&A",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_serves_audience_founders",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_zeni_operates_in_united-states",
+      "subject_entity_id": "ent_zeni",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.zeni.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_xero_serves_role_cfo",
       "subject_entity_id": "ent_xero",
       "predicate": "serves_role",
@@ -15587,6 +16485,78 @@
       "object_label": "CFO Technology",
       "evidence_urls": [
         "https://www.xero.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_supports_need_operational-excellence",
+      "subject_entity_id": "ent_xero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_supports_need_decision-support",
+      "subject_entity_id": "ent_xero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_supports_need_transformation",
+      "subject_entity_id": "ent_xero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_xero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_addresses_topic_fpa",
+      "subject_entity_id": "ent_xero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fpa",
+      "object_label": "FP&A",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_xero_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_xero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.xero.com/us/about/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -15647,6 +16617,102 @@
       "object_label": "Fintech",
       "evidence_urls": [
         "https://www.intuit.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_supports_need_operational-excellence",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_supports_need_transformation",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_supports_need_business-growth",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_addresses_topic_customer-acquisition",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "customer-acquisition",
+      "object_label": "Customer Acquisition",
+      "evidence_urls": [
+        "https://www.intuit.com/products/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_operates_in_united-states",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.intuit.com/company/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intuit_operates_in_london",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.intuit.com/company/locations/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -15723,6 +16789,126 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_stripe_supports_need_operational-excellence",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_supports_need_business-growth",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_supports_need_transformation",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_addresses_topic_growth",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_operates_in_united-states",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_operates_in_london",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_stripe_operates_in_singapore",
+      "subject_entity_id": "ent_stripe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://stripe.com/newsroom/information"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_pulley_serves_role_ceo",
       "subject_entity_id": "ent_pulley",
       "predicate": "serves_role",
@@ -15777,6 +16963,90 @@
       "object_dimension": "provider_type",
       "object_id": "cfo-technology",
       "object_label": "CFO Technology",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_supports_need_capital-formation",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_supports_need_governance",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_supports_need_decision-support",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_addresses_topic_fundraising",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://pulley.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pulley_serves_audience_founders",
+      "subject_entity_id": "ent_pulley",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
       "evidence_urls": [
         "https://pulley.com/"
       ],
@@ -16007,6 +17277,78 @@
       "object_label": "Enterprise Technology",
       "evidence_urls": [
         "https://www.sharevault.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_supports_need_governance",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_supports_need_risk-management",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_supports_need_collaboration",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "collaboration",
+      "object_label": "Collaboration",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_addresses_topic_private-markets",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "private-markets",
+      "object_label": "Private Markets",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_addresses_topic_dealmaking",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "dealmaking",
+      "object_label": "Dealmaking",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_sharevault_addresses_topic_corporate-governance",
+      "subject_entity_id": "ent_sharevault",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-governance",
+      "object_label": "Corporate Governance",
+      "evidence_urls": [
+        "https://sharevault.com/about-us"
       ],
       "verification_status": "evidence-linked"
     },
@@ -17847,6 +19189,90 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_granica_supports_need_transformation",
+      "subject_entity_id": "ent_granica",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_supports_need_risk-management",
+      "subject_entity_id": "ent_granica",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_supports_need_operational-excellence",
+      "subject_entity_id": "ent_granica",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_granica",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_addresses_topic_enterprise-ai",
+      "subject_entity_id": "ent_granica",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "enterprise-ai",
+      "object_label": "Enterprise AI",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_addresses_topic_ai-governance",
+      "subject_entity_id": "ent_granica",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-governance",
+      "object_label": "AI Governance",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_granica_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_granica",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://granica.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_gumloop_serves_role_cio",
       "subject_entity_id": "ent_gumloop",
       "predicate": "serves_role",
@@ -17903,6 +19329,90 @@
       "object_label": "Enterprise Technology",
       "evidence_urls": [
         "https://www.gumloop.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_supports_need_transformation",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_supports_need_operational-excellence",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_supports_need_business-growth",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_addresses_topic_agentic-ai",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "agentic-ai",
+      "object_label": "Agentic AI",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_addresses_topic_ai-transformation",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-transformation",
+      "object_label": "AI Transformation",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_gumloop_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_gumloop",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://www.gumloop.com/blog/handbook/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -18183,6 +19693,18 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_adaptive_security_operates_in_united-states",
+      "subject_entity_id": "ent_adaptive_security",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.adaptivesecurity.com/legal"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_witnessai_serves_role_ciso",
       "subject_entity_id": "ent_witnessai",
       "predicate": "serves_role",
@@ -18435,6 +19957,30 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_airmdr_operates_in_united-states",
+      "subject_entity_id": "ent_airmdr",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://airmdr.com/privacy"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_airmdr_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_airmdr",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://airmdr.com/privacy"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_resemble_ai_serves_role_cio",
       "subject_entity_id": "ent_resemble_ai",
       "predicate": "serves_role",
@@ -18491,6 +20037,90 @@
       "object_label": "AI Security",
       "evidence_urls": [
         "https://www.resemble.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_supports_need_risk-management",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_supports_need_transformation",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_supports_need_governance",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_addresses_topic_ai-security",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-security",
+      "object_label": "AI Security",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_addresses_topic_identity",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "identity",
+      "object_label": "Identity",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_resemble_ai_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_resemble_ai",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://www.resemble.ai/products"
       ],
       "verification_status": "evidence-linked"
     },
@@ -20250,6 +21880,126 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_mastercard_supports_need_operational-excellence",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_supports_need_risk-management",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_supports_need_business-growth",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_addresses_topic_cybersecurity",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "cybersecurity",
+      "object_label": "Cybersecurity",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_addresses_topic_growth",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://www.mastercard.com/us/en/business.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_operates_in_united-states",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.mastercard.com/brandcenter/us/en/brand-history.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_operates_in_new-york",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.mastercard.com/brandcenter/us/en/brand-history.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_operates_in_london",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.mastercard.com/brandcenter/us/en/brand-history.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_mastercard_operates_in_singapore",
+      "subject_entity_id": "ent_mastercard",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.mastercard.com/brandcenter/us/en/brand-history.html"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_affirm_serves_role_cfo",
       "subject_entity_id": "ent_affirm",
       "predicate": "serves_role",
@@ -20534,6 +22284,66 @@
       "object_label": "Enterprise Technology",
       "evidence_urls": [
         "https://signeasy.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_signeasy_supports_need_operational-excellence",
+      "subject_entity_id": "ent_signeasy",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://signeasy.com/blog/company/introducing-intelligent-contract-management"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_signeasy_supports_need_governance",
+      "subject_entity_id": "ent_signeasy",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://signeasy.com/blog/company/introducing-intelligent-contract-management"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_signeasy_supports_need_transformation",
+      "subject_entity_id": "ent_signeasy",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://signeasy.com/blog/company/introducing-intelligent-contract-management"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_signeasy_addresses_topic_corporate-governance",
+      "subject_entity_id": "ent_signeasy",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-governance",
+      "object_label": "Corporate Governance",
+      "evidence_urls": [
+        "https://signeasy.com/blog/company/introducing-intelligent-contract-management"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_signeasy_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_signeasy",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://signeasy.com/blog/company/introducing-intelligent-contract-management"
       ],
       "verification_status": "evidence-linked"
     },
@@ -21243,6 +23053,102 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_nanostar_ventures_supports_need_fundraising",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_supports_need_portfolio-support",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "portfolio-support",
+      "object_label": "Portfolio Support",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_supports_need_business-growth",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_addresses_topic_emerging-technology",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "emerging-technology",
+      "object_label": "Emerging Technology",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_serves_audience_founders",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_nanostar_ventures_serves_audience_venture-capital-investors",
+      "subject_entity_id": "ent_nanostar_ventures",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "venture-capital-investors",
+      "object_label": "Venture Capital Investors",
+      "evidence_urls": [
+        "https://nanostar.vc/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_verano_capital_partners_serves_role_ceo",
       "subject_entity_id": "ent_verano_capital_partners",
       "predicate": "serves_role",
@@ -21275,6 +23181,78 @@
       "object_label": "Investment Advisory",
       "evidence_urls": [
         "https://veranocapitalpartners.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_supports_need_capital-formation",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_supports_need_strategic-insight",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "strategic-insight",
+      "object_label": "Strategic Insight",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_supports_need_business-growth",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_addresses_topic_corporate-strategy",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-strategy",
+      "object_label": "Corporate Strategy",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_verano_capital_partners_addresses_topic_growth",
+      "subject_entity_id": "ent_verano_capital_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://www.veranocapitalpartners.com/services"
       ],
       "verification_status": "evidence-linked"
     },
@@ -21339,6 +23317,102 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_capital_ip_investment_partners_supports_need_capital-formation",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_supports_need_fundraising",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_supports_need_value-creation",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "value-creation",
+      "object_label": "Value Creation",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_addresses_topic_capital-strategy",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "capital-strategy",
+      "object_label": "Capital Strategy",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_addresses_topic_dealmaking",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "dealmaking",
+      "object_label": "Dealmaking",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_serves_audience_founders",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_capital_ip_investment_partners_serves_audience_venture-capital-investors",
+      "subject_entity_id": "ent_capital_ip_investment_partners",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "venture-capital-investors",
+      "object_label": "Venture Capital Investors",
+      "evidence_urls": [
+        "https://capitalip.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_indian_hills_advisors_serves_role_ceo",
       "subject_entity_id": "ent_indian_hills_advisors",
       "predicate": "serves_role",
@@ -21383,6 +23457,30 @@
       "object_label": "Investment Banks",
       "evidence_urls": [
         "https://indianhillsadvisors.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_indian_hills_advisors_supports_need_capital-formation",
+      "subject_entity_id": "ent_indian_hills_advisors",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "capital-formation",
+      "object_label": "Capital Formation",
+      "evidence_urls": [
+        "https://feisv.org/board"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_indian_hills_advisors_addresses_topic_dealmaking",
+      "subject_entity_id": "ent_indian_hills_advisors",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "dealmaking",
+      "object_label": "Dealmaking",
+      "evidence_urls": [
+        "https://feisv.org/board"
       ],
       "verification_status": "evidence-linked"
     },
@@ -21813,6 +23911,42 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_paygentic_supports_need_operational-excellence",
+      "subject_entity_id": "ent_paygentic",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://paygentic.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_paygentic_supports_need_transformation",
+      "subject_entity_id": "ent_paygentic",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://paygentic.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_paygentic_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_paygentic",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://paygentic.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_finrep_serves_role_cfo",
       "subject_entity_id": "ent_finrep",
       "predicate": "serves_role",
@@ -21857,6 +23991,78 @@
       "object_label": "Accounting Software",
       "evidence_urls": [
         "https://finrep.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_supports_need_operational-excellence",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_supports_need_governance",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_supports_need_decision-support",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_addresses_topic_fpa",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fpa",
+      "object_label": "FP&A",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_finrep_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_finrep",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.finrep.ai/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -21957,6 +24163,90 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_thinkingai_supports_need_transformation",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_supports_need_governance",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_supports_need_operational-excellence",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_addresses_topic_agentic-ai",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "agentic-ai",
+      "object_label": "Agentic AI",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_addresses_topic_ai-governance",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-governance",
+      "object_label": "AI Governance",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_thinkingai_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_thinkingai",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://thinkingai.io/en/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_qognitive_serves_role_cio",
       "subject_entity_id": "ent_qognitive",
       "predicate": "serves_role",
@@ -21999,6 +24289,90 @@
       "object_dimension": "provider_type",
       "object_id": "machine-learning",
       "object_label": "Machine Learning",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_supports_need_strategic-insight",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "strategic-insight",
+      "object_label": "Strategic Insight",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_supports_need_decision-support",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_supports_need_transformation",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_addresses_topic_enterprise-ai",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "enterprise-ai",
+      "object_label": "Enterprise AI",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_addresses_topic_corporate-strategy",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "corporate-strategy",
+      "object_label": "Corporate Strategy",
+      "evidence_urls": [
+        "https://qognitive.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_qognitive_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_qognitive",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
       "evidence_urls": [
         "https://qognitive.io/"
       ],
@@ -22049,6 +24423,102 @@
       "object_label": "Enterprise Technology",
       "evidence_urls": [
         "https://contextqa.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_supports_need_operational-excellence",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_supports_need_transformation",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_supports_need_risk-management",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_addresses_topic_enterprise-ai",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "enterprise-ai",
+      "object_label": "Enterprise AI",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://contextqa.com/platform/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_operates_in_united-states",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://contextqa.com/contact-us/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_contextqa_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_contextqa",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://contextqa.com/contact-us/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -22109,6 +24579,102 @@
       "object_label": "Enterprise Technology",
       "evidence_urls": [
         "https://hercules.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_supports_need_transformation",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_supports_need_operational-excellence",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_supports_need_decision-support",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "decision-support",
+      "object_label": "Decision Support",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_addresses_topic_enterprise-ai",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "enterprise-ai",
+      "object_label": "Enterprise AI",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_addresses_topic_agentic-ai",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "agentic-ai",
+      "object_label": "Agentic AI",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_addresses_topic_finance-transformation",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "finance-transformation",
+      "object_label": "Finance Transformation",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_herculesai_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_herculesai",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://www.hercules.ai/about-us"
       ],
       "verification_status": "evidence-linked"
     },
@@ -22965,6 +25531,90 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_aegisai_supports_need_risk-management",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_supports_need_governance",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "governance",
+      "object_label": "Governance",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_supports_need_operational-excellence",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_addresses_topic_cybersecurity",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "cybersecurity",
+      "object_label": "Cybersecurity",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_addresses_topic_ai-security",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-security",
+      "object_label": "AI Security",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_aegisai_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_aegisai",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://www.aegisai.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_secure_octane_investments_serves_role_ceo",
       "subject_entity_id": "ent_secure_octane_investments",
       "predicate": "serves_role",
@@ -22995,6 +25645,102 @@
       "object_dimension": "provider_type",
       "object_id": "venture-capital",
       "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_supports_need_fundraising",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_supports_need_portfolio-support",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "portfolio-support",
+      "object_label": "Portfolio Support",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_supports_need_value-creation",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "value-creation",
+      "object_label": "Value Creation",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_addresses_topic_cybersecurity",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "cybersecurity",
+      "object_label": "Cybersecurity",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_addresses_topic_ai-investing",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-investing",
+      "object_label": "AI Investing",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_serves_audience_founders",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
+      "evidence_urls": [
+        "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_serves_audience_venture-capital-investors",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "venture-capital-investors",
+      "object_label": "Venture Capital Investors",
       "evidence_urls": [
         "https://secureoctane.com/"
       ],
@@ -23081,6 +25827,78 @@
       "object_label": "Electronic Design Automation",
       "evidence_urls": [
         "https://agentrys.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_supports_need_transformation",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_supports_need_operational-excellence",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_addresses_topic_agentic-ai",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "agentic-ai",
+      "object_label": "Agentic AI",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_addresses_topic_emerging-technology",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "emerging-technology",
+      "object_label": "Emerging Technology",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_agentrys_serves_audience_ai-leaders",
+      "subject_entity_id": "ent_agentrys",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "ai-leaders",
+      "object_label": "AI Leaders",
+      "evidence_urls": [
+        "https://agentrys.ai/product"
       ],
       "verification_status": "evidence-linked"
     },
@@ -23247,6 +26065,78 @@
       "object_dimension": "provider_type",
       "object_id": "consulting",
       "object_label": "Consulting",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_supports_need_risk-management",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "risk-management",
+      "object_label": "Risk Management",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_supports_need_transformation",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "transformation",
+      "object_label": "Transformation",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_supports_need_operational-excellence",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "operational-excellence",
+      "object_label": "Operational Excellence",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_addresses_topic_cybersecurity",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "cybersecurity",
+      "object_label": "Cybersecurity",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://atomiczero.io/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_atomic_zero_addresses_topic_ai-transformation",
+      "subject_entity_id": "ent_atomic_zero",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "ai-transformation",
+      "object_label": "AI Transformation",
       "evidence_urls": [
         "https://atomiczero.io/"
       ],
@@ -23649,6 +26539,126 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_transform_offers_community_format_executive-network",
+      "subject_entity_id": "ent_transform",
+      "predicate": "offers_community_format",
+      "object_dimension": "community_format",
+      "object_id": "executive-network",
+      "object_label": "Executive Network",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_offers_community_format_membership-organization",
+      "subject_entity_id": "ent_transform",
+      "predicate": "offers_community_format",
+      "object_dimension": "community_format",
+      "object_id": "membership-organization",
+      "object_label": "Membership Organization",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_offers_event_format_conference",
+      "subject_entity_id": "ent_transform",
+      "predicate": "offers_event_format",
+      "object_dimension": "event_format",
+      "object_id": "conference",
+      "object_label": "Conference",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_offers_event_format_panel",
+      "subject_entity_id": "ent_transform",
+      "predicate": "offers_event_format",
+      "object_dimension": "event_format",
+      "object_id": "panel",
+      "object_label": "Panel",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_supports_need_executive-networking",
+      "subject_entity_id": "ent_transform",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "executive-networking",
+      "object_label": "Executive Networking",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_supports_need_peer-learning",
+      "subject_entity_id": "ent_transform",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "peer-learning",
+      "object_label": "Peer Learning",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_supports_need_professional-development",
+      "subject_entity_id": "ent_transform",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "professional-development",
+      "object_label": "Professional Development",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_addresses_topic_leadership",
+      "subject_entity_id": "ent_transform",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "leadership",
+      "object_label": "Leadership",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_addresses_topic_artificial-intelligence",
+      "subject_entity_id": "ent_transform",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "artificial-intelligence",
+      "object_label": "Artificial Intelligence",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_transform_addresses_topic_emerging-technology",
+      "subject_entity_id": "ent_transform",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "emerging-technology",
+      "object_label": "Emerging Technology",
+      "evidence_urls": [
+        "https://transform.us/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_open_batch_serves_role_ceo",
       "subject_entity_id": "ent_open_batch",
       "predicate": "serves_role",
@@ -23691,6 +26701,114 @@
       "object_dimension": "provider_type",
       "object_id": "accelerators",
       "object_label": "Accelerators",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_offers_community_format_peer-group",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "offers_community_format",
+      "object_dimension": "community_format",
+      "object_id": "peer-group",
+      "object_label": "Peer Group",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_offers_community_format_executive-network",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "offers_community_format",
+      "object_dimension": "community_format",
+      "object_id": "executive-network",
+      "object_label": "Executive Network",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_supports_need_peer-learning",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "peer-learning",
+      "object_label": "Peer Learning",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_supports_need_collaboration",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "collaboration",
+      "object_label": "Collaboration",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_supports_need_business-growth",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "supports_need",
+      "object_dimension": "executive_need",
+      "object_id": "business-growth",
+      "object_label": "Business Growth",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_addresses_topic_venture-capital",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "venture-capital",
+      "object_label": "Venture Capital",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_addresses_topic_fundraising",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "fundraising",
+      "object_label": "Fundraising",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_addresses_topic_growth",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "addresses_topic",
+      "object_dimension": "topic",
+      "object_id": "growth",
+      "object_label": "Growth",
+      "evidence_urls": [
+        "https://openbatch.ai/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_open_batch_serves_audience_founders",
+      "subject_entity_id": "ent_open_batch",
+      "predicate": "serves_audience",
+      "object_dimension": "audience",
+      "object_id": "founders",
+      "object_label": "Founders",
       "evidence_urls": [
         "https://openbatch.ai/"
       ],

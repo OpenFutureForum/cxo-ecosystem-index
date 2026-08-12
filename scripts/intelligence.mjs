@@ -1,7 +1,7 @@
 import {slug} from './lib.mjs';
 
-export const DATASET_VERSION='0.9.2';
-export const CALCULATED_AT='2026-08-11';
+export const DATASET_VERSION='0.9.3';
+export const CALCULATED_AT='2026-08-12';
 export const INTELLIGENCE_SCHEMA_VERSION='1.4.0';
 export const HEADLINE_COVERAGE_THRESHOLD=.6;
 const publicationState=coverage=>coverage>=HEADLINE_COVERAGE_THRESHOLD?{headline_eligible:true,publication_status:'decision-ready'}:{headline_eligible:false,publication_status:'coverage-limited'};

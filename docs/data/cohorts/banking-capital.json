@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "banking-capital",
   "entity_ids": [
     "ent_bank_of_america",
@@ -5983,7 +5983,10 @@
         "Investment Banks",
         "M&A Advisors"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Financial Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -5997,7 +6000,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_description_capital-ip-investment-partners-provides-investme",
@@ -6006,7 +6009,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_website_https-capitalip-com",
@@ -6015,7 +6018,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_categories_venture-capital",
@@ -6024,7 +6027,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_categories_investment-banks",
@@ -6033,7 +6036,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_categories_m-a-advisors",
@@ -6042,7 +6045,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_cxo-roles_ceo",
@@ -6051,7 +6054,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_cxo-roles_cfo",
@@ -6060,7 +6063,7 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_capital-ip-investment-partners_relationship-notes_one-canonical-record-covers-both-supplied-catego",
@@ -6069,7 +6072,52 @@
           "source_ids": [
             "src_capital-ip-investment-partners_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_services_investment-management",
+          "field": "services",
+          "value": "investment management",
+          "source_ids": [
+            "src_capital_ip_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_services_technology-investment",
+          "field": "services",
+          "value": "technology investment",
+          "source_ids": [
+            "src_capital_ip_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_services_strategic-transaction-advisory",
+          "field": "services",
+          "value": "strategic transaction advisory",
+          "source_ids": [
+            "src_capital_ip_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_capital_ip_services_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_capital-ip-investment-partners_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_capital_ip_services_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -6091,11 +6139,29 @@
             "cxo_roles",
             "relationship_notes"
           ]
+        },
+        {
+          "id": "src_capital_ip_services_2026",
+          "url": "https://capitalip.com/",
+          "title": "Capital IP Investment Partners",
+          "publisher": "Capital IP Investment Partners",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "services": [
+        "investment management",
+        "technology investment",
+        "strategic transaction advisory"
+      ],
+      "products": [],
       "geography_status": "unknown",
       "primary_category": "Venture Capital",
       "secondary_categories": [
@@ -6111,10 +6177,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "value-creation"
+      ],
+      "topics": [
+        "venture-capital",
+        "capital-strategy",
+        "dealmaking"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://capitalip.com/",
+          "title": "Capital IP Investment Partners",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_indian_hills_advisors",
@@ -6286,10 +6373,23 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "capital-formation"
+      ],
+      "topics": [
+        "dealmaking"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://feisv.org/board",
+          "title": "Financial Executives International Silicon Valley board reference",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     }
   ]
 }

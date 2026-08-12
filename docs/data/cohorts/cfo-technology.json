@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "cfo-technology",
   "entity_ids": [
     "ent_coupa",
@@ -5469,7 +5469,10 @@
         "Financial Technology",
         "Artificial Intelligence"
       ],
-      "geographies": [],
+      "geographies": [
+        "United States",
+        "New York"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -5482,7 +5485,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_description_zenskar-provides-billing-revenue-recognition-and",
@@ -5491,7 +5494,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_website_https-www-zenskar-com",
@@ -5500,7 +5503,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_categories_cfo-technology",
@@ -5509,7 +5512,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_categories_accounting-software",
@@ -5518,7 +5521,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_cxo-roles_cfo",
@@ -5527,7 +5530,7 @@
           "source_ids": [
             "src_zenskar_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_usage-based-billing",
@@ -5535,9 +5538,10 @@
           "value": "usage-based billing",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_subscription-billing",
@@ -5545,9 +5549,10 @@
           "value": "subscription billing",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_revenue-recognition",
@@ -5555,9 +5560,10 @@
           "value": "revenue recognition",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_accounts-receivable-automation",
@@ -5565,9 +5571,10 @@
           "value": "accounts receivable automation",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_pricing-configuration",
@@ -5575,9 +5582,10 @@
           "value": "pricing configuration",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_products_billing-analytics",
@@ -5585,9 +5593,10 @@
           "value": "billing analytics",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_services_quote-to-cash-automation",
@@ -5595,9 +5604,10 @@
           "value": "quote-to-cash automation",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_services_complex-billing-automation",
@@ -5605,9 +5615,10 @@
           "value": "complex billing automation",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_services_revenue-operations",
@@ -5615,9 +5626,10 @@
           "value": "revenue operations",
           "source_ids": [
             "src_zenskar_finance_2026",
-            "src_zenskar_usage_2026"
+            "src_zenskar_usage_2026",
+            "src_zenskar_seed_history_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_industries_saas",
@@ -5627,7 +5639,7 @@
             "src_zenskar_finance_2026",
             "src_zenskar_usage_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_industries_cloud-infrastructure",
@@ -5637,7 +5649,7 @@
             "src_zenskar_finance_2026",
             "src_zenskar_usage_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_industries_financial-technology",
@@ -5647,7 +5659,7 @@
             "src_zenskar_finance_2026",
             "src_zenskar_usage_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zenskar_industries_artificial-intelligence",
@@ -5657,7 +5669,43 @@
             "src_zenskar_finance_2026",
             "src_zenskar_usage_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zenskar_founded-year_2022",
+          "field": "founded_year",
+          "value": 2022,
+          "source_ids": [
+            "src_zenskar_seed_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zenskar_headquarters_new-york-new-york-united-states",
+          "field": "headquarters",
+          "value": "New York, New York, United States",
+          "source_ids": [
+            "src_zenskar_seed_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zenskar_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_zenskar_seed_history_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zenskar_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_zenskar_seed_history_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -5704,10 +5752,26 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_zenskar_seed_history_2026",
+          "url": "https://www.zenskar.com/blog/bessemer-leads-zenskar-seed-funding",
+          "title": "Zenskar seed funding and company history",
+          "publisher": "Zenskar",
+          "source_class": "official company",
+          "published_date": "2022-10-04",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "usage-based billing",
@@ -5722,7 +5786,9 @@
         "complex billing automation",
         "revenue operations"
       ],
-      "geography_status": "unknown",
+      "founded_year": 2022,
+      "headquarters": "New York, New York, United States",
+      "geography_status": "verified",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Accounting Software"
@@ -7070,8 +7136,14 @@
         "Accounting",
         "Artificial Intelligence"
       ],
-      "industries": [],
-      "geographies": [],
+      "industries": [
+        "Fintech",
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -7084,7 +7156,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_description_zeni-provides-bookkeeping-accounting-and-finance",
@@ -7093,7 +7165,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_website_https-www-zeni-ai",
@@ -7102,7 +7174,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_cfo-technology",
@@ -7111,7 +7183,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_accounting",
@@ -7120,7 +7192,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_categories_artificial-intelligence",
@@ -7129,7 +7201,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_cxo-roles_ceo",
@@ -7138,7 +7210,7 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_zeni_cxo-roles_cfo",
@@ -7147,7 +7219,155 @@
           "source_ids": [
             "src_zeni_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_headquarters_palo-alto-california-united-states",
+          "field": "headquarters",
+          "value": "Palo Alto, California, United States",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_ai-bookkeeping",
+          "field": "products",
+          "value": "AI bookkeeping",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_accounts-payable",
+          "field": "products",
+          "value": "accounts payable",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_financial-reporting",
+          "field": "products",
+          "value": "financial reporting",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_bill-pay",
+          "field": "products",
+          "value": "bill pay",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_products_employee-reimbursements",
+          "field": "products",
+          "value": "employee reimbursements",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_bookkeeping",
+          "field": "services",
+          "value": "bookkeeping",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_fractional-cfo-services",
+          "field": "services",
+          "value": "fractional CFO services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_startup-tax-services",
+          "field": "services",
+          "value": "startup tax services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_services_payroll-services",
+          "field": "services",
+          "value": "payroll services",
+          "source_ids": [
+            "src_zeni_about_2026",
+            "src_zeni_history_2026",
+            "src_zeni_getting_started_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_zeni_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_zeni_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_zeni_history_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -7168,12 +7388,67 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_zeni_about_2026",
+          "url": "https://www.zeni.ai/about-us",
+          "title": "About Zeni",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_zeni_history_2026",
+          "url": "https://www.zeni.ai/blog/the-journey-behind-zenis-rebrand",
+          "title": "The journey behind Zeni's rebrand",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "published_date": "2023-05-03",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "services"
+          ]
+        },
+        {
+          "id": "src_zeni_getting_started_2026",
+          "url": "https://support.zeni.ai/article/getting-started-with-zeni-overview",
+          "title": "Getting started with Zeni",
+          "publisher": "Zeni",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
-      "geography_status": "unknown",
+      "founded_year": 2019,
+      "headquarters": "Palo Alto, California, United States",
+      "products": [
+        "AI bookkeeping",
+        "accounts payable",
+        "financial reporting",
+        "bill pay",
+        "employee reimbursements"
+      ],
+      "services": [
+        "bookkeeping",
+        "fractional CFO services",
+        "startup tax services",
+        "payroll services"
+      ],
+      "geography_status": "verified",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Accounting",
@@ -7188,10 +7463,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "operational-excellence",
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "artificial-intelligence"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.zeni.ai/about-us",
+          "title": "About Zeni",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_xero",
@@ -7207,7 +7502,11 @@
         "Accounting Software",
         "CFO Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Fintech",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -7267,7 +7566,7 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_description_xero-provides-cloud-accounting-invoicing-payroll",
@@ -7276,7 +7575,7 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_website_https-www-xero-com",
@@ -7285,7 +7584,7 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_categories_accounting-software",
@@ -7294,7 +7593,7 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_categories_cfo-technology",
@@ -7303,7 +7602,7 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_cxo-roles_cfo",
@@ -7312,97 +7611,127 @@
           "source_ids": [
             "src_xero_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-accounting-software",
           "field": "products",
           "value": "Xero Accounting Software",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_jax-ai-finance-partner",
           "field": "products",
           "value": "JAX AI finance partner",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-payroll",
           "field": "products",
           "value": "Xero Payroll",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-projects",
           "field": "products",
           "value": "Xero Projects",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-expenses",
           "field": "products",
           "value": "Xero Expenses",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-cashbook",
           "field": "products",
           "value": "Xero Cashbook",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-ledger",
           "field": "products",
           "value": "Xero Ledger",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_xero-partner-hub",
           "field": "products",
           "value": "Xero Partner Hub",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_syft-analytics",
           "field": "products",
           "value": "Syft Analytics",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_products_hubdoc",
           "field": "products",
           "value": "Hubdoc",
           "source_ids": [
-            "src_xero_us_2026"
+            "src_xero_us_2026",
+            "src_xero_about_2026",
+            "src_xero_brands_2026",
+            "src_xero_terms_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_invoicing",
@@ -7411,7 +7740,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_online-payments",
@@ -7420,7 +7749,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_bill-payment",
@@ -7429,7 +7758,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_purchase-orders",
@@ -7438,7 +7767,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_receipt-scanning",
@@ -7447,7 +7776,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_expense-claims",
@@ -7456,7 +7785,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_bank-reconciliation",
@@ -7465,7 +7794,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_payroll",
@@ -7474,7 +7803,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_project-tracking",
@@ -7483,7 +7812,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_mileage-tracking",
@@ -7492,7 +7821,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_quotes",
@@ -7501,7 +7830,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_fixed-asset-management",
@@ -7510,7 +7839,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_ai-financial-answers",
@@ -7519,7 +7848,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_ai-quote-creation",
@@ -7528,7 +7857,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_ai-invoice-creation",
@@ -7537,7 +7866,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_paperless-record-keeping",
@@ -7546,7 +7875,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_invoice-reminders",
@@ -7555,7 +7884,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_trend-analysis",
@@ -7564,7 +7893,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_customizable-reporting",
@@ -7573,7 +7902,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_automated-bill-entry",
@@ -7582,7 +7911,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_real-time-reports",
@@ -7591,7 +7920,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_w-9-management",
@@ -7600,7 +7929,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_1099-management",
@@ -7609,7 +7938,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_sales-tax-management",
@@ -7618,7 +7947,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_cash-flow-forecasting",
@@ -7627,7 +7956,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_performance-dashboards",
@@ -7636,7 +7965,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_financial-health-scorecards",
@@ -7645,7 +7974,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_kpi-analysis",
@@ -7654,7 +7983,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_ratio-analysis",
@@ -7663,7 +7992,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_multi-currency-accounting",
@@ -7672,7 +8001,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_time-tracking",
@@ -7681,7 +8010,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_project-cost-tracking",
@@ -7690,7 +8019,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_inventory-management",
@@ -7699,7 +8028,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_capabilities_international-bill-payments",
@@ -7708,7 +8037,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_self-employed-professionals",
@@ -7717,7 +8046,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_small-businesses",
@@ -7726,7 +8055,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_medium-sized-businesses",
@@ -7735,7 +8064,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_accountants",
@@ -7744,7 +8073,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_bookkeepers",
@@ -7753,7 +8082,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_large-accounting-firms",
@@ -7762,7 +8091,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_nonprofits",
@@ -7771,7 +8100,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_construction-companies",
@@ -7780,7 +8109,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_startups",
@@ -7789,7 +8118,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_independent-contractors",
@@ -7798,7 +8127,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_real-estate-businesses",
@@ -7807,7 +8136,7 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_xero_customer-segments_retail-businesses",
@@ -7816,7 +8145,55 @@
           "source_ids": [
             "src_xero_us_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_xero_founded-year_2006",
+          "field": "founded_year",
+          "value": 2006,
+          "source_ids": [
+            "src_xero_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_xero_headquarters_wellington-new-zealand",
+          "field": "headquarters",
+          "value": "Wellington, New Zealand",
+          "source_ids": [
+            "src_xero_about_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_xero_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_xero_about_2026",
+            "src_xero_brands_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_xero_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_xero_about_2026",
+            "src_xero_brands_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_xero_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_xero_about_2026",
+            "src_xero_brands_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -7854,10 +8231,47 @@
             "accountant_bookkeeper_partner_count",
             "onboarding_support_days"
           ]
+        },
+        {
+          "id": "src_xero_about_2026",
+          "url": "https://www.xero.com/us/about/",
+          "title": "About Xero",
+          "publisher": "Xero",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_xero_brands_2026",
+          "url": "https://www.xero.com/us/about/our-brands/",
+          "title": "Xero brands",
+          "publisher": "Xero",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_xero_terms_2026",
+          "url": "https://www.xero.com/us/legal/terms/",
+          "title": "Xero terms",
+          "publisher": "Xero",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "Xero Accounting Software",
@@ -7921,6 +8335,8 @@
         "real-estate businesses",
         "retail businesses"
       ],
+      "founded_year": 2006,
+      "headquarters": "Wellington, New Zealand",
       "services": [],
       "geography_status": "unknown",
       "primary_category": "Accounting Software",
@@ -7935,10 +8351,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "operational-excellence",
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.xero.com/us/about/",
+          "title": "About Xero",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_pulley",
@@ -7956,7 +8389,11 @@
         "Equity Management",
         "CFO Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Fintech",
+        "Technology"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -7970,7 +8407,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_description_pulley-provides-cap-table-management-equity-admi",
@@ -7979,7 +8416,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_website_https-pulley-com",
@@ -7988,7 +8425,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_categories_equity-management",
@@ -7997,7 +8434,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_categories_cfo-technology",
@@ -8006,7 +8443,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_cxo-roles_ceo",
@@ -8015,7 +8452,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_cxo-roles_cfo",
@@ -8024,7 +8461,7 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_pulley_cxo-roles_clo",
@@ -8033,7 +8470,119 @@
           "source_ids": [
             "src_pulley_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_products_cap-table-management",
+          "field": "products",
+          "value": "cap-table management",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026",
+            "src_pulley_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_products_409a-valuations",
+          "field": "products",
+          "value": "409A valuations",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026",
+            "src_pulley_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_products_equity-compliance",
+          "field": "products",
+          "value": "equity compliance",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026",
+            "src_pulley_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_products_fundraising-modeling",
+          "field": "products",
+          "value": "fundraising modeling",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026",
+            "src_pulley_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_products_liquidity-management",
+          "field": "products",
+          "value": "liquidity management",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026",
+            "src_pulley_terms_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_services_equity-administration",
+          "field": "services",
+          "value": "equity administration",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_services_managed-equity-services",
+          "field": "services",
+          "value": "managed equity services",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_services_valuation-support",
+          "field": "services",
+          "value": "valuation support",
+          "source_ids": [
+            "src_pulley_cap_table_2026",
+            "src_pulley_valuations_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_pulley_cap_table_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_pulley_cap_table_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pulley_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_pulley_cap_table_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -8054,11 +8603,59 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_pulley_cap_table_2026",
+          "url": "https://pulley.com/products/cap-table-management/equity-cap-tables",
+          "title": "Pulley cap-table management",
+          "publisher": "Pulley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_pulley_valuations_2026",
+          "url": "https://pulley.com/products/fundraising/409a-valuations",
+          "title": "Pulley 409A valuations",
+          "publisher": "Pulley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_pulley_terms_2026",
+          "url": "https://pulley.com/terms",
+          "title": "Pulley terms of service",
+          "publisher": "Pulley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [
+        "cap-table management",
+        "409A valuations",
+        "equity compliance",
+        "fundraising modeling",
+        "liquidity management"
+      ],
+      "services": [
+        "equity administration",
+        "managed equity services",
+        "valuation support"
+      ],
       "geography_status": "unknown",
       "primary_category": "Equity Management",
       "secondary_categories": [
@@ -8072,10 +8669,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "governance",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "finance-transformation",
+        "fundraising"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://pulley.com/",
+          "title": "Pulley equity management",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_paygentic",
@@ -8191,10 +8808,24 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "operational-excellence",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://paygentic.com/",
+          "title": "Paygentic",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_finrep",
@@ -8479,10 +9110,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "operational-excellence",
+        "governance",
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.finrep.ai/about",
+          "title": "About Finrep",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     }
   ]
 }

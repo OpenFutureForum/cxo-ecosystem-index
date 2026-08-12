@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.9.2",
-  "calculated_at": "2026-08-11",
+  "dataset_version": "0.9.3",
+  "calculated_at": "2026-08-12",
   "cohort_id": "chro-technology",
   "entity_ids": [
     "ent_escalon",
@@ -751,7 +751,10 @@
         "HR Technology",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Financial Services"
+      ],
       "geographies": [
         "United States",
         "San Francisco Bay Area",
@@ -773,7 +776,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_description_rippling-provides-workforce-management-software-",
@@ -782,7 +785,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_website_https-www-rippling-com",
@@ -791,7 +794,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_categories_hr-technology",
@@ -800,7 +803,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_categories_enterprise-technology",
@@ -809,7 +812,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_cfo",
@@ -818,7 +821,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_cio",
@@ -827,7 +830,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_cxo-roles_chro",
@@ -836,7 +839,7 @@
           "source_ids": [
             "src_rippling_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_hr-management",
@@ -845,9 +848,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_payroll",
@@ -856,9 +860,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_it-management",
@@ -867,9 +872,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_finance-management",
@@ -878,9 +884,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_benefits-administration",
@@ -889,9 +896,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_expense-management",
@@ -900,9 +908,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_products_ai-workforce-tools",
@@ -911,9 +920,10 @@
           "source_ids": [
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_workforce-management-platform",
@@ -923,9 +933,10 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_global-payroll",
@@ -935,9 +946,10 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_services_device-and-identity-management",
@@ -947,72 +959,109 @@
             "src_rippling_hr_2026",
             "src_rippling_it_2026",
             "src_rippling_locations_2026",
-            "src_rippling_microsoft_2026"
+            "src_rippling_microsoft_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_united-states",
           "field": "geographies",
           "value": "United States",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_san-francisco-bay-area",
           "field": "geographies",
           "value": "San Francisco Bay Area",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_new-york",
           "field": "geographies",
           "value": "New York",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_austin",
           "field": "geographies",
           "value": "Austin",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_seattle",
           "field": "geographies",
           "value": "Seattle",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_london",
           "field": "geographies",
           "value": "London",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_rippling_geographies_singapore",
           "field": "geographies",
           "value": "Singapore",
           "source_ids": [
-            "src_rippling_locations_2026"
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_rippling_locations_2026",
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_rippling_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_rippling_about_offices_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -1083,10 +1132,25 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_rippling_about_offices_2026",
+          "url": "https://www.rippling.com/company/about",
+          "title": "About Rippling",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
       "products": [
         "HR management",
@@ -1102,6 +1166,7 @@
         "global payroll",
         "device and identity management"
       ],
+      "headquarters": "San Francisco, California, United States",
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [
@@ -3169,10 +3234,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "business-growth",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "leadership",
+        "growth"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://optimhire.com/ai-recruiter",
+          "title": "OptimHire AI Recruiter",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_transform",
@@ -3190,7 +3272,10 @@
         "Conferences",
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Professional Services"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -3204,7 +3289,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_description_transform-operates-a-professional-community-and-",
@@ -3213,7 +3298,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_website_https-transform-us",
@@ -3222,7 +3307,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_executive-communities",
@@ -3231,7 +3316,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_conferences",
@@ -3240,7 +3325,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_categories_hr-technology",
@@ -3249,7 +3334,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_cxo-roles_chro",
@@ -3258,7 +3343,7 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
         },
         {
           "id": "fact_transform_cxo-roles_ceo",
@@ -3267,7 +3352,104 @@
           "source_ids": [
             "src_transform_official"
           ],
-          "last_verified": "2026-08-11"
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_transform-conference",
+          "field": "products",
+          "value": "Transform conference",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_transform-exec-memberships",
+          "field": "products",
+          "value": "Transform Exec memberships",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_products_community-content-hub",
+          "field": "products",
+          "value": "community content hub",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_executive-community",
+          "field": "services",
+          "value": "executive community",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_workforce-technology-conference",
+          "field": "services",
+          "value": "workforce-technology conference",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_peer-networking",
+          "field": "services",
+          "value": "peer networking",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_services_provider-discovery",
+          "field": "services",
+          "value": "provider discovery",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_membership_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_transform_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_transform_about_2026",
+            "src_transform_home_2026"
+          ],
+          "last_verified": "2026-08-12"
         }
       ],
       "inclusion_basis": [
@@ -3288,11 +3470,60 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_transform_about_2026",
+          "url": "https://transform.us/about/",
+          "title": "About Transform",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_transform_membership_2026",
+          "url": "https://transform.us/membership-terms/",
+          "title": "Transform membership terms",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_transform_home_2026",
+          "url": "https://transform.us/",
+          "title": "Transform community and conference",
+          "publisher": "Transform",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [
+        "Transform conference",
+        "Transform Exec memberships",
+        "community content hub"
+      ],
+      "services": [
+        "executive community",
+        "workforce-technology conference",
+        "peer networking",
+        "provider discovery"
+      ],
       "geography_status": "unknown",
       "primary_category": "Executive Communities",
       "secondary_categories": [
@@ -3304,14 +3535,39 @@
         "conferences",
         "hr-technology"
       ],
-      "community_formats": [],
-      "event_formats": [],
+      "community_formats": [
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "conference",
+        "panel"
+      ],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "professional-development"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence",
+        "emerging-technology"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://transform.us/about/",
+          "title": "About Transform",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     }
   ]
 }
