@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.5 — 2026-08-12 — 500-Organization Evidence Expansion
+
+- Expanded the index from 294 to exactly 500 organizations across cybersecurity, enterprise technology, AI, finance technology, HR technology, marketing technology, consulting, accounting, recruiting and executive search.
+- Added 206 decision-ready profiles backed by 618 distinct first-party source pages and evidence-linked semantic classifications.
+- Required every new profile to include three official sources, at least ten source-linked facts and a completeness score of at least 80.
+- Audited every new evidence URL and replaced candidates whose official sites could not provide stable, accessible documentation.
+- Preserved the neutral taxonomy and ranking methodology, including Open Future Forum's primary placement under Executive Communities.
+
 ## 0.9.4 — 2026-08-12 — Evidence-First Expansion
 
 - Added 100 organizations selected for strong first-party documentation rather than attempting to force unsupported facts onto hard-to-research records.

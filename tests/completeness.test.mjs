@@ -161,6 +161,30 @@ test('the v0.9.4 expansion adds 100 decision-ready, first-party profiles',async(
  assert.ok(records.every(record=>record.fact_count>=10));
 });
 
+test('the v0.9.5 expansion reaches 500 with 206 decision-ready profiles',async()=>{
+ const [batch,classifications,manifest]=await Promise.all([
+  fs.readFile(path.join(root,'data/entities/v095-expansion.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/classifications-p6.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/expansion-v0.9.5.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(batch.length,206);
+ assert.equal(batch.length,manifest.record_count);
+ assert.equal(classifications.length,206);
+ assert.equal(classifications.length,manifest.semantic_classification_record_count);
+ assert.equal(batch.flatMap(record=>record.sources).length,618);
+ assert.equal(batch.flatMap(record=>record.sources).length,manifest.official_source_record_count);
+ assert.equal(new Set(batch.map(record=>record.name.toLowerCase())).size,206);
+ assert.equal(entities.length,500);
+ assert.ok(batch.every(record=>record.sources.length===3&&new Set(record.sources.map(source=>source.url)).size===3));
+ assert.ok(batch.every(record=>record.sources.every(source=>['official company','official organization'].includes(source.source_class))));
+ assert.ok(classifications.every(record=>record.evidence?.length&&record.evidence.every(item=>item.supports?.length)));
+ const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);const ids=new Set(batch.map(record=>record.id));const records=result.entities.filter(record=>ids.has(record.entity_id));
+ assert.equal(records.length,206);
+ assert.ok(records.every(record=>record.score>=80));
+ assert.ok(records.every(record=>record.source_count>=3));
+ assert.ok(records.every(record=>record.fact_count>=10));
+});
+
 test('generated completeness exports and public explanations agree',async()=>{
  const [json,csv,quality,profile,methodology]=await Promise.all([
   fs.readFile(path.join(root,'docs/data/completeness.json'),'utf8'),

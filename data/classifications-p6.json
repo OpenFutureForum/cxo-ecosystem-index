@@ -1,0 +1,4328 @@
+[
+  {
+    "entity_id": "ent_tanium",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.tanium.com/autonomous-it-platform",
+        "title": "Tanium products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_trend_micro",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.trendmicro.com/en_us/business/products.html",
+        "title": "Trend Micro products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_qualys",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.qualys.com/apps/",
+        "title": "Qualys products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_barracuda_networks",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.barracuda.com/products",
+        "title": "Barracuda Networks products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_malwarebytes",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.malwarebytes.com/business",
+        "title": "Malwarebytes products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mimecast",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.mimecast.com/products/",
+        "title": "Mimecast products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_abnormal_security",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://abnormal.ai/products",
+        "title": "Abnormal Security products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_island",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.island.io/solutions/zero-trust",
+        "title": "Island products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_axonius",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.axonius.com/platform",
+        "title": "Axonius products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_illumio",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.illumio.com/products",
+        "title": "Illumio products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_orca_security",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://orca.security/platform/",
+        "title": "Orca Security products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_forcepoint",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.forcepoint.com/products",
+        "title": "Forcepoint products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_sonicwall",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.sonicwall.com/products",
+        "title": "SonicWall products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cato_networks",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.catonetworks.com/platform/",
+        "title": "Cato Networks products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_claroty",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://claroty.com/platform",
+        "title": "Claroty products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dragos",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.dragos.com/services",
+        "title": "Dragos products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_nozomi_networks",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.nozominetworks.com/products",
+        "title": "Nozomi Networks products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_armis",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.armis.com/platform/",
+        "title": "Armis products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_bigid",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://bigid.com/platform/",
+        "title": "BigID products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_securiti",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://securiti.ai/products/",
+        "title": "Securiti products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_onetrust",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.onetrust.com/products/",
+        "title": "OneTrust products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_sailpoint",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.sailpoint.com/products",
+        "title": "SailPoint products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ping_identity",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.pingidentity.com/en/platform.html",
+        "title": "Ping Identity products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_delinea",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://delinea.com/products",
+        "title": "Delinea products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_beyondtrust",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.beyondtrust.com/products",
+        "title": "BeyondTrust products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_keeper_security",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.keepersecurity.com/business.html",
+        "title": "Keeper Security products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_1password",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://1password.com/business-security",
+        "title": "1Password products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_imperva",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.imperva.com/products/",
+        "title": "Imperva products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_huntress",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.huntress.com/platform/managed-espm",
+        "title": "Huntress products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_forescout",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.forescout.com/platform/",
+        "title": "Forescout products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_reliaquest",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.reliaquest.com/platform/",
+        "title": "ReliaQuest products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_darktrace",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.darktrace.com/products",
+        "title": "Darktrace products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_vectra_ai",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.vectra.ai/platform",
+        "title": "Vectra AI products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_recorded_future",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.recordedfuture.com/platform/recorded-future-ai",
+        "title": "Recorded Future products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_entrust",
+    "executive_needs": [
+      "risk-management",
+      "decision-support"
+    ],
+    "topics": [
+      "cybersecurity",
+      "risk"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.entrust.com/products",
+        "title": "Entrust products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_anthropic",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.anthropic.com/claude",
+        "title": "Anthropic products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cohere",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://cohere.com/products",
+        "title": "Cohere products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mistral_ai",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://mistral.ai/products",
+        "title": "Mistral AI products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hugging_face",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://huggingface.co/enterprise",
+        "title": "Hugging Face products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cerebras",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cerebras.ai/product-software",
+        "title": "Cerebras products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_groq",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://groq.com/groqcloud",
+        "title": "Groq products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_together_ai",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.together.ai/products",
+        "title": "Together AI products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_akamai",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.akamai.com/products",
+        "title": "Akamai products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_lambda",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://lambda.ai/cloud",
+        "title": "Lambda products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dataiku",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.dataiku.com/product/",
+        "title": "Dataiku products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_datarobot",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.datarobot.com/product/ai-platform/",
+        "title": "DataRobot products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_h2o_ai",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://h2o.ai/platform/",
+        "title": "H2O.ai products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_c3_ai",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://c3.ai/products/c3-agentic-ai-platform/c3-code",
+        "title": "C3 AI products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_datastax",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.datastax.com/products",
+        "title": "DataStax products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pinecone",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.pinecone.io/product/",
+        "title": "Pinecone products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_weaviate",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://weaviate.io/product",
+        "title": "Weaviate products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_redis",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://redis.io/solutions/",
+        "title": "Redis products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_neo4j",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://neo4j.com/product/",
+        "title": "Neo4j products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cloudera",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cloudera.com/products.html",
+        "title": "Cloudera products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_teradata",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.teradata.com/platform",
+        "title": "Teradata products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_informatica",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.informatica.com/products.html",
+        "title": "Informatica products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_fivetran",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.fivetran.com/product",
+        "title": "Fivetran products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dbt_labs",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.getdbt.com/product",
+        "title": "dbt Labs products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_collibra",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.collibra.com/products",
+        "title": "Collibra products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_denodo",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.denodo.com/en/denodo-platform",
+        "title": "Denodo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_thoughtspot",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.thoughtspot.com/product/agents/spotter",
+        "title": "ThoughtSpot products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dynatrace",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.dynatrace.com/platform/",
+        "title": "Dynatrace products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_qlik",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.qlik.com/us/products",
+        "title": "Qlik products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_sisense",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.sisense.com/platform",
+        "title": "Sisense products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_sigma_computing",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.sigmacomputing.com/product",
+        "title": "Sigma Computing products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_fastly",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.fastly.com/products",
+        "title": "Fastly products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_starburst",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.starburst.io/platform/",
+        "title": "Starburst products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cockroach_labs",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cockroachlabs.com/product/overview/",
+        "title": "Cockroach Labs products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hashicorp",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.hashicorp.com/products",
+        "title": "HashiCorp products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_nutanix",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.nutanix.com/products",
+        "title": "Nutanix products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_vmware",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.vmware.com/products",
+        "title": "VMware products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_broadcom",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.broadcom.com/products",
+        "title": "Broadcom products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_supermicro",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.supermicro.com/en/products",
+        "title": "Supermicro products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_arm",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.arm.com/products",
+        "title": "Arm products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_qualcomm",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.qualcomm.com/products",
+        "title": "Qualcomm products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dell_technologies",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.dell.com/en-us/shop/scc/sc/products",
+        "title": "Dell Technologies products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pure_storage",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.purestorage.com/products.html",
+        "title": "Pure Storage products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_lenovo",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.lenovo.com/us/en/servers-storage/",
+        "title": "Lenovo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_canonical",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://canonical.com/solutions",
+        "title": "Canonical products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_red_hat",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.redhat.com/en/technologies",
+        "title": "Red Hat products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cloudbees",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cloudbees.com/products",
+        "title": "CloudBees products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_circleci",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://circleci.com/product/",
+        "title": "CircleCI products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_harness",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.harness.io/products",
+        "title": "Harness products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_suse",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.suse.com/products/",
+        "title": "SUSE products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_netapp",
+    "executive_needs": [
+      "transformation",
+      "decision-support"
+    ],
+    "topics": [
+      "enterprise-ai",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.netapp.com/data-storage/",
+        "title": "NetApp products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_acumatica",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.acumatica.com/cloud-erp-software/",
+        "title": "Acumatica products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_epicor",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.epicor.com/en-us/products/",
+        "title": "Epicor products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_infor",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.infor.com/products",
+        "title": "Infor products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ifs",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ifs.com/solutions",
+        "title": "IFS products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_vena_solutions",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.venasolutions.com/platform",
+        "title": "Vena Solutions products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_blackbaud",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.blackbaud.com/products",
+        "title": "Blackbaud products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pigment",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.pigment.com/platform",
+        "title": "Pigment products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cube",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cubesoftware.com/platform",
+        "title": "Cube products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ss_c_technologies",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ssctech.com/solutions",
+        "title": "SS&C Technologies products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_broadridge",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.broadridge.com/financial-services/capital-markets",
+        "title": "Broadridge products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ncino",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ncino.com/solutions",
+        "title": "nCino products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cch_tagetik",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wolterskluwer.com/en/solutions/cch-tagetik",
+        "title": "CCH Tagetik products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_oracle_netsuite",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.netsuite.com/portal/products.shtml",
+        "title": "Oracle NetSuite products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_zuora",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.zuora.com/products/",
+        "title": "Zuora products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_chargebee",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.chargebee.com/product-catalog/",
+        "title": "Chargebee products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_recurly",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://recurly.com/product/",
+        "title": "Recurly products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_q2",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.q2.com/products/digital-banking",
+        "title": "Q2 products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ordway",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://ordwaylabs.com/platform",
+        "title": "Ordway products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_tabs",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.tabs.com/platform",
+        "title": "Tabs products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mosaic",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.mosaic.tech/platform",
+        "title": "Mosaic products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_abacum",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.abacum.ai/product/reporting",
+        "title": "Abacum products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_aleph",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.getaleph.com/platform/overview",
+        "title": "Aleph products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_numeric",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.numeric.io/product/close",
+        "title": "Numeric products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_trullion",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://trullion.com/products",
+        "title": "Trullion products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mindbridge",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.mindbridge.ai/platform",
+        "title": "MindBridge products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_auditboard",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.auditboard.com/platform/",
+        "title": "AuditBoard products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_diligent",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.diligent.com/platform",
+        "title": "Diligent products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_navex",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.navex.com/en-us/products/",
+        "title": "NAVEX products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_logicgate",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.logicgate.com/risk-cloud/",
+        "title": "LogicGate products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_temenos",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.temenos.com/products/",
+        "title": "Temenos products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_corpay",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.corpay.com/solutions-checklist-invoice-processing-netsuite",
+        "title": "Corpay products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_wex",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wexinc.com/products/",
+        "title": "WEX products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_marqeta",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.marqeta.com/platform",
+        "title": "Marqeta products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_checkout_com",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.checkout.com/products/intelligent-acceptance",
+        "title": "Checkout.com products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_finastra",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.finastra.com/solutions",
+        "title": "Finastra products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_fiserv",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.fiserv.com/en/solutions.html",
+        "title": "Fiserv products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_global_payments",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.globalpayments.com/solutions",
+        "title": "Global Payments products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_block",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://block.xyz/news/company-news",
+        "title": "Block products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paypal",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.paypal.com/us/business",
+        "title": "PayPal products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_toast",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://pos.toasttab.com/products",
+        "title": "Toast products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_flywire",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.flywire.com/solutions",
+        "title": "Flywire products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_billtrust",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.billtrust.com/solutions",
+        "title": "Billtrust products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_versapay",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.versapay.com/solutions/digital-invoicing-customer-portal",
+        "title": "Versapay products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_nium",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.nium.com/products/multi-currency-accounts",
+        "title": "Nium products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_thunes",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.thunes.com/products",
+        "title": "Thunes products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_rapyd",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.rapyd.net/products/",
+        "title": "Rapyd products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_jack_henry",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.jackhenry.com/what-we-offer",
+        "title": "Jack Henry products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gocardless",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://gocardless.com/en-us/solutions/collect-instalment-payments",
+        "title": "GoCardless products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_klarna",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.klarna.com/us/business/",
+        "title": "Klarna products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_alkami",
+    "executive_needs": [
+      "decision-support",
+      "operational-excellence"
+    ],
+    "topics": [
+      "finance-transformation",
+      "fpa"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.alkami.com/online-banking-platform/",
+        "title": "Alkami products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gusto",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://gusto.com/product",
+        "title": "Gusto products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_justworks",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.justworks.com/products",
+        "title": "Justworks products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_personio",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.personio.com/product/",
+        "title": "Personio products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hibob",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.hibob.com/platform/",
+        "title": "HiBob products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_remote",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://remote.com/platform",
+        "title": "Remote products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_oyster",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.oysterhr.com/product/employer-of-record",
+        "title": "Oyster products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_papaya_global",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.papayaglobal.com/platform/",
+        "title": "Papaya Global products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_darwinbox",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://darwinbox.com/products/payroll",
+        "title": "Darwinbox products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_factorial",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://factorialhr.com/product-updates",
+        "title": "Factorial products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paylocity",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.paylocity.com/products/",
+        "title": "Paylocity products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_360learning",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://360learning.com/platform-overview/",
+        "title": "360Learning products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_degreed",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://degreed.com/platform",
+        "title": "Degreed products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_docebo",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.docebo.com/learning-platform/",
+        "title": "Docebo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paycor",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.paycor.com/products/",
+        "title": "Paycor products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_icims",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.icims.com/products/",
+        "title": "iCIMS products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_smartrecruiters",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.smartrecruiters.com/platform/",
+        "title": "SmartRecruiters products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_jobvite",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.jobvite.com/products/",
+        "title": "Jobvite products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ashby",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ashbyhq.com/product-analytics",
+        "title": "Ashby products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gem",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.gem.com/platform",
+        "title": "Gem products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_seekout",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.seekout.com/platform",
+        "title": "SeekOut products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_namely",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.namely.com/platform/",
+        "title": "Namely products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_seismic",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://seismic.com/platform/",
+        "title": "Seismic products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_charthop",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.charthop.com/platform",
+        "title": "ChartHop products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_litmos",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.litmos.com/platform",
+        "title": "Litmos products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_textio",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://textio.com/products",
+        "title": "Textio products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_learnupon",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.learnupon.com/features/",
+        "title": "LearnUpon products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_workable",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.workable.com/features",
+        "title": "Workable products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cezanne_hr",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://cezannehr.com/hr-software/",
+        "title": "Cezanne HR products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_iterable",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://iterable.com/product/platform-tour/",
+        "title": "Iterable products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_customer_io",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://customer.io/learn/product-led-growth",
+        "title": "Customer.io products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_activecampaign",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.activecampaign.com/platform",
+        "title": "ActiveCampaign products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_constant_contact",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.constantcontact.com/features",
+        "title": "Constant Contact products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mailerlite",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.mailerlite.com/features",
+        "title": "MailerLite products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_attentive",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.attentive.com/platform-tour",
+        "title": "Attentive products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_postscript",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://postscript.io/blog/product-recommendation-quizzes",
+        "title": "Postscript products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_yotpo",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.yotpo.com/products/",
+        "title": "Yotpo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_contentsquare",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://contentsquare.com/platform/",
+        "title": "Contentsquare products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_talentlms",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.talentlms.com/features",
+        "title": "TalentLMS products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_optimizely",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.optimizely.com/products/",
+        "title": "Optimizely products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_vimeo",
+    "executive_needs": [
+      "talent",
+      "business-growth"
+    ],
+    "topics": [
+      "leadership",
+      "marketing"
+    ],
+    "evidence": [
+      {
+        "url": "https://vimeo.com/features",
+        "title": "Vimeo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_alexander_hughes",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.alexanderhughes.com/executive-search-consultants/",
+        "title": "Alexander Hughes products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_wtw",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.wtwco.com/en-us/solutions",
+        "title": "WTW products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_amrop",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.amrop.com/what-we-do/",
+        "title": "Amrop products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_kearney",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.kearney.com/service",
+        "title": "Kearney products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_signium",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.signium.com/services/",
+        "title": "Signium products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_transearch",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://transearch.com/services/",
+        "title": "TRANSEARCH products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_booz_allen_hamilton",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.boozallen.com/markets.html",
+        "title": "Booz Allen Hamilton products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_zs",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.zs.com/solutions",
+        "title": "ZS products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_guidehouse",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://guidehouse.com/capabilities",
+        "title": "Guidehouse products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pa_consulting",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.paconsulting.com/services",
+        "title": "PA Consulting products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_bearingpoint",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.bearingpoint.com/en/our-success/",
+        "title": "BearingPoint products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_baker_tilly",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.bakertilly.com/services",
+        "title": "Baker Tilly products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_crowe",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.crowe.com/services",
+        "title": "Crowe products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cohnreznick",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.cohnreznick.com/services/advisory/accounting-advisory/cfo-accounting-advisory/",
+        "title": "CohnReznick products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ema_partners",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.ema-partners.com/executive-search",
+        "title": "EMA Partners products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_eisneramper",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.eisneramper.com/services/",
+        "title": "EisnerAmper products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_kroll",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.kroll.com/en/services",
+        "title": "Kroll products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_fti_consulting",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.fticonsulting.com/services",
+        "title": "FTI Consulting products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_kestria",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://kestria.com/who-we-are/",
+        "title": "Kestria products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_teneo",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.teneo.com/services/",
+        "title": "Teneo products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_boyden",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.boyden.com/capabilities/",
+        "title": "Boyden products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_odgers_berndtson",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.odgers.com/en-us/services/",
+        "title": "Odgers Berndtson products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pagegroup",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.page.com/services",
+        "title": "PageGroup products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_caldwell",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.caldwell.com/about-us/",
+        "title": "Caldwell products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_dhr_global",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.dhrglobal.com/about/consultants/",
+        "title": "DHR Global products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_raines_international",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://rainesinternational.com/services/",
+        "title": "Raines International products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_n2growth",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.n2growth.com/services/",
+        "title": "N2Growth products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hays",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.hays.com/recruitment-services/executive-search",
+        "title": "Hays products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_kingsley_gate",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.kingsleygate.com/services",
+        "title": "Kingsley Gate products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_alexander_group",
+    "executive_needs": [
+      "strategic-insight",
+      "transformation"
+    ],
+    "topics": [
+      "corporate-strategy",
+      "ai-transformation"
+    ],
+    "evidence": [
+      {
+        "url": "https://www.alexandergroup.com/services/",
+        "title": "Alexander Group products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_russell_tobin",
+    "executive_needs": [
+      "talent",
+      "board-effectiveness"
+    ],
+    "topics": [
+      "leadership",
+      "board-governance"
+    ],
+    "evidence": [
+      {
+        "url": "https://russelltobin.com/contract-hiring",
+        "title": "Russell Tobin products and services",
+        "supports": [
+          "executive_needs",
+          "topics"
+        ]
+      }
+    ]
+  }
+]

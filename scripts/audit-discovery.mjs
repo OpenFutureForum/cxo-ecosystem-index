@@ -81,7 +81,7 @@ for(const property of ['DataCatalog','Dataset','DataDownload','datePublished','d
 const historicalPages=new Set(['v050-report.html','reconciliation-report.html']);let staleVersionStrings=0;
 for(const [file,html] of fileMap){if(historicalPages.has(relative(file)))continue;for(const pattern of [/dataset version 0\.7\.0/gi,/Dataset 0\.7\.0/g,/1,380\s*<\/strong><span>Sourced facts/gi,/1380\s*<\/strong><span>Sourced facts/gi]){const matches=html.match(pattern)||[];staleVersionStrings+=matches.length;}}
 if(staleVersionStrings)errors.push(`current HTML contains ${staleVersionStrings} stale release references`);
-for(const [file,html] of fileMap)for(const match of html.matchAll(/(?:href|src)="([^"]*(?:style|app)\.[^"]+)"/g)){const ref=match[1].split(/[?#]/)[0];if(!/\.(?:[a-f0-9]{10})\.(?:css|js)$/.test(ref))errors.push(`${relative(file)}: unversioned or obsolete asset ${match[1]}`);}
+for(const [file,html] of fileMap)for(const match of html.matchAll(/(?:href|src)="([^"]*(?:^|\/)(?:style|app)\.[^"]+)"/g)){const ref=match[1].split(/[?#]/)[0];if(!/\.(?:[a-f0-9]{10})\.(?:css|js)$/.test(ref))errors.push(`${relative(file)}: unversioned or obsolete asset ${match[1]}`);}
 
 const readme=await fs.readFile(path.join(root,'README.md'),'utf8');
 for(const value of [manifest.dataset_version,manifest.schema_version,manifest.organizations.toLocaleString('en-US'),manifest.sourced_facts.toLocaleString('en-US'),manifest.canonical_sources.toLocaleString('en-US')])if(!readme.includes(`| ${value} |`))errors.push(`README status block missing ${value}`);

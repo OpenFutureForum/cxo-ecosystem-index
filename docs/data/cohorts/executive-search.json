@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.4",
+  "dataset_version": "0.9.5",
   "calculated_at": "2026-08-12",
   "cohort_id": "executive-search",
   "entity_ids": [
@@ -8,6 +8,18 @@
     "ent_heidrick_struggles",
     "ent_spencer_stuart",
     "ent_egon_zehnder",
+    "ent_ema_partners",
+    "ent_kestria",
+    "ent_boyden",
+    "ent_odgers_berndtson",
+    "ent_pagegroup",
+    "ent_caldwell",
+    "ent_dhr_global",
+    "ent_raines_international",
+    "ent_n2growth",
+    "ent_hays",
+    "ent_kingsley_gate",
+    "ent_russell_tobin",
     "ent_zrg",
     "ent_robert_half",
     "ent_findem",
@@ -1466,6 +1478,3270 @@
           "value": "board advisory",
           "source_ids": [
             "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_ema_partners",
+      "name": "EMA Partners",
+      "slug": "ema-partners",
+      "entity_type": "professional services firm",
+      "description": "EMA Partners is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.ema-partners.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "EMA Partners provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_ema-partners_official",
+          "url": "https://www.ema-partners.com/",
+          "title": "EMA Partners official website",
+          "publisher": "EMA Partners",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_ema-partners_offerings",
+          "url": "https://www.ema-partners.com/executive-search",
+          "title": "EMA Partners products and services",
+          "publisher": "EMA Partners",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_ema-partners_about",
+          "url": "https://www.ema-partners.com/who-we-are",
+          "title": "About EMA Partners",
+          "publisher": "EMA Partners",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ema-partners.com/executive-search",
+          "title": "EMA Partners products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_ema-partners_identity_ema-partners",
+          "field": "identity",
+          "value": "EMA Partners",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_description_ema-partners-is-an-organization-providing-docume",
+          "field": "description",
+          "value": "EMA Partners is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_ema-partners_official",
+            "src_ema-partners_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_website_https-www-ema-partners-com",
+          "field": "website",
+          "value": "https://www.ema-partners.com/",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_ema-partners_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_ema-partners_official",
+            "src_ema-partners_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_ema-partners_official",
+            "src_ema-partners_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_ema-partners_official",
+            "src_ema-partners_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_ema-partners_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_ema-partners_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ema-partners_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_ema-partners_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_kestria",
+      "name": "Kestria",
+      "slug": "kestria",
+      "entity_type": "professional services firm",
+      "description": "Kestria is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.kestria.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Kestria provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_kestria_official",
+          "url": "https://www.kestria.com/",
+          "title": "Kestria official website",
+          "publisher": "Kestria",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_kestria_offerings",
+          "url": "https://kestria.com/who-we-are/",
+          "title": "Kestria products and services",
+          "publisher": "Kestria",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_kestria_about",
+          "url": "https://kestria.com/about-us/",
+          "title": "About Kestria",
+          "publisher": "Kestria",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://kestria.com/who-we-are/",
+          "title": "Kestria products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_kestria_identity_kestria",
+          "field": "identity",
+          "value": "Kestria",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_description_kestria-is-an-organization-providing-documented-",
+          "field": "description",
+          "value": "Kestria is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_kestria_official",
+            "src_kestria_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_website_https-www-kestria-com",
+          "field": "website",
+          "value": "https://www.kestria.com/",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_kestria_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_kestria_official",
+            "src_kestria_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_kestria_official",
+            "src_kestria_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_kestria_official",
+            "src_kestria_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_kestria_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_kestria_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kestria_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_kestria_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_boyden",
+      "name": "Boyden",
+      "slug": "boyden",
+      "entity_type": "professional services firm",
+      "description": "Boyden is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.boyden.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Boyden provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_boyden_official",
+          "url": "https://www.boyden.com/",
+          "title": "Boyden official website",
+          "publisher": "Boyden",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_boyden_offerings",
+          "url": "https://www.boyden.com/capabilities/",
+          "title": "Boyden products and services",
+          "publisher": "Boyden",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_boyden_about",
+          "url": "https://www.boyden.com/canada/what-we-do/",
+          "title": "About Boyden",
+          "publisher": "Boyden",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.boyden.com/capabilities/",
+          "title": "Boyden products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_boyden_identity_boyden",
+          "field": "identity",
+          "value": "Boyden",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_description_boyden-is-an-organization-providing-documented-e",
+          "field": "description",
+          "value": "Boyden is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_boyden_official",
+            "src_boyden_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_website_https-www-boyden-com",
+          "field": "website",
+          "value": "https://www.boyden.com/",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_boyden_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_boyden_official",
+            "src_boyden_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_boyden_official",
+            "src_boyden_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_boyden_official",
+            "src_boyden_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_boyden_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_boyden_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_boyden_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_boyden_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_odgers_berndtson",
+      "name": "Odgers Berndtson",
+      "slug": "odgers-berndtson",
+      "entity_type": "professional services firm",
+      "description": "Odgers Berndtson is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.odgers.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Odgers Berndtson provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_odgers-berndtson_official",
+          "url": "https://www.odgers.com/",
+          "title": "Odgers Berndtson official website",
+          "publisher": "Odgers Berndtson",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_odgers-berndtson_offerings",
+          "url": "https://www.odgers.com/en-us/services/",
+          "title": "Odgers Berndtson products and services",
+          "publisher": "Odgers Berndtson",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_odgers-berndtson_about",
+          "url": "https://www.odgers.com/en-us/about-us/",
+          "title": "About Odgers Berndtson",
+          "publisher": "Odgers Berndtson",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.odgers.com/en-us/services/",
+          "title": "Odgers Berndtson products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_odgers-berndtson_identity_odgers-berndtson",
+          "field": "identity",
+          "value": "Odgers Berndtson",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_description_odgers-berndtson-is-an-organization-providing-do",
+          "field": "description",
+          "value": "Odgers Berndtson is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_odgers-berndtson_official",
+            "src_odgers-berndtson_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_website_https-www-odgers-com",
+          "field": "website",
+          "value": "https://www.odgers.com/",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_odgers-berndtson_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_odgers-berndtson_official",
+            "src_odgers-berndtson_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_odgers-berndtson_official",
+            "src_odgers-berndtson_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_odgers-berndtson_official",
+            "src_odgers-berndtson_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_odgers-berndtson_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_odgers-berndtson_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_odgers-berndtson_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_odgers-berndtson_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_pagegroup",
+      "name": "PageGroup",
+      "slug": "pagegroup",
+      "entity_type": "professional services firm",
+      "description": "PageGroup is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.page.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Recruiting"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "PageGroup provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pagegroup_official",
+          "url": "https://www.page.com/",
+          "title": "PageGroup official website",
+          "publisher": "PageGroup",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_pagegroup_offerings",
+          "url": "https://www.page.com/services",
+          "title": "PageGroup products and services",
+          "publisher": "PageGroup",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_pagegroup_about",
+          "url": "https://www.page.com/about-us",
+          "title": "About PageGroup",
+          "publisher": "PageGroup",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Recruiting"
+      ],
+      "provider_types": [
+        "executive-search",
+        "recruiting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.page.com/services",
+          "title": "PageGroup products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_pagegroup_identity_pagegroup",
+          "field": "identity",
+          "value": "PageGroup",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_description_pagegroup-is-an-organization-providing-documente",
+          "field": "description",
+          "value": "PageGroup is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_pagegroup_official",
+            "src_pagegroup_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_website_https-www-page-com",
+          "field": "website",
+          "value": "https://www.page.com/",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_pagegroup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_pagegroup_official",
+            "src_pagegroup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_pagegroup_official",
+            "src_pagegroup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_pagegroup_official",
+            "src_pagegroup_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_pagegroup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_pagegroup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_pagegroup_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_pagegroup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_caldwell",
+      "name": "Caldwell",
+      "slug": "caldwell",
+      "entity_type": "professional services firm",
+      "description": "Caldwell is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.caldwell.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Caldwell provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_caldwell_official",
+          "url": "https://www.caldwell.com/",
+          "title": "Caldwell official website",
+          "publisher": "Caldwell",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_caldwell_offerings",
+          "url": "https://www.caldwell.com/about-us/",
+          "title": "Caldwell products and services",
+          "publisher": "Caldwell",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_caldwell_about",
+          "url": "https://www.caldwell.com/about-us/top-executive-recruiters-consultants/",
+          "title": "About Caldwell",
+          "publisher": "Caldwell",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.caldwell.com/about-us/",
+          "title": "Caldwell products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_caldwell_identity_caldwell",
+          "field": "identity",
+          "value": "Caldwell",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_description_caldwell-is-an-organization-providing-documented",
+          "field": "description",
+          "value": "Caldwell is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_caldwell_official",
+            "src_caldwell_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_website_https-www-caldwell-com",
+          "field": "website",
+          "value": "https://www.caldwell.com/",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_caldwell_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_caldwell_official",
+            "src_caldwell_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_caldwell_official",
+            "src_caldwell_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_caldwell_official",
+            "src_caldwell_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_caldwell_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_caldwell_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_caldwell_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_caldwell_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_dhr_global",
+      "name": "DHR Global",
+      "slug": "dhr-global",
+      "entity_type": "professional services firm",
+      "description": "DHR Global is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.dhrglobal.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "DHR Global provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_dhr-global_official",
+          "url": "https://www.dhrglobal.com/",
+          "title": "DHR Global official website",
+          "publisher": "DHR Global",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_dhr-global_offerings",
+          "url": "https://www.dhrglobal.com/about/consultants/",
+          "title": "DHR Global products and services",
+          "publisher": "DHR Global",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_dhr-global_about",
+          "url": "https://www.dhrglobal.com/about/",
+          "title": "About DHR Global",
+          "publisher": "DHR Global",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.dhrglobal.com/about/consultants/",
+          "title": "DHR Global products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_dhr-global_identity_dhr-global",
+          "field": "identity",
+          "value": "DHR Global",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_description_dhr-global-is-an-organization-providing-document",
+          "field": "description",
+          "value": "DHR Global is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_dhr-global_official",
+            "src_dhr-global_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_website_https-www-dhrglobal-com",
+          "field": "website",
+          "value": "https://www.dhrglobal.com/",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_dhr-global_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_dhr-global_official",
+            "src_dhr-global_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_dhr-global_official",
+            "src_dhr-global_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_dhr-global_official",
+            "src_dhr-global_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_dhr-global_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_dhr-global_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dhr-global_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_dhr-global_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_raines_international",
+      "name": "Raines International",
+      "slug": "raines-international",
+      "entity_type": "professional services firm",
+      "description": "Raines International is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://rainesinternational.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Raines International provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_raines-international_official",
+          "url": "https://rainesinternational.com/",
+          "title": "Raines International official website",
+          "publisher": "Raines International",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_raines-international_offerings",
+          "url": "https://rainesinternational.com/services/",
+          "title": "Raines International products and services",
+          "publisher": "Raines International",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_raines-international_about",
+          "url": "https://rainesinternational.com/about/",
+          "title": "About Raines International",
+          "publisher": "Raines International",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://rainesinternational.com/services/",
+          "title": "Raines International products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_raines-international_identity_raines-international",
+          "field": "identity",
+          "value": "Raines International",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_description_raines-international-is-an-organization-providin",
+          "field": "description",
+          "value": "Raines International is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_raines-international_official",
+            "src_raines-international_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_website_https-rainesinternational-com",
+          "field": "website",
+          "value": "https://rainesinternational.com/",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_raines-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_raines-international_official",
+            "src_raines-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_raines-international_official",
+            "src_raines-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_raines-international_official",
+            "src_raines-international_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_raines-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_raines-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_raines-international_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_raines-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_n2growth",
+      "name": "N2Growth",
+      "slug": "n2growth",
+      "entity_type": "professional services firm",
+      "description": "N2Growth is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.n2growth.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "N2Growth provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_n2growth_official",
+          "url": "https://www.n2growth.com/",
+          "title": "N2Growth official website",
+          "publisher": "N2Growth",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_n2growth_offerings",
+          "url": "https://www.n2growth.com/services/",
+          "title": "N2Growth products and services",
+          "publisher": "N2Growth",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_n2growth_about",
+          "url": "https://www.n2growth.com/about/",
+          "title": "About N2Growth",
+          "publisher": "N2Growth",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.n2growth.com/services/",
+          "title": "N2Growth products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_n2growth_identity_n2growth",
+          "field": "identity",
+          "value": "N2Growth",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_description_n2growth-is-an-organization-providing-documented",
+          "field": "description",
+          "value": "N2Growth is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_n2growth_official",
+            "src_n2growth_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_website_https-www-n2growth-com",
+          "field": "website",
+          "value": "https://www.n2growth.com/",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_n2growth_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_n2growth_official",
+            "src_n2growth_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_n2growth_official",
+            "src_n2growth_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_n2growth_official",
+            "src_n2growth_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_n2growth_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_n2growth_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_n2growth_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_n2growth_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_hays",
+      "name": "Hays",
+      "slug": "hays",
+      "entity_type": "professional services firm",
+      "description": "Hays is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.hays.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Recruiting",
+        "Executive Search"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Hays provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_hays_official",
+          "url": "https://www.hays.com/",
+          "title": "Hays official website",
+          "publisher": "Hays",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_hays_offerings",
+          "url": "https://www.hays.com/recruitment-services/executive-search",
+          "title": "Hays products and services",
+          "publisher": "Hays",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_hays_about",
+          "url": "https://www.hays.com/about-us",
+          "title": "About Hays",
+          "publisher": "Hays",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Recruiting",
+      "secondary_categories": [
+        "Executive Search"
+      ],
+      "provider_types": [
+        "recruiting",
+        "executive-search"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.hays.com/recruitment-services/executive-search",
+          "title": "Hays products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_hays_identity_hays",
+          "field": "identity",
+          "value": "Hays",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_description_hays-is-an-organization-providing-documented-exe",
+          "field": "description",
+          "value": "Hays is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_hays_official",
+            "src_hays_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_website_https-www-hays-com",
+          "field": "website",
+          "value": "https://www.hays.com/",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_primary-category_recruiting",
+          "field": "primary_category",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_hays_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_hays_official",
+            "src_hays_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_hays_official",
+            "src_hays_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_hays_official",
+            "src_hays_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_hays_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_hays_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hays_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_hays_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_kingsley_gate",
+      "name": "Kingsley Gate",
+      "slug": "kingsley-gate",
+      "entity_type": "professional services firm",
+      "description": "Kingsley Gate is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://www.kingsleygate.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Kingsley Gate provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_kingsley-gate_official",
+          "url": "https://www.kingsleygate.com/",
+          "title": "Kingsley Gate official website",
+          "publisher": "Kingsley Gate",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_kingsley-gate_offerings",
+          "url": "https://www.kingsleygate.com/services",
+          "title": "Kingsley Gate products and services",
+          "publisher": "Kingsley Gate",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_kingsley-gate_about",
+          "url": "https://www.kingsleygate.com/about-us",
+          "title": "About Kingsley Gate",
+          "publisher": "Kingsley Gate",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.kingsleygate.com/services",
+          "title": "Kingsley Gate products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_kingsley-gate_identity_kingsley-gate",
+          "field": "identity",
+          "value": "Kingsley Gate",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_description_kingsley-gate-is-an-organization-providing-docum",
+          "field": "description",
+          "value": "Kingsley Gate is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_kingsley-gate_official",
+            "src_kingsley-gate_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_website_https-www-kingsleygate-com",
+          "field": "website",
+          "value": "https://www.kingsleygate.com/",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_kingsley-gate_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_kingsley-gate_official",
+            "src_kingsley-gate_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_kingsley-gate_official",
+            "src_kingsley-gate_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_kingsley-gate_official",
+            "src_kingsley-gate_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_kingsley-gate_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_kingsley-gate_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kingsley-gate_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_kingsley-gate_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_russell_tobin",
+      "name": "Russell Tobin",
+      "slug": "russell-tobin",
+      "entity_type": "professional services firm",
+      "description": "Russell Tobin is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+      "website": "https://russelltobin.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Recruiting",
+        "Executive Search"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive advisory",
+        "business transformation",
+        "industry consulting"
+      ],
+      "inclusion_basis": [
+        "Russell Tobin provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_russell-tobin_official",
+          "url": "https://russelltobin.com/",
+          "title": "Russell Tobin official website",
+          "publisher": "Russell Tobin",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_russell-tobin_offerings",
+          "url": "https://russelltobin.com/contract-hiring",
+          "title": "Russell Tobin products and services",
+          "publisher": "Russell Tobin",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_russell-tobin_about",
+          "url": "https://russelltobin.com/about",
+          "title": "About Russell Tobin",
+          "publisher": "Russell Tobin",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Recruiting",
+      "secondary_categories": [
+        "Executive Search"
+      ],
+      "provider_types": [
+        "recruiting",
+        "executive-search"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "leadership",
+        "board-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://russelltobin.com/contract-hiring",
+          "title": "Russell Tobin products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_russell-tobin_identity_russell-tobin",
+          "field": "identity",
+          "value": "Russell Tobin",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_description_russell-tobin-is-an-organization-providing-docum",
+          "field": "description",
+          "value": "Russell Tobin is an organization providing documented executive advisory, business transformation, and industry consulting relevant to executive decision-makers.",
+          "source_ids": [
+            "src_russell-tobin_official",
+            "src_russell-tobin_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_website_https-russelltobin-com",
+          "field": "website",
+          "value": "https://russelltobin.com/",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_primary-category_recruiting",
+          "field": "primary_category",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_categories_recruiting",
+          "field": "categories",
+          "value": "Recruiting",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_russell-tobin_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_russell-tobin_official",
+            "src_russell-tobin_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_russell-tobin_official",
+            "src_russell-tobin_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_russell-tobin_official",
+            "src_russell-tobin_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_services_executive-advisory",
+          "field": "services",
+          "value": "executive advisory",
+          "source_ids": [
+            "src_russell-tobin_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_services_business-transformation",
+          "field": "services",
+          "value": "business transformation",
+          "source_ids": [
+            "src_russell-tobin_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_russell-tobin_services_industry-consulting",
+          "field": "services",
+          "value": "industry consulting",
+          "source_ids": [
+            "src_russell-tobin_offerings"
           ],
           "last_verified": "2026-08-12"
         }

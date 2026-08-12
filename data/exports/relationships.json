@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "0.9.4",
+  "dataset_version": "0.9.5",
   "generated_at": "2026-08-12",
   "sourced_relationship_count": 29,
   "derived_reciprocal_count": 29,

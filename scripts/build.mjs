@@ -19,6 +19,7 @@ const s=stats(entities);
 const intelligence=buildIntelligence(entities);
 const coverageLimitedIntelligenceIds=new Set([
  ...intelligence.decision_tools.filter(item=>!item.headline_eligible).map(item=>item.id),
+ ...intelligence.market_maps.filter(item=>!item.headline_eligible).map(item=>item.id),
  ...intelligence.benchmarks.filter(item=>item.id!=='data-quality'&&!item.headline_eligible).map(item=>item.id)
 ]);
 const sourceRegistry=buildSourceRegistry(entities);
