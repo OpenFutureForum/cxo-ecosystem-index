@@ -1,17 +1,17 @@
 {
   "kind": "Current Release Manifest",
   "purpose": "Programmatic version discovery, debugging, provenance and external data consumers.",
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "schema_version": "3.2.0",
-  "build_commit": "dbded0674ded684af745141da092b7df681a564e",
-  "release_fingerprint": "3a7feeeb4830f6003fed4094b4ba289809abaf144fab5bc2719b2fd3c4203dc7",
-  "organizations": 194,
-  "sourced_facts": 3772,
-  "canonical_sources": 578,
-  "generated_at": "2026-08-12T14:13:47.498Z",
+  "build_commit": "ec295bafce209b47ccc380ece455a3c2a67167cc",
+  "release_fingerprint": "f355c96d18124fa1bbb70c255b1167683f6e4ac55629832abc1c1a18617116a0",
+  "organizations": 294,
+  "sourced_facts": 5275,
+  "canonical_sources": 878,
+  "generated_at": "2026-08-12T14:48:44.576Z",
   "last_dataset_update": "2026-08-12",
   "canonical_url": "https://openfutureforum.github.io/cxo-ecosystem-index/",
   "data_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data.html",
   "manifest_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data/build-manifest.json",
-  "search_index_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.9864905905.json"
+  "search_index_url": "https://openfutureforum.github.io/cxo-ecosystem-index/data/search-index.801f1d781f.json"
 }

@@ -1,8 +1,23 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "calculated_at": "2026-08-12",
   "cohort_id": "chro-technology",
   "entity_ids": [
+    "ent_adp",
+    "ent_paychex",
+    "ent_ukg",
+    "ent_bamboohr",
+    "ent_greenhouse",
+    "ent_lever",
+    "ent_cornerstone_ondemand",
+    "ent_culture_amp",
+    "ent_betterup",
+    "ent_eightfold_ai",
+    "ent_paradox",
+    "ent_beamery",
+    "ent_workhuman",
+    "ent_paycom",
+    "ent_dayforce",
     "ent_escalon",
     "ent_findem",
     "ent_rippling",
@@ -15,6 +30,3630 @@
     "ent_transform"
   ],
   "entities": [
+    {
+      "id": "ent_adp",
+      "name": "ADP",
+      "slug": "adp",
+      "entity_type": "human resources technology company",
+      "description": "Human-capital-management company providing payroll, HR, talent and workforce products.",
+      "website": "https://www.adp.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "ADP provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_adp_official",
+          "url": "https://www.adp.com/",
+          "title": "ADP official website",
+          "publisher": "ADP",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_adp_offerings",
+          "url": "https://www.adp.com/what-we-offer.aspx",
+          "title": "ADP products and services",
+          "publisher": "ADP",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_adp_about",
+          "url": "https://www.adp.com/about-adp.aspx",
+          "title": "About ADP",
+          "publisher": "ADP",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.adp.com/what-we-offer.aspx",
+          "title": "ADP products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_adp_identity_adp",
+          "field": "identity",
+          "value": "ADP",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_description_human-capital-management-company-providing-payro",
+          "field": "description",
+          "value": "Human-capital-management company providing payroll, HR, talent and workforce products.",
+          "source_ids": [
+            "src_adp_official",
+            "src_adp_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_website_https-www-adp-com",
+          "field": "website",
+          "value": "https://www.adp.com/",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_adp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_adp_official",
+            "src_adp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_adp_official",
+            "src_adp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_adp_official",
+            "src_adp_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_adp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_adp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_adp_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_adp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_paychex",
+      "name": "Paychex",
+      "slug": "paychex",
+      "entity_type": "human resources technology company",
+      "description": "Human-capital-management company providing payroll, HR, benefits and workforce products.",
+      "website": "https://www.paychex.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Paychex provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_paychex_official",
+          "url": "https://www.paychex.com/",
+          "title": "Paychex official website",
+          "publisher": "Paychex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_paychex_offerings",
+          "url": "https://www.paychex.com/human-resources",
+          "title": "Paychex products and services",
+          "publisher": "Paychex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_paychex_about",
+          "url": "https://www.paychex.com/corporate",
+          "title": "About Paychex",
+          "publisher": "Paychex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paychex.com/human-resources",
+          "title": "Paychex products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_paychex_identity_paychex",
+          "field": "identity",
+          "value": "Paychex",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_description_human-capital-management-company-providing-payro",
+          "field": "description",
+          "value": "Human-capital-management company providing payroll, HR, benefits and workforce products.",
+          "source_ids": [
+            "src_paychex_official",
+            "src_paychex_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_website_https-www-paychex-com",
+          "field": "website",
+          "value": "https://www.paychex.com/",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_paychex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_paychex_official",
+            "src_paychex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_paychex_official",
+            "src_paychex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_paychex_official",
+            "src_paychex_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_paychex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_paychex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paychex_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_paychex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_ukg",
+      "name": "UKG",
+      "slug": "ukg",
+      "entity_type": "human resources technology company",
+      "description": "Human-capital-management company providing HR, payroll and workforce-management products.",
+      "website": "https://www.ukg.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "UKG provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_ukg_official",
+          "url": "https://www.ukg.com/",
+          "title": "UKG official website",
+          "publisher": "UKG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_ukg_offerings",
+          "url": "https://www.ukg.com/solutions",
+          "title": "UKG products and services",
+          "publisher": "UKG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_ukg_about",
+          "url": "https://www.ukg.com/about-us",
+          "title": "About UKG",
+          "publisher": "UKG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ukg.com/solutions",
+          "title": "UKG products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_ukg_identity_ukg",
+          "field": "identity",
+          "value": "UKG",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_description_human-capital-management-company-providing-hr-pa",
+          "field": "description",
+          "value": "Human-capital-management company providing HR, payroll and workforce-management products.",
+          "source_ids": [
+            "src_ukg_official",
+            "src_ukg_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_website_https-www-ukg-com",
+          "field": "website",
+          "value": "https://www.ukg.com/",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_ukg_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_ukg_official",
+            "src_ukg_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_ukg_official",
+            "src_ukg_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_ukg_official",
+            "src_ukg_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_ukg_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_ukg_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ukg_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_ukg_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_bamboohr",
+      "name": "BambooHR",
+      "slug": "bamboohr",
+      "entity_type": "human resources technology company",
+      "description": "Human resources software company providing HR data, payroll, benefits and talent products.",
+      "website": "https://www.bamboohr.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "BambooHR provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_bamboohr_official",
+          "url": "https://www.bamboohr.com/",
+          "title": "BambooHR official website",
+          "publisher": "BambooHR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_bamboohr_offerings",
+          "url": "https://www.bamboohr.com/platform",
+          "title": "BambooHR products and services",
+          "publisher": "BambooHR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_bamboohr_about",
+          "url": "https://www.bamboohr.com/about-bamboohr",
+          "title": "About BambooHR",
+          "publisher": "BambooHR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.bamboohr.com/platform",
+          "title": "BambooHR products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_bamboohr_identity_bamboohr",
+          "field": "identity",
+          "value": "BambooHR",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_description_human-resources-software-company-providing-hr-da",
+          "field": "description",
+          "value": "Human resources software company providing HR data, payroll, benefits and talent products.",
+          "source_ids": [
+            "src_bamboohr_official",
+            "src_bamboohr_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_website_https-www-bamboohr-com",
+          "field": "website",
+          "value": "https://www.bamboohr.com/",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_bamboohr_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_bamboohr_official",
+            "src_bamboohr_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_bamboohr_official",
+            "src_bamboohr_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_bamboohr_official",
+            "src_bamboohr_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_bamboohr_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_bamboohr_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_bamboohr_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_bamboohr_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_greenhouse",
+      "name": "Greenhouse",
+      "slug": "greenhouse",
+      "entity_type": "human resources technology company",
+      "description": "Hiring software company providing recruiting, onboarding and talent-acquisition products.",
+      "website": "https://www.greenhouse.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Greenhouse provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_greenhouse_official",
+          "url": "https://www.greenhouse.com/",
+          "title": "Greenhouse official website",
+          "publisher": "Greenhouse",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_greenhouse_offerings",
+          "url": "https://www.greenhouse.com/platform",
+          "title": "Greenhouse products and services",
+          "publisher": "Greenhouse",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_greenhouse_about",
+          "url": "https://www.greenhouse.com/company",
+          "title": "About Greenhouse",
+          "publisher": "Greenhouse",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.greenhouse.com/platform",
+          "title": "Greenhouse products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_greenhouse_identity_greenhouse",
+          "field": "identity",
+          "value": "Greenhouse",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_description_hiring-software-company-providing-recruiting-onb",
+          "field": "description",
+          "value": "Hiring software company providing recruiting, onboarding and talent-acquisition products.",
+          "source_ids": [
+            "src_greenhouse_official",
+            "src_greenhouse_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_website_https-www-greenhouse-com",
+          "field": "website",
+          "value": "https://www.greenhouse.com/",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_greenhouse_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_greenhouse_official",
+            "src_greenhouse_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_greenhouse_official",
+            "src_greenhouse_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_greenhouse_official",
+            "src_greenhouse_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_greenhouse_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_greenhouse_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_greenhouse_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_greenhouse_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_lever",
+      "name": "Lever",
+      "slug": "lever",
+      "entity_type": "human resources technology company",
+      "description": "Talent-acquisition company providing applicant-tracking and recruiting products.",
+      "website": "https://www.lever.co/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Lever provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_lever_official",
+          "url": "https://www.lever.co/",
+          "title": "Lever official website",
+          "publisher": "Lever",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_lever_offerings",
+          "url": "https://www.lever.co/platform/",
+          "title": "Lever products and services",
+          "publisher": "Lever",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_lever_about",
+          "url": "https://www.lever.co/about-us/",
+          "title": "About Lever",
+          "publisher": "Lever",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.lever.co/platform/",
+          "title": "Lever products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_lever_identity_lever",
+          "field": "identity",
+          "value": "Lever",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_description_talent-acquisition-company-providing-applicant-t",
+          "field": "description",
+          "value": "Talent-acquisition company providing applicant-tracking and recruiting products.",
+          "source_ids": [
+            "src_lever_official",
+            "src_lever_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_website_https-www-lever-co",
+          "field": "website",
+          "value": "https://www.lever.co/",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_lever_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_lever_official",
+            "src_lever_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_lever_official",
+            "src_lever_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_lever_official",
+            "src_lever_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_lever_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_lever_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_lever_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_lever_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_cornerstone_ondemand",
+      "name": "Cornerstone OnDemand",
+      "slug": "cornerstone-ondemand",
+      "entity_type": "human resources technology company",
+      "description": "Workforce-agility company providing learning, talent and skills-management products.",
+      "website": "https://www.cornerstoneondemand.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Cornerstone OnDemand provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_cornerstone-ondemand_official",
+          "url": "https://www.cornerstoneondemand.com/",
+          "title": "Cornerstone OnDemand official website",
+          "publisher": "Cornerstone OnDemand",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_cornerstone-ondemand_offerings",
+          "url": "https://www.cornerstoneondemand.com/platform/",
+          "title": "Cornerstone OnDemand products and services",
+          "publisher": "Cornerstone OnDemand",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_cornerstone-ondemand_about",
+          "url": "https://www.cornerstoneondemand.com/company/",
+          "title": "About Cornerstone OnDemand",
+          "publisher": "Cornerstone OnDemand",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cornerstoneondemand.com/platform/",
+          "title": "Cornerstone OnDemand products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_cornerstone-ondemand_identity_cornerstone-ondemand",
+          "field": "identity",
+          "value": "Cornerstone OnDemand",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_description_workforce-agility-company-providing-learning-tal",
+          "field": "description",
+          "value": "Workforce-agility company providing learning, talent and skills-management products.",
+          "source_ids": [
+            "src_cornerstone-ondemand_official",
+            "src_cornerstone-ondemand_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_website_https-www-cornerstoneondemand-com",
+          "field": "website",
+          "value": "https://www.cornerstoneondemand.com/",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_cornerstone-ondemand_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_cornerstone-ondemand_official",
+            "src_cornerstone-ondemand_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_cornerstone-ondemand_official",
+            "src_cornerstone-ondemand_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_cornerstone-ondemand_official",
+            "src_cornerstone-ondemand_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_cornerstone-ondemand_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_cornerstone-ondemand_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cornerstone-ondemand_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_cornerstone-ondemand_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_culture_amp",
+      "name": "Culture Amp",
+      "slug": "culture-amp",
+      "entity_type": "human resources technology company",
+      "description": "Employee-experience company providing engagement, performance and people-analytics products.",
+      "website": "https://www.cultureamp.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Culture Amp provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_culture-amp_official",
+          "url": "https://www.cultureamp.com/",
+          "title": "Culture Amp official website",
+          "publisher": "Culture Amp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_culture-amp_offerings",
+          "url": "https://www.cultureamp.com/platform",
+          "title": "Culture Amp products and services",
+          "publisher": "Culture Amp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_culture-amp_about",
+          "url": "https://www.cultureamp.com/company",
+          "title": "About Culture Amp",
+          "publisher": "Culture Amp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cultureamp.com/platform",
+          "title": "Culture Amp products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_culture-amp_identity_culture-amp",
+          "field": "identity",
+          "value": "Culture Amp",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_description_employee-experience-company-providing-engagement",
+          "field": "description",
+          "value": "Employee-experience company providing engagement, performance and people-analytics products.",
+          "source_ids": [
+            "src_culture-amp_official",
+            "src_culture-amp_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_website_https-www-cultureamp-com",
+          "field": "website",
+          "value": "https://www.cultureamp.com/",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_culture-amp_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_culture-amp_official",
+            "src_culture-amp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_culture-amp_official",
+            "src_culture-amp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_culture-amp_official",
+            "src_culture-amp_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_culture-amp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_culture-amp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_culture-amp_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_culture-amp_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_betterup",
+      "name": "BetterUp",
+      "slug": "betterup",
+      "entity_type": "human resources technology company",
+      "description": "Leadership-development company providing coaching, assessment and workforce products.",
+      "website": "https://www.betterup.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Executive Coaching"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "BetterUp provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_betterup_official",
+          "url": "https://www.betterup.com/",
+          "title": "BetterUp official website",
+          "publisher": "BetterUp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_betterup_offerings",
+          "url": "https://www.betterup.com/platform",
+          "title": "BetterUp products and services",
+          "publisher": "BetterUp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_betterup_about",
+          "url": "https://www.betterup.com/about-us",
+          "title": "About BetterUp",
+          "publisher": "BetterUp",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Executive Coaching"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "executive-coaching"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.betterup.com/platform",
+          "title": "BetterUp products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_betterup_identity_betterup",
+          "field": "identity",
+          "value": "BetterUp",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_description_leadership-development-company-providing-coachin",
+          "field": "description",
+          "value": "Leadership-development company providing coaching, assessment and workforce products.",
+          "source_ids": [
+            "src_betterup_official",
+            "src_betterup_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_website_https-www-betterup-com",
+          "field": "website",
+          "value": "https://www.betterup.com/",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_categories_executive-coaching",
+          "field": "categories",
+          "value": "Executive Coaching",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_betterup_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_betterup_official",
+            "src_betterup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_betterup_official",
+            "src_betterup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_betterup_official",
+            "src_betterup_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_betterup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_betterup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_betterup_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_betterup_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_eightfold_ai",
+      "name": "Eightfold AI",
+      "slug": "eightfold-ai",
+      "entity_type": "human resources technology company",
+      "description": "Talent-intelligence company providing AI-based recruiting, mobility and skills products.",
+      "website": "https://eightfold.ai/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Eightfold AI provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_eightfold-ai_official",
+          "url": "https://eightfold.ai/",
+          "title": "Eightfold AI official website",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_eightfold-ai_offerings",
+          "url": "https://eightfold.ai/products/",
+          "title": "Eightfold AI products and services",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_eightfold-ai_about",
+          "url": "https://eightfold.ai/about/",
+          "title": "About Eightfold AI",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://eightfold.ai/products/",
+          "title": "Eightfold AI products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_eightfold-ai_identity_eightfold-ai",
+          "field": "identity",
+          "value": "Eightfold AI",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_description_talent-intelligence-company-providing-ai-based-r",
+          "field": "description",
+          "value": "Talent-intelligence company providing AI-based recruiting, mobility and skills products.",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_website_https-eightfold-ai",
+          "field": "website",
+          "value": "https://eightfold.ai/",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_paradox",
+      "name": "Paradox",
+      "slug": "paradox",
+      "entity_type": "human resources technology company",
+      "description": "Recruiting technology company providing conversational AI and hiring-automation products.",
+      "website": "https://www.paradox.ai/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Paradox provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_paradox_official",
+          "url": "https://www.paradox.ai/",
+          "title": "Paradox official website",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_paradox_offerings",
+          "url": "https://www.paradox.ai/products",
+          "title": "Paradox products and services",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_paradox_about",
+          "url": "https://www.paradox.ai/about",
+          "title": "About Paradox",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paradox.ai/products",
+          "title": "Paradox products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_paradox_identity_paradox",
+          "field": "identity",
+          "value": "Paradox",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_description_recruiting-technology-company-providing-conversa",
+          "field": "description",
+          "value": "Recruiting technology company providing conversational AI and hiring-automation products.",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_website_https-www-paradox-ai",
+          "field": "website",
+          "value": "https://www.paradox.ai/",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_beamery",
+      "name": "Beamery",
+      "slug": "beamery",
+      "entity_type": "human resources technology company",
+      "description": "Talent-lifecycle company providing workforce intelligence and skills-management products.",
+      "website": "https://beamery.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Beamery provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_beamery_official",
+          "url": "https://beamery.com/",
+          "title": "Beamery official website",
+          "publisher": "Beamery",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_beamery_offerings",
+          "url": "https://beamery.com/platform",
+          "title": "Beamery products and services",
+          "publisher": "Beamery",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_beamery_about",
+          "url": "https://beamery.com/resources",
+          "title": "About Beamery",
+          "publisher": "Beamery",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://beamery.com/platform",
+          "title": "Beamery products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_beamery_identity_beamery",
+          "field": "identity",
+          "value": "Beamery",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_description_talent-lifecycle-company-providing-workforce-int",
+          "field": "description",
+          "value": "Talent-lifecycle company providing workforce intelligence and skills-management products.",
+          "source_ids": [
+            "src_beamery_official",
+            "src_beamery_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_website_https-beamery-com",
+          "field": "website",
+          "value": "https://beamery.com/",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_beamery_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_beamery_official",
+            "src_beamery_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_beamery_official",
+            "src_beamery_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_beamery_official",
+            "src_beamery_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_beamery_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_beamery_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_beamery_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_beamery_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_workhuman",
+      "name": "Workhuman",
+      "slug": "workhuman",
+      "entity_type": "human resources technology company",
+      "description": "Employee-experience company providing recognition, performance and workplace products.",
+      "website": "https://www.workhuman.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Workhuman provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_workhuman_official",
+          "url": "https://www.workhuman.com/",
+          "title": "Workhuman official website",
+          "publisher": "Workhuman",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_workhuman_offerings",
+          "url": "https://www.workhuman.com/solutions/",
+          "title": "Workhuman products and services",
+          "publisher": "Workhuman",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_workhuman_about",
+          "url": "https://www.workhuman.com/company/",
+          "title": "About Workhuman",
+          "publisher": "Workhuman",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.workhuman.com/solutions/",
+          "title": "Workhuman products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_workhuman_identity_workhuman",
+          "field": "identity",
+          "value": "Workhuman",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_description_employee-experience-company-providing-recognitio",
+          "field": "description",
+          "value": "Employee-experience company providing recognition, performance and workplace products.",
+          "source_ids": [
+            "src_workhuman_official",
+            "src_workhuman_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_website_https-www-workhuman-com",
+          "field": "website",
+          "value": "https://www.workhuman.com/",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_workhuman_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_workhuman_official",
+            "src_workhuman_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_workhuman_official",
+            "src_workhuman_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_workhuman_official",
+            "src_workhuman_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_workhuman_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_workhuman_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workhuman_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_workhuman_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_paycom",
+      "name": "Paycom",
+      "slug": "paycom",
+      "entity_type": "human resources technology company",
+      "description": "Human-capital-management company providing payroll and employee-workflow software.",
+      "website": "https://www.paycom.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Paycom provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_paycom_official",
+          "url": "https://www.paycom.com/",
+          "title": "Paycom official website",
+          "publisher": "Paycom",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_paycom_offerings",
+          "url": "https://www.paycom.com/software/",
+          "title": "Paycom products and services",
+          "publisher": "Paycom",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_paycom_about",
+          "url": "https://www.paycom.com/about/",
+          "title": "About Paycom",
+          "publisher": "Paycom",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paycom.com/software/",
+          "title": "Paycom products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_paycom_identity_paycom",
+          "field": "identity",
+          "value": "Paycom",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_description_human-capital-management-company-providing-payro",
+          "field": "description",
+          "value": "Human-capital-management company providing payroll and employee-workflow software.",
+          "source_ids": [
+            "src_paycom_official",
+            "src_paycom_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_website_https-www-paycom-com",
+          "field": "website",
+          "value": "https://www.paycom.com/",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_paycom_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_paycom_official",
+            "src_paycom_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_paycom_official",
+            "src_paycom_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_paycom_official",
+            "src_paycom_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_paycom_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_paycom_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycom_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_paycom_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_dayforce",
+      "name": "Dayforce",
+      "slug": "dayforce",
+      "entity_type": "human resources technology company",
+      "description": "Human-capital-management company providing payroll, workforce and talent products.",
+      "website": "https://www.dayforce.com/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Dayforce provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_dayforce_official",
+          "url": "https://www.dayforce.com/",
+          "title": "Dayforce official website",
+          "publisher": "Dayforce",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_dayforce_offerings",
+          "url": "https://www.dayforce.com/why-dayforce/dayforce-suite",
+          "title": "Dayforce products and services",
+          "publisher": "Dayforce",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_dayforce_about",
+          "url": "https://www.dayforce.com/company",
+          "title": "About Dayforce",
+          "publisher": "Dayforce",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.dayforce.com/why-dayforce/dayforce-suite",
+          "title": "Dayforce products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_dayforce_identity_dayforce",
+          "field": "identity",
+          "value": "Dayforce",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_description_human-capital-management-company-providing-payro",
+          "field": "description",
+          "value": "Human-capital-management company providing payroll, workforce and talent products.",
+          "source_ids": [
+            "src_dayforce_official",
+            "src_dayforce_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_website_https-www-dayforce-com",
+          "field": "website",
+          "value": "https://www.dayforce.com/",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_dayforce_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_dayforce_official",
+            "src_dayforce_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_dayforce_official",
+            "src_dayforce_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_dayforce_official",
+            "src_dayforce_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_dayforce_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_dayforce_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_dayforce_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_dayforce_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
     {
       "id": "ent_escalon",
       "name": "Escalon",

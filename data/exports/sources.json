@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -102,6 +102,72 @@
       "supports": [
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_6sense_about",
+      "url": "https://6sense.com/about-us/",
+      "title": "About 6sense",
+      "publisher": "6sense",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_6sense"
+      ],
+      "alias_source_ids": [
+        "src_6sense_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_6sense_offerings",
+      "url": "https://6sense.com/platform/",
+      "title": "6sense products and services",
+      "publisher": "6sense",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_6sense"
+      ],
+      "alias_source_ids": [
+        "src_6sense_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_6sense_official",
+      "url": "https://6sense.com/",
+      "title": "6sense official website",
+      "publisher": "6sense",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_6sense"
+      ],
+      "alias_source_ids": [
+        "src_6sense_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -254,6 +320,72 @@
       ]
     },
     {
+      "id": "src_accenture_about",
+      "url": "https://www.accenture.com/us-en/about/company-index",
+      "title": "About Accenture",
+      "publisher": "Accenture",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_accenture"
+      ],
+      "alias_source_ids": [
+        "src_accenture_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_accenture_offerings",
+      "url": "https://www.accenture.com/us-en/services",
+      "title": "Accenture products and services",
+      "publisher": "Accenture",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_accenture"
+      ],
+      "alias_source_ids": [
+        "src_accenture_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_accenture_official",
+      "url": "https://www.accenture.com/",
+      "title": "Accenture official website",
+      "publisher": "Accenture",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_accenture"
+      ],
+      "alias_source_ids": [
+        "src_accenture_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_acg_about_2026",
       "url": "https://www.acg.org/about",
       "title": "About ACG",
@@ -398,6 +530,138 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_adp_about",
+      "url": "https://www.adp.com/about-adp.aspx",
+      "title": "About ADP",
+      "publisher": "ADP",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adp"
+      ],
+      "alias_source_ids": [
+        "src_adp_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_adp_offerings",
+      "url": "https://www.adp.com/what-we-offer.aspx",
+      "title": "ADP products and services",
+      "publisher": "ADP",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adp"
+      ],
+      "alias_source_ids": [
+        "src_adp_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_adp_official",
+      "url": "https://www.adp.com/",
+      "title": "ADP official website",
+      "publisher": "ADP",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adp"
+      ],
+      "alias_source_ids": [
+        "src_adp_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_adyen_about",
+      "url": "https://www.adyen.com/about",
+      "title": "About Adyen",
+      "publisher": "Adyen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adyen"
+      ],
+      "alias_source_ids": [
+        "src_adyen_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_adyen_offerings",
+      "url": "https://www.adyen.com/payment-methods",
+      "title": "Adyen products and services",
+      "publisher": "Adyen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adyen"
+      ],
+      "alias_source_ids": [
+        "src_adyen_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_adyen_official",
+      "url": "https://www.adyen.com/",
+      "title": "Adyen official website",
+      "publisher": "Adyen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adyen"
+      ],
+      "alias_source_ids": [
+        "src_adyen_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -870,6 +1134,138 @@
       ]
     },
     {
+      "id": "src_airtable_about",
+      "url": "https://www.airtable.com/about",
+      "title": "About Airtable",
+      "publisher": "Airtable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airtable"
+      ],
+      "alias_source_ids": [
+        "src_airtable_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_airtable_offerings",
+      "url": "https://www.airtable.com/platform",
+      "title": "Airtable products and services",
+      "publisher": "Airtable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airtable"
+      ],
+      "alias_source_ids": [
+        "src_airtable_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_airtable_official",
+      "url": "https://www.airtable.com/",
+      "title": "Airtable official website",
+      "publisher": "Airtable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airtable"
+      ],
+      "alias_source_ids": [
+        "src_airtable_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_airwallex_about",
+      "url": "https://www.airwallex.com/newsroom",
+      "title": "About Airwallex",
+      "publisher": "Airwallex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airwallex"
+      ],
+      "alias_source_ids": [
+        "src_airwallex_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_airwallex_offerings",
+      "url": "https://www.airwallex.com/platform",
+      "title": "Airwallex products and services",
+      "publisher": "Airwallex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airwallex"
+      ],
+      "alias_source_ids": [
+        "src_airwallex_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_airwallex_official",
+      "url": "https://www.airwallex.com/",
+      "title": "Airwallex official website",
+      "publisher": "Airwallex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airwallex"
+      ],
+      "alias_source_ids": [
+        "src_airwallex_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_altair_how_2026",
       "url": "https://altair.vc/how",
       "title": "How AltaIR Invests",
@@ -932,6 +1328,270 @@
         "cxo_roles",
         "aliases",
         "relationship_notes"
+      ]
+    },
+    {
+      "id": "src_alteryx_about",
+      "url": "https://www.alteryx.com/about-us",
+      "title": "About Alteryx",
+      "publisher": "Alteryx",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alteryx"
+      ],
+      "alias_source_ids": [
+        "src_alteryx_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_alteryx_offerings",
+      "url": "https://www.alteryx.com/products",
+      "title": "Alteryx products and services",
+      "publisher": "Alteryx",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alteryx"
+      ],
+      "alias_source_ids": [
+        "src_alteryx_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_alteryx_official",
+      "url": "https://www.alteryx.com/",
+      "title": "Alteryx official website",
+      "publisher": "Alteryx",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alteryx"
+      ],
+      "alias_source_ids": [
+        "src_alteryx_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_alvarez-marsal_about",
+      "url": "https://www.alvarezandmarsal.com/about-us",
+      "title": "About Alvarez & Marsal",
+      "publisher": "Alvarez & Marsal",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alvarez_marsal"
+      ],
+      "alias_source_ids": [
+        "src_alvarez-marsal_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_alvarez-marsal_offerings",
+      "url": "https://www.alvarezandmarsal.com/expertise",
+      "title": "Alvarez & Marsal products and services",
+      "publisher": "Alvarez & Marsal",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alvarez_marsal"
+      ],
+      "alias_source_ids": [
+        "src_alvarez-marsal_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_alvarez-marsal_official",
+      "url": "https://www.alvarezandmarsal.com/",
+      "title": "Alvarez & Marsal official website",
+      "publisher": "Alvarez & Marsal",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_alvarez_marsal"
+      ],
+      "alias_source_ids": [
+        "src_alvarez-marsal_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_amazon-web-services_about",
+      "url": "https://aws.amazon.com/about-aws/",
+      "title": "About Amazon Web Services",
+      "publisher": "Amazon Web Services",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amazon_web_services"
+      ],
+      "alias_source_ids": [
+        "src_amazon-web-services_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_amazon-web-services_offerings",
+      "url": "https://aws.amazon.com/products/",
+      "title": "Amazon Web Services products and services",
+      "publisher": "Amazon Web Services",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amazon_web_services"
+      ],
+      "alias_source_ids": [
+        "src_amazon-web-services_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_amazon-web-services_official",
+      "url": "https://aws.amazon.com/",
+      "title": "Amazon Web Services official website",
+      "publisher": "Amazon Web Services",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amazon_web_services"
+      ],
+      "alias_source_ids": [
+        "src_amazon-web-services_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_amplitude_about",
+      "url": "https://amplitude.com/company",
+      "title": "About Amplitude",
+      "publisher": "Amplitude",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amplitude"
+      ],
+      "alias_source_ids": [
+        "src_amplitude_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_amplitude_offerings",
+      "url": "https://amplitude.com/platform",
+      "title": "Amplitude products and services",
+      "publisher": "Amplitude",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amplitude"
+      ],
+      "alias_source_ids": [
+        "src_amplitude_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_amplitude_official",
+      "url": "https://amplitude.com/",
+      "title": "Amplitude official website",
+      "publisher": "Amplitude",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_amplitude"
+      ],
+      "alias_source_ids": [
+        "src_amplitude_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -1060,6 +1720,72 @@
       ]
     },
     {
+      "id": "src_aon_about",
+      "url": "https://www.aon.com/en/about",
+      "title": "About Aon",
+      "publisher": "Aon",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_aon"
+      ],
+      "alias_source_ids": [
+        "src_aon_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_aon_offerings",
+      "url": "https://www.aon.com/en/capabilities",
+      "title": "Aon products and services",
+      "publisher": "Aon",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_aon"
+      ],
+      "alias_source_ids": [
+        "src_aon_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_aon_official",
+      "url": "https://www.aon.com/",
+      "title": "Aon official website",
+      "publisher": "Aon",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_aon"
+      ],
+      "alias_source_ids": [
+        "src_aon_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_applitools_about_2026",
       "url": "https://applitools.com/about/",
       "title": "About Applitools",
@@ -1120,6 +1846,72 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_arctic-wolf_about",
+      "url": "https://arcticwolf.com/company/",
+      "title": "About Arctic Wolf",
+      "publisher": "Arctic Wolf",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_arctic_wolf"
+      ],
+      "alias_source_ids": [
+        "src_arctic-wolf_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_arctic-wolf_offerings",
+      "url": "https://arcticwolf.com/platform/",
+      "title": "Arctic Wolf products and services",
+      "publisher": "Arctic Wolf",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_arctic_wolf"
+      ],
+      "alias_source_ids": [
+        "src_arctic-wolf_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_arctic-wolf_official",
+      "url": "https://arcticwolf.com/",
+      "title": "Arctic Wolf official website",
+      "publisher": "Arctic Wolf",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_arctic_wolf"
+      ],
+      "alias_source_ids": [
+        "src_arctic-wolf_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -1294,6 +2086,72 @@
       ]
     },
     {
+      "id": "src_atlassian_about",
+      "url": "https://www.atlassian.com/company",
+      "title": "About Atlassian",
+      "publisher": "Atlassian",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlassian"
+      ],
+      "alias_source_ids": [
+        "src_atlassian_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_atlassian_offerings",
+      "url": "https://www.atlassian.com/software",
+      "title": "Atlassian products and services",
+      "publisher": "Atlassian",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlassian"
+      ],
+      "alias_source_ids": [
+        "src_atlassian_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_atlassian_official",
+      "url": "https://www.atlassian.com/",
+      "title": "Atlassian official website",
+      "publisher": "Atlassian",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlassian"
+      ],
+      "alias_source_ids": [
+        "src_atlassian_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_atomic-zero_official",
       "url": "https://atomiczero.io/",
       "title": "Atomic Zero official website",
@@ -1318,6 +2176,138 @@
         "aliases",
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_automation-anywhere_about",
+      "url": "https://www.automationanywhere.com/company/about-us",
+      "title": "About Automation Anywhere",
+      "publisher": "Automation Anywhere",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_automation_anywhere"
+      ],
+      "alias_source_ids": [
+        "src_automation-anywhere_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_automation-anywhere_offerings",
+      "url": "https://www.automationanywhere.com/products",
+      "title": "Automation Anywhere products and services",
+      "publisher": "Automation Anywhere",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_automation_anywhere"
+      ],
+      "alias_source_ids": [
+        "src_automation-anywhere_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_automation-anywhere_official",
+      "url": "https://www.automationanywhere.com/",
+      "title": "Automation Anywhere official website",
+      "publisher": "Automation Anywhere",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_automation_anywhere"
+      ],
+      "alias_source_ids": [
+        "src_automation-anywhere_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_avalara_about",
+      "url": "https://www.avalara.com/us/en/about.html",
+      "title": "About Avalara",
+      "publisher": "Avalara",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_avalara"
+      ],
+      "alias_source_ids": [
+        "src_avalara_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_avalara_offerings",
+      "url": "https://www.avalara.com/us/en/products.html",
+      "title": "Avalara products and services",
+      "publisher": "Avalara",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_avalara"
+      ],
+      "alias_source_ids": [
+        "src_avalara_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_avalara_official",
+      "url": "https://www.avalara.com/",
+      "title": "Avalara official website",
+      "publisher": "Avalara",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_avalara"
+      ],
+      "alias_source_ids": [
+        "src_avalara_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -1474,6 +2464,72 @@
       ]
     },
     {
+      "id": "src_bamboohr_about",
+      "url": "https://www.bamboohr.com/about-bamboohr",
+      "title": "About BambooHR",
+      "publisher": "BambooHR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bamboohr"
+      ],
+      "alias_source_ids": [
+        "src_bamboohr_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_bamboohr_offerings",
+      "url": "https://www.bamboohr.com/platform",
+      "title": "BambooHR products and services",
+      "publisher": "BambooHR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bamboohr"
+      ],
+      "alias_source_ids": [
+        "src_bamboohr_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_bamboohr_official",
+      "url": "https://www.bamboohr.com/",
+      "title": "BambooHR official website",
+      "publisher": "BambooHR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bamboohr"
+      ],
+      "alias_source_ids": [
+        "src_bamboohr_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_bcg",
       "url": "https://www.bcg.com/capabilities",
       "title": "Capabilities",
@@ -1583,6 +2639,138 @@
       ]
     },
     {
+      "id": "src_bdo_about",
+      "url": "https://www.bdo.com/about",
+      "title": "About BDO",
+      "publisher": "BDO",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdo"
+      ],
+      "alias_source_ids": [
+        "src_bdo_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_bdo_offerings",
+      "url": "https://www.bdo.com/services",
+      "title": "BDO products and services",
+      "publisher": "BDO",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdo"
+      ],
+      "alias_source_ids": [
+        "src_bdo_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_bdo_official",
+      "url": "https://www.bdo.com/",
+      "title": "BDO official website",
+      "publisher": "BDO",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdo"
+      ],
+      "alias_source_ids": [
+        "src_bdo_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_beamery_about",
+      "url": "https://beamery.com/resources",
+      "title": "About Beamery",
+      "publisher": "Beamery",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_beamery"
+      ],
+      "alias_source_ids": [
+        "src_beamery_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_beamery_offerings",
+      "url": "https://beamery.com/platform",
+      "title": "Beamery products and services",
+      "publisher": "Beamery",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_beamery"
+      ],
+      "alias_source_ids": [
+        "src_beamery_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_beamery_official",
+      "url": "https://beamery.com/",
+      "title": "Beamery official website",
+      "publisher": "Beamery",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_beamery"
+      ],
+      "alias_source_ids": [
+        "src_beamery_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_bernstein_family_office_2026",
       "url": "https://www.bernstein.com/who-we-advise/family-office-wealth-management-services.html",
       "title": "Family office wealth management services",
@@ -1664,6 +2852,72 @@
       "supports": [
         "founded_year",
         "services"
+      ]
+    },
+    {
+      "id": "src_betterup_about",
+      "url": "https://www.betterup.com/about-us",
+      "title": "About BetterUp",
+      "publisher": "BetterUp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_betterup"
+      ],
+      "alias_source_ids": [
+        "src_betterup_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_betterup_offerings",
+      "url": "https://www.betterup.com/platform",
+      "title": "BetterUp products and services",
+      "publisher": "BetterUp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_betterup"
+      ],
+      "alias_source_ids": [
+        "src_betterup_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_betterup_official",
+      "url": "https://www.betterup.com/",
+      "title": "BetterUp official website",
+      "publisher": "BetterUp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_betterup"
+      ],
+      "alias_source_ids": [
+        "src_betterup_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -2077,6 +3331,138 @@
       ]
     },
     {
+      "id": "src_box_about",
+      "url": "https://www.box.com/about-us",
+      "title": "About Box",
+      "publisher": "Box",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_box"
+      ],
+      "alias_source_ids": [
+        "src_box_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_box_offerings",
+      "url": "https://www.box.com/overview",
+      "title": "Box products and services",
+      "publisher": "Box",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_box"
+      ],
+      "alias_source_ids": [
+        "src_box_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_box_official",
+      "url": "https://www.box.com/",
+      "title": "Box official website",
+      "publisher": "Box",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_box"
+      ],
+      "alias_source_ids": [
+        "src_box_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_braze_about",
+      "url": "https://www.braze.com/company",
+      "title": "About Braze",
+      "publisher": "Braze",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_braze"
+      ],
+      "alias_source_ids": [
+        "src_braze_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_braze_offerings",
+      "url": "https://www.braze.com/product",
+      "title": "Braze products and services",
+      "publisher": "Braze",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_braze"
+      ],
+      "alias_source_ids": [
+        "src_braze_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_braze_official",
+      "url": "https://www.braze.com/",
+      "title": "Braze official website",
+      "publisher": "Braze",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_braze"
+      ],
+      "alias_source_ids": [
+        "src_braze_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_brex_acquisition_2026",
       "url": "https://www.brex.com/journal/capital-one-completes-acquisition-of-brex",
       "title": "Capital One Completes Acquisition of Brex",
@@ -2461,6 +3847,72 @@
       ]
     },
     {
+      "id": "src_celonis_about",
+      "url": "https://www.celonis.com/company/",
+      "title": "About Celonis",
+      "publisher": "Celonis",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_celonis"
+      ],
+      "alias_source_ids": [
+        "src_celonis_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_celonis_offerings",
+      "url": "https://www.celonis.com/platform/",
+      "title": "Celonis products and services",
+      "publisher": "Celonis",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_celonis"
+      ],
+      "alias_source_ids": [
+        "src_celonis_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_celonis_official",
+      "url": "https://www.celonis.com/",
+      "title": "Celonis official website",
+      "publisher": "Celonis",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_celonis"
+      ],
+      "alias_source_ids": [
+        "src_celonis_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_centific_data_2026",
       "url": "https://www.centific.com/solution/data-collection-creation",
       "title": "Data Collection and Creation",
@@ -2676,6 +4128,72 @@
       ]
     },
     {
+      "id": "src_check-point-software_about",
+      "url": "https://www.checkpoint.com/about-us/",
+      "title": "About Check Point Software",
+      "publisher": "Check Point Software",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_check_point_software"
+      ],
+      "alias_source_ids": [
+        "src_check-point-software_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_check-point-software_offerings",
+      "url": "https://www.checkpoint.com/products/",
+      "title": "Check Point Software products and services",
+      "publisher": "Check Point Software",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_check_point_software"
+      ],
+      "alias_source_ids": [
+        "src_check-point-software_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_check-point-software_official",
+      "url": "https://www.checkpoint.com/",
+      "title": "Check Point Software official website",
+      "publisher": "Check Point Software",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_check_point_software"
+      ],
+      "alias_source_ids": [
+        "src_check-point-software_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_chief_about",
       "url": "https://chief.com/",
       "title": "Chief",
@@ -2739,6 +4257,72 @@
         "executive_coaching_sessions",
         "quarterly_executive_courses",
         "membership_term"
+      ]
+    },
+    {
+      "id": "src_cisco_about",
+      "url": "https://www.cisco.com/site/us/en/about/index.html",
+      "title": "About Cisco",
+      "publisher": "Cisco",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cisco"
+      ],
+      "alias_source_ids": [
+        "src_cisco_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_cisco_offerings",
+      "url": "https://www.cisco.com/site/us/en/products/index.html",
+      "title": "Cisco products and services",
+      "publisher": "Cisco",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cisco"
+      ],
+      "alias_source_ids": [
+        "src_cisco_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_cisco_official",
+      "url": "https://www.cisco.com/",
+      "title": "Cisco official website",
+      "publisher": "Cisco",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cisco"
+      ],
+      "alias_source_ids": [
+        "src_cisco_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -2843,6 +4427,138 @@
         "categories",
         "cxo_roles",
         "parent_company"
+      ]
+    },
+    {
+      "id": "src_clari_about",
+      "url": "https://www.clari.com/company/",
+      "title": "About Clari",
+      "publisher": "Clari",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_clari"
+      ],
+      "alias_source_ids": [
+        "src_clari_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_clari_offerings",
+      "url": "https://www.clari.com/products/",
+      "title": "Clari products and services",
+      "publisher": "Clari",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_clari"
+      ],
+      "alias_source_ids": [
+        "src_clari_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_clari_official",
+      "url": "https://www.clari.com/",
+      "title": "Clari official website",
+      "publisher": "Clari",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_clari"
+      ],
+      "alias_source_ids": [
+        "src_clari_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_cloudflare_about",
+      "url": "https://www.cloudflare.com/about-overview/",
+      "title": "About Cloudflare",
+      "publisher": "Cloudflare",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cloudflare"
+      ],
+      "alias_source_ids": [
+        "src_cloudflare_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_cloudflare_offerings",
+      "url": "https://www.cloudflare.com/plans/enterprise/",
+      "title": "Cloudflare products and services",
+      "publisher": "Cloudflare",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cloudflare"
+      ],
+      "alias_source_ids": [
+        "src_cloudflare_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_cloudflare_official",
+      "url": "https://www.cloudflare.com/",
+      "title": "Cloudflare official website",
+      "publisher": "Cloudflare",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cloudflare"
+      ],
+      "alias_source_ids": [
+        "src_cloudflare_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -3072,6 +4788,72 @@
       ]
     },
     {
+      "id": "src_confluent_about",
+      "url": "https://www.confluent.io/about/",
+      "title": "About Confluent",
+      "publisher": "Confluent",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_confluent"
+      ],
+      "alias_source_ids": [
+        "src_confluent_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_confluent_offerings",
+      "url": "https://www.confluent.io/product/",
+      "title": "Confluent products and services",
+      "publisher": "Confluent",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_confluent"
+      ],
+      "alias_source_ids": [
+        "src_confluent_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_confluent_official",
+      "url": "https://www.confluent.io/",
+      "title": "Confluent official website",
+      "publisher": "Confluent",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_confluent"
+      ],
+      "alias_source_ids": [
+        "src_confluent_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_contextqa_about_2026",
       "url": "https://contextqa.com/about-us/",
       "title": "About ContextQA",
@@ -3196,6 +4978,72 @@
         "description",
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_cornerstone-ondemand_about",
+      "url": "https://www.cornerstoneondemand.com/company/",
+      "title": "About Cornerstone OnDemand",
+      "publisher": "Cornerstone OnDemand",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cornerstone_ondemand"
+      ],
+      "alias_source_ids": [
+        "src_cornerstone-ondemand_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_cornerstone-ondemand_offerings",
+      "url": "https://www.cornerstoneondemand.com/platform/",
+      "title": "Cornerstone OnDemand products and services",
+      "publisher": "Cornerstone OnDemand",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cornerstone_ondemand"
+      ],
+      "alias_source_ids": [
+        "src_cornerstone-ondemand_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_cornerstone-ondemand_official",
+      "url": "https://www.cornerstoneondemand.com/",
+      "title": "Cornerstone OnDemand official website",
+      "publisher": "Cornerstone OnDemand",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cornerstone_ondemand"
+      ],
+      "alias_source_ids": [
+        "src_cornerstone-ondemand_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -3348,6 +5196,72 @@
       ]
     },
     {
+      "id": "src_culture-amp_about",
+      "url": "https://www.cultureamp.com/company",
+      "title": "About Culture Amp",
+      "publisher": "Culture Amp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_culture_amp"
+      ],
+      "alias_source_ids": [
+        "src_culture-amp_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_culture-amp_offerings",
+      "url": "https://www.cultureamp.com/platform",
+      "title": "Culture Amp products and services",
+      "publisher": "Culture Amp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_culture_amp"
+      ],
+      "alias_source_ids": [
+        "src_culture-amp_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_culture-amp_official",
+      "url": "https://www.cultureamp.com/",
+      "title": "Culture Amp official website",
+      "publisher": "Culture Amp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_culture_amp"
+      ],
+      "alias_source_ids": [
+        "src_culture-amp_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_curated-connections_official",
       "url": "https://curatedconnections.io/",
       "title": "Curated Connections official website",
@@ -3369,6 +5283,72 @@
         "categories",
         "cxo_roles",
         "relationship_notes"
+      ]
+    },
+    {
+      "id": "src_cyberark_about",
+      "url": "https://www.cyberark.com/company/",
+      "title": "About CyberArk",
+      "publisher": "CyberArk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cyberark"
+      ],
+      "alias_source_ids": [
+        "src_cyberark_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_cyberark_offerings",
+      "url": "https://www.cyberark.com/products/",
+      "title": "CyberArk products and services",
+      "publisher": "CyberArk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cyberark"
+      ],
+      "alias_source_ids": [
+        "src_cyberark_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_cyberark_official",
+      "url": "https://www.cyberark.com/",
+      "title": "CyberArk official website",
+      "publisher": "CyberArk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cyberark"
+      ],
+      "alias_source_ids": [
+        "src_cyberark_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -3581,6 +5561,138 @@
       ]
     },
     {
+      "id": "src_datadog_about",
+      "url": "https://www.datadoghq.com/about/",
+      "title": "About Datadog",
+      "publisher": "Datadog",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_datadog"
+      ],
+      "alias_source_ids": [
+        "src_datadog_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_datadog_offerings",
+      "url": "https://www.datadoghq.com/product/",
+      "title": "Datadog products and services",
+      "publisher": "Datadog",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_datadog"
+      ],
+      "alias_source_ids": [
+        "src_datadog_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_datadog_official",
+      "url": "https://www.datadoghq.com/",
+      "title": "Datadog official website",
+      "publisher": "Datadog",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_datadog"
+      ],
+      "alias_source_ids": [
+        "src_datadog_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_dayforce_about",
+      "url": "https://www.dayforce.com/company",
+      "title": "About Dayforce",
+      "publisher": "Dayforce",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dayforce"
+      ],
+      "alias_source_ids": [
+        "src_dayforce_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_dayforce_offerings",
+      "url": "https://www.dayforce.com/why-dayforce/dayforce-suite",
+      "title": "Dayforce products and services",
+      "publisher": "Dayforce",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dayforce"
+      ],
+      "alias_source_ids": [
+        "src_dayforce_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_dayforce_official",
+      "url": "https://www.dayforce.com/",
+      "title": "Dayforce official website",
+      "publisher": "Dayforce",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dayforce"
+      ],
+      "alias_source_ids": [
+        "src_dayforce_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_db_about_2026",
       "url": "https://www.db.com/who-we-are/index?language_id=1",
       "title": "About Deutsche Bank",
@@ -3748,6 +5860,72 @@
       ]
     },
     {
+      "id": "src_demandbase_about",
+      "url": "https://www.demandbase.com/about-us/",
+      "title": "About Demandbase",
+      "publisher": "Demandbase",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_demandbase"
+      ],
+      "alias_source_ids": [
+        "src_demandbase_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_demandbase_offerings",
+      "url": "https://www.demandbase.com/products/",
+      "title": "Demandbase products and services",
+      "publisher": "Demandbase",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_demandbase"
+      ],
+      "alias_source_ids": [
+        "src_demandbase_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_demandbase_official",
+      "url": "https://www.demandbase.com/",
+      "title": "Demandbase official website",
+      "publisher": "Demandbase",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_demandbase"
+      ],
+      "alias_source_ids": [
+        "src_demandbase_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_deutsche-bank_official",
       "url": "https://www.db.com/",
       "title": "Deutsche Bank official website",
@@ -3852,6 +6030,402 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_drata_about",
+      "url": "https://drata.com/company/about-us",
+      "title": "About Drata",
+      "publisher": "Drata",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_drata"
+      ],
+      "alias_source_ids": [
+        "src_drata_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_drata_offerings",
+      "url": "https://drata.com/product",
+      "title": "Drata products and services",
+      "publisher": "Drata",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_drata"
+      ],
+      "alias_source_ids": [
+        "src_drata_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_drata_official",
+      "url": "https://drata.com/",
+      "title": "Drata official website",
+      "publisher": "Drata",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_drata"
+      ],
+      "alias_source_ids": [
+        "src_drata_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_dropbox_about",
+      "url": "https://www.dropbox.com/about",
+      "title": "About Dropbox",
+      "publisher": "Dropbox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dropbox"
+      ],
+      "alias_source_ids": [
+        "src_dropbox_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_dropbox_offerings",
+      "url": "https://www.dropbox.com/business",
+      "title": "Dropbox products and services",
+      "publisher": "Dropbox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dropbox"
+      ],
+      "alias_source_ids": [
+        "src_dropbox_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_dropbox_official",
+      "url": "https://www.dropbox.com/",
+      "title": "Dropbox official website",
+      "publisher": "Dropbox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dropbox"
+      ],
+      "alias_source_ids": [
+        "src_dropbox_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_egon-zehnder_about",
+      "url": "https://www.egonzehnder.com/about-us",
+      "title": "About Egon Zehnder",
+      "publisher": "Egon Zehnder",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_egon_zehnder"
+      ],
+      "alias_source_ids": [
+        "src_egon-zehnder_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_egon-zehnder_offerings",
+      "url": "https://www.egonzehnder.com/what-we-do",
+      "title": "Egon Zehnder products and services",
+      "publisher": "Egon Zehnder",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_egon_zehnder"
+      ],
+      "alias_source_ids": [
+        "src_egon-zehnder_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_egon-zehnder_official",
+      "url": "https://www.egonzehnder.com/",
+      "title": "Egon Zehnder official website",
+      "publisher": "Egon Zehnder",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_egon_zehnder"
+      ],
+      "alias_source_ids": [
+        "src_egon-zehnder_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_eightfold-ai_about",
+      "url": "https://eightfold.ai/about/",
+      "title": "About Eightfold AI",
+      "publisher": "Eightfold AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_eightfold_ai"
+      ],
+      "alias_source_ids": [
+        "src_eightfold-ai_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_eightfold-ai_offerings",
+      "url": "https://eightfold.ai/products/",
+      "title": "Eightfold AI products and services",
+      "publisher": "Eightfold AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_eightfold_ai"
+      ],
+      "alias_source_ids": [
+        "src_eightfold-ai_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_eightfold-ai_official",
+      "url": "https://eightfold.ai/",
+      "title": "Eightfold AI official website",
+      "publisher": "Eightfold AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_eightfold_ai"
+      ],
+      "alias_source_ids": [
+        "src_eightfold-ai_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_elastic_about",
+      "url": "https://www.elastic.co/about/",
+      "title": "About Elastic",
+      "publisher": "Elastic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_elastic"
+      ],
+      "alias_source_ids": [
+        "src_elastic_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_elastic_offerings",
+      "url": "https://www.elastic.co/products/",
+      "title": "Elastic products and services",
+      "publisher": "Elastic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_elastic"
+      ],
+      "alias_source_ids": [
+        "src_elastic_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_elastic_official",
+      "url": "https://www.elastic.co/",
+      "title": "Elastic official website",
+      "publisher": "Elastic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_elastic"
+      ],
+      "alias_source_ids": [
+        "src_elastic_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_emburse_about",
+      "url": "https://www.emburse.com/company",
+      "title": "About Emburse",
+      "publisher": "Emburse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_emburse"
+      ],
+      "alias_source_ids": [
+        "src_emburse_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_emburse_offerings",
+      "url": "https://www.emburse.com/products",
+      "title": "Emburse products and services",
+      "publisher": "Emburse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_emburse"
+      ],
+      "alias_source_ids": [
+        "src_emburse_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_emburse_official",
+      "url": "https://www.emburse.com/",
+      "title": "Emburse official website",
+      "publisher": "Emburse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_emburse"
+      ],
+      "alias_source_ids": [
+        "src_emburse_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -4095,6 +6669,72 @@
       ]
     },
     {
+      "id": "src_expensify_about",
+      "url": "https://www.expensify.com/about",
+      "title": "About Expensify",
+      "publisher": "Expensify",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_expensify"
+      ],
+      "alias_source_ids": [
+        "src_expensify_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_expensify_offerings",
+      "url": "https://www.expensify.com/expenses",
+      "title": "Expensify products and services",
+      "publisher": "Expensify",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_expensify"
+      ],
+      "alias_source_ids": [
+        "src_expensify_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_expensify_official",
+      "url": "https://www.expensify.com/",
+      "title": "Expensify official website",
+      "publisher": "Expensify",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_expensify"
+      ],
+      "alias_source_ids": [
+        "src_expensify_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_ey",
       "url": "https://www.ey.com/en_gl/services",
       "title": "Services",
@@ -4173,6 +6813,72 @@
       "supports": [
         "capabilities",
         "services"
+      ]
+    },
+    {
+      "id": "src_financial-executives-international_about",
+      "url": "https://www.financialexecutives.org/About-FEI.aspx",
+      "title": "About Financial Executives International",
+      "publisher": "Financial Executives International",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_financial_executives_international"
+      ],
+      "alias_source_ids": [
+        "src_financial-executives-international_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_financial-executives-international_offerings",
+      "url": "https://www.financialexecutives.org/Events.aspx",
+      "title": "Financial Executives International products and services",
+      "publisher": "Financial Executives International",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_financial_executives_international"
+      ],
+      "alias_source_ids": [
+        "src_financial-executives-international_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_financial-executives-international_official",
+      "url": "https://www.financialexecutives.org/",
+      "title": "Financial Executives International official website",
+      "publisher": "Financial Executives International",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_financial_executives_international"
+      ],
+      "alias_source_ids": [
+        "src_financial-executives-international_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -4415,6 +7121,138 @@
       ]
     },
     {
+      "id": "src_fis_about",
+      "url": "https://www.fisglobal.com/about-us",
+      "title": "About FIS",
+      "publisher": "FIS",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fis"
+      ],
+      "alias_source_ids": [
+        "src_fis_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_fis_offerings",
+      "url": "https://www.fisglobal.com/en/products",
+      "title": "FIS products and services",
+      "publisher": "FIS",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fis"
+      ],
+      "alias_source_ids": [
+        "src_fis_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_fis_official",
+      "url": "https://www.fisglobal.com/",
+      "title": "FIS official website",
+      "publisher": "FIS",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fis"
+      ],
+      "alias_source_ids": [
+        "src_fis_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_floqast_about",
+      "url": "https://www.floqast.com/company",
+      "title": "About FloQast",
+      "publisher": "FloQast",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_floqast"
+      ],
+      "alias_source_ids": [
+        "src_floqast_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_floqast_offerings",
+      "url": "https://www.floqast.com/products",
+      "title": "FloQast products and services",
+      "publisher": "FloQast",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_floqast"
+      ],
+      "alias_source_ids": [
+        "src_floqast_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_floqast_official",
+      "url": "https://www.floqast.com/",
+      "title": "FloQast official website",
+      "publisher": "FloQast",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_floqast"
+      ],
+      "alias_source_ids": [
+        "src_floqast_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_foley_about_2026",
       "url": "https://www.foley.com/about-us/",
       "title": "About Foley & Lardner",
@@ -4477,6 +7315,138 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_forrester_about",
+      "url": "https://www.forrester.com/about-us/",
+      "title": "About Forrester",
+      "publisher": "Forrester",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_forrester"
+      ],
+      "alias_source_ids": [
+        "src_forrester_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_forrester_offerings",
+      "url": "https://www.forrester.com/research/",
+      "title": "Forrester products and services",
+      "publisher": "Forrester",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_forrester"
+      ],
+      "alias_source_ids": [
+        "src_forrester_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_forrester_official",
+      "url": "https://www.forrester.com/",
+      "title": "Forrester official website",
+      "publisher": "Forrester",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_forrester"
+      ],
+      "alias_source_ids": [
+        "src_forrester_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_fortinet_about",
+      "url": "https://www.fortinet.com/corporate/about-us",
+      "title": "About Fortinet",
+      "publisher": "Fortinet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fortinet"
+      ],
+      "alias_source_ids": [
+        "src_fortinet_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_fortinet_offerings",
+      "url": "https://www.fortinet.com/products",
+      "title": "Fortinet products and services",
+      "publisher": "Fortinet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fortinet"
+      ],
+      "alias_source_ids": [
+        "src_fortinet_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_fortinet_official",
+      "url": "https://www.fortinet.com/",
+      "title": "Fortinet official website",
+      "publisher": "Fortinet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_fortinet"
+      ],
+      "alias_source_ids": [
+        "src_fortinet_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -4561,6 +7531,72 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_gartner_about",
+      "url": "https://www.gartner.com/en/about",
+      "title": "About Gartner",
+      "publisher": "Gartner",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gartner"
+      ],
+      "alias_source_ids": [
+        "src_gartner_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_gartner_offerings",
+      "url": "https://www.gartner.com/en/products",
+      "title": "Gartner products and services",
+      "publisher": "Gartner",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gartner"
+      ],
+      "alias_source_ids": [
+        "src_gartner_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_gartner_official",
+      "url": "https://www.gartner.com/",
+      "title": "Gartner official website",
+      "publisher": "Gartner",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gartner"
+      ],
+      "alias_source_ids": [
+        "src_gartner_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -4669,6 +7705,138 @@
       ]
     },
     {
+      "id": "src_github_about",
+      "url": "https://github.com/about",
+      "title": "About GitHub",
+      "publisher": "GitHub",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_github"
+      ],
+      "alias_source_ids": [
+        "src_github_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_github_offerings",
+      "url": "https://github.com/features",
+      "title": "GitHub products and services",
+      "publisher": "GitHub",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_github"
+      ],
+      "alias_source_ids": [
+        "src_github_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_github_official",
+      "url": "https://github.com/",
+      "title": "GitHub official website",
+      "publisher": "GitHub",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_github"
+      ],
+      "alias_source_ids": [
+        "src_github_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_gitlab_about",
+      "url": "https://about.gitlab.com/company/",
+      "title": "About GitLab",
+      "publisher": "GitLab",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gitlab"
+      ],
+      "alias_source_ids": [
+        "src_gitlab_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_gitlab_offerings",
+      "url": "https://about.gitlab.com/platform/",
+      "title": "GitLab products and services",
+      "publisher": "GitLab",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gitlab"
+      ],
+      "alias_source_ids": [
+        "src_gitlab_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_gitlab_official",
+      "url": "https://about.gitlab.com/",
+      "title": "GitLab official website",
+      "publisher": "GitLab",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gitlab"
+      ],
+      "alias_source_ids": [
+        "src_gitlab_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_glean_about_2026",
       "url": "https://www.glean.com/about",
       "title": "About Glean",
@@ -4754,6 +7922,138 @@
       ]
     },
     {
+      "id": "src_gong_about",
+      "url": "https://www.gong.io/about/",
+      "title": "About Gong",
+      "publisher": "Gong",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gong"
+      ],
+      "alias_source_ids": [
+        "src_gong_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_gong_offerings",
+      "url": "https://www.gong.io/platform/",
+      "title": "Gong products and services",
+      "publisher": "Gong",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gong"
+      ],
+      "alias_source_ids": [
+        "src_gong_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_gong_official",
+      "url": "https://www.gong.io/",
+      "title": "Gong official website",
+      "publisher": "Gong",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_gong"
+      ],
+      "alias_source_ids": [
+        "src_gong_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_google-cloud_about",
+      "url": "https://cloud.google.com/about/",
+      "title": "About Google Cloud",
+      "publisher": "Google Cloud",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_google_cloud"
+      ],
+      "alias_source_ids": [
+        "src_google-cloud_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_google-cloud_offerings",
+      "url": "https://cloud.google.com/products/",
+      "title": "Google Cloud products and services",
+      "publisher": "Google Cloud",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_google_cloud"
+      ],
+      "alias_source_ids": [
+        "src_google-cloud_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_google-cloud_official",
+      "url": "https://cloud.google.com/",
+      "title": "Google Cloud official website",
+      "publisher": "Google Cloud",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_google_cloud"
+      ],
+      "alias_source_ids": [
+        "src_google-cloud_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_granica_about_2026",
       "url": "https://granica.ai/about",
       "title": "About Granica",
@@ -4835,6 +8135,138 @@
       ],
       "supports": [
         "products"
+      ]
+    },
+    {
+      "id": "src_grant-thornton_about",
+      "url": "https://www.grantthornton.com/about-us",
+      "title": "About Grant Thornton",
+      "publisher": "Grant Thornton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_grant_thornton"
+      ],
+      "alias_source_ids": [
+        "src_grant-thornton_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_grant-thornton_offerings",
+      "url": "https://www.grantthornton.com/services",
+      "title": "Grant Thornton products and services",
+      "publisher": "Grant Thornton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_grant_thornton"
+      ],
+      "alias_source_ids": [
+        "src_grant-thornton_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_grant-thornton_official",
+      "url": "https://www.grantthornton.com/",
+      "title": "Grant Thornton official website",
+      "publisher": "Grant Thornton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_grant_thornton"
+      ],
+      "alias_source_ids": [
+        "src_grant-thornton_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_greenhouse_about",
+      "url": "https://www.greenhouse.com/company",
+      "title": "About Greenhouse",
+      "publisher": "Greenhouse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_greenhouse"
+      ],
+      "alias_source_ids": [
+        "src_greenhouse_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_greenhouse_offerings",
+      "url": "https://www.greenhouse.com/platform",
+      "title": "Greenhouse products and services",
+      "publisher": "Greenhouse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_greenhouse"
+      ],
+      "alias_source_ids": [
+        "src_greenhouse_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_greenhouse_official",
+      "url": "https://www.greenhouse.com/",
+      "title": "Greenhouse official website",
+      "publisher": "Greenhouse",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_greenhouse"
+      ],
+      "alias_source_ids": [
+        "src_greenhouse_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -5526,6 +8958,72 @@
       ]
     },
     {
+      "id": "src_highradius_about",
+      "url": "https://www.highradius.com/about-us/",
+      "title": "About HighRadius",
+      "publisher": "HighRadius",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_highradius"
+      ],
+      "alias_source_ids": [
+        "src_highradius_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_highradius_offerings",
+      "url": "https://www.highradius.com/software/",
+      "title": "HighRadius products and services",
+      "publisher": "HighRadius",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_highradius"
+      ],
+      "alias_source_ids": [
+        "src_highradius_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_highradius_official",
+      "url": "https://www.highradius.com/",
+      "title": "HighRadius official website",
+      "publisher": "HighRadius",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_highradius"
+      ],
+      "alias_source_ids": [
+        "src_highradius_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_hiive_disclosures_2026",
       "url": "https://www.hiive.com/disclosures",
       "title": "Hiive Disclosures",
@@ -5650,6 +9148,72 @@
       ]
     },
     {
+      "id": "src_hootsuite_about",
+      "url": "https://www.hootsuite.com/about",
+      "title": "About Hootsuite",
+      "publisher": "Hootsuite",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hootsuite"
+      ],
+      "alias_source_ids": [
+        "src_hootsuite_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_hootsuite_offerings",
+      "url": "https://www.hootsuite.com/platform",
+      "title": "Hootsuite products and services",
+      "publisher": "Hootsuite",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hootsuite"
+      ],
+      "alias_source_ids": [
+        "src_hootsuite_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_hootsuite_official",
+      "url": "https://www.hootsuite.com/",
+      "title": "Hootsuite official website",
+      "publisher": "Hootsuite",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hootsuite"
+      ],
+      "alias_source_ids": [
+        "src_hootsuite_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_hsbc",
       "url": "https://www.hsbc.com/who-we-are/businesses-and-customers/",
       "title": "Businesses and Customers",
@@ -5688,6 +9252,72 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_ibm_about",
+      "url": "https://www.ibm.com/about",
+      "title": "About IBM",
+      "publisher": "IBM",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ibm"
+      ],
+      "alias_source_ids": [
+        "src_ibm_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_ibm_offerings",
+      "url": "https://www.ibm.com/products",
+      "title": "IBM products and services",
+      "publisher": "IBM",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ibm"
+      ],
+      "alias_source_ids": [
+        "src_ibm_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_ibm_official",
+      "url": "https://www.ibm.com/",
+      "title": "IBM official website",
+      "publisher": "IBM",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ibm"
+      ],
+      "alias_source_ids": [
+        "src_ibm_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -6332,6 +9962,72 @@
       ]
     },
     {
+      "id": "src_klaviyo_about",
+      "url": "https://www.klaviyo.com/about",
+      "title": "About Klaviyo",
+      "publisher": "Klaviyo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_klaviyo"
+      ],
+      "alias_source_ids": [
+        "src_klaviyo_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_klaviyo_offerings",
+      "url": "https://www.klaviyo.com/products",
+      "title": "Klaviyo products and services",
+      "publisher": "Klaviyo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_klaviyo"
+      ],
+      "alias_source_ids": [
+        "src_klaviyo_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_klaviyo_official",
+      "url": "https://www.klaviyo.com/",
+      "title": "Klaviyo official website",
+      "publisher": "Klaviyo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_klaviyo"
+      ],
+      "alias_source_ids": [
+        "src_klaviyo_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_korn_ferry",
       "url": "https://www.kornferry.com/capabilities/talent-acquisition/executive-search",
       "title": "Executive Search",
@@ -6389,6 +10085,72 @@
       "supports": [
         "description",
         "services"
+      ]
+    },
+    {
+      "id": "src_kyriba_about",
+      "url": "https://www.kyriba.com/company/",
+      "title": "About Kyriba",
+      "publisher": "Kyriba",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_kyriba"
+      ],
+      "alias_source_ids": [
+        "src_kyriba_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_kyriba_offerings",
+      "url": "https://www.kyriba.com/solutions/",
+      "title": "Kyriba products and services",
+      "publisher": "Kyriba",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_kyriba"
+      ],
+      "alias_source_ids": [
+        "src_kyriba_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_kyriba_official",
+      "url": "https://www.kyriba.com/",
+      "title": "Kyriba official website",
+      "publisher": "Kyriba",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_kyriba"
+      ],
+      "alias_source_ids": [
+        "src_kyriba_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -6601,6 +10363,72 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_lever_about",
+      "url": "https://www.lever.co/about-us/",
+      "title": "About Lever",
+      "publisher": "Lever",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lever"
+      ],
+      "alias_source_ids": [
+        "src_lever_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_lever_offerings",
+      "url": "https://www.lever.co/platform/",
+      "title": "Lever products and services",
+      "publisher": "Lever",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lever"
+      ],
+      "alias_source_ids": [
+        "src_lever_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_lever_official",
+      "url": "https://www.lever.co/",
+      "title": "Lever official website",
+      "publisher": "Lever",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lever"
+      ],
+      "alias_source_ids": [
+        "src_lever_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -7004,6 +10832,204 @@
       ]
     },
     {
+      "id": "src_mixpanel_about",
+      "url": "https://mixpanel.com/about/",
+      "title": "About Mixpanel",
+      "publisher": "Mixpanel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mixpanel"
+      ],
+      "alias_source_ids": [
+        "src_mixpanel_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_mixpanel_offerings",
+      "url": "https://mixpanel.com/platform/",
+      "title": "Mixpanel products and services",
+      "publisher": "Mixpanel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mixpanel"
+      ],
+      "alias_source_ids": [
+        "src_mixpanel_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_mixpanel_official",
+      "url": "https://mixpanel.com/",
+      "title": "Mixpanel official website",
+      "publisher": "Mixpanel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mixpanel"
+      ],
+      "alias_source_ids": [
+        "src_mixpanel_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_monday-com_about",
+      "url": "https://monday.com/about",
+      "title": "About monday.com",
+      "publisher": "monday.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_monday_com"
+      ],
+      "alias_source_ids": [
+        "src_monday-com_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_monday-com_offerings",
+      "url": "https://monday.com/product",
+      "title": "monday.com products and services",
+      "publisher": "monday.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_monday_com"
+      ],
+      "alias_source_ids": [
+        "src_monday-com_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_monday-com_official",
+      "url": "https://monday.com/",
+      "title": "monday.com official website",
+      "publisher": "monday.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_monday_com"
+      ],
+      "alias_source_ids": [
+        "src_monday-com_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_mongodb_about",
+      "url": "https://www.mongodb.com/company",
+      "title": "About MongoDB",
+      "publisher": "MongoDB",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mongodb"
+      ],
+      "alias_source_ids": [
+        "src_mongodb_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_mongodb_offerings",
+      "url": "https://www.mongodb.com/products",
+      "title": "MongoDB products and services",
+      "publisher": "MongoDB",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mongodb"
+      ],
+      "alias_source_ids": [
+        "src_mongodb_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_mongodb_official",
+      "url": "https://www.mongodb.com/",
+      "title": "MongoDB official website",
+      "publisher": "MongoDB",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_mongodb"
+      ],
+      "alias_source_ids": [
+        "src_mongodb_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_morgan_about_2026",
       "url": "https://www.morganstanley.com/about-us",
       "title": "About Morgan Stanley",
@@ -7157,6 +11183,204 @@
       ]
     },
     {
+      "id": "src_navan_about",
+      "url": "https://navan.com/about",
+      "title": "About Navan",
+      "publisher": "Navan",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_navan"
+      ],
+      "alias_source_ids": [
+        "src_navan_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_navan_offerings",
+      "url": "https://navan.com/product/business-travel",
+      "title": "Navan products and services",
+      "publisher": "Navan",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_navan"
+      ],
+      "alias_source_ids": [
+        "src_navan_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_navan_official",
+      "url": "https://navan.com/",
+      "title": "Navan official website",
+      "publisher": "Navan",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_navan"
+      ],
+      "alias_source_ids": [
+        "src_navan_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_netskope_about",
+      "url": "https://www.netskope.com/company/",
+      "title": "About Netskope",
+      "publisher": "Netskope",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_netskope"
+      ],
+      "alias_source_ids": [
+        "src_netskope_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_netskope_offerings",
+      "url": "https://www.netskope.com/products/",
+      "title": "Netskope products and services",
+      "publisher": "Netskope",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_netskope"
+      ],
+      "alias_source_ids": [
+        "src_netskope_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_netskope_official",
+      "url": "https://www.netskope.com/",
+      "title": "Netskope official website",
+      "publisher": "Netskope",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_netskope"
+      ],
+      "alias_source_ids": [
+        "src_netskope_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_new-relic_about",
+      "url": "https://newrelic.com/about",
+      "title": "About New Relic",
+      "publisher": "New Relic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_new_relic"
+      ],
+      "alias_source_ids": [
+        "src_new-relic_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_new-relic_offerings",
+      "url": "https://newrelic.com/platform",
+      "title": "New Relic products and services",
+      "publisher": "New Relic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_new_relic"
+      ],
+      "alias_source_ids": [
+        "src_new-relic_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_new-relic_official",
+      "url": "https://newrelic.com/",
+      "title": "New Relic official website",
+      "publisher": "New Relic",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_new_relic"
+      ],
+      "alias_source_ids": [
+        "src_new-relic_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_next47_official",
       "url": "https://www.next47.com/",
       "title": "Next47 official website",
@@ -7281,6 +11505,72 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_notion_about",
+      "url": "https://www.notion.com/security",
+      "title": "About Notion",
+      "publisher": "Notion",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_notion"
+      ],
+      "alias_source_ids": [
+        "src_notion_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_notion_offerings",
+      "url": "https://www.notion.com/product/notion",
+      "title": "Notion products and services",
+      "publisher": "Notion",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_notion"
+      ],
+      "alias_source_ids": [
+        "src_notion_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_notion_official",
+      "url": "https://www.notion.com/",
+      "title": "Notion official website",
+      "publisher": "Notion",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_notion"
+      ],
+      "alias_source_ids": [
+        "src_notion_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -7625,6 +11915,72 @@
       ]
     },
     {
+      "id": "src_okta_about",
+      "url": "https://www.okta.com/company/",
+      "title": "About Okta",
+      "publisher": "Okta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_okta"
+      ],
+      "alias_source_ids": [
+        "src_okta_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_okta_offerings",
+      "url": "https://www.okta.com/products/",
+      "title": "Okta products and services",
+      "publisher": "Okta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_okta"
+      ],
+      "alias_source_ids": [
+        "src_okta_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_okta_official",
+      "url": "https://www.okta.com/",
+      "title": "Okta official website",
+      "publisher": "Okta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_okta"
+      ],
+      "alias_source_ids": [
+        "src_okta_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_one-way-ventures_official",
       "url": "https://onewayvc.com/",
       "title": "One Way Ventures official website",
@@ -7645,6 +12001,72 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_onestream_about",
+      "url": "https://www.onestream.com/about-us/",
+      "title": "About OneStream",
+      "publisher": "OneStream",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_onestream"
+      ],
+      "alias_source_ids": [
+        "src_onestream_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_onestream_offerings",
+      "url": "https://www.onestream.com/platform/",
+      "title": "OneStream products and services",
+      "publisher": "OneStream",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_onestream"
+      ],
+      "alias_source_ids": [
+        "src_onestream_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_onestream_official",
+      "url": "https://www.onestream.com/",
+      "title": "OneStream official website",
+      "publisher": "OneStream",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_onestream"
+      ],
+      "alias_source_ids": [
+        "src_onestream_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -7988,6 +12410,138 @@
       ]
     },
     {
+      "id": "src_outreach_about",
+      "url": "https://www.outreach.io/company",
+      "title": "About Outreach",
+      "publisher": "Outreach",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_outreach"
+      ],
+      "alias_source_ids": [
+        "src_outreach_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_outreach_offerings",
+      "url": "https://www.outreach.io/platform",
+      "title": "Outreach products and services",
+      "publisher": "Outreach",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_outreach"
+      ],
+      "alias_source_ids": [
+        "src_outreach_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_outreach_official",
+      "url": "https://www.outreach.io/",
+      "title": "Outreach official website",
+      "publisher": "Outreach",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_outreach"
+      ],
+      "alias_source_ids": [
+        "src_outreach_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_palantir_about",
+      "url": "https://www.palantir.com/about/",
+      "title": "About Palantir",
+      "publisher": "Palantir",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_palantir"
+      ],
+      "alias_source_ids": [
+        "src_palantir_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_palantir_offerings",
+      "url": "https://www.palantir.com/platforms/",
+      "title": "Palantir products and services",
+      "publisher": "Palantir",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_palantir"
+      ],
+      "alias_source_ids": [
+        "src_palantir_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_palantir_official",
+      "url": "https://www.palantir.com/",
+      "title": "Palantir official website",
+      "publisher": "Palantir",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_palantir"
+      ],
+      "alias_source_ids": [
+        "src_palantir_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_pan_products",
       "url": "https://www.paloaltonetworks.com/products",
       "title": "Products",
@@ -8009,6 +12563,72 @@
       ]
     },
     {
+      "id": "src_paradox_about",
+      "url": "https://www.paradox.ai/about",
+      "title": "About Paradox",
+      "publisher": "Paradox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paradox"
+      ],
+      "alias_source_ids": [
+        "src_paradox_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_paradox_offerings",
+      "url": "https://www.paradox.ai/products",
+      "title": "Paradox products and services",
+      "publisher": "Paradox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paradox"
+      ],
+      "alias_source_ids": [
+        "src_paradox_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_paradox_official",
+      "url": "https://www.paradox.ai/",
+      "title": "Paradox official website",
+      "publisher": "Paradox",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paradox"
+      ],
+      "alias_source_ids": [
+        "src_paradox_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_pavilion",
       "url": "https://www.joinpavilion.com/membership",
       "title": "Membership",
@@ -8027,6 +12647,138 @@
         "description",
         "services",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_paychex_about",
+      "url": "https://www.paychex.com/corporate",
+      "title": "About Paychex",
+      "publisher": "Paychex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paychex"
+      ],
+      "alias_source_ids": [
+        "src_paychex_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_paychex_offerings",
+      "url": "https://www.paychex.com/human-resources",
+      "title": "Paychex products and services",
+      "publisher": "Paychex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paychex"
+      ],
+      "alias_source_ids": [
+        "src_paychex_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_paychex_official",
+      "url": "https://www.paychex.com/",
+      "title": "Paychex official website",
+      "publisher": "Paychex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paychex"
+      ],
+      "alias_source_ids": [
+        "src_paychex_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_paycom_about",
+      "url": "https://www.paycom.com/about/",
+      "title": "About Paycom",
+      "publisher": "Paycom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paycom"
+      ],
+      "alias_source_ids": [
+        "src_paycom_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_paycom_offerings",
+      "url": "https://www.paycom.com/software/",
+      "title": "Paycom products and services",
+      "publisher": "Paycom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paycom"
+      ],
+      "alias_source_ids": [
+        "src_paycom_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_paycom_official",
+      "url": "https://www.paycom.com/",
+      "title": "Paycom official website",
+      "publisher": "Paycom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_paycom"
+      ],
+      "alias_source_ids": [
+        "src_paycom_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -8511,6 +13263,138 @@
       ]
     },
     {
+      "id": "src_planful_about",
+      "url": "https://planful.com/about-us/",
+      "title": "About Planful",
+      "publisher": "Planful",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_planful"
+      ],
+      "alias_source_ids": [
+        "src_planful_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_planful_offerings",
+      "url": "https://planful.com/platform/",
+      "title": "Planful products and services",
+      "publisher": "Planful",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_planful"
+      ],
+      "alias_source_ids": [
+        "src_planful_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_planful_official",
+      "url": "https://planful.com/",
+      "title": "Planful official website",
+      "publisher": "Planful",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_planful"
+      ],
+      "alias_source_ids": [
+        "src_planful_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_proofpoint_about",
+      "url": "https://www.proofpoint.com/us/company",
+      "title": "About Proofpoint",
+      "publisher": "Proofpoint",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_proofpoint"
+      ],
+      "alias_source_ids": [
+        "src_proofpoint_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_proofpoint_offerings",
+      "url": "https://www.proofpoint.com/us/products",
+      "title": "Proofpoint products and services",
+      "publisher": "Proofpoint",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_proofpoint"
+      ],
+      "alias_source_ids": [
+        "src_proofpoint_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_proofpoint_official",
+      "url": "https://www.proofpoint.com/",
+      "title": "Proofpoint official website",
+      "publisher": "Proofpoint",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_proofpoint"
+      ],
+      "alias_source_ids": [
+        "src_proofpoint_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_protiviti_official",
       "url": "https://www.protiviti.com/",
       "title": "Protiviti official website",
@@ -8817,6 +13701,72 @@
       ]
     },
     {
+      "id": "src_qualtrics_about",
+      "url": "https://www.qualtrics.com/about/",
+      "title": "About Qualtrics",
+      "publisher": "Qualtrics",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_qualtrics"
+      ],
+      "alias_source_ids": [
+        "src_qualtrics_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_qualtrics_offerings",
+      "url": "https://www.qualtrics.com/experience-management/",
+      "title": "Qualtrics products and services",
+      "publisher": "Qualtrics",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_qualtrics"
+      ],
+      "alias_source_ids": [
+        "src_qualtrics_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_qualtrics_official",
+      "url": "https://www.qualtrics.com/",
+      "title": "Qualtrics official website",
+      "publisher": "Qualtrics",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_qualtrics"
+      ],
+      "alias_source_ids": [
+        "src_qualtrics_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_ramp_about_2026",
       "url": "https://ramp.com/about-us/",
       "title": "About Ramp",
@@ -8902,6 +13852,72 @@
         "annualized_total_payment_volume",
         "customer_savings",
         "customer_hours_saved"
+      ]
+    },
+    {
+      "id": "src_rapid7_about",
+      "url": "https://www.rapid7.com/about/",
+      "title": "About Rapid7",
+      "publisher": "Rapid7",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rapid7"
+      ],
+      "alias_source_ids": [
+        "src_rapid7_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_rapid7_offerings",
+      "url": "https://www.rapid7.com/products/",
+      "title": "Rapid7 products and services",
+      "publisher": "Rapid7",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rapid7"
+      ],
+      "alias_source_ids": [
+        "src_rapid7_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_rapid7_official",
+      "url": "https://www.rapid7.com/",
+      "title": "Rapid7 official website",
+      "publisher": "Rapid7",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rapid7"
+      ],
+      "alias_source_ids": [
+        "src_rapid7_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -9376,6 +14392,72 @@
       ]
     },
     {
+      "id": "src_roland-berger_about",
+      "url": "https://www.rolandberger.com/en/About/",
+      "title": "About Roland Berger",
+      "publisher": "Roland Berger",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_roland_berger"
+      ],
+      "alias_source_ids": [
+        "src_roland-berger_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_roland-berger_offerings",
+      "url": "https://www.rolandberger.com/en/Expertise/",
+      "title": "Roland Berger products and services",
+      "publisher": "Roland Berger",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_roland_berger"
+      ],
+      "alias_source_ids": [
+        "src_roland-berger_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_roland-berger_official",
+      "url": "https://www.rolandberger.com/",
+      "title": "Roland Berger official website",
+      "publisher": "Roland Berger",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_roland_berger"
+      ],
+      "alias_source_ids": [
+        "src_roland-berger_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_rra",
       "url": "https://www.russellreynolds.com/en/capabilities",
       "title": "Capabilities",
@@ -9483,6 +14565,138 @@
       ]
     },
     {
+      "id": "src_rubrik_about",
+      "url": "https://www.rubrik.com/company/",
+      "title": "About Rubrik",
+      "publisher": "Rubrik",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rubrik"
+      ],
+      "alias_source_ids": [
+        "src_rubrik_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_rubrik_offerings",
+      "url": "https://www.rubrik.com/products/",
+      "title": "Rubrik products and services",
+      "publisher": "Rubrik",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rubrik"
+      ],
+      "alias_source_ids": [
+        "src_rubrik_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_rubrik_official",
+      "url": "https://www.rubrik.com/",
+      "title": "Rubrik official website",
+      "publisher": "Rubrik",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rubrik"
+      ],
+      "alias_source_ids": [
+        "src_rubrik_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sage_about",
+      "url": "https://www.sage.com/en-us/company/",
+      "title": "About Sage",
+      "publisher": "Sage",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sage"
+      ],
+      "alias_source_ids": [
+        "src_sage_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sage_offerings",
+      "url": "https://www.sage.com/en-us/products/",
+      "title": "Sage products and services",
+      "publisher": "Sage",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sage"
+      ],
+      "alias_source_ids": [
+        "src_sage_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_sage_official",
+      "url": "https://www.sage.com/",
+      "title": "Sage official website",
+      "publisher": "Sage",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sage"
+      ],
+      "alias_source_ids": [
+        "src_sage_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_salesforce",
       "url": "https://www.salesforce.com/products/",
       "title": "Products",
@@ -9501,6 +14715,72 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_salesloft_about",
+      "url": "https://www.salesloft.com/company/",
+      "title": "About Salesloft",
+      "publisher": "Salesloft",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_salesloft"
+      ],
+      "alias_source_ids": [
+        "src_salesloft_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_salesloft_offerings",
+      "url": "https://www.salesloft.com/platform/",
+      "title": "Salesloft products and services",
+      "publisher": "Salesloft",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_salesloft"
+      ],
+      "alias_source_ids": [
+        "src_salesloft_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_salesloft_official",
+      "url": "https://www.salesloft.com/",
+      "title": "Salesloft official website",
+      "publisher": "Salesloft",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_salesloft"
+      ],
+      "alias_source_ids": [
+        "src_salesloft_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -9697,6 +14977,138 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_semrush_about",
+      "url": "https://www.semrush.com/company/",
+      "title": "About Semrush",
+      "publisher": "Semrush",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_semrush"
+      ],
+      "alias_source_ids": [
+        "src_semrush_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_semrush_offerings",
+      "url": "https://www.semrush.com/features/",
+      "title": "Semrush products and services",
+      "publisher": "Semrush",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_semrush"
+      ],
+      "alias_source_ids": [
+        "src_semrush_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_semrush_official",
+      "url": "https://www.semrush.com/",
+      "title": "Semrush official website",
+      "publisher": "Semrush",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_semrush"
+      ],
+      "alias_source_ids": [
+        "src_semrush_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sentinelone_about",
+      "url": "https://www.sentinelone.com/about/",
+      "title": "About SentinelOne",
+      "publisher": "SentinelOne",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sentinelone"
+      ],
+      "alias_source_ids": [
+        "src_sentinelone_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sentinelone_offerings",
+      "url": "https://www.sentinelone.com/platform/",
+      "title": "SentinelOne products and services",
+      "publisher": "SentinelOne",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sentinelone"
+      ],
+      "alias_source_ids": [
+        "src_sentinelone_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_sentinelone_official",
+      "url": "https://www.sentinelone.com/",
+      "title": "SentinelOne official website",
+      "publisher": "SentinelOne",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sentinelone"
+      ],
+      "alias_source_ids": [
+        "src_sentinelone_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -10019,6 +15431,72 @@
       ]
     },
     {
+      "id": "src_similarweb_about",
+      "url": "https://www.similarweb.com/corp/about/",
+      "title": "About Similarweb",
+      "publisher": "Similarweb",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_similarweb"
+      ],
+      "alias_source_ids": [
+        "src_similarweb_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_similarweb_offerings",
+      "url": "https://www.similarweb.com/corp/solutions/",
+      "title": "Similarweb products and services",
+      "publisher": "Similarweb",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_similarweb"
+      ],
+      "alias_source_ids": [
+        "src_similarweb_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_similarweb_official",
+      "url": "https://www.similarweb.com/",
+      "title": "Similarweb official website",
+      "publisher": "Similarweb",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_similarweb"
+      ],
+      "alias_source_ids": [
+        "src_similarweb_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_simmons_about_2026",
       "url": "https://www.simmons-simmons.com/about-us",
       "title": "About Simmons & Simmons",
@@ -10208,6 +15686,270 @@
       ]
     },
     {
+      "id": "src_smartsheet_about",
+      "url": "https://www.smartsheet.com/about",
+      "title": "About Smartsheet",
+      "publisher": "Smartsheet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_smartsheet"
+      ],
+      "alias_source_ids": [
+        "src_smartsheet_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_smartsheet_offerings",
+      "url": "https://www.smartsheet.com/platform",
+      "title": "Smartsheet products and services",
+      "publisher": "Smartsheet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_smartsheet"
+      ],
+      "alias_source_ids": [
+        "src_smartsheet_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_smartsheet_official",
+      "url": "https://www.smartsheet.com/",
+      "title": "Smartsheet official website",
+      "publisher": "Smartsheet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_smartsheet"
+      ],
+      "alias_source_ids": [
+        "src_smartsheet_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_snowflake_about",
+      "url": "https://www.snowflake.com/en/company/overview/",
+      "title": "About Snowflake",
+      "publisher": "Snowflake",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snowflake"
+      ],
+      "alias_source_ids": [
+        "src_snowflake_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_snowflake_offerings",
+      "url": "https://www.snowflake.com/en/product/",
+      "title": "Snowflake products and services",
+      "publisher": "Snowflake",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snowflake"
+      ],
+      "alias_source_ids": [
+        "src_snowflake_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_snowflake_official",
+      "url": "https://www.snowflake.com/",
+      "title": "Snowflake official website",
+      "publisher": "Snowflake",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snowflake"
+      ],
+      "alias_source_ids": [
+        "src_snowflake_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_snyk_about",
+      "url": "https://snyk.io/about/",
+      "title": "About Snyk",
+      "publisher": "Snyk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snyk"
+      ],
+      "alias_source_ids": [
+        "src_snyk_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_snyk_offerings",
+      "url": "https://snyk.io/product/",
+      "title": "Snyk products and services",
+      "publisher": "Snyk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snyk"
+      ],
+      "alias_source_ids": [
+        "src_snyk_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_snyk_official",
+      "url": "https://snyk.io/",
+      "title": "Snyk official website",
+      "publisher": "Snyk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_snyk"
+      ],
+      "alias_source_ids": [
+        "src_snyk_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sovos_about",
+      "url": "https://sovos.com/about-us/",
+      "title": "About Sovos",
+      "publisher": "Sovos",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sovos"
+      ],
+      "alias_source_ids": [
+        "src_sovos_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sovos_offerings",
+      "url": "https://sovos.com/solutions/",
+      "title": "Sovos products and services",
+      "publisher": "Sovos",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sovos"
+      ],
+      "alias_source_ids": [
+        "src_sovos_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_sovos_official",
+      "url": "https://sovos.com/",
+      "title": "Sovos official website",
+      "publisher": "Sovos",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sovos"
+      ],
+      "alias_source_ids": [
+        "src_sovos_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_spencer_services",
       "url": "https://www.spencerstuart.com/what-we-do",
       "title": "What We Do",
@@ -10246,6 +15988,138 @@
       "supports": [
         "capabilities",
         "services"
+      ]
+    },
+    {
+      "id": "src_spendesk_about",
+      "url": "https://www.spendesk.com/about/",
+      "title": "About Spendesk",
+      "publisher": "Spendesk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_spendesk"
+      ],
+      "alias_source_ids": [
+        "src_spendesk_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_spendesk_offerings",
+      "url": "https://www.spendesk.com/platform/",
+      "title": "Spendesk products and services",
+      "publisher": "Spendesk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_spendesk"
+      ],
+      "alias_source_ids": [
+        "src_spendesk_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_spendesk_official",
+      "url": "https://www.spendesk.com/",
+      "title": "Spendesk official website",
+      "publisher": "Spendesk",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_spendesk"
+      ],
+      "alias_source_ids": [
+        "src_spendesk_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sprout-social_about",
+      "url": "https://sproutsocial.com/about/",
+      "title": "About Sprout Social",
+      "publisher": "Sprout Social",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sprout_social"
+      ],
+      "alias_source_ids": [
+        "src_sprout-social_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_sprout-social_offerings",
+      "url": "https://sproutsocial.com/features/",
+      "title": "Sprout Social products and services",
+      "publisher": "Sprout Social",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sprout_social"
+      ],
+      "alias_source_ids": [
+        "src_sprout-social_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_sprout-social_official",
+      "url": "https://sproutsocial.com/",
+      "title": "Sprout Social official website",
+      "publisher": "Sprout Social",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_sprout_social"
+      ],
+      "alias_source_ids": [
+        "src_sprout-social_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -10501,6 +16375,72 @@
       "supports": [
         "current_display_name",
         "announced_future_name"
+      ]
+    },
+    {
+      "id": "src_tenable_about",
+      "url": "https://www.tenable.com/about-tenable",
+      "title": "About Tenable",
+      "publisher": "Tenable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tenable"
+      ],
+      "alias_source_ids": [
+        "src_tenable_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_tenable_offerings",
+      "url": "https://www.tenable.com/products",
+      "title": "Tenable products and services",
+      "publisher": "Tenable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tenable"
+      ],
+      "alias_source_ids": [
+        "src_tenable_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_tenable_official",
+      "url": "https://www.tenable.com/",
+      "title": "Tenable official website",
+      "publisher": "Tenable",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tenable"
+      ],
+      "alias_source_ids": [
+        "src_tenable_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -10760,6 +16700,72 @@
       ]
     },
     {
+      "id": "src_tipalti_about",
+      "url": "https://tipalti.com/company/",
+      "title": "About Tipalti",
+      "publisher": "Tipalti",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tipalti"
+      ],
+      "alias_source_ids": [
+        "src_tipalti_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_tipalti_offerings",
+      "url": "https://tipalti.com/accounts-payable-software/",
+      "title": "Tipalti products and services",
+      "publisher": "Tipalti",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tipalti"
+      ],
+      "alias_source_ids": [
+        "src_tipalti_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_tipalti_official",
+      "url": "https://tipalti.com/",
+      "title": "Tipalti official website",
+      "publisher": "Tipalti",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tipalti"
+      ],
+      "alias_source_ids": [
+        "src_tipalti_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_transacta_about_2026",
       "url": "https://transactacapital.com/about-us/",
       "title": "About Transacta Capital",
@@ -11002,6 +17008,270 @@
       ]
     },
     {
+      "id": "src_trintech_about",
+      "url": "https://www.trintech.com/about-us/",
+      "title": "About Trintech",
+      "publisher": "Trintech",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trintech"
+      ],
+      "alias_source_ids": [
+        "src_trintech_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_trintech_offerings",
+      "url": "https://www.trintech.com/products/",
+      "title": "Trintech products and services",
+      "publisher": "Trintech",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trintech"
+      ],
+      "alias_source_ids": [
+        "src_trintech_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_trintech_official",
+      "url": "https://www.trintech.com/",
+      "title": "Trintech official website",
+      "publisher": "Trintech",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trintech"
+      ],
+      "alias_source_ids": [
+        "src_trintech_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_uipath_about",
+      "url": "https://www.uipath.com/company/about-us",
+      "title": "About UiPath",
+      "publisher": "UiPath",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_uipath"
+      ],
+      "alias_source_ids": [
+        "src_uipath_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_uipath_offerings",
+      "url": "https://www.uipath.com/product",
+      "title": "UiPath products and services",
+      "publisher": "UiPath",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_uipath"
+      ],
+      "alias_source_ids": [
+        "src_uipath_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_uipath_official",
+      "url": "https://www.uipath.com/",
+      "title": "UiPath official website",
+      "publisher": "UiPath",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_uipath"
+      ],
+      "alias_source_ids": [
+        "src_uipath_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_ukg_about",
+      "url": "https://www.ukg.com/about-us",
+      "title": "About UKG",
+      "publisher": "UKG",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ukg"
+      ],
+      "alias_source_ids": [
+        "src_ukg_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_ukg_offerings",
+      "url": "https://www.ukg.com/solutions",
+      "title": "UKG products and services",
+      "publisher": "UKG",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ukg"
+      ],
+      "alias_source_ids": [
+        "src_ukg_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_ukg_official",
+      "url": "https://www.ukg.com/",
+      "title": "UKG official website",
+      "publisher": "UKG",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ukg"
+      ],
+      "alias_source_ids": [
+        "src_ukg_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_vanta_about",
+      "url": "https://www.vanta.com/company/about",
+      "title": "About Vanta",
+      "publisher": "Vanta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vanta"
+      ],
+      "alias_source_ids": [
+        "src_vanta_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_vanta_offerings",
+      "url": "https://www.vanta.com/vanta-platform",
+      "title": "Vanta products and services",
+      "publisher": "Vanta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vanta"
+      ],
+      "alias_source_ids": [
+        "src_vanta_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_vanta_official",
+      "url": "https://www.vanta.com/",
+      "title": "Vanta official website",
+      "publisher": "Vanta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vanta"
+      ],
+      "alias_source_ids": [
+        "src_vanta_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_velixar-ai_official",
       "url": "https://velixarai.com/",
       "title": "Velixar AI official website",
@@ -11105,6 +17375,72 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_vertex_about",
+      "url": "https://www.vertexinc.com/company",
+      "title": "About Vertex",
+      "publisher": "Vertex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vertex"
+      ],
+      "alias_source_ids": [
+        "src_vertex_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_vertex_offerings",
+      "url": "https://www.vertexinc.com/solutions",
+      "title": "Vertex products and services",
+      "publisher": "Vertex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vertex"
+      ],
+      "alias_source_ids": [
+        "src_vertex_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_vertex_official",
+      "url": "https://www.vertexinc.com/",
+      "title": "Vertex official website",
+      "publisher": "Vertex",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vertex"
+      ],
+      "alias_source_ids": [
+        "src_vertex_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -11469,6 +17805,72 @@
       ]
     },
     {
+      "id": "src_wise_about",
+      "url": "https://wise.com/about/",
+      "title": "About Wise",
+      "publisher": "Wise",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wise"
+      ],
+      "alias_source_ids": [
+        "src_wise_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_wise_offerings",
+      "url": "https://wise.com/us/business/",
+      "title": "Wise products and services",
+      "publisher": "Wise",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wise"
+      ],
+      "alias_source_ids": [
+        "src_wise_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_wise_official",
+      "url": "https://wise.com/",
+      "title": "Wise official website",
+      "publisher": "Wise",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wise"
+      ],
+      "alias_source_ids": [
+        "src_wise_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_witness_control_2026",
       "url": "https://witness.ai/control/",
       "title": "WitnessAI Control",
@@ -11628,6 +18030,138 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_workhuman_about",
+      "url": "https://www.workhuman.com/company/",
+      "title": "About Workhuman",
+      "publisher": "Workhuman",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workhuman"
+      ],
+      "alias_source_ids": [
+        "src_workhuman_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_workhuman_offerings",
+      "url": "https://www.workhuman.com/solutions/",
+      "title": "Workhuman products and services",
+      "publisher": "Workhuman",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workhuman"
+      ],
+      "alias_source_ids": [
+        "src_workhuman_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_workhuman_official",
+      "url": "https://www.workhuman.com/",
+      "title": "Workhuman official website",
+      "publisher": "Workhuman",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workhuman"
+      ],
+      "alias_source_ids": [
+        "src_workhuman_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_workiva_about",
+      "url": "https://www.workiva.com/about",
+      "title": "About Workiva",
+      "publisher": "Workiva",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workiva"
+      ],
+      "alias_source_ids": [
+        "src_workiva_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_workiva_offerings",
+      "url": "https://www.workiva.com/platform",
+      "title": "Workiva products and services",
+      "publisher": "Workiva",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workiva"
+      ],
+      "alias_source_ids": [
+        "src_workiva_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_workiva_official",
+      "url": "https://www.workiva.com/",
+      "title": "Workiva official website",
+      "publisher": "Workiva",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workiva"
+      ],
+      "alias_source_ids": [
+        "src_workiva_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -12321,6 +18855,72 @@
         "products",
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_zoom_about",
+      "url": "https://www.zoom.com/en/about/",
+      "title": "About Zoom",
+      "publisher": "Zoom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zoom"
+      ],
+      "alias_source_ids": [
+        "src_zoom_about"
+      ],
+      "supports": [
+        "description",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_zoom_offerings",
+      "url": "https://www.zoom.com/en/products/",
+      "title": "Zoom products and services",
+      "publisher": "Zoom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zoom"
+      ],
+      "alias_source_ids": [
+        "src_zoom_offerings"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_zoom_official",
+      "url": "https://www.zoom.com/",
+      "title": "Zoom official website",
+      "publisher": "Zoom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-12",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zoom"
+      ],
+      "alias_source_ids": [
+        "src_zoom_official"
+      ],
+      "supports": [
+        "identity",
+        "description",
+        "website",
+        "primary_category",
+        "categories",
+        "cxo_roles",
+        "industries",
+        "geographies"
       ]
     },
     {

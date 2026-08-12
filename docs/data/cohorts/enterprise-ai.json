@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "calculated_at": "2026-08-12",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -9,6 +9,21 @@
     "ent_adobe",
     "ent_crowdstrike",
     "ent_palo_alto_networks",
+    "ent_amazon_web_services",
+    "ent_google_cloud",
+    "ent_ibm",
+    "ent_snowflake",
+    "ent_palantir",
+    "ent_uipath",
+    "ent_automation_anywhere",
+    "ent_notion",
+    "ent_github",
+    "ent_mongodb",
+    "ent_elastic",
+    "ent_confluent",
+    "ent_alteryx",
+    "ent_eightfold_ai",
+    "ent_paradox",
     "ent_harvey",
     "ent_capgemini",
     "ent_slalom",
@@ -832,6 +847,3858 @@
             "src_pan_products"
           ],
           "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_amazon_web_services",
+      "name": "Amazon Web Services",
+      "slug": "amazon-web-services",
+      "entity_type": "enterprise technology company",
+      "description": "Cloud-computing provider offering infrastructure, data, security and AI services.",
+      "website": "https://aws.amazon.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Amazon Web Services provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_amazon-web-services_official",
+          "url": "https://aws.amazon.com/",
+          "title": "Amazon Web Services official website",
+          "publisher": "Amazon Web Services",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_amazon-web-services_offerings",
+          "url": "https://aws.amazon.com/products/",
+          "title": "Amazon Web Services products and services",
+          "publisher": "Amazon Web Services",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_amazon-web-services_about",
+          "url": "https://aws.amazon.com/about-aws/",
+          "title": "About Amazon Web Services",
+          "publisher": "Amazon Web Services",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://aws.amazon.com/products/",
+          "title": "Amazon Web Services products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_amazon-web-services_identity_amazon-web-services",
+          "field": "identity",
+          "value": "Amazon Web Services",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_description_cloud-computing-provider-offering-infrastructure",
+          "field": "description",
+          "value": "Cloud-computing provider offering infrastructure, data, security and AI services.",
+          "source_ids": [
+            "src_amazon-web-services_official",
+            "src_amazon-web-services_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_website_https-aws-amazon-com",
+          "field": "website",
+          "value": "https://aws.amazon.com/",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_amazon-web-services_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_amazon-web-services_official",
+            "src_amazon-web-services_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_amazon-web-services_official",
+            "src_amazon-web-services_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_amazon-web-services_official",
+            "src_amazon-web-services_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_amazon-web-services_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_amazon-web-services_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_amazon-web-services_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_amazon-web-services_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_google_cloud",
+      "name": "Google Cloud",
+      "slug": "google-cloud",
+      "entity_type": "enterprise technology company",
+      "description": "Cloud-computing provider offering infrastructure, data, collaboration and AI services.",
+      "website": "https://cloud.google.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Google Cloud provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_google-cloud_official",
+          "url": "https://cloud.google.com/",
+          "title": "Google Cloud official website",
+          "publisher": "Google Cloud",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_google-cloud_offerings",
+          "url": "https://cloud.google.com/products/",
+          "title": "Google Cloud products and services",
+          "publisher": "Google Cloud",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_google-cloud_about",
+          "url": "https://cloud.google.com/about/",
+          "title": "About Google Cloud",
+          "publisher": "Google Cloud",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://cloud.google.com/products/",
+          "title": "Google Cloud products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_google-cloud_identity_google-cloud",
+          "field": "identity",
+          "value": "Google Cloud",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_description_cloud-computing-provider-offering-infrastructure",
+          "field": "description",
+          "value": "Cloud-computing provider offering infrastructure, data, collaboration and AI services.",
+          "source_ids": [
+            "src_google-cloud_official",
+            "src_google-cloud_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_website_https-cloud-google-com",
+          "field": "website",
+          "value": "https://cloud.google.com/",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_google-cloud_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_google-cloud_official",
+            "src_google-cloud_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_google-cloud_official",
+            "src_google-cloud_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_google-cloud_official",
+            "src_google-cloud_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_google-cloud_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_google-cloud_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_google-cloud_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_google-cloud_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_ibm",
+      "name": "IBM",
+      "slug": "ibm",
+      "entity_type": "enterprise technology company",
+      "description": "Enterprise technology company providing hybrid-cloud, AI, automation and consulting capabilities.",
+      "website": "https://www.ibm.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "Consulting"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "IBM provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_ibm_official",
+          "url": "https://www.ibm.com/",
+          "title": "IBM official website",
+          "publisher": "IBM",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_ibm_offerings",
+          "url": "https://www.ibm.com/products",
+          "title": "IBM products and services",
+          "publisher": "IBM",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_ibm_about",
+          "url": "https://www.ibm.com/about",
+          "title": "About IBM",
+          "publisher": "IBM",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Consulting"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence",
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ibm.com/products",
+          "title": "IBM products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_ibm_identity_ibm",
+          "field": "identity",
+          "value": "IBM",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_description_enterprise-technology-company-providing-hybrid-c",
+          "field": "description",
+          "value": "Enterprise technology company providing hybrid-cloud, AI, automation and consulting capabilities.",
+          "source_ids": [
+            "src_ibm_official",
+            "src_ibm_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_website_https-www-ibm-com",
+          "field": "website",
+          "value": "https://www.ibm.com/",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_primary-category_enterprise-technology",
+          "field": "primary_category",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_ibm_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_ibm_official",
+            "src_ibm_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_ibm_official",
+            "src_ibm_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_ibm_official",
+            "src_ibm_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_ibm_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_ibm_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ibm_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_ibm_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_snowflake",
+      "name": "Snowflake",
+      "slug": "snowflake",
+      "entity_type": "enterprise technology company",
+      "description": "Data-cloud company providing data engineering, analytics and AI capabilities.",
+      "website": "https://www.snowflake.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Snowflake provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_snowflake_official",
+          "url": "https://www.snowflake.com/",
+          "title": "Snowflake official website",
+          "publisher": "Snowflake",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_snowflake_offerings",
+          "url": "https://www.snowflake.com/en/product/",
+          "title": "Snowflake products and services",
+          "publisher": "Snowflake",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_snowflake_about",
+          "url": "https://www.snowflake.com/en/company/overview/",
+          "title": "About Snowflake",
+          "publisher": "Snowflake",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.snowflake.com/en/product/",
+          "title": "Snowflake products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_snowflake_identity_snowflake",
+          "field": "identity",
+          "value": "Snowflake",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_description_data-cloud-company-providing-data-engineering-an",
+          "field": "description",
+          "value": "Data-cloud company providing data engineering, analytics and AI capabilities.",
+          "source_ids": [
+            "src_snowflake_official",
+            "src_snowflake_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_website_https-www-snowflake-com",
+          "field": "website",
+          "value": "https://www.snowflake.com/",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_snowflake_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_snowflake_official",
+            "src_snowflake_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_snowflake_official",
+            "src_snowflake_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_snowflake_official",
+            "src_snowflake_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_snowflake_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_snowflake_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_snowflake_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_snowflake_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_palantir",
+      "name": "Palantir",
+      "slug": "palantir",
+      "entity_type": "enterprise technology company",
+      "description": "Enterprise software company providing data integration, operations and AI platforms.",
+      "website": "https://www.palantir.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Palantir provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_palantir_official",
+          "url": "https://www.palantir.com/",
+          "title": "Palantir official website",
+          "publisher": "Palantir",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_palantir_offerings",
+          "url": "https://www.palantir.com/platforms/",
+          "title": "Palantir products and services",
+          "publisher": "Palantir",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_palantir_about",
+          "url": "https://www.palantir.com/about/",
+          "title": "About Palantir",
+          "publisher": "Palantir",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.palantir.com/platforms/",
+          "title": "Palantir products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_palantir_identity_palantir",
+          "field": "identity",
+          "value": "Palantir",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_description_enterprise-software-company-providing-data-integ",
+          "field": "description",
+          "value": "Enterprise software company providing data integration, operations and AI platforms.",
+          "source_ids": [
+            "src_palantir_official",
+            "src_palantir_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_website_https-www-palantir-com",
+          "field": "website",
+          "value": "https://www.palantir.com/",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_primary-category_artificial-intelligence",
+          "field": "primary_category",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_palantir_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_palantir_official",
+            "src_palantir_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_palantir_official",
+            "src_palantir_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_palantir_official",
+            "src_palantir_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_palantir_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_palantir_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_palantir_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_palantir_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_uipath",
+      "name": "UiPath",
+      "slug": "uipath",
+      "entity_type": "enterprise technology company",
+      "description": "Enterprise automation company providing robotic and agentic automation products.",
+      "website": "https://www.uipath.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Automation",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "UiPath provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_uipath_official",
+          "url": "https://www.uipath.com/",
+          "title": "UiPath official website",
+          "publisher": "UiPath",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_uipath_offerings",
+          "url": "https://www.uipath.com/product",
+          "title": "UiPath products and services",
+          "publisher": "UiPath",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_uipath_about",
+          "url": "https://www.uipath.com/company/about-us",
+          "title": "About UiPath",
+          "publisher": "UiPath",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Automation",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-automation",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.uipath.com/product",
+          "title": "UiPath products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_uipath_identity_uipath",
+          "field": "identity",
+          "value": "UiPath",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_description_enterprise-automation-company-providing-robotic-",
+          "field": "description",
+          "value": "Enterprise automation company providing robotic and agentic automation products.",
+          "source_ids": [
+            "src_uipath_official",
+            "src_uipath_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_website_https-www-uipath-com",
+          "field": "website",
+          "value": "https://www.uipath.com/",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_primary-category_enterprise-automation",
+          "field": "primary_category",
+          "value": "Enterprise Automation",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_categories_enterprise-automation",
+          "field": "categories",
+          "value": "Enterprise Automation",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_uipath_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_uipath_official",
+            "src_uipath_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_uipath_official",
+            "src_uipath_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_uipath_official",
+            "src_uipath_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_uipath_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_uipath_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_uipath_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_uipath_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_automation_anywhere",
+      "name": "Automation Anywhere",
+      "slug": "automation-anywhere",
+      "entity_type": "enterprise technology company",
+      "description": "Enterprise automation company providing process and agentic automation products.",
+      "website": "https://www.automationanywhere.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Automation",
+        "AI Agents",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Automation Anywhere provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_automation-anywhere_official",
+          "url": "https://www.automationanywhere.com/",
+          "title": "Automation Anywhere official website",
+          "publisher": "Automation Anywhere",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_automation-anywhere_offerings",
+          "url": "https://www.automationanywhere.com/products",
+          "title": "Automation Anywhere products and services",
+          "publisher": "Automation Anywhere",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_automation-anywhere_about",
+          "url": "https://www.automationanywhere.com/company/about-us",
+          "title": "About Automation Anywhere",
+          "publisher": "Automation Anywhere",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Automation",
+      "secondary_categories": [
+        "AI Agents",
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-automation",
+        "ai-agents",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.automationanywhere.com/products",
+          "title": "Automation Anywhere products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_automation-anywhere_identity_automation-anywhere",
+          "field": "identity",
+          "value": "Automation Anywhere",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_description_enterprise-automation-company-providing-process-",
+          "field": "description",
+          "value": "Enterprise automation company providing process and agentic automation products.",
+          "source_ids": [
+            "src_automation-anywhere_official",
+            "src_automation-anywhere_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_website_https-www-automationanywhere-com",
+          "field": "website",
+          "value": "https://www.automationanywhere.com/",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_primary-category_enterprise-automation",
+          "field": "primary_category",
+          "value": "Enterprise Automation",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_categories_enterprise-automation",
+          "field": "categories",
+          "value": "Enterprise Automation",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_categories_ai-agents",
+          "field": "categories",
+          "value": "AI Agents",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_automation-anywhere_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_automation-anywhere_official",
+            "src_automation-anywhere_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_automation-anywhere_official",
+            "src_automation-anywhere_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_automation-anywhere_official",
+            "src_automation-anywhere_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_automation-anywhere_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_automation-anywhere_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_automation-anywhere_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_automation-anywhere_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_notion",
+      "name": "Notion",
+      "slug": "notion",
+      "entity_type": "enterprise technology company",
+      "description": "Connected-workspace company providing collaboration, knowledge and AI products.",
+      "website": "https://www.notion.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Notion provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_notion_official",
+          "url": "https://www.notion.com/",
+          "title": "Notion official website",
+          "publisher": "Notion",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_notion_offerings",
+          "url": "https://www.notion.com/product/notion",
+          "title": "Notion products and services",
+          "publisher": "Notion",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_notion_about",
+          "url": "https://www.notion.com/security",
+          "title": "About Notion",
+          "publisher": "Notion",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.notion.com/product/notion",
+          "title": "Notion products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_notion_identity_notion",
+          "field": "identity",
+          "value": "Notion",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_description_connected-workspace-company-providing-collaborat",
+          "field": "description",
+          "value": "Connected-workspace company providing collaboration, knowledge and AI products.",
+          "source_ids": [
+            "src_notion_official",
+            "src_notion_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_website_https-www-notion-com",
+          "field": "website",
+          "value": "https://www.notion.com/",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_primary-category_enterprise-technology",
+          "field": "primary_category",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_notion_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_notion_official",
+            "src_notion_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_notion_official",
+            "src_notion_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_notion_official",
+            "src_notion_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_notion_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_notion_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_notion_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_notion_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_github",
+      "name": "GitHub",
+      "slug": "github",
+      "entity_type": "enterprise technology company",
+      "description": "Software-development platform providing code collaboration, security and AI-assisted development products.",
+      "website": "https://github.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "GitHub provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_github_official",
+          "url": "https://github.com/",
+          "title": "GitHub official website",
+          "publisher": "GitHub",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_github_offerings",
+          "url": "https://github.com/features",
+          "title": "GitHub products and services",
+          "publisher": "GitHub",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_github_about",
+          "url": "https://github.com/about",
+          "title": "About GitHub",
+          "publisher": "GitHub",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://github.com/features",
+          "title": "GitHub products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_github_identity_github",
+          "field": "identity",
+          "value": "GitHub",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_description_software-development-platform-providing-code-col",
+          "field": "description",
+          "value": "Software-development platform providing code collaboration, security and AI-assisted development products.",
+          "source_ids": [
+            "src_github_official",
+            "src_github_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_website_https-github-com",
+          "field": "website",
+          "value": "https://github.com/",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_primary-category_enterprise-technology",
+          "field": "primary_category",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_github_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_github_official",
+            "src_github_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_github_official",
+            "src_github_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_github_official",
+            "src_github_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_github_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_github_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_github_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_github_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_mongodb",
+      "name": "MongoDB",
+      "slug": "mongodb",
+      "entity_type": "enterprise technology company",
+      "description": "Data-platform company providing database, search and application-development products.",
+      "website": "https://www.mongodb.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "MongoDB provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_mongodb_official",
+          "url": "https://www.mongodb.com/",
+          "title": "MongoDB official website",
+          "publisher": "MongoDB",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_mongodb_offerings",
+          "url": "https://www.mongodb.com/products",
+          "title": "MongoDB products and services",
+          "publisher": "MongoDB",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_mongodb_about",
+          "url": "https://www.mongodb.com/company",
+          "title": "About MongoDB",
+          "publisher": "MongoDB",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.mongodb.com/products",
+          "title": "MongoDB products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_mongodb_identity_mongodb",
+          "field": "identity",
+          "value": "MongoDB",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_description_data-platform-company-providing-database-search-",
+          "field": "description",
+          "value": "Data-platform company providing database, search and application-development products.",
+          "source_ids": [
+            "src_mongodb_official",
+            "src_mongodb_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_website_https-www-mongodb-com",
+          "field": "website",
+          "value": "https://www.mongodb.com/",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_mongodb_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_mongodb_official",
+            "src_mongodb_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_mongodb_official",
+            "src_mongodb_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_mongodb_official",
+            "src_mongodb_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_mongodb_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_mongodb_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_mongodb_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_mongodb_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_elastic",
+      "name": "Elastic",
+      "slug": "elastic",
+      "entity_type": "enterprise technology company",
+      "description": "Search AI company providing search, observability and security products.",
+      "website": "https://www.elastic.co/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology",
+        "Cybersecurity"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Elastic provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_elastic_official",
+          "url": "https://www.elastic.co/",
+          "title": "Elastic official website",
+          "publisher": "Elastic",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_elastic_offerings",
+          "url": "https://www.elastic.co/products/",
+          "title": "Elastic products and services",
+          "publisher": "Elastic",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_elastic_about",
+          "url": "https://www.elastic.co/about/",
+          "title": "About Elastic",
+          "publisher": "Elastic",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Cybersecurity"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology",
+        "cybersecurity"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.elastic.co/products/",
+          "title": "Elastic products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_elastic_identity_elastic",
+          "field": "identity",
+          "value": "Elastic",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_description_search-ai-company-providing-search-observability",
+          "field": "description",
+          "value": "Search AI company providing search, observability and security products.",
+          "source_ids": [
+            "src_elastic_official",
+            "src_elastic_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_website_https-www-elastic-co",
+          "field": "website",
+          "value": "https://www.elastic.co/",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_categories_cybersecurity",
+          "field": "categories",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_elastic_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_elastic_official",
+            "src_elastic_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_elastic_official",
+            "src_elastic_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_elastic_official",
+            "src_elastic_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_elastic_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_elastic_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_elastic_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_elastic_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_confluent",
+      "name": "Confluent",
+      "slug": "confluent",
+      "entity_type": "enterprise technology company",
+      "description": "Data-streaming company providing cloud and enterprise event-streaming products.",
+      "website": "https://www.confluent.io/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "AI Infrastructure",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Confluent provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_confluent_official",
+          "url": "https://www.confluent.io/",
+          "title": "Confluent official website",
+          "publisher": "Confluent",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_confluent_offerings",
+          "url": "https://www.confluent.io/product/",
+          "title": "Confluent products and services",
+          "publisher": "Confluent",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_confluent_about",
+          "url": "https://www.confluent.io/about/",
+          "title": "About Confluent",
+          "publisher": "Confluent",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "ai-infrastructure",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.confluent.io/product/",
+          "title": "Confluent products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_confluent_identity_confluent",
+          "field": "identity",
+          "value": "Confluent",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_description_data-streaming-company-providing-cloud-and-enter",
+          "field": "description",
+          "value": "Data-streaming company providing cloud and enterprise event-streaming products.",
+          "source_ids": [
+            "src_confluent_official",
+            "src_confluent_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_website_https-www-confluent-io",
+          "field": "website",
+          "value": "https://www.confluent.io/",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_primary-category_ai-infrastructure",
+          "field": "primary_category",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_confluent_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_confluent_official",
+            "src_confluent_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_confluent_official",
+            "src_confluent_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_confluent_official",
+            "src_confluent_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_confluent_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_confluent_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_confluent_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_confluent_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_alteryx",
+      "name": "Alteryx",
+      "slug": "alteryx",
+      "entity_type": "enterprise technology company",
+      "description": "Analytics company providing data preparation, automation and AI products.",
+      "website": "https://www.alteryx.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CEO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Technology",
+        "Software"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "enterprise software platform",
+        "data and workflow capabilities",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Alteryx provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_alteryx_official",
+          "url": "https://www.alteryx.com/",
+          "title": "Alteryx official website",
+          "publisher": "Alteryx",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_alteryx_offerings",
+          "url": "https://www.alteryx.com/products",
+          "title": "Alteryx products and services",
+          "publisher": "Alteryx",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_alteryx_about",
+          "url": "https://www.alteryx.com/about-us",
+          "title": "About Alteryx",
+          "publisher": "Alteryx",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.alteryx.com/products",
+          "title": "Alteryx products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_alteryx_identity_alteryx",
+          "field": "identity",
+          "value": "Alteryx",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_description_analytics-company-providing-data-preparation-aut",
+          "field": "description",
+          "value": "Analytics company providing data preparation, automation and AI products.",
+          "source_ids": [
+            "src_alteryx_official",
+            "src_alteryx_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_website_https-www-alteryx-com",
+          "field": "website",
+          "value": "https://www.alteryx.com/",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_primary-category_enterprise-technology",
+          "field": "primary_category",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_alteryx_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_alteryx_official",
+            "src_alteryx_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_alteryx_official",
+            "src_alteryx_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_alteryx_official",
+            "src_alteryx_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_services_enterprise-software-platform",
+          "field": "services",
+          "value": "enterprise software platform",
+          "source_ids": [
+            "src_alteryx_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_services_data-and-workflow-capabilities",
+          "field": "services",
+          "value": "data and workflow capabilities",
+          "source_ids": [
+            "src_alteryx_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_alteryx_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_alteryx_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_eightfold_ai",
+      "name": "Eightfold AI",
+      "slug": "eightfold-ai",
+      "entity_type": "human resources technology company",
+      "description": "Talent-intelligence company providing AI-based recruiting, mobility and skills products.",
+      "website": "https://eightfold.ai/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Eightfold AI provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_eightfold-ai_official",
+          "url": "https://eightfold.ai/",
+          "title": "Eightfold AI official website",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_eightfold-ai_offerings",
+          "url": "https://eightfold.ai/products/",
+          "title": "Eightfold AI products and services",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_eightfold-ai_about",
+          "url": "https://eightfold.ai/about/",
+          "title": "About Eightfold AI",
+          "publisher": "Eightfold AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://eightfold.ai/products/",
+          "title": "Eightfold AI products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_eightfold-ai_identity_eightfold-ai",
+          "field": "identity",
+          "value": "Eightfold AI",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_description_talent-intelligence-company-providing-ai-based-r",
+          "field": "description",
+          "value": "Talent-intelligence company providing AI-based recruiting, mobility and skills products.",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_website_https-eightfold-ai",
+          "field": "website",
+          "value": "https://eightfold.ai/",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_eightfold-ai_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_eightfold-ai_official",
+            "src_eightfold-ai_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_eightfold-ai_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_eightfold-ai_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_paradox",
+      "name": "Paradox",
+      "slug": "paradox",
+      "entity_type": "human resources technology company",
+      "description": "Recruiting technology company providing conversational AI and hiring-automation products.",
+      "website": "https://www.paradox.ai/",
+      "cxo_roles": [
+        "CHRO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Human Resources",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "human resources software",
+        "workforce analytics and workflows",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Paradox provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_paradox_official",
+          "url": "https://www.paradox.ai/",
+          "title": "Paradox official website",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_paradox_offerings",
+          "url": "https://www.paradox.ai/products",
+          "title": "Paradox products and services",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_paradox_about",
+          "url": "https://www.paradox.ai/about",
+          "title": "About Paradox",
+          "publisher": "Paradox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.paradox.ai/products",
+          "title": "Paradox products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_paradox_identity_paradox",
+          "field": "identity",
+          "value": "Paradox",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_description_recruiting-technology-company-providing-conversa",
+          "field": "description",
+          "value": "Recruiting technology company providing conversational AI and hiring-automation products.",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_website_https-www-paradox-ai",
+          "field": "website",
+          "value": "https://www.paradox.ai/",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_primary-category_hr-technology",
+          "field": "primary_category",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_paradox_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_paradox_official",
+            "src_paradox_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_human-resources-software",
+          "field": "services",
+          "value": "human resources software",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_workforce-analytics-and-workflows",
+          "field": "services",
+          "value": "workforce analytics and workflows",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paradox_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_paradox_offerings"
+          ],
+          "last_verified": "2026-08-12"
         }
       ]
     },

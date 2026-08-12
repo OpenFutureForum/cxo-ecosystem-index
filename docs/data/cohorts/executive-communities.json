@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "calculated_at": "2026-08-12",
   "cohort_id": "executive-communities",
   "entity_ids": [
@@ -9,6 +9,7 @@
     "ent_open_future_forum",
     "ent_chief",
     "ent_young_presidents_organization",
+    "ent_financial_executives_international",
     "ent_association_for_corporate_growth",
     "ent_young_entrepreneur_council",
     "ent_hacker_dojo",
@@ -1843,6 +1844,248 @@
             "community_formats",
             "executive_needs"
           ]
+        }
+      ]
+    },
+    {
+      "id": "ent_financial_executives_international",
+      "name": "Financial Executives International",
+      "slug": "financial-executives-international",
+      "entity_type": "professional association",
+      "description": "Membership organization serving senior finance executives through chapters, education and research.",
+      "website": "https://www.financialexecutives.org/",
+      "cxo_roles": [
+        "CFO",
+        "CEO"
+      ],
+      "categories": [
+        "Professional Associations",
+        "Executive Communities"
+      ],
+      "industries": [
+        "Financial Services",
+        "Professional Services"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "membership chapters",
+        "executive education",
+        "research and advocacy"
+      ],
+      "inclusion_basis": [
+        "Financial Executives International provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_financial-executives-international_official",
+          "url": "https://www.financialexecutives.org/",
+          "title": "Financial Executives International official website",
+          "publisher": "Financial Executives International",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_financial-executives-international_offerings",
+          "url": "https://www.financialexecutives.org/Events.aspx",
+          "title": "Financial Executives International products and services",
+          "publisher": "Financial Executives International",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_financial-executives-international_about",
+          "url": "https://www.financialexecutives.org/About-FEI.aspx",
+          "title": "About Financial Executives International",
+          "publisher": "Financial Executives International",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Professional Associations",
+      "secondary_categories": [
+        "Executive Communities"
+      ],
+      "provider_types": [
+        "professional-associations",
+        "executive-communities"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "peer-learning",
+        "professional-development"
+      ],
+      "topics": [
+        "finance-leadership",
+        "corporate-governance"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.financialexecutives.org/Events.aspx",
+          "title": "Financial Executives International products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_financial-executives-international_identity_financial-executives-international",
+          "field": "identity",
+          "value": "Financial Executives International",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_description_membership-organization-serving-senior-finance-e",
+          "field": "description",
+          "value": "Membership organization serving senior finance executives through chapters, education and research.",
+          "source_ids": [
+            "src_financial-executives-international_official",
+            "src_financial-executives-international_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_website_https-www-financialexecutives-org",
+          "field": "website",
+          "value": "https://www.financialexecutives.org/",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_primary-category_professional-associations",
+          "field": "primary_category",
+          "value": "Professional Associations",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_categories_professional-associations",
+          "field": "categories",
+          "value": "Professional Associations",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_categories_executive-communities",
+          "field": "categories",
+          "value": "Executive Communities",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_financial-executives-international_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_financial-executives-international_official",
+            "src_financial-executives-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_financial-executives-international_official",
+            "src_financial-executives-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_financial-executives-international_official",
+            "src_financial-executives-international_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_services_membership-chapters",
+          "field": "services",
+          "value": "membership chapters",
+          "source_ids": [
+            "src_financial-executives-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_services_executive-education",
+          "field": "services",
+          "value": "executive education",
+          "source_ids": [
+            "src_financial-executives-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_financial-executives-international_services_research-and-advocacy",
+          "field": "services",
+          "value": "research and advocacy",
+          "source_ids": [
+            "src_financial-executives-international_offerings"
+          ],
+          "last_verified": "2026-08-12"
         }
       ]
     },

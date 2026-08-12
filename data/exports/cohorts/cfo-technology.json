@@ -1,8 +1,20 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "calculated_at": "2026-08-12",
   "cohort_id": "cfo-technology",
   "entity_ids": [
+    "ent_sage",
+    "ent_workiva",
+    "ent_floqast",
+    "ent_planful",
+    "ent_onestream",
+    "ent_trintech",
+    "ent_tipalti",
+    "ent_avalara",
+    "ent_vertex",
+    "ent_sovos",
+    "ent_highradius",
+    "ent_kyriba",
     "ent_coupa",
     "ent_puzzle",
     "ent_tesorio",
@@ -23,6 +35,3042 @@
     "ent_finrep"
   ],
   "entities": [
+    {
+      "id": "ent_sage",
+      "name": "Sage",
+      "slug": "sage",
+      "entity_type": "finance technology company",
+      "description": "Business software company providing accounting, finance, payroll and operations products.",
+      "website": "https://www.sage.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Accounting Software",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Sage provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_sage_official",
+          "url": "https://www.sage.com/",
+          "title": "Sage official website",
+          "publisher": "Sage",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_sage_offerings",
+          "url": "https://www.sage.com/en-us/products/",
+          "title": "Sage products and services",
+          "publisher": "Sage",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_sage_about",
+          "url": "https://www.sage.com/en-us/company/",
+          "title": "About Sage",
+          "publisher": "Sage",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Accounting Software",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "accounting-software",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.sage.com/en-us/products/",
+          "title": "Sage products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_sage_identity_sage",
+          "field": "identity",
+          "value": "Sage",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_description_business-software-company-providing-accounting-f",
+          "field": "description",
+          "value": "Business software company providing accounting, finance, payroll and operations products.",
+          "source_ids": [
+            "src_sage_official",
+            "src_sage_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_website_https-www-sage-com",
+          "field": "website",
+          "value": "https://www.sage.com/",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_primary-category_accounting-software",
+          "field": "primary_category",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_sage_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_sage_official",
+            "src_sage_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_sage_official",
+            "src_sage_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_sage_official",
+            "src_sage_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_sage_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_sage_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sage_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_sage_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_workiva",
+      "name": "Workiva",
+      "slug": "workiva",
+      "entity_type": "finance technology company",
+      "description": "Cloud platform company providing reporting, compliance, audit and financial-control products.",
+      "website": "https://www.workiva.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Fintech"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Workiva provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_workiva_official",
+          "url": "https://www.workiva.com/",
+          "title": "Workiva official website",
+          "publisher": "Workiva",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_workiva_offerings",
+          "url": "https://www.workiva.com/platform",
+          "title": "Workiva products and services",
+          "publisher": "Workiva",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_workiva_about",
+          "url": "https://www.workiva.com/about",
+          "title": "About Workiva",
+          "publisher": "Workiva",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Fintech"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.workiva.com/platform",
+          "title": "Workiva products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_workiva_identity_workiva",
+          "field": "identity",
+          "value": "Workiva",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_description_cloud-platform-company-providing-reporting-compl",
+          "field": "description",
+          "value": "Cloud platform company providing reporting, compliance, audit and financial-control products.",
+          "source_ids": [
+            "src_workiva_official",
+            "src_workiva_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_website_https-www-workiva-com",
+          "field": "website",
+          "value": "https://www.workiva.com/",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_primary-category_cfo-technology",
+          "field": "primary_category",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_workiva_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_workiva_official",
+            "src_workiva_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_workiva_official",
+            "src_workiva_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_workiva_official",
+            "src_workiva_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_workiva_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_workiva_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workiva_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_workiva_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_floqast",
+      "name": "FloQast",
+      "slug": "floqast",
+      "entity_type": "finance technology company",
+      "description": "Accounting operations company providing close, reconciliation and compliance software.",
+      "website": "https://www.floqast.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Accounting Software",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "FloQast provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_floqast_official",
+          "url": "https://www.floqast.com/",
+          "title": "FloQast official website",
+          "publisher": "FloQast",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_floqast_offerings",
+          "url": "https://www.floqast.com/products",
+          "title": "FloQast products and services",
+          "publisher": "FloQast",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_floqast_about",
+          "url": "https://www.floqast.com/company",
+          "title": "About FloQast",
+          "publisher": "FloQast",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Accounting Software",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "accounting-software",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.floqast.com/products",
+          "title": "FloQast products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_floqast_identity_floqast",
+          "field": "identity",
+          "value": "FloQast",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_description_accounting-operations-company-providing-close-re",
+          "field": "description",
+          "value": "Accounting operations company providing close, reconciliation and compliance software.",
+          "source_ids": [
+            "src_floqast_official",
+            "src_floqast_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_website_https-www-floqast-com",
+          "field": "website",
+          "value": "https://www.floqast.com/",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_primary-category_accounting-software",
+          "field": "primary_category",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_floqast_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_floqast_official",
+            "src_floqast_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_floqast_official",
+            "src_floqast_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_floqast_official",
+            "src_floqast_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_floqast_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_floqast_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_floqast_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_floqast_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_planful",
+      "name": "Planful",
+      "slug": "planful",
+      "entity_type": "finance technology company",
+      "description": "Financial-performance-management company providing planning, consolidation and reporting software.",
+      "website": "https://planful.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Fintech"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Planful provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_planful_official",
+          "url": "https://planful.com/",
+          "title": "Planful official website",
+          "publisher": "Planful",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_planful_offerings",
+          "url": "https://planful.com/platform/",
+          "title": "Planful products and services",
+          "publisher": "Planful",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_planful_about",
+          "url": "https://planful.com/about-us/",
+          "title": "About Planful",
+          "publisher": "Planful",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Fintech"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://planful.com/platform/",
+          "title": "Planful products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_planful_identity_planful",
+          "field": "identity",
+          "value": "Planful",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_description_financial-performance-management-company-providi",
+          "field": "description",
+          "value": "Financial-performance-management company providing planning, consolidation and reporting software.",
+          "source_ids": [
+            "src_planful_official",
+            "src_planful_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_website_https-planful-com",
+          "field": "website",
+          "value": "https://planful.com/",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_primary-category_cfo-technology",
+          "field": "primary_category",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_planful_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_planful_official",
+            "src_planful_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_planful_official",
+            "src_planful_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_planful_official",
+            "src_planful_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_planful_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_planful_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_planful_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_planful_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_onestream",
+      "name": "OneStream",
+      "slug": "onestream",
+      "entity_type": "finance technology company",
+      "description": "Corporate-performance-management company providing planning, close and reporting software.",
+      "website": "https://www.onestream.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Fintech"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "OneStream provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_onestream_official",
+          "url": "https://www.onestream.com/",
+          "title": "OneStream official website",
+          "publisher": "OneStream",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_onestream_offerings",
+          "url": "https://www.onestream.com/platform/",
+          "title": "OneStream products and services",
+          "publisher": "OneStream",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_onestream_about",
+          "url": "https://www.onestream.com/about-us/",
+          "title": "About OneStream",
+          "publisher": "OneStream",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Fintech"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.onestream.com/platform/",
+          "title": "OneStream products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_onestream_identity_onestream",
+          "field": "identity",
+          "value": "OneStream",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_description_corporate-performance-management-company-providi",
+          "field": "description",
+          "value": "Corporate-performance-management company providing planning, close and reporting software.",
+          "source_ids": [
+            "src_onestream_official",
+            "src_onestream_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_website_https-www-onestream-com",
+          "field": "website",
+          "value": "https://www.onestream.com/",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_primary-category_cfo-technology",
+          "field": "primary_category",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_onestream_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_onestream_official",
+            "src_onestream_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_onestream_official",
+            "src_onestream_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_onestream_official",
+            "src_onestream_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_onestream_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_onestream_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_onestream_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_onestream_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_trintech",
+      "name": "Trintech",
+      "slug": "trintech",
+      "entity_type": "finance technology company",
+      "description": "Financial-close company providing reconciliation, close and compliance software.",
+      "website": "https://www.trintech.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Accounting Software",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Trintech provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_trintech_official",
+          "url": "https://www.trintech.com/",
+          "title": "Trintech official website",
+          "publisher": "Trintech",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_trintech_offerings",
+          "url": "https://www.trintech.com/products/",
+          "title": "Trintech products and services",
+          "publisher": "Trintech",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_trintech_about",
+          "url": "https://www.trintech.com/about-us/",
+          "title": "About Trintech",
+          "publisher": "Trintech",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Accounting Software",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "accounting-software",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.trintech.com/products/",
+          "title": "Trintech products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_trintech_identity_trintech",
+          "field": "identity",
+          "value": "Trintech",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_description_financial-close-company-providing-reconciliation",
+          "field": "description",
+          "value": "Financial-close company providing reconciliation, close and compliance software.",
+          "source_ids": [
+            "src_trintech_official",
+            "src_trintech_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_website_https-www-trintech-com",
+          "field": "website",
+          "value": "https://www.trintech.com/",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_primary-category_accounting-software",
+          "field": "primary_category",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_categories_accounting-software",
+          "field": "categories",
+          "value": "Accounting Software",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_trintech_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_trintech_official",
+            "src_trintech_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_trintech_official",
+            "src_trintech_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_trintech_official",
+            "src_trintech_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_trintech_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_trintech_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_trintech_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_trintech_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_tipalti",
+      "name": "Tipalti",
+      "slug": "tipalti",
+      "entity_type": "finance technology company",
+      "description": "Finance automation company providing accounts-payable, procurement and payment products.",
+      "website": "https://tipalti.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Payments",
+        "Fintech"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Tipalti provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_tipalti_official",
+          "url": "https://tipalti.com/",
+          "title": "Tipalti official website",
+          "publisher": "Tipalti",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_tipalti_offerings",
+          "url": "https://tipalti.com/accounts-payable-software/",
+          "title": "Tipalti products and services",
+          "publisher": "Tipalti",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_tipalti_about",
+          "url": "https://tipalti.com/company/",
+          "title": "About Tipalti",
+          "publisher": "Tipalti",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Payments",
+        "Fintech"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "payments",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://tipalti.com/accounts-payable-software/",
+          "title": "Tipalti products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_tipalti_identity_tipalti",
+          "field": "identity",
+          "value": "Tipalti",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_description_finance-automation-company-providing-accounts-pa",
+          "field": "description",
+          "value": "Finance automation company providing accounts-payable, procurement and payment products.",
+          "source_ids": [
+            "src_tipalti_official",
+            "src_tipalti_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_website_https-tipalti-com",
+          "field": "website",
+          "value": "https://tipalti.com/",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_primary-category_cfo-technology",
+          "field": "primary_category",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_categories_payments",
+          "field": "categories",
+          "value": "Payments",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_tipalti_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_tipalti_official",
+            "src_tipalti_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_tipalti_official",
+            "src_tipalti_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_tipalti_official",
+            "src_tipalti_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_tipalti_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_tipalti_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_tipalti_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_tipalti_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_avalara",
+      "name": "Avalara",
+      "slug": "avalara",
+      "entity_type": "finance technology company",
+      "description": "Tax-compliance company providing calculation, filing and reporting software.",
+      "website": "https://www.avalara.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Tax Technology",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Avalara provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_avalara_official",
+          "url": "https://www.avalara.com/",
+          "title": "Avalara official website",
+          "publisher": "Avalara",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_avalara_offerings",
+          "url": "https://www.avalara.com/us/en/products.html",
+          "title": "Avalara products and services",
+          "publisher": "Avalara",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_avalara_about",
+          "url": "https://www.avalara.com/us/en/about.html",
+          "title": "About Avalara",
+          "publisher": "Avalara",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Tax Technology",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "tax-technology",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.avalara.com/us/en/products.html",
+          "title": "Avalara products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_avalara_identity_avalara",
+          "field": "identity",
+          "value": "Avalara",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_description_tax-compliance-company-providing-calculation-fil",
+          "field": "description",
+          "value": "Tax-compliance company providing calculation, filing and reporting software.",
+          "source_ids": [
+            "src_avalara_official",
+            "src_avalara_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_website_https-www-avalara-com",
+          "field": "website",
+          "value": "https://www.avalara.com/",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_primary-category_tax-technology",
+          "field": "primary_category",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_categories_tax-technology",
+          "field": "categories",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_avalara_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_avalara_official",
+            "src_avalara_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_avalara_official",
+            "src_avalara_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_avalara_official",
+            "src_avalara_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_avalara_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_avalara_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_avalara_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_avalara_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_vertex",
+      "name": "Vertex",
+      "slug": "vertex",
+      "entity_type": "finance technology company",
+      "description": "Tax-technology company providing indirect-tax calculation, compliance and reporting products.",
+      "website": "https://www.vertexinc.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Tax Technology",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Vertex provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_vertex_official",
+          "url": "https://www.vertexinc.com/",
+          "title": "Vertex official website",
+          "publisher": "Vertex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_vertex_offerings",
+          "url": "https://www.vertexinc.com/solutions",
+          "title": "Vertex products and services",
+          "publisher": "Vertex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_vertex_about",
+          "url": "https://www.vertexinc.com/company",
+          "title": "About Vertex",
+          "publisher": "Vertex",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Tax Technology",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "tax-technology",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.vertexinc.com/solutions",
+          "title": "Vertex products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_vertex_identity_vertex",
+          "field": "identity",
+          "value": "Vertex",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_description_tax-technology-company-providing-indirect-tax-ca",
+          "field": "description",
+          "value": "Tax-technology company providing indirect-tax calculation, compliance and reporting products.",
+          "source_ids": [
+            "src_vertex_official",
+            "src_vertex_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_website_https-www-vertexinc-com",
+          "field": "website",
+          "value": "https://www.vertexinc.com/",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_primary-category_tax-technology",
+          "field": "primary_category",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_categories_tax-technology",
+          "field": "categories",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_vertex_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_vertex_official",
+            "src_vertex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_vertex_official",
+            "src_vertex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_vertex_official",
+            "src_vertex_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_vertex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_vertex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_vertex_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_vertex_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_sovos",
+      "name": "Sovos",
+      "slug": "sovos",
+      "entity_type": "finance technology company",
+      "description": "Tax-compliance company providing regulatory reporting, e-invoicing and tax software.",
+      "website": "https://sovos.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Tax Technology",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Sovos provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_sovos_official",
+          "url": "https://sovos.com/",
+          "title": "Sovos official website",
+          "publisher": "Sovos",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_sovos_offerings",
+          "url": "https://sovos.com/solutions/",
+          "title": "Sovos products and services",
+          "publisher": "Sovos",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_sovos_about",
+          "url": "https://sovos.com/about-us/",
+          "title": "About Sovos",
+          "publisher": "Sovos",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Tax Technology",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "tax-technology",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://sovos.com/solutions/",
+          "title": "Sovos products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_sovos_identity_sovos",
+          "field": "identity",
+          "value": "Sovos",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_description_tax-compliance-company-providing-regulatory-repo",
+          "field": "description",
+          "value": "Tax-compliance company providing regulatory reporting, e-invoicing and tax software.",
+          "source_ids": [
+            "src_sovos_official",
+            "src_sovos_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_website_https-sovos-com",
+          "field": "website",
+          "value": "https://sovos.com/",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_primary-category_tax-technology",
+          "field": "primary_category",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_categories_tax-technology",
+          "field": "categories",
+          "value": "Tax Technology",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_sovos_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_sovos_official",
+            "src_sovos_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_sovos_official",
+            "src_sovos_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_sovos_official",
+            "src_sovos_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_sovos_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_sovos_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_sovos_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_sovos_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_highradius",
+      "name": "HighRadius",
+      "slug": "highradius",
+      "entity_type": "finance technology company",
+      "description": "Finance software company providing autonomous receivables, treasury and record-to-report products.",
+      "website": "https://www.highradius.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Fintech"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "HighRadius provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_highradius_official",
+          "url": "https://www.highradius.com/",
+          "title": "HighRadius official website",
+          "publisher": "HighRadius",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_highradius_offerings",
+          "url": "https://www.highradius.com/software/",
+          "title": "HighRadius products and services",
+          "publisher": "HighRadius",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_highradius_about",
+          "url": "https://www.highradius.com/about-us/",
+          "title": "About HighRadius",
+          "publisher": "HighRadius",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Fintech"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "fintech"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.highradius.com/software/",
+          "title": "HighRadius products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_highradius_identity_highradius",
+          "field": "identity",
+          "value": "HighRadius",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_description_finance-software-company-providing-autonomous-re",
+          "field": "description",
+          "value": "Finance software company providing autonomous receivables, treasury and record-to-report products.",
+          "source_ids": [
+            "src_highradius_official",
+            "src_highradius_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_website_https-www-highradius-com",
+          "field": "website",
+          "value": "https://www.highradius.com/",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_primary-category_cfo-technology",
+          "field": "primary_category",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_highradius_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_highradius_official",
+            "src_highradius_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_highradius_official",
+            "src_highradius_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_highradius_official",
+            "src_highradius_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_highradius_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_highradius_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_highradius_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_highradius_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "id": "ent_kyriba",
+      "name": "Kyriba",
+      "slug": "kyriba",
+      "entity_type": "finance technology company",
+      "description": "Treasury-management company providing liquidity, payments and risk products.",
+      "website": "https://www.kyriba.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CEO"
+      ],
+      "categories": [
+        "Treasury Technology",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "finance operations software",
+        "financial controls and analytics",
+        "implementation and support"
+      ],
+      "inclusion_basis": [
+        "Kyriba provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_kyriba_official",
+          "url": "https://www.kyriba.com/",
+          "title": "Kyriba official website",
+          "publisher": "Kyriba",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_kyriba_offerings",
+          "url": "https://www.kyriba.com/solutions/",
+          "title": "Kyriba products and services",
+          "publisher": "Kyriba",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_kyriba_about",
+          "url": "https://www.kyriba.com/company/",
+          "title": "About Kyriba",
+          "publisher": "Kyriba",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Treasury Technology",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "treasury-technology",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.kyriba.com/solutions/",
+          "title": "Kyriba products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_kyriba_identity_kyriba",
+          "field": "identity",
+          "value": "Kyriba",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_description_treasury-management-company-providing-liquidity-",
+          "field": "description",
+          "value": "Treasury-management company providing liquidity, payments and risk products.",
+          "source_ids": [
+            "src_kyriba_official",
+            "src_kyriba_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_website_https-www-kyriba-com",
+          "field": "website",
+          "value": "https://www.kyriba.com/",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_primary-category_treasury-technology",
+          "field": "primary_category",
+          "value": "Treasury Technology",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_categories_treasury-technology",
+          "field": "categories",
+          "value": "Treasury Technology",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_kyriba_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_kyriba_official",
+            "src_kyriba_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_kyriba_official",
+            "src_kyriba_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_kyriba_official",
+            "src_kyriba_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_services_finance-operations-software",
+          "field": "services",
+          "value": "finance operations software",
+          "source_ids": [
+            "src_kyriba_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_services_financial-controls-and-analytics",
+          "field": "services",
+          "value": "financial controls and analytics",
+          "source_ids": [
+            "src_kyriba_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_kyriba_services_implementation-and-support",
+          "field": "services",
+          "value": "implementation and support",
+          "source_ids": [
+            "src_kyriba_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        }
+      ]
+    },
     {
       "id": "ent_coupa",
       "name": "Coupa",

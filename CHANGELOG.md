@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.4 — 2026-08-12 — Evidence-First Expansion
+
+- Added 100 organizations selected for strong first-party documentation rather than attempting to force unsupported facts onto hard-to-research records.
+- Added 300 distinct official source pages and evidence-linked semantic profiles for every new organization.
+- Required every expansion profile to expose at least three canonical sources, ten source-linked facts, supported offerings, industries, operating geography, executive relevance and semantic classifications.
+- Expanded coverage across cybersecurity, enterprise technology, AI infrastructure, finance technology, HR technology, marketing technology, consulting, accounting, executive search, research and professional associations.
+- Preserved the existing taxonomy, completeness methodology, neutral classification rules, relationships and Open Future Forum placement.
+
 ## 0.9.3 — 2026-08-12 — Priority Evidence Depth IV
 
 - Researched the 50-record P1 queue published by v0.9.2, including both newly surfaced profiles and unresolved records carried from the preceding batch.

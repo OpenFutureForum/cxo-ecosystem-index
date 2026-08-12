@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.3",
+  "dataset_version": "0.9.4",
   "calculated_at": "2026-08-12",
   "cohort_id": "executive-search",
   "entity_ids": [
@@ -7,6 +7,7 @@
     "ent_russell_reynolds_associates",
     "ent_heidrick_struggles",
     "ent_spencer_stuart",
+    "ent_egon_zehnder",
     "ent_zrg",
     "ent_robert_half",
     "ent_findem",
@@ -1195,6 +1196,278 @@
             "src_spencer_stuart_capabilities_2026"
           ],
           "last_verified": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "id": "ent_egon_zehnder",
+      "name": "Egon Zehnder",
+      "slug": "egon-zehnder",
+      "entity_type": "professional services organization",
+      "description": "Leadership-advisory firm providing executive search, succession and board services.",
+      "website": "https://www.egonzehnder.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CIO",
+        "COO",
+        "Board"
+      ],
+      "categories": [
+        "Executive Search",
+        "Board Advisory"
+      ],
+      "industries": [
+        "Professional Services",
+        "Technology"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "services": [
+        "executive search",
+        "succession planning",
+        "board advisory"
+      ],
+      "inclusion_basis": [
+        "Egon Zehnder provides documented products, services or programs used by one or more C-suite functions."
+      ],
+      "sources": [
+        {
+          "id": "src_egon-zehnder_official",
+          "url": "https://www.egonzehnder.com/",
+          "title": "Egon Zehnder official website",
+          "publisher": "Egon Zehnder",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "primary_category",
+            "categories",
+            "cxo_roles",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_egon-zehnder_offerings",
+          "url": "https://www.egonzehnder.com/what-we-do",
+          "title": "Egon Zehnder products and services",
+          "publisher": "Egon Zehnder",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_egon-zehnder_about",
+          "url": "https://www.egonzehnder.com/about-us",
+          "title": "About Egon Zehnder",
+          "publisher": "Egon Zehnder",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-12",
+      "last_verified": "2026-08-12",
+      "verification_status": "verified",
+      "geography_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
+      "provider_types": [
+        "executive-search",
+        "board-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "board-effectiveness"
+      ],
+      "topics": [
+        "board-governance",
+        "leadership"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.egonzehnder.com/what-we-do",
+          "title": "Egon Zehnder products and services",
+          "supports": [
+            "executive_needs",
+            "topics"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact_egon-zehnder_identity_egon-zehnder",
+          "field": "identity",
+          "value": "Egon Zehnder",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_description_leadership-advisory-firm-providing-executive-sea",
+          "field": "description",
+          "value": "Leadership-advisory firm providing executive search, succession and board services.",
+          "source_ids": [
+            "src_egon-zehnder_official",
+            "src_egon-zehnder_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_website_https-www-egonzehnder-com",
+          "field": "website",
+          "value": "https://www.egonzehnder.com/",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_primary-category_executive-search",
+          "field": "primary_category",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_categories_executive-search",
+          "field": "categories",
+          "value": "Executive Search",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_categories_board-advisory",
+          "field": "categories",
+          "value": "Board Advisory",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_cxo-roles_board",
+          "field": "cxo_roles",
+          "value": "Board",
+          "source_ids": [
+            "src_egon-zehnder_official"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_egon-zehnder_official",
+            "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_egon-zehnder_official",
+            "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_egon-zehnder_official",
+            "src_egon-zehnder_about"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_services_executive-search",
+          "field": "services",
+          "value": "executive search",
+          "source_ids": [
+            "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_services_succession-planning",
+          "field": "services",
+          "value": "succession planning",
+          "source_ids": [
+            "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_egon-zehnder_services_board-advisory",
+          "field": "services",
+          "value": "board advisory",
+          "source_ids": [
+            "src_egon-zehnder_offerings"
+          ],
+          "last_verified": "2026-08-12"
         }
       ]
     },
