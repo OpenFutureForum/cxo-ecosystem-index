@@ -21,7 +21,7 @@ export async function load(){
  const batches=await Promise.all(files.map(x=>readJSON(`data/entities/${x}`)));
  const expansionDir=path.join(root,'data/expansions');
  let expansions=[];try{const expansionFiles=(await fs.readdir(expansionDir)).filter(x=>x.endsWith('.json')).sort();for(const file of expansionFiles){const manifest=await readJSON(`data/expansions/${file}`);expansions.push(...manifest.entities.filter(item=>item.status==='added').map(item=>expandRecord(item,manifest.verified_date)));}}catch(error){if(error.code!=='ENOENT')throw error;}
- let enrichments=[];try{enrichments=await readJSON('data/enrichments.json')}catch(error){if(error.code!=='ENOENT')throw error;}const enrichmentById=new Map(enrichments.map(item=>[item.entity_id,item]));
+ let enrichments=[];for(const file of ['data/enrichments.json','data/enrichments-p1.json']){try{enrichments.push(...await readJSON(file))}catch(error){if(error.code!=='ENOENT')throw error;}}const enrichmentById=new Map(enrichments.map(item=>[item.entity_id,item]));
  const classifications=await readJSON('data/classifications.json');
  const byEntity=new Map(classifications.map(x=>[x.entity_id,x]));
  const enrichedRecords=[...batches.flat(),...expansions].map(entity=>{const addition=enrichmentById.get(entity.id);if(!addition)return entity;const {entity_id:ignored,sources=[],...fields}=addition;return {...entity,...fields,services:[...new Set([...(entity.services||[]),...(fields.services||[])])],products:[...new Set([...(entity.products||[]),...(fields.products||[])])],sources:[...(entity.sources||[]),...sources]};});

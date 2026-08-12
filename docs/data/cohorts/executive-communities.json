@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "executive-communities",
   "entity_ids": [
@@ -1947,6 +1947,66 @@
             "src_association-for-corporate-growth_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_middle-market-professional-membership",
+          "field": "services",
+          "value": "middle-market professional membership",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_local-chapter-programming",
+          "field": "services",
+          "value": "local chapter programming",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_business-networking-events",
+          "field": "services",
+          "value": "business networking events",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_professional-education",
+          "field": "services",
+          "value": "professional education",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_middle-market-dealmaking-community",
+          "field": "services",
+          "value": "middle-market dealmaking community",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_services_industry-content-and-insights",
+          "field": "services",
+          "value": "industry content and insights",
+          "source_ids": [
+            "src_acg_about_2026",
+            "src_acg_history_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1968,11 +2028,42 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_acg_about_2026",
+          "url": "https://www.acg.org/about",
+          "title": "About ACG",
+          "publisher": "Association for Corporate Growth",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_acg_history_2026",
+          "url": "https://www.acg.org/about/history",
+          "title": "ACG History",
+          "publisher": "Association for Corporate Growth",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "middle-market professional membership",
+        "local chapter programming",
+        "business networking events",
+        "professional education",
+        "middle-market dealmaking community",
+        "industry content and insights"
+      ],
+      "products": [],
       "primary_category": "Professional Associations",
       "secondary_categories": [
         "Executive Communities"
@@ -2077,6 +2168,76 @@
             "src_young-entrepreneur-council_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_vetted-founder-peer-community",
+          "field": "services",
+          "value": "vetted founder peer community",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_member-directory",
+          "field": "services",
+          "value": "member directory",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_live-operator-sessions",
+          "field": "services",
+          "value": "live operator sessions",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_member-dinners-and-gatherings",
+          "field": "services",
+          "value": "member dinners and gatherings",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_publishing-opportunities",
+          "field": "services",
+          "value": "publishing opportunities",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_warm-introductions",
+          "field": "services",
+          "value": "warm introductions",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_services_peer-problem-solving",
+          "field": "services",
+          "value": "peer problem solving",
+          "source_ids": [
+            "src_yec_membership_2026",
+            "src_yec_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2098,11 +2259,43 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_yec_membership_2026",
+          "url": "https://yec.co/membership",
+          "title": "YEC Membership",
+          "publisher": "Young Entrepreneur Council",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_yec_terms_2026",
+          "url": "https://yec.co/terms",
+          "title": "YEC Terms and Membership Description",
+          "publisher": "Young Entrepreneur Council",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "vetted founder peer community",
+        "member directory",
+        "live operator sessions",
+        "member dinners and gatherings",
+        "publishing opportunities",
+        "warm introductions",
+        "peer problem solving"
+      ],
+      "products": [],
       "primary_category": "Executive Communities",
       "secondary_categories": [
         "Professional Associations"

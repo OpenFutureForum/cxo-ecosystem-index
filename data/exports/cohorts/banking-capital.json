@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "banking-capital",
   "entity_ids": [
@@ -1257,7 +1257,14 @@
         "Investment Banks",
         "Wealth Management"
       ],
-      "industries": [],
+      "industries": [
+        "Healthcare",
+        "Technology Media and Telecom",
+        "Energy and Power",
+        "Financial Institutions",
+        "Industrials",
+        "Consumer and Retail"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1337,6 +1344,136 @@
             "src_wells-fargo_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_corporate-banking",
+          "field": "services",
+          "value": "corporate banking",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_investment-banking",
+          "field": "services",
+          "value": "investment banking",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_capital-markets",
+          "field": "services",
+          "value": "capital markets",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_global-markets",
+          "field": "services",
+          "value": "global markets",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_commercial-real-estate-finance",
+          "field": "services",
+          "value": "commercial real estate finance",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_lending",
+          "field": "services",
+          "value": "lending",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_services_global-payments-and-liquidity",
+          "field": "services",
+          "value": "global payments and liquidity",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_technology-media-and-telecom",
+          "field": "industries",
+          "value": "Technology Media and Telecom",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_energy-and-power",
+          "field": "industries",
+          "value": "Energy and Power",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_financial-institutions",
+          "field": "industries",
+          "value": "Financial Institutions",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_industrials",
+          "field": "industries",
+          "value": "Industrials",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_industries_consumer-and-retail",
+          "field": "industries",
+          "value": "Consumer and Retail",
+          "source_ids": [
+            "src_wells_cib_2026",
+            "src_wells_investment_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1357,11 +1494,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_wells_cib_2026",
+          "url": "https://www.wellsfargo.com/cib/our-approach/",
+          "title": "Wells Fargo Corporate and Investment Banking",
+          "publisher": "Wells Fargo",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_wells_investment_2026",
+          "url": "https://www.wellsfargo.com/cib/investment-banking/",
+          "title": "Wells Fargo Investment Banking",
+          "publisher": "Wells Fargo",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "corporate banking",
+        "investment banking",
+        "capital markets",
+        "global markets",
+        "commercial real estate finance",
+        "lending",
+        "global payments and liquidity"
+      ],
+      "products": [],
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -1476,6 +1647,66 @@
             "src_citizens-private-bank_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_private-banking",
+          "field": "services",
+          "value": "private banking",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_wealth-management",
+          "field": "services",
+          "value": "wealth management",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_investment-management",
+          "field": "services",
+          "value": "investment management",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_financial-planning",
+          "field": "services",
+          "value": "financial planning",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_custom-lending",
+          "field": "services",
+          "value": "custom lending",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_citizens-private-bank_services_trust-and-estate-services",
+          "field": "services",
+          "value": "trust and estate services",
+          "source_ids": [
+            "src_citizens_wealth_2026",
+            "src_citizens_products_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1497,11 +1728,42 @@
             "cxo_roles",
             "parent_company"
           ]
+        },
+        {
+          "id": "src_citizens_wealth_2026",
+          "url": "https://www.citizensbank.com/investing-and-wealth-management/services/overview.aspx",
+          "title": "Investing and Wealth Management Services",
+          "publisher": "Citizens",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_citizens_products_2026",
+          "url": "https://www.citizensbank.com/investing-and-wealth-management/products-services-and-calculators.aspx",
+          "title": "Wealth Products and Services",
+          "publisher": "Citizens",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "private banking",
+        "wealth management",
+        "investment management",
+        "financial planning",
+        "custom lending",
+        "trust and estate services"
+      ],
+      "products": [],
       "primary_category": "Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -1955,6 +2217,76 @@
             "src_morgan-stanley_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_wealth-management",
+          "field": "services",
+          "value": "wealth management",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_investment-banking",
+          "field": "services",
+          "value": "investment banking",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_sales-and-trading",
+          "field": "services",
+          "value": "sales and trading",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_investment-management",
+          "field": "services",
+          "value": "investment management",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_research",
+          "field": "services",
+          "value": "research",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_capital-markets",
+          "field": "services",
+          "value": "capital markets",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_morgan-stanley_services_private-wealth-management",
+          "field": "services",
+          "value": "private wealth management",
+          "source_ids": [
+            "src_morgan_what_we_do_2026",
+            "src_morgan_banking_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1975,11 +2307,43 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_morgan_what_we_do_2026",
+          "url": "https://www.morganstanley.com/what-we-do",
+          "title": "Morgan Stanley Businesses",
+          "publisher": "Morgan Stanley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_morgan_banking_2026",
+          "url": "https://www.morganstanley.com/what-we-do/investment-banking",
+          "title": "Morgan Stanley Investment Banking",
+          "publisher": "Morgan Stanley",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "wealth management",
+        "investment banking",
+        "sales and trading",
+        "investment management",
+        "research",
+        "capital markets",
+        "private wealth management"
+      ],
+      "products": [],
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -2518,6 +2882,76 @@
             "src_stifel_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_wealth-management",
+          "field": "services",
+          "value": "wealth management",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_investment-banking",
+          "field": "services",
+          "value": "investment banking",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_institutional-brokerage",
+          "field": "services",
+          "value": "institutional brokerage",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_equity-research",
+          "field": "services",
+          "value": "equity research",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_fixed-income-capital-markets",
+          "field": "services",
+          "value": "fixed income capital markets",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_public-finance",
+          "field": "services",
+          "value": "public finance",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_stifel_services_asset-management",
+          "field": "services",
+          "value": "asset management",
+          "source_ids": [
+            "src_stifel_about_2026",
+            "src_stifel_advisory_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2538,11 +2972,43 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_stifel_about_2026",
+          "url": "https://www.stifel.com/home/aboutstifel",
+          "title": "About Stifel",
+          "publisher": "Stifel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_stifel_advisory_2026",
+          "url": "https://www.stifel.com/individual/investment-advisory-services",
+          "title": "Investment Advisory Services",
+          "publisher": "Stifel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "wealth management",
+        "investment banking",
+        "institutional brokerage",
+        "equity research",
+        "fixed income capital markets",
+        "public finance",
+        "asset management"
+      ],
+      "products": [],
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -2656,6 +3122,76 @@
             "src_deutsche-bank_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_corporate-banking",
+          "field": "services",
+          "value": "corporate banking",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_investment-banking",
+          "field": "services",
+          "value": "investment banking",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_private-banking",
+          "field": "services",
+          "value": "private banking",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_asset-management",
+          "field": "services",
+          "value": "asset management",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_transaction-banking",
+          "field": "services",
+          "value": "transaction banking",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_wealth-management",
+          "field": "services",
+          "value": "wealth management",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deutsche-bank_services_capital-markets",
+          "field": "services",
+          "value": "capital markets",
+          "source_ids": [
+            "src_db_what_we_do_2026",
+            "src_db_products_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2676,11 +3212,43 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_db_what_we_do_2026",
+          "url": "https://www.db.com/what-we-do",
+          "title": "What Deutsche Bank Does",
+          "publisher": "Deutsche Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_db_products_2026",
+          "url": "https://www.db.com/what-we-do/products-and-services",
+          "title": "Deutsche Bank Products and Services",
+          "publisher": "Deutsche Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "corporate banking",
+        "investment banking",
+        "private banking",
+        "asset management",
+        "transaction banking",
+        "wealth management",
+        "capital markets"
+      ],
+      "products": [],
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -2980,7 +3548,12 @@
         "Investment Banks",
         "M&A Advisors"
       ],
-      "industries": [],
+      "industries": [
+        "Software",
+        "Technology-enabled Marketing",
+        "IT Business Services",
+        "Information Services"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2994,7 +3567,8 @@
           "field": "identity",
           "value": "BrightTower",
           "source_ids": [
-            "src_brighttower_official"
+            "src_brighttower_official",
+            "src_brighttower_finra_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3051,6 +3625,92 @@
             "src_brighttower_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_services_mergers-and-acquisitions-advisory",
+          "field": "services",
+          "value": "mergers and acquisitions advisory",
+          "source_ids": [
+            "src_brighttower_linkedin_2026",
+            "src_brighttower_finra_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_services_capital-raising",
+          "field": "services",
+          "value": "capital raising",
+          "source_ids": [
+            "src_brighttower_linkedin_2026",
+            "src_brighttower_finra_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_services_debt-capital-markets-advisory",
+          "field": "services",
+          "value": "debt capital markets advisory",
+          "source_ids": [
+            "src_brighttower_linkedin_2026",
+            "src_brighttower_finra_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_services_strategic-advisory",
+          "field": "services",
+          "value": "strategic advisory",
+          "source_ids": [
+            "src_brighttower_linkedin_2026",
+            "src_brighttower_finra_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_services_sell-side-representation",
+          "field": "services",
+          "value": "sell-side representation",
+          "source_ids": [
+            "src_brighttower_linkedin_2026",
+            "src_brighttower_finra_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_industries_software",
+          "field": "industries",
+          "value": "Software",
+          "source_ids": [
+            "src_brighttower_linkedin_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_industries_technology-enabled-marketing",
+          "field": "industries",
+          "value": "Technology-enabled Marketing",
+          "source_ids": [
+            "src_brighttower_linkedin_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_industries_it-business-services",
+          "field": "industries",
+          "value": "IT Business Services",
+          "source_ids": [
+            "src_brighttower_linkedin_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_brighttower_industries_information-services",
+          "field": "industries",
+          "value": "Information Services",
+          "source_ids": [
+            "src_brighttower_linkedin_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3071,11 +3731,43 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_brighttower_linkedin_2026",
+          "url": "https://www.linkedin.com/company/brighttower",
+          "title": "BrightTower Company Profile",
+          "publisher": "LinkedIn",
+          "source_class": "organization profile",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_brighttower_finra_2026",
+          "url": "https://brokercheck.finra.org/firm/summary/318266",
+          "title": "BrightTower Securities LLC BrokerCheck",
+          "publisher": "FINRA",
+          "source_class": "regulatory",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "mergers and acquisitions advisory",
+        "capital raising",
+        "debt capital markets advisory",
+        "strategic advisory",
+        "sell-side representation"
+      ],
+      "products": [],
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"
@@ -3108,7 +3800,13 @@
         "Investment Banks",
         "M&A Advisors"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Healthcare and Life Sciences",
+        "Consumer",
+        "Digital Media",
+        "Supply Chain and Logistics"
+      ],
       "geographies": [
         "United States"
       ],
@@ -3179,6 +3877,116 @@
             "src_intrepid-investment-bankers_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_mergers-and-acquisitions-advisory",
+          "field": "services",
+          "value": "mergers and acquisitions advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_sell-side-advisory",
+          "field": "services",
+          "value": "sell-side advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_buy-side-advisory",
+          "field": "services",
+          "value": "buy-side advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_capital-raising",
+          "field": "services",
+          "value": "capital raising",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_strategic-advisory",
+          "field": "services",
+          "value": "strategic advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_capital-markets-advisory",
+          "field": "services",
+          "value": "capital markets advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_healthcare-and-life-sciences",
+          "field": "industries",
+          "value": "Healthcare and Life Sciences",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_consumer",
+          "field": "industries",
+          "value": "Consumer",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_digital-media",
+          "field": "industries",
+          "value": "Digital Media",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_supply-chain-and-logistics",
+          "field": "industries",
+          "value": "Supply Chain and Logistics",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3199,11 +4007,44 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_intrepid_industries_2026",
+          "url": "https://intrepidib.com/industries/",
+          "title": "Intrepid Industries",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_intrepid_healthcare_2026",
+          "url": "https://intrepidib.com/industries/healthcare-life-sciences/",
+          "title": "Healthcare and Life Sciences Investment Banking",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "mergers and acquisitions advisory",
+        "sell-side advisory",
+        "buy-side advisory",
+        "capital raising",
+        "strategic advisory",
+        "capital markets advisory"
+      ],
+      "products": [],
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"
@@ -3376,7 +4217,7 @@
       "name": "Indian Hills Advisors",
       "slug": "indian-hills-advisors",
       "entity_type": "Organization",
-      "description": "Indian Hills Advisors provides mergers-and-acquisitions and strategic advisory services.",
+      "description": "Indian Hills Advisors is retained as a historical index record; its listed domain was parked on 2026-08-11, so current operating status and services require verification.",
       "website": "https://indianhillsadvisors.com/",
       "cxo_roles": [
         "CEO",
@@ -3392,7 +4233,7 @@
       ],
       "aliases": [],
       "parent_company": null,
-      "relationship_notes": null,
+      "relationship_notes": "The previously listed official domain resolves to a parked-domain page as of 2026-08-11. Current service claims are withheld pending entity resolution.",
       "editorial_priority": "A",
       "facts": [
         {
@@ -3400,16 +4241,18 @@
           "field": "identity",
           "value": "Indian Hills Advisors",
           "source_ids": [
-            "src_indian-hills-advisors_official"
+            "src_indian-hills-advisors_official",
+            "src_indian_hills_fei_2026"
           ],
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_indian-hills-advisors_description_indian-hills-advisors-provides-mergers-and-acqui",
+          "id": "fact_indian-hills-advisors_description_indian-hills-advisors-is-retained-as-a-historica",
           "field": "description",
-          "value": "Indian Hills Advisors provides mergers-and-acquisitions and strategic advisory services.",
+          "value": "Indian Hills Advisors is retained as a historical index record; its listed domain was parked on 2026-08-11, so current operating status and services require verification.",
           "source_ids": [
-            "src_indian-hills-advisors_official"
+            "src_indian-hills-advisors_official",
+            "src_indian_hills_lander_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3457,6 +4300,25 @@
             "src_indian-hills-advisors_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_verification-status_needs-verification",
+          "field": "verification_status",
+          "value": "needs verification",
+          "source_ids": [
+            "src_indian_hills_lander_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_indian-hills-advisors_relationship-notes_the-previously-listed-official-domain-resolves-t",
+          "field": "relationship_notes",
+          "value": "The previously listed official domain resolves to a parked-domain page as of 2026-08-11. Current service claims are withheld pending entity resolution.",
+          "source_ids": [
+            "src_indian_hills_lander_2026",
+            "src_indian_hills_fei_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3477,11 +4339,38 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_indian_hills_lander_2026",
+          "url": "https://indianhillsadvisors.com/lander",
+          "title": "Parked Domain Landing Page",
+          "publisher": "Indian Hills Advisors domain",
+          "source_class": "official domain",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "description",
+            "verification_status",
+            "relationship_notes"
+          ]
+        },
+        {
+          "id": "src_indian_hills_fei_2026",
+          "url": "https://feisv.org/board",
+          "title": "FEI Silicon Valley Board of Directors",
+          "publisher": "Financial Executives International Silicon Valley",
+          "source_class": "professional association",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "relationship_notes"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
-      "verification_status": "verified",
+      "verification_status": "needs verification",
+      "services": [],
+      "products": [],
       "primary_category": "M&A Advisors",
       "secondary_categories": [
         "Investment Banks"

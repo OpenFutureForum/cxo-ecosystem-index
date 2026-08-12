@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "schema_version": "3.1.0",
   "facts": [
     {
@@ -4693,6 +4693,149 @@
       "entity_id": "ent_wells_fargo"
     },
     {
+      "id": "fact_wells-fargo_services_corporate-banking",
+      "field": "services",
+      "value": "corporate banking",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_investment-banking",
+      "field": "services",
+      "value": "investment banking",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_capital-markets",
+      "field": "services",
+      "value": "capital markets",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_global-markets",
+      "field": "services",
+      "value": "global markets",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_commercial-real-estate-finance",
+      "field": "services",
+      "value": "commercial real estate finance",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_lending",
+      "field": "services",
+      "value": "lending",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_services_global-payments-and-liquidity",
+      "field": "services",
+      "value": "global payments and liquidity",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_technology-media-and-telecom",
+      "field": "industries",
+      "value": "Technology Media and Telecom",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_energy-and-power",
+      "field": "industries",
+      "value": "Energy and Power",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_financial-institutions",
+      "field": "industries",
+      "value": "Financial Institutions",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_industrials",
+      "field": "industries",
+      "value": "Industrials",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_industries_consumer-and-retail",
+      "field": "industries",
+      "value": "Consumer and Retail",
+      "source_ids": [
+        "src_wells_cib_2026",
+        "src_wells_investment_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
       "id": "fact_citizens-private-bank_identity_citizens-private-bank",
       "field": "identity",
       "value": "Citizens Private Bank",
@@ -4768,6 +4911,72 @@
       "value": "Citizens Financial Group, Inc.",
       "source_ids": [
         "src_citizens-private-bank_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_private-banking",
+      "field": "services",
+      "value": "private banking",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_wealth-management",
+      "field": "services",
+      "value": "wealth management",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_investment-management",
+      "field": "services",
+      "value": "investment management",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_financial-planning",
+      "field": "services",
+      "value": "financial planning",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_custom-lending",
+      "field": "services",
+      "value": "custom lending",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_citizens_private_bank"
+    },
+    {
+      "id": "fact_citizens-private-bank_services_trust-and-estate-services",
+      "field": "services",
+      "value": "trust and estate services",
+      "source_ids": [
+        "src_citizens_wealth_2026",
+        "src_citizens_products_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_citizens_private_bank"
@@ -5108,6 +5317,83 @@
       "value": "Board",
       "source_ids": [
         "src_morgan-stanley_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_wealth-management",
+      "field": "services",
+      "value": "wealth management",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_investment-banking",
+      "field": "services",
+      "value": "investment banking",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_sales-and-trading",
+      "field": "services",
+      "value": "sales and trading",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_investment-management",
+      "field": "services",
+      "value": "investment management",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_research",
+      "field": "services",
+      "value": "research",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_capital-markets",
+      "field": "services",
+      "value": "capital markets",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_morgan_stanley"
+    },
+    {
+      "id": "fact_morgan-stanley_services_private-wealth-management",
+      "field": "services",
+      "value": "private wealth management",
+      "source_ids": [
+        "src_morgan_what_we_do_2026",
+        "src_morgan_banking_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_morgan_stanley"
@@ -5540,6 +5826,83 @@
       "entity_id": "ent_stifel"
     },
     {
+      "id": "fact_stifel_services_wealth-management",
+      "field": "services",
+      "value": "wealth management",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_investment-banking",
+      "field": "services",
+      "value": "investment banking",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_institutional-brokerage",
+      "field": "services",
+      "value": "institutional brokerage",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_equity-research",
+      "field": "services",
+      "value": "equity research",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_fixed-income-capital-markets",
+      "field": "services",
+      "value": "fixed income capital markets",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_public-finance",
+      "field": "services",
+      "value": "public finance",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
+      "id": "fact_stifel_services_asset-management",
+      "field": "services",
+      "value": "asset management",
+      "source_ids": [
+        "src_stifel_about_2026",
+        "src_stifel_advisory_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_stifel"
+    },
+    {
       "id": "fact_deutsche-bank_identity_deutsche-bank",
       "field": "identity",
       "value": "Deutsche Bank",
@@ -5615,6 +5978,83 @@
       "value": "CFO",
       "source_ids": [
         "src_deutsche-bank_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_corporate-banking",
+      "field": "services",
+      "value": "corporate banking",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_investment-banking",
+      "field": "services",
+      "value": "investment banking",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_private-banking",
+      "field": "services",
+      "value": "private banking",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_asset-management",
+      "field": "services",
+      "value": "asset management",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_transaction-banking",
+      "field": "services",
+      "value": "transaction banking",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_wealth-management",
+      "field": "services",
+      "value": "wealth management",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deutsche_bank"
+    },
+    {
+      "id": "fact_deutsche-bank_services_capital-markets",
+      "field": "services",
+      "value": "capital markets",
+      "source_ids": [
+        "src_db_what_we_do_2026",
+        "src_db_products_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_deutsche_bank"
@@ -6040,11 +6480,13 @@
       "entity_id": "ent_next47"
     },
     {
-      "id": "fact_next47_website_https-www-next47-com",
+      "id": "fact_next47_website_https-www-n47-com",
       "field": "website",
-      "value": "https://www.next47.com/",
+      "value": "https://www.n47.com/",
       "source_ids": [
-        "src_next47_official"
+        "src_next47_official",
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_next47"
@@ -6085,6 +6527,123 @@
       "value": "CTO",
       "source_ids": [
         "src_next47_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_aliases_next47",
+      "field": "aliases",
+      "value": "Next47",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_aliases_n47",
+      "field": "aliases",
+      "value": "N47",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_services_venture-capital-investment",
+      "field": "services",
+      "value": "venture capital investment",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_services_enterprise-technology-investing",
+      "field": "services",
+      "value": "enterprise technology investing",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_services_founder-support",
+      "field": "services",
+      "value": "founder support",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_services_portfolio-company-support",
+      "field": "services",
+      "value": "portfolio company support",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_services_growth-stage-investing",
+      "field": "services",
+      "value": "growth-stage investing",
+      "source_ids": [
+        "src_n47_portfolio_2026",
+        "src_n47_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_industries_enterprise-technology",
+      "field": "industries",
+      "value": "Enterprise Technology",
+      "source_ids": [
+        "src_n47_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_n47_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_industries_cybersecurity",
+      "field": "industries",
+      "value": "Cybersecurity",
+      "source_ids": [
+        "src_n47_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_next47"
+    },
+    {
+      "id": "fact_next47_industries_industrial-technology",
+      "field": "industries",
+      "value": "Industrial Technology",
+      "source_ids": [
+        "src_n47_portfolio_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_next47"
@@ -6170,6 +6729,116 @@
       "entity_id": "ent_westcap"
     },
     {
+      "id": "fact_westcap_services_growth-equity-investment",
+      "field": "services",
+      "value": "growth equity investment",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_services_strategic-operating-support",
+      "field": "services",
+      "value": "strategic operating support",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_services_portfolio-company-scaling",
+      "field": "services",
+      "value": "portfolio company scaling",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_services_technology-investment",
+      "field": "services",
+      "value": "technology investment",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_services_founder-partnership",
+      "field": "services",
+      "value": "founder partnership",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_industries_financial-technology",
+      "field": "industries",
+      "value": "Financial Technology",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_industries_real-estate-technology",
+      "field": "industries",
+      "value": "Real Estate Technology",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
+      "id": "fact_westcap_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_westcap_approach_2026",
+        "src_westcap_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_westcap"
+    },
+    {
       "id": "fact_one-way-ventures_identity_one-way-ventures",
       "field": "identity",
       "value": "One Way Ventures",
@@ -6225,6 +6894,116 @@
       "value": "CFO",
       "source_ids": [
         "src_one-way-ventures_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_early-stage-venture-investment",
+      "field": "services",
+      "value": "early-stage venture investment",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_pre-seed-investment",
+      "field": "services",
+      "value": "pre-seed investment",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_seed-investment",
+      "field": "services",
+      "value": "seed investment",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_founder-support",
+      "field": "services",
+      "value": "founder support",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_immigrant-founder-network",
+      "field": "services",
+      "value": "immigrant-founder network",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_services_portfolio-company-support",
+      "field": "services",
+      "value": "portfolio company support",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_industries_software",
+      "field": "industries",
+      "value": "Software",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_one_way_ventures"
+    },
+    {
+      "id": "fact_one-way-ventures_industries_fintech",
+      "field": "industries",
+      "value": "Fintech",
+      "source_ids": [
+        "src_oneway_about_2026",
+        "src_oneway_portfolio_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_one_way_ventures"
@@ -6380,11 +7159,13 @@
       "entity_id": "ent_western_technology_investment"
     },
     {
-      "id": "fact_western-technology-investment_website_https-www-wti-com",
+      "id": "fact_western-technology-investment_website_https-www-westerntech-com",
       "field": "website",
-      "value": "https://www.wti.com/",
+      "value": "https://www.westerntech.com/",
       "source_ids": [
-        "src_western-technology-investment_official"
+        "src_western-technology-investment_official",
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_western_technology_investment"
@@ -6430,11 +7211,139 @@
       "entity_id": "ent_western_technology_investment"
     },
     {
+      "id": "fact_western-technology-investment_aliases_western-technology-investment",
+      "field": "aliases",
+      "value": "Western Technology Investment",
+      "source_ids": [
+        "src_western-technology-investment_official",
+        "src_wti_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
       "id": "fact_western-technology-investment_aliases_wti",
       "field": "aliases",
       "value": "WTI",
       "source_ids": [
-        "src_western-technology-investment_official"
+        "src_western-technology-investment_official",
+        "src_wti_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_venture-debt",
+      "field": "services",
+      "value": "venture debt",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_growth-capital",
+      "field": "services",
+      "value": "growth capital",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_startup-debt-financing",
+      "field": "services",
+      "value": "startup debt financing",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_credit-facilities",
+      "field": "services",
+      "value": "credit facilities",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_acquisition-financing",
+      "field": "services",
+      "value": "acquisition financing",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_services_non-dilutive-financing",
+      "field": "services",
+      "value": "non-dilutive financing",
+      "source_ids": [
+        "src_wti_team_2026",
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_industries_semiconductors",
+      "field": "industries",
+      "value": "Semiconductors",
+      "source_ids": [
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_industries_enterprise-software",
+      "field": "industries",
+      "value": "Enterprise Software",
+      "source_ids": [
+        "src_wti_portfolio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_western_technology_investment"
+    },
+    {
+      "id": "fact_western-technology-investment_industries_fintech",
+      "field": "industries",
+      "value": "Fintech",
+      "source_ids": [
+        "src_wti_portfolio_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_western_technology_investment"
@@ -6500,11 +7409,128 @@
       "entity_id": "ent_avenue_capital_group"
     },
     {
+      "id": "fact_avenue-capital-group_services_opportunistic-credit-investing",
+      "field": "services",
+      "value": "opportunistic credit investing",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_services_special-situations-investing",
+      "field": "services",
+      "value": "special situations investing",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_services_senior-secured-lending",
+      "field": "services",
+      "value": "senior secured lending",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_services_growth-lending",
+      "field": "services",
+      "value": "growth lending",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_services_distressed-debt-investing",
+      "field": "services",
+      "value": "distressed debt investing",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_services_real-estate-debt-investing",
+      "field": "services",
+      "value": "real estate debt investing",
+      "source_ids": [
+        "src_avenue_strategies_2026",
+        "src_avenue_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_industries_aviation",
+      "field": "industries",
+      "value": "Aviation",
+      "source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_industries_energy",
+      "field": "industries",
+      "value": "Energy",
+      "source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_industries_real-estate",
+      "field": "industries",
+      "value": "Real Estate",
+      "source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
       "id": "fact_brighttower_identity_brighttower",
       "field": "identity",
       "value": "BrightTower",
       "source_ids": [
-        "src_brighttower_official"
+        "src_brighttower_official",
+        "src_brighttower_finra_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_brighttower"
@@ -6565,6 +7591,101 @@
       "value": "CFO",
       "source_ids": [
         "src_brighttower_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_services_mergers-and-acquisitions-advisory",
+      "field": "services",
+      "value": "mergers and acquisitions advisory",
+      "source_ids": [
+        "src_brighttower_linkedin_2026",
+        "src_brighttower_finra_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_services_capital-raising",
+      "field": "services",
+      "value": "capital raising",
+      "source_ids": [
+        "src_brighttower_linkedin_2026",
+        "src_brighttower_finra_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_services_debt-capital-markets-advisory",
+      "field": "services",
+      "value": "debt capital markets advisory",
+      "source_ids": [
+        "src_brighttower_linkedin_2026",
+        "src_brighttower_finra_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_services_strategic-advisory",
+      "field": "services",
+      "value": "strategic advisory",
+      "source_ids": [
+        "src_brighttower_linkedin_2026",
+        "src_brighttower_finra_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_services_sell-side-representation",
+      "field": "services",
+      "value": "sell-side representation",
+      "source_ids": [
+        "src_brighttower_linkedin_2026",
+        "src_brighttower_finra_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_industries_software",
+      "field": "industries",
+      "value": "Software",
+      "source_ids": [
+        "src_brighttower_linkedin_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_industries_technology-enabled-marketing",
+      "field": "industries",
+      "value": "Technology-enabled Marketing",
+      "source_ids": [
+        "src_brighttower_linkedin_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_industries_it-business-services",
+      "field": "industries",
+      "value": "IT Business Services",
+      "source_ids": [
+        "src_brighttower_linkedin_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_brighttower"
+    },
+    {
+      "id": "fact_brighttower_industries_information-services",
+      "field": "industries",
+      "value": "Information Services",
+      "source_ids": [
+        "src_brighttower_linkedin_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_brighttower"
@@ -6635,6 +7756,127 @@
       "value": "CFO",
       "source_ids": [
         "src_intrepid-investment-bankers_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_mergers-and-acquisitions-advisory",
+      "field": "services",
+      "value": "mergers and acquisitions advisory",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_sell-side-advisory",
+      "field": "services",
+      "value": "sell-side advisory",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_buy-side-advisory",
+      "field": "services",
+      "value": "buy-side advisory",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_capital-raising",
+      "field": "services",
+      "value": "capital raising",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_strategic-advisory",
+      "field": "services",
+      "value": "strategic advisory",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_services_capital-markets-advisory",
+      "field": "services",
+      "value": "capital markets advisory",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_industries_healthcare-and-life-sciences",
+      "field": "industries",
+      "value": "Healthcare and Life Sciences",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_industries_digital-media",
+      "field": "industries",
+      "value": "Digital Media",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_industries_supply-chain-and-logistics",
+      "field": "industries",
+      "value": "Supply Chain and Logistics",
+      "source_ids": [
+        "src_intrepid_industries_2026",
+        "src_intrepid_healthcare_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -6810,6 +8052,149 @@
       "entity_id": "ent_dla_piper"
     },
     {
+      "id": "fact_dla-piper_services_corporate-law",
+      "field": "services",
+      "value": "corporate law",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_mergers-and-acquisitions-counsel",
+      "field": "services",
+      "value": "mergers and acquisitions counsel",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_finance-law",
+      "field": "services",
+      "value": "finance law",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_data-privacy-and-cybersecurity-law",
+      "field": "services",
+      "value": "data privacy and cybersecurity law",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_intellectual-property-law",
+      "field": "services",
+      "value": "intellectual property law",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_tax-law",
+      "field": "services",
+      "value": "tax law",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_services_regulatory-counsel",
+      "field": "services",
+      "value": "regulatory counsel",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_energy",
+      "field": "industries",
+      "value": "Energy",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_dla_capabilities_2026",
+        "src_dla_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
       "id": "fact_simmons-simmons_identity_simmons-simmons",
       "field": "identity",
       "value": "Simmons & Simmons",
@@ -6875,6 +8260,138 @@
       "value": "General Counsel",
       "source_ids": [
         "src_simmons-simmons_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_corporate-and-m-a-law",
+      "field": "services",
+      "value": "corporate and M&A law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_banking-and-finance-law",
+      "field": "services",
+      "value": "banking and finance law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_capital-markets-law",
+      "field": "services",
+      "value": "capital markets law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_data-protection-and-privacy-law",
+      "field": "services",
+      "value": "data protection and privacy law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_tax-law",
+      "field": "services",
+      "value": "tax law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_venture-capital-law",
+      "field": "services",
+      "value": "venture capital law",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_services_dispute-resolution",
+      "field": "services",
+      "value": "dispute resolution",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_industries_asset-management",
+      "field": "industries",
+      "value": "Asset Management",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_industries_financial-institutions",
+      "field": "industries",
+      "value": "Financial Institutions",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_industries_healthcare-and-life-sciences",
+      "field": "industries",
+      "value": "Healthcare and Life Sciences",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_industries_technology-media-and-telecommunications",
+      "field": "industries",
+      "value": "Technology Media and Telecommunications",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_industries_energy-and-infrastructure",
+      "field": "industries",
+      "value": "Energy and Infrastructure",
+      "source_ids": [
+        "src_simmons_expertise_2026",
+        "src_simmons_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -7645,6 +9162,133 @@
       "entity_id": "ent_cfgi"
     },
     {
+      "id": "fact_cfgi_services_accounting-advisory",
+      "field": "services",
+      "value": "accounting advisory",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_transaction-advisory",
+      "field": "services",
+      "value": "transaction advisory",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_tax-advisory",
+      "field": "services",
+      "value": "tax advisory",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_risk-and-compliance",
+      "field": "services",
+      "value": "risk and compliance",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_valuation",
+      "field": "services",
+      "value": "valuation",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_finance-transformation",
+      "field": "services",
+      "value": "finance transformation",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_services_program-management",
+      "field": "services",
+      "value": "program management",
+      "source_ids": [
+        "src_cfgi_solutions_2026",
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_industries_industrial",
+      "field": "industries",
+      "value": "Industrial",
+      "source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
       "id": "fact_armanino_identity_armanino",
       "field": "identity",
       "value": "Armanino",
@@ -7905,6 +9549,122 @@
       "entity_id": "ent_frank_rimerman_co"
     },
     {
+      "id": "fact_frank-rimerman-co_services_audit-and-assurance",
+      "field": "services",
+      "value": "audit and assurance",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_services_global-and-domestic-tax",
+      "field": "services",
+      "value": "global and domestic tax",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_services_accounting-and-cfo-advisory",
+      "field": "services",
+      "value": "accounting and CFO advisory",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_services_business-valuation",
+      "field": "services",
+      "value": "business valuation",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_services_transaction-advisory",
+      "field": "services",
+      "value": "transaction advisory",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_services_wealth-management",
+      "field": "services",
+      "value": "wealth management",
+      "source_ids": [
+        "src_frank_business_2026",
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_industries_venture-capital",
+      "field": "industries",
+      "value": "Venture Capital",
+      "source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_industries_real-estate",
+      "field": "industries",
+      "value": "Real Estate",
+      "source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_industries_professional-services",
+      "field": "industries",
+      "value": "Professional Services",
+      "source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
       "id": "fact_burkland_identity_burkland",
       "field": "identity",
       "value": "Burkland",
@@ -7985,6 +9745,116 @@
       "entity_id": "ent_burkland"
     },
     {
+      "id": "fact_burkland_services_fractional-cfo-services",
+      "field": "services",
+      "value": "fractional CFO services",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_services_startup-accounting",
+      "field": "services",
+      "value": "startup accounting",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_services_strategic-finance",
+      "field": "services",
+      "value": "strategic finance",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_services_startup-tax-services",
+      "field": "services",
+      "value": "startup tax services",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_services_startup-hr-services",
+      "field": "services",
+      "value": "startup HR services",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_services_payroll-administration",
+      "field": "services",
+      "value": "payroll administration",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_industries_startups",
+      "field": "industries",
+      "value": "Startups",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
+      "id": "fact_burkland_industries_consumer",
+      "field": "industries",
+      "value": "Consumer",
+      "source_ids": [
+        "src_burkland_cfo_2026",
+        "src_burkland_accounting_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_burkland"
+    },
+    {
       "id": "fact_danforth-advisors_identity_danforth-advisors",
       "field": "identity",
       "value": "Danforth Advisors",
@@ -8050,6 +9920,105 @@
       "value": "CFO",
       "source_ids": [
         "src_danforth-advisors_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_operational-finance-and-accounting",
+      "field": "services",
+      "value": "operational finance and accounting",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_strategic-finance",
+      "field": "services",
+      "value": "strategic finance",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_fractional-cfo-services",
+      "field": "services",
+      "value": "fractional CFO services",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_strategic-human-resources",
+      "field": "services",
+      "value": "strategic human resources",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_risk-management",
+      "field": "services",
+      "value": "risk management",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_services_transaction-support",
+      "field": "services",
+      "value": "transaction support",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_industries_life-sciences",
+      "field": "industries",
+      "value": "Life Sciences",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_industries_biotechnology",
+      "field": "industries",
+      "value": "Biotechnology",
+      "source_ids": [
+        "src_danforth_capabilities_2026",
+        "src_danforth_finance_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -8220,6 +10189,133 @@
       "value": "GHJ Advisors",
       "source_ids": [
         "src_ghj_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_audit-and-assurance",
+      "field": "services",
+      "value": "audit and assurance",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_tax-services",
+      "field": "services",
+      "value": "tax services",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_advisory-services",
+      "field": "services",
+      "value": "advisory services",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_transaction-advisory",
+      "field": "services",
+      "value": "transaction advisory",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_fractional-cfo-services",
+      "field": "services",
+      "value": "fractional CFO services",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_forensic-accounting",
+      "field": "services",
+      "value": "forensic accounting",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_services_outsourced-accounting",
+      "field": "services",
+      "value": "outsourced accounting",
+      "source_ids": [
+        "src_ghj_tax_2026",
+        "src_ghj_forensic_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_industries_entertainment-and-media",
+      "field": "industries",
+      "value": "Entertainment and Media",
+      "source_ids": [
+        "src_ghj_tax_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_industries_food-and-beverage",
+      "field": "industries",
+      "value": "Food and Beverage",
+      "source_ids": [
+        "src_ghj_tax_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_industries_nonprofit",
+      "field": "industries",
+      "value": "Nonprofit",
+      "source_ids": [
+        "src_ghj_tax_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_industries_manufacturing",
+      "field": "industries",
+      "value": "Manufacturing",
+      "source_ids": [
+        "src_ghj_tax_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_industries_real-estate",
+      "field": "industries",
+      "value": "Real Estate",
+      "source_ids": [
+        "src_ghj_tax_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -9228,6 +11324,127 @@
       "entity_id": "ent_robert_half"
     },
     {
+      "id": "fact_robert-half_services_contract-talent-staffing",
+      "field": "services",
+      "value": "contract talent staffing",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_services_permanent-placement",
+      "field": "services",
+      "value": "permanent placement",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_services_executive-search",
+      "field": "services",
+      "value": "executive search",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_services_managed-solutions",
+      "field": "services",
+      "value": "managed solutions",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_services_consulting",
+      "field": "services",
+      "value": "consulting",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_services_talent-recruitment",
+      "field": "services",
+      "value": "talent recruitment",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_industries_accounting-and-finance",
+      "field": "industries",
+      "value": "Accounting and Finance",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_industries_marketing-and-creative",
+      "field": "industries",
+      "value": "Marketing and Creative",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_industries_legal",
+      "field": "industries",
+      "value": "Legal",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_industries_administrative-support",
+      "field": "industries",
+      "value": "Administrative Support",
+      "source_ids": [
+        "src_robert_finance_2026",
+        "src_robert_tech_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
       "id": "fact_findem_identity_findem",
       "field": "identity",
       "value": "Findem",
@@ -9293,6 +11510,105 @@
       "value": "CHRO",
       "source_ids": [
         "src_findem_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_talent-sourcing",
+      "field": "products",
+      "value": "talent sourcing",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_talent-marketing",
+      "field": "products",
+      "value": "talent marketing",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_executive-search-platform",
+      "field": "products",
+      "value": "executive search platform",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_talent-analytics",
+      "field": "products",
+      "value": "talent analytics",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_market-intelligence",
+      "field": "products",
+      "value": "market intelligence",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_products_candidate-relationship-management",
+      "field": "products",
+      "value": "candidate relationship management",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_services_ai-talent-search",
+      "field": "services",
+      "value": "AI talent search",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_services_recruiting-automation",
+      "field": "services",
+      "value": "recruiting automation",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_services_workforce-intelligence",
+      "field": "services",
+      "value": "workforce intelligence",
+      "source_ids": [
+        "src_findem_platform_2026",
+        "src_findem_sourcing_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -9378,6 +11694,116 @@
       "entity_id": "ent_rippling"
     },
     {
+      "id": "fact_rippling_products_hr-management",
+      "field": "products",
+      "value": "HR management",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_payroll",
+      "field": "products",
+      "value": "payroll",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_it-management",
+      "field": "products",
+      "value": "IT management",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_finance-management",
+      "field": "products",
+      "value": "finance management",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_benefits-administration",
+      "field": "products",
+      "value": "benefits administration",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_expense-management",
+      "field": "products",
+      "value": "expense management",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_products_ai-workforce-tools",
+      "field": "products",
+      "value": "AI workforce tools",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_services_workforce-management-platform",
+      "field": "services",
+      "value": "workforce management platform",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_services_global-payroll",
+      "field": "services",
+      "value": "global payroll",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_services_device-and-identity-management",
+      "field": "services",
+      "value": "device and identity management",
+      "source_ids": [
+        "src_rippling_hr_2026",
+        "src_rippling_it_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
       "id": "fact_deel_identity_deel",
       "field": "identity",
       "value": "Deel",
@@ -9448,6 +11874,116 @@
       "entity_id": "ent_deel"
     },
     {
+      "id": "fact_deel_products_global-payroll",
+      "field": "products",
+      "value": "global payroll",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_hr-platform",
+      "field": "products",
+      "value": "HR platform",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_it-management",
+      "field": "products",
+      "value": "IT management",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_benefits-administration",
+      "field": "products",
+      "value": "benefits administration",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_global-hiring",
+      "field": "products",
+      "value": "global hiring",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_immigration-and-mobility",
+      "field": "products",
+      "value": "immigration and mobility",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_products_ai-workforce-tools",
+      "field": "products",
+      "value": "AI workforce tools",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_services_employer-of-record",
+      "field": "services",
+      "value": "employer of record",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_services_contractor-management",
+      "field": "services",
+      "value": "contractor management",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
+      "id": "fact_deel_services_global-compliance",
+      "field": "services",
+      "value": "global compliance",
+      "source_ids": [
+        "src_deel_payroll_2026",
+        "src_deel_hr_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_deel"
+    },
+    {
       "id": "fact_lattice_identity_lattice",
       "field": "identity",
       "value": "Lattice",
@@ -9493,6 +12029,105 @@
       "value": "CHRO",
       "source_ids": [
         "src_lattice_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_performance-management",
+      "field": "products",
+      "value": "performance management",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_employee-engagement",
+      "field": "products",
+      "value": "employee engagement",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_people-analytics",
+      "field": "products",
+      "value": "people analytics",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_compensation-management",
+      "field": "products",
+      "value": "compensation management",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_objectives-and-key-results",
+      "field": "products",
+      "value": "objectives and key results",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_products_employee-growth-tools",
+      "field": "products",
+      "value": "employee growth tools",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_services_people-management-platform",
+      "field": "services",
+      "value": "people management platform",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_services_performance-reviews",
+      "field": "services",
+      "value": "performance reviews",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lattice"
+    },
+    {
+      "id": "fact_lattice_services_engagement-surveys",
+      "field": "services",
+      "value": "engagement surveys",
+      "source_ids": [
+        "src_lattice_platform_2026",
+        "src_lattice_performance_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_lattice"
@@ -9558,6 +12193,116 @@
       "entity_id": "ent_trinet"
     },
     {
+      "id": "fact_trinet_products_trinet-peo",
+      "field": "products",
+      "value": "TriNet PEO",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_products_trinet-hr-plus",
+      "field": "products",
+      "value": "TriNet HR Plus",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_products_trinet-payroll",
+      "field": "products",
+      "value": "TriNet Payroll",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_products_hr-technology-platform",
+      "field": "products",
+      "value": "HR technology platform",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_professional-employer-organization-services",
+      "field": "services",
+      "value": "professional employer organization services",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_payroll-administration",
+      "field": "services",
+      "value": "payroll administration",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_employee-benefits",
+      "field": "services",
+      "value": "employee benefits",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_hr-compliance",
+      "field": "services",
+      "value": "HR compliance",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_risk-mitigation",
+      "field": "services",
+      "value": "risk mitigation",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
+      "id": "fact_trinet_services_talent-management",
+      "field": "services",
+      "value": "talent management",
+      "source_ids": [
+        "src_trinet_solutions_2026",
+        "src_trinet_peo_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_trinet"
+    },
+    {
       "id": "fact_insperity_identity_insperity",
       "field": "identity",
       "value": "Insperity",
@@ -9618,6 +12363,116 @@
       "entity_id": "ent_insperity"
     },
     {
+      "id": "fact_insperity_products_insperity-hr360",
+      "field": "products",
+      "value": "Insperity HR360",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_products_insperity-hrscale",
+      "field": "products",
+      "value": "Insperity HRScale",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_products_insperity-hrcore",
+      "field": "products",
+      "value": "Insperity HRCore",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_products_insperity-premier",
+      "field": "products",
+      "value": "Insperity Premier",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_full-service-hr",
+      "field": "services",
+      "value": "full-service HR",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_payroll-processing",
+      "field": "services",
+      "value": "payroll processing",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_benefits-administration",
+      "field": "services",
+      "value": "benefits administration",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_hr-compliance-support",
+      "field": "services",
+      "value": "HR compliance support",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_workforce-administration",
+      "field": "services",
+      "value": "workforce administration",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
+      "id": "fact_insperity_services_talent-management",
+      "field": "services",
+      "value": "talent management",
+      "source_ids": [
+        "src_insperity_hr360_2026",
+        "src_insperity_hrscale_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_insperity"
+    },
+    {
       "id": "fact_15five_identity_15five",
       "field": "identity",
       "value": "15Five",
@@ -9663,6 +12518,102 @@
       "value": "CHRO",
       "source_ids": [
         "src_15five_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_performance-management-platform",
+      "field": "products",
+      "value": "performance management platform",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_performance-reviews",
+      "field": "products",
+      "value": "performance reviews",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_employee-engagement-surveys",
+      "field": "products",
+      "value": "employee engagement surveys",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_manager-effectiveness-tools",
+      "field": "products",
+      "value": "manager effectiveness tools",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_objectives-and-key-results",
+      "field": "products",
+      "value": "objectives and key results",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_products_ai-coaching-and-hr-agents",
+      "field": "products",
+      "value": "AI coaching and HR agents",
+      "source_ids": [
+        "src_15five_products_2026",
+        "src_15five_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_services_performance-management",
+      "field": "services",
+      "value": "performance management",
+      "source_ids": [
+        "src_15five_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_services_employee-engagement-measurement",
+      "field": "services",
+      "value": "employee engagement measurement",
+      "source_ids": [
+        "src_15five_products_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_15five"
+    },
+    {
+      "id": "fact_15five_services_manager-enablement",
+      "field": "services",
+      "value": "manager enablement",
+      "source_ids": [
+        "src_15five_products_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_15five"
@@ -9813,6 +12764,116 @@
       "value": "COO",
       "source_ids": [
         "src_coupa_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_business-spend-management-platform",
+      "field": "products",
+      "value": "business spend management platform",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_procurement",
+      "field": "products",
+      "value": "procurement",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_invoicing",
+      "field": "products",
+      "value": "invoicing",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_expense-management",
+      "field": "products",
+      "value": "expense management",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_payments",
+      "field": "products",
+      "value": "payments",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_supply-chain-design-and-planning",
+      "field": "products",
+      "value": "supply chain design and planning",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_products_spend-analysis",
+      "field": "products",
+      "value": "spend analysis",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_services_source-to-pay-automation",
+      "field": "services",
+      "value": "source-to-pay automation",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_services_procure-to-pay-automation",
+      "field": "services",
+      "value": "procure-to-pay automation",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_coupa"
+    },
+    {
+      "id": "fact_coupa_services_supplier-management",
+      "field": "services",
+      "value": "supplier management",
+      "source_ids": [
+        "src_coupa_platform_2026",
+        "src_coupa_procurement_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_coupa"
@@ -10419,6 +13480,105 @@
       "entity_id": "ent_tesorio"
     },
     {
+      "id": "fact_tesorio_products_accounts-receivable-automation",
+      "field": "products",
+      "value": "accounts receivable automation",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_products_collections-management",
+      "field": "products",
+      "value": "collections management",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_products_cash-forecasting",
+      "field": "products",
+      "value": "cash forecasting",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_products_collections-campaigns",
+      "field": "products",
+      "value": "collections campaigns",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_products_invoice-to-cash-platform",
+      "field": "products",
+      "value": "invoice-to-cash platform",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_products_ai-collections-tools",
+      "field": "products",
+      "value": "AI collections tools",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_services_cash-flow-performance-management",
+      "field": "services",
+      "value": "cash flow performance management",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_services_accounts-receivable-workflow-automation",
+      "field": "services",
+      "value": "accounts receivable workflow automation",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
+      "id": "fact_tesorio_services_collections-optimization",
+      "field": "services",
+      "value": "collections optimization",
+      "source_ids": [
+        "src_tesorio_collections_2026",
+        "src_tesorio_ar_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_tesorio"
+    },
+    {
       "id": "fact_vic-ai_identity_vic-ai",
       "field": "identity",
       "value": "Vic.ai",
@@ -10484,6 +13644,116 @@
       "value": "CFO",
       "source_ids": [
         "src_vic-ai_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_products_ai-accounts-payable-platform",
+      "field": "products",
+      "value": "AI accounts payable platform",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_products_invoice-processing",
+      "field": "products",
+      "value": "invoice processing",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_products_autopilot",
+      "field": "products",
+      "value": "Autopilot",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_products_vendor-management",
+      "field": "products",
+      "value": "vendor management",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_products_analytics-and-insights",
+      "field": "products",
+      "value": "analytics and insights",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_services_accounts-payable-automation",
+      "field": "services",
+      "value": "accounts payable automation",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_services_invoice-data-extraction",
+      "field": "services",
+      "value": "invoice data extraction",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_services_fraud-prevention",
+      "field": "services",
+      "value": "fraud prevention",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_services_monthly-close-acceleration",
+      "field": "services",
+      "value": "monthly close acceleration",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_vic_ai"
+    },
+    {
+      "id": "fact_vic-ai_services_ap-operations-centralization",
+      "field": "services",
+      "value": "AP operations centralization",
+      "source_ids": [
+        "src_vic_ap_2026",
+        "src_vic_fraud_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_vic_ai"
@@ -11330,6 +14600,116 @@
       "value": "CFO",
       "source_ids": [
         "src_anrok_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_global-sales-tax-platform",
+      "field": "products",
+      "value": "global sales tax platform",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_ai-atlas",
+      "field": "products",
+      "value": "AI Atlas",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_nexus-monitoring",
+      "field": "products",
+      "value": "nexus monitoring",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_tax-registration-workflows",
+      "field": "products",
+      "value": "tax registration workflows",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_tax-calculation",
+      "field": "products",
+      "value": "tax calculation",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_products_tax-filing-and-remittance",
+      "field": "products",
+      "value": "tax filing and remittance",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_services_sales-tax-compliance",
+      "field": "services",
+      "value": "sales tax compliance",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_services_vat-compliance",
+      "field": "services",
+      "value": "VAT compliance",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_services_tax-reconciliation",
+      "field": "services",
+      "value": "tax reconciliation",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_anrok"
+    },
+    {
+      "id": "fact_anrok_services_cross-border-tax-compliance",
+      "field": "services",
+      "value": "cross-border tax compliance",
+      "source_ids": [
+        "src_anrok_borderless_2026",
+        "src_anrok_workflows_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_anrok"
@@ -12999,6 +16379,149 @@
       "value": "CFO",
       "source_ids": [
         "src_zenskar_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_usage-based-billing",
+      "field": "products",
+      "value": "usage-based billing",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_subscription-billing",
+      "field": "products",
+      "value": "subscription billing",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_revenue-recognition",
+      "field": "products",
+      "value": "revenue recognition",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_accounts-receivable-automation",
+      "field": "products",
+      "value": "accounts receivable automation",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_pricing-configuration",
+      "field": "products",
+      "value": "pricing configuration",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_products_billing-analytics",
+      "field": "products",
+      "value": "billing analytics",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_services_quote-to-cash-automation",
+      "field": "services",
+      "value": "quote-to-cash automation",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_services_complex-billing-automation",
+      "field": "services",
+      "value": "complex billing automation",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_services_revenue-operations",
+      "field": "services",
+      "value": "revenue operations",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_industries_saas",
+      "field": "industries",
+      "value": "SaaS",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_industries_cloud-infrastructure",
+      "field": "industries",
+      "value": "Cloud Infrastructure",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_industries_financial-technology",
+      "field": "industries",
+      "value": "Financial Technology",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_zenskar"
+    },
+    {
+      "id": "fact_zenskar_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_zenskar_finance_2026",
+        "src_zenskar_usage_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_zenskar"
@@ -15373,6 +18896,138 @@
       "entity_id": "ent_nvidia"
     },
     {
+      "id": "fact_nvidia_products_gpus",
+      "field": "products",
+      "value": "GPUs",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_dgx-systems",
+      "field": "products",
+      "value": "DGX systems",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_hgx-platforms",
+      "field": "products",
+      "value": "HGX platforms",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_mgx-systems",
+      "field": "products",
+      "value": "MGX systems",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_ai-accelerators",
+      "field": "products",
+      "value": "AI accelerators",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_networking-products",
+      "field": "products",
+      "value": "networking products",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_products_ai-software",
+      "field": "products",
+      "value": "AI software",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_industries_data-centers",
+      "field": "industries",
+      "value": "Data Centers",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_industries_gaming",
+      "field": "industries",
+      "value": "Gaming",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_industries_professional-visualization",
+      "field": "industries",
+      "value": "Professional Visualization",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_industries_automotive",
+      "field": "industries",
+      "value": "Automotive",
+      "source_ids": [
+        "src_nvidia_datacenter_2026",
+        "src_nvidia_dgx_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
       "id": "fact_intel_identity_intel",
       "field": "identity",
       "value": "Intel",
@@ -15438,6 +19093,138 @@
       "value": "CTO",
       "source_ids": [
         "src_intel_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_client-processors",
+      "field": "products",
+      "value": "client processors",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_server-processors",
+      "field": "products",
+      "value": "server processors",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_ai-accelerators",
+      "field": "products",
+      "value": "AI accelerators",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_graphics-processors",
+      "field": "products",
+      "value": "graphics processors",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_networking-products",
+      "field": "products",
+      "value": "networking products",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_fpgas",
+      "field": "products",
+      "value": "FPGAs",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_products_semiconductor-foundry-services",
+      "field": "products",
+      "value": "semiconductor foundry services",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_industries_semiconductors",
+      "field": "industries",
+      "value": "Semiconductors",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_industries_data-centers",
+      "field": "industries",
+      "value": "Data Centers",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_industries_personal-computing",
+      "field": "industries",
+      "value": "Personal Computing",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_industries_networking",
+      "field": "industries",
+      "value": "Networking",
+      "source_ids": [
+        "src_intel_products_2026",
+        "src_intel_processors_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intel"
@@ -15523,6 +19310,116 @@
       "entity_id": "ent_databricks"
     },
     {
+      "id": "fact_databricks_products_data-intelligence-platform",
+      "field": "products",
+      "value": "Data Intelligence Platform",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_data-lakehouse",
+      "field": "products",
+      "value": "data lakehouse",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_data-engineering",
+      "field": "products",
+      "value": "data engineering",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_data-warehousing",
+      "field": "products",
+      "value": "data warehousing",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_machine-learning-and-ai",
+      "field": "products",
+      "value": "machine learning and AI",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_data-governance",
+      "field": "products",
+      "value": "data governance",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_products_business-intelligence",
+      "field": "products",
+      "value": "business intelligence",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_services_data-and-ai-platform",
+      "field": "services",
+      "value": "data and AI platform",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_services_analytics-workloads",
+      "field": "services",
+      "value": "analytics workloads",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_services_generative-ai-development",
+      "field": "services",
+      "value": "generative AI development",
+      "source_ids": [
+        "src_databricks_platform_2026",
+        "src_databricks_lakehouse_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
       "id": "fact_writer_identity_writer",
       "field": "identity",
       "value": "Writer",
@@ -15588,6 +19485,160 @@
       "value": "CTO",
       "source_ids": [
         "src_writer_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_products_writer-agent",
+      "field": "products",
+      "value": "Writer Agent",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_products_ai-studio",
+      "field": "products",
+      "value": "AI Studio",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_products_knowledge-graph",
+      "field": "products",
+      "value": "Knowledge Graph",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_products_graph-based-retrieval-augmented-generation",
+      "field": "products",
+      "value": "graph-based retrieval augmented generation",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_products_enterprise-ai-platform",
+      "field": "products",
+      "value": "enterprise AI platform",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_services_enterprise-ai-agents",
+      "field": "services",
+      "value": "enterprise AI agents",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_services_generative-ai-application-development",
+      "field": "services",
+      "value": "generative AI application development",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_services_ai-governance",
+      "field": "services",
+      "value": "AI governance",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_services_enterprise-knowledge-retrieval",
+      "field": "services",
+      "value": "enterprise knowledge retrieval",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_services_workflow-automation",
+      "field": "services",
+      "value": "workflow automation",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_industries_retail",
+      "field": "industries",
+      "value": "Retail",
+      "source_ids": [
+        "src_writer_agent_2026",
+        "src_writer_studio_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -15663,6 +19714,171 @@
       "entity_id": "ent_scale_ai"
     },
     {
+      "id": "fact_scale-ai_products_scale-data-engine",
+      "field": "products",
+      "value": "Scale Data Engine",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_products_generative-ai-platform",
+      "field": "products",
+      "value": "Generative AI Platform",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_products_agentic-ai-solutions",
+      "field": "products",
+      "value": "agentic AI solutions",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_products_model-evaluation-platform",
+      "field": "products",
+      "value": "model evaluation platform",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_products_public-sector-ai-platform",
+      "field": "products",
+      "value": "public sector AI platform",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_services_ai-data-labeling",
+      "field": "services",
+      "value": "AI data labeling",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_services_model-evaluation",
+      "field": "services",
+      "value": "model evaluation",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_services_ai-application-development",
+      "field": "services",
+      "value": "AI application development",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_services_generative-ai-deployment",
+      "field": "services",
+      "value": "generative AI deployment",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_services_public-sector-ai-delivery",
+      "field": "services",
+      "value": "public sector AI delivery",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_industries_government",
+      "field": "industries",
+      "value": "Government",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_industries_defense",
+      "field": "industries",
+      "value": "Defense",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_industries_automotive",
+      "field": "industries",
+      "value": "Automotive",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_scale_genai_2026",
+        "src_scale_public_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
       "id": "fact_glean_identity_glean",
       "field": "identity",
       "value": "Glean",
@@ -15728,6 +19944,116 @@
       "value": "CTO",
       "source_ids": [
         "src_glean_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_enterprise-search",
+      "field": "products",
+      "value": "enterprise search",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_ai-assistant",
+      "field": "products",
+      "value": "AI assistant",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_ai-agents",
+      "field": "products",
+      "value": "AI agents",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_enterprise-graph",
+      "field": "products",
+      "value": "enterprise graph",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_ai-gateway",
+      "field": "products",
+      "value": "AI gateway",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_model-hub",
+      "field": "products",
+      "value": "model hub",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_products_enterprise-connectors",
+      "field": "products",
+      "value": "enterprise connectors",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_services_enterprise-knowledge-discovery",
+      "field": "services",
+      "value": "enterprise knowledge discovery",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_services_workplace-search",
+      "field": "services",
+      "value": "workplace search",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_glean"
+    },
+    {
+      "id": "fact_glean_services_agentic-automation",
+      "field": "services",
+      "value": "agentic automation",
+      "source_ids": [
+        "src_glean_platform_2026",
+        "src_glean_graph_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_glean"
@@ -15903,6 +20229,105 @@
       "entity_id": "ent_centific"
     },
     {
+      "id": "fact_centific_products_ai-data-marketplace",
+      "field": "products",
+      "value": "AI Data Marketplace",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_products_data-canvas",
+      "field": "products",
+      "value": "Data Canvas",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_products_ai-data-foundry",
+      "field": "products",
+      "value": "AI Data Foundry",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_products_oneforma",
+      "field": "products",
+      "value": "OneForma",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_services_ai-data-collection-and-creation",
+      "field": "services",
+      "value": "AI data collection and creation",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_services_reinforcement-learning-environments",
+      "field": "services",
+      "value": "reinforcement learning environments",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_services_rlhf-preference-optimization",
+      "field": "services",
+      "value": "RLHF preference optimization",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_services_model-evaluation",
+      "field": "services",
+      "value": "model evaluation",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
+      "id": "fact_centific_services_data-annotation",
+      "field": "services",
+      "value": "data annotation",
+      "source_ids": [
+        "src_centific_products_2026",
+        "src_centific_data_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_centific"
+    },
+    {
       "id": "fact_you-com_identity_you-com",
       "field": "identity",
       "value": "You.com",
@@ -15958,6 +20383,127 @@
       "value": "CTO",
       "source_ids": [
         "src_you-com_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_search-api",
+      "field": "products",
+      "value": "Search API",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_contents-api",
+      "field": "products",
+      "value": "Contents API",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_express-agent",
+      "field": "products",
+      "value": "Express Agent",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_advanced-agent",
+      "field": "products",
+      "value": "Advanced Agent",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_research-api",
+      "field": "products",
+      "value": "Research API",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_products_finance-research-api",
+      "field": "products",
+      "value": "Finance Research API",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_services_web-search-for-ai-agents",
+      "field": "services",
+      "value": "web search for AI agents",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_services_citation-backed-answers",
+      "field": "services",
+      "value": "citation-backed answers",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_services_ai-research",
+      "field": "services",
+      "value": "AI research",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_services_content-extraction",
+      "field": "services",
+      "value": "content extraction",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_you_com"
+    },
+    {
+      "id": "fact_you-com_services_finance-research",
+      "field": "services",
+      "value": "finance research",
+      "source_ids": [
+        "src_you_search_2026",
+        "src_you_research_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_you_com"
@@ -16313,6 +20859,101 @@
       "entity_id": "ent_adaptive_security"
     },
     {
+      "id": "fact_adaptive-security_products_security-awareness-training",
+      "field": "products",
+      "value": "security awareness training",
+      "source_ids": [
+        "src_adaptive_enterprise_2026",
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_products_phishing-simulations",
+      "field": "products",
+      "value": "phishing simulations",
+      "source_ids": [
+        "src_adaptive_enterprise_2026",
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_products_email-security",
+      "field": "products",
+      "value": "email security",
+      "source_ids": [
+        "src_adaptive_enterprise_2026",
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_products_ai-governance",
+      "field": "products",
+      "value": "AI governance",
+      "source_ids": [
+        "src_adaptive_enterprise_2026",
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_products_deepfake-and-ai-attack-readiness",
+      "field": "products",
+      "value": "deepfake and AI attack readiness",
+      "source_ids": [
+        "src_adaptive_enterprise_2026",
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_industries_government",
+      "field": "industries",
+      "value": "Government",
+      "source_ids": [
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
+      "id": "fact_adaptive-security_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_adaptive_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_adaptive_security"
+    },
+    {
       "id": "fact_witnessai_identity_witnessai",
       "field": "identity",
       "value": "WitnessAI",
@@ -16393,6 +21034,116 @@
       "entity_id": "ent_witnessai"
     },
     {
+      "id": "fact_witnessai_products_observe",
+      "field": "products",
+      "value": "Observe",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_products_control",
+      "field": "products",
+      "value": "Control",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_products_protect",
+      "field": "products",
+      "value": "Protect",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_products_ai-security-platform",
+      "field": "products",
+      "value": "AI security platform",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_products_ai-usage-discovery",
+      "field": "products",
+      "value": "AI usage discovery",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_services_ai-governance",
+      "field": "services",
+      "value": "AI governance",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_services_ai-policy-enforcement",
+      "field": "services",
+      "value": "AI policy enforcement",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_services_ai-threat-protection",
+      "field": "services",
+      "value": "AI threat protection",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_services_shadow-ai-discovery",
+      "field": "services",
+      "value": "shadow AI discovery",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_services_data-protection-for-ai",
+      "field": "services",
+      "value": "data protection for AI",
+      "source_ids": [
+        "src_witness_product_2026",
+        "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
       "id": "fact_airmdr_identity_airmdr",
       "field": "identity",
       "value": "AirMDR",
@@ -16448,6 +21199,81 @@
       "value": "CISO",
       "source_ids": [
         "src_airmdr_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_services_managed-detection-and-response",
+      "field": "services",
+      "value": "managed detection and response",
+      "source_ids": [
+        "src_airmdr_services_2026",
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_services_24-7-security-operations-monitoring",
+      "field": "services",
+      "value": "24/7 security operations monitoring",
+      "source_ids": [
+        "src_airmdr_services_2026",
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_services_alert-triage",
+      "field": "services",
+      "value": "alert triage",
+      "source_ids": [
+        "src_airmdr_services_2026",
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_services_security-investigations",
+      "field": "services",
+      "value": "security investigations",
+      "source_ids": [
+        "src_airmdr_services_2026",
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_services_threat-response",
+      "field": "services",
+      "value": "threat response",
+      "source_ids": [
+        "src_airmdr_services_2026",
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_products_ai-soc-agent",
+      "field": "products",
+      "value": "AI SOC agent",
+      "source_ids": [
+        "src_airmdr_platform_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_airmdr"
+    },
+    {
+      "id": "fact_airmdr_products_managed-detection-and-response-platform",
+      "field": "products",
+      "value": "managed detection and response platform",
+      "source_ids": [
+        "src_airmdr_platform_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_airmdr"
@@ -16613,6 +21439,127 @@
       "entity_id": "ent_lockton"
     },
     {
+      "id": "fact_lockton_services_commercial-insurance-brokerage",
+      "field": "services",
+      "value": "commercial insurance brokerage",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_services_employee-benefits-consulting",
+      "field": "services",
+      "value": "employee benefits consulting",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_services_risk-management",
+      "field": "services",
+      "value": "risk management",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_services_reinsurance",
+      "field": "services",
+      "value": "reinsurance",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_services_claims-consulting",
+      "field": "services",
+      "value": "claims consulting",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_services_people-solutions",
+      "field": "services",
+      "value": "people solutions",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_industries_construction",
+      "field": "industries",
+      "value": "Construction",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_industries_energy",
+      "field": "industries",
+      "value": "Energy",
+      "source_ids": [
+        "src_lockton_products_2026",
+        "src_lockton_people_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
       "id": "fact_heffernan-insurance-brokers_identity_heffernan-insurance-brokers",
       "field": "identity",
       "value": "Heffernan Insurance Brokers",
@@ -16683,6 +21630,122 @@
       "entity_id": "ent_heffernan_insurance_brokers"
     },
     {
+      "id": "fact_heffernan-insurance-brokers_services_commercial-insurance",
+      "field": "services",
+      "value": "commercial insurance",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_services_employee-benefits",
+      "field": "services",
+      "value": "employee benefits",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_services_private-client-insurance",
+      "field": "services",
+      "value": "private client insurance",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_services_risk-management",
+      "field": "services",
+      "value": "risk management",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_services_benefits-advisory",
+      "field": "services",
+      "value": "benefits advisory",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_services_insurance-technology-solutions",
+      "field": "services",
+      "value": "insurance technology solutions",
+      "source_ids": [
+        "src_heffernan_benefits_2026",
+        "src_heffernan_private_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_industries_professional-services",
+      "field": "industries",
+      "value": "Professional Services",
+      "source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_industries_construction",
+      "field": "industries",
+      "value": "Construction",
+      "source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_industries_nonprofit",
+      "field": "industries",
+      "value": "Nonprofit",
+      "source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
       "id": "fact_pitchbook_identity_pitchbook",
       "field": "identity",
       "value": "PitchBook",
@@ -16748,6 +21811,116 @@
       "value": "CFO",
       "source_ids": [
         "src_pitchbook_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_pitchbook-platform",
+      "field": "products",
+      "value": "PitchBook Platform",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_private-capital-market-data",
+      "field": "products",
+      "value": "private capital market data",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_deal-sourcing-tools",
+      "field": "products",
+      "value": "deal sourcing tools",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_fund-benchmarking",
+      "field": "products",
+      "value": "fund benchmarking",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_market-research",
+      "field": "products",
+      "value": "market research",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_mobile-application",
+      "field": "products",
+      "value": "mobile application",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_products_excel-plugin",
+      "field": "products",
+      "value": "Excel plugin",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_services_private-market-intelligence",
+      "field": "services",
+      "value": "private market intelligence",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_services_financial-data-research",
+      "field": "services",
+      "value": "financial data research",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pitchbook"
+    },
+    {
+      "id": "fact_pitchbook_services_market-analysis",
+      "field": "services",
+      "value": "market analysis",
+      "source_ids": [
+        "src_pitchbook_products_2026",
+        "src_pitchbook_research_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_pitchbook"
@@ -16833,6 +22006,116 @@
       "entity_id": "ent_hfs_research"
     },
     {
+      "id": "fact_hfs-research_services_enterprise-research",
+      "field": "services",
+      "value": "enterprise research",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_services_market-analysis",
+      "field": "services",
+      "value": "market analysis",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_services_executive-advisory",
+      "field": "services",
+      "value": "executive advisory",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_services_technology-services-research",
+      "field": "services",
+      "value": "technology services research",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_services_enterprise-platform-analysis",
+      "field": "services",
+      "value": "enterprise platform analysis",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_services_global-capability-center-research",
+      "field": "services",
+      "value": "global capability center research",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_industries_manufacturing",
+      "field": "industries",
+      "value": "Manufacturing",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_industries_enterprise-technology",
+      "field": "industries",
+      "value": "Enterprise Technology",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_industries_business-services",
+      "field": "industries",
+      "value": "Business Services",
+      "source_ids": [
+        "src_hfs_advisory_2026",
+        "src_hfs_platforms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
       "id": "fact_association-for-corporate-growth_identity_association-for-corporate-growth",
       "field": "identity",
       "value": "Association for Corporate Growth",
@@ -16913,6 +22196,72 @@
       "entity_id": "ent_association_for_corporate_growth"
     },
     {
+      "id": "fact_association-for-corporate-growth_services_middle-market-professional-membership",
+      "field": "services",
+      "value": "middle-market professional membership",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
+      "id": "fact_association-for-corporate-growth_services_local-chapter-programming",
+      "field": "services",
+      "value": "local chapter programming",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
+      "id": "fact_association-for-corporate-growth_services_business-networking-events",
+      "field": "services",
+      "value": "business networking events",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
+      "id": "fact_association-for-corporate-growth_services_professional-education",
+      "field": "services",
+      "value": "professional education",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
+      "id": "fact_association-for-corporate-growth_services_middle-market-dealmaking-community",
+      "field": "services",
+      "value": "middle-market dealmaking community",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
+      "id": "fact_association-for-corporate-growth_services_industry-content-and-insights",
+      "field": "services",
+      "value": "industry content and insights",
+      "source_ids": [
+        "src_acg_about_2026",
+        "src_acg_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_association_for_corporate_growth"
+    },
+    {
       "id": "fact_young-entrepreneur-council_identity_young-entrepreneur-council",
       "field": "identity",
       "value": "Young Entrepreneur Council",
@@ -16978,6 +22327,83 @@
       "value": "YEC",
       "source_ids": [
         "src_young-entrepreneur-council_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_vetted-founder-peer-community",
+      "field": "services",
+      "value": "vetted founder peer community",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_member-directory",
+      "field": "services",
+      "value": "member directory",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_live-operator-sessions",
+      "field": "services",
+      "value": "live operator sessions",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_member-dinners-and-gatherings",
+      "field": "services",
+      "value": "member dinners and gatherings",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_publishing-opportunities",
+      "field": "services",
+      "value": "publishing opportunities",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_warm-introductions",
+      "field": "services",
+      "value": "warm introductions",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_young_entrepreneur_council"
+    },
+    {
+      "id": "fact_young-entrepreneur-council_services_peer-problem-solving",
+      "field": "services",
+      "value": "peer problem solving",
+      "source_ids": [
+        "src_yec_membership_2026",
+        "src_yec_terms_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_young_entrepreneur_council"
@@ -18045,17 +23471,19 @@
       "field": "identity",
       "value": "Indian Hills Advisors",
       "source_ids": [
-        "src_indian-hills-advisors_official"
+        "src_indian-hills-advisors_official",
+        "src_indian_hills_fei_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_indian_hills_advisors"
     },
     {
-      "id": "fact_indian-hills-advisors_description_indian-hills-advisors-provides-mergers-and-acqui",
+      "id": "fact_indian-hills-advisors_description_indian-hills-advisors-is-retained-as-a-historica",
       "field": "description",
-      "value": "Indian Hills Advisors provides mergers-and-acquisitions and strategic advisory services.",
+      "value": "Indian Hills Advisors is retained as a historical index record; its listed domain was parked on 2026-08-11, so current operating status and services require verification.",
       "source_ids": [
-        "src_indian-hills-advisors_official"
+        "src_indian-hills-advisors_official",
+        "src_indian_hills_lander_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_indian_hills_advisors"
@@ -18106,6 +23534,27 @@
       "value": "CFO",
       "source_ids": [
         "src_indian-hills-advisors_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_indian_hills_advisors"
+    },
+    {
+      "id": "fact_indian-hills-advisors_verification-status_needs-verification",
+      "field": "verification_status",
+      "value": "needs verification",
+      "source_ids": [
+        "src_indian_hills_lander_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_indian_hills_advisors"
+    },
+    {
+      "id": "fact_indian-hills-advisors_relationship-notes_the-previously-listed-official-domain-resolves-t",
+      "field": "relationship_notes",
+      "value": "The previously listed official domain resolves to a parked-domain page as of 2026-08-11. Current service claims are withheld pending entity resolution.",
+      "source_ids": [
+        "src_indian_hills_lander_2026",
+        "src_indian_hills_fei_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_indian_hills_advisors"

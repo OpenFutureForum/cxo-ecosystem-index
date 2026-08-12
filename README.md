@@ -9,15 +9,15 @@ Open-source intelligence on the companies, communities, capital providers, advis
 
 | Measure | Current value |
 |---|---:|
-| Release | 0.8.2 |
+| Release | 0.8.3 |
 | Entity schema | 3.1.0 |
 | Canonical organizations | 194 |
-| Sourced facts | 2,079 |
-| Canonical sources | 222 |
+| Sourced facts | 2,578 |
+| Canonical sources | 322 |
 | Sourced relationships | 3 |
 | Derived reciprocal relationships | 3 |
-| Derived metrics | 72 |
-| Tests | 32 |
+| Derived metrics | 74 |
+| Tests | 33 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.

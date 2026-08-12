@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "schema_version": "1.2.0",
   "calculated_at": "2026-08-11",
   "market_maps": [
@@ -7,7 +7,7 @@
       "id": "cfo-technology",
       "title": "CFO Technology Market Map",
       "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 18,
       "known_count": 16,
@@ -123,7 +123,7 @@
       "id": "ai-security",
       "title": "AI Security Market Map",
       "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 9,
@@ -201,9 +201,10 @@
         {
           "id": "synthetic-media-security",
           "name": "Synthetic Media Security",
-          "count": 1,
-          "share": 0.0909,
+          "count": 2,
+          "share": 0.1818,
           "entity_ids": [
+            "ent_adaptive_security",
             "ent_resemble_ai"
           ]
         }
@@ -234,7 +235,7 @@
       "id": "executive-communities",
       "title": "Executive Communities Market Map",
       "definition": "Membership, peer and founder organizations classified as Executive Communities.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 10,
@@ -244,14 +245,15 @@
         {
           "id": "ceo-peer-advisory",
           "name": "CEO Peer Advisory",
-          "count": 5,
-          "share": 0.4545,
+          "count": 6,
+          "share": 0.5455,
           "entity_ids": [
             "ent_vistage",
             "ent_entrepreneurs_organization",
             "ent_open_future_forum",
             "ent_chief",
-            "ent_young_presidents_organization"
+            "ent_young_presidents_organization",
+            "ent_young_entrepreneur_council"
           ]
         },
         {
@@ -340,7 +342,7 @@
       "id": "executive-search",
       "title": "Executive Search Market Map",
       "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 8,
       "known_count": 8,
@@ -426,45 +428,50 @@
       "id": "technology-law-firms",
       "title": "Technology Law Firm Landscape",
       "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 9,
-      "known_count": 7,
-      "unknown_count": 2,
-      "coverage": 0.7778,
+      "known_count": 8,
+      "unknown_count": 1,
+      "coverage": 0.8889,
       "buckets": [
         {
           "id": "venture-startup",
           "name": "Venture & Startup",
-          "count": 4,
-          "share": 0.4444,
-          "entity_ids": [
-            "ent_wilson_sonsini",
-            "ent_fenwick_west",
-            "ent_cooley",
-            "ent_orrick"
-          ]
-        },
-        {
-          "id": "m-a",
-          "name": "M&A",
           "count": 5,
           "share": 0.5556,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_cooley",
+            "ent_simmons_simmons",
+            "ent_orrick"
+          ]
+        },
+        {
+          "id": "m-a",
+          "name": "M&A",
+          "count": 7,
+          "share": 0.7778,
+          "entity_ids": [
+            "ent_wilson_sonsini",
+            "ent_fenwick_west",
+            "ent_cooley",
             "ent_foley_lardner",
+            "ent_dla_piper",
+            "ent_simmons_simmons",
             "ent_orrick"
           ]
         },
         {
           "id": "cybersecurity-privacy",
           "name": "Cybersecurity & Privacy",
-          "count": 2,
-          "share": 0.2222,
+          "count": 4,
+          "share": 0.4444,
           "entity_ids": [
             "ent_fenwick_west",
+            "ent_dla_piper",
+            "ent_simmons_simmons",
             "ent_orrick"
           ]
         },
@@ -519,7 +526,7 @@
       "id": "banking-capital",
       "title": "Banking & Capital Ecosystem Map",
       "definition": "Banks and investment banks organized by documented business capabilities.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 23,
       "known_count": 23,
@@ -568,12 +575,13 @@
         {
           "id": "treasury-payments",
           "name": "Treasury & Payments",
-          "count": 5,
-          "share": 0.2174,
+          "count": 6,
+          "share": 0.2609,
           "entity_ids": [
             "ent_bank_of_america",
             "ent_jpmorgan",
             "ent_capital_one",
+            "ent_wells_fargo",
             "ent_comerica",
             "ent_bny"
           ]
@@ -663,12 +671,12 @@
       "id": "chro-technology",
       "title": "CHRO Technology Market Map",
       "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 10,
-      "known_count": 9,
-      "unknown_count": 1,
-      "coverage": 0.9,
+      "known_count": 10,
+      "unknown_count": 0,
+      "coverage": 1,
       "buckets": [
         {
           "id": "hris-workforce-management",
@@ -696,12 +704,22 @@
         {
           "id": "peo",
           "name": "PEO",
-          "count": 3,
-          "share": 0.3,
+          "count": 4,
+          "share": 0.4,
           "entity_ids": [
             "ent_findem",
             "ent_lattice",
+            "ent_trinet",
             "ent_transform"
+          ]
+        },
+        {
+          "id": "employer-of-record",
+          "name": "Employer of Record",
+          "count": 1,
+          "share": 0.1,
+          "entity_ids": [
+            "ent_deel"
           ]
         },
         {
@@ -715,12 +733,23 @@
           ]
         },
         {
+          "id": "performance-management",
+          "name": "Performance Management",
+          "count": 2,
+          "share": 0.2,
+          "entity_ids": [
+            "ent_lattice",
+            "ent_15five"
+          ]
+        },
+        {
           "id": "benefits",
           "name": "Benefits",
-          "count": 3,
-          "share": 0.3,
+          "count": 4,
+          "share": 0.4,
           "entity_ids": [
             "ent_rippling",
+            "ent_deel",
             "ent_trinet",
             "ent_insperity"
           ]
@@ -760,29 +789,32 @@
       "id": "enterprise-ai",
       "title": "Enterprise AI Market Map",
       "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 43,
-      "known_count": 35,
-      "unknown_count": 8,
-      "coverage": 0.814,
+      "known_count": 37,
+      "unknown_count": 6,
+      "coverage": 0.8605,
       "buckets": [
         {
           "id": "compute-ai-infrastructure",
           "name": "Compute & AI Infrastructure",
-          "count": 1,
-          "share": 0.0233,
+          "count": 2,
+          "share": 0.0465,
           "entity_ids": [
+            "ent_nvidia",
             "ent_intel"
           ]
         },
         {
           "id": "data-ai-platforms",
           "name": "Data & AI Platforms",
-          "count": 3,
-          "share": 0.0698,
+          "count": 5,
+          "share": 0.1163,
           "entity_ids": [
             "ent_adobe",
+            "ent_findem",
+            "ent_vic_ai",
             "ent_databricks",
             "ent_qognitive"
           ]
@@ -834,9 +866,11 @@
         {
           "id": "enterprise-search-knowledge",
           "name": "Enterprise Search & Knowledge",
-          "count": 2,
-          "share": 0.0465,
+          "count": 4,
+          "share": 0.093,
           "entity_ids": [
+            "ent_findem",
+            "ent_writer",
             "ent_glean",
             "ent_you_com"
           ]
@@ -853,8 +887,8 @@
         {
           "id": "domain-specific-ai",
           "name": "Domain-Specific AI",
-          "count": 16,
-          "share": 0.3721,
+          "count": 19,
+          "share": 0.4419,
           "entity_ids": [
             "ent_oracle",
             "ent_sap",
@@ -864,8 +898,11 @@
             "ent_palo_alto_networks",
             "ent_harvey",
             "ent_capgemini",
+            "ent_findem",
             "ent_zeni",
             "ent_microsoft",
+            "ent_intel",
+            "ent_you_com",
             "ent_witnessai",
             "ent_resemble_ai",
             "ent_agentic_fabriq",
@@ -943,7 +980,7 @@
     {
       "comparison_id": "cfo-spend-platforms",
       "title": "CFO Spend & Finance Platforms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_ramp",
@@ -1057,7 +1094,7 @@
           "values": {
             "ent_ramp": "Not verified",
             "ent_brex": "Not verified",
-            "ent_coupa": "Not verified",
+            "ent_coupa": "Verified",
             "ent_bill": "Verified"
           }
         },
@@ -1078,7 +1115,7 @@
     {
       "comparison_id": "accounting-close-systems",
       "title": "Accounting, Close & Finance Systems",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_blackline",
@@ -1212,7 +1249,7 @@
     {
       "comparison_id": "executive-communities",
       "title": "Executive Communities",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_vistage",
@@ -1393,7 +1430,7 @@
     {
       "comparison_id": "executive-search-firms",
       "title": "Executive Search Firms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_korn_ferry",
@@ -1592,7 +1629,7 @@
     {
       "comparison_id": "technology-law-firms",
       "title": "Technology Law Firms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_wilson_sonsini",
@@ -1696,7 +1733,7 @@
             "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
             "ent_orrick": "Verified",
-            "ent_dla_piper": "Not verified"
+            "ent_dla_piper": "Verified"
           }
         },
         {
@@ -1757,7 +1794,7 @@
     {
       "comparison_id": "technology-venture-banking",
       "title": "Technology & Venture Banking",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_silicon_valley_bank",
@@ -1877,7 +1914,7 @@
             "ent_comerica": "Not verified",
             "ent_stifel": "Not verified",
             "ent_bmo": "Not verified",
-            "ent_wells_fargo": "Not verified",
+            "ent_wells_fargo": "Verified",
             "ent_citizens_private_bank": "Verified"
           }
         },
@@ -1893,7 +1930,7 @@
             "ent_stifel": "Not verified",
             "ent_bmo": "Not verified",
             "ent_wells_fargo": "Not verified",
-            "ent_citizens_private_bank": "Not verified"
+            "ent_citizens_private_bank": "Verified"
           }
         },
         {
@@ -1932,7 +1969,7 @@
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "metrics": [
         {
@@ -1981,7 +2018,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2025,7 +2062,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2122,7 +2159,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2190,7 +2227,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2262,7 +2299,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2304,7 +2341,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2340,7 +2377,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.2",
+          "dataset_version": "0.8.3",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2549,7 +2586,7 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "known_count": 3,
       "unknown_count": 191,
@@ -2958,7 +2995,7 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "known_count": 3,
       "unknown_count": 191,
@@ -3367,7 +3404,7 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "known_count": 1,
       "unknown_count": 193,
@@ -3776,7 +3813,7 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
       "exactly_one": 30,
@@ -4032,18 +4069,18 @@
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
-      "total_facts": 2079,
-      "average_facts_per_entity": 10.72,
-      "median_facts_per_entity": 8,
+      "total_facts": 2578,
+      "average_facts_per_entity": 13.29,
+      "median_facts_per_entity": 9,
       "entities_with_3_plus": 178,
       "entities_with_5_plus": 169,
-      "entities_with_10_plus": 36,
-      "entities_with_20_plus": 24,
+      "entities_with_10_plus": 85,
+      "entities_with_20_plus": 31,
       "entities_needing_enrichment": 25,
-      "verified_entities": 192,
+      "verified_entities": 191,
       "verified_within_12_months": 194,
       "missing_headquarters": 191,
       "missing_founding_year": 190,
@@ -4058,19 +4095,19 @@
         ],
         [
           "3–5",
-          16
+          14
         ],
         [
           "6–10",
-          131
+          84
         ],
         [
           "11–20",
-          9
+          54
         ],
         [
           "20+",
-          24
+          31
         ]
       ],
       "source_fields": [

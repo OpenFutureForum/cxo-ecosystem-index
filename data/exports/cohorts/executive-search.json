@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "executive-search",
   "entity_ids": [
@@ -1839,7 +1839,13 @@
         "Recruiting",
         "Consulting"
       ],
-      "industries": [],
+      "industries": [
+        "Accounting and Finance",
+        "Technology",
+        "Marketing and Creative",
+        "Legal",
+        "Administrative Support"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1919,6 +1925,116 @@
             "src_robert-half_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_contract-talent-staffing",
+          "field": "services",
+          "value": "contract talent staffing",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_permanent-placement",
+          "field": "services",
+          "value": "permanent placement",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_executive-search",
+          "field": "services",
+          "value": "executive search",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_managed-solutions",
+          "field": "services",
+          "value": "managed solutions",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_consulting",
+          "field": "services",
+          "value": "consulting",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_services_talent-recruitment",
+          "field": "services",
+          "value": "talent recruitment",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_industries_accounting-and-finance",
+          "field": "industries",
+          "value": "Accounting and Finance",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_industries_marketing-and-creative",
+          "field": "industries",
+          "value": "Marketing and Creative",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_industries_legal",
+          "field": "industries",
+          "value": "Legal",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_robert-half_industries_administrative-support",
+          "field": "industries",
+          "value": "Administrative Support",
+          "source_ids": [
+            "src_robert_finance_2026",
+            "src_robert_tech_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1939,11 +2055,44 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_robert_finance_2026",
+          "url": "https://www.roberthalf.com/us/en/accounting-finance",
+          "title": "Accounting and Finance Staffing",
+          "publisher": "Robert Half",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_robert_tech_2026",
+          "url": "https://www.roberthalf.com/us/en/tech-it",
+          "title": "Technology and IT Staffing",
+          "publisher": "Robert Half",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "contract talent staffing",
+        "permanent placement",
+        "executive search",
+        "managed solutions",
+        "consulting",
+        "talent recruitment"
+      ],
+      "products": [],
       "primary_category": "Recruiting",
       "secondary_categories": [
         "Consulting"
@@ -2047,6 +2196,96 @@
             "src_findem_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-sourcing",
+          "field": "products",
+          "value": "talent sourcing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-marketing",
+          "field": "products",
+          "value": "talent marketing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_executive-search-platform",
+          "field": "products",
+          "value": "executive search platform",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-analytics",
+          "field": "products",
+          "value": "talent analytics",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_market-intelligence",
+          "field": "products",
+          "value": "market intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_candidate-relationship-management",
+          "field": "products",
+          "value": "candidate relationship management",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_ai-talent-search",
+          "field": "services",
+          "value": "AI talent search",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_recruiting-automation",
+          "field": "services",
+          "value": "recruiting automation",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_workforce-intelligence",
+          "field": "services",
+          "value": "workforce intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2067,11 +2306,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_findem_platform_2026",
+          "url": "https://www.findem.ai/platform",
+          "title": "Findem Platform",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_findem_sourcing_2026",
+          "url": "https://www.findem.ai/products/talent-sourcing",
+          "title": "Findem Talent Sourcing",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "talent sourcing",
+        "talent marketing",
+        "executive search platform",
+        "talent analytics",
+        "market intelligence",
+        "candidate relationship management"
+      ],
+      "services": [
+        "AI talent search",
+        "recruiting automation",
+        "workforce intelligence"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Recruiting",

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -1587,6 +1587,96 @@
             "src_findem_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-sourcing",
+          "field": "products",
+          "value": "talent sourcing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-marketing",
+          "field": "products",
+          "value": "talent marketing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_executive-search-platform",
+          "field": "products",
+          "value": "executive search platform",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-analytics",
+          "field": "products",
+          "value": "talent analytics",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_market-intelligence",
+          "field": "products",
+          "value": "market intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_candidate-relationship-management",
+          "field": "products",
+          "value": "candidate relationship management",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_ai-talent-search",
+          "field": "services",
+          "value": "AI talent search",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_recruiting-automation",
+          "field": "services",
+          "value": "recruiting automation",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_workforce-intelligence",
+          "field": "services",
+          "value": "workforce intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1607,11 +1697,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_findem_platform_2026",
+          "url": "https://www.findem.ai/platform",
+          "title": "Findem Platform",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_findem_sourcing_2026",
+          "url": "https://www.findem.ai/products/talent-sourcing",
+          "title": "Findem Talent Sourcing",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "talent sourcing",
+        "talent marketing",
+        "executive search platform",
+        "talent analytics",
+        "market intelligence",
+        "candidate relationship management"
+      ],
+      "services": [
+        "AI talent search",
+        "recruiting automation",
+        "workforce intelligence"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Recruiting",
@@ -1717,6 +1844,106 @@
             "src_vic-ai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_products_ai-accounts-payable-platform",
+          "field": "products",
+          "value": "AI accounts payable platform",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_products_invoice-processing",
+          "field": "products",
+          "value": "invoice processing",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_products_autopilot",
+          "field": "products",
+          "value": "Autopilot",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_products_vendor-management",
+          "field": "products",
+          "value": "vendor management",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_products_analytics-and-insights",
+          "field": "products",
+          "value": "analytics and insights",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_services_accounts-payable-automation",
+          "field": "services",
+          "value": "accounts payable automation",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_services_invoice-data-extraction",
+          "field": "services",
+          "value": "invoice data extraction",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_services_fraud-prevention",
+          "field": "services",
+          "value": "fraud prevention",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_services_monthly-close-acceleration",
+          "field": "services",
+          "value": "monthly close acceleration",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_services_ap-operations-centralization",
+          "field": "services",
+          "value": "AP operations centralization",
+          "source_ids": [
+            "src_vic_ap_2026",
+            "src_vic_fraud_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1737,11 +1964,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_vic_ap_2026",
+          "url": "https://www.vic.ai/solutions/centralize-ap-operations",
+          "title": "Centralize AP Operations",
+          "publisher": "Vic.ai",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_vic_fraud_2026",
+          "url": "https://www.vic.ai/solutions/fraud-prevention",
+          "title": "Fraud Prevention",
+          "publisher": "Vic.ai",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI accounts payable platform",
+        "invoice processing",
+        "Autopilot",
+        "vendor management",
+        "analytics and insights"
+      ],
+      "services": [
+        "accounts payable automation",
+        "invoice data extraction",
+        "fraud prevention",
+        "monthly close acceleration",
+        "AP operations centralization"
+      ],
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2099,7 +2364,13 @@
         "Artificial Intelligence",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Data Centers",
+        "Gaming",
+        "Professional Visualization",
+        "Automotive"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2179,6 +2450,126 @@
             "src_nvidia_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_gpus",
+          "field": "products",
+          "value": "GPUs",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_dgx-systems",
+          "field": "products",
+          "value": "DGX systems",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_hgx-platforms",
+          "field": "products",
+          "value": "HGX platforms",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_mgx-systems",
+          "field": "products",
+          "value": "MGX systems",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_ai-accelerators",
+          "field": "products",
+          "value": "AI accelerators",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_networking-products",
+          "field": "products",
+          "value": "networking products",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_products_ai-software",
+          "field": "products",
+          "value": "AI software",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_industries_data-centers",
+          "field": "industries",
+          "value": "Data Centers",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_industries_gaming",
+          "field": "industries",
+          "value": "Gaming",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_industries_professional-visualization",
+          "field": "industries",
+          "value": "Professional Visualization",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_nvidia_industries_automotive",
+          "field": "industries",
+          "value": "Automotive",
+          "source_ids": [
+            "src_nvidia_datacenter_2026",
+            "src_nvidia_dgx_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2199,11 +2590,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_nvidia_datacenter_2026",
+          "url": "https://www.nvidia.com/en-us/data-center/products/",
+          "title": "NVIDIA Data Center Products",
+          "publisher": "NVIDIA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_nvidia_dgx_2026",
+          "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+          "title": "NVIDIA DGX Platform",
+          "publisher": "NVIDIA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "GPUs",
+        "DGX systems",
+        "HGX platforms",
+        "MGX systems",
+        "AI accelerators",
+        "networking products",
+        "AI software"
+      ],
+      "services": [],
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2238,7 +2663,13 @@
         "Enterprise Technology",
         "AI Infrastructure"
       ],
-      "industries": [],
+      "industries": [
+        "Semiconductors",
+        "Data Centers",
+        "Personal Computing",
+        "Artificial Intelligence",
+        "Networking"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2309,6 +2740,126 @@
             "src_intel_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_client-processors",
+          "field": "products",
+          "value": "client processors",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_server-processors",
+          "field": "products",
+          "value": "server processors",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_ai-accelerators",
+          "field": "products",
+          "value": "AI accelerators",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_graphics-processors",
+          "field": "products",
+          "value": "graphics processors",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_networking-products",
+          "field": "products",
+          "value": "networking products",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_fpgas",
+          "field": "products",
+          "value": "FPGAs",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_products_semiconductor-foundry-services",
+          "field": "products",
+          "value": "semiconductor foundry services",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_industries_semiconductors",
+          "field": "industries",
+          "value": "Semiconductors",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_industries_data-centers",
+          "field": "industries",
+          "value": "Data Centers",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_industries_personal-computing",
+          "field": "industries",
+          "value": "Personal Computing",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intel_industries_networking",
+          "field": "industries",
+          "value": "Networking",
+          "source_ids": [
+            "src_intel_products_2026",
+            "src_intel_processors_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2329,11 +2880,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_intel_products_2026",
+          "url": "https://www.intel.com/content/www/us/en/products/overview.html",
+          "title": "Intel Product Overview",
+          "publisher": "Intel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_intel_processors_2026",
+          "url": "https://www.intel.com/content/www/us/en/products/details/processors.html",
+          "title": "Intel Processors",
+          "publisher": "Intel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "client processors",
+        "server processors",
+        "AI accelerators",
+        "graphics processors",
+        "networking products",
+        "FPGAs",
+        "semiconductor foundry services"
+      ],
+      "services": [],
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "AI Infrastructure"
@@ -2447,6 +3032,106 @@
             "src_databricks_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-intelligence-platform",
+          "field": "products",
+          "value": "Data Intelligence Platform",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-lakehouse",
+          "field": "products",
+          "value": "data lakehouse",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-engineering",
+          "field": "products",
+          "value": "data engineering",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-warehousing",
+          "field": "products",
+          "value": "data warehousing",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_machine-learning-and-ai",
+          "field": "products",
+          "value": "machine learning and AI",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-governance",
+          "field": "products",
+          "value": "data governance",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_business-intelligence",
+          "field": "products",
+          "value": "business intelligence",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_data-and-ai-platform",
+          "field": "services",
+          "value": "data and AI platform",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_analytics-workloads",
+          "field": "services",
+          "value": "analytics workloads",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_generative-ai-development",
+          "field": "services",
+          "value": "generative AI development",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2467,11 +3152,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_databricks_platform_2026",
+          "url": "https://www.databricks.com/product/platform",
+          "title": "Databricks Data Intelligence Platform",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_databricks_lakehouse_2026",
+          "url": "https://www.databricks.com/product/data-lakehouse",
+          "title": "Databricks Data Lakehouse",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Data Intelligence Platform",
+        "data lakehouse",
+        "data engineering",
+        "data warehousing",
+        "machine learning and AI",
+        "data governance",
+        "business intelligence"
+      ],
+      "services": [
+        "data and AI platform",
+        "analytics workloads",
+        "generative AI development"
+      ],
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2506,7 +3229,12 @@
         "Artificial Intelligence",
         "Enterprise Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Healthcare",
+        "Technology",
+        "Retail"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2577,6 +3305,146 @@
             "src_writer_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_writer-agent",
+          "field": "products",
+          "value": "Writer Agent",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_ai-studio",
+          "field": "products",
+          "value": "AI Studio",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_knowledge-graph",
+          "field": "products",
+          "value": "Knowledge Graph",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_graph-based-retrieval-augmented-generation",
+          "field": "products",
+          "value": "graph-based retrieval augmented generation",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_enterprise-ai-platform",
+          "field": "products",
+          "value": "enterprise AI platform",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_enterprise-ai-agents",
+          "field": "services",
+          "value": "enterprise AI agents",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_generative-ai-application-development",
+          "field": "services",
+          "value": "generative AI application development",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_enterprise-knowledge-retrieval",
+          "field": "services",
+          "value": "enterprise knowledge retrieval",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_workflow-automation",
+          "field": "services",
+          "value": "workflow automation",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2597,11 +3465,51 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_writer_agent_2026",
+          "url": "https://writer.com/product/writer-agent/",
+          "title": "Writer Agent",
+          "publisher": "Writer",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_writer_studio_2026",
+          "url": "https://writer.com/product/ai-studio/",
+          "title": "Writer AI Studio",
+          "publisher": "Writer",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Writer Agent",
+        "AI Studio",
+        "Knowledge Graph",
+        "graph-based retrieval augmented generation",
+        "enterprise AI platform"
+      ],
+      "services": [
+        "enterprise AI agents",
+        "generative AI application development",
+        "AI governance",
+        "enterprise knowledge retrieval",
+        "workflow automation"
+      ],
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -2634,7 +3542,13 @@
         "Artificial Intelligence",
         "AI Infrastructure"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Government",
+        "Defense",
+        "Automotive",
+        "Financial Services"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2705,6 +3619,156 @@
             "src_scale-ai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_products_scale-data-engine",
+          "field": "products",
+          "value": "Scale Data Engine",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_products_generative-ai-platform",
+          "field": "products",
+          "value": "Generative AI Platform",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_products_agentic-ai-solutions",
+          "field": "products",
+          "value": "agentic AI solutions",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_products_model-evaluation-platform",
+          "field": "products",
+          "value": "model evaluation platform",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_products_public-sector-ai-platform",
+          "field": "products",
+          "value": "public sector AI platform",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_services_ai-data-labeling",
+          "field": "services",
+          "value": "AI data labeling",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_services_model-evaluation",
+          "field": "services",
+          "value": "model evaluation",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_services_ai-application-development",
+          "field": "services",
+          "value": "AI application development",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_services_generative-ai-deployment",
+          "field": "services",
+          "value": "generative AI deployment",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_services_public-sector-ai-delivery",
+          "field": "services",
+          "value": "public sector AI delivery",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_industries_government",
+          "field": "industries",
+          "value": "Government",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_industries_defense",
+          "field": "industries",
+          "value": "Defense",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_industries_automotive",
+          "field": "industries",
+          "value": "Automotive",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_scale-ai_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_scale_genai_2026",
+            "src_scale_public_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2725,11 +3789,51 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_scale_genai_2026",
+          "url": "https://scale.com/genai-platform",
+          "title": "Scale Generative AI Platform",
+          "publisher": "Scale AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_scale_public_2026",
+          "url": "https://scale.com/public-sector",
+          "title": "Scale AI for the Public Sector",
+          "publisher": "Scale AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Scale Data Engine",
+        "Generative AI Platform",
+        "agentic AI solutions",
+        "model evaluation platform",
+        "public sector AI platform"
+      ],
+      "services": [
+        "AI data labeling",
+        "model evaluation",
+        "AI application development",
+        "generative AI deployment",
+        "public sector AI delivery"
+      ],
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Infrastructure"
@@ -2833,6 +3937,106 @@
             "src_glean_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-search",
+          "field": "products",
+          "value": "enterprise search",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-assistant",
+          "field": "products",
+          "value": "AI assistant",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-agents",
+          "field": "products",
+          "value": "AI agents",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-graph",
+          "field": "products",
+          "value": "enterprise graph",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-gateway",
+          "field": "products",
+          "value": "AI gateway",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_model-hub",
+          "field": "products",
+          "value": "model hub",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-connectors",
+          "field": "products",
+          "value": "enterprise connectors",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_enterprise-knowledge-discovery",
+          "field": "services",
+          "value": "enterprise knowledge discovery",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_workplace-search",
+          "field": "services",
+          "value": "workplace search",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_agentic-automation",
+          "field": "services",
+          "value": "agentic automation",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2853,11 +4057,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_glean_platform_2026",
+          "url": "https://www.glean.com/platform",
+          "title": "Glean Platform",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_glean_graph_2026",
+          "url": "https://www.glean.com/enterprise-context/enterprise-graph",
+          "title": "Glean Enterprise Graph",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "enterprise search",
+        "AI assistant",
+        "AI agents",
+        "enterprise graph",
+        "AI gateway",
+        "model hub",
+        "enterprise connectors"
+      ],
+      "services": [
+        "enterprise knowledge discovery",
+        "workplace search",
+        "agentic automation"
+      ],
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -3119,6 +4361,96 @@
             "src_centific_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_products_ai-data-marketplace",
+          "field": "products",
+          "value": "AI Data Marketplace",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_products_data-canvas",
+          "field": "products",
+          "value": "Data Canvas",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_products_ai-data-foundry",
+          "field": "products",
+          "value": "AI Data Foundry",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_products_oneforma",
+          "field": "products",
+          "value": "OneForma",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_services_ai-data-collection-and-creation",
+          "field": "services",
+          "value": "AI data collection and creation",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_services_reinforcement-learning-environments",
+          "field": "services",
+          "value": "reinforcement learning environments",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_services_rlhf-preference-optimization",
+          "field": "services",
+          "value": "RLHF preference optimization",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_services_model-evaluation",
+          "field": "services",
+          "value": "model evaluation",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_services_data-annotation",
+          "field": "services",
+          "value": "data annotation",
+          "source_ids": [
+            "src_centific_products_2026",
+            "src_centific_data_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3139,11 +4471,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_centific_products_2026",
+          "url": "https://www.centific.com/products/ai-data-marketplace",
+          "title": "AI Data Marketplace",
+          "publisher": "Centific",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_centific_data_2026",
+          "url": "https://www.centific.com/solution/data-collection-creation",
+          "title": "Data Collection and Creation",
+          "publisher": "Centific",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI Data Marketplace",
+        "Data Canvas",
+        "AI Data Foundry",
+        "OneForma"
+      ],
+      "services": [
+        "AI data collection and creation",
+        "reinforcement learning environments",
+        "RLHF preference optimization",
+        "model evaluation",
+        "data annotation"
+      ],
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Consulting",
@@ -3239,6 +4608,116 @@
             "src_you-com_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_search-api",
+          "field": "products",
+          "value": "Search API",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_contents-api",
+          "field": "products",
+          "value": "Contents API",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_express-agent",
+          "field": "products",
+          "value": "Express Agent",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_advanced-agent",
+          "field": "products",
+          "value": "Advanced Agent",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_research-api",
+          "field": "products",
+          "value": "Research API",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_products_finance-research-api",
+          "field": "products",
+          "value": "Finance Research API",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_services_web-search-for-ai-agents",
+          "field": "services",
+          "value": "web search for AI agents",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_services_citation-backed-answers",
+          "field": "services",
+          "value": "citation-backed answers",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_services_ai-research",
+          "field": "services",
+          "value": "AI research",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_services_content-extraction",
+          "field": "services",
+          "value": "content extraction",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_services_finance-research",
+          "field": "services",
+          "value": "finance research",
+          "source_ids": [
+            "src_you_search_2026",
+            "src_you_research_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3259,11 +4738,50 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_you_search_2026",
+          "url": "https://you.com/docs/search/overview",
+          "title": "You.com Search API",
+          "publisher": "You.com",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_you_research_2026",
+          "url": "https://you.com/docs/research/overview",
+          "title": "You.com Research API",
+          "publisher": "You.com",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Search API",
+        "Contents API",
+        "Express Agent",
+        "Advanced Agent",
+        "Research API",
+        "Finance Research API"
+      ],
+      "services": [
+        "web search for AI agents",
+        "citation-backed answers",
+        "AI research",
+        "content extraction",
+        "finance research"
+      ],
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [],
       "provider_types": [
@@ -3893,6 +5411,106 @@
             "src_witnessai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_observe",
+          "field": "products",
+          "value": "Observe",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_control",
+          "field": "products",
+          "value": "Control",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_protect",
+          "field": "products",
+          "value": "Protect",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_ai-security-platform",
+          "field": "products",
+          "value": "AI security platform",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_ai-usage-discovery",
+          "field": "products",
+          "value": "AI usage discovery",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-policy-enforcement",
+          "field": "services",
+          "value": "AI policy enforcement",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-threat-protection",
+          "field": "services",
+          "value": "AI threat protection",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_shadow-ai-discovery",
+          "field": "services",
+          "value": "shadow AI discovery",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_data-protection-for-ai",
+          "field": "services",
+          "value": "data protection for AI",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3913,11 +5531,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_witness_product_2026",
+          "url": "https://witness.ai/product/",
+          "title": "WitnessAI Product",
+          "publisher": "WitnessAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_witness_control_2026",
+          "url": "https://witness.ai/control/",
+          "title": "WitnessAI Control",
+          "publisher": "WitnessAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Observe",
+        "Control",
+        "Protect",
+        "AI security platform",
+        "AI usage discovery"
+      ],
+      "services": [
+        "AI governance",
+        "AI policy enforcement",
+        "AI threat protection",
+        "shadow AI discovery",
+        "data protection for AI"
+      ],
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity",

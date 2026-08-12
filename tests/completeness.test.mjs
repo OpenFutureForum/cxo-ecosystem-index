@@ -29,6 +29,26 @@ test('completeness queue prioritizes research depth without ranking organization
  assert.ok(off.source_count>=3);
 });
 
+test('the first P1 enrichment batch adds depth without inventing unresolved facts',async()=>{
+ const batch=JSON.parse(await fs.readFile(path.join(root,'data/enrichments-p1.json'),'utf8'));
+ assert.equal(batch.length,50);
+ const ids=new Set(batch.map(record=>record.entity_id));
+ assert.equal(ids.size,50);
+ const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);
+ const records=result.entities.filter(record=>ids.has(record.entity_id));
+ assert.equal(records.length,50);
+ assert.ok(records.every(record=>record.source_count>=3));
+ assert.ok(records.filter(record=>record.score>=60).length>=49);
+ assert.ok(records.reduce((sum,record)=>sum+record.score,0)/records.length>=60);
+ const indianHills=entities.find(entity=>entity.id==='ent_indian_hills_advisors');
+ assert.equal(indianHills.verification_status,'needs verification');
+ assert.deepEqual(indianHills.services,[]);
+ assert.match(indianHills.relationship_notes,/parked-domain/i);
+ const wti=entities.find(entity=>entity.id==='ent_western_technology_investment');
+ assert.equal(wti.website,'https://www.westerntech.com/');
+ assert.ok(wti.services.includes('venture debt'));
+});
+
 test('generated completeness exports and public explanations agree',async()=>{
  const [json,csv,quality,profile,methodology]=await Promise.all([
   fs.readFile(path.join(root,'docs/data/completeness.json'),'utf8'),

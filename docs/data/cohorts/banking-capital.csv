@@ -21,4 +21,4 @@ id,name,website,entity_type,primary_category,secondary_categories,cxo_roles,cate
 "ent_brighttower","BrightTower","https://www.brighttower.com/","Organization","Investment Banks","M&A Advisors","CEO|CFO","Investment Banks|M&A Advisors","","United States","","verified"
 "ent_intrepid_investment_bankers","Intrepid Investment Bankers","https://intrepidib.com/","Organization","Investment Banks","M&A Advisors","CEO|CFO","Investment Banks|M&A Advisors","","United States","","verified"
 "ent_capital_ip_investment_partners","Capital IP Investment Partners","https://capitalip.com/","Organization","Venture Capital","Investment Banks|M&A Advisors","CEO|CFO","Venture Capital|Investment Banks|M&A Advisors","","United States","","verified"
-"ent_indian_hills_advisors","Indian Hills Advisors","https://indianhillsadvisors.com/","Organization","M&A Advisors","Investment Banks","CEO|CFO","M&A Advisors|Investment Banks","","United States","","verified"
+"ent_indian_hills_advisors","Indian Hills Advisors","https://indianhillsadvisors.com/","Organization","M&A Advisors","Investment Banks","CEO|CFO","M&A Advisors|Investment Banks","","United States","","needs verification"

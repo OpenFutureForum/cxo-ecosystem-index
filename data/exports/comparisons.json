@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "comparisons": [
     {
       "comparison_id": "cfo-spend-platforms",
       "title": "CFO Spend & Finance Platforms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_ramp",
@@ -119,7 +119,7 @@
           "values": {
             "ent_ramp": "Not verified",
             "ent_brex": "Not verified",
-            "ent_coupa": "Not verified",
+            "ent_coupa": "Verified",
             "ent_bill": "Verified"
           }
         },
@@ -140,7 +140,7 @@
     {
       "comparison_id": "accounting-close-systems",
       "title": "Accounting, Close & Finance Systems",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_blackline",
@@ -274,7 +274,7 @@
     {
       "comparison_id": "executive-communities",
       "title": "Executive Communities",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_vistage",
@@ -455,7 +455,7 @@
     {
       "comparison_id": "executive-search-firms",
       "title": "Executive Search Firms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_korn_ferry",
@@ -654,7 +654,7 @@
     {
       "comparison_id": "technology-law-firms",
       "title": "Technology Law Firms",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_wilson_sonsini",
@@ -758,7 +758,7 @@
             "ent_fenwick_west": "Verified",
             "ent_foley_lardner": "Not verified",
             "ent_orrick": "Verified",
-            "ent_dla_piper": "Not verified"
+            "ent_dla_piper": "Verified"
           }
         },
         {
@@ -819,7 +819,7 @@
     {
       "comparison_id": "technology-venture-banking",
       "title": "Technology & Venture Banking",
-      "dataset_version": "0.8.2",
+      "dataset_version": "0.8.3",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_silicon_valley_bank",
@@ -939,7 +939,7 @@
             "ent_comerica": "Not verified",
             "ent_stifel": "Not verified",
             "ent_bmo": "Not verified",
-            "ent_wells_fargo": "Not verified",
+            "ent_wells_fargo": "Verified",
             "ent_citizens_private_bank": "Verified"
           }
         },
@@ -955,7 +955,7 @@
             "ent_stifel": "Not verified",
             "ent_bmo": "Not verified",
             "ent_wells_fargo": "Not verified",
-            "ent_citizens_private_bank": "Not verified"
+            "ent_citizens_private_bank": "Verified"
           }
         },
         {

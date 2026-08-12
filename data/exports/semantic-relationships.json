@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "schema_version": "1.0.0",
   "coverage": {
     "total_classified_associations": 1702,
@@ -6536,7 +6536,7 @@
       "object_id": "CEO",
       "object_label": "CEO",
       "evidence_urls": [
-        "https://www.wti.com/"
+        "https://www.westerntech.com/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -6548,7 +6548,7 @@
       "object_id": "CFO",
       "object_label": "CFO",
       "evidence_urls": [
-        "https://www.wti.com/"
+        "https://www.westerntech.com/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -6560,7 +6560,7 @@
       "object_id": "private-credit",
       "object_label": "Private Credit",
       "evidence_urls": [
-        "https://www.wti.com/"
+        "https://www.westerntech.com/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -6572,7 +6572,7 @@
       "object_id": "venture-debt",
       "object_label": "Venture Debt",
       "evidence_urls": [
-        "https://www.wti.com/"
+        "https://www.westerntech.com/"
       ],
       "verification_status": "evidence-linked"
     },

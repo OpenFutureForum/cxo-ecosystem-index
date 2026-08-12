@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "ai-security",
   "entity_ids": [
@@ -30,7 +30,12 @@
         "AI Security",
         "Cybersecurity"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Technology",
+        "Government",
+        "Healthcare"
+      ],
       "geographies": [
         "United States"
       ],
@@ -92,6 +97,92 @@
             "src_adaptive-security_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_products_security-awareness-training",
+          "field": "products",
+          "value": "security awareness training",
+          "source_ids": [
+            "src_adaptive_enterprise_2026",
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_products_phishing-simulations",
+          "field": "products",
+          "value": "phishing simulations",
+          "source_ids": [
+            "src_adaptive_enterprise_2026",
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_products_email-security",
+          "field": "products",
+          "value": "email security",
+          "source_ids": [
+            "src_adaptive_enterprise_2026",
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_products_ai-governance",
+          "field": "products",
+          "value": "AI governance",
+          "source_ids": [
+            "src_adaptive_enterprise_2026",
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_products_deepfake-and-ai-attack-readiness",
+          "field": "products",
+          "value": "deepfake and AI attack readiness",
+          "source_ids": [
+            "src_adaptive_enterprise_2026",
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_industries_government",
+          "field": "industries",
+          "value": "Government",
+          "source_ids": [
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_adaptive-security_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_adaptive_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -112,11 +203,42 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_adaptive_enterprise_2026",
+          "url": "https://www.adaptivesecurity.com/solutions/enterprise",
+          "title": "Adaptive Security for Enterprise",
+          "publisher": "Adaptive Security",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products"
+          ]
+        },
+        {
+          "id": "src_adaptive_industries_2026",
+          "url": "https://www.adaptivesecurity.com/solutions/finance",
+          "title": "Adaptive Security for Financial Services",
+          "publisher": "Adaptive Security",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "security awareness training",
+        "phishing simulations",
+        "email security",
+        "AI governance",
+        "deepfake and AI attack readiness"
+      ],
+      "services": [],
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity"
@@ -230,6 +352,106 @@
             "src_witnessai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_observe",
+          "field": "products",
+          "value": "Observe",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_control",
+          "field": "products",
+          "value": "Control",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_protect",
+          "field": "products",
+          "value": "Protect",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_ai-security-platform",
+          "field": "products",
+          "value": "AI security platform",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_products_ai-usage-discovery",
+          "field": "products",
+          "value": "AI usage discovery",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-policy-enforcement",
+          "field": "services",
+          "value": "AI policy enforcement",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_ai-threat-protection",
+          "field": "services",
+          "value": "AI threat protection",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_shadow-ai-discovery",
+          "field": "services",
+          "value": "shadow AI discovery",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_services_data-protection-for-ai",
+          "field": "services",
+          "value": "data protection for AI",
+          "source_ids": [
+            "src_witness_product_2026",
+            "src_witness_control_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -250,11 +472,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_witness_product_2026",
+          "url": "https://witness.ai/product/",
+          "title": "WitnessAI Product",
+          "publisher": "WitnessAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_witness_control_2026",
+          "url": "https://witness.ai/control/",
+          "title": "WitnessAI Control",
+          "publisher": "WitnessAI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Observe",
+        "Control",
+        "Protect",
+        "AI security platform",
+        "AI usage discovery"
+      ],
+      "services": [
+        "AI governance",
+        "AI policy enforcement",
+        "AI threat protection",
+        "shadow AI discovery",
+        "data protection for AI"
+      ],
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity",
@@ -350,6 +610,74 @@
             "src_airmdr_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_services_managed-detection-and-response",
+          "field": "services",
+          "value": "managed detection and response",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_services_24-7-security-operations-monitoring",
+          "field": "services",
+          "value": "24/7 security operations monitoring",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_services_alert-triage",
+          "field": "services",
+          "value": "alert triage",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_services_security-investigations",
+          "field": "services",
+          "value": "security investigations",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_services_threat-response",
+          "field": "services",
+          "value": "threat response",
+          "source_ids": [
+            "src_airmdr_services_2026",
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_products_ai-soc-agent",
+          "field": "products",
+          "value": "AI SOC agent",
+          "source_ids": [
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_products_managed-detection-and-response-platform",
+          "field": "products",
+          "value": "managed detection and response platform",
+          "source_ids": [
+            "src_airmdr_platform_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -370,11 +698,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_airmdr_services_2026",
+          "url": "https://airmdr.com/services",
+          "title": "AirMDR Services",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_airmdr_platform_2026",
+          "url": "https://airmdr.com/airmdr-ai-soc-agent-and-platform",
+          "title": "AirMDR AI SOC Agent and Platform",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI SOC agent",
+        "managed detection and response platform"
+      ],
+      "services": [
+        "managed detection and response",
+        "24/7 security operations monitoring",
+        "alert triage",
+        "security investigations",
+        "threat response"
+      ],
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security"

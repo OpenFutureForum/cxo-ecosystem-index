@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.3 — 2026-08-11 — Priority Profile Enrichment I
+
+- Researched and enriched the first 50 P1 records with 100 additional evidence links.
+- Added source-backed products, services, and industries while leaving unknown founding, headquarters, and geography fields unresolved.
+- Raised 49 of the 50 researched records to the Substantial completeness tier and increased their average score from 35.0 to 62.3.
+- Corrected Western Technology Investment's official domain from the unrelated `wti.com` to `westerntech.com`.
+- Flagged Indian Hills Advisors for verification after its listed domain was found parked; current offerings remain intentionally withheld pending entity resolution.
+- Added regression tests for batch size, source breadth, completeness improvement, the WTI identity correction, and the unresolved Indian Hills record.
+
+
 ## 0.8.2 — 2026-08-11 — Profile Completeness & Research Queue
 
 - Added a neutral 100-point, evidence-aware profile-completeness standard.

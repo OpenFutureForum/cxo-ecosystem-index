@@ -1,7 +1,26 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "schema_version": "1.0.0",
   "sources": [
+    {
+      "id": "src_15five_ai_2026",
+      "url": "https://www.15five.com/products/15five-ai",
+      "title": "15Five AI",
+      "publisher": "15Five",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_15five"
+      ],
+      "alias_source_ids": [
+        "src_15five_ai_2026"
+      ],
+      "supports": [
+        "products"
+      ]
+    },
     {
       "id": "src_15five_official",
       "url": "https://www.15five.com/",
@@ -23,6 +42,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_15five_products_2026",
+      "url": "https://www.15five.com/products",
+      "title": "15Five Products",
+      "publisher": "15Five",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_15five"
+      ],
+      "alias_source_ids": [
+        "src_15five_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -88,6 +127,83 @@
         "description",
         "industries",
         "services"
+      ]
+    },
+    {
+      "id": "src_acg_about_2026",
+      "url": "https://www.acg.org/about",
+      "title": "About ACG",
+      "publisher": "Association for Corporate Growth",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_association_for_corporate_growth"
+      ],
+      "alias_source_ids": [
+        "src_acg_about_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_acg_history_2026",
+      "url": "https://www.acg.org/about/history",
+      "title": "ACG History",
+      "publisher": "Association for Corporate Growth",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_association_for_corporate_growth"
+      ],
+      "alias_source_ids": [
+        "src_acg_history_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_adaptive_enterprise_2026",
+      "url": "https://www.adaptivesecurity.com/solutions/enterprise",
+      "title": "Adaptive Security for Enterprise",
+      "publisher": "Adaptive Security",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adaptive_security"
+      ],
+      "alias_source_ids": [
+        "src_adaptive_enterprise_2026"
+      ],
+      "supports": [
+        "products"
+      ]
+    },
+    {
+      "id": "src_adaptive_industries_2026",
+      "url": "https://www.adaptivesecurity.com/solutions/finance",
+      "title": "Adaptive Security for Financial Services",
+      "publisher": "Adaptive Security",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_adaptive_security"
+      ],
+      "alias_source_ids": [
+        "src_adaptive_industries_2026"
+      ],
+      "supports": [
+        "industries",
+        "products"
       ]
     },
     {
@@ -338,6 +454,45 @@
       ]
     },
     {
+      "id": "src_airmdr_platform_2026",
+      "url": "https://airmdr.com/airmdr-ai-soc-agent-and-platform",
+      "title": "AirMDR AI SOC Agent and Platform",
+      "publisher": "AirMDR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airmdr"
+      ],
+      "alias_source_ids": [
+        "src_airmdr_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_airmdr_services_2026",
+      "url": "https://airmdr.com/services",
+      "title": "AirMDR Services",
+      "publisher": "AirMDR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airmdr"
+      ],
+      "alias_source_ids": [
+        "src_airmdr_services_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
       "id": "src_altair-capital_official",
       "url": "https://altair.vc/",
       "title": "AltaIR Capital official website",
@@ -384,6 +539,26 @@
       ]
     },
     {
+      "id": "src_anrok_borderless_2026",
+      "url": "https://www.anrok.com/solutions/borderless-compliance",
+      "title": "Borderless Compliance",
+      "publisher": "Anrok",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_anrok"
+      ],
+      "alias_source_ids": [
+        "src_anrok_borderless_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_anrok_official",
       "url": "https://www.anrok.com/",
       "title": "Anrok official website",
@@ -404,6 +579,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_anrok_workflows_2026",
+      "url": "https://www.anrok.com/solutions/automated-workflows",
+      "title": "Automated Tax Workflows",
+      "publisher": "Anrok",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_anrok"
+      ],
+      "alias_source_ids": [
+        "src_anrok_workflows_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -521,6 +716,45 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_avenue_strategies_2026",
+      "url": "https://www.avenuecapital.com/Strategies",
+      "title": "Avenue Capital Group Strategies",
+      "publisher": "Avenue Capital Group",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_avenue_capital_group"
+      ],
+      "alias_source_ids": [
+        "src_avenue_strategies_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_avenue_team_2026",
+      "url": "https://www.avenuecapital.com/Team",
+      "title": "Avenue Capital Group Team",
+      "publisher": "Avenue Capital Group",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_avenue_capital_group"
+      ],
+      "alias_source_ids": [
+        "src_avenue_team_2026"
+      ],
+      "supports": [
+        "services"
       ]
     },
     {
@@ -938,6 +1172,46 @@
       ]
     },
     {
+      "id": "src_brighttower_finra_2026",
+      "url": "https://brokercheck.finra.org/firm/summary/318266",
+      "title": "BrightTower Securities LLC BrokerCheck",
+      "publisher": "FINRA",
+      "source_type": "regulatory",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_brighttower"
+      ],
+      "alias_source_ids": [
+        "src_brighttower_finra_2026"
+      ],
+      "supports": [
+        "identity",
+        "services"
+      ]
+    },
+    {
+      "id": "src_brighttower_linkedin_2026",
+      "url": "https://www.linkedin.com/company/brighttower",
+      "title": "BrightTower Company Profile",
+      "publisher": "LinkedIn",
+      "source_type": "organization-profile",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_brighttower"
+      ],
+      "alias_source_ids": [
+        "src_brighttower_linkedin_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_brighttower_official",
       "url": "https://www.brighttower.com/",
       "title": "BrightTower official website",
@@ -958,6 +1232,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_burkland_accounting_2026",
+      "url": "https://burklandassociates.com/services/startup-accounting/",
+      "title": "Startup Accounting Services",
+      "publisher": "Burkland",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_burkland"
+      ],
+      "alias_source_ids": [
+        "src_burkland_accounting_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_burkland_cfo_2026",
+      "url": "https://burklandassociates.com/services/fractional-cfo/",
+      "title": "Fractional CFO Services",
+      "publisher": "Burkland",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_burkland"
+      ],
+      "alias_source_ids": [
+        "src_burkland_cfo_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -1081,6 +1395,26 @@
       ]
     },
     {
+      "id": "src_centific_data_2026",
+      "url": "https://www.centific.com/solution/data-collection-creation",
+      "title": "Data Collection and Creation",
+      "publisher": "Centific",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_centific"
+      ],
+      "alias_source_ids": [
+        "src_centific_data_2026"
+      ],
+      "supports": [
+        "services",
+        "products"
+      ]
+    },
+    {
       "id": "src_centific_official",
       "url": "https://www.centific.com/",
       "title": "Centific official website",
@@ -1104,6 +1438,46 @@
       ]
     },
     {
+      "id": "src_centific_products_2026",
+      "url": "https://www.centific.com/products/ai-data-marketplace",
+      "title": "AI Data Marketplace",
+      "publisher": "Centific",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_centific"
+      ],
+      "alias_source_ids": [
+        "src_centific_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_cfgi_industries_2026",
+      "url": "https://www.cfgi.com/industries/",
+      "title": "CFGI Industries",
+      "publisher": "CFGI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cfgi"
+      ],
+      "alias_source_ids": [
+        "src_cfgi_industries_2026"
+      ],
+      "supports": [
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_cfgi_official",
       "url": "https://www.cfgi.com/",
       "title": "CFGI official website",
@@ -1124,6 +1498,25 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_cfgi_solutions_2026",
+      "url": "https://www.cfgi.com/our-solutions/",
+      "title": "CFGI Solutions",
+      "publisher": "CFGI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cfgi"
+      ],
+      "alias_source_ids": [
+        "src_cfgi_solutions_2026"
+      ],
+      "supports": [
+        "services"
       ]
     },
     {
@@ -1232,6 +1625,44 @@
       ],
       "supports": [
         "description",
+        "services"
+      ]
+    },
+    {
+      "id": "src_citizens_products_2026",
+      "url": "https://www.citizensbank.com/investing-and-wealth-management/products-services-and-calculators.aspx",
+      "title": "Wealth Products and Services",
+      "publisher": "Citizens",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_citizens_private_bank"
+      ],
+      "alias_source_ids": [
+        "src_citizens_products_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_citizens_wealth_2026",
+      "url": "https://www.citizensbank.com/investing-and-wealth-management/services/overview.aspx",
+      "title": "Investing and Wealth Management Services",
+      "publisher": "Citizens",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_citizens_private_bank"
+      ],
+      "alias_source_ids": [
+        "src_citizens_wealth_2026"
+      ],
+      "supports": [
         "services"
       ]
     },
@@ -1487,6 +1918,46 @@
       ]
     },
     {
+      "id": "src_coupa_platform_2026",
+      "url": "https://www.coupa.com/products/total-spend-management-platform",
+      "title": "Total Spend Management Platform",
+      "publisher": "Coupa",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_coupa"
+      ],
+      "alias_source_ids": [
+        "src_coupa_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_coupa_procurement_2026",
+      "url": "https://www.coupa.com/products/procurement",
+      "title": "Coupa Procurement",
+      "publisher": "Coupa",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_coupa"
+      ],
+      "alias_source_ids": [
+        "src_coupa_procurement_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_crowdstrike",
       "url": "https://www.crowdstrike.com/platform/",
       "title": "Falcon Platform",
@@ -1532,6 +2003,46 @@
       ]
     },
     {
+      "id": "src_danforth_capabilities_2026",
+      "url": "https://www.danforthadvisors.com/capabilities/",
+      "title": "Danforth Advisors Capabilities",
+      "publisher": "Danforth Advisors",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_danforth_advisors"
+      ],
+      "alias_source_ids": [
+        "src_danforth_capabilities_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_danforth_finance_2026",
+      "url": "https://www.danforthadvisors.com/capabilities/operational-finance-and-accounting/",
+      "title": "Operational Finance and Accounting",
+      "publisher": "Danforth Advisors",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_danforth_advisors"
+      ],
+      "alias_source_ids": [
+        "src_danforth_finance_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_danforth-advisors_official",
       "url": "https://danforthadvisors.com/",
       "title": "Danforth Advisors official website",
@@ -1552,6 +2063,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_databricks_lakehouse_2026",
+      "url": "https://www.databricks.com/product/data-lakehouse",
+      "title": "Databricks Data Lakehouse",
+      "publisher": "Databricks",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_databricks"
+      ],
+      "alias_source_ids": [
+        "src_databricks_lakehouse_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -1578,6 +2109,84 @@
       ]
     },
     {
+      "id": "src_databricks_platform_2026",
+      "url": "https://www.databricks.com/product/platform",
+      "title": "Databricks Data Intelligence Platform",
+      "publisher": "Databricks",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_databricks"
+      ],
+      "alias_source_ids": [
+        "src_databricks_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_db_products_2026",
+      "url": "https://www.db.com/what-we-do/products-and-services",
+      "title": "Deutsche Bank Products and Services",
+      "publisher": "Deutsche Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deutsche_bank"
+      ],
+      "alias_source_ids": [
+        "src_db_products_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_db_what_we_do_2026",
+      "url": "https://www.db.com/what-we-do",
+      "title": "What Deutsche Bank Does",
+      "publisher": "Deutsche Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deutsche_bank"
+      ],
+      "alias_source_ids": [
+        "src_db_what_we_do_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_deel_hr_2026",
+      "url": "https://www.deel.com/solutions/hr/",
+      "title": "Global HR Solutions",
+      "publisher": "Deel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deel"
+      ],
+      "alias_source_ids": [
+        "src_deel_hr_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_deel_official",
       "url": "https://www.deel.com/",
       "title": "Deel official website",
@@ -1598,6 +2207,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_deel_payroll_2026",
+      "url": "https://www.deel.com/solutions/payroll/",
+      "title": "Global Payroll Solutions",
+      "publisher": "Deel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deel"
+      ],
+      "alias_source_ids": [
+        "src_deel_payroll_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -1641,6 +2270,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_dla_capabilities_2026",
+      "url": "https://www.dlapiper.com/en-us/capabilities",
+      "title": "DLA Piper Capabilities",
+      "publisher": "DLA Piper",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dla_piper"
+      ],
+      "alias_source_ids": [
+        "src_dla_capabilities_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_dla_corporate_2026",
+      "url": "https://www.dlapiper.com/en-us/capabilities/practice-area/corporate",
+      "title": "DLA Piper Corporate Practice",
+      "publisher": "DLA Piper",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dla_piper"
+      ],
+      "alias_source_ids": [
+        "src_dla_corporate_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -1907,6 +2576,46 @@
       ]
     },
     {
+      "id": "src_findem_platform_2026",
+      "url": "https://www.findem.ai/platform",
+      "title": "Findem Platform",
+      "publisher": "Findem",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_findem"
+      ],
+      "alias_source_ids": [
+        "src_findem_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_findem_sourcing_2026",
+      "url": "https://www.findem.ai/products/talent-sourcing",
+      "title": "Findem Talent Sourcing",
+      "publisher": "Findem",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_findem"
+      ],
+      "alias_source_ids": [
+        "src_findem_sourcing_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_finrep_official",
       "url": "https://finrep.ai/",
       "title": "Finrep official website",
@@ -1980,6 +2689,45 @@
       ]
     },
     {
+      "id": "src_frank_business_2026",
+      "url": "https://www.frankrimerman.com/services-for-businesses/",
+      "title": "Services for Businesses",
+      "publisher": "Frank, Rimerman + Co.",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_frank_rimerman_co"
+      ],
+      "alias_source_ids": [
+        "src_frank_business_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_frank_industries_2026",
+      "url": "https://www.frankrimerman.com/industries/",
+      "title": "Industries",
+      "publisher": "Frank, Rimerman + Co.",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_frank_rimerman_co"
+      ],
+      "alias_source_ids": [
+        "src_frank_industries_2026"
+      ],
+      "supports": [
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_frank-rimerman-co_official",
       "url": "https://www.frankrimerman.com/",
       "title": "Frank, Rimerman + Co. official website",
@@ -2001,6 +2749,25 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_ghj_forensic_2026",
+      "url": "https://www.ghjadvisors.com/services/advisory-services/forensic-services",
+      "title": "GHJ Forensic Services",
+      "publisher": "GHJ",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ghj"
+      ],
+      "alias_source_ids": [
+        "src_ghj_forensic_2026"
+      ],
+      "supports": [
+        "services"
       ]
     },
     {
@@ -2028,6 +2795,46 @@
       ]
     },
     {
+      "id": "src_ghj_tax_2026",
+      "url": "https://www.ghjadvisors.com/services/tax-services/",
+      "title": "GHJ Tax Services",
+      "publisher": "GHJ",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ghj"
+      ],
+      "alias_source_ids": [
+        "src_ghj_tax_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_glean_graph_2026",
+      "url": "https://www.glean.com/enterprise-context/enterprise-graph",
+      "title": "Glean Enterprise Graph",
+      "publisher": "Glean",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_glean"
+      ],
+      "alias_source_ids": [
+        "src_glean_graph_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_glean_official",
       "url": "https://www.glean.com/",
       "title": "Glean official website",
@@ -2048,6 +2855,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_glean_platform_2026",
+      "url": "https://www.glean.com/platform",
+      "title": "Glean Platform",
+      "publisher": "Glean",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_glean"
+      ],
+      "alias_source_ids": [
+        "src_glean_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -2210,6 +3037,45 @@
       ]
     },
     {
+      "id": "src_heffernan_benefits_2026",
+      "url": "https://www.heffins.com/health-insurance/benefit-advisory-services/",
+      "title": "Benefit Advisory Services",
+      "publisher": "Heffernan Insurance Brokers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_heffernan_insurance_brokers"
+      ],
+      "alias_source_ids": [
+        "src_heffernan_benefits_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_heffernan_private_2026",
+      "url": "https://www.heffins.com/personal-insurance/private-client-services/",
+      "title": "Private Client Services",
+      "publisher": "Heffernan Insurance Brokers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_heffernan_insurance_brokers"
+      ],
+      "alias_source_ids": [
+        "src_heffernan_private_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
       "id": "src_heffernan-insurance-brokers_official",
       "url": "https://www.heffins.com/",
       "title": "Heffernan Insurance Brokers official website",
@@ -2273,6 +3139,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_hfs_advisory_2026",
+      "url": "https://www.hfsresearch.com/enterprise-advisory-services/",
+      "title": "Enterprise Advisory Services",
+      "publisher": "HFS Research",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hfs_research"
+      ],
+      "alias_source_ids": [
+        "src_hfs_advisory_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_hfs_platforms_2026",
+      "url": "https://www.hfsresearch.com/enterprise-platforms/",
+      "title": "Enterprise Platforms Research",
+      "publisher": "HFS Research",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hfs_research"
+      ],
+      "alias_source_ids": [
+        "src_hfs_platforms_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -2406,6 +3312,47 @@
       ]
     },
     {
+      "id": "src_indian_hills_fei_2026",
+      "url": "https://feisv.org/board",
+      "title": "FEI Silicon Valley Board of Directors",
+      "publisher": "Financial Executives International Silicon Valley",
+      "source_type": "professional-association",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_indian_hills_advisors"
+      ],
+      "alias_source_ids": [
+        "src_indian_hills_fei_2026"
+      ],
+      "supports": [
+        "identity",
+        "relationship_notes"
+      ]
+    },
+    {
+      "id": "src_indian_hills_lander_2026",
+      "url": "https://indianhillsadvisors.com/lander",
+      "title": "Parked Domain Landing Page",
+      "publisher": "Indian Hills Advisors domain",
+      "source_type": "official-domain",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_indian_hills_advisors"
+      ],
+      "alias_source_ids": [
+        "src_indian_hills_lander_2026"
+      ],
+      "supports": [
+        "description",
+        "verification_status",
+        "relationship_notes"
+      ]
+    },
+    {
       "id": "src_indian-hills-advisors_official",
       "url": "https://indianhillsadvisors.com/",
       "title": "Indian Hills Advisors official website",
@@ -2452,6 +3399,46 @@
       ]
     },
     {
+      "id": "src_insperity_hr360_2026",
+      "url": "https://www.insperity.com/our-products/hr360/",
+      "title": "Insperity HR360",
+      "publisher": "Insperity",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insperity"
+      ],
+      "alias_source_ids": [
+        "src_insperity_hr360_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_insperity_hrscale_2026",
+      "url": "https://www.insperity.com/workday/",
+      "title": "Insperity HRScale",
+      "publisher": "Insperity",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insperity"
+      ],
+      "alias_source_ids": [
+        "src_insperity_hrscale_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_insperity_official",
       "url": "https://www.insperity.com/",
       "title": "Insperity official website",
@@ -2495,6 +3482,86 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_intel_processors_2026",
+      "url": "https://www.intel.com/content/www/us/en/products/details/processors.html",
+      "title": "Intel Processors",
+      "publisher": "Intel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intel"
+      ],
+      "alias_source_ids": [
+        "src_intel_processors_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_intel_products_2026",
+      "url": "https://www.intel.com/content/www/us/en/products/overview.html",
+      "title": "Intel Product Overview",
+      "publisher": "Intel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intel"
+      ],
+      "alias_source_ids": [
+        "src_intel_products_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_intrepid_healthcare_2026",
+      "url": "https://intrepidib.com/industries/healthcare-life-sciences/",
+      "title": "Healthcare and Life Sciences Investment Banking",
+      "publisher": "Intrepid Investment Bankers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intrepid_investment_bankers"
+      ],
+      "alias_source_ids": [
+        "src_intrepid_healthcare_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_intrepid_industries_2026",
+      "url": "https://intrepidib.com/industries/",
+      "title": "Intrepid Industries",
+      "publisher": "Intrepid Investment Bankers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intrepid_investment_bankers"
+      ],
+      "alias_source_ids": [
+        "src_intrepid_industries_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -2711,6 +3778,46 @@
       ]
     },
     {
+      "id": "src_lattice_performance_2026",
+      "url": "https://lattice.com/platform/performance",
+      "title": "Lattice Performance Management",
+      "publisher": "Lattice",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lattice"
+      ],
+      "alias_source_ids": [
+        "src_lattice_performance_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_lattice_platform_2026",
+      "url": "https://lattice.com/platform",
+      "title": "Lattice People Platform",
+      "publisher": "Lattice",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lattice"
+      ],
+      "alias_source_ids": [
+        "src_lattice_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_lazard",
       "url": "https://www.lazard.com/our-firm/businesses/financial-advisory/",
       "title": "Financial Advisory",
@@ -2795,6 +3902,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_lockton_people_2026",
+      "url": "https://global.lockton.com/us/en/products-services/people-solutions",
+      "title": "Lockton People Solutions",
+      "publisher": "Lockton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lockton"
+      ],
+      "alias_source_ids": [
+        "src_lockton_people_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_lockton_products_2026",
+      "url": "https://global.lockton.com/products-services",
+      "title": "Lockton Products and Services",
+      "publisher": "Lockton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lockton"
+      ],
+      "alias_source_ids": [
+        "src_lockton_products_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -2909,6 +4056,44 @@
       ]
     },
     {
+      "id": "src_morgan_banking_2026",
+      "url": "https://www.morganstanley.com/what-we-do/investment-banking",
+      "title": "Morgan Stanley Investment Banking",
+      "publisher": "Morgan Stanley",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_morgan_stanley"
+      ],
+      "alias_source_ids": [
+        "src_morgan_banking_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_morgan_what_we_do_2026",
+      "url": "https://www.morganstanley.com/what-we-do",
+      "title": "Morgan Stanley Businesses",
+      "publisher": "Morgan Stanley",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_morgan_stanley"
+      ],
+      "alias_source_ids": [
+        "src_morgan_what_we_do_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
       "id": "src_morgan-stanley_official",
       "url": "https://www.morganstanley.com/",
       "title": "Morgan Stanley official website",
@@ -2929,6 +4114,49 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_n47_portfolio_2026",
+      "url": "https://www.n47.com/portfolio",
+      "title": "N47 Portfolio",
+      "publisher": "N47",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_next47"
+      ],
+      "alias_source_ids": [
+        "src_n47_portfolio_2026"
+      ],
+      "supports": [
+        "website",
+        "aliases",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_n47_team_2026",
+      "url": "https://www.n47.com/team",
+      "title": "N47 Team",
+      "publisher": "N47",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_next47"
+      ],
+      "alias_source_ids": [
+        "src_n47_team_2026"
+      ],
+      "supports": [
+        "website",
+        "aliases",
+        "services"
       ]
     },
     {
@@ -2998,6 +4226,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_nvidia_datacenter_2026",
+      "url": "https://www.nvidia.com/en-us/data-center/products/",
+      "title": "NVIDIA Data Center Products",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_datacenter_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_nvidia_dgx_2026",
+      "url": "https://www.nvidia.com/en-us/data-center/dgx-platform/",
+      "title": "NVIDIA DGX Platform",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_dgx_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
       ]
     },
     {
@@ -3158,6 +4426,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_oneway_about_2026",
+      "url": "https://www.onewayvc.com/about",
+      "title": "About One Way Ventures",
+      "publisher": "One Way Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_one_way_ventures"
+      ],
+      "alias_source_ids": [
+        "src_oneway_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_oneway_portfolio_2026",
+      "url": "https://www.onewayvc.com/portfolio",
+      "title": "One Way Ventures Portfolio",
+      "publisher": "One Way Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_one_way_ventures"
+      ],
+      "alias_source_ids": [
+        "src_oneway_portfolio_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -3513,6 +4821,46 @@
       ]
     },
     {
+      "id": "src_pitchbook_products_2026",
+      "url": "https://pitchbook.com/products",
+      "title": "PitchBook Products",
+      "publisher": "PitchBook",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pitchbook"
+      ],
+      "alias_source_ids": [
+        "src_pitchbook_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_pitchbook_research_2026",
+      "url": "https://pitchbook.com/research",
+      "title": "PitchBook Research",
+      "publisher": "PitchBook",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pitchbook"
+      ],
+      "alias_source_ids": [
+        "src_pitchbook_research_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_plaid_official",
       "url": "https://plaid.com/",
       "title": "Plaid official website",
@@ -3781,6 +5129,46 @@
       ]
     },
     {
+      "id": "src_rippling_hr_2026",
+      "url": "https://www.rippling.com/products/hr",
+      "title": "Rippling HR",
+      "publisher": "Rippling",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rippling"
+      ],
+      "alias_source_ids": [
+        "src_rippling_hr_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_rippling_it_2026",
+      "url": "https://www.rippling.com/products/it",
+      "title": "Rippling IT",
+      "publisher": "Rippling",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rippling"
+      ],
+      "alias_source_ids": [
+        "src_rippling_it_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_rippling_official",
       "url": "https://www.rippling.com/",
       "title": "Rippling official website",
@@ -3801,6 +5189,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_robert_finance_2026",
+      "url": "https://www.roberthalf.com/us/en/accounting-finance",
+      "title": "Accounting and Finance Staffing",
+      "publisher": "Robert Half",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_robert_half"
+      ],
+      "alias_source_ids": [
+        "src_robert_finance_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_robert_tech_2026",
+      "url": "https://www.roberthalf.com/us/en/tech-it",
+      "title": "Technology and IT Staffing",
+      "publisher": "Robert Half",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_robert_half"
+      ],
+      "alias_source_ids": [
+        "src_robert_tech_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -3930,6 +5358,48 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_scale_genai_2026",
+      "url": "https://scale.com/genai-platform",
+      "title": "Scale Generative AI Platform",
+      "publisher": "Scale AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_scale_ai"
+      ],
+      "alias_source_ids": [
+        "src_scale_genai_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_scale_public_2026",
+      "url": "https://scale.com/public-sector",
+      "title": "Scale AI for the Public Sector",
+      "publisher": "Scale AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_scale_ai"
+      ],
+      "alias_source_ids": [
+        "src_scale_public_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -4117,6 +5587,47 @@
       ]
     },
     {
+      "id": "src_simmons_expertise_2026",
+      "url": "https://www.simmons-simmons.com/en/expertise",
+      "title": "Simmons & Simmons Expertise",
+      "publisher": "Simmons & Simmons",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_simmons_simmons"
+      ],
+      "alias_source_ids": [
+        "src_simmons_expertise_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_simmons_locations_2026",
+      "url": "https://www.simmons-simmons.com/en/locations",
+      "title": "Simmons & Simmons Locations",
+      "publisher": "Simmons & Simmons",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_simmons_simmons"
+      ],
+      "alias_source_ids": [
+        "src_simmons_locations_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "operating_geographies"
+      ]
+    },
+    {
       "id": "src_simmons-simmons_official",
       "url": "https://www.simmons-simmons.com/",
       "title": "Simmons & Simmons official website",
@@ -4222,6 +5733,44 @@
         "description",
         "services",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_stifel_about_2026",
+      "url": "https://www.stifel.com/home/aboutstifel",
+      "title": "About Stifel",
+      "publisher": "Stifel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_stifel"
+      ],
+      "alias_source_ids": [
+        "src_stifel_about_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_stifel_advisory_2026",
+      "url": "https://www.stifel.com/individual/investment-advisory-services",
+      "title": "Investment Advisory Services",
+      "publisher": "Stifel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_stifel"
+      ],
+      "alias_source_ids": [
+        "src_stifel_advisory_2026"
+      ],
+      "supports": [
+        "services"
       ]
     },
     {
@@ -4331,6 +5880,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_tesorio_ar_2026",
+      "url": "https://www.tesorio.com/product/ar-automation",
+      "title": "Accounts Receivable Automation",
+      "publisher": "Tesorio",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tesorio"
+      ],
+      "alias_source_ids": [
+        "src_tesorio_ar_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_tesorio_collections_2026",
+      "url": "https://www.tesorio.com/product/collections",
+      "title": "Tesorio Collections",
+      "publisher": "Tesorio",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tesorio"
+      ],
+      "alias_source_ids": [
+        "src_tesorio_collections_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -4470,6 +6059,46 @@
       ]
     },
     {
+      "id": "src_trinet_peo_2026",
+      "url": "https://www.trinet.com/peo",
+      "title": "TriNet PEO",
+      "publisher": "TriNet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trinet"
+      ],
+      "alias_source_ids": [
+        "src_trinet_peo_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_trinet_solutions_2026",
+      "url": "https://www.trinet.com/solutions",
+      "title": "TriNet Solutions",
+      "publisher": "TriNet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trinet"
+      ],
+      "alias_source_ids": [
+        "src_trinet_solutions_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_velixar-ai_official",
       "url": "https://velixarai.com/",
       "title": "Velixar AI official website",
@@ -4517,6 +6146,46 @@
       ]
     },
     {
+      "id": "src_vic_ap_2026",
+      "url": "https://www.vic.ai/solutions/centralize-ap-operations",
+      "title": "Centralize AP Operations",
+      "publisher": "Vic.ai",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vic_ai"
+      ],
+      "alias_source_ids": [
+        "src_vic_ap_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_vic_fraud_2026",
+      "url": "https://www.vic.ai/solutions/fraud-prevention",
+      "title": "Fraud Prevention",
+      "publisher": "Vic.ai",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vic_ai"
+      ],
+      "alias_source_ids": [
+        "src_vic_fraud_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_vic-ai_official",
       "url": "https://www.vic.ai/",
       "title": "Vic.ai official website",
@@ -4561,6 +6230,46 @@
       ]
     },
     {
+      "id": "src_wells_cib_2026",
+      "url": "https://www.wellsfargo.com/cib/our-approach/",
+      "title": "Wells Fargo Corporate and Investment Banking",
+      "publisher": "Wells Fargo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wells_fargo"
+      ],
+      "alias_source_ids": [
+        "src_wells_cib_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_wells_investment_2026",
+      "url": "https://www.wellsfargo.com/cib/investment-banking/",
+      "title": "Wells Fargo Investment Banking",
+      "publisher": "Wells Fargo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wells_fargo"
+      ],
+      "alias_source_ids": [
+        "src_wells_investment_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_wells-fargo_official",
       "url": "https://www.wellsfargo.com/",
       "title": "Wells Fargo official website",
@@ -4581,6 +6290,26 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_westcap_approach_2026",
+      "url": "https://www.westcap.com/approach",
+      "title": "WestCap Approach",
+      "publisher": "WestCap",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_westcap"
+      ],
+      "alias_source_ids": [
+        "src_westcap_approach_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -4607,8 +6336,28 @@
       ]
     },
     {
+      "id": "src_westcap_portfolio_2026",
+      "url": "https://www.westcap.com/portfolio",
+      "title": "WestCap Portfolio",
+      "publisher": "WestCap",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_westcap"
+      ],
+      "alias_source_ids": [
+        "src_westcap_portfolio_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_western-technology-investment_official",
-      "url": "https://www.wti.com/",
+      "url": "https://www.westerntech.com/",
       "title": "Western Technology Investment official website",
       "publisher": "Western Technology Investment",
       "source_type": "official-company",
@@ -4649,6 +6398,46 @@
         "description",
         "services",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_witness_control_2026",
+      "url": "https://witness.ai/control/",
+      "title": "WitnessAI Control",
+      "publisher": "WitnessAI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_witnessai"
+      ],
+      "alias_source_ids": [
+        "src_witness_control_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_witness_product_2026",
+      "url": "https://witness.ai/product/",
+      "title": "WitnessAI Product",
+      "publisher": "WitnessAI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_witnessai"
+      ],
+      "alias_source_ids": [
+        "src_witness_product_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -4717,6 +6506,27 @@
       ]
     },
     {
+      "id": "src_writer_agent_2026",
+      "url": "https://writer.com/product/writer-agent/",
+      "title": "Writer Agent",
+      "publisher": "Writer",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_writer"
+      ],
+      "alias_source_ids": [
+        "src_writer_agent_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_writer_official",
       "url": "https://writer.com/",
       "title": "Writer official website",
@@ -4737,6 +6547,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_writer_studio_2026",
+      "url": "https://writer.com/product/ai-studio/",
+      "title": "Writer AI Studio",
+      "publisher": "Writer",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_writer"
+      ],
+      "alias_source_ids": [
+        "src_writer_studio_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -4781,6 +6612,48 @@
         "operating_geographies",
         "represented_private_companies",
         "represented_public_companies"
+      ]
+    },
+    {
+      "id": "src_wti_portfolio_2026",
+      "url": "https://www.westerntech.com/companies",
+      "title": "Western Technology Investment Portfolio",
+      "publisher": "Western Technology Investment",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_western_technology_investment"
+      ],
+      "alias_source_ids": [
+        "src_wti_portfolio_2026"
+      ],
+      "supports": [
+        "website",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_wti_team_2026",
+      "url": "https://www.westerntech.com/team",
+      "title": "Western Technology Investment Team",
+      "publisher": "Western Technology Investment",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_western_technology_investment"
+      ],
+      "alias_source_ids": [
+        "src_wti_team_2026"
+      ],
+      "supports": [
+        "website",
+        "aliases",
+        "services"
       ]
     },
     {
@@ -4853,6 +6726,84 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_yec_membership_2026",
+      "url": "https://yec.co/membership",
+      "title": "YEC Membership",
+      "publisher": "Young Entrepreneur Council",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_young_entrepreneur_council"
+      ],
+      "alias_source_ids": [
+        "src_yec_membership_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_yec_terms_2026",
+      "url": "https://yec.co/terms",
+      "title": "YEC Terms and Membership Description",
+      "publisher": "Young Entrepreneur Council",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_young_entrepreneur_council"
+      ],
+      "alias_source_ids": [
+        "src_yec_terms_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_you_research_2026",
+      "url": "https://you.com/docs/research/overview",
+      "title": "You.com Research API",
+      "publisher": "You.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_you_com"
+      ],
+      "alias_source_ids": [
+        "src_you_research_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_you_search_2026",
+      "url": "https://you.com/docs/search/overview",
+      "title": "You.com Search API",
+      "publisher": "You.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_you_com"
+      ],
+      "alias_source_ids": [
+        "src_you_search_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -4969,6 +6920,27 @@
       ]
     },
     {
+      "id": "src_zenskar_finance_2026",
+      "url": "https://www.zenskar.com/solutions/finance",
+      "title": "Zenskar for Finance",
+      "publisher": "Zenskar",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zenskar"
+      ],
+      "alias_source_ids": [
+        "src_zenskar_finance_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_zenskar_official",
       "url": "https://www.zenskar.com/",
       "title": "Zenskar official website",
@@ -4989,6 +6961,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_zenskar_usage_2026",
+      "url": "https://www.zenskar.com/solutions/usage-based-pricing",
+      "title": "Usage-based Pricing",
+      "publisher": "Zenskar",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zenskar"
+      ],
+      "alias_source_ids": [
+        "src_zenskar_usage_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {

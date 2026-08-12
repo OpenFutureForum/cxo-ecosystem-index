@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "technology-law-firms",
   "entity_ids": [
@@ -1403,7 +1403,14 @@
       "categories": [
         "Law Firms"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Financial Services",
+        "Life Sciences",
+        "Healthcare",
+        "Energy",
+        "Consumer"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1483,6 +1490,136 @@
             "src_dla-piper_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_corporate-law",
+          "field": "services",
+          "value": "corporate law",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_mergers-and-acquisitions-counsel",
+          "field": "services",
+          "value": "mergers and acquisitions counsel",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_finance-law",
+          "field": "services",
+          "value": "finance law",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_data-privacy-and-cybersecurity-law",
+          "field": "services",
+          "value": "data privacy and cybersecurity law",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_intellectual-property-law",
+          "field": "services",
+          "value": "intellectual property law",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_tax-law",
+          "field": "services",
+          "value": "tax law",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_services_regulatory-counsel",
+          "field": "services",
+          "value": "regulatory counsel",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_energy",
+          "field": "industries",
+          "value": "Energy",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_dla-piper_industries_consumer",
+          "field": "industries",
+          "value": "Consumer",
+          "source_ids": [
+            "src_dla_capabilities_2026",
+            "src_dla_corporate_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1503,11 +1640,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_dla_capabilities_2026",
+          "url": "https://www.dlapiper.com/en-us/capabilities",
+          "title": "DLA Piper Capabilities",
+          "publisher": "DLA Piper",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_dla_corporate_2026",
+          "url": "https://www.dlapiper.com/en-us/capabilities/practice-area/corporate",
+          "title": "DLA Piper Corporate Practice",
+          "publisher": "DLA Piper",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "corporate law",
+        "mergers and acquisitions counsel",
+        "finance law",
+        "data privacy and cybersecurity law",
+        "intellectual property law",
+        "tax law",
+        "regulatory counsel"
+      ],
+      "products": [],
       "primary_category": "Law Firms",
       "secondary_categories": [],
       "provider_types": [
@@ -1537,7 +1708,13 @@
       "categories": [
         "Law Firms"
       ],
-      "industries": [],
+      "industries": [
+        "Asset Management",
+        "Financial Institutions",
+        "Healthcare and Life Sciences",
+        "Technology Media and Telecommunications",
+        "Energy and Infrastructure"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1608,6 +1785,126 @@
             "src_simmons-simmons_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_corporate-and-m-a-law",
+          "field": "services",
+          "value": "corporate and M&A law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_banking-and-finance-law",
+          "field": "services",
+          "value": "banking and finance law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_capital-markets-law",
+          "field": "services",
+          "value": "capital markets law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_data-protection-and-privacy-law",
+          "field": "services",
+          "value": "data protection and privacy law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_tax-law",
+          "field": "services",
+          "value": "tax law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_venture-capital-law",
+          "field": "services",
+          "value": "venture capital law",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_services_dispute-resolution",
+          "field": "services",
+          "value": "dispute resolution",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_industries_asset-management",
+          "field": "industries",
+          "value": "Asset Management",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_industries_financial-institutions",
+          "field": "industries",
+          "value": "Financial Institutions",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_industries_healthcare-and-life-sciences",
+          "field": "industries",
+          "value": "Healthcare and Life Sciences",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_industries_technology-media-and-telecommunications",
+          "field": "industries",
+          "value": "Technology Media and Telecommunications",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_simmons-simmons_industries_energy-and-infrastructure",
+          "field": "industries",
+          "value": "Energy and Infrastructure",
+          "source_ids": [
+            "src_simmons_expertise_2026",
+            "src_simmons_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1628,11 +1925,46 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_simmons_expertise_2026",
+          "url": "https://www.simmons-simmons.com/en/expertise",
+          "title": "Simmons & Simmons Expertise",
+          "publisher": "Simmons & Simmons",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_simmons_locations_2026",
+          "url": "https://www.simmons-simmons.com/en/locations",
+          "title": "Simmons & Simmons Locations",
+          "publisher": "Simmons & Simmons",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries",
+            "operating_geographies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "corporate and M&A law",
+        "banking and finance law",
+        "capital markets law",
+        "data protection and privacy law",
+        "tax law",
+        "venture capital law",
+        "dispute resolution"
+      ],
+      "products": [],
       "primary_category": "Law Firms",
       "secondary_categories": [],
       "provider_types": [

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.2",
+  "dataset_version": "0.8.3",
   "calculated_at": "2026-08-11",
   "cohort_id": "chro-technology",
   "entity_ids": [
@@ -251,6 +251,96 @@
             "src_findem_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-sourcing",
+          "field": "products",
+          "value": "talent sourcing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-marketing",
+          "field": "products",
+          "value": "talent marketing",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_executive-search-platform",
+          "field": "products",
+          "value": "executive search platform",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_talent-analytics",
+          "field": "products",
+          "value": "talent analytics",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_market-intelligence",
+          "field": "products",
+          "value": "market intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_products_candidate-relationship-management",
+          "field": "products",
+          "value": "candidate relationship management",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_ai-talent-search",
+          "field": "services",
+          "value": "AI talent search",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_recruiting-automation",
+          "field": "services",
+          "value": "recruiting automation",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_services_workforce-intelligence",
+          "field": "services",
+          "value": "workforce intelligence",
+          "source_ids": [
+            "src_findem_platform_2026",
+            "src_findem_sourcing_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -271,11 +361,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_findem_platform_2026",
+          "url": "https://www.findem.ai/platform",
+          "title": "Findem Platform",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_findem_sourcing_2026",
+          "url": "https://www.findem.ai/products/talent-sourcing",
+          "title": "Findem Talent Sourcing",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "talent sourcing",
+        "talent marketing",
+        "executive search platform",
+        "talent analytics",
+        "market intelligence",
+        "candidate relationship management"
+      ],
+      "services": [
+        "AI talent search",
+        "recruiting automation",
+        "workforce intelligence"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Recruiting",
@@ -391,6 +518,106 @@
             "src_rippling_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_hr-management",
+          "field": "products",
+          "value": "HR management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_payroll",
+          "field": "products",
+          "value": "payroll",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_it-management",
+          "field": "products",
+          "value": "IT management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_finance-management",
+          "field": "products",
+          "value": "finance management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_benefits-administration",
+          "field": "products",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_ai-workforce-tools",
+          "field": "products",
+          "value": "AI workforce tools",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_workforce-management-platform",
+          "field": "services",
+          "value": "workforce management platform",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_global-payroll",
+          "field": "services",
+          "value": "global payroll",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_device-and-identity-management",
+          "field": "services",
+          "value": "device and identity management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -411,11 +638,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_rippling_hr_2026",
+          "url": "https://www.rippling.com/products/hr",
+          "title": "Rippling HR",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_rippling_it_2026",
+          "url": "https://www.rippling.com/products/it",
+          "title": "Rippling IT",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "HR management",
+        "payroll",
+        "IT management",
+        "finance management",
+        "benefits administration",
+        "expense management",
+        "AI workforce tools"
+      ],
+      "services": [
+        "workforce management platform",
+        "global payroll",
+        "device and identity management"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Enterprise Technology"
@@ -519,6 +784,106 @@
             "src_deel_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_global-payroll",
+          "field": "products",
+          "value": "global payroll",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_hr-platform",
+          "field": "products",
+          "value": "HR platform",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_it-management",
+          "field": "products",
+          "value": "IT management",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_benefits-administration",
+          "field": "products",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_global-hiring",
+          "field": "products",
+          "value": "global hiring",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_immigration-and-mobility",
+          "field": "products",
+          "value": "immigration and mobility",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_products_ai-workforce-tools",
+          "field": "products",
+          "value": "AI workforce tools",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_services_employer-of-record",
+          "field": "services",
+          "value": "employer of record",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_services_contractor-management",
+          "field": "services",
+          "value": "contractor management",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_services_global-compliance",
+          "field": "services",
+          "value": "global compliance",
+          "source_ids": [
+            "src_deel_payroll_2026",
+            "src_deel_hr_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -539,11 +904,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_deel_payroll_2026",
+          "url": "https://www.deel.com/solutions/payroll/",
+          "title": "Global Payroll Solutions",
+          "publisher": "Deel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_deel_hr_2026",
+          "url": "https://www.deel.com/solutions/hr/",
+          "title": "Global HR Solutions",
+          "publisher": "Deel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "global payroll",
+        "HR platform",
+        "IT management",
+        "benefits administration",
+        "global hiring",
+        "immigration and mobility",
+        "AI workforce tools"
+      ],
+      "services": [
+        "employer of record",
+        "contractor management",
+        "global compliance"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -624,6 +1027,96 @@
             "src_lattice_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_performance-management",
+          "field": "products",
+          "value": "performance management",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_employee-engagement",
+          "field": "products",
+          "value": "employee engagement",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_people-analytics",
+          "field": "products",
+          "value": "people analytics",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_compensation-management",
+          "field": "products",
+          "value": "compensation management",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_objectives-and-key-results",
+          "field": "products",
+          "value": "objectives and key results",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_employee-growth-tools",
+          "field": "products",
+          "value": "employee growth tools",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_people-management-platform",
+          "field": "services",
+          "value": "people management platform",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_performance-reviews",
+          "field": "services",
+          "value": "performance reviews",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_engagement-surveys",
+          "field": "services",
+          "value": "engagement surveys",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -644,11 +1137,48 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_lattice_platform_2026",
+          "url": "https://lattice.com/platform",
+          "title": "Lattice People Platform",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_lattice_performance_2026",
+          "url": "https://lattice.com/platform/performance",
+          "title": "Lattice Performance Management",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "performance management",
+        "employee engagement",
+        "people analytics",
+        "compensation management",
+        "objectives and key results",
+        "employee growth tools"
+      ],
+      "services": [
+        "people management platform",
+        "performance reviews",
+        "engagement surveys"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -739,6 +1269,106 @@
             "src_trinet_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_products_trinet-peo",
+          "field": "products",
+          "value": "TriNet PEO",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_products_trinet-hr-plus",
+          "field": "products",
+          "value": "TriNet HR Plus",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_products_trinet-payroll",
+          "field": "products",
+          "value": "TriNet Payroll",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_products_hr-technology-platform",
+          "field": "products",
+          "value": "HR technology platform",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_professional-employer-organization-services",
+          "field": "services",
+          "value": "professional employer organization services",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_payroll-administration",
+          "field": "services",
+          "value": "payroll administration",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_employee-benefits",
+          "field": "services",
+          "value": "employee benefits",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_hr-compliance",
+          "field": "services",
+          "value": "HR compliance",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_risk-mitigation",
+          "field": "services",
+          "value": "risk mitigation",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_services_talent-management",
+          "field": "services",
+          "value": "talent management",
+          "source_ids": [
+            "src_trinet_solutions_2026",
+            "src_trinet_peo_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -759,11 +1389,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_trinet_solutions_2026",
+          "url": "https://www.trinet.com/solutions",
+          "title": "TriNet Solutions",
+          "publisher": "TriNet",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_trinet_peo_2026",
+          "url": "https://www.trinet.com/peo",
+          "title": "TriNet PEO",
+          "publisher": "TriNet",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "TriNet PEO",
+        "TriNet HR Plus",
+        "TriNet Payroll",
+        "HR technology platform"
+      ],
+      "services": [
+        "professional employer organization services",
+        "payroll administration",
+        "employee benefits",
+        "HR compliance",
+        "risk mitigation",
+        "talent management"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -854,6 +1522,106 @@
             "src_insperity_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_products_insperity-hr360",
+          "field": "products",
+          "value": "Insperity HR360",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_products_insperity-hrscale",
+          "field": "products",
+          "value": "Insperity HRScale",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_products_insperity-hrcore",
+          "field": "products",
+          "value": "Insperity HRCore",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_products_insperity-premier",
+          "field": "products",
+          "value": "Insperity Premier",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_full-service-hr",
+          "field": "services",
+          "value": "full-service HR",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_payroll-processing",
+          "field": "services",
+          "value": "payroll processing",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_benefits-administration",
+          "field": "services",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_hr-compliance-support",
+          "field": "services",
+          "value": "HR compliance support",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_workforce-administration",
+          "field": "services",
+          "value": "workforce administration",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_services_talent-management",
+          "field": "services",
+          "value": "talent management",
+          "source_ids": [
+            "src_insperity_hr360_2026",
+            "src_insperity_hrscale_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -874,11 +1642,49 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_insperity_hr360_2026",
+          "url": "https://www.insperity.com/our-products/hr360/",
+          "title": "Insperity HR360",
+          "publisher": "Insperity",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_insperity_hrscale_2026",
+          "url": "https://www.insperity.com/workday/",
+          "title": "Insperity HRScale",
+          "publisher": "Insperity",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Insperity HR360",
+        "Insperity HRScale",
+        "Insperity HRCore",
+        "Insperity Premier"
+      ],
+      "services": [
+        "full-service HR",
+        "payroll processing",
+        "benefits administration",
+        "HR compliance support",
+        "workforce administration",
+        "talent management"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -959,6 +1765,93 @@
             "src_15five_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_performance-management-platform",
+          "field": "products",
+          "value": "performance management platform",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_performance-reviews",
+          "field": "products",
+          "value": "performance reviews",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_employee-engagement-surveys",
+          "field": "products",
+          "value": "employee engagement surveys",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_manager-effectiveness-tools",
+          "field": "products",
+          "value": "manager effectiveness tools",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_objectives-and-key-results",
+          "field": "products",
+          "value": "objectives and key results",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_products_ai-coaching-and-hr-agents",
+          "field": "products",
+          "value": "AI coaching and HR agents",
+          "source_ids": [
+            "src_15five_products_2026",
+            "src_15five_ai_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_services_performance-management",
+          "field": "services",
+          "value": "performance management",
+          "source_ids": [
+            "src_15five_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_services_employee-engagement-measurement",
+          "field": "services",
+          "value": "employee engagement measurement",
+          "source_ids": [
+            "src_15five_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_services_manager-enablement",
+          "field": "services",
+          "value": "manager enablement",
+          "source_ids": [
+            "src_15five_products_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -979,11 +1872,47 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_15five_products_2026",
+          "url": "https://www.15five.com/products",
+          "title": "15Five Products",
+          "publisher": "15Five",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_15five_ai_2026",
+          "url": "https://www.15five.com/products/15five-ai",
+          "title": "15Five AI",
+          "publisher": "15Five",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "performance management platform",
+        "performance reviews",
+        "employee engagement surveys",
+        "manager effectiveness tools",
+        "objectives and key results",
+        "AI coaching and HR agents"
+      ],
+      "services": [
+        "performance management",
+        "employee engagement measurement",
+        "manager enablement"
+      ],
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [

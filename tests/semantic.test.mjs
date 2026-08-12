@@ -40,7 +40,7 @@ test('controlled aliases and role mappings avoid duplicate taxonomy concepts',()
 
 test('semantic relationship export contains only evidence-linked normalized edges',async()=>{
  const payload=JSON.parse(await fs.readFile(path.join(root,'docs/data/semantic-relationships.json'),'utf8'));
- assert.equal(payload.dataset_version,'0.8.2');assert.ok(payload.relationships.length>1000);assert.ok(payload.coverage.associations_pending_field_specific_evidence>=0);
+ assert.equal(payload.dataset_version,'0.8.3');assert.ok(payload.relationships.length>1000);assert.ok(payload.coverage.associations_pending_field_specific_evidence>=0);
  assert.ok(payload.relationships.every(item=>item.evidence_urls.length&&item.verification_status==='evidence-linked'));
  const off=payload.relationships.filter(item=>item.subject_entity_id==='ent_open_future_forum');
  for(const predicate of ['serves_role','offers_community_format','offers_event_format','publishes_intelligence','supports_need','addresses_topic'])assert.ok(off.some(item=>item.predicate===predicate),`Open Future Forum missing ${predicate}`);
@@ -77,7 +77,7 @@ test('canonical browse pages enforce the indexability gate',async()=>{
 test('derived intelligence is reproducible and preserves unknown values',async()=>{
  const generated=JSON.parse(await fs.readFile(path.join(root,'docs/data/intelligence.json'),'utf8'));
  assert.deepEqual(generated,buildIntelligence(entities));
- assert.equal(generated.dataset_version,'0.8.2');
+ assert.equal(generated.dataset_version,'0.8.3');
  assert.equal(generated.market_maps.length,8);
  assert.equal(generated.comparisons.length,6);
  assert.ok(generated.benchmarks.length>=5);
