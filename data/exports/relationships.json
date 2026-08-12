@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "generated_at": "2026-08-11",
-  "sourced_relationship_count": 27,
-  "derived_reciprocal_count": 27,
+  "sourced_relationship_count": 29,
+  "derived_reciprocal_count": 29,
   "relationships": [
     {
       "id": "rel_svb_division_of_first_citizens",
@@ -436,6 +436,38 @@
         "src_nvidia_sap_2026"
       ],
       "notes": "NVIDIA and SAP announced an expanded collaboration around secure specialized agents."
+    },
+    {
+      "id": "rel_bill_integrates_with_intuit",
+      "subject_entity_id": "ent_bill",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_intuit",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_bill_intuit_2026"
+      ],
+      "notes": "BILL documents its current two-way integration with Intuit QuickBooks Online and Desktop."
+    },
+    {
+      "id": "rel_rippling_integrates_with_microsoft",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_microsoft",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_rippling_microsoft_2026"
+      ],
+      "notes": "Rippling documents its provisioning integration with Microsoft Entra ID for shared customers."
     },
     {
       "id": "rel_svb_division_of_first_citizens__inverse",
@@ -922,6 +954,42 @@
       "notes": "NVIDIA and SAP announced an expanded collaboration around secure specialized agents.",
       "derived_reciprocal": true,
       "source_relationship_id": "rel_nvidia_partner_of_sap"
+    },
+    {
+      "id": "rel_bill_integrates_with_intuit__inverse",
+      "subject_entity_id": "ent_intuit",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_bill",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_bill_intuit_2026"
+      ],
+      "notes": "BILL documents its current two-way integration with Intuit QuickBooks Online and Desktop.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_bill_integrates_with_intuit"
+    },
+    {
+      "id": "rel_rippling_integrates_with_microsoft__inverse",
+      "subject_entity_id": "ent_microsoft",
+      "predicate": "integrates_with",
+      "object_entity_id": "ent_rippling",
+      "status": "current",
+      "valid_from": null,
+      "valid_to": null,
+      "as_of_date": "2026-08-11",
+      "verification_status": "verified",
+      "confidence": "high",
+      "source_ids": [
+        "src_rippling_microsoft_2026"
+      ],
+      "notes": "Rippling documents its provisioning integration with Microsoft Entra ID for shared customers.",
+      "derived_reciprocal": true,
+      "source_relationship_id": "rel_rippling_integrates_with_microsoft"
     }
   ]
 }

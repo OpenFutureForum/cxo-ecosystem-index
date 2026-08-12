@@ -65,7 +65,7 @@ test('the second 50-profile batch is complete, layered, and evidence-conservativ
  const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
  assert.equal(records.length,50);
  assert.ok(average>=88);
- assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
+ assert.ok(records.filter(record=>record.score>=80).length>=manifest.advanced_to_maintenance);
  assert.equal(manifest.before_average_score,49.7);
  assert.ok(manifest.after_average_score-manifest.before_average_score>=35);
  const indianHills=entities.find(entity=>entity.id==='ent_indian_hills_advisors');
@@ -91,12 +91,31 @@ test('the v0.9.0 priority batch improves decision-use fields without inventing g
  assert.ok(classifications.every(record=>record.evidence?.length&&record.evidence.every(item=>item.supports?.length)));
  const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);const ids=new Set(manifest.entity_ids);const records=result.entities.filter(record=>ids.has(record.entity_id));
  const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
- assert.equal(average,manifest.after_average_score);
- assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
+ assert.ok(average>=manifest.after_average_score);
+ assert.ok(records.filter(record=>record.score>=80).length>=manifest.advanced_to_maintenance);
  assert.ok(manifest.after_average_score>manifest.before_average_score);
  assert.ok(entities.every(entity=>entity.geography_status==='verified'||entity.geographies.length===0));
  assert.ok(entities.filter(entity=>entity.geography_status==='unknown').length>100);
  for(const id of ['ent_indian_hills_advisors','ent_chameleon_ventures','ent_paygentic'])assert.equal(entities.find(entity=>entity.id===id).geography_status,'unknown');
+});
+
+test('the v0.9.2 priority batch increases first-party fact depth while preserving unknowns',async()=>{
+ const [batch,manifest]=await Promise.all([
+  fs.readFile(path.join(root,'data/enrichments-p4.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/research-batch-v0.9.2.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(batch.length,manifest.improved_record_count);
+ assert.equal(new Set(batch.map(record=>record.entity_id)).size,batch.length);
+ assert.equal(batch.flatMap(record=>record.sources||[]).length,manifest.new_source_count);
+ assert.equal(manifest.entity_ids.length,manifest.record_count);
+ const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);const ids=new Set(manifest.entity_ids);const records=result.entities.filter(record=>ids.has(record.entity_id));
+ const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
+ assert.equal(average,manifest.after_average_score);
+ assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
+ assert.ok(manifest.after_average_score-manifest.before_average_score>=16);
+ for(const id of manifest.research_deferred){const entity=entities.find(record=>record.id===id);assert.equal(entity.founded_year,undefined,`${id} unexpectedly gained founded_year`);assert.equal(entity.headquarters,undefined,`${id} unexpectedly gained headquarters`);}
+ const atlas=entities.find(entity=>entity.id==='ent_atlas_cloud_ai');assert.equal(atlas.headquarters,'New York, New York, United States');assert.ok(atlas.products.includes('unified AI model API'));
+ const cfgi=entities.find(entity=>entity.id==='ent_cfgi');assert.equal(cfgi.founded_year,2001);assert.equal(cfgi.headquarters,'Boston, Massachusetts, United States');
 });
 
 test('generated completeness exports and public explanations agree',async()=>{

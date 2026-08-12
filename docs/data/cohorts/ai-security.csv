@@ -1,6 +1,6 @@
 id,name,website,entity_type,primary_category,secondary_categories,cxo_roles,categories,headquarters,geographies,geography_status,founded_year,verification_status
 "ent_adaptive_security","Adaptive Security","https://www.adaptivesecurity.com/","Organization","AI Security","Cybersecurity","CISO","AI Security|Cybersecurity","","","unknown","","verified"
-"ent_witnessai","WitnessAI","https://witness.ai/","Organization","AI Security","Cybersecurity|Artificial Intelligence","CISO|CIO","AI Security|Cybersecurity|Artificial Intelligence","","","unknown","","verified"
+"ent_witnessai","WitnessAI","https://witness.ai/","Organization","AI Security","Cybersecurity|Artificial Intelligence","CISO|CIO","AI Security|Cybersecurity|Artificial Intelligence","Mountain View, California, United States","","unknown","","verified"
 "ent_airmdr","AirMDR","https://www.airmdr.com/","Organization","Cybersecurity","AI Security","CISO","Cybersecurity|AI Security","","","unknown","","verified"
 "ent_resemble_ai","Resemble AI","https://www.resemble.ai/","Organization","Artificial Intelligence","AI Security","CIO|CTO|CISO","Artificial Intelligence|AI Security","","","unknown","","verified"
 "ent_agentic_fabriq","Agentic Fabriq","https://agenticfabriq.com/","Organization","AI Security","Agent Identity|Identity and Access Management|AI Infrastructure","CISO|CIO|CTO","AI Security|Agent Identity|Identity and Access Management|AI Infrastructure","San Francisco, California, United States","","unknown","2025","verified"

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -897,6 +897,46 @@
       ]
     },
     {
+      "id": "src_applitools_about_2026",
+      "url": "https://applitools.com/about/",
+      "title": "About Applitools",
+      "publisher": "Applitools",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_applitools"
+      ],
+      "alias_source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_applitools_founding_2026",
+      "url": "https://applitools.com/blog/press-release-applitools-raises-31m/",
+      "title": "Applitools Raises $31M",
+      "publisher": "Applitools",
+      "source_type": "official-company",
+      "published_date": "2018-04-17",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_applitools"
+      ],
+      "alias_source_ids": [
+        "src_applitools_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
       "id": "src_applitools_official",
       "url": "https://applitools.com/",
       "title": "Applitools official website",
@@ -1007,6 +1047,67 @@
       ]
     },
     {
+      "id": "src_atlas_about_2026",
+      "url": "https://www.atlascloud.ai/about",
+      "title": "About Atlas Cloud",
+      "publisher": "Atlas Cloud AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlas_cloud_ai"
+      ],
+      "alias_source_ids": [
+        "src_atlas_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_atlas_contact_2026",
+      "url": "https://www.atlascloud.ai/docs/en/contact",
+      "title": "Atlas Cloud Contact and Company Information",
+      "publisher": "Atlas Cloud AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlas_cloud_ai"
+      ],
+      "alias_source_ids": [
+        "src_atlas_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "services"
+      ]
+    },
+    {
+      "id": "src_atlas_docs_2026",
+      "url": "https://www.atlascloud.ai/docs/en/how-it-works",
+      "title": "How Atlas Cloud Works",
+      "publisher": "Atlas Cloud AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_atlas_cloud_ai"
+      ],
+      "alias_source_ids": [
+        "src_atlas_docs_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_atlas-cloud-ai_official",
       "url": "https://atlascloud.ai/",
       "title": "Atlas Cloud AI official website",
@@ -1105,14 +1206,20 @@
         "ent_avenue_capital_group"
       ],
       "alias_source_ids": [
-        "src_avenue-capital-group_official"
+        "src_avenue-capital-group_official",
+        "src_avenue_firm_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
       ]
     },
     {
@@ -1356,6 +1463,67 @@
         "integrations",
         "customer_segments",
         "countries_supported"
+      ]
+    },
+    {
+      "id": "src_bill_contact_2026",
+      "url": "https://www.bill.com/contact-us",
+      "title": "BILL Contact and Locations",
+      "publisher": "BILL",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bill"
+      ],
+      "alias_source_ids": [
+        "src_bill_contact_2026"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
+      "id": "src_bill_intuit_2026",
+      "url": "https://www.bill.com/blog/best-expense-reporting-tools-that-integrate-with-quickbooks",
+      "title": "BILL and QuickBooks Integration",
+      "publisher": "BILL",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bill"
+      ],
+      "alias_source_ids": [
+        "src_bill_intuit_2026"
+      ],
+      "supports": [
+        "relationships",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_bill_ir_2026",
+      "url": "https://investor.bill.com/overview/",
+      "title": "BILL Corporate Overview",
+      "publisher": "BILL",
+      "source_type": "investor-relations",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bill"
+      ],
+      "alias_source_ids": [
+        "src_bill_ir_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "services",
+        "industries"
       ]
     },
     {
@@ -2128,6 +2296,29 @@
       ]
     },
     {
+      "id": "src_cfgi_about_2026",
+      "url": "https://www.cfgi.com/about/",
+      "title": "About CFGI",
+      "publisher": "CFGI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cfgi"
+      ],
+      "alias_source_ids": [
+        "src_cfgi_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_cfgi_industries_2026",
       "url": "https://www.cfgi.com/industries/",
       "title": "CFGI Industries",
@@ -2145,6 +2336,26 @@
       "supports": [
         "industries",
         "services"
+      ]
+    },
+    {
+      "id": "src_cfgi_locations_2026",
+      "url": "https://www.cfgi.com/locations/",
+      "title": "CFGI Locations",
+      "publisher": "CFGI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cfgi"
+      ],
+      "alias_source_ids": [
+        "src_cfgi_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -2569,6 +2780,27 @@
       ]
     },
     {
+      "id": "src_contextqa_about_2026",
+      "url": "https://contextqa.com/about-us/",
+      "title": "About ContextQA",
+      "publisher": "ContextQA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_contextqa"
+      ],
+      "alias_source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_contextqa_official",
       "url": "https://contextqa.com/",
       "title": "ContextQA official website",
@@ -2827,6 +3059,26 @@
       ]
     },
     {
+      "id": "src_danforth_contact_2026",
+      "url": "https://www.danforthadvisors.com/contact-us/",
+      "title": "Danforth Advisors Contact and Operations",
+      "publisher": "Danforth Advisors",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_danforth_advisors"
+      ],
+      "alias_source_ids": [
+        "src_danforth_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_danforth_finance_2026",
       "url": "https://www.danforthadvisors.com/capabilities/operational-finance-and-accounting/",
       "title": "Operational Finance and Accounting",
@@ -2842,6 +3094,27 @@
         "src_danforth_finance_2026"
       ],
       "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_danforth_overview_2026",
+      "url": "https://www.danforthadvisors.com/resources/danforth-advisors-overview/",
+      "title": "Danforth Advisors Overview",
+      "publisher": "Danforth Advisors",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_danforth_advisors"
+      ],
+      "alias_source_ids": [
+        "src_danforth_overview_2026"
+      ],
+      "supports": [
+        "founded_year",
         "services",
         "industries"
       ]
@@ -2951,6 +3224,27 @@
       "supports": [
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_databricks_structure_2026",
+      "url": "https://www.databricks.com/it/legal/modern-slavery-policy-statement",
+      "title": "Databricks Business Structure and Operations",
+      "publisher": "Databricks",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_databricks"
+      ],
+      "alias_source_ids": [
+        "src_databricks_structure_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -3179,6 +3473,27 @@
         "src_dla_corporate_2026"
       ],
       "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_dla_locations_2026",
+      "url": "https://www.dlapiper.com/en-us/locations",
+      "title": "DLA Piper Global Locations",
+      "publisher": "DLA Piper",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_dla_piper"
+      ],
+      "alias_source_ids": [
+        "src_dla_locations_2026"
+      ],
+      "supports": [
+        "geographies",
         "services",
         "industries"
       ]
@@ -3488,6 +3803,28 @@
       ]
     },
     {
+      "id": "src_findem_growth_2026",
+      "url": "https://www.findem.ai/news/findem-marks-record-company-growth-and-momentum-milestones",
+      "title": "Findem Growth and Global Expansion",
+      "publisher": "Findem",
+      "source_type": "official-company",
+      "published_date": "2023-11-30",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_findem"
+      ],
+      "alias_source_ids": [
+        "src_findem_growth_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_findem_official",
       "url": "https://www.findem.ai/",
       "title": "Findem official website",
@@ -3551,6 +3888,27 @@
       ]
     },
     {
+      "id": "src_finrep_about_2026",
+      "url": "https://www.finrep.ai/about",
+      "title": "About Finrep",
+      "publisher": "Finrep",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_finrep"
+      ],
+      "alias_source_ids": [
+        "src_finrep_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_finrep_official",
       "url": "https://finrep.ai/",
       "title": "Finrep official website",
@@ -3572,6 +3930,26 @@
         "categories",
         "cxo_roles",
         "aliases"
+      ]
+    },
+    {
+      "id": "src_finrep_terms_2026",
+      "url": "https://www.finrep.ai/terms-of-service",
+      "title": "Finrep Terms of Service",
+      "publisher": "Finrep",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_finrep"
+      ],
+      "alias_source_ids": [
+        "src_finrep_terms_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
       ]
     },
     {
@@ -3747,6 +4125,27 @@
       ]
     },
     {
+      "id": "src_frank_story_2026",
+      "url": "https://www.frankrimerman.com/who-we-are/",
+      "title": "Frank, Rimerman + Co. Story",
+      "publisher": "Frank, Rimerman + Co.",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_frank_rimerman_co"
+      ],
+      "alias_source_ids": [
+        "src_frank_story_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_frank-rimerman-co_official",
       "url": "https://www.frankrimerman.com/",
       "title": "Frank, Rimerman + Co. official website",
@@ -3771,6 +4170,28 @@
       ]
     },
     {
+      "id": "src_ghj_about_2026",
+      "url": "https://www.ghjadvisors.com/about-us",
+      "title": "About GHJ",
+      "publisher": "GHJ",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ghj"
+      ],
+      "alias_source_ids": [
+        "src_ghj_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_ghj_forensic_2026",
       "url": "https://www.ghjadvisors.com/services/advisory-services/forensic-services",
       "title": "GHJ Forensic Services",
@@ -3787,6 +4208,26 @@
       ],
       "supports": [
         "services"
+      ]
+    },
+    {
+      "id": "src_ghj_hq_2026",
+      "url": "https://www.ghjadvisors.com/about-us/ghj-locations/southern-california-headquarters",
+      "title": "GHJ Southern California Headquarters",
+      "publisher": "GHJ",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ghj"
+      ],
+      "alias_source_ids": [
+        "src_ghj_hq_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -3988,6 +4429,48 @@
       ]
     },
     {
+      "id": "src_hackzero_ai_notice_2026",
+      "url": "https://hackzero.ai/legal/ai",
+      "title": "HackZero AI Transparency Notice",
+      "publisher": "HackZero",
+      "source_type": "official-company",
+      "published_date": "2026-06-02",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hackzero_ai"
+      ],
+      "alias_source_ids": [
+        "src_hackzero_ai_notice_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_hackzero_product_2026",
+      "url": "https://hackzero.ai/product",
+      "title": "HackZero Product",
+      "publisher": "HackZero",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hackzero_ai"
+      ],
+      "alias_source_ids": [
+        "src_hackzero_product_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_hackzero-ai_official",
       "url": "https://hackzero.ai/",
       "title": "HackZero.ai official website",
@@ -4000,14 +4483,19 @@
         "ent_hackzero_ai"
       ],
       "alias_source_ids": [
-        "src_hackzero-ai_official"
+        "src_hackzero-ai_official",
+        "src_hackzero_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "services",
+        "industries",
+        "public_pricing"
       ]
     },
     {
@@ -4099,6 +4587,48 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_heffernan_hq_2026",
+      "url": "https://www.heffins.com/about-us/locations/walnut-creek/",
+      "title": "Heffernan Walnut Creek Corporate Headquarters",
+      "publisher": "Heffernan Insurance Brokers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_heffernan_insurance_brokers"
+      ],
+      "alias_source_ids": [
+        "src_heffernan_hq_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_heffernan_locations_2026",
+      "url": "https://bmb.heffins.com/about-us/locations/",
+      "title": "Heffernan Locations",
+      "publisher": "Heffernan Insurance Brokers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_heffernan_insurance_brokers"
+      ],
+      "alias_source_ids": [
+        "src_heffernan_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -4207,6 +4737,27 @@
       ]
     },
     {
+      "id": "src_hfs_founding_2026",
+      "url": "https://www.hfsresearch.com/press-release/hfs-launches-the-industrys-first-research-based-sourcing-advisory-practice/",
+      "title": "HFS Research Founding and Practice",
+      "publisher": "HFS Research",
+      "source_type": "official-company",
+      "published_date": "2021-07-09",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hfs_research"
+      ],
+      "alias_source_ids": [
+        "src_hfs_founding_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_hfs_platforms_2026",
       "url": "https://www.hfsresearch.com/enterprise-platforms/",
       "title": "Enterprise Platforms Research",
@@ -4247,6 +4798,69 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_hg_about_2026",
+      "url": "https://hginsights.com/about/",
+      "title": "About HG Insights",
+      "publisher": "HG Insights",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hg_insights"
+      ],
+      "alias_source_ids": [
+        "src_hg_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_hg_contact_2026",
+      "url": "https://hginsights.com/contact-us/",
+      "title": "Contact HG Insights",
+      "publisher": "HG Insights",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hg_insights"
+      ],
+      "alias_source_ids": [
+        "src_hg_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_hg_terms_2026",
+      "url": "https://hginsights.com/terms-of-service/",
+      "title": "HG Insights Terms of Service",
+      "publisher": "HG Insights",
+      "source_type": "official-company",
+      "published_date": "2026-04-23",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hg_insights"
+      ],
+      "alias_source_ids": [
+        "src_hg_terms_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "products",
+        "services"
       ]
     },
     {
@@ -4673,6 +5287,44 @@
       ]
     },
     {
+      "id": "src_intel_founding_2026",
+      "url": "https://timeline.intel.com/1969/the-first-logo",
+      "title": "Intel Founding History",
+      "publisher": "Intel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intel"
+      ],
+      "alias_source_ids": [
+        "src_intel_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
+      "id": "src_intel_hq_2026",
+      "url": "https://newsroom.intel.com/press-hub",
+      "title": "Intel Press Hub and Headquarters",
+      "publisher": "Intel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intel"
+      ],
+      "alias_source_ids": [
+        "src_intel_hq_2026"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_intel_official",
       "url": "https://www.intel.com/",
       "title": "Intel official website",
@@ -4736,6 +5388,27 @@
       ]
     },
     {
+      "id": "src_intrepid_founding_2026",
+      "url": "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/",
+      "title": "Intrepid Capital Advisory Expansion",
+      "publisher": "Intrepid Investment Bankers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intrepid_investment_bankers"
+      ],
+      "alias_source_ids": [
+        "src_intrepid_founding_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_intrepid_healthcare_2026",
       "url": "https://intrepidib.com/industries/healthcare-life-sciences/",
       "title": "Healthcare and Life Sciences Investment Banking",
@@ -4773,6 +5446,29 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_intrepid_overview_2026",
+      "url": "https://intrepidib.com/overview/",
+      "title": "Intrepid Investment Bankers Overview",
+      "publisher": "Intrepid Investment Bankers",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_intrepid_investment_bankers"
+      ],
+      "alias_source_ids": [
+        "src_intrepid_overview_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "industries",
+        "relationships"
       ]
     },
     {
@@ -5228,6 +5924,45 @@
       ]
     },
     {
+      "id": "src_lockton_history_2026",
+      "url": "https://global.lockton.com/us/en/news-insights/lockton-unveils-vision-for-world-class-global-headquarters-in-leawood",
+      "title": "Lockton Global Headquarters and History",
+      "publisher": "Lockton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lockton"
+      ],
+      "alias_source_ids": [
+        "src_lockton_history_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
+      "id": "src_lockton_hq_2026",
+      "url": "https://global.lockton.com/offices/us-kansas-city-headquarters",
+      "title": "Lockton Kansas City Headquarters",
+      "publisher": "Lockton",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lockton"
+      ],
+      "alias_source_ids": [
+        "src_lockton_hq_2026"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_lockton_official",
       "url": "https://global.lockton.com/",
       "title": "Lockton official website",
@@ -5618,6 +6353,44 @@
       ]
     },
     {
+      "id": "src_northwestern_history_2026",
+      "url": "https://news.northwesternmutual.com/news-releases?asPDF=1&item=122666",
+      "title": "Northwestern Mutual Milwaukee History",
+      "publisher": "Northwestern Mutual",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_northwestern_mutual"
+      ],
+      "alias_source_ids": [
+        "src_northwestern_history_2026"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
+      "id": "src_northwestern_hq_2026",
+      "url": "https://careers.northwesternmutual.com/locations/milwaukee/",
+      "title": "Northwestern Mutual Milwaukee Headquarters",
+      "publisher": "Northwestern Mutual",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_northwestern_mutual"
+      ],
+      "alias_source_ids": [
+        "src_northwestern_hq_2026"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_northwestern-mutual_official",
       "url": "https://www.northwesternmutual.com/",
       "title": "Northwestern Mutual official website",
@@ -5678,6 +6451,25 @@
       "supports": [
         "products",
         "industries"
+      ]
+    },
+    {
+      "id": "src_nvidia_hq_2026",
+      "url": "https://www.nvidia.com/en-us/networking/policy/terms/",
+      "title": "NVIDIA Networking Terms",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_hq_2026"
+      ],
+      "supports": [
+        "headquarters"
       ]
     },
     {
@@ -5764,6 +6556,25 @@
         "relationships",
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_nvidia_timeline_2026",
+      "url": "https://www.nvidia.com/en-gb/about-nvidia/corporate-timeline/",
+      "title": "NVIDIA Corporate Timeline",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_timeline_2026"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -6142,6 +6953,26 @@
       ]
     },
     {
+      "id": "src_optimhire_global_2026",
+      "url": "https://optimhire.com/d/why-us",
+      "title": "Why OptimHire",
+      "publisher": "OptimHire",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_optimhire"
+      ],
+      "alias_source_ids": [
+        "src_optimhire_global_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services"
+      ]
+    },
+    {
       "id": "src_optimhire_official",
       "url": "https://optimhire.com/",
       "title": "OptimHire official website",
@@ -6162,6 +6993,28 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_optimhire_recruiter_2026",
+      "url": "https://optimhire.com/ai-recruiter",
+      "title": "OptimHire AI Recruiter",
+      "publisher": "OptimHire",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_optimhire"
+      ],
+      "alias_source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries",
+        "public_pricing"
       ]
     },
     {
@@ -6437,6 +7290,47 @@
       ]
     },
     {
+      "id": "src_pier70_about_2026",
+      "url": "https://www.pier70ventures.com/about",
+      "title": "About Pier 70 Ventures",
+      "publisher": "Pier 70 Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pier_70_ventures"
+      ],
+      "alias_source_ids": [
+        "src_pier70_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_pier70_team_2026",
+      "url": "https://www.pier70ventures.com/team",
+      "title": "Pier 70 Ventures Team",
+      "publisher": "Pier 70 Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pier_70_ventures"
+      ],
+      "alias_source_ids": [
+        "src_pier70_team_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_pilot_about_2026",
       "url": "https://pilot.com/about",
       "title": "About Pilot",
@@ -6524,6 +7418,29 @@
         "capabilities",
         "customer_segments",
         "customer_count"
+      ]
+    },
+    {
+      "id": "src_pipe_about_2026",
+      "url": "https://pipe.com/about",
+      "title": "About Pipe",
+      "publisher": "Pipe",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pipe"
+      ],
+      "alias_source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -6923,6 +7840,46 @@
       ]
     },
     {
+      "id": "src_ramp_about_2026",
+      "url": "https://ramp.com/about-us/",
+      "title": "About Ramp",
+      "publisher": "Ramp",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ramp"
+      ],
+      "alias_source_ids": [
+        "src_ramp_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_ramp_founding_2026",
+      "url": "https://ramp.com/blog/ramp-raises-115m-from-stripe-and-d1-to-become-nys-fastest-growing-startup-ever/",
+      "title": "Ramp Founding Journey",
+      "publisher": "Ramp",
+      "source_type": "official-company",
+      "published_date": "2021-04-08",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ramp"
+      ],
+      "alias_source_ids": [
+        "src_ramp_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
       "id": "src_ramp_official",
       "url": "https://ramp.com/",
       "title": "Ramp official website",
@@ -7128,6 +8085,48 @@
       ]
     },
     {
+      "id": "src_rippling_locations_2026",
+      "url": "https://www.rippling.com/en-CA/company/about",
+      "title": "About Rippling and Office Locations",
+      "publisher": "Rippling",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rippling"
+      ],
+      "alias_source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_rippling_microsoft_2026",
+      "url": "https://www.rippling.com/blog/rippling-microsoft-ad-integration",
+      "title": "Rippling and Microsoft Entra ID Integration",
+      "publisher": "Rippling",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rippling"
+      ],
+      "alias_source_ids": [
+        "src_rippling_microsoft_2026"
+      ],
+      "supports": [
+        "relationships",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_rippling_official",
       "url": "https://www.rippling.com/",
       "title": "Rippling official website",
@@ -7168,6 +8167,47 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_robert_half_about_2026",
+      "url": "https://www.roberthalf.com/us/en/about/about-robert-half",
+      "title": "About Robert Half",
+      "publisher": "Robert Half",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_robert_half"
+      ],
+      "alias_source_ids": [
+        "src_robert_half_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_robert_half_corporate_2026",
+      "url": "https://www.roberthalf.com/au/en/corporate-info",
+      "title": "Robert Half Corporate Information",
+      "publisher": "Robert Half",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_robert_half"
+      ],
+      "alias_source_ids": [
+        "src_robert_half_corporate_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
       ]
     },
     {
@@ -7363,6 +8403,29 @@
       ]
     },
     {
+      "id": "src_scale_about_2026",
+      "url": "https://scale.com/about",
+      "title": "About Scale AI",
+      "publisher": "Scale AI",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_scale_ai"
+      ],
+      "alias_source_ids": [
+        "src_scale_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_scale_genai_2026",
       "url": "https://scale.com/genai-platform",
       "title": "Scale Generative AI Platform",
@@ -7425,6 +8488,69 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_secure_octane_about_2026",
+      "url": "https://www.secureoctane.com/about",
+      "title": "About Secure Octane Investments",
+      "publisher": "Secure Octane Investments",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_secure_octane_investments"
+      ],
+      "alias_source_ids": [
+        "src_secure_octane_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_secure_octane_content_2026",
+      "url": "https://www.secureoctane.com/content",
+      "title": "Secure Octane Portfolio Content",
+      "publisher": "Secure Octane Investments",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_secure_octane_investments"
+      ],
+      "alias_source_ids": [
+        "src_secure_octane_content_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "relationships"
+      ]
+    },
+    {
+      "id": "src_secure_octane_insights_2026",
+      "url": "https://www.secureoctane.com/insights",
+      "title": "Secure Octane Insights",
+      "publisher": "Secure Octane Investments",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_secure_octane_investments"
+      ],
+      "alias_source_ids": [
+        "src_secure_octane_insights_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "relationships"
       ]
     },
     {
@@ -7650,6 +8776,28 @@
       ]
     },
     {
+      "id": "src_simmons_about_2026",
+      "url": "https://www.simmons-simmons.com/about-us",
+      "title": "About Simmons & Simmons",
+      "publisher": "Simmons & Simmons",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_simmons_simmons"
+      ],
+      "alias_source_ids": [
+        "src_simmons_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_simmons_expertise_2026",
       "url": "https://www.simmons-simmons.com/en/expertise",
       "title": "Simmons & Simmons Expertise",
@@ -7688,6 +8836,26 @@
         "services",
         "industries",
         "operating_geographies"
+      ]
+    },
+    {
+      "id": "src_simmons_london_2026",
+      "url": "https://www.simmons-simmons.com/en/offices/london",
+      "title": "Simmons & Simmons London Headquarters",
+      "publisher": "Simmons & Simmons",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_simmons_simmons"
+      ],
+      "alias_source_ids": [
+        "src_simmons_london_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -8445,6 +9613,65 @@
       ]
     },
     {
+      "id": "src_verano_about_2026",
+      "url": "https://www.veranocapitalpartners.com/about",
+      "title": "About Verano Capital Partners",
+      "publisher": "Verano Capital Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_verano_capital_partners"
+      ],
+      "alias_source_ids": [
+        "src_verano_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_verano_industries_2026",
+      "url": "https://www.veranocapitalpartners.com/industry-expertise",
+      "title": "Verano Capital Partners Industry Expertise",
+      "publisher": "Verano Capital Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_verano_capital_partners"
+      ],
+      "alias_source_ids": [
+        "src_verano_industries_2026"
+      ],
+      "supports": [
+        "industries",
+        "services"
+      ]
+    },
+    {
+      "id": "src_verano_services_2026",
+      "url": "https://www.veranocapitalpartners.com/services",
+      "title": "Verano Capital Partners Services",
+      "publisher": "Verano Capital Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_verano_capital_partners"
+      ],
+      "alias_source_ids": [
+        "src_verano_services_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
       "id": "src_verano-capital-partners_official",
       "url": "https://veranocapitalpartners.com/",
       "title": "Verano Capital Partners official website",
@@ -8592,6 +9819,27 @@
       ]
     },
     {
+      "id": "src_wells_annual_2026",
+      "url": "https://www.wellsfargo.com/assets/pdf/about/investor-relations/annual-reports/2025-annual-report.pdf",
+      "title": "Wells Fargo 2025 Annual Report",
+      "publisher": "Wells Fargo",
+      "source_type": "investor-relations",
+      "published_date": "2026-02-24",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wells_fargo"
+      ],
+      "alias_source_ids": [
+        "src_wells_annual_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_wells_cib_2026",
       "url": "https://www.wellsfargo.com/cib/our-approach/",
       "title": "Wells Fargo Corporate and Investment Banking",
@@ -8609,6 +9857,25 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_wells_history_2026",
+      "url": "https://www.wellsfargo.com/about/corporate/history/",
+      "title": "History of Wells Fargo",
+      "publisher": "Wells Fargo",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_wells_fargo"
+      ],
+      "alias_source_ids": [
+        "src_wells_history_2026"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -8783,6 +10050,25 @@
       ]
     },
     {
+      "id": "src_witness_privacy_2026",
+      "url": "https://witness.ai/privacy-policy/",
+      "title": "WitnessAI Privacy Policy",
+      "publisher": "WitnessAI",
+      "source_type": "official-company",
+      "published_date": "2025-09-11",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_witnessai"
+      ],
+      "alias_source_ids": [
+        "src_witness_privacy_2026"
+      ],
+      "supports": [
+        "headquarters"
+      ]
+    },
+    {
       "id": "src_witness_product_2026",
       "url": "https://witness.ai/product/",
       "title": "WitnessAI Product",
@@ -8903,6 +10189,30 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_writer_about_2026",
+      "url": "https://writer.com/company/about/",
+      "title": "About WRITER",
+      "publisher": "WRITER",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_writer"
+      ],
+      "alias_source_ids": [
+        "src_writer_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "products",
+        "services",
+        "industries"
       ]
     },
     {

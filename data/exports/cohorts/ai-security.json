@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "calculated_at": "2026-08-11",
   "cohort_id": "ai-security",
   "entity_ids": [
@@ -470,6 +470,15 @@
             "src_witness_control_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_witnessai_headquarters_mountain-view-california-united-states",
+          "field": "headquarters",
+          "value": "Mountain View, California, United States",
+          "source_ids": [
+            "src_witness_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -514,6 +523,18 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_witness_privacy_2026",
+          "url": "https://witness.ai/privacy-policy/",
+          "title": "WitnessAI Privacy Policy",
+          "publisher": "WitnessAI",
+          "source_class": "official company",
+          "published_date": "2025-09-11",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -533,6 +554,7 @@
         "shadow AI discovery",
         "data protection for AI"
       ],
+      "headquarters": "Mountain View, California, United States",
       "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [

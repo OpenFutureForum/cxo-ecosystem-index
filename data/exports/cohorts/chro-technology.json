@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "calculated_at": "2026-08-11",
   "cohort_id": "chro-technology",
   "entity_ids": [
@@ -385,7 +385,9 @@
         "Talent Acquisition",
         "Enterprise Technology"
       ],
-      "geographies": [],
+      "geographies": [
+        "United States"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -461,7 +463,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -472,7 +475,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -483,7 +487,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -494,7 +499,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -505,7 +511,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -516,7 +523,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -527,7 +535,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -538,7 +547,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -549,7 +559,8 @@
           "source_ids": [
             "src_findem_platform_2026",
             "src_findem_sourcing_2026",
-            "src_findem_about_2026"
+            "src_findem_about_2026",
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -577,6 +588,24 @@
           "value": "Enterprise Technology",
           "source_ids": [
             "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_headquarters_redwood-city-california-united-states",
+          "field": "headquarters",
+          "value": "Redwood City, California, United States",
+          "source_ids": [
+            "src_findem_growth_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_findem_growth_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -636,6 +665,21 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_findem_growth_2026",
+          "url": "https://www.findem.ai/news/findem-marks-record-company-growth-and-momentum-milestones",
+          "title": "Findem Growth and Global Expansion",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "published_date": "2023-11-30",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -654,7 +698,8 @@
         "recruiting automation",
         "workforce intelligence"
       ],
-      "geography_status": "unknown",
+      "headquarters": "Redwood City, California, United States",
+      "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Recruiting",
@@ -707,7 +752,15 @@
         "Enterprise Technology"
       ],
       "industries": [],
-      "geographies": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "New York",
+        "Austin",
+        "Seattle",
+        "London",
+        "Singapore"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -791,7 +844,8 @@
           "value": "HR management",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -801,7 +855,8 @@
           "value": "payroll",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -811,7 +866,8 @@
           "value": "IT management",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -821,7 +877,8 @@
           "value": "finance management",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -831,7 +888,8 @@
           "value": "benefits administration",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -841,7 +899,8 @@
           "value": "expense management",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -851,7 +910,8 @@
           "value": "AI workforce tools",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -861,7 +921,9 @@
           "value": "workforce management platform",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -871,7 +933,9 @@
           "value": "global payroll",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -881,7 +945,72 @@
           "value": "device and identity management",
           "source_ids": [
             "src_rippling_hr_2026",
-            "src_rippling_it_2026"
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_austin",
+          "field": "geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_rippling_locations_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -928,6 +1057,32 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_rippling_locations_2026",
+          "url": "https://www.rippling.com/en-CA/company/about",
+          "title": "About Rippling and Office Locations",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_rippling_microsoft_2026",
+          "url": "https://www.rippling.com/blog/rippling-microsoft-ad-integration",
+          "title": "Rippling and Microsoft Entra ID Integration",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -947,7 +1102,7 @@
         "global payroll",
         "device and identity management"
       ],
-      "geography_status": "unknown",
+      "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Enterprise Technology"
@@ -2751,7 +2906,11 @@
         "Recruiting",
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Human Resources",
+        "Recruiting Technology",
+        "Artificial Intelligence"
+      ],
       "geographies": [],
       "aliases": [],
       "parent_company": null,
@@ -2820,6 +2979,119 @@
             "src_optimhire_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_products_ai-recruiter",
+          "field": "products",
+          "value": "AI Recruiter",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_products_ai-powered-applicant-tracking-system",
+          "field": "products",
+          "value": "AI-powered applicant tracking system",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_products_job-auto-applier",
+          "field": "products",
+          "value": "job auto-applier",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_services_candidate-sourcing",
+          "field": "services",
+          "value": "candidate sourcing",
+          "source_ids": [
+            "src_optimhire_recruiter_2026",
+            "src_optimhire_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_services_resume-screening",
+          "field": "services",
+          "value": "resume screening",
+          "source_ids": [
+            "src_optimhire_recruiter_2026",
+            "src_optimhire_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_services_interview-scheduling",
+          "field": "services",
+          "value": "interview scheduling",
+          "source_ids": [
+            "src_optimhire_recruiter_2026",
+            "src_optimhire_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_services_global-job-matching",
+          "field": "services",
+          "value": "global job matching",
+          "source_ids": [
+            "src_optimhire_recruiter_2026",
+            "src_optimhire_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_services_recruitment-partner-network",
+          "field": "services",
+          "value": "recruitment partner network",
+          "source_ids": [
+            "src_optimhire_recruiter_2026",
+            "src_optimhire_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_industries_recruiting-technology",
+          "field": "industries",
+          "value": "Recruiting Technology",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_optimhire_public-pricing_true",
+          "field": "public_pricing",
+          "value": true,
+          "source_ids": [
+            "src_optimhire_recruiter_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2840,12 +3112,51 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_optimhire_recruiter_2026",
+          "url": "https://optimhire.com/ai-recruiter",
+          "title": "OptimHire AI Recruiter",
+          "publisher": "OptimHire",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries",
+            "public_pricing"
+          ]
+        },
+        {
+          "id": "src_optimhire_global_2026",
+          "url": "https://optimhire.com/d/why-us",
+          "title": "Why OptimHire",
+          "publisher": "OptimHire",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
-      "geography_status": "unknown",
+      "products": [
+        "AI Recruiter",
+        "AI-powered applicant tracking system",
+        "job auto-applier"
+      ],
+      "services": [
+        "candidate sourcing",
+        "resume screening",
+        "interview scheduling",
+        "global job matching",
+        "recruitment partner network"
+      ],
+      "public_pricing": true,
+      "geography_status": "verified",
       "primary_category": "Recruiting",
       "secondary_categories": [
         "HR Technology"

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.9.2 — 2026-08-11 — Priority Evidence Depth III
+
+- Audited the current 50-record P1 research queue against first-party organization, product, history, location, legal, investor-relations, and regulatory sources.
+- Added 65 source records (63 new canonical URLs) across 35 improved records, including 20 sourced founding years, 23 sourced headquarters, 15 sourced operating-geography profiles, and deeper offering evidence for 11 thin profiles.
+- Raised the researched cohort's average completeness from 61.7 to 78.2 and advanced 22 profiles into the maintenance tier.
+- Added current BILL–Intuit and Rippling–Microsoft integration relationships, increasing the sourced organization graph from 27 to 29 relationships.
+- Preserved unresolved fields for 15 records, including Chameleon Ventures, ERA Group, Paygentic, Indian Hills Advisors, and other organizations without adequate first-party history or location evidence.
+- Retained the 60% publication gate and neutral organization classification methodology from v0.9.1.
+
 ## 0.9.1 — 2026-08-11 — Intelligence Quality Gate & Cross-CXO Knowledge
 
 - Enforced the existing 60% evidence-coverage threshold at the generated interface, structured-data, robots, homepage, and sitemap layers.

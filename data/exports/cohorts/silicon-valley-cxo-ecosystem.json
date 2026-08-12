@@ -1,18 +1,28 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "calculated_at": "2026-08-11",
   "cohort_id": "silicon-valley-cxo-ecosystem",
   "entity_ids": [
     "ent_wilson_sonsini",
     "ent_open_future_forum",
     "ent_silicon_valley_bank",
+    "ent_pier_70_ventures",
+    "ent_avenue_capital_group",
+    "ent_intrepid_investment_bankers",
+    "ent_cfgi",
+    "ent_danforth_advisors",
+    "ent_ghj",
+    "ent_rippling",
     "ent_lattice",
     "ent_coupa",
     "ent_carta",
+    "ent_databricks",
+    "ent_writer",
     "ent_glean",
     "ent_servicenow",
     "ent_pitchbook",
     "ent_affirm",
+    "ent_pipe",
     "ent_bdev_ventures",
     "ent_ironarc_ventures",
     "ent_oguz_law",
@@ -1652,6 +1662,2683 @@
       ]
     },
     {
+      "id": "ent_pier_70_ventures",
+      "name": "Pier 70 Ventures",
+      "slug": "pier-70-ventures",
+      "entity_type": "Organization",
+      "description": "Pier 70 Ventures is a venture-capital investment firm.",
+      "website": "https://www.pier70ventures.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Venture Capital"
+      ],
+      "industries": [
+        "Healthcare",
+        "Health Technology",
+        "Venture Capital"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "Seattle"
+      ],
+      "aliases": [
+        "Pier70 Ventures"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_pier-70-ventures_identity_pier-70-ventures",
+          "field": "identity",
+          "value": "Pier 70 Ventures",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_description_pier-70-ventures-is-a-venture-capital-investment",
+          "field": "description",
+          "value": "Pier 70 Ventures is a venture-capital investment firm.",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_website_https-www-pier70ventures-com",
+          "field": "website",
+          "value": "https://www.pier70ventures.com/",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_categories_venture-capital",
+          "field": "categories",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_aliases_pier70-ventures",
+          "field": "aliases",
+          "value": "Pier70 Ventures",
+          "source_ids": [
+            "src_pier-70-ventures_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_pier70_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_pier70_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_pier70_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_pier70_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_services_venture-capital-investment",
+          "field": "services",
+          "value": "venture capital investment",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_services_healthcare-technology-investment",
+          "field": "services",
+          "value": "healthcare technology investment",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_services_portfolio-mentoring",
+          "field": "services",
+          "value": "portfolio mentoring",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_services_network-access",
+          "field": "services",
+          "value": "network access",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_services_corporate-and-government-contracting-support",
+          "field": "services",
+          "value": "corporate and government contracting support",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_industries_health-technology",
+          "field": "industries",
+          "value": "Health Technology",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pier-70-ventures_industries_venture-capital",
+          "field": "industries",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_pier70_about_2026",
+            "src_pier70_team_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Pier 70 Ventures is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pier-70-ventures_official",
+          "url": "https://www.pier70ventures.com/",
+          "title": "Pier 70 Ventures official website",
+          "publisher": "Pier 70 Ventures",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        },
+        {
+          "id": "src_pier70_about_2026",
+          "url": "https://www.pier70ventures.com/about",
+          "title": "About Pier 70 Ventures",
+          "publisher": "Pier 70 Ventures",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_pier70_team_2026",
+          "url": "https://www.pier70ventures.com/team",
+          "title": "Pier 70 Ventures Team",
+          "publisher": "Pier 70 Ventures",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "venture capital investment",
+        "healthcare technology investment",
+        "portfolio mentoring",
+        "network access",
+        "corporate and government contracting support"
+      ],
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
+      "provider_types": [
+        "venture-capital"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
+    },
+    {
+      "id": "ent_avenue_capital_group",
+      "name": "Avenue Capital Group",
+      "slug": "avenue-capital-group",
+      "entity_type": "Organization",
+      "description": "Avenue Capital Group is an investment firm focused on private and public credit strategies.",
+      "website": "https://www.avenuecapital.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Private Credit"
+      ],
+      "industries": [
+        "Technology",
+        "Life Sciences",
+        "Aviation",
+        "Energy",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "Silicon Valley"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_avenue-capital-group_identity_avenue-capital-group",
+          "field": "identity",
+          "value": "Avenue Capital Group",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_description_avenue-capital-group-is-an-investment-firm-focus",
+          "field": "description",
+          "value": "Avenue Capital Group is an investment firm focused on private and public credit strategies.",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_website_https-www-avenuecapital-com",
+          "field": "website",
+          "value": "https://www.avenuecapital.com/",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_categories_private-credit",
+          "field": "categories",
+          "value": "Private Credit",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_avenue-capital-group_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_opportunistic-credit-investing",
+          "field": "services",
+          "value": "opportunistic credit investing",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_special-situations-investing",
+          "field": "services",
+          "value": "special situations investing",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_senior-secured-lending",
+          "field": "services",
+          "value": "senior secured lending",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_growth-lending",
+          "field": "services",
+          "value": "growth lending",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_distressed-debt-investing",
+          "field": "services",
+          "value": "distressed debt investing",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_services_real-estate-debt-investing",
+          "field": "services",
+          "value": "real estate debt investing",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_team_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_industries_aviation",
+          "field": "industries",
+          "value": "Aviation",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_industries_energy",
+          "field": "industries",
+          "value": "Energy",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_industries_real-estate",
+          "field": "industries",
+          "value": "Real Estate",
+          "source_ids": [
+            "src_avenue_strategies_2026",
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_founded-year_1995",
+          "field": "founded_year",
+          "value": 1995,
+          "source_ids": [
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_headquarters_new-york-new-york-united-states",
+          "field": "headquarters",
+          "value": "New York, New York, United States",
+          "source_ids": [
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_avenue-capital-group_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_avenue_firm_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Avenue Capital Group is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_avenue-capital-group_official",
+          "url": "https://www.avenuecapital.com/",
+          "title": "Avenue Capital Group official website",
+          "publisher": "Avenue Capital Group",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_avenue_strategies_2026",
+          "url": "https://www.avenuecapital.com/Strategies",
+          "title": "Avenue Capital Group Strategies",
+          "publisher": "Avenue Capital Group",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_avenue_team_2026",
+          "url": "https://www.avenuecapital.com/Team",
+          "title": "Avenue Capital Group Team",
+          "publisher": "Avenue Capital Group",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_avenue_firm_2026",
+          "url": "https://www.avenuecapital.com/",
+          "title": "Avenue Capital Group Firm and History",
+          "publisher": "Avenue Capital Group",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "opportunistic credit investing",
+        "special situations investing",
+        "senior secured lending",
+        "growth lending",
+        "distressed debt investing",
+        "real estate debt investing"
+      ],
+      "founded_year": 1995,
+      "headquarters": "New York, New York, United States",
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Private Credit",
+      "secondary_categories": [],
+      "provider_types": [
+        "private-credit"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "decision-support",
+        "value-creation"
+      ],
+      "topics": [
+        "private-markets",
+        "capital-strategy",
+        "private-equity"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "general-partners",
+        "limited-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.avenuecapital.com/Strategies",
+          "title": "Avenue Capital Strategies",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_intrepid_investment_bankers",
+      "name": "Intrepid Investment Bankers",
+      "slug": "intrepid-investment-bankers",
+      "entity_type": "Organization",
+      "description": "Intrepid Investment Bankers provides mergers-and-acquisitions and capital advisory services to middle-market companies.",
+      "website": "https://intrepidib.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
+      "industries": [
+        "Technology",
+        "Healthcare and Life Sciences",
+        "Consumer",
+        "Digital Media",
+        "Supply Chain and Logistics"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "San Francisco Bay Area",
+        "Chicago",
+        "New York"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_intrepid-investment-bankers_identity_intrepid-investment-bankers",
+          "field": "identity",
+          "value": "Intrepid Investment Bankers",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_description_intrepid-investment-bankers-provides-mergers-and",
+          "field": "description",
+          "value": "Intrepid Investment Bankers provides mergers-and-acquisitions and capital advisory services to middle-market companies.",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_website_https-intrepidib-com",
+          "field": "website",
+          "value": "https://intrepidib.com/",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_categories_investment-banks",
+          "field": "categories",
+          "value": "Investment Banks",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_categories_m-a-advisors",
+          "field": "categories",
+          "value": "M&A Advisors",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_intrepid-investment-bankers_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_mergers-and-acquisitions-advisory",
+          "field": "services",
+          "value": "mergers and acquisitions advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_sell-side-advisory",
+          "field": "services",
+          "value": "sell-side advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_buy-side-advisory",
+          "field": "services",
+          "value": "buy-side advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_capital-raising",
+          "field": "services",
+          "value": "capital raising",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_strategic-advisory",
+          "field": "services",
+          "value": "strategic advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_services_capital-markets-advisory",
+          "field": "services",
+          "value": "capital markets advisory",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_healthcare-and-life-sciences",
+          "field": "industries",
+          "value": "Healthcare and Life Sciences",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_consumer",
+          "field": "industries",
+          "value": "Consumer",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_digital-media",
+          "field": "industries",
+          "value": "Digital Media",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_industries_supply-chain-and-logistics",
+          "field": "industries",
+          "value": "Supply Chain and Logistics",
+          "source_ids": [
+            "src_intrepid_industries_2026",
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_headquarters_los-angeles-california-united-states",
+          "field": "headquarters",
+          "value": "Los Angeles, California, United States",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_los-angeles",
+          "field": "geographies",
+          "value": "Los Angeles",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_chicago",
+          "field": "geographies",
+          "value": "Chicago",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_founded-year_2010",
+          "field": "founded_year",
+          "value": 2010,
+          "source_ids": [
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Intrepid Investment Bankers is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_intrepid-investment-bankers_official",
+          "url": "https://intrepidib.com/",
+          "title": "Intrepid Investment Bankers official website",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_intrepid_industries_2026",
+          "url": "https://intrepidib.com/industries/",
+          "title": "Intrepid Industries",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_intrepid_healthcare_2026",
+          "url": "https://intrepidib.com/industries/healthcare-life-sciences/",
+          "title": "Healthcare and Life Sciences Investment Banking",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_intrepid_overview_2026",
+          "url": "https://intrepidib.com/overview/",
+          "title": "Intrepid Investment Bankers Overview",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services",
+            "industries",
+            "relationships"
+          ]
+        },
+        {
+          "id": "src_intrepid_founding_2026",
+          "url": "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/",
+          "title": "Intrepid Capital Advisory Expansion",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "mergers and acquisitions advisory",
+        "sell-side advisory",
+        "buy-side advisory",
+        "capital raising",
+        "strategic advisory",
+        "capital markets advisory"
+      ],
+      "founded_year": 2010,
+      "headquarters": "Los Angeles, California, United States",
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors"
+      ],
+      "provider_types": [
+        "investment-banks",
+        "m-a-advisors"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "deal-flow",
+        "decision-support"
+      ],
+      "topics": [
+        "dealmaking",
+        "capital-strategy",
+        "exits"
+      ],
+      "audiences": [
+        "founders",
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://intrepidib.com/industries/",
+          "title": "Intrepid Industries",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_cfgi",
+      "name": "CFGI",
+      "slug": "cfgi",
+      "entity_type": "Organization",
+      "description": "CFGI provides accounting advisory, transaction, risk, valuation and technology services to finance organizations.",
+      "website": "https://www.cfgi.com/",
+      "cxo_roles": [
+        "CFO"
+      ],
+      "categories": [
+        "Accounting",
+        "Finance Advisory",
+        "Consulting"
+      ],
+      "industries": [
+        "Technology",
+        "Financial Services",
+        "Life Sciences",
+        "Consumer",
+        "Industrial"
+      ],
+      "geographies": [
+        "United States",
+        "Boston",
+        "New York",
+        "Chicago",
+        "San Francisco Bay Area",
+        "Los Angeles",
+        "Washington DC",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_cfgi_identity_cfgi",
+          "field": "identity",
+          "value": "CFGI",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_description_cfgi-provides-accounting-advisory-transaction-ri",
+          "field": "description",
+          "value": "CFGI provides accounting advisory, transaction, risk, valuation and technology services to finance organizations.",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_website_https-www-cfgi-com",
+          "field": "website",
+          "value": "https://www.cfgi.com/",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_categories_consulting",
+          "field": "categories",
+          "value": "Consulting",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_cfgi_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_accounting-advisory",
+          "field": "services",
+          "value": "accounting advisory",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_transaction-advisory",
+          "field": "services",
+          "value": "transaction advisory",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_tax-advisory",
+          "field": "services",
+          "value": "tax advisory",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_risk-and-compliance",
+          "field": "services",
+          "value": "risk and compliance",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_valuation",
+          "field": "services",
+          "value": "valuation",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_finance-transformation",
+          "field": "services",
+          "value": "finance transformation",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_services_program-management",
+          "field": "services",
+          "value": "program management",
+          "source_ids": [
+            "src_cfgi_solutions_2026",
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_industries_consumer",
+          "field": "industries",
+          "value": "Consumer",
+          "source_ids": [
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_industries_industrial",
+          "field": "industries",
+          "value": "Industrial",
+          "source_ids": [
+            "src_cfgi_industries_2026",
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_founded-year_2001",
+          "field": "founded_year",
+          "value": 2001,
+          "source_ids": [
+            "src_cfgi_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_headquarters_boston-massachusetts-united-states",
+          "field": "headquarters",
+          "value": "Boston, Massachusetts, United States",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_boston",
+          "field": "geographies",
+          "value": "Boston",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_chicago",
+          "field": "geographies",
+          "value": "Chicago",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_los-angeles",
+          "field": "geographies",
+          "value": "Los Angeles",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_washington-dc",
+          "field": "geographies",
+          "value": "Washington DC",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cfgi_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_cfgi_about_2026",
+            "src_cfgi_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "CFGI is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_cfgi_official",
+          "url": "https://www.cfgi.com/",
+          "title": "CFGI official website",
+          "publisher": "CFGI",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_cfgi_solutions_2026",
+          "url": "https://www.cfgi.com/our-solutions/",
+          "title": "CFGI Solutions",
+          "publisher": "CFGI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_cfgi_industries_2026",
+          "url": "https://www.cfgi.com/industries/",
+          "title": "CFGI Industries",
+          "publisher": "CFGI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "services"
+          ]
+        },
+        {
+          "id": "src_cfgi_about_2026",
+          "url": "https://www.cfgi.com/about/",
+          "title": "About CFGI",
+          "publisher": "CFGI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_cfgi_locations_2026",
+          "url": "https://www.cfgi.com/locations/",
+          "title": "CFGI Locations",
+          "publisher": "CFGI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "accounting advisory",
+        "transaction advisory",
+        "tax advisory",
+        "risk and compliance",
+        "valuation",
+        "finance transformation",
+        "program management"
+      ],
+      "founded_year": 2001,
+      "headquarters": "Boston, Massachusetts, United States",
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "Consulting"
+      ],
+      "provider_types": [
+        "accounting",
+        "finance-advisory",
+        "consulting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "risk",
+        "dealmaking"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.cfgi.com/our-solutions/",
+          "title": "CFGI Solutions",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_danforth_advisors",
+      "name": "Danforth Advisors",
+      "slug": "danforth-advisors",
+      "entity_type": "Organization",
+      "description": "Danforth Advisors provides finance, accounting and operational support to life-sciences companies.",
+      "website": "https://danforthadvisors.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Finance Advisory",
+        "Accounting"
+      ],
+      "industries": [
+        "Life Sciences",
+        "Healthcare",
+        "Biotechnology"
+      ],
+      "geographies": [
+        "United States",
+        "New York",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_danforth-advisors_identity_danforth-advisors",
+          "field": "identity",
+          "value": "Danforth Advisors",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_description_danforth-advisors-provides-finance-accounting-an",
+          "field": "description",
+          "value": "Danforth Advisors provides finance, accounting and operational support to life-sciences companies.",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_website_https-danforthadvisors-com",
+          "field": "website",
+          "value": "https://danforthadvisors.com/",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_danforth-advisors_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_operational-finance-and-accounting",
+          "field": "services",
+          "value": "operational finance and accounting",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_strategic-finance",
+          "field": "services",
+          "value": "strategic finance",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_fractional-cfo-services",
+          "field": "services",
+          "value": "fractional CFO services",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_strategic-human-resources",
+          "field": "services",
+          "value": "strategic human resources",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_risk-management",
+          "field": "services",
+          "value": "risk management",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_services_transaction-support",
+          "field": "services",
+          "value": "transaction support",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_industries_biotechnology",
+          "field": "industries",
+          "value": "Biotechnology",
+          "source_ids": [
+            "src_danforth_capabilities_2026",
+            "src_danforth_finance_2026",
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_founded-year_2011",
+          "field": "founded_year",
+          "value": 2011,
+          "source_ids": [
+            "src_danforth_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_headquarters_waltham-massachusetts-united-states",
+          "field": "headquarters",
+          "value": "Waltham, Massachusetts, United States",
+          "source_ids": [
+            "src_danforth_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_danforth_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_danforth_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_danforth_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_danforth-advisors_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_danforth_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Danforth Advisors is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_danforth-advisors_official",
+          "url": "https://danforthadvisors.com/",
+          "title": "Danforth Advisors official website",
+          "publisher": "Danforth Advisors",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_danforth_capabilities_2026",
+          "url": "https://www.danforthadvisors.com/capabilities/",
+          "title": "Danforth Advisors Capabilities",
+          "publisher": "Danforth Advisors",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_danforth_finance_2026",
+          "url": "https://www.danforthadvisors.com/capabilities/operational-finance-and-accounting/",
+          "title": "Operational Finance and Accounting",
+          "publisher": "Danforth Advisors",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_danforth_overview_2026",
+          "url": "https://www.danforthadvisors.com/resources/danforth-advisors-overview/",
+          "title": "Danforth Advisors Overview",
+          "publisher": "Danforth Advisors",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_danforth_contact_2026",
+          "url": "https://www.danforthadvisors.com/contact-us/",
+          "title": "Danforth Advisors Contact and Operations",
+          "publisher": "Danforth Advisors",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "operational finance and accounting",
+        "strategic finance",
+        "fractional CFO services",
+        "strategic human resources",
+        "risk management",
+        "transaction support"
+      ],
+      "founded_year": 2011,
+      "headquarters": "Waltham, Massachusetts, United States",
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Finance Advisory",
+      "secondary_categories": [
+        "Accounting"
+      ],
+      "provider_types": [
+        "finance-advisory",
+        "accounting"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence",
+        "business-growth"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "capital-strategy"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.danforthadvisors.com/capabilities/",
+          "title": "Danforth Capabilities",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_ghj",
+      "name": "GHJ",
+      "slug": "ghj",
+      "entity_type": "Organization",
+      "description": "GHJ provides accounting, audit, tax and advisory services.",
+      "website": "https://www.ghjadvisors.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Accounting",
+        "Finance Advisory"
+      ],
+      "industries": [
+        "Entertainment and Media",
+        "Food and Beverage",
+        "Nonprofit",
+        "Manufacturing",
+        "Real Estate"
+      ],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "San Francisco Bay Area"
+      ],
+      "aliases": [
+        "GHJ Advisors"
+      ],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_ghj_identity_ghj",
+          "field": "identity",
+          "value": "GHJ",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_description_ghj-provides-accounting-audit-tax-and-advisory-s",
+          "field": "description",
+          "value": "GHJ provides accounting, audit, tax and advisory services.",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_website_https-www-ghjadvisors-com",
+          "field": "website",
+          "value": "https://www.ghjadvisors.com/",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_aliases_ghj-advisors",
+          "field": "aliases",
+          "value": "GHJ Advisors",
+          "source_ids": [
+            "src_ghj_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_audit-and-assurance",
+          "field": "services",
+          "value": "audit and assurance",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_tax-services",
+          "field": "services",
+          "value": "tax services",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_advisory-services",
+          "field": "services",
+          "value": "advisory services",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_transaction-advisory",
+          "field": "services",
+          "value": "transaction advisory",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_fractional-cfo-services",
+          "field": "services",
+          "value": "fractional CFO services",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_forensic-accounting",
+          "field": "services",
+          "value": "forensic accounting",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_services_outsourced-accounting",
+          "field": "services",
+          "value": "outsourced accounting",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_forensic_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_industries_entertainment-and-media",
+          "field": "industries",
+          "value": "Entertainment and Media",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_industries_food-and-beverage",
+          "field": "industries",
+          "value": "Food and Beverage",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_industries_nonprofit",
+          "field": "industries",
+          "value": "Nonprofit",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_industries_real-estate",
+          "field": "industries",
+          "value": "Real Estate",
+          "source_ids": [
+            "src_ghj_tax_2026",
+            "src_ghj_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_headquarters_los-angeles-california-united-states",
+          "field": "headquarters",
+          "value": "Los Angeles, California, United States",
+          "source_ids": [
+            "src_ghj_about_2026",
+            "src_ghj_hq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_ghj_about_2026",
+            "src_ghj_hq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_geographies_los-angeles",
+          "field": "geographies",
+          "value": "Los Angeles",
+          "source_ids": [
+            "src_ghj_about_2026",
+            "src_ghj_hq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_ghj_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_ghj_about_2026",
+            "src_ghj_hq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "GHJ is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_ghj_official",
+          "url": "https://www.ghjadvisors.com/",
+          "title": "GHJ official website",
+          "publisher": "GHJ",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases"
+          ]
+        },
+        {
+          "id": "src_ghj_tax_2026",
+          "url": "https://www.ghjadvisors.com/services/tax-services/",
+          "title": "GHJ Tax Services",
+          "publisher": "GHJ",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_ghj_forensic_2026",
+          "url": "https://www.ghjadvisors.com/services/advisory-services/forensic-services",
+          "title": "GHJ Forensic Services",
+          "publisher": "GHJ",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services"
+          ]
+        },
+        {
+          "id": "src_ghj_about_2026",
+          "url": "https://www.ghjadvisors.com/about-us",
+          "title": "About GHJ",
+          "publisher": "GHJ",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_ghj_hq_2026",
+          "url": "https://www.ghjadvisors.com/about-us/ghj-locations/southern-california-headquarters",
+          "title": "GHJ Southern California Headquarters",
+          "publisher": "GHJ",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "audit and assurance",
+        "tax services",
+        "advisory services",
+        "transaction advisory",
+        "fractional CFO services",
+        "forensic accounting",
+        "outsourced accounting"
+      ],
+      "headquarters": "Los Angeles, California, United States",
+      "products": [],
+      "geography_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory"
+      ],
+      "provider_types": [
+        "accounting",
+        "finance-advisory"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "risk-management",
+        "operational-excellence"
+      ],
+      "topics": [
+        "finance-transformation",
+        "risk",
+        "dealmaking"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.ghjadvisors.com/services/advisory-services/forensic-services",
+          "title": "GHJ Forensic Services",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_rippling",
+      "name": "Rippling",
+      "slug": "rippling",
+      "entity_type": "Organization",
+      "description": "Rippling provides workforce-management software for payroll, benefits, human resources, identity and device management.",
+      "website": "https://www.rippling.com/",
+      "cxo_roles": [
+        "CFO",
+        "CIO",
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "New York",
+        "Austin",
+        "Seattle",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_rippling_identity_rippling",
+          "field": "identity",
+          "value": "Rippling",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_description_rippling-provides-workforce-management-software-",
+          "field": "description",
+          "value": "Rippling provides workforce-management software for payroll, benefits, human resources, identity and device management.",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_website_https-www-rippling-com",
+          "field": "website",
+          "value": "https://www.rippling.com/",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_rippling_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_hr-management",
+          "field": "products",
+          "value": "HR management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_payroll",
+          "field": "products",
+          "value": "payroll",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_it-management",
+          "field": "products",
+          "value": "IT management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_finance-management",
+          "field": "products",
+          "value": "finance management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_benefits-administration",
+          "field": "products",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_products_ai-workforce-tools",
+          "field": "products",
+          "value": "AI workforce tools",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_workforce-management-platform",
+          "field": "services",
+          "value": "workforce management platform",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_global-payroll",
+          "field": "services",
+          "value": "global payroll",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_services_device-and-identity-management",
+          "field": "services",
+          "value": "device and identity management",
+          "source_ids": [
+            "src_rippling_hr_2026",
+            "src_rippling_it_2026",
+            "src_rippling_locations_2026",
+            "src_rippling_microsoft_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_austin",
+          "field": "geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_rippling_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_rippling_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Rippling is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_rippling_official",
+          "url": "https://www.rippling.com/",
+          "title": "Rippling official website",
+          "publisher": "Rippling",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_rippling_hr_2026",
+          "url": "https://www.rippling.com/products/hr",
+          "title": "Rippling HR",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_rippling_it_2026",
+          "url": "https://www.rippling.com/products/it",
+          "title": "Rippling IT",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_rippling_locations_2026",
+          "url": "https://www.rippling.com/en-CA/company/about",
+          "title": "About Rippling and Office Locations",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_rippling_microsoft_2026",
+          "url": "https://www.rippling.com/blog/rippling-microsoft-ad-integration",
+          "title": "Rippling and Microsoft Entra ID Integration",
+          "publisher": "Rippling",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships",
+            "products",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "HR management",
+        "payroll",
+        "IT management",
+        "finance management",
+        "benefits administration",
+        "expense management",
+        "AI workforce tools"
+      ],
+      "services": [
+        "workforce management platform",
+        "global payroll",
+        "device and identity management"
+      ],
+      "geography_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "hr-technology",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "operational-excellence",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "leadership",
+        "enterprise-ai"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.rippling.com/products/hr",
+          "title": "Rippling HR",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ent_lattice",
       "name": "Lattice",
       "slug": "lattice",
@@ -2779,6 +5466,815 @@
         {
           "url": "https://carta.com/products/",
           "title": "Carta Products",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_databricks",
+      "name": "Databricks",
+      "slug": "databricks",
+      "entity_type": "Organization",
+      "description": "Databricks provides a data and artificial-intelligence platform for analytics, data engineering and machine learning.",
+      "website": "https://www.databricks.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_databricks_identity_databricks",
+          "field": "identity",
+          "value": "Databricks",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_description_databricks-provides-a-data-and-artificial-intell",
+          "field": "description",
+          "value": "Databricks provides a data and artificial-intelligence platform for analytics, data engineering and machine learning.",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_website_https-www-databricks-com",
+          "field": "website",
+          "value": "https://www.databricks.com/",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_categories_ai-infrastructure",
+          "field": "categories",
+          "value": "AI Infrastructure",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_databricks_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-intelligence-platform",
+          "field": "products",
+          "value": "Data Intelligence Platform",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-lakehouse",
+          "field": "products",
+          "value": "data lakehouse",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-engineering",
+          "field": "products",
+          "value": "data engineering",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-warehousing",
+          "field": "products",
+          "value": "data warehousing",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_machine-learning-and-ai",
+          "field": "products",
+          "value": "machine learning and AI",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_data-governance",
+          "field": "products",
+          "value": "data governance",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_products_business-intelligence",
+          "field": "products",
+          "value": "business intelligence",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_data-and-ai-platform",
+          "field": "services",
+          "value": "data and AI platform",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_analytics-workloads",
+          "field": "services",
+          "value": "analytics workloads",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_services_generative-ai-development",
+          "field": "services",
+          "value": "generative AI development",
+          "source_ids": [
+            "src_databricks_platform_2026",
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_founded-year_2013",
+          "field": "founded_year",
+          "value": 2013,
+          "source_ids": [
+            "src_databricks_structure_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_databricks_structure_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_databricks_structure_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_databricks_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_databricks_structure_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Databricks is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_databricks_official",
+          "url": "https://www.databricks.com/",
+          "title": "Databricks official website",
+          "publisher": "Databricks",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_databricks_platform_2026",
+          "url": "https://www.databricks.com/product/platform",
+          "title": "Databricks Data Intelligence Platform",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_databricks_lakehouse_2026",
+          "url": "https://www.databricks.com/product/data-lakehouse",
+          "title": "Databricks Data Lakehouse",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_databricks_connectors_2026",
+          "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/saas-overview",
+          "title": "Lakeflow Connect SaaS connectors",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "relationships"
+          ]
+        },
+        {
+          "id": "src_databricks_structure_2026",
+          "url": "https://www.databricks.com/it/legal/modern-slavery-policy-statement",
+          "title": "Databricks Business Structure and Operations",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "Data Intelligence Platform",
+        "data lakehouse",
+        "data engineering",
+        "data warehousing",
+        "machine learning and AI",
+        "data governance",
+        "business intelligence"
+      ],
+      "services": [
+        "data and AI platform",
+        "analytics workloads",
+        "generative AI development"
+      ],
+      "founded_year": 2013,
+      "headquarters": "San Francisco, California, United States",
+      "geography_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence",
+        "ai-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.databricks.com/product/platform",
+          "title": "Databricks Data Intelligence Platform",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_writer",
+      "name": "Writer",
+      "slug": "writer",
+      "entity_type": "Organization",
+      "description": "Writer provides a generative-artificial-intelligence platform for enterprise applications and workflows.",
+      "website": "https://writer.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Financial Services",
+        "Healthcare",
+        "Technology",
+        "Retail"
+      ],
+      "geographies": [
+        "San Francisco Bay Area",
+        "New York",
+        "London",
+        "Chicago",
+        "Austin"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_writer_identity_writer",
+          "field": "identity",
+          "value": "Writer",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_description_writer-provides-a-generative-artificial-intellig",
+          "field": "description",
+          "value": "Writer provides a generative-artificial-intelligence platform for enterprise applications and workflows.",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_website_https-writer-com",
+          "field": "website",
+          "value": "https://writer.com/",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_writer_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_writer-agent",
+          "field": "products",
+          "value": "Writer Agent",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_ai-studio",
+          "field": "products",
+          "value": "AI Studio",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_knowledge-graph",
+          "field": "products",
+          "value": "Knowledge Graph",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_graph-based-retrieval-augmented-generation",
+          "field": "products",
+          "value": "graph-based retrieval augmented generation",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_products_enterprise-ai-platform",
+          "field": "products",
+          "value": "enterprise AI platform",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_enterprise-ai-agents",
+          "field": "services",
+          "value": "enterprise AI agents",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_generative-ai-application-development",
+          "field": "services",
+          "value": "generative AI application development",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_enterprise-knowledge-retrieval",
+          "field": "services",
+          "value": "enterprise knowledge retrieval",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_services_workflow-automation",
+          "field": "services",
+          "value": "workflow automation",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_writer_agent_2026",
+            "src_writer_studio_2026",
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_founded-year_2020",
+          "field": "founded_year",
+          "value": 2020,
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_geographies_chicago",
+          "field": "geographies",
+          "value": "Chicago",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_writer_geographies_austin",
+          "field": "geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_writer_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Writer is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_writer_official",
+          "url": "https://writer.com/",
+          "title": "Writer official website",
+          "publisher": "Writer",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_writer_agent_2026",
+          "url": "https://writer.com/product/writer-agent/",
+          "title": "Writer Agent",
+          "publisher": "Writer",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_writer_studio_2026",
+          "url": "https://writer.com/product/ai-studio/",
+          "title": "Writer AI Studio",
+          "publisher": "Writer",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_writer_about_2026",
+          "url": "https://writer.com/company/about/",
+          "title": "About WRITER",
+          "publisher": "WRITER",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "Writer Agent",
+        "AI Studio",
+        "Knowledge Graph",
+        "graph-based retrieval augmented generation",
+        "enterprise AI platform"
+      ],
+      "services": [
+        "enterprise AI agents",
+        "generative AI application development",
+        "AI governance",
+        "enterprise knowledge retrieval",
+        "workflow automation"
+      ],
+      "founded_year": 2020,
+      "headquarters": "San Francisco, California, United States",
+      "geography_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "agentic-ai",
+        "ai-governance",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://writer.com/product/writer-agent/",
+          "title": "Writer Agent",
           "supports": [
             "topics",
             "executive_needs",
@@ -4395,6 +7891,284 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ent_pipe",
+      "name": "Pipe",
+      "slug": "pipe",
+      "entity_type": "Organization",
+      "description": "Pipe provides embedded financial products and capital services to software platforms and small businesses.",
+      "website": "https://pipe.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Fintech",
+        "Private Credit"
+      ],
+      "industries": [
+        "Financial Services",
+        "Fintech",
+        "Embedded Finance",
+        "Small Business"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "New York"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "B",
+      "facts": [
+        {
+          "id": "fact_pipe_identity_pipe",
+          "field": "identity",
+          "value": "Pipe",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_description_pipe-provides-embedded-financial-products-and-ca",
+          "field": "description",
+          "value": "Pipe provides embedded financial products and capital services to software platforms and small businesses.",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_website_https-pipe-com",
+          "field": "website",
+          "value": "https://pipe.com/",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_categories_fintech",
+          "field": "categories",
+          "value": "Fintech",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_categories_private-credit",
+          "field": "categories",
+          "value": "Private Credit",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pipe_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_products_embedded-working-capital-platform",
+          "field": "products",
+          "value": "embedded working-capital platform",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_products_capital-as-a-service-platform",
+          "field": "products",
+          "value": "capital-as-a-service platform",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_services_embedded-business-financing",
+          "field": "services",
+          "value": "embedded business financing",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_services_working-capital",
+          "field": "services",
+          "value": "working capital",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_services_financial-tools-for-small-and-medium-businesses",
+          "field": "services",
+          "value": "financial tools for small and medium businesses",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_industries_embedded-finance",
+          "field": "industries",
+          "value": "Embedded Finance",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pipe_industries_small-business",
+          "field": "industries",
+          "value": "Small Business",
+          "source_ids": [
+            "src_pipe_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Pipe is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pipe_official",
+          "url": "https://pipe.com/",
+          "title": "Pipe official website",
+          "publisher": "Pipe",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_pipe_about_2026",
+          "url": "https://pipe.com/about",
+          "title": "About Pipe",
+          "publisher": "Pipe",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "products",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2019,
+      "products": [
+        "embedded working-capital platform",
+        "capital-as-a-service platform"
+      ],
+      "services": [
+        "embedded business financing",
+        "working capital",
+        "financial tools for small and medium businesses"
+      ],
+      "geography_status": "verified",
+      "primary_category": "Fintech",
+      "secondary_categories": [
+        "Private Credit"
+      ],
+      "provider_types": [
+        "fintech",
+        "private-credit"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [],
+      "topics": [],
+      "audiences": [],
+      "classification_evidence": []
     },
     {
       "id": "ent_bdev_ventures",

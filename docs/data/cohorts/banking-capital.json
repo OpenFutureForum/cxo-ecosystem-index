@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "calculated_at": "2026-08-11",
   "cohort_id": "banking-capital",
   "entity_ids": [
@@ -1797,7 +1797,8 @@
           "value": "corporate banking",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1807,7 +1808,8 @@
           "value": "investment banking",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1817,7 +1819,8 @@
           "value": "capital markets",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1827,7 +1830,8 @@
           "value": "global markets",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1837,7 +1841,8 @@
           "value": "commercial real estate finance",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1847,7 +1852,8 @@
           "value": "lending",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1857,7 +1863,8 @@
           "value": "global payments and liquidity",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1867,7 +1874,8 @@
           "value": "Healthcare",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1877,7 +1885,8 @@
           "value": "Technology Media and Telecom",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1887,7 +1896,8 @@
           "value": "Energy and Power",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1897,7 +1907,8 @@
           "value": "Financial Institutions",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1907,7 +1918,8 @@
           "value": "Industrials",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1917,7 +1929,26 @@
           "value": "Consumer and Retail",
           "source_ids": [
             "src_wells_cib_2026",
-            "src_wells_investment_2026"
+            "src_wells_investment_2026",
+            "src_wells_annual_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_founded-year_1852",
+          "field": "founded_year",
+          "value": 1852,
+          "source_ids": [
+            "src_wells_history_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_wells-fargo_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_wells_annual_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1964,6 +1995,31 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_wells_history_2026",
+          "url": "https://www.wellsfargo.com/about/corporate/history/",
+          "title": "History of Wells Fargo",
+          "publisher": "Wells Fargo",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year"
+          ]
+        },
+        {
+          "id": "src_wells_annual_2026",
+          "url": "https://www.wellsfargo.com/assets/pdf/about/investor-relations/annual-reports/2025-annual-report.pdf",
+          "title": "Wells Fargo 2025 Annual Report",
+          "publisher": "Wells Fargo",
+          "source_class": "investor relations",
+          "published_date": "2026-02-24",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1978,6 +2034,8 @@
         "lending",
         "global payments and liquidity"
       ],
+      "founded_year": 1852,
+      "headquarters": "San Francisco, California, United States",
       "products": [],
       "geography_status": "unknown",
       "primary_category": "Banks",
@@ -5518,7 +5576,13 @@
         "Digital Media",
         "Supply Chain and Logistics"
       ],
-      "geographies": [],
+      "geographies": [
+        "United States",
+        "Los Angeles",
+        "San Francisco Bay Area",
+        "Chicago",
+        "New York"
+      ],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -5593,7 +5657,8 @@
           "value": "mergers and acquisitions advisory",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5603,7 +5668,8 @@
           "value": "sell-side advisory",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5613,7 +5679,8 @@
           "value": "buy-side advisory",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5623,7 +5690,8 @@
           "value": "capital raising",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5633,7 +5701,8 @@
           "value": "strategic advisory",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5643,7 +5712,8 @@
           "value": "capital markets advisory",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5653,7 +5723,8 @@
           "value": "Technology",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5663,7 +5734,8 @@
           "value": "Healthcare and Life Sciences",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5673,7 +5745,8 @@
           "value": "Consumer",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5683,7 +5756,8 @@
           "value": "Digital Media",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -5693,7 +5767,77 @@
           "value": "Supply Chain and Logistics",
           "source_ids": [
             "src_intrepid_industries_2026",
-            "src_intrepid_healthcare_2026"
+            "src_intrepid_healthcare_2026",
+            "src_intrepid_overview_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_headquarters_los-angeles-california-united-states",
+          "field": "headquarters",
+          "value": "Los Angeles, California, United States",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_los-angeles",
+          "field": "geographies",
+          "value": "Los Angeles",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_chicago",
+          "field": "geographies",
+          "value": "Chicago",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_intrepid_overview_2026",
+            "src_intrepid_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_intrepid-investment-bankers_founded-year_2010",
+          "field": "founded_year",
+          "value": 2010,
+          "source_ids": [
+            "src_intrepid_founding_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -5740,6 +5884,34 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_intrepid_overview_2026",
+          "url": "https://intrepidib.com/overview/",
+          "title": "Intrepid Investment Bankers Overview",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services",
+            "industries",
+            "relationships"
+          ]
+        },
+        {
+          "id": "src_intrepid_founding_2026",
+          "url": "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/",
+          "title": "Intrepid Capital Advisory Expansion",
+          "publisher": "Intrepid Investment Bankers",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -5753,8 +5925,10 @@
         "strategic advisory",
         "capital markets advisory"
       ],
+      "founded_year": 2010,
+      "headquarters": "Los Angeles, California, United States",
       "products": [],
-      "geography_status": "unknown",
+      "geography_status": "verified",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"

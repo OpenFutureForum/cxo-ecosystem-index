@@ -1,0 +1,23 @@
+{
+  "dataset_version":"0.9.2",
+  "title":"Priority Evidence Depth III",
+  "researched_date":"2026-08-11",
+  "selection_basis":"The 50-record P1 queue published by dataset v0.9.1, ordered by editorial priority, completeness, fact depth, and name. Queue position is a research workflow signal, not an organization ranking.",
+  "record_count":50,
+  "improved_record_count":35,
+  "unchanged_unknown_record_count":15,
+  "new_source_count":65,
+  "new_canonical_source_count":63,
+  "sourced_founding_year_count":20,
+  "sourced_headquarters_count":23,
+  "sourced_operating_geography_count":15,
+  "offering_depth_record_count":11,
+  "before_average_score":61.7,
+  "after_average_score":78.2,
+  "advanced_to_maintenance":22,
+  "relationship_count_before":27,
+  "relationship_count_after":29,
+  "evidence_policy":"First-party organization, product, history, location, legal, investor-relations, regulatory, and official newsroom sources were used. Current headquarters was not inferred from an old dateline or ordinary office address, and operating geography was not inferred from headquarters. Unsupported facts remain unknown.",
+  "research_deferred":["ent_chameleon_ventures","ent_era_group","ent_paygentic","ent_indian_hills_advisors","ent_harden","ent_adaptive_security","ent_airmdr","ent_axari_technologies_inc","ent_brighttower","ent_burkland","ent_next47","ent_one_way_ventures","ent_westcap","ent_western_technology_investment","ent_zenskar"],
+  "entity_ids":["ent_applitools","ent_atlas_cloud_ai","ent_chameleon_ventures","ent_contextqa","ent_era_group","ent_finrep","ent_hackzero_ai","ent_hg_insights","ent_northwestern_mutual","ent_optimhire","ent_paygentic","ent_pier_70_ventures","ent_pipe","ent_secure_octane_investments","ent_verano_capital_partners","ent_indian_hills_advisors","ent_harden","ent_bill","ent_databricks","ent_ramp","ent_rippling","ent_witnessai","ent_adaptive_security","ent_airmdr","ent_avenue_capital_group","ent_axari_technologies_inc","ent_brighttower","ent_burkland","ent_cfgi","ent_danforth_advisors","ent_dla_piper","ent_findem","ent_frank_rimerman_co","ent_ghj","ent_heffernan_insurance_brokers","ent_hfs_research","ent_intel","ent_intrepid_investment_bankers","ent_lockton","ent_next47","ent_nvidia","ent_one_way_ventures","ent_robert_half","ent_scale_ai","ent_simmons_simmons","ent_wells_fargo","ent_westcap","ent_western_technology_investment","ent_writer","ent_zenskar"]
+}

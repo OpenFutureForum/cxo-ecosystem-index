@@ -1,9 +1,9 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "schema_version": "1.0.0",
   "coverage": {
-    "total_classified_associations": 2192,
-    "evidence_linked_relationships": 1917,
+    "total_classified_associations": 2247,
+    "evidence_linked_relationships": 1972,
     "associations_pending_field_specific_evidence": 275
   },
   "relationships": [
@@ -8210,6 +8210,54 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_pier_70_ventures_operates_in_united-states",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_operates_in_new-york",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pier_70_ventures_operates_in_seattle",
+      "subject_entity_id": "ent_pier_70_ventures",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Seattle",
+      "object_label": "Seattle",
+      "evidence_urls": [
+        "https://www.pier70ventures.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_western_technology_investment_serves_role_ceo",
       "subject_entity_id": "ent_western_technology_investment",
       "predicate": "serves_role",
@@ -8498,6 +8546,42 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_avenue_capital_group_operates_in_united-states",
+      "subject_entity_id": "ent_avenue_capital_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.avenuecapital.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_avenue_capital_group_operates_in_new-york",
+      "subject_entity_id": "ent_avenue_capital_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.avenuecapital.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_avenue_capital_group_operates_in_silicon-valley",
+      "subject_entity_id": "ent_avenue_capital_group",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Silicon Valley",
+      "object_label": "Silicon Valley",
+      "evidence_urls": [
+        "https://www.avenuecapital.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_brighttower_serves_role_ceo",
       "subject_entity_id": "ent_brighttower",
       "predicate": "serves_role",
@@ -8782,6 +8866,71 @@
       "object_label": "Private Equity Leaders",
       "evidence_urls": [
         "https://intrepidib.com/industries/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intrepid_investment_bankers_operates_in_united-states",
+      "subject_entity_id": "ent_intrepid_investment_bankers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://intrepidib.com/overview/",
+        "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intrepid_investment_bankers_operates_in_los-angeles",
+      "subject_entity_id": "ent_intrepid_investment_bankers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Los Angeles",
+      "object_label": "Los Angeles",
+      "evidence_urls": [
+        "https://intrepidib.com/overview/",
+        "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intrepid_investment_bankers_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_intrepid_investment_bankers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://intrepidib.com/overview/",
+        "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intrepid_investment_bankers_operates_in_chicago",
+      "subject_entity_id": "ent_intrepid_investment_bankers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Chicago",
+      "object_label": "Chicago",
+      "evidence_urls": [
+        "https://intrepidib.com/overview/",
+        "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_intrepid_investment_bankers_operates_in_new-york",
+      "subject_entity_id": "ent_intrepid_investment_bankers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://intrepidib.com/overview/",
+        "https://intrepidib.com/intrepid-expands-capital-advisory-group-with-special-situations-veterans-lorie-beers-and-kenneth-garnett/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -9110,6 +9259,42 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_dla_piper_operates_in_united-states",
+      "subject_entity_id": "ent_dla_piper",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.dlapiper.com/en-us/locations"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_dla_piper_operates_in_london",
+      "subject_entity_id": "ent_dla_piper",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.dlapiper.com/en-us/locations"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_dla_piper_operates_in_singapore",
+      "subject_entity_id": "ent_dla_piper",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.dlapiper.com/en-us/locations"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_simmons_simmons_serves_role_cfo",
       "subject_entity_id": "ent_simmons_simmons",
       "predicate": "serves_role",
@@ -9286,6 +9471,45 @@
       "object_label": "Private Equity Leaders",
       "evidence_urls": [
         "https://www.simmons-simmons.com/en/expertise"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_simmons_simmons_operates_in_united-states",
+      "subject_entity_id": "ent_simmons_simmons",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.simmons-simmons.com/about-us",
+        "https://www.simmons-simmons.com/en/offices/london"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_simmons_simmons_operates_in_london",
+      "subject_entity_id": "ent_simmons_simmons",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.simmons-simmons.com/about-us",
+        "https://www.simmons-simmons.com/en/offices/london"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_simmons_simmons_operates_in_singapore",
+      "subject_entity_id": "ent_simmons_simmons",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.simmons-simmons.com/about-us",
+        "https://www.simmons-simmons.com/en/offices/london"
       ],
       "verification_status": "evidence-linked"
     },
@@ -9840,6 +10064,123 @@
       "object_label": "Dealmaking",
       "evidence_urls": [
         "https://www.cfgi.com/our-solutions/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_united-states",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_boston",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Boston",
+      "object_label": "Boston",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_new-york",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_chicago",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Chicago",
+      "object_label": "Chicago",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_los-angeles",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Los Angeles",
+      "object_label": "Los Angeles",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_washington-dc",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Washington DC",
+      "object_label": "Washington DC",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_london",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_cfgi_operates_in_singapore",
+      "subject_entity_id": "ent_cfgi",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.cfgi.com/about/",
+        "https://www.cfgi.com/locations/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -10624,6 +10965,54 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_danforth_advisors_operates_in_united-states",
+      "subject_entity_id": "ent_danforth_advisors",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.danforthadvisors.com/contact-us/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_danforth_advisors_operates_in_new-york",
+      "subject_entity_id": "ent_danforth_advisors",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.danforthadvisors.com/contact-us/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_danforth_advisors_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_danforth_advisors",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.danforthadvisors.com/contact-us/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_danforth_advisors_operates_in_london",
+      "subject_entity_id": "ent_danforth_advisors",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.danforthadvisors.com/contact-us/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_escalon_serves_role_ceo",
       "subject_entity_id": "ent_escalon",
       "predicate": "serves_role",
@@ -10896,6 +11285,45 @@
       "object_label": "Dealmaking",
       "evidence_urls": [
         "https://www.ghjadvisors.com/services/advisory-services/forensic-services"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_ghj_operates_in_united-states",
+      "subject_entity_id": "ent_ghj",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.ghjadvisors.com/about-us",
+        "https://www.ghjadvisors.com/about-us/ghj-locations/southern-california-headquarters"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_ghj_operates_in_los-angeles",
+      "subject_entity_id": "ent_ghj",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Los Angeles",
+      "object_label": "Los Angeles",
+      "evidence_urls": [
+        "https://www.ghjadvisors.com/about-us",
+        "https://www.ghjadvisors.com/about-us/ghj-locations/southern-california-headquarters"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_ghj_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_ghj",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.ghjadvisors.com/about-us",
+        "https://www.ghjadvisors.com/about-us/ghj-locations/southern-california-headquarters"
       ],
       "verification_status": "evidence-linked"
     },
@@ -12137,6 +12565,18 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_findem_operates_in_united-states",
+      "subject_entity_id": "ent_findem",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.findem.ai/news/findem-marks-record-company-growth-and-momentum-milestones"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_rippling_serves_role_cfo",
       "subject_entity_id": "ent_rippling",
       "predicate": "serves_role",
@@ -12265,6 +12705,90 @@
       "object_label": "Enterprise AI",
       "evidence_urls": [
         "https://www.rippling.com/products/hr"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_united-states",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_new-york",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_austin",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Austin",
+      "object_label": "Austin",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_seattle",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Seattle",
+      "object_label": "Seattle",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_london",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_rippling_operates_in_singapore",
+      "subject_entity_id": "ent_rippling",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Singapore",
+      "object_label": "Singapore",
+      "evidence_urls": [
+        "https://www.rippling.com/en-CA/company/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -16195,6 +16719,30 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_databricks_operates_in_united-states",
+      "subject_entity_id": "ent_databricks",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.databricks.com/it/legal/modern-slavery-policy-statement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_databricks_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_databricks",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://www.databricks.com/it/legal/modern-slavery-policy-statement"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_writer_serves_role_cio",
       "subject_entity_id": "ent_writer",
       "predicate": "serves_role",
@@ -16335,6 +16883,66 @@
       "object_label": "AI Leaders",
       "evidence_urls": [
         "https://writer.com/product/writer-agent/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_writer_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_writer",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://writer.com/company/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_writer_operates_in_new-york",
+      "subject_entity_id": "ent_writer",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://writer.com/company/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_writer_operates_in_london",
+      "subject_entity_id": "ent_writer",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://writer.com/company/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_writer_operates_in_chicago",
+      "subject_entity_id": "ent_writer",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Chicago",
+      "object_label": "Chicago",
+      "evidence_urls": [
+        "https://writer.com/company/about/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_writer_operates_in_austin",
+      "subject_entity_id": "ent_writer",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "Austin",
+      "object_label": "Austin",
+      "evidence_urls": [
+        "https://writer.com/company/about/"
       ],
       "verification_status": "evidence-linked"
     },
@@ -18115,6 +18723,30 @@
       "verification_status": "evidence-linked"
     },
     {
+      "id": "sem_ent_heffernan_insurance_brokers_operates_in_united-states",
+      "subject_entity_id": "ent_heffernan_insurance_brokers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://bmb.heffins.com/about-us/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_heffernan_insurance_brokers_operates_in_london",
+      "subject_entity_id": "ent_heffernan_insurance_brokers",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "London",
+      "object_label": "London",
+      "evidence_urls": [
+        "https://bmb.heffins.com/about-us/locations/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
       "id": "sem_ent_pitchbook_serves_role_ceo",
       "subject_entity_id": "ent_pitchbook",
       "predicate": "serves_role",
@@ -19794,6 +20426,42 @@
       "object_label": "Private Credit",
       "evidence_urls": [
         "https://pipe.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pipe_operates_in_united-states",
+      "subject_entity_id": "ent_pipe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://pipe.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pipe_operates_in_san-francisco-bay-area",
+      "subject_entity_id": "ent_pipe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "San Francisco Bay Area",
+      "object_label": "San Francisco Bay Area",
+      "evidence_urls": [
+        "https://pipe.com/about"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_pipe_operates_in_new-york",
+      "subject_entity_id": "ent_pipe",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "New York",
+      "object_label": "New York",
+      "evidence_urls": [
+        "https://pipe.com/about"
       ],
       "verification_status": "evidence-linked"
     },
@@ -22329,6 +22997,18 @@
       "object_label": "Venture Capital",
       "evidence_urls": [
         "https://secureoctane.com/"
+      ],
+      "verification_status": "evidence-linked"
+    },
+    {
+      "id": "sem_ent_secure_octane_investments_operates_in_united-states",
+      "subject_entity_id": "ent_secure_octane_investments",
+      "predicate": "operates_in",
+      "object_dimension": "geography",
+      "object_id": "United States",
+      "object_label": "United States",
+      "evidence_urls": [
+        "https://www.secureoctane.com/about"
       ],
       "verification_status": "evidence-linked"
     },

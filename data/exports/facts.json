@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.1",
+  "dataset_version": "0.9.2",
   "schema_version": "3.2.0",
   "facts": [
     {
@@ -5072,7 +5072,8 @@
       "value": "corporate banking",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5083,7 +5084,8 @@
       "value": "investment banking",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5094,7 +5096,8 @@
       "value": "capital markets",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5105,7 +5108,8 @@
       "value": "global markets",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5116,7 +5120,8 @@
       "value": "commercial real estate finance",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5127,7 +5132,8 @@
       "value": "lending",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5138,7 +5144,8 @@
       "value": "global payments and liquidity",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5149,7 +5156,8 @@
       "value": "Healthcare",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5160,7 +5168,8 @@
       "value": "Technology Media and Telecom",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5171,7 +5180,8 @@
       "value": "Energy and Power",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5182,7 +5192,8 @@
       "value": "Financial Institutions",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5193,7 +5204,8 @@
       "value": "Industrials",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -5204,7 +5216,28 @@
       "value": "Consumer and Retail",
       "source_ids": [
         "src_wells_cib_2026",
-        "src_wells_investment_2026"
+        "src_wells_investment_2026",
+        "src_wells_annual_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_founded-year_1852",
+      "field": "founded_year",
+      "value": 1852,
+      "source_ids": [
+        "src_wells_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_wells_fargo"
+    },
+    {
+      "id": "fact_wells-fargo_headquarters_san-francisco-california-united-states",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_wells_annual_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_wells_fargo"
@@ -7647,6 +7680,26 @@
       "entity_id": "ent_northwestern_mutual"
     },
     {
+      "id": "fact_northwestern-mutual_founded-year_1857",
+      "field": "founded_year",
+      "value": 1857,
+      "source_ids": [
+        "src_northwestern_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_northwestern_mutual"
+    },
+    {
+      "id": "fact_northwestern-mutual_headquarters_milwaukee-wisconsin-united-states",
+      "field": "headquarters",
+      "value": "Milwaukee, Wisconsin, United States",
+      "source_ids": [
+        "src_northwestern_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_northwestern_mutual"
+    },
+    {
       "id": "fact_insight-partners_identity_insight-partners",
       "field": "identity",
       "value": "Insight Partners",
@@ -8612,6 +8665,134 @@
       "entity_id": "ent_pier_70_ventures"
     },
     {
+      "id": "fact_pier-70-ventures_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_pier70_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_pier70_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_pier70_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_geographies_seattle",
+      "field": "geographies",
+      "value": "Seattle",
+      "source_ids": [
+        "src_pier70_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_services_venture-capital-investment",
+      "field": "services",
+      "value": "venture capital investment",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_services_healthcare-technology-investment",
+      "field": "services",
+      "value": "healthcare technology investment",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_services_portfolio-mentoring",
+      "field": "services",
+      "value": "portfolio mentoring",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_services_network-access",
+      "field": "services",
+      "value": "network access",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_services_corporate-and-government-contracting-support",
+      "field": "services",
+      "value": "corporate and government contracting support",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_industries_healthcare",
+      "field": "industries",
+      "value": "Healthcare",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_industries_health-technology",
+      "field": "industries",
+      "value": "Health Technology",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
+      "id": "fact_pier-70-ventures_industries_venture-capital",
+      "field": "industries",
+      "value": "Venture Capital",
+      "source_ids": [
+        "src_pier70_about_2026",
+        "src_pier70_team_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pier_70_ventures"
+    },
+    {
       "id": "fact_western-technology-investment_identity_western-technology-investment",
       "field": "identity",
       "value": "Western Technology Investment",
@@ -8887,7 +9068,8 @@
       "value": "opportunistic credit investing",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8898,7 +9080,8 @@
       "value": "special situations investing",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8909,7 +9092,8 @@
       "value": "senior secured lending",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8920,7 +9104,8 @@
       "value": "growth lending",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8931,7 +9116,8 @@
       "value": "distressed debt investing",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8942,7 +9128,8 @@
       "value": "real estate debt investing",
       "source_ids": [
         "src_avenue_strategies_2026",
-        "src_avenue_team_2026"
+        "src_avenue_team_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8952,7 +9139,8 @@
       "field": "industries",
       "value": "Technology",
       "source_ids": [
-        "src_avenue_strategies_2026"
+        "src_avenue_strategies_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8962,7 +9150,8 @@
       "field": "industries",
       "value": "Life Sciences",
       "source_ids": [
-        "src_avenue_strategies_2026"
+        "src_avenue_strategies_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8972,7 +9161,8 @@
       "field": "industries",
       "value": "Aviation",
       "source_ids": [
-        "src_avenue_strategies_2026"
+        "src_avenue_strategies_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8982,7 +9172,8 @@
       "field": "industries",
       "value": "Energy",
       "source_ids": [
-        "src_avenue_strategies_2026"
+        "src_avenue_strategies_2026",
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -8992,7 +9183,58 @@
       "field": "industries",
       "value": "Real Estate",
       "source_ids": [
-        "src_avenue_strategies_2026"
+        "src_avenue_strategies_2026",
+        "src_avenue_firm_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_founded-year_1995",
+      "field": "founded_year",
+      "value": 1995,
+      "source_ids": [
+        "src_avenue_firm_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_headquarters_new-york-new-york-united-states",
+      "field": "headquarters",
+      "value": "New York, New York, United States",
+      "source_ids": [
+        "src_avenue_firm_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_avenue_firm_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_avenue_firm_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_avenue_capital_group"
+    },
+    {
+      "id": "fact_avenue-capital-group_geographies_silicon-valley",
+      "field": "geographies",
+      "value": "Silicon Valley",
+      "source_ids": [
+        "src_avenue_firm_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_avenue_capital_group"
@@ -9239,7 +9481,8 @@
       "value": "mergers and acquisitions advisory",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9250,7 +9493,8 @@
       "value": "sell-side advisory",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9261,7 +9505,8 @@
       "value": "buy-side advisory",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9272,7 +9517,8 @@
       "value": "capital raising",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9283,7 +9529,8 @@
       "value": "strategic advisory",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9294,7 +9541,8 @@
       "value": "capital markets advisory",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9305,7 +9553,8 @@
       "value": "Technology",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9316,7 +9565,8 @@
       "value": "Healthcare and Life Sciences",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9327,7 +9577,8 @@
       "value": "Consumer",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9338,7 +9589,8 @@
       "value": "Digital Media",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9349,7 +9601,84 @@
       "value": "Supply Chain and Logistics",
       "source_ids": [
         "src_intrepid_industries_2026",
-        "src_intrepid_healthcare_2026"
+        "src_intrepid_healthcare_2026",
+        "src_intrepid_overview_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_headquarters_los-angeles-california-united-states",
+      "field": "headquarters",
+      "value": "Los Angeles, California, United States",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_geographies_los-angeles",
+      "field": "geographies",
+      "value": "Los Angeles",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_geographies_chicago",
+      "field": "geographies",
+      "value": "Chicago",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_intrepid_overview_2026",
+        "src_intrepid_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intrepid_investment_bankers"
+    },
+    {
+      "id": "fact_intrepid-investment-bankers_founded-year_2010",
+      "field": "founded_year",
+      "value": 2010,
+      "source_ids": [
+        "src_intrepid_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intrepid_investment_bankers"
@@ -9672,7 +10001,8 @@
       "value": "corporate law",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9683,7 +10013,8 @@
       "value": "mergers and acquisitions counsel",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9694,7 +10025,8 @@
       "value": "finance law",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9705,7 +10037,8 @@
       "value": "data privacy and cybersecurity law",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9716,7 +10049,8 @@
       "value": "intellectual property law",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9727,7 +10061,8 @@
       "value": "tax law",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9738,7 +10073,8 @@
       "value": "regulatory counsel",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9749,7 +10085,8 @@
       "value": "Technology",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9760,7 +10097,8 @@
       "value": "Financial Services",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9771,7 +10109,8 @@
       "value": "Life Sciences",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9782,7 +10121,8 @@
       "value": "Healthcare",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9793,7 +10133,8 @@
       "value": "Energy",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9804,7 +10145,38 @@
       "value": "Consumer",
       "source_ids": [
         "src_dla_capabilities_2026",
-        "src_dla_corporate_2026"
+        "src_dla_corporate_2026",
+        "src_dla_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_dla_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_dla_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_dla_piper"
+    },
+    {
+      "id": "fact_dla-piper_geographies_singapore",
+      "field": "geographies",
+      "value": "Singapore",
+      "source_ids": [
+        "src_dla_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_dla_piper"
@@ -9885,7 +10257,8 @@
       "value": "corporate and M&A law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9896,7 +10269,8 @@
       "value": "banking and finance law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9907,7 +10281,8 @@
       "value": "capital markets law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9918,7 +10293,8 @@
       "value": "data protection and privacy law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9929,7 +10305,8 @@
       "value": "tax law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9940,7 +10317,8 @@
       "value": "venture capital law",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9951,7 +10329,8 @@
       "value": "dispute resolution",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9962,7 +10341,8 @@
       "value": "Asset Management",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9973,7 +10353,8 @@
       "value": "Financial Institutions",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9984,7 +10365,8 @@
       "value": "Healthcare and Life Sciences",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -9995,7 +10377,8 @@
       "value": "Technology Media and Telecommunications",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -10006,7 +10389,61 @@
       "value": "Energy and Infrastructure",
       "source_ids": [
         "src_simmons_expertise_2026",
-        "src_simmons_locations_2026"
+        "src_simmons_locations_2026",
+        "src_simmons_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_founded-year_1896",
+      "field": "founded_year",
+      "value": 1896,
+      "source_ids": [
+        "src_simmons_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_simmons_about_2026",
+        "src_simmons_london_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_simmons_about_2026",
+        "src_simmons_london_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_geographies_singapore",
+      "field": "geographies",
+      "value": "Singapore",
+      "source_ids": [
+        "src_simmons_about_2026",
+        "src_simmons_london_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_simmons_simmons"
+    },
+    {
+      "id": "fact_simmons-simmons_headquarters_london-united-kingdom",
+      "field": "headquarters",
+      "value": "London, United Kingdom",
+      "source_ids": [
+        "src_simmons_london_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_simmons_simmons"
@@ -11043,7 +11480,8 @@
       "value": "accounting advisory",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11054,7 +11492,8 @@
       "value": "transaction advisory",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11065,7 +11504,8 @@
       "value": "tax advisory",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11076,7 +11516,8 @@
       "value": "risk and compliance",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11087,7 +11528,8 @@
       "value": "valuation",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11098,7 +11540,8 @@
       "value": "finance transformation",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11109,7 +11552,8 @@
       "value": "program management",
       "source_ids": [
         "src_cfgi_solutions_2026",
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11119,7 +11563,8 @@
       "field": "industries",
       "value": "Technology",
       "source_ids": [
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11129,7 +11574,8 @@
       "field": "industries",
       "value": "Financial Services",
       "source_ids": [
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11139,7 +11585,8 @@
       "field": "industries",
       "value": "Life Sciences",
       "source_ids": [
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11149,7 +11596,8 @@
       "field": "industries",
       "value": "Consumer",
       "source_ids": [
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11159,7 +11607,128 @@
       "field": "industries",
       "value": "Industrial",
       "source_ids": [
-        "src_cfgi_industries_2026"
+        "src_cfgi_industries_2026",
+        "src_cfgi_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_founded-year_2001",
+      "field": "founded_year",
+      "value": 2001,
+      "source_ids": [
+        "src_cfgi_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_headquarters_boston-massachusetts-united-states",
+      "field": "headquarters",
+      "value": "Boston, Massachusetts, United States",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_boston",
+      "field": "geographies",
+      "value": "Boston",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_chicago",
+      "field": "geographies",
+      "value": "Chicago",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_los-angeles",
+      "field": "geographies",
+      "value": "Los Angeles",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_washington-dc",
+      "field": "geographies",
+      "value": "Washington DC",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_cfgi"
+    },
+    {
+      "id": "fact_cfgi_geographies_singapore",
+      "field": "geographies",
+      "value": "Singapore",
+      "source_ids": [
+        "src_cfgi_about_2026",
+        "src_cfgi_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_cfgi"
@@ -11811,7 +12380,8 @@
       "value": "audit and assurance",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11822,7 +12392,8 @@
       "value": "global and domestic tax",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11833,7 +12404,8 @@
       "value": "accounting and CFO advisory",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11844,7 +12416,8 @@
       "value": "business valuation",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11855,7 +12428,8 @@
       "value": "transaction advisory",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11866,7 +12440,8 @@
       "value": "wealth management",
       "source_ids": [
         "src_frank_business_2026",
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11876,7 +12451,8 @@
       "field": "industries",
       "value": "Technology",
       "source_ids": [
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11886,7 +12462,8 @@
       "field": "industries",
       "value": "Venture Capital",
       "source_ids": [
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11896,7 +12473,8 @@
       "field": "industries",
       "value": "Consumer",
       "source_ids": [
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11906,7 +12484,8 @@
       "field": "industries",
       "value": "Real Estate",
       "source_ids": [
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -11916,7 +12495,18 @@
       "field": "industries",
       "value": "Professional Services",
       "source_ids": [
-        "src_frank_industries_2026"
+        "src_frank_industries_2026",
+        "src_frank_story_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_frank_rimerman_co"
+    },
+    {
+      "id": "fact_frank-rimerman-co_founded-year_1949",
+      "field": "founded_year",
+      "value": 1949,
+      "source_ids": [
+        "src_frank_story_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_frank_rimerman_co"
@@ -12187,7 +12777,8 @@
       "value": "operational finance and accounting",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12198,7 +12789,8 @@
       "value": "strategic finance",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12209,7 +12801,8 @@
       "value": "fractional CFO services",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12220,7 +12813,8 @@
       "value": "strategic human resources",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12231,7 +12825,8 @@
       "value": "risk management",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12242,7 +12837,8 @@
       "value": "transaction support",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12253,7 +12849,8 @@
       "value": "Life Sciences",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12264,7 +12861,8 @@
       "value": "Healthcare",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12275,7 +12873,68 @@
       "value": "Biotechnology",
       "source_ids": [
         "src_danforth_capabilities_2026",
-        "src_danforth_finance_2026"
+        "src_danforth_finance_2026",
+        "src_danforth_overview_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_founded-year_2011",
+      "field": "founded_year",
+      "value": 2011,
+      "source_ids": [
+        "src_danforth_overview_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_headquarters_waltham-massachusetts-united-states",
+      "field": "headquarters",
+      "value": "Waltham, Massachusetts, United States",
+      "source_ids": [
+        "src_danforth_contact_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_danforth_contact_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_danforth_contact_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_danforth_contact_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_danforth_advisors"
+    },
+    {
+      "id": "fact_danforth-advisors_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_danforth_contact_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_danforth_advisors"
@@ -12597,7 +13256,8 @@
       "value": "audit and assurance",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12608,7 +13268,8 @@
       "value": "tax services",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12619,7 +13280,8 @@
       "value": "advisory services",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12630,7 +13292,8 @@
       "value": "transaction advisory",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12641,7 +13304,8 @@
       "value": "fractional CFO services",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12652,7 +13316,8 @@
       "value": "forensic accounting",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12663,7 +13328,8 @@
       "value": "outsourced accounting",
       "source_ids": [
         "src_ghj_tax_2026",
-        "src_ghj_forensic_2026"
+        "src_ghj_forensic_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12673,7 +13339,8 @@
       "field": "industries",
       "value": "Entertainment and Media",
       "source_ids": [
-        "src_ghj_tax_2026"
+        "src_ghj_tax_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12683,7 +13350,8 @@
       "field": "industries",
       "value": "Food and Beverage",
       "source_ids": [
-        "src_ghj_tax_2026"
+        "src_ghj_tax_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12693,7 +13361,8 @@
       "field": "industries",
       "value": "Nonprofit",
       "source_ids": [
-        "src_ghj_tax_2026"
+        "src_ghj_tax_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12703,7 +13372,8 @@
       "field": "industries",
       "value": "Manufacturing",
       "source_ids": [
-        "src_ghj_tax_2026"
+        "src_ghj_tax_2026",
+        "src_ghj_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -12713,7 +13383,52 @@
       "field": "industries",
       "value": "Real Estate",
       "source_ids": [
-        "src_ghj_tax_2026"
+        "src_ghj_tax_2026",
+        "src_ghj_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_headquarters_los-angeles-california-united-states",
+      "field": "headquarters",
+      "value": "Los Angeles, California, United States",
+      "source_ids": [
+        "src_ghj_about_2026",
+        "src_ghj_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_ghj_about_2026",
+        "src_ghj_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_geographies_los-angeles",
+      "field": "geographies",
+      "value": "Los Angeles",
+      "source_ids": [
+        "src_ghj_about_2026",
+        "src_ghj_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ghj"
+    },
+    {
+      "id": "fact_ghj_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_ghj_about_2026",
+        "src_ghj_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ghj"
@@ -14445,7 +15160,8 @@
       "value": "contract talent staffing",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14456,7 +15172,8 @@
       "value": "permanent placement",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14467,7 +15184,8 @@
       "value": "executive search",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14478,7 +15196,8 @@
       "value": "managed solutions",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14489,7 +15208,8 @@
       "value": "consulting",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14500,7 +15220,8 @@
       "value": "talent recruitment",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14511,7 +15232,8 @@
       "value": "Accounting and Finance",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14522,7 +15244,8 @@
       "value": "Technology",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14533,7 +15256,8 @@
       "value": "Marketing and Creative",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14544,7 +15268,8 @@
       "value": "Legal",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14555,7 +15280,29 @@
       "value": "Administrative Support",
       "source_ids": [
         "src_robert_finance_2026",
-        "src_robert_tech_2026"
+        "src_robert_tech_2026",
+        "src_robert_half_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_founded-year_1948",
+      "field": "founded_year",
+      "value": 1948,
+      "source_ids": [
+        "src_robert_half_about_2026",
+        "src_robert_half_corporate_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_robert_half"
+    },
+    {
+      "id": "fact_robert-half_headquarters_menlo-park-california-united-states",
+      "field": "headquarters",
+      "value": "Menlo Park, California, United States",
+      "source_ids": [
+        "src_robert_half_corporate_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_robert_half"
@@ -14637,7 +15384,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14649,7 +15397,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14661,7 +15410,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14673,7 +15423,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14685,7 +15436,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14697,7 +15449,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14709,7 +15462,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14721,7 +15475,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14733,7 +15488,8 @@
       "source_ids": [
         "src_findem_platform_2026",
         "src_findem_sourcing_2026",
-        "src_findem_about_2026"
+        "src_findem_about_2026",
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14764,6 +15520,26 @@
       "value": "Enterprise Technology",
       "source_ids": [
         "src_findem_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_headquarters_redwood-city-california-united-states",
+      "field": "headquarters",
+      "value": "Redwood City, California, United States",
+      "source_ids": [
+        "src_findem_growth_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_findem"
+    },
+    {
+      "id": "fact_findem_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_findem_growth_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_findem"
@@ -14854,7 +15630,8 @@
       "value": "HR management",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14865,7 +15642,8 @@
       "value": "payroll",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14876,7 +15654,8 @@
       "value": "IT management",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14887,7 +15666,8 @@
       "value": "finance management",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14898,7 +15678,8 @@
       "value": "benefits administration",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14909,7 +15690,8 @@
       "value": "expense management",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14920,7 +15702,8 @@
       "value": "AI workforce tools",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14931,7 +15714,9 @@
       "value": "workforce management platform",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_locations_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14942,7 +15727,9 @@
       "value": "global payroll",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_locations_2026",
+        "src_rippling_microsoft_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -14953,7 +15740,79 @@
       "value": "device and identity management",
       "source_ids": [
         "src_rippling_hr_2026",
-        "src_rippling_it_2026"
+        "src_rippling_it_2026",
+        "src_rippling_locations_2026",
+        "src_rippling_microsoft_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_austin",
+      "field": "geographies",
+      "value": "Austin",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_seattle",
+      "field": "geographies",
+      "value": "Seattle",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_rippling_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_rippling"
+    },
+    {
+      "id": "fact_rippling_geographies_singapore",
+      "field": "geographies",
+      "value": "Singapore",
+      "source_ids": [
+        "src_rippling_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_rippling"
@@ -16193,6 +17052,131 @@
       "value": "CTO",
       "source_ids": [
         "src_optimhire_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_products_ai-recruiter",
+      "field": "products",
+      "value": "AI Recruiter",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_products_ai-powered-applicant-tracking-system",
+      "field": "products",
+      "value": "AI-powered applicant tracking system",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_products_job-auto-applier",
+      "field": "products",
+      "value": "job auto-applier",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_services_candidate-sourcing",
+      "field": "services",
+      "value": "candidate sourcing",
+      "source_ids": [
+        "src_optimhire_recruiter_2026",
+        "src_optimhire_global_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_services_resume-screening",
+      "field": "services",
+      "value": "resume screening",
+      "source_ids": [
+        "src_optimhire_recruiter_2026",
+        "src_optimhire_global_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_services_interview-scheduling",
+      "field": "services",
+      "value": "interview scheduling",
+      "source_ids": [
+        "src_optimhire_recruiter_2026",
+        "src_optimhire_global_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_services_global-job-matching",
+      "field": "services",
+      "value": "global job matching",
+      "source_ids": [
+        "src_optimhire_recruiter_2026",
+        "src_optimhire_global_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_services_recruitment-partner-network",
+      "field": "services",
+      "value": "recruitment partner network",
+      "source_ids": [
+        "src_optimhire_recruiter_2026",
+        "src_optimhire_global_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_industries_human-resources",
+      "field": "industries",
+      "value": "Human Resources",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_industries_recruiting-technology",
+      "field": "industries",
+      "value": "Recruiting Technology",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_optimhire"
+    },
+    {
+      "id": "fact_optimhire_public-pricing_true",
+      "field": "public_pricing",
+      "value": true,
+      "source_ids": [
+        "src_optimhire_recruiter_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_optimhire"
@@ -17605,7 +18589,8 @@
       "verification_status": "verified",
       "source_ids": [
         "src_ramp_vendor_2026",
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "entity_id": "ent_ramp"
     },
@@ -17684,7 +18669,8 @@
       "field": "products",
       "value": "corporate cards",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17694,7 +18680,8 @@
       "field": "products",
       "value": "expense management",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17704,7 +18691,8 @@
       "field": "products",
       "value": "accounts payable",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17714,7 +18702,8 @@
       "field": "products",
       "value": "procurement",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17724,7 +18713,8 @@
       "field": "products",
       "value": "travel",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17734,7 +18724,8 @@
       "field": "products",
       "value": "treasury",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17744,7 +18735,8 @@
       "field": "products",
       "value": "automated bookkeeping",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17754,7 +18746,8 @@
       "field": "products",
       "value": "AI token spend management",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17764,7 +18757,8 @@
       "field": "services",
       "value": "finance automation",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -17774,7 +18768,18 @@
       "field": "services",
       "value": "AI-assisted finance workflows",
       "source_ids": [
-        "src_ramp_vendor_2026"
+        "src_ramp_vendor_2026",
+        "src_ramp_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_ramp"
+    },
+    {
+      "id": "fact_ramp_founded-year_2019",
+      "field": "founded_year",
+      "value": 2019,
+      "source_ids": [
+        "src_ramp_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_ramp"
@@ -21077,7 +22082,8 @@
       "field": "products",
       "value": "accounts payable",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21087,7 +22093,8 @@
       "field": "products",
       "value": "accounts receivable",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21097,7 +22104,8 @@
       "field": "products",
       "value": "expense management",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21107,7 +22115,8 @@
       "field": "products",
       "value": "budgets",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21117,7 +22126,8 @@
       "field": "products",
       "value": "credit",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21127,7 +22137,8 @@
       "field": "products",
       "value": "payments",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21137,7 +22148,8 @@
       "field": "products",
       "value": "AI transaction agent",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21147,7 +22159,8 @@
       "field": "products",
       "value": "Invoice Coding Agent",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21157,7 +22170,8 @@
       "field": "products",
       "value": "W-9 Agent",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21167,7 +22181,8 @@
       "field": "products",
       "value": "Transaction Agent",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21177,7 +22192,9 @@
       "field": "services",
       "value": "AI-powered financial operations",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21187,7 +22204,9 @@
       "field": "services",
       "value": "invoice automation",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21197,7 +22216,9 @@
       "field": "services",
       "value": "expense automation",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21207,7 +22228,9 @@
       "field": "services",
       "value": "payment automation",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21217,7 +22240,9 @@
       "field": "services",
       "value": "cash-flow management",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21227,7 +22252,9 @@
       "field": "services",
       "value": "procurement automation",
       "source_ids": [
-        "src_bill_ai_2026"
+        "src_bill_ai_2026",
+        "src_bill_ir_2026",
+        "src_bill_intuit_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -21548,6 +22575,17 @@
       "value": "software and technology",
       "source_ids": [
         "src_bill_ai_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_bill"
+    },
+    {
+      "id": "fact_bill_headquarters_san-jose-california-united-states",
+      "field": "headquarters",
+      "value": "San Jose, California, United States",
+      "source_ids": [
+        "src_bill_contact_2026",
+        "src_bill_ir_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_bill"
@@ -24098,6 +25136,26 @@
       "entity_id": "ent_nvidia"
     },
     {
+      "id": "fact_nvidia_founded-year_1993",
+      "field": "founded_year",
+      "value": 1993,
+      "source_ids": [
+        "src_nvidia_timeline_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
+      "id": "fact_nvidia_headquarters_santa-clara-california-united-states",
+      "field": "headquarters",
+      "value": "Santa Clara, California, United States",
+      "source_ids": [
+        "src_nvidia_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_nvidia"
+    },
+    {
       "id": "fact_intel_identity_intel",
       "field": "identity",
       "value": "Intel",
@@ -24295,6 +25353,26 @@
       "source_ids": [
         "src_intel_products_2026",
         "src_intel_processors_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_founded-year_1968",
+      "field": "founded_year",
+      "value": 1968,
+      "source_ids": [
+        "src_intel_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_intel"
+    },
+    {
+      "id": "fact_intel_headquarters_santa-clara-california-united-states",
+      "field": "headquarters",
+      "value": "Santa Clara, California, United States",
+      "source_ids": [
+        "src_intel_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_intel"
@@ -24500,6 +25578,46 @@
       "entity_id": "ent_databricks"
     },
     {
+      "id": "fact_databricks_founded-year_2013",
+      "field": "founded_year",
+      "value": 2013,
+      "source_ids": [
+        "src_databricks_structure_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_headquarters_san-francisco-california-united-states",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_databricks_structure_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_databricks_structure_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
+      "id": "fact_databricks_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_databricks_structure_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_databricks"
+    },
+    {
       "id": "fact_writer_identity_writer",
       "field": "identity",
       "value": "Writer",
@@ -24575,7 +25693,8 @@
       "value": "Writer Agent",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24586,7 +25705,8 @@
       "value": "AI Studio",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24597,7 +25717,8 @@
       "value": "Knowledge Graph",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24608,7 +25729,8 @@
       "value": "graph-based retrieval augmented generation",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24619,7 +25741,8 @@
       "value": "enterprise AI platform",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24630,7 +25753,8 @@
       "value": "enterprise AI agents",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24641,7 +25765,8 @@
       "value": "generative AI application development",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24652,7 +25777,8 @@
       "value": "AI governance",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24663,7 +25789,8 @@
       "value": "enterprise knowledge retrieval",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24674,7 +25801,8 @@
       "value": "workflow automation",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24685,7 +25813,8 @@
       "value": "Financial Services",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24696,7 +25825,8 @@
       "value": "Healthcare",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24707,7 +25837,8 @@
       "value": "Technology",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24718,7 +25849,78 @@
       "value": "Retail",
       "source_ids": [
         "src_writer_agent_2026",
-        "src_writer_studio_2026"
+        "src_writer_studio_2026",
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_founded-year_2020",
+      "field": "founded_year",
+      "value": 2020,
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_headquarters_san-francisco-california-united-states",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_geographies_chicago",
+      "field": "geographies",
+      "value": "Chicago",
+      "source_ids": [
+        "src_writer_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_writer"
+    },
+    {
+      "id": "fact_writer_geographies_austin",
+      "field": "geographies",
+      "value": "Austin",
+      "source_ids": [
+        "src_writer_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_writer"
@@ -24799,7 +26001,8 @@
       "value": "Scale Data Engine",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24810,7 +26013,8 @@
       "value": "Generative AI Platform",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24821,7 +26025,8 @@
       "value": "agentic AI solutions",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24832,7 +26037,8 @@
       "value": "model evaluation platform",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24843,7 +26049,8 @@
       "value": "public sector AI platform",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24854,7 +26061,8 @@
       "value": "AI data labeling",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24865,7 +26073,8 @@
       "value": "model evaluation",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24876,7 +26085,8 @@
       "value": "AI application development",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24887,7 +26097,8 @@
       "value": "generative AI deployment",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24898,7 +26109,8 @@
       "value": "public sector AI delivery",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24909,7 +26121,8 @@
       "value": "Technology",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24920,7 +26133,8 @@
       "value": "Government",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24931,7 +26145,8 @@
       "value": "Defense",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24942,7 +26157,8 @@
       "value": "Automotive",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -24953,7 +26169,28 @@
       "value": "Financial Services",
       "source_ids": [
         "src_scale_genai_2026",
-        "src_scale_public_2026"
+        "src_scale_public_2026",
+        "src_scale_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_founded-year_2016",
+      "field": "founded_year",
+      "value": 2016,
+      "source_ids": [
+        "src_scale_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_scale_ai"
+    },
+    {
+      "id": "fact_scale-ai_headquarters_san-francisco-california-united-states",
+      "field": "headquarters",
+      "value": "San Francisco, California, United States",
+      "source_ids": [
+        "src_scale_about_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_scale_ai"
@@ -26350,6 +27587,106 @@
       "entity_id": "ent_applitools"
     },
     {
+      "id": "fact_applitools_products_applitools-autonomous",
+      "field": "products",
+      "value": "Applitools Autonomous",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_products_visual-ai",
+      "field": "products",
+      "value": "Visual AI",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_products_ultrafast-grid",
+      "field": "products",
+      "value": "Ultrafast Grid",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_services_ai-powered-visual-testing",
+      "field": "services",
+      "value": "AI-powered visual testing",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_services_end-to-end-test-automation",
+      "field": "services",
+      "value": "end-to-end test automation",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_services_cross-browser-testing",
+      "field": "services",
+      "value": "cross-browser testing",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_industries_software-development",
+      "field": "industries",
+      "value": "Software Development",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_industries_quality-assurance",
+      "field": "industries",
+      "value": "Quality Assurance",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_applitools_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
+      "id": "fact_applitools_founded-year_2013",
+      "field": "founded_year",
+      "value": 2013,
+      "source_ids": [
+        "src_applitools_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_applitools"
+    },
+    {
       "id": "fact_adaptive-security_identity_adaptive-security",
       "field": "identity",
       "value": "Adaptive Security",
@@ -26690,6 +28027,16 @@
       "source_ids": [
         "src_witness_product_2026",
         "src_witness_control_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_witnessai"
+    },
+    {
+      "id": "fact_witnessai_headquarters_mountain-view-california-united-states",
+      "field": "headquarters",
+      "value": "Mountain View, California, United States",
+      "source_ids": [
+        "src_witness_privacy_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_witnessai"
@@ -27148,6 +28495,27 @@
       "entity_id": "ent_lockton"
     },
     {
+      "id": "fact_lockton_headquarters_kansas-city-missouri-united-states",
+      "field": "headquarters",
+      "value": "Kansas City, Missouri, United States",
+      "source_ids": [
+        "src_lockton_hq_2026",
+        "src_lockton_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
+      "id": "fact_lockton_founded-year_1966",
+      "field": "founded_year",
+      "value": 1966,
+      "source_ids": [
+        "src_lockton_history_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_lockton"
+    },
+    {
       "id": "fact_heffernan-insurance-brokers_identity_heffernan-insurance-brokers",
       "field": "identity",
       "value": "Heffernan Insurance Brokers",
@@ -27223,7 +28591,8 @@
       "value": "commercial insurance",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27234,7 +28603,8 @@
       "value": "employee benefits",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27245,7 +28615,8 @@
       "value": "private client insurance",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27256,7 +28627,8 @@
       "value": "risk management",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27267,7 +28639,8 @@
       "value": "benefits advisory",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27278,7 +28651,8 @@
       "value": "insurance technology solutions",
       "source_ids": [
         "src_heffernan_benefits_2026",
-        "src_heffernan_private_2026"
+        "src_heffernan_private_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27288,7 +28662,8 @@
       "field": "industries",
       "value": "Professional Services",
       "source_ids": [
-        "src_heffernan_benefits_2026"
+        "src_heffernan_benefits_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27298,7 +28673,8 @@
       "field": "industries",
       "value": "Technology",
       "source_ids": [
-        "src_heffernan_benefits_2026"
+        "src_heffernan_benefits_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27308,7 +28684,8 @@
       "field": "industries",
       "value": "Healthcare",
       "source_ids": [
-        "src_heffernan_benefits_2026"
+        "src_heffernan_benefits_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27318,7 +28695,8 @@
       "field": "industries",
       "value": "Construction",
       "source_ids": [
-        "src_heffernan_benefits_2026"
+        "src_heffernan_benefits_2026",
+        "src_heffernan_hq_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27328,7 +28706,49 @@
       "field": "industries",
       "value": "Nonprofit",
       "source_ids": [
-        "src_heffernan_benefits_2026"
+        "src_heffernan_benefits_2026",
+        "src_heffernan_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_founded-year_1988",
+      "field": "founded_year",
+      "value": 1988,
+      "source_ids": [
+        "src_heffernan_hq_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_headquarters_walnut-creek-california-united-states",
+      "field": "headquarters",
+      "value": "Walnut Creek, California, United States",
+      "source_ids": [
+        "src_heffernan_hq_2026",
+        "src_heffernan_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_heffernan_locations_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_heffernan_insurance_brokers"
+    },
+    {
+      "id": "fact_heffernan-insurance-brokers_geographies_london",
+      "field": "geographies",
+      "value": "London",
+      "source_ids": [
+        "src_heffernan_locations_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_heffernan_insurance_brokers"
@@ -27729,7 +29149,8 @@
       "value": "enterprise research",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27740,7 +29161,8 @@
       "value": "market analysis",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27751,7 +29173,8 @@
       "value": "executive advisory",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27762,7 +29185,8 @@
       "value": "technology services research",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27773,7 +29197,8 @@
       "value": "enterprise platform analysis",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27784,7 +29209,8 @@
       "value": "global capability center research",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27795,7 +29221,8 @@
       "value": "Financial Services",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27806,7 +29233,8 @@
       "value": "Manufacturing",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27817,7 +29245,8 @@
       "value": "Enterprise Technology",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -27828,7 +29257,18 @@
       "value": "Business Services",
       "source_ids": [
         "src_hfs_advisory_2026",
-        "src_hfs_platforms_2026"
+        "src_hfs_platforms_2026",
+        "src_hfs_founding_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hfs_research"
+    },
+    {
+      "id": "fact_hfs-research_founded-year_2010",
+      "field": "founded_year",
+      "value": 2010,
+      "source_ids": [
+        "src_hfs_founding_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hfs_research"
@@ -29032,6 +30472,136 @@
       "entity_id": "ent_pipe"
     },
     {
+      "id": "fact_pipe_founded-year_2019",
+      "field": "founded_year",
+      "value": 2019,
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_geographies_san-francisco-bay-area",
+      "field": "geographies",
+      "value": "San Francisco Bay Area",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_geographies_new-york",
+      "field": "geographies",
+      "value": "New York",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_products_embedded-working-capital-platform",
+      "field": "products",
+      "value": "embedded working-capital platform",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_products_capital-as-a-service-platform",
+      "field": "products",
+      "value": "capital-as-a-service platform",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_services_embedded-business-financing",
+      "field": "services",
+      "value": "embedded business financing",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_services_working-capital",
+      "field": "services",
+      "value": "working capital",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_services_financial-tools-for-small-and-medium-businesses",
+      "field": "services",
+      "value": "financial tools for small and medium businesses",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_industries_fintech",
+      "field": "industries",
+      "value": "Fintech",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_industries_embedded-finance",
+      "field": "industries",
+      "value": "Embedded Finance",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
+      "id": "fact_pipe_industries_small-business",
+      "field": "industries",
+      "value": "Small Business",
+      "source_ids": [
+        "src_pipe_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_pipe"
+    },
+    {
       "id": "fact_signeasy_identity_signeasy",
       "field": "identity",
       "value": "Signeasy",
@@ -29187,6 +30757,177 @@
       "value": "CIO",
       "source_ids": [
         "src_hg-insights_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_products_revenue-growth-intelligence-platform",
+      "field": "products",
+      "value": "Revenue Growth Intelligence Platform",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_products_revenue-growth-intelligence-fabric",
+      "field": "products",
+      "value": "Revenue Growth Intelligence Fabric",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_products_ai-analytics",
+      "field": "products",
+      "value": "AI analytics",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_products_ai-copilots",
+      "field": "products",
+      "value": "AI copilots",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_products_ai-agents",
+      "field": "products",
+      "value": "AI agents",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_services_technographic-data",
+      "field": "services",
+      "value": "technographic data",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_services_it-spend-intelligence",
+      "field": "services",
+      "value": "IT-spend intelligence",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_services_buyer-intent-intelligence",
+      "field": "services",
+      "value": "buyer-intent intelligence",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_services_go-to-market-analytics",
+      "field": "services",
+      "value": "go-to-market analytics",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_services_revenue-intelligence",
+      "field": "services",
+      "value": "revenue intelligence",
+      "source_ids": [
+        "src_hg_about_2026",
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_industries_business-intelligence",
+      "field": "industries",
+      "value": "Business Intelligence",
+      "source_ids": [
+        "src_hg_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_industries_enterprise-software",
+      "field": "industries",
+      "value": "Enterprise Software",
+      "source_ids": [
+        "src_hg_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_hg_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_industries_sales-technology",
+      "field": "industries",
+      "value": "Sales Technology",
+      "source_ids": [
+        "src_hg_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hg_insights"
+    },
+    {
+      "id": "fact_hg-insights_headquarters_santa-barbara-california-united-states",
+      "field": "headquarters",
+      "value": "Santa Barbara, California, United States",
+      "source_ids": [
+        "src_hg_contact_2026",
+        "src_hg_terms_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hg_insights"
@@ -30045,6 +31786,110 @@
       "entity_id": "ent_verano_capital_partners"
     },
     {
+      "id": "fact_verano-capital-partners_services_strategic-advisory",
+      "field": "services",
+      "value": "strategic advisory",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_services_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_services_funding-and-financing-advisory",
+      "field": "services",
+      "value": "funding and financing advisory",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_services_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_services_market-entry-planning",
+      "field": "services",
+      "value": "market-entry planning",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_services_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_services_go-to-market-planning",
+      "field": "services",
+      "value": "go-to-market planning",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_services_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_services_business-development",
+      "field": "services",
+      "value": "business development",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_services_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_industries_financial-services",
+      "field": "industries",
+      "value": "Financial Services",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_industries_professional-services",
+      "field": "industries",
+      "value": "Professional Services",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_industries_technology",
+      "field": "industries",
+      "value": "Technology",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
+      "id": "fact_verano-capital-partners_industries_consumer-brands",
+      "field": "industries",
+      "value": "Consumer Brands",
+      "source_ids": [
+        "src_verano_about_2026",
+        "src_verano_industries_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_verano_capital_partners"
+    },
+    {
       "id": "fact_capital-ip-investment-partners_identity_capital-ip-investment-partners",
       "field": "identity",
       "value": "Capital IP Investment Partners",
@@ -30818,6 +32663,123 @@
       "entity_id": "ent_finrep"
     },
     {
+      "id": "fact_finrep_products_ai-financial-reporting-platform",
+      "field": "products",
+      "value": "AI financial reporting platform",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_products_sec-filing-management-platform",
+      "field": "products",
+      "value": "SEC filing management platform",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_services_ai-assisted-financial-reporting",
+      "field": "services",
+      "value": "AI-assisted financial reporting",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_services_regulatory-filing-preparation",
+      "field": "services",
+      "value": "regulatory filing preparation",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_services_disclosure-benchmarking",
+      "field": "services",
+      "value": "disclosure benchmarking",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_services_accounting-research",
+      "field": "services",
+      "value": "accounting research",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_services_financial-workflow-management",
+      "field": "services",
+      "value": "financial workflow management",
+      "source_ids": [
+        "src_finrep_about_2026",
+        "src_finrep_terms_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_industries_financial-reporting",
+      "field": "industries",
+      "value": "Financial Reporting",
+      "source_ids": [
+        "src_finrep_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_industries_accounting-technology",
+      "field": "industries",
+      "value": "Accounting Technology",
+      "source_ids": [
+        "src_finrep_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_finrep_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
+      "id": "fact_finrep_industries_regulatory-technology",
+      "field": "industries",
+      "value": "Regulatory Technology",
+      "source_ids": [
+        "src_finrep_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_finrep"
+    },
+    {
       "id": "fact_thinkingai_identity_thinkingai",
       "field": "identity",
       "value": "ThinkingAI",
@@ -31078,6 +33040,96 @@
       "entity_id": "ent_contextqa"
     },
     {
+      "id": "fact_contextqa_products_ai-powered-test-automation-platform",
+      "field": "products",
+      "value": "AI-powered test automation platform",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_products_self-healing-test-scripts",
+      "field": "products",
+      "value": "self-healing test scripts",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_products_plain-language-failure-diagnostics",
+      "field": "products",
+      "value": "plain-language failure diagnostics",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_services_software-test-automation",
+      "field": "services",
+      "value": "software test automation",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_services_test-coverage-augmentation",
+      "field": "services",
+      "value": "test coverage augmentation",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_services_failure-diagnosis",
+      "field": "services",
+      "value": "failure diagnosis",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_industries_software-development",
+      "field": "industries",
+      "value": "Software Development",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_industries_quality-assurance",
+      "field": "industries",
+      "value": "Quality Assurance",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
+      "id": "fact_contextqa_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_contextqa_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_contextqa"
+    },
+    {
       "id": "fact_herculesai_identity_herculesai",
       "field": "identity",
       "value": "HerculesAI",
@@ -31223,6 +33275,170 @@
       "value": "CTO",
       "source_ids": [
         "src_atlas-cloud-ai_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_multimodal-ai-inference-platform",
+      "field": "products",
+      "value": "multimodal AI inference platform",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_unified-ai-model-api",
+      "field": "products",
+      "value": "unified AI model API",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_gpu-cloud",
+      "field": "products",
+      "value": "GPU Cloud",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_ai-video-models",
+      "field": "products",
+      "value": "AI video models",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_ai-image-models",
+      "field": "products",
+      "value": "AI image models",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_products_large-language-models",
+      "field": "products",
+      "value": "large language models",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_services_serverless-ai-inference",
+      "field": "services",
+      "value": "serverless AI inference",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_contact_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_services_gpu-infrastructure",
+      "field": "services",
+      "value": "GPU infrastructure",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_contact_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_services_ai-model-aggregation",
+      "field": "services",
+      "value": "AI model aggregation",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_contact_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_services_enterprise-ai-infrastructure",
+      "field": "services",
+      "value": "enterprise AI infrastructure",
+      "source_ids": [
+        "src_atlas_about_2026",
+        "src_atlas_contact_2026",
+        "src_atlas_docs_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_atlas_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_industries_cloud-computing",
+      "field": "industries",
+      "value": "Cloud Computing",
+      "source_ids": [
+        "src_atlas_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_industries_developer-tools",
+      "field": "industries",
+      "value": "Developer Tools",
+      "source_ids": [
+        "src_atlas_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_industries_media-technology",
+      "field": "industries",
+      "value": "Media Technology",
+      "source_ids": [
+        "src_atlas_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_atlas_cloud_ai"
+    },
+    {
+      "id": "fact_atlas-cloud-ai_headquarters_new-york-new-york-united-states",
+      "field": "headquarters",
+      "value": "New York, New York, United States",
+      "source_ids": [
+        "src_atlas_contact_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_atlas_cloud_ai"
@@ -33028,6 +35244,124 @@
       "entity_id": "ent_secure_octane_investments"
     },
     {
+      "id": "fact_secure-octane-investments_geographies_united-states",
+      "field": "geographies",
+      "value": "United States",
+      "source_ids": [
+        "src_secure_octane_about_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_services_early-stage-investment",
+      "field": "services",
+      "value": "early-stage investment",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_services_cybersecurity-investment",
+      "field": "services",
+      "value": "cybersecurity investment",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_services_ai-investment",
+      "field": "services",
+      "value": "AI investment",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_services_cloud-infrastructure-investment",
+      "field": "services",
+      "value": "cloud-infrastructure investment",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_services_founder-support",
+      "field": "services",
+      "value": "founder support",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_industries_cybersecurity",
+      "field": "industries",
+      "value": "Cybersecurity",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_industries_cloud-computing",
+      "field": "industries",
+      "value": "Cloud Computing",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
+      "id": "fact_secure-octane-investments_industries_venture-capital",
+      "field": "industries",
+      "value": "Venture Capital",
+      "source_ids": [
+        "src_secure_octane_about_2026",
+        "src_secure_octane_insights_2026",
+        "src_secure_octane_content_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_secure_octane_investments"
+    },
+    {
       "id": "fact_agentrys_identity_agentrys",
       "field": "identity",
       "value": "Agentrys",
@@ -33393,6 +35727,143 @@
       "value": "CFO",
       "source_ids": [
         "src_hackzero-ai_official"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_products_autonomous-ai-penetration-testing-platform",
+      "field": "products",
+      "value": "autonomous AI penetration-testing platform",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_products_ai-red-team-platform",
+      "field": "products",
+      "value": "AI red-team platform",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_products_hackzero-mcp-server",
+      "field": "products",
+      "value": "HackZero MCP server",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_services_continuous-penetration-testing",
+      "field": "services",
+      "value": "continuous penetration testing",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_services_exploit-validation",
+      "field": "services",
+      "value": "exploit validation",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_services_compliance-evidence-reporting",
+      "field": "services",
+      "value": "compliance evidence reporting",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_services_automated-vulnerability-remediation",
+      "field": "services",
+      "value": "automated vulnerability remediation",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_product_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_industries_cybersecurity",
+      "field": "industries",
+      "value": "Cybersecurity",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_industries_artificial-intelligence",
+      "field": "industries",
+      "value": "Artificial Intelligence",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_industries_regulatory-technology",
+      "field": "industries",
+      "value": "Regulatory Technology",
+      "source_ids": [
+        "src_hackzero_home_2026",
+        "src_hackzero_ai_notice_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_public-pricing_true",
+      "field": "public_pricing",
+      "value": true,
+      "source_ids": [
+        "src_hackzero_home_2026"
+      ],
+      "last_verified": "2026-08-11",
+      "entity_id": "ent_hackzero_ai"
+    },
+    {
+      "id": "fact_hackzero-ai_headquarters_wilmington-delaware-united-states",
+      "field": "headquarters",
+      "value": "Wilmington, Delaware, United States",
+      "source_ids": [
+        "src_hackzero_ai_notice_2026"
       ],
       "last_verified": "2026-08-11",
       "entity_id": "ent_hackzero_ai"
