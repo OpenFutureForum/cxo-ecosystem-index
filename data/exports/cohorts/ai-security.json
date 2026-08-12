@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "ai-security",
   "entity_ids": [
@@ -548,7 +548,11 @@
         "Cybersecurity",
         "AI Security"
       ],
-      "industries": [],
+      "industries": [
+        "Cybersecurity",
+        "Small and Midsize Enterprises",
+        "Enterprise Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -617,7 +621,8 @@
           "value": "managed detection and response",
           "source_ids": [
             "src_airmdr_services_2026",
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -627,7 +632,8 @@
           "value": "24/7 security operations monitoring",
           "source_ids": [
             "src_airmdr_services_2026",
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -637,7 +643,8 @@
           "value": "alert triage",
           "source_ids": [
             "src_airmdr_services_2026",
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -647,7 +654,8 @@
           "value": "security investigations",
           "source_ids": [
             "src_airmdr_services_2026",
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -657,7 +665,8 @@
           "value": "threat response",
           "source_ids": [
             "src_airmdr_services_2026",
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -666,7 +675,8 @@
           "field": "products",
           "value": "AI SOC agent",
           "source_ids": [
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -675,7 +685,35 @@
           "field": "products",
           "value": "managed detection and response platform",
           "source_ids": [
-            "src_airmdr_platform_2026"
+            "src_airmdr_platform_2026",
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_industries_small-and-midsize-enterprises",
+          "field": "industries",
+          "value": "Small and Midsize Enterprises",
+          "source_ids": [
+            "src_airmdr_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_airmdr_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_airmdr_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -721,6 +759,19 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_airmdr_about_2026",
+          "url": "https://airmdr.com/about-us",
+          "title": "About AirMDR",
+          "publisher": "AirMDR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "services",
+            "products"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -749,10 +800,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "operational-excellence"
+      ],
+      "topics": [
+        "cybersecurity",
+        "ai-security"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://airmdr.com/about-us",
+          "title": "About AirMDR",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_resemble_ai",
@@ -1420,7 +1489,10 @@
         "GRC Automation",
         "AI Agents"
       ],
-      "industries": [],
+      "industries": [
+        "Cybersecurity",
+        "Information Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1520,6 +1592,104 @@
             "src_axari-technologies-inc_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_ai-chief-of-staff",
+          "field": "products",
+          "value": "AI Chief of Staff",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_ai-workers",
+          "field": "products",
+          "value": "AI Workers",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_security-and-it-leadership-platform",
+          "field": "products",
+          "value": "security and IT leadership platform",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_commitment-tracking",
+          "field": "services",
+          "value": "commitment tracking",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_executive-briefs",
+          "field": "services",
+          "value": "executive briefs",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_program-management",
+          "field": "services",
+          "value": "program management",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_grc-support",
+          "field": "services",
+          "value": "GRC support",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_security-intelligence-support",
+          "field": "services",
+          "value": "security intelligence support",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_axari_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_industries_information-technology",
+          "field": "industries",
+          "value": "Information Technology",
+          "source_ids": [
+            "src_axari_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1541,11 +1711,49 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_axari_terms_2026",
+          "url": "https://www.axari.ai/terms-of-service/",
+          "title": "Axari Terms of Service",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official company",
+          "published_date": "2025-07-22",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_axari_privacy_2026",
+          "url": "https://www.axari.ai/privacy-policy/",
+          "title": "Axari Privacy Policy",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI Chief of Staff",
+        "AI Workers",
+        "security and IT leadership platform"
+      ],
+      "services": [
+        "commitment tracking",
+        "executive briefs",
+        "program management",
+        "GRC support",
+        "security intelligence support"
+      ],
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security",
@@ -1562,10 +1770,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "agent-governance",
+        "cybersecurity",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.axari.ai/terms-of-service/",
+          "title": "Axari Terms of Service",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_harden",
@@ -1585,7 +1814,11 @@
         "Runtime Security",
         "Cybersecurity"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Enterprise Software"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1683,6 +1916,123 @@
             "src_harden_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_products_ai-application-security-platform",
+          "field": "products",
+          "value": "AI application security platform",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_products_ai-firewall",
+          "field": "products",
+          "value": "AI firewall",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_products_egress-controls",
+          "field": "products",
+          "value": "egress controls",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_products_secrets-management",
+          "field": "products",
+          "value": "secrets management",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_products_tamper-evident-audit-logs",
+          "field": "products",
+          "value": "tamper-evident audit logs",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_services_build-time-security-scanning",
+          "field": "services",
+          "value": "build-time security scanning",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_services_runtime-security",
+          "field": "services",
+          "value": "runtime security",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_services_ai-governance",
+          "field": "services",
+          "value": "AI governance",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_services_cost-controls",
+          "field": "services",
+          "value": "cost controls",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_services_vulnerability-remediation",
+          "field": "services",
+          "value": "vulnerability remediation",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_harden_industries_enterprise-software",
+          "field": "industries",
+          "value": "Enterprise Software",
+          "source_ids": [
+            "src_harden_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1703,11 +2053,38 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_harden_product_2026",
+          "url": "https://harden.run/",
+          "title": "Harden Security and Governance",
+          "publisher": "Harden",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI application security platform",
+        "AI firewall",
+        "egress controls",
+        "secrets management",
+        "tamper-evident audit logs"
+      ],
+      "services": [
+        "build-time security scanning",
+        "runtime security",
+        "AI governance",
+        "cost controls",
+        "vulnerability remediation"
+      ],
       "primary_category": "AI Security",
       "secondary_categories": [
         "Application Security",
@@ -1724,10 +2101,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "agent-governance",
+        "cybersecurity",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://harden.run/",
+          "title": "Harden",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_tenet_security",
@@ -1746,7 +2144,12 @@
         "Runtime Security",
         "Cybersecurity"
       ],
-      "industries": [],
+      "industries": [
+        "Cybersecurity",
+        "Artificial Intelligence",
+        "Financial Services",
+        "Legal Services"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1985,7 +2388,8 @@
           "field": "services",
           "value": "agent risk assessment",
           "source_ids": [
-            "src_tenet_how_it_works_2026"
+            "src_tenet_how_it_works_2026",
+            "src_tenet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1994,7 +2398,8 @@
           "field": "services",
           "value": "runtime agent defense",
           "source_ids": [
-            "src_tenet_how_it_works_2026"
+            "src_tenet_how_it_works_2026",
+            "src_tenet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2003,7 +2408,8 @@
           "field": "services",
           "value": "agent validation",
           "source_ids": [
-            "src_tenet_how_it_works_2026"
+            "src_tenet_how_it_works_2026",
+            "src_tenet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2012,7 +2418,53 @@
           "field": "services",
           "value": "security-stack integration",
           "source_ids": [
-            "src_tenet_how_it_works_2026"
+            "src_tenet_how_it_works_2026",
+            "src_tenet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_tenet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_tenet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_tenet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_tenet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_tenet-security_industries_legal-services",
+          "field": "industries",
+          "value": "Legal Services",
+          "source_ids": [
+            "src_tenet_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -2046,6 +2498,21 @@
           "supports": [
             "capabilities",
             "services"
+          ]
+        },
+        {
+          "id": "src_tenet_about_2026",
+          "url": "https://tenetsecurity.ai/blog/tenet-wins-cybersecurity-excellence-awards/",
+          "title": "About Tenet Security",
+          "publisher": "Tenet Security",
+          "source_class": "official company",
+          "published_date": "2026-04-01",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "products",
+            "services",
+            "industries"
           ]
         }
       ],
@@ -2091,10 +2558,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "agent-governance",
+        "cybersecurity"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://tenetsecurity.ai/",
+          "title": "Tenet Security",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_aegisai",

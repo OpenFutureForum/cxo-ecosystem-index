@@ -1,7 +1,7 @@
 {
-  "release": "v0.8.4",
-  "release_fingerprint": "ecc375ce925aba98cbb44f55a04cc1b702080eaf7222df82e45760a751a95b78",
-  "generated_at": "2026-08-12T03:54:23.752Z",
+  "release": "v0.8.5",
+  "release_fingerprint": "5e357ede37ac349bdb3f2a8a3a28ac13da9df951031f27d0a005c01ea0b53ded",
+  "generated_at": "2026-08-12T04:14:33.219Z",
   "submission_status": "not submitted",
   "note": "Candidate URLs for a manual Search Console handoff. This build does not ping or claim submission to any search engine.",
   "sitemap_url": "https://openfutureforum.github.io/cxo-ecosystem-index/sitemap.xml",

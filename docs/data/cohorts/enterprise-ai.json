@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -1019,9 +1019,21 @@
         "Artificial Intelligence",
         "Cybersecurity"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Consumer Products",
+        "Energy",
+        "Healthcare",
+        "Life Sciences",
+        "Manufacturing",
+        "Public Sector",
+        "Technology and Telecommunications"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
       ],
       "aliases": [],
       "parent_company": null,
@@ -1135,6 +1147,181 @@
             "src_capgemini_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_capgemini_about_2026",
+            "src_capgemini_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_capgemini_about_2026",
+            "src_capgemini_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_capgemini_about_2026",
+            "src_capgemini_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_capgemini_about_2026",
+            "src_capgemini_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_strategy-and-transformation-consulting",
+          "field": "services",
+          "value": "strategy and transformation consulting",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_technology-services",
+          "field": "services",
+          "value": "technology services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_engineering-services",
+          "field": "services",
+          "value": "engineering services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_cloud-and-data-services",
+          "field": "services",
+          "value": "cloud and data services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_ai-services",
+          "field": "services",
+          "value": "AI services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_cybersecurity-services",
+          "field": "services",
+          "value": "cybersecurity services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_services_managed-operations",
+          "field": "services",
+          "value": "managed operations",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_consumer-products",
+          "field": "industries",
+          "value": "Consumer Products",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_energy",
+          "field": "industries",
+          "value": "Energy",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_public-sector",
+          "field": "industries",
+          "value": "Public Sector",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_capgemini_industries_technology-and-telecommunications",
+          "field": "industries",
+          "value": "Technology and Telecommunications",
+          "source_ids": [
+            "src_capgemini_about_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1155,11 +1342,45 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_capgemini_about_2026",
+          "url": "https://www.capgemini.com/about-us/",
+          "title": "About Capgemini",
+          "publisher": "Capgemini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_capgemini_locations_2026",
+          "url": "https://www.capgemini.com/about-us/locations/",
+          "title": "Capgemini Locations",
+          "publisher": "Capgemini",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "strategy and transformation consulting",
+        "technology services",
+        "engineering services",
+        "cloud and data services",
+        "AI services",
+        "cybersecurity services",
+        "managed operations"
+      ],
+      "products": [],
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -1176,10 +1397,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "cybersecurity",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.capgemini.com/about-us/",
+          "title": "About Capgemini",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_slalom",
@@ -1199,9 +1441,20 @@
         "Enterprise Technology",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Healthcare",
+        "Life Sciences",
+        "Manufacturing",
+        "Public Sector",
+        "Retail",
+        "Technology",
+        "Media and Telecommunications"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "Seattle",
+        "London"
       ],
       "aliases": [],
       "parent_company": null,
@@ -1297,6 +1550,178 @@
             "src_slalom_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_founded-year_2001",
+          "field": "founded_year",
+          "value": 2001,
+          "source_ids": [
+            "src_slalom_impact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_headquarters_seattle-washington-united-states",
+          "field": "headquarters",
+          "value": "Seattle, Washington, United States",
+          "source_ids": [
+            "src_slalom_impact_2026",
+            "src_slalom_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_slalom_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_slalom_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_slalom_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_business-and-technology-consulting",
+          "field": "services",
+          "value": "business and technology consulting",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_strategy",
+          "field": "services",
+          "value": "strategy",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_cloud-transformation",
+          "field": "services",
+          "value": "cloud transformation",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_data-and-ai",
+          "field": "services",
+          "value": "data and AI",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_customer-experience",
+          "field": "services",
+          "value": "customer experience",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_services_organizational-transformation",
+          "field": "services",
+          "value": "organizational transformation",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_public-sector",
+          "field": "industries",
+          "value": "Public Sector",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_slalom_industries_media-and-telecommunications",
+          "field": "industries",
+          "value": "Media and Telecommunications",
+          "source_ids": [
+            "src_slalom_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1317,11 +1742,59 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_slalom_impact_2026",
+          "url": "https://www.slalom.com/content/dam/slalom/scom-site/us/home/who-we-are/environment-assets/environmental-impact-slalom-impact-report-2020-en-us.pdf",
+          "title": "Slalom Impact Report",
+          "publisher": "Slalom",
+          "source_class": "official company",
+          "published_date": "2020-01-01",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters"
+          ]
+        },
+        {
+          "id": "src_slalom_locations_2026",
+          "url": "https://www.slalom.com/us/en/who-we-are/locations",
+          "title": "Slalom Locations",
+          "publisher": "Slalom",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_slalom_industries_2026",
+          "url": "https://www.slalom.com/us/en/industries",
+          "title": "Slalom Industries",
+          "publisher": "Slalom",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 2001,
+      "headquarters": "Seattle, Washington, United States",
+      "services": [
+        "business and technology consulting",
+        "strategy",
+        "cloud transformation",
+        "data and AI",
+        "customer experience",
+        "organizational transformation"
+      ],
+      "products": [],
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -1336,10 +1809,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.slalom.com/us/en/industries",
+          "title": "Slalom Industries",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_cognizant",
@@ -1359,9 +1852,21 @@
         "Enterprise Technology",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Banking",
+        "Healthcare",
+        "Life Sciences",
+        "Insurance",
+        "Manufacturing",
+        "Media",
+        "Retail",
+        "Technology"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "New York",
+        "London",
+        "Singapore"
       ],
       "aliases": [],
       "parent_company": null,
@@ -1457,6 +1962,191 @@
             "src_cognizant_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_founded-year_1994",
+          "field": "founded_year",
+          "value": 1994,
+          "source_ids": [
+            "src_cognizant_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_cognizant_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_cognizant_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_cognizant_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_cognizant_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_ai-transformation",
+          "field": "services",
+          "value": "AI transformation",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_digital-engineering",
+          "field": "services",
+          "value": "digital engineering",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_cloud-services",
+          "field": "services",
+          "value": "cloud services",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_data-and-analytics",
+          "field": "services",
+          "value": "data and analytics",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_enterprise-application-services",
+          "field": "services",
+          "value": "enterprise application services",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_services_business-process-services",
+          "field": "services",
+          "value": "business process services",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_banking",
+          "field": "industries",
+          "value": "Banking",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_insurance",
+          "field": "industries",
+          "value": "Insurance",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_media",
+          "field": "industries",
+          "value": "Media",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_cognizant_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_cognizant_about_2026",
+            "src_cognizant_industries_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1477,11 +2167,47 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_cognizant_about_2026",
+          "url": "https://www.cognizant.com/us/en/about-cognizant",
+          "title": "About Cognizant",
+          "publisher": "Cognizant",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_cognizant_industries_2026",
+          "url": "https://www.cognizant.com/us/en/industries",
+          "title": "Cognizant Industries",
+          "publisher": "Cognizant",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 1994,
+      "services": [
+        "AI transformation",
+        "digital engineering",
+        "cloud services",
+        "data and analytics",
+        "enterprise application services",
+        "business process services"
+      ],
+      "products": [],
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -1496,10 +2222,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.cognizant.com/us/en/about-cognizant",
+          "title": "About Cognizant",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_findem",
@@ -1516,7 +2262,11 @@
         "Recruiting",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Human Resources",
+        "Talent Acquisition",
+        "Enterprise Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1594,7 +2344,8 @@
           "value": "talent sourcing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1604,7 +2355,8 @@
           "value": "talent marketing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1614,7 +2366,8 @@
           "value": "executive search platform",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1624,7 +2377,8 @@
           "value": "talent analytics",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1634,7 +2388,8 @@
           "value": "market intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1644,7 +2399,8 @@
           "value": "candidate relationship management",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1654,7 +2410,8 @@
           "value": "AI talent search",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1664,7 +2421,8 @@
           "value": "recruiting automation",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1674,7 +2432,35 @@
           "value": "workforce intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_talent-acquisition",
+          "field": "industries",
+          "value": "Talent Acquisition",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1721,6 +2507,19 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_findem_about_2026",
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1753,10 +2552,26 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_vic_ai",
@@ -1773,7 +2588,11 @@
         "Artificial Intelligence",
         "Accounting Software"
       ],
-      "industries": [],
+      "industries": [
+        "Enterprise Finance",
+        "Accounting",
+        "Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1851,7 +2670,8 @@
           "value": "AI accounts payable platform",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1861,7 +2681,8 @@
           "value": "invoice processing",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1871,7 +2692,8 @@
           "value": "Autopilot",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1881,7 +2703,8 @@
           "value": "vendor management",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1891,7 +2714,8 @@
           "value": "analytics and insights",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1901,7 +2725,8 @@
           "value": "accounts payable automation",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1911,7 +2736,8 @@
           "value": "invoice data extraction",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1921,7 +2747,8 @@
           "value": "fraud prevention",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1931,7 +2758,8 @@
           "value": "monthly close acceleration",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1941,7 +2769,44 @@
           "value": "AP operations centralization",
           "source_ids": [
             "src_vic_ap_2026",
-            "src_vic_fraud_2026"
+            "src_vic_fraud_2026",
+            "src_vic_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_founded-year_2017",
+          "field": "founded_year",
+          "value": 2017,
+          "source_ids": [
+            "src_vic_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_industries_enterprise-finance",
+          "field": "industries",
+          "value": "Enterprise Finance",
+          "source_ids": [
+            "src_vic_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_industries_accounting",
+          "field": "industries",
+          "value": "Accounting",
+          "source_ids": [
+            "src_vic_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_vic-ai_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_vic_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1988,6 +2853,30 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_vic_founding_2026",
+          "url": "https://www.vic.ai/blog/vicai-the-future-of-accounting",
+          "title": "Vic.ai Is Defining the Future of Accounting",
+          "publisher": "Vic.ai",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year"
+          ]
+        },
+        {
+          "id": "src_vic_about_2026",
+          "url": "https://www.vic.ai/about-us",
+          "title": "About Vic.ai",
+          "publisher": "Vic.ai",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -2007,6 +2896,7 @@
         "monthly close acceleration",
         "AP operations centralization"
       ],
+      "founded_year": 2017,
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2021,10 +2911,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "operational-excellence",
+        "decision-support",
+        "transformation"
+      ],
+      "topics": [
+        "finance-transformation",
+        "enterprise-ai",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.vic.ai/about-us",
+          "title": "About Vic.ai",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_zeni",
@@ -2186,9 +3096,21 @@
         "AI Infrastructure",
         "Cybersecurity"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Financial Services",
+        "Healthcare",
+        "Manufacturing",
+        "Retail",
+        "Government",
+        "Education"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "Seattle",
+        "New York",
+        "London",
+        "Singapore"
       ],
       "aliases": [],
       "parent_company": null,
@@ -2302,6 +3224,241 @@
             "src_microsoft_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_founded-year_1975",
+          "field": "founded_year",
+          "value": 1975,
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_headquarters_redmond-washington-united-states",
+          "field": "headquarters",
+          "value": "Redmond, Washington, United States",
+          "source_ids": [
+            "src_microsoft_facts_2026",
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_microsoft-365",
+          "field": "products",
+          "value": "Microsoft 365",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_azure",
+          "field": "products",
+          "value": "Azure",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_dynamics-365",
+          "field": "products",
+          "value": "Dynamics 365",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_microsoft-copilot",
+          "field": "products",
+          "value": "Microsoft Copilot",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_windows",
+          "field": "products",
+          "value": "Windows",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_github",
+          "field": "products",
+          "value": "GitHub",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_products_microsoft-security",
+          "field": "products",
+          "value": "Microsoft Security",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_services_cloud-computing",
+          "field": "services",
+          "value": "cloud computing",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_services_enterprise-software",
+          "field": "services",
+          "value": "enterprise software",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_services_ai-platforms",
+          "field": "services",
+          "value": "AI platforms",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_services_cybersecurity",
+          "field": "services",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_services_developer-tools",
+          "field": "services",
+          "value": "developer tools",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_government",
+          "field": "industries",
+          "value": "Government",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_industries_education",
+          "field": "industries",
+          "value": "Education",
+          "source_ids": [
+            "src_microsoft_facts_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_microsoft_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_microsoft_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2322,11 +3479,56 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_microsoft_facts_2026",
+          "url": "https://news.microsoft.com/facts-about-microsoft/",
+          "title": "Facts About Microsoft",
+          "publisher": "Microsoft",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_microsoft_locations_2026",
+          "url": "https://www.microsoft.com/en-us/about/office-locations",
+          "title": "Microsoft Office Locations",
+          "publisher": "Microsoft",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 1975,
+      "headquarters": "Redmond, Washington, United States",
+      "products": [
+        "Microsoft 365",
+        "Azure",
+        "Dynamics 365",
+        "Microsoft Copilot",
+        "Windows",
+        "GitHub",
+        "Microsoft Security"
+      ],
+      "services": [
+        "cloud computing",
+        "enterprise software",
+        "AI platforms",
+        "cybersecurity",
+        "developer tools"
+      ],
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2343,10 +3545,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "risk-management",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "cybersecurity",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://news.microsoft.com/facts-about-microsoft/",
+          "title": "Facts About Microsoft",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_nvidia",
@@ -3868,7 +5091,9 @@
       ],
       "industries": [],
       "geographies": [
-        "United States"
+        "United States",
+        "San Francisco Bay Area",
+        "Silicon Valley"
       ],
       "aliases": [],
       "parent_company": null,
@@ -3944,7 +5169,8 @@
           "value": "enterprise search",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3954,7 +5180,8 @@
           "value": "AI assistant",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3964,7 +5191,8 @@
           "value": "AI agents",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3974,7 +5202,8 @@
           "value": "enterprise graph",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3984,7 +5213,8 @@
           "value": "AI gateway",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3994,7 +5224,8 @@
           "value": "model hub",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4004,7 +5235,8 @@
           "value": "enterprise connectors",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4014,7 +5246,8 @@
           "value": "enterprise knowledge discovery",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4024,7 +5257,8 @@
           "value": "workplace search",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4034,7 +5268,44 @@
           "value": "agentic automation",
           "source_ids": [
             "src_glean_platform_2026",
-            "src_glean_graph_2026"
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_glean_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -4081,6 +5352,20 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_glean_about_2026",
+          "url": "https://www.glean.com/about",
+          "title": "About Glean",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4100,6 +5385,7 @@
         "workplace search",
         "agentic automation"
       ],
+      "headquarters": "San Francisco, California, United States",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -4112,10 +5398,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "agentic-ai",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.glean.com/about",
+          "title": "About Glean",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_servicenow",
@@ -4134,9 +5440,21 @@
         "Enterprise Technology",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Healthcare",
+        "Government",
+        "Manufacturing",
+        "Technology",
+        "Telecommunications",
+        "Retail"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
       ],
       "aliases": [],
       "parent_company": null,
@@ -4223,6 +5541,214 @@
             "src_servicenow_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_enterprise-workflow-automation",
+          "field": "services",
+          "value": "enterprise workflow automation",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_ai-agents",
+          "field": "services",
+          "value": "AI agents",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_digital-transformation-platform",
+          "field": "services",
+          "value": "digital transformation platform",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_government",
+          "field": "industries",
+          "value": "Government",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_telecommunications",
+          "field": "industries",
+          "value": "Telecommunications",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_servicenow-ai-platform",
+          "field": "products",
+          "value": "ServiceNow AI Platform",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_it-service-management",
+          "field": "products",
+          "value": "IT service management",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_customer-service-management",
+          "field": "products",
+          "value": "customer service management",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_security-operations",
+          "field": "products",
+          "value": "security operations",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_governance-risk-and-compliance",
+          "field": "products",
+          "value": "governance risk and compliance",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_human-resources-service-delivery",
+          "field": "products",
+          "value": "human resources service delivery",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_creator-workflows",
+          "field": "products",
+          "value": "creator workflows",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -4243,11 +5769,51 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_servicenow_company_2026",
+          "url": "https://www.servicenow.com/company.html",
+          "title": "About ServiceNow",
+          "publisher": "ServiceNow",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_servicenow_products_2026",
+          "url": "https://www.servicenow.com/products-by-category.html",
+          "title": "ServiceNow Products by Category",
+          "publisher": "ServiceNow",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "ServiceNow AI Platform",
+        "IT service management",
+        "customer service management",
+        "security operations",
+        "governance risk and compliance",
+        "human resources service delivery",
+        "creator workflows"
+      ],
+      "services": [
+        "enterprise workflow automation",
+        "AI agents",
+        "digital transformation platform"
+      ],
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -4260,10 +5826,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "risk-management"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "cybersecurity",
+        "risk"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.servicenow.com/products-by-category.html",
+          "title": "ServiceNow Products by Category",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_centific",
@@ -4283,7 +5870,9 @@
       ],
       "industries": [],
       "geographies": [
-        "United States"
+        "United States",
+        "Seattle",
+        "Singapore"
       ],
       "aliases": [],
       "parent_company": null,
@@ -4451,6 +6040,42 @@
             "src_centific_data_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_headquarters_redmond-washington-united-states",
+          "field": "headquarters",
+          "value": "Redmond, Washington, United States",
+          "source_ids": [
+            "src_centific_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_centific_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_centific_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_centific_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_centific_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -4495,6 +6120,19 @@
             "services",
             "products"
           ]
+        },
+        {
+          "id": "src_centific_locations_2026",
+          "url": "https://www.centific.com/company/locations",
+          "title": "Centific Locations",
+          "publisher": "Centific",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4513,6 +6151,7 @@
         "model evaluation",
         "data annotation"
       ],
+      "headquarters": "Redmond, Washington, United States",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Consulting",
@@ -4527,10 +6166,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.centific.com/company/locations",
+          "title": "Centific Locations",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_you_com",
@@ -4546,7 +6205,11 @@
       "categories": [
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Artificial Intelligence",
+        "Enterprise Technology",
+        "Search Infrastructure"
+      ],
       "geographies": [
         "United States"
       ],
@@ -4615,7 +6278,8 @@
           "value": "Search API",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4625,7 +6289,8 @@
           "value": "Contents API",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4635,7 +6300,8 @@
           "value": "Express Agent",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4645,7 +6311,8 @@
           "value": "Advanced Agent",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4655,7 +6322,8 @@
           "value": "Research API",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4665,7 +6333,8 @@
           "value": "Finance Research API",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4675,7 +6344,8 @@
           "value": "web search for AI agents",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4685,7 +6355,8 @@
           "value": "citation-backed answers",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4695,7 +6366,8 @@
           "value": "AI research",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4705,7 +6377,8 @@
           "value": "content extraction",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4715,7 +6388,44 @@
           "value": "finance research",
           "source_ids": [
             "src_you_search_2026",
-            "src_you_research_2026"
+            "src_you_research_2026",
+            "src_you_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_founded-year_2020",
+          "field": "founded_year",
+          "value": 2020,
+          "source_ids": [
+            "src_you_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_you_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_you_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_you-com_industries_search-infrastructure",
+          "field": "industries",
+          "value": "Search Infrastructure",
+          "source_ids": [
+            "src_you_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -4762,6 +6472,20 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_you_about_2026",
+          "url": "https://you.com/about",
+          "title": "About You.com",
+          "publisher": "You.com",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4782,6 +6506,7 @@
         "content extraction",
         "finance research"
       ],
+      "founded_year": 2020,
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [],
       "provider_types": [
@@ -4791,10 +6516,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "agentic-ai",
+        "artificial-intelligence"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://you.com/about",
+          "title": "About You.com",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_granica",
@@ -7103,7 +8848,10 @@
         "GRC Automation",
         "AI Agents"
       ],
-      "industries": [],
+      "industries": [
+        "Cybersecurity",
+        "Information Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -7203,6 +8951,104 @@
             "src_axari-technologies-inc_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_ai-chief-of-staff",
+          "field": "products",
+          "value": "AI Chief of Staff",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_ai-workers",
+          "field": "products",
+          "value": "AI Workers",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_products_security-and-it-leadership-platform",
+          "field": "products",
+          "value": "security and IT leadership platform",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_commitment-tracking",
+          "field": "services",
+          "value": "commitment tracking",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_executive-briefs",
+          "field": "services",
+          "value": "executive briefs",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_program-management",
+          "field": "services",
+          "value": "program management",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_grc-support",
+          "field": "services",
+          "value": "GRC support",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_services_security-intelligence-support",
+          "field": "services",
+          "value": "security intelligence support",
+          "source_ids": [
+            "src_axari_terms_2026",
+            "src_axari_privacy_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_axari_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_axari-technologies-inc_industries_information-technology",
+          "field": "industries",
+          "value": "Information Technology",
+          "source_ids": [
+            "src_axari_terms_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -7224,11 +9070,49 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_axari_terms_2026",
+          "url": "https://www.axari.ai/terms-of-service/",
+          "title": "Axari Terms of Service",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official company",
+          "published_date": "2025-07-22",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_axari_privacy_2026",
+          "url": "https://www.axari.ai/privacy-policy/",
+          "title": "Axari Privacy Policy",
+          "publisher": "Axari Technologies, Inc.",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI Chief of Staff",
+        "AI Workers",
+        "security and IT leadership platform"
+      ],
+      "services": [
+        "commitment tracking",
+        "executive briefs",
+        "program management",
+        "GRC support",
+        "security intelligence support"
+      ],
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security",
@@ -7245,10 +9129,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "agent-governance",
+        "cybersecurity",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.axari.ai/terms-of-service/",
+          "title": "Axari Terms of Service",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_agentrys",

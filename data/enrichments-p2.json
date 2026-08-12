@@ -1,0 +1,335 @@
+[
+  {
+    "entity_id":"ent_armanino","geographies":["United States"],
+    "services":["audit and assurance","tax","consulting","business management","managed services","regulatory compliance and risk advisory"],
+    "industries":["Technology","Manufacturing and Distribution","Consumer","Financial Services","Nonprofit","Real Estate","Professional Services","Life Sciences","Insurance","Healthcare"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_armanino_who_2026","url":"https://www.armanino.com/company/who-we-are/","title":"Who We Are","publisher":"Armanino","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_armanino_services_2026","url":"https://www.armanino.com/services/","title":"Armanino Services","publisher":"Armanino","source_class":"official company","accessed_date":"2026-08-11","supports":["services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_bny","founded_year":1784,"headquarters":"New York, New York, United States","geographies":["United States","New York","London","Singapore"],
+    "services":["asset servicing","issuer services","treasury services","wealth management","investment management","markets and execution services"],
+    "industries":["Financial Services","Investment Management","Banking","Insurance","Retirement"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_bny_about_2026","url":"https://www.bny.com/corporate/global/en/about-us/about-bny","title":"About BNY","publisher":"BNY","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries","geographies"]},
+      {"id":"src_bny_history_2026","url":"https://www.bny.com/corporate/global/en/about-us/history.html","title":"BNY History","publisher":"BNY","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year"]},
+      {"id":"src_bny_contact_2026","url":"https://www.bny.com/corporate/global/en/contact-us.html","title":"Contact BNY","publisher":"BNY","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies"]}
+    ]
+  },
+  {
+    "entity_id":"ent_carta","founded_year":2012,"headquarters":"San Francisco, California, United States","geographies":["United States","San Francisco Bay Area","London","Singapore"],
+    "products":["cap table management","equity management","fund administration","portfolio management","valuations","compensation benchmarking"],
+    "services":["private-market infrastructure","fund administration","equity plan administration"],
+    "industries":["Private Markets","Venture Capital","Private Equity","Startups"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_carta_about_2026","url":"https://carta.com/about/","title":"About Carta","publisher":"Carta","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries"]},
+      {"id":"src_carta_products_2026","url":"https://carta.com/products/","title":"Carta Products","publisher":"Carta","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_escalon","founded_year":2006,"geographies":["United States"],
+    "services":["outsourced accounting","fractional CFO services","tax and compliance","payroll","human resources","financial operations"],
+    "industries":["Startups","Small and Midsize Businesses","Technology","Professional Services","Nonprofit"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_escalon_home_2026","url":"https://escalon.services/","title":"Escalon","publisher":"Escalon","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year"]},
+      {"id":"src_escalon_about_2026","url":"https://escalon.services/about-us","title":"About Escalon","publisher":"Escalon","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_escalon_services_2026","url":"https://escalon.services/services","title":"Escalon Services","publisher":"Escalon","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_first_citizens_bank","founded_year":1898,"headquarters":"Raleigh, North Carolina, United States","geographies":["United States"],
+    "services":["personal banking","wealth management","business banking","commercial banking","innovation banking","treasury management","foreign exchange and trade finance"],
+    "industries":["Banking","Wealth Management","Commercial Finance","Technology","Venture Capital","Private Equity"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_first_citizens_about_2026","url":"https://www.firstcitizens.com/about-us","title":"About First Citizens Bank","publisher":"First Citizens Bank","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_first_citizens_timeline_2026","url":"https://www.firstcitizens.com/about-us/timeline","title":"First Citizens Through the Years","publisher":"First Citizens Bank","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_foley_lardner","geographies":["United States"],
+    "services":["corporate counsel","intellectual property counsel","litigation","regulatory counsel","transactions","tax and benefits counsel"],
+    "industries":["Energy and Infrastructure","Healthcare and Life Sciences","Technology","Manufacturing","Consumer","Sports and Entertainment"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_foley_about_2026","url":"https://www.foley.com/about-us/","title":"About Foley & Lardner","publisher":"Foley & Lardner","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_foley_sectors_2026","url":"https://www.foley.com/sectors/","title":"Foley Sectors","publisher":"Foley & Lardner","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_insight_partners","founded_year":1995,"headquarters":"New York, New York, United States","geographies":["United States","New York","London","Singapore"],
+    "services":["venture and growth investing","private equity investing","portfolio operating support","talent support","go-to-market support","international expansion support"],
+    "industries":["Software","Artificial Intelligence","Cybersecurity","Fintech","Healthcare Technology","Enterprise Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_insight_about_2026","url":"https://www.insightpartners.com/about-us/","title":"About Insight Partners","publisher":"Insight Partners","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","services","industries"]},
+      {"id":"src_insight_onsite_2026","url":"https://www.insightpartners.com/onsite/","title":"Insight Onsite","publisher":"Insight Partners","source_class":"official company","accessed_date":"2026-08-11","supports":["services"]},
+      {"id":"src_insight_portfolio_2026","url":"https://www.insightpartners.com/portfolio/","title":"Insight Portfolio","publisher":"Insight Partners","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_plaid","geographies":["United States","New York","London"],
+    "products":["financial data connectivity","account verification","identity verification","payment initiation","transaction data","credit underwriting data","fraud prevention"],
+    "services":["open-finance connectivity","payments infrastructure","risk and identity infrastructure"],
+    "industries":["Fintech","Banking","Payments","Lending","Wealth Management"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_plaid_company_2026","url":"https://plaid.com/en-gb/company/","title":"About Plaid","publisher":"Plaid","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_plaid_products_2026","url":"https://plaid.com/products/","title":"Plaid Products","publisher":"Plaid","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_protiviti","geographies":["United States","New York","London","Singapore"],
+    "services":["internal audit","risk and compliance consulting","cybersecurity consulting","technology consulting","finance transformation","transaction services","data and analytics"],
+    "industries":["Financial Services","Healthcare","Technology","Manufacturing","Consumer","Government","Energy","Private Equity"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_protiviti_who_2026","url":"https://www.protiviti.com/us-en/who-we-are","title":"Who We Are","publisher":"Protiviti","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_protiviti_solutions_2026","url":"https://www.protiviti.com/us-en/solutions","title":"Protiviti Solutions","publisher":"Protiviti","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_servicenow","geographies":["United States","Silicon Valley","San Francisco Bay Area","London","Singapore"],
+    "products":["ServiceNow AI Platform","IT service management","customer service management","security operations","governance risk and compliance","human resources service delivery","creator workflows"],
+    "services":["enterprise workflow automation","AI agents","digital transformation platform"],
+    "industries":["Financial Services","Healthcare","Government","Manufacturing","Technology","Telecommunications","Retail"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_servicenow_company_2026","url":"https://www.servicenow.com/company.html","title":"About ServiceNow","publisher":"ServiceNow","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries","geographies"]},
+      {"id":"src_servicenow_products_2026","url":"https://www.servicenow.com/products-by-category.html","title":"ServiceNow Products by Category","publisher":"ServiceNow","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_altair_capital","geographies":["United States"],
+    "services":["early-stage venture investing","growth-stage investing","founder support","startup acceleration"],
+    "industries":["Software","Artificial Intelligence","SaaS","Fintech","Insurtech","Digital Health","Future of Work","HR Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_altair_portfolio_2026","url":"https://altair.vc/portfolio","title":"AltaIR Capital Portfolio","publisher":"AltaIR Capital","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","industries"]},
+      {"id":"src_altair_how_2026","url":"https://altair.vc/how","title":"How AltaIR Invests","publisher":"AltaIR Capital","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_axari_technologies_inc",
+    "products":["AI Chief of Staff","AI Workers","security and IT leadership platform"],
+    "services":["commitment tracking","executive briefs","program management","GRC support","security intelligence support"],
+    "industries":["Cybersecurity","Information Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_axari_terms_2026","url":"https://www.axari.ai/terms-of-service/","title":"Axari Terms of Service","publisher":"Axari Technologies, Inc.","source_class":"official company","published_date":"2025-07-22","accessed_date":"2026-08-11","supports":["products","services","industries"]},
+      {"id":"src_axari_privacy_2026","url":"https://www.axari.ai/privacy-policy/","title":"Axari Privacy Policy","publisher":"Axari Technologies, Inc.","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_capgemini","geographies":["United States","New York","London","Singapore"],
+    "services":["strategy and transformation consulting","technology services","engineering services","cloud and data services","AI services","cybersecurity services","managed operations"],
+    "industries":["Financial Services","Consumer Products","Energy","Healthcare","Life Sciences","Manufacturing","Public Sector","Technology and Telecommunications"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_capgemini_about_2026","url":"https://www.capgemini.com/about-us/","title":"About Capgemini","publisher":"Capgemini","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_capgemini_locations_2026","url":"https://www.capgemini.com/about-us/locations/","title":"Capgemini Locations","publisher":"Capgemini","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies"]}
+    ]
+  },
+  {
+    "entity_id":"ent_cognizant","founded_year":1994,"geographies":["United States","New York","London","Singapore"],
+    "services":["AI transformation","digital engineering","cloud services","data and analytics","enterprise application services","business process services"],
+    "industries":["Banking","Healthcare","Life Sciences","Insurance","Manufacturing","Media","Retail","Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_cognizant_about_2026","url":"https://www.cognizant.com/us/en/about-cognizant","title":"About Cognizant","publisher":"Cognizant","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","geographies","services","industries"]},
+      {"id":"src_cognizant_industries_2026","url":"https://www.cognizant.com/us/en/industries","title":"Cognizant Industries","publisher":"Cognizant","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_harden","products":["AI application security platform","AI firewall","egress controls","secrets management","tamper-evident audit logs"],
+    "services":["build-time security scanning","runtime security","AI governance","cost controls","vulnerability remediation"],
+    "industries":["Artificial Intelligence","Cybersecurity","Enterprise Software"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_harden_product_2026","url":"https://harden.run/","title":"Harden Security and Governance","publisher":"Harden","source_class":"official company","accessed_date":"2026-08-11","supports":["products","services","industries"]}]
+  },
+  {
+    "entity_id":"ent_microsoft","founded_year":1975,"headquarters":"Redmond, Washington, United States","geographies":["United States","Seattle","New York","London","Singapore"],
+    "products":["Microsoft 365","Azure","Dynamics 365","Microsoft Copilot","Windows","GitHub","Microsoft Security"],
+    "services":["cloud computing","enterprise software","AI platforms","cybersecurity","developer tools"],
+    "industries":["Technology","Financial Services","Healthcare","Manufacturing","Retail","Government","Education"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_microsoft_facts_2026","url":"https://news.microsoft.com/facts-about-microsoft/","title":"Facts About Microsoft","publisher":"Microsoft","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","products","services","industries"]},
+      {"id":"src_microsoft_locations_2026","url":"https://www.microsoft.com/en-us/about/office-locations","title":"Microsoft Office Locations","publisher":"Microsoft","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies"]}
+    ]
+  },
+  {
+    "entity_id":"ent_rsm_us","founded_year":1926,"headquarters":"Chicago, Illinois, United States","geographies":["United States","Chicago"],
+    "services":["audit","tax","consulting","risk advisory","technology consulting","transaction advisory","managed services"],
+    "industries":["Financial Services","Technology","Healthcare","Manufacturing","Consumer","Real Estate","Private Equity","Government"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_rsm_about_2026","url":"https://rsmus.com/about.html","title":"About RSM US","publisher":"RSM US","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","services","industries"]},
+      {"id":"src_rsm_locations_2026","url":"https://rsmus.com/locations.html","title":"RSM US Locations","publisher":"RSM US","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies"]}
+    ]
+  },
+  {
+    "entity_id":"ent_silicon_valley_bank","founded_year":1983,"headquarters":"Santa Clara, California, United States","geographies":["United States","Silicon Valley","San Francisco Bay Area"],
+    "services":["commercial banking","venture debt","fund banking","treasury management","private banking","foreign exchange","startup banking"],
+    "industries":["Technology","Life Sciences","Healthcare","Climate Technology","Venture Capital","Private Equity","Startups"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_svb_about_2026","url":"https://www.svb.com/about-svb/","title":"About Silicon Valley Bank","publisher":"Silicon Valley Bank","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]},
+      {"id":"src_svb_faq_2026","url":"https://www.svb.com/about-svb/svb-client-faqs/","title":"Silicon Valley Bank Client FAQs","publisher":"Silicon Valley Bank","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_slalom","founded_year":2001,"headquarters":"Seattle, Washington, United States","geographies":["United States","Seattle","London"],
+    "services":["business and technology consulting","strategy","cloud transformation","data and AI","customer experience","organizational transformation"],
+    "industries":["Financial Services","Healthcare","Life Sciences","Manufacturing","Public Sector","Retail","Technology","Media and Telecommunications"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_slalom_impact_2026","url":"https://www.slalom.com/content/dam/slalom/scom-site/us/home/who-we-are/environment-assets/environmental-impact-slalom-impact-report-2020-en-us.pdf","title":"Slalom Impact Report","publisher":"Slalom","source_class":"official company","published_date":"2020-01-01","accessed_date":"2026-08-11","supports":["founded_year","headquarters"]},
+      {"id":"src_slalom_locations_2026","url":"https://www.slalom.com/us/en/who-we-are/locations","title":"Slalom Locations","publisher":"Slalom","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies"]},
+      {"id":"src_slalom_industries_2026","url":"https://www.slalom.com/us/en/industries","title":"Slalom Industries","publisher":"Slalom","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries"]}
+    ]
+  },
+  {"entity_id":"ent_indian_hills_advisors","verification_status":"needs verification","last_verified":"2026-08-11"},
+  {
+    "entity_id":"ent_blackline","founded_year":2001,"headquarters":"Los Angeles, California, United States","geographies":["United States","Los Angeles","London"],
+    "industries":["Enterprise Finance","Accounting","Financial Services","Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_blackline_about_2026","url":"https://www.blackline.com/about/","title":"About BlackLine","publisher":"BlackLine","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries"]},
+      {"id":"src_blackline_platform_2026","url":"https://www.blackline.com/products/","title":"BlackLine Products","publisher":"BlackLine","source_class":"official company","accessed_date":"2026-08-11","supports":["products","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_pilot","founded_year":2017,"headquarters":"San Francisco, California, United States","geographies":["United States"],
+    "industries":["Startups","Healthcare and Medtech","Small Businesses","Professional Services","Consumer and Retail","Nonprofit"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_pilot_founding_2026","url":"https://pilot.com/blog/best-bookkeeping-service-pilot-founding-story","title":"Pilot's Founding Story","publisher":"Pilot","source_class":"official company","published_date":"2019-06-13","accessed_date":"2026-08-11","supports":["founded_year"]},
+      {"id":"src_pilot_about_2026","url":"https://pilot.com/about","title":"About Pilot","publisher":"Pilot","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies","services","industries"]},
+      {"id":"src_pilot_faq_2026","url":"https://pilot.com/faq","title":"Pilot Frequently Asked Questions","publisher":"Pilot","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_puzzle","geographies":["United States"],"industries":["Startups","Small and Midsize Businesses","Accounting Firms"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_puzzle_about_2026","url":"https://puzzle.io/about","title":"About Puzzle","publisher":"Puzzle","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","products","industries"]},
+      {"id":"src_puzzle_accounting_firms_2026","url":"https://puzzle.io/industries/accounting-firm","title":"Puzzle for Accounting Firms and Small Businesses","publisher":"Puzzle","source_class":"official company","accessed_date":"2026-08-11","supports":["industries","products"]}
+    ]
+  },
+  {
+    "entity_id":"ent_rillet","geographies":["United States"],"industries":["Enterprise Finance","Accounting","SaaS","Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_rillet_about_2026","url":"https://www.rillet.com/about","title":"About Rillet","publisher":"Rillet","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","products","industries"]},
+      {"id":"src_rillet_platform_2026","url":"https://www.rillet.com/platform/ai-accounting-software","title":"Rillet AI Accounting Software","publisher":"Rillet","source_class":"official company","accessed_date":"2026-08-11","supports":["products","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_tenet_security","geographies":["United States"],"industries":["Cybersecurity","Artificial Intelligence","Financial Services","Legal Services"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_tenet_about_2026","url":"https://tenetsecurity.ai/blog/tenet-wins-cybersecurity-excellence-awards/","title":"About Tenet Security","publisher":"Tenet Security","source_class":"official company","published_date":"2026-04-01","accessed_date":"2026-08-11","supports":["geographies","products","services","industries"]}
+    ]
+  },
+  {
+    "entity_id":"ent_bmo","founded_year":1817,"headquarters":"Toronto, Ontario, Canada","industries":["Banking","Financial Services","Technology","Healthcare","Real Estate","Energy","Consumer"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_bmo_about_2026","url":"https://www.bmo.com/en-us/main/about-us/index.html","title":"About BMO","publisher":"BMO","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_comerica","founded_year":1849,"headquarters":"Dallas, Texas, United States","industries":["Banking","Financial Services","Technology","Life Sciences","Real Estate","Energy","Small Business"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_comerica_overview_2026","url":"https://www.comerica.com/about-us/company-overview.html","title":"About Comerica","publisher":"Comerica","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_orrick","founded_year":1863,"headquarters":"San Francisco, California, United States","industries":["Technology","Energy and Infrastructure","Finance","Life Sciences and HealthTech"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_orrick_about_2026","url":"https://www.orrick.com/en/About-Us","title":"About Orrick","publisher":"Orrick","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_zrg","headquarters":"Rochelle Park, New Jersey, United States","geographies":["United States","New York","Boston","Austin","Los Angeles","Chicago","Washington DC","London","Singapore"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_zrg_locations_2026","url":"https://www.zrgpartners.com/about-us/global-locations","title":"ZRG Global Locations","publisher":"ZRG","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies"]},
+      {"id":"src_zrg_about_2026","url":"https://www.zrgpartners.com/about-us","title":"About ZRG","publisher":"ZRG","source_class":"official company","accessed_date":"2026-08-11","supports":["services","industries","geographies"]}
+    ]
+  },
+  {
+    "entity_id":"ent_15five","founded_year":2011,"geographies":["United States"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_15five_founding_2026","url":"https://www.15five.com/blog/15five-welcomes-david-hassell-back-as-ceo","title":"15Five Welcomes David Hassell Back as CEO","publisher":"15Five","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year"]},
+      {"id":"src_15five_about_2026","url":"https://www.15five.com/about","title":"About 15Five","publisher":"15Five","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","products","services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_airmdr","industries":["Cybersecurity","Small and Midsize Enterprises","Enterprise Technology"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_airmdr_about_2026","url":"https://airmdr.com/about-us","title":"About AirMDR","publisher":"AirMDR","source_class":"official company","accessed_date":"2026-08-11","supports":["industries","services","products"]}]
+  },
+  {
+    "entity_id":"ent_anrok","founded_year":2020,"geographies":["United States"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_anrok_founding_2026","url":"https://www.anrok.com/resources/physical-goods","title":"Anrok Expands to Physical Goods","publisher":"Anrok","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","geographies"]},
+      {"id":"src_anrok_about_2026","url":"https://www.anrok.com/about","title":"About Anrok","publisher":"Anrok","source_class":"official company","accessed_date":"2026-08-11","supports":["geographies","products","services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_association_for_corporate_growth","founded_year":1954,"geographies":["United States","London"],"industries":["Middle-Market M&A","Private Equity","Corporate Development","Financial Services","Professional Services"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_acg_profile_2026","url":"https://www.acg.org/about","title":"About ACG","publisher":"Association for Corporate Growth","source_class":"official organization","accessed_date":"2026-08-11","supports":["founded_year","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_centific","headquarters":"Redmond, Washington, United States","geographies":["United States","Seattle","Singapore"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_centific_locations_2026","url":"https://www.centific.com/company/locations","title":"Centific Locations","publisher":"Centific","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies","industries"]}]
+  },
+  {
+    "entity_id":"ent_citizens_private_bank","headquarters":"Providence, Rhode Island, United States","geographies":["United States"],"industries":["Private Banking","Wealth Management","Private Equity","Venture Capital","Innovation Economy"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_citizens_company_2026","url":"https://www.citizensbank.com/about-us/our-company/overview.aspx","title":"About Citizens Financial Group","publisher":"Citizens","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_coupa","headquarters":"San Mateo, California, United States","geographies":["United States","San Francisco Bay Area","London","Singapore"],"industries":["Enterprise Technology","Financial Services","Consumer Products","Healthcare","Manufacturing","Retail","Public Sector"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_coupa_operations_2026","url":"https://get.coupa.com/rs/950-OLU-185/images/2023_ESG-Report.pdf","title":"Coupa 2023 ESG Report","publisher":"Coupa","source_class":"official company","published_date":"2023-01-01","accessed_date":"2026-08-11","supports":["headquarters","geographies","industries"]}]
+  },
+  {
+    "entity_id":"ent_deel","founded_year":2019,"geographies":["United States"],"industries":["Technology","Fintech","Gaming","Marketing and Advertising","Business Process Outsourcing","Energy"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_deel_about_2026","url":"https://www.deel.com/about/","title":"About Deel","publisher":"Deel","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","geographies","industries","products","services"]}]
+  },
+  {
+    "entity_id":"ent_deutsche_bank","founded_year":1870,"headquarters":"Frankfurt am Main, Germany","geographies":["United States","New York","London","Singapore"],"industries":["Banking","Capital Markets","Asset Management","Wealth Management","Corporate Finance"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_db_about_2026","url":"https://www.db.com/who-we-are/index?language_id=1","title":"About Deutsche Bank","publisher":"Deutsche Bank","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_findem","industries":["Human Resources","Talent Acquisition","Enterprise Technology"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_findem_about_2026","url":"https://www.findem.ai/about-us","title":"About Findem","publisher":"Findem","source_class":"official company","accessed_date":"2026-08-11","supports":["industries","products","services"]}]
+  },
+  {
+    "entity_id":"ent_glean","headquarters":"San Francisco, California, United States","geographies":["United States","San Francisco Bay Area","Silicon Valley"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_glean_about_2026","url":"https://www.glean.com/about","title":"About Glean","publisher":"Glean","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies","products","services"]}]
+  },
+  {
+    "entity_id":"ent_insperity","founded_year":1986,"headquarters":"Kingwood, Texas, United States","geographies":["United States"],"industries":["Financial Services","Manufacturing","Professional Services","Technology","Healthcare","Nonprofit"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_insperity_about_2026","url":"https://www.insperity.com/about-us/","title":"About Insperity","publisher":"Insperity","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_lattice","headquarters":"San Francisco, California, United States","geographies":["United States","San Francisco Bay Area","London"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_lattice_about_2026","url":"https://lattice.com/about","title":"About Lattice","publisher":"Lattice","source_class":"official company","accessed_date":"2026-08-11","supports":["headquarters","geographies","products","services"]}]
+  },
+  {
+    "entity_id":"ent_morgan_stanley","founded_year":1935,"headquarters":"New York, New York, United States","geographies":["United States","New York","London","Singapore"],"industries":["Financial Services","Investment Banking","Wealth Management","Investment Management","Capital Markets"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_morgan_about_2026","url":"https://www.morganstanley.com/about-us","title":"About Morgan Stanley","publisher":"Morgan Stanley","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_pitchbook","founded_year":2007,"headquarters":"Seattle, Washington, United States","geographies":["United States","Seattle","San Francisco Bay Area","New York","London"],"industries":["Private Equity","Venture Capital","Mergers and Acquisitions","Private Credit","Capital Markets"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_pitchbook_global_2026","url":"https://pitchbook.com/media/press-releases/pitchbook-expands-four-global-offices-to-support-rapid-growth","title":"PitchBook Expands Four Global Offices","publisher":"PitchBook","source_class":"official company","published_date":"2019-12-05","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies"]},
+      {"id":"src_pitchbook_about_2026","url":"https://pitchbook.com/about","title":"About PitchBook","publisher":"PitchBook","source_class":"official company","accessed_date":"2026-08-11","supports":["industries","products","services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_stifel","founded_year":1890,"headquarters":"St. Louis, Missouri, United States","geographies":["United States","New York","London"],"industries":["Investment Banking","Wealth Management","Capital Markets","Financial Services"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_stifel_history_2026","url":"https://www.stifel.com/newsletters/adgraphics/pdf/sf/Stifel-History-Vertical.pdf","title":"Stifel History","publisher":"Stifel","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","headquarters","geographies","industries","services"]}]
+  },
+  {
+    "entity_id":"ent_tesorio","founded_year":2015,"industries":["Enterprise Finance","Accounts Receivable","Technology"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_tesorio_about_2026","url":"https://www.tesorio.com/about","title":"About Tesorio","publisher":"Tesorio","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","industries","products","services"]}]
+  },
+  {
+    "entity_id":"ent_trinet","founded_year":1988,"geographies":["United States"],"industries":["Small and Midsize Businesses","Technology","Financial Services","Life Sciences","Professional Services","Nonprofit"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_trinet_about_2026","url":"https://www.trinet.com/about-us","title":"About TriNet","publisher":"TriNet","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","geographies","industries","products","services"]}]
+  },
+  {
+    "entity_id":"ent_vic_ai","founded_year":2017,"industries":["Enterprise Finance","Accounting","Technology"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_vic_founding_2026","url":"https://www.vic.ai/blog/vicai-the-future-of-accounting","title":"Vic.ai Is Defining the Future of Accounting","publisher":"Vic.ai","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year"]},
+      {"id":"src_vic_about_2026","url":"https://www.vic.ai/about-us","title":"About Vic.ai","publisher":"Vic.ai","source_class":"official company","accessed_date":"2026-08-11","supports":["industries","products","services"]}
+    ]
+  },
+  {
+    "entity_id":"ent_you_com","founded_year":2020,"industries":["Artificial Intelligence","Enterprise Technology","Search Infrastructure"],"last_verified":"2026-08-11",
+    "sources":[{"id":"src_you_about_2026","url":"https://you.com/about","title":"About You.com","publisher":"You.com","source_class":"official company","accessed_date":"2026-08-11","supports":["founded_year","industries","products","services"]}]
+  },
+  {
+    "entity_id":"ent_young_entrepreneur_council","geographies":["United States"],"industries":["Entrepreneurship","Cross-industry"],"last_verified":"2026-08-11",
+    "sources":[
+      {"id":"src_yec_geography_2026","url":"https://yec.co/blog/yec-report-where-are-entrepreneurs-founding-new-companies/","title":"Where Are Entrepreneurs Founding New Companies?","publisher":"YEC","source_class":"official organization","accessed_date":"2026-08-11","supports":["geographies"]},
+      {"id":"src_yec_membership_2026","url":"https://yec.co/membership","title":"YEC Membership","publisher":"YEC","source_class":"official organization","accessed_date":"2026-08-11","supports":["industries","services","programs"]}
+    ]
+  }
+]

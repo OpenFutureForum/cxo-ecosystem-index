@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "silicon-valley-cxo-ecosystem",
   "entity_ids": [
@@ -30,7 +30,16 @@
     "ent_thoma_bravo",
     "ent_workday",
     "ent_palo_alto_networks",
+    "ent_silicon_valley_bank",
+    "ent_orrick",
+    "ent_lattice",
+    "ent_coupa",
     "ent_brex",
+    "ent_pilot",
+    "ent_carta",
+    "ent_glean",
+    "ent_servicenow",
+    "ent_pitchbook",
     "ent_agentic_fabriq"
   ],
   "entities": [
@@ -4902,6 +4911,1884 @@
       ]
     },
     {
+      "id": "ent_silicon_valley_bank",
+      "name": "Silicon Valley Bank",
+      "slug": "silicon-valley-bank",
+      "entity_type": "Organization",
+      "description": "Silicon Valley Bank provides commercial banking and financial services to companies and investors in innovation markets.",
+      "website": "https://www.svb.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Banks"
+      ],
+      "industries": [
+        "Technology",
+        "Life Sciences",
+        "Healthcare",
+        "Climate Technology",
+        "Venture Capital",
+        "Private Equity",
+        "Startups"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area"
+      ],
+      "aliases": [
+        "SVB"
+      ],
+      "parent_company": "First Citizens Bank",
+      "relationship_notes": "SVB operates as a division of First Citizens Bank following the 2023 acquisition.",
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-svb-current-brand-2026",
+          "field": "current_display_name",
+          "value": "Silicon Valley Bank",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
+          "id": "fact-svb-future-rebrand",
+          "field": "announced_future_name",
+          "value": "First Citizens Innovation Banking and First Citizens Fund Banking",
+          "valid_from": "2026-10-01",
+          "as_of_date": "2026-04-23",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_svb_rebrand_announcement"
+          ]
+        },
+        {
+          "id": "fact_silicon-valley-bank_identity_silicon-valley-bank",
+          "field": "identity",
+          "value": "Silicon Valley Bank",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_description_silicon-valley-bank-provides-commercial-banking-",
+          "field": "description",
+          "value": "Silicon Valley Bank provides commercial banking and financial services to companies and investors in innovation markets.",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_website_https-www-svb-com",
+          "field": "website",
+          "value": "https://www.svb.com/",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_categories_banks",
+          "field": "categories",
+          "value": "Banks",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_aliases_svb",
+          "field": "aliases",
+          "value": "SVB",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_parent-company_first-citizens-bank",
+          "field": "parent_company",
+          "value": "First Citizens Bank",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_relationship-notes_svb-operates-as-a-division-of-first-citizens-ban",
+          "field": "relationship_notes",
+          "value": "SVB operates as a division of First Citizens Bank following the 2023 acquisition.",
+          "source_ids": [
+            "src_silicon-valley-bank_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_commercial-banking",
+          "field": "services",
+          "value": "commercial banking",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_venture-debt",
+          "field": "services",
+          "value": "venture debt",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_fund-banking",
+          "field": "services",
+          "value": "fund banking",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_treasury-management",
+          "field": "services",
+          "value": "treasury management",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_private-banking",
+          "field": "services",
+          "value": "private banking",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_foreign-exchange",
+          "field": "services",
+          "value": "foreign exchange",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_services_startup-banking",
+          "field": "services",
+          "value": "startup banking",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_climate-technology",
+          "field": "industries",
+          "value": "Climate Technology",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_venture-capital",
+          "field": "industries",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_private-equity",
+          "field": "industries",
+          "value": "Private Equity",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_industries_startups",
+          "field": "industries",
+          "value": "Startups",
+          "source_ids": [
+            "src_svb_about_2026",
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_founded-year_1983",
+          "field": "founded_year",
+          "value": 1983,
+          "source_ids": [
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_silicon-valley-bank_headquarters_santa-clara-california-united-states",
+          "field": "headquarters",
+          "value": "Santa Clara, California, United States",
+          "source_ids": [
+            "src_svb_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Silicon Valley Bank is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_silicon-valley-bank_official",
+          "url": "https://www.svb.com/",
+          "title": "Silicon Valley Bank official website",
+          "publisher": "Silicon Valley Bank",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles",
+            "aliases",
+            "parent_company",
+            "relationship_notes"
+          ]
+        },
+        {
+          "id": "src_svb_rebrand_announcement",
+          "url": "https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026",
+          "title": "First Citizens Bank to Align Brand Names in Q4 2026",
+          "publisher": "First Citizens Bank",
+          "source_class": "official company",
+          "published_date": "2026-04-23",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "current_display_name",
+            "announced_future_name"
+          ]
+        },
+        {
+          "id": "src_svb_about_2026",
+          "url": "https://www.svb.com/about-svb/",
+          "title": "About Silicon Valley Bank",
+          "publisher": "Silicon Valley Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_svb_faq_2026",
+          "url": "https://www.svb.com/about-svb/svb-client-faqs/",
+          "title": "Silicon Valley Bank Client FAQs",
+          "publisher": "Silicon Valley Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 1983,
+      "headquarters": "Santa Clara, California, United States",
+      "services": [
+        "commercial banking",
+        "venture debt",
+        "fund banking",
+        "treasury management",
+        "private banking",
+        "foreign exchange",
+        "startup banking"
+      ],
+      "products": [],
+      "primary_category": "Banks",
+      "secondary_categories": [],
+      "provider_types": [
+        "banks"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "capital-formation",
+        "fundraising",
+        "decision-support"
+      ],
+      "topics": [
+        "venture-capital",
+        "private-equity",
+        "capital-strategy",
+        "private-markets"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors",
+        "general-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.svb.com/about-svb/",
+          "title": "About Silicon Valley Bank",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_orrick",
+      "name": "Orrick",
+      "slug": "orrick",
+      "entity_type": "Organization",
+      "description": "Orrick is a law firm advising technology, energy, infrastructure and finance clients.",
+      "website": "https://www.orrick.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO",
+        "General Counsel"
+      ],
+      "categories": [
+        "Law Firms"
+      ],
+      "industries": [
+        "Technology",
+        "Energy and Infrastructure",
+        "Finance",
+        "Life Sciences and HealthTech"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-orrick-tech-companies-2026",
+          "field": "technology_companies_advised",
+          "value": 5000,
+          "qualifier": "nearly",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-unicorns-2026",
+          "field": "unicorn_companies_advised",
+          "value": 100,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-investors-2026",
+          "field": "investors_advised",
+          "value": 400,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-vc-value-2023-2025",
+          "field": "venture_financing_value",
+          "value": 157000000000,
+          "currency": "USD",
+          "period_start": "2023-01-01",
+          "period_end": "2025-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-vc-count-2023-2025",
+          "field": "venture_financing_count",
+          "value": 3000,
+          "qualifier": "approximately",
+          "period_start": "2023-01-01",
+          "period_end": "2025-12-31",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-tech-lawyers-2026",
+          "field": "technology_company_lawyers",
+          "value": 150,
+          "operator": ">",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-markets-2026",
+          "field": "technology_markets",
+          "value": 20,
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact-orrick-countries-2026",
+          "field": "countries_of_client_activity",
+          "value": 70,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ]
+        },
+        {
+          "id": "fact_orrick_identity_orrick",
+          "field": "identity",
+          "value": "Orrick",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_description_orrick-is-a-law-firm-advising-technology-energy-",
+          "field": "description",
+          "value": "Orrick is a law firm advising technology, energy, infrastructure and finance clients.",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_website_https-www-orrick-com",
+          "field": "website",
+          "value": "https://www.orrick.com/",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_categories_law-firms",
+          "field": "categories",
+          "value": "Law Firms",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_cxo-roles_general-counsel",
+          "field": "cxo_roles",
+          "value": "General Counsel",
+          "source_ids": [
+            "src_orrick_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_technology-company-counsel",
+          "field": "services",
+          "value": "technology-company counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_venture-financing-counsel",
+          "field": "services",
+          "value": "venture financing counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_intellectual-property-counsel",
+          "field": "services",
+          "value": "intellectual-property counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_talent-counsel",
+          "field": "services",
+          "value": "talent counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_data-privacy-counsel",
+          "field": "services",
+          "value": "data-privacy counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_public-policy-counsel",
+          "field": "services",
+          "value": "public-policy counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_corporate-governance-counsel",
+          "field": "services",
+          "value": "corporate-governance counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_services_mergers-and-acquisitions-counsel",
+          "field": "services",
+          "value": "mergers and acquisitions counsel",
+          "source_ids": [
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_company-formation",
+          "field": "capabilities",
+          "value": "company formation",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_venture-financing",
+          "field": "capabilities",
+          "value": "venture financing",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_capital-markets",
+          "field": "capabilities",
+          "value": "capital markets",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_corporate-governance",
+          "field": "capabilities",
+          "value": "corporate governance",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_mergers-and-acquisitions",
+          "field": "capabilities",
+          "value": "mergers and acquisitions",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_intellectual-property",
+          "field": "capabilities",
+          "value": "intellectual property",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_technology-transactions",
+          "field": "capabilities",
+          "value": "technology transactions",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_employment-and-executive-compensation",
+          "field": "capabilities",
+          "value": "employment and executive compensation",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_data-privacy",
+          "field": "capabilities",
+          "value": "data privacy",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_cybersecurity",
+          "field": "capabilities",
+          "value": "cybersecurity",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_public-policy",
+          "field": "capabilities",
+          "value": "public policy",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_artificial-intelligence",
+          "field": "capabilities",
+          "value": "artificial intelligence",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_fintech",
+          "field": "capabilities",
+          "value": "fintech",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_healthtech",
+          "field": "capabilities",
+          "value": "healthtech",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_consumer-technology",
+          "field": "capabilities",
+          "value": "consumer technology",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_enterprise-software",
+          "field": "capabilities",
+          "value": "enterprise software",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_mobility",
+          "field": "capabilities",
+          "value": "mobility",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_capabilities_energy-technology",
+          "field": "capabilities",
+          "value": "energy technology",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_united-states",
+          "field": "operating_geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_europe",
+          "field": "operating_geographies",
+          "value": "Europe",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_asia",
+          "field": "operating_geographies",
+          "value": "Asia",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_africa",
+          "field": "operating_geographies",
+          "value": "Africa",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_latin-america",
+          "field": "operating_geographies",
+          "value": "Latin America",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_operating-geographies_middle-east",
+          "field": "operating_geographies",
+          "value": "Middle East",
+          "source_ids": [
+            "src_orrick_technology_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_founded-year_1863",
+          "field": "founded_year",
+          "value": 1863,
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_energy-and-infrastructure",
+          "field": "industries",
+          "value": "Energy and Infrastructure",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_finance",
+          "field": "industries",
+          "value": "Finance",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_life-sciences-and-healthtech",
+          "field": "industries",
+          "value": "Life Sciences and HealthTech",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Orrick is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_orrick_official",
+          "url": "https://www.orrick.com/",
+          "title": "Orrick official website",
+          "publisher": "Orrick",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_orrick_technology_2026",
+          "url": "https://www.orrick.com/en/Practices/Technology-Companies-Group",
+          "title": "Technology Companies Group",
+          "publisher": "Orrick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "capabilities",
+            "operating_geographies",
+            "technology_companies_advised",
+            "unicorn_companies_advised",
+            "investors_advised",
+            "venture_financing_value",
+            "venture_financing_count",
+            "technology_company_lawyers",
+            "technology_markets",
+            "countries_of_client_activity"
+          ]
+        },
+        {
+          "id": "src_orrick_about_2026",
+          "url": "https://www.orrick.com/en/About-Us",
+          "title": "About Orrick",
+          "publisher": "Orrick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "industries",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "technology-company counsel",
+        "venture financing counsel",
+        "intellectual-property counsel",
+        "talent counsel",
+        "data-privacy counsel",
+        "public-policy counsel",
+        "corporate-governance counsel",
+        "mergers and acquisitions counsel"
+      ],
+      "capabilities": [
+        "company formation",
+        "venture financing",
+        "capital markets",
+        "corporate governance",
+        "mergers and acquisitions",
+        "intellectual property",
+        "technology transactions",
+        "employment and executive compensation",
+        "data privacy",
+        "cybersecurity",
+        "public policy",
+        "artificial intelligence",
+        "fintech",
+        "healthtech",
+        "consumer technology",
+        "enterprise software",
+        "mobility",
+        "energy technology"
+      ],
+      "operating_geographies": [
+        "United States",
+        "Europe",
+        "Asia",
+        "Africa",
+        "Latin America",
+        "Middle East"
+      ],
+      "founded_year": 1863,
+      "headquarters": "San Francisco, California, United States",
+      "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
+      "provider_types": [
+        "law-firms"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "decision-support",
+        "fundraising"
+      ],
+      "topics": [
+        "corporate-governance",
+        "dealmaking",
+        "risk",
+        "venture-capital"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.orrick.com/en/About-Us",
+          "title": "About Orrick",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_lattice",
+      "name": "Lattice",
+      "slug": "lattice",
+      "entity_type": "Organization",
+      "description": "Lattice provides performance-management, employee-engagement and people-management software.",
+      "website": "https://lattice.com/",
+      "cxo_roles": [
+        "CHRO"
+      ],
+      "categories": [
+        "HR Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "London"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_lattice_identity_lattice",
+          "field": "identity",
+          "value": "Lattice",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_description_lattice-provides-performance-management-employee",
+          "field": "description",
+          "value": "Lattice provides performance-management, employee-engagement and people-management software.",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_website_https-lattice-com",
+          "field": "website",
+          "value": "https://lattice.com/",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_categories_hr-technology",
+          "field": "categories",
+          "value": "HR Technology",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_cxo-roles_chro",
+          "field": "cxo_roles",
+          "value": "CHRO",
+          "source_ids": [
+            "src_lattice_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_performance-management",
+          "field": "products",
+          "value": "performance management",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_employee-engagement",
+          "field": "products",
+          "value": "employee engagement",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_people-analytics",
+          "field": "products",
+          "value": "people analytics",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_compensation-management",
+          "field": "products",
+          "value": "compensation management",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_objectives-and-key-results",
+          "field": "products",
+          "value": "objectives and key results",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_products_employee-growth-tools",
+          "field": "products",
+          "value": "employee growth tools",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_people-management-platform",
+          "field": "services",
+          "value": "people management platform",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_performance-reviews",
+          "field": "services",
+          "value": "performance reviews",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_services_engagement-surveys",
+          "field": "services",
+          "value": "engagement surveys",
+          "source_ids": [
+            "src_lattice_platform_2026",
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Lattice is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_lattice_official",
+          "url": "https://lattice.com/",
+          "title": "Lattice official website",
+          "publisher": "Lattice",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_lattice_platform_2026",
+          "url": "https://lattice.com/platform",
+          "title": "Lattice People Platform",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_lattice_performance_2026",
+          "url": "https://lattice.com/platform/performance",
+          "title": "Lattice Performance Management",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_lattice_about_2026",
+          "url": "https://lattice.com/about",
+          "title": "About Lattice",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "performance management",
+        "employee engagement",
+        "people analytics",
+        "compensation management",
+        "objectives and key results",
+        "employee growth tools"
+      ],
+      "services": [
+        "people management platform",
+        "performance reviews",
+        "engagement surveys"
+      ],
+      "headquarters": "San Francisco, California, United States",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
+      "provider_types": [
+        "hr-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "professional-development"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://lattice.com/about",
+          "title": "About Lattice",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_coupa",
+      "name": "Coupa",
+      "slug": "coupa",
+      "entity_type": "Organization",
+      "description": "Coupa provides spend-management, procurement, invoicing, expense and supply-chain software.",
+      "website": "https://www.coupa.com/",
+      "cxo_roles": [
+        "CFO",
+        "COO"
+      ],
+      "categories": [
+        "CFO Technology",
+        "Spend Management",
+        "Enterprise Technology"
+      ],
+      "industries": [
+        "Enterprise Technology",
+        "Financial Services",
+        "Consumer Products",
+        "Healthcare",
+        "Manufacturing",
+        "Retail",
+        "Public Sector"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_coupa_identity_coupa",
+          "field": "identity",
+          "value": "Coupa",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_description_coupa-provides-spend-management-procurement-invo",
+          "field": "description",
+          "value": "Coupa provides spend-management, procurement, invoicing, expense and supply-chain software.",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_website_https-www-coupa-com",
+          "field": "website",
+          "value": "https://www.coupa.com/",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_spend-management",
+          "field": "categories",
+          "value": "Spend Management",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_coupa_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_business-spend-management-platform",
+          "field": "products",
+          "value": "business spend management platform",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_procurement",
+          "field": "products",
+          "value": "procurement",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_invoicing",
+          "field": "products",
+          "value": "invoicing",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_expense-management",
+          "field": "products",
+          "value": "expense management",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_payments",
+          "field": "products",
+          "value": "payments",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_supply-chain-design-and-planning",
+          "field": "products",
+          "value": "supply chain design and planning",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_products_spend-analysis",
+          "field": "products",
+          "value": "spend analysis",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_services_source-to-pay-automation",
+          "field": "services",
+          "value": "source-to-pay automation",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_services_procure-to-pay-automation",
+          "field": "services",
+          "value": "procure-to-pay automation",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_services_supplier-management",
+          "field": "services",
+          "value": "supplier management",
+          "source_ids": [
+            "src_coupa_platform_2026",
+            "src_coupa_procurement_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_headquarters_san-mateo-california-united-states",
+          "field": "headquarters",
+          "value": "San Mateo, California, United States",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_consumer-products",
+          "field": "industries",
+          "value": "Consumer Products",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_coupa_industries_public-sector",
+          "field": "industries",
+          "value": "Public Sector",
+          "source_ids": [
+            "src_coupa_operations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Coupa is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_coupa_official",
+          "url": "https://www.coupa.com/",
+          "title": "Coupa official website",
+          "publisher": "Coupa",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_coupa_platform_2026",
+          "url": "https://www.coupa.com/products/total-spend-management-platform",
+          "title": "Total Spend Management Platform",
+          "publisher": "Coupa",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_coupa_procurement_2026",
+          "url": "https://www.coupa.com/products/procurement",
+          "title": "Coupa Procurement",
+          "publisher": "Coupa",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_coupa_operations_2026",
+          "url": "https://get.coupa.com/rs/950-OLU-185/images/2023_ESG-Report.pdf",
+          "title": "Coupa 2023 ESG Report",
+          "publisher": "Coupa",
+          "source_class": "official company",
+          "published_date": "2023-01-01",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "business spend management platform",
+        "procurement",
+        "invoicing",
+        "expense management",
+        "payments",
+        "supply chain design and planning",
+        "spend analysis"
+      ],
+      "services": [
+        "source-to-pay automation",
+        "procure-to-pay automation",
+        "supplier management"
+      ],
+      "headquarters": "San Mateo, California, United States",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "cfo-technology",
+        "spend-management",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "operational-excellence",
+        "transformation",
+        "decision-support"
+      ],
+      "topics": [
+        "finance-transformation",
+        "corporate-strategy"
+      ],
+      "audiences": [],
+      "classification_evidence": [
+        {
+          "url": "https://www.coupa.com/products/total-spend-management-platform",
+          "title": "Coupa Total Spend Management Platform",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ent_brex",
       "name": "Brex",
       "slug": "brex",
@@ -5454,6 +7341,2272 @@
       "topics": [],
       "audiences": [],
       "classification_evidence": []
+    },
+    {
+      "id": "ent_pilot",
+      "name": "Pilot",
+      "slug": "pilot",
+      "entity_type": "Organization",
+      "description": "Pilot provides bookkeeping, tax and finance services for startups and small businesses.",
+      "website": "https://pilot.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Accounting",
+        "Finance Advisory",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Startups",
+        "Healthcare and Medtech",
+        "Small Businesses",
+        "Professional Services",
+        "Consumer and Retail",
+        "Nonprofit"
+      ],
+      "geographies": [
+        "United States"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact-pilot-customers-2026",
+          "field": "customer_count",
+          "value": 3000,
+          "operator": ">=",
+          "as_of_date": "2026-08-11",
+          "last_verified": "2026-08-11",
+          "verification_status": "verified",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ]
+        },
+        {
+          "id": "fact_pilot_identity_pilot",
+          "field": "identity",
+          "value": "Pilot",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_description_pilot-provides-bookkeeping-tax-and-finance-servi",
+          "field": "description",
+          "value": "Pilot provides bookkeeping, tax and finance services for startups and small businesses.",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_website_https-pilot-com",
+          "field": "website",
+          "value": "https://pilot.com/",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_accounting",
+          "field": "categories",
+          "value": "Accounting",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_finance-advisory",
+          "field": "categories",
+          "value": "Finance Advisory",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pilot_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_bookkeeping",
+          "field": "services",
+          "value": "bookkeeping",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_tax-preparation",
+          "field": "services",
+          "value": "tax preparation",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_tax-compliance",
+          "field": "services",
+          "value": "tax compliance",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_cfo-advisory",
+          "field": "services",
+          "value": "CFO advisory",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_coo-advisory",
+          "field": "services",
+          "value": "COO advisory",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_financial-modeling",
+          "field": "services",
+          "value": "financial modeling",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_cash-flow-planning",
+          "field": "services",
+          "value": "cash-flow planning",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_fundraising-support",
+          "field": "services",
+          "value": "fundraising support",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_valuation-support",
+          "field": "services",
+          "value": "valuation support",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_services_international-expansion-support",
+          "field": "services",
+          "value": "international-expansion support",
+          "source_ids": [
+            "src_pilot_home_2026",
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_intelligent-financial-dashboards",
+          "field": "capabilities",
+          "value": "intelligent financial dashboards",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_real-time-expense-tracking",
+          "field": "capabilities",
+          "value": "real-time expense tracking",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_cash-flow-scenario-modeling",
+          "field": "capabilities",
+          "value": "cash-flow scenario modeling",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_irs-ready-books",
+          "field": "capabilities",
+          "value": "IRS-ready books",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_accrual-accounting",
+          "field": "capabilities",
+          "value": "accrual accounting",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_kpi-dashboards",
+          "field": "capabilities",
+          "value": "KPI dashboards",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_financial-projections",
+          "field": "capabilities",
+          "value": "financial projections",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_data-room-preparation",
+          "field": "capabilities",
+          "value": "data-room preparation",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_cost-analysis",
+          "field": "capabilities",
+          "value": "cost analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_profitability-analysis",
+          "field": "capabilities",
+          "value": "profitability analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_hiring-affordability-analysis",
+          "field": "capabilities",
+          "value": "hiring affordability analysis",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_exit-readiness-planning",
+          "field": "capabilities",
+          "value": "exit-readiness planning",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_strategic-finance-guidance",
+          "field": "capabilities",
+          "value": "strategic finance guidance",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_capabilities_us-based-advisory-team",
+          "field": "capabilities",
+          "value": "US-based advisory team",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_startups",
+          "field": "customer_segments",
+          "value": "startups",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_small-businesses",
+          "field": "customer_segments",
+          "value": "small businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_growth-stage-businesses",
+          "field": "customer_segments",
+          "value": "growth-stage businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_venture-backed-companies",
+          "field": "customer_segments",
+          "value": "venture-backed companies",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_customer-segments_founder-led-businesses",
+          "field": "customer_segments",
+          "value": "founder-led businesses",
+          "source_ids": [
+            "src_pilot_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_founded-year_2017",
+          "field": "founded_year",
+          "value": 2017,
+          "source_ids": [
+            "src_pilot_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_pilot_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_startups",
+          "field": "industries",
+          "value": "Startups",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_healthcare-and-medtech",
+          "field": "industries",
+          "value": "Healthcare and Medtech",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_small-businesses",
+          "field": "industries",
+          "value": "Small Businesses",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_consumer-and-retail",
+          "field": "industries",
+          "value": "Consumer and Retail",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pilot_industries_nonprofit",
+          "field": "industries",
+          "value": "Nonprofit",
+          "source_ids": [
+            "src_pilot_about_2026",
+            "src_pilot_faq_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Pilot is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pilot_official",
+          "url": "https://pilot.com/",
+          "title": "Pilot official website",
+          "publisher": "Pilot",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_pilot_home_2026",
+          "url": "https://pilot.com/",
+          "title": "Pilot Bookkeeping, Tax and Advisory",
+          "publisher": "Pilot",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "capabilities",
+            "customer_segments",
+            "customer_count"
+          ]
+        },
+        {
+          "id": "src_pilot_founding_2026",
+          "url": "https://pilot.com/blog/best-bookkeeping-service-pilot-founding-story",
+          "title": "Pilot's Founding Story",
+          "publisher": "Pilot",
+          "source_class": "official company",
+          "published_date": "2019-06-13",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year"
+          ]
+        },
+        {
+          "id": "src_pilot_about_2026",
+          "url": "https://pilot.com/about",
+          "title": "About Pilot",
+          "publisher": "Pilot",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_pilot_faq_2026",
+          "url": "https://pilot.com/faq",
+          "title": "Pilot Frequently Asked Questions",
+          "publisher": "Pilot",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "services": [
+        "bookkeeping",
+        "tax preparation",
+        "tax compliance",
+        "CFO advisory",
+        "COO advisory",
+        "financial modeling",
+        "cash-flow planning",
+        "fundraising support",
+        "valuation support",
+        "international-expansion support"
+      ],
+      "capabilities": [
+        "intelligent financial dashboards",
+        "real-time expense tracking",
+        "cash-flow scenario modeling",
+        "IRS-ready books",
+        "accrual accounting",
+        "KPI dashboards",
+        "financial projections",
+        "data-room preparation",
+        "cost analysis",
+        "profitability analysis",
+        "hiring affordability analysis",
+        "exit-readiness planning",
+        "strategic finance guidance",
+        "US-based advisory team"
+      ],
+      "customer_segments": [
+        "startups",
+        "small businesses",
+        "growth-stage businesses",
+        "venture-backed companies",
+        "founder-led businesses"
+      ],
+      "founded_year": 2017,
+      "headquarters": "San Francisco, California, United States",
+      "products": [],
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "accounting",
+        "finance-advisory",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "operational-excellence",
+        "fundraising",
+        "business-growth"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa",
+        "fundraising"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://pilot.com/about",
+          "title": "About Pilot",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_carta",
+      "name": "Carta",
+      "slug": "carta",
+      "entity_type": "Organization",
+      "description": "Carta provides cap-table, equity-management, valuation and private-market administration software.",
+      "website": "https://carta.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO",
+        "CLO"
+      ],
+      "categories": [
+        "Equity Management",
+        "Private Market Infrastructure",
+        "CFO Technology"
+      ],
+      "industries": [
+        "Private Markets",
+        "Venture Capital",
+        "Private Equity",
+        "Startups"
+      ],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_carta_identity_carta",
+          "field": "identity",
+          "value": "Carta",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_description_carta-provides-cap-table-equity-management-valua",
+          "field": "description",
+          "value": "Carta provides cap-table, equity-management, valuation and private-market administration software.",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_website_https-carta-com",
+          "field": "website",
+          "value": "https://carta.com/",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_equity-management",
+          "field": "categories",
+          "value": "Equity Management",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_private-market-infrastructure",
+          "field": "categories",
+          "value": "Private Market Infrastructure",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_categories_cfo-technology",
+          "field": "categories",
+          "value": "CFO Technology",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_cxo-roles_clo",
+          "field": "cxo_roles",
+          "value": "CLO",
+          "source_ids": [
+            "src_carta_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_founded-year_2012",
+          "field": "founded_year",
+          "value": 2012,
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_carta_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_industries_private-markets",
+          "field": "industries",
+          "value": "Private Markets",
+          "source_ids": [
+            "src_carta_about_2026",
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_industries_venture-capital",
+          "field": "industries",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_carta_about_2026",
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_industries_private-equity",
+          "field": "industries",
+          "value": "Private Equity",
+          "source_ids": [
+            "src_carta_about_2026",
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_industries_startups",
+          "field": "industries",
+          "value": "Startups",
+          "source_ids": [
+            "src_carta_about_2026",
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_cap-table-management",
+          "field": "products",
+          "value": "cap table management",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_equity-management",
+          "field": "products",
+          "value": "equity management",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_fund-administration",
+          "field": "products",
+          "value": "fund administration",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_portfolio-management",
+          "field": "products",
+          "value": "portfolio management",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_valuations",
+          "field": "products",
+          "value": "valuations",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_products_compensation-benchmarking",
+          "field": "products",
+          "value": "compensation benchmarking",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_services_private-market-infrastructure",
+          "field": "services",
+          "value": "private-market infrastructure",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_services_fund-administration",
+          "field": "services",
+          "value": "fund administration",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_carta_services_equity-plan-administration",
+          "field": "services",
+          "value": "equity plan administration",
+          "source_ids": [
+            "src_carta_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Carta is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_carta_official",
+          "url": "https://carta.com/",
+          "title": "Carta official website",
+          "publisher": "Carta",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_carta_about_2026",
+          "url": "https://carta.com/about/",
+          "title": "About Carta",
+          "publisher": "Carta",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_carta_products_2026",
+          "url": "https://carta.com/products/",
+          "title": "Carta Products",
+          "publisher": "Carta",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "founded_year": 2012,
+      "headquarters": "San Francisco, California, United States",
+      "products": [
+        "cap table management",
+        "equity management",
+        "fund administration",
+        "portfolio management",
+        "valuations",
+        "compensation benchmarking"
+      ],
+      "services": [
+        "private-market infrastructure",
+        "fund administration",
+        "equity plan administration"
+      ],
+      "primary_category": "Equity Management",
+      "secondary_categories": [
+        "Private Market Infrastructure",
+        "CFO Technology"
+      ],
+      "provider_types": [
+        "equity-management",
+        "private-market-infrastructure",
+        "cfo-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "capital-formation"
+      ],
+      "topics": [
+        "private-markets",
+        "capital-strategy"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors",
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://carta.com/products/",
+          "title": "Carta Products",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_glean",
+      "name": "Glean",
+      "slug": "glean",
+      "entity_type": "Organization",
+      "description": "Glean provides enterprise search, knowledge discovery and artificial-intelligence assistants.",
+      "website": "https://www.glean.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO"
+      ],
+      "categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
+      "industries": [],
+      "geographies": [
+        "United States",
+        "San Francisco Bay Area",
+        "Silicon Valley"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_glean_identity_glean",
+          "field": "identity",
+          "value": "Glean",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_description_glean-provides-enterprise-search-knowledge-disco",
+          "field": "description",
+          "value": "Glean provides enterprise search, knowledge discovery and artificial-intelligence assistants.",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_website_https-www-glean-com",
+          "field": "website",
+          "value": "https://www.glean.com/",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_glean_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-search",
+          "field": "products",
+          "value": "enterprise search",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-assistant",
+          "field": "products",
+          "value": "AI assistant",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-agents",
+          "field": "products",
+          "value": "AI agents",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-graph",
+          "field": "products",
+          "value": "enterprise graph",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_ai-gateway",
+          "field": "products",
+          "value": "AI gateway",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_model-hub",
+          "field": "products",
+          "value": "model hub",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_products_enterprise-connectors",
+          "field": "products",
+          "value": "enterprise connectors",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_enterprise-knowledge-discovery",
+          "field": "services",
+          "value": "enterprise knowledge discovery",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_workplace-search",
+          "field": "services",
+          "value": "workplace search",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_services_agentic-automation",
+          "field": "services",
+          "value": "agentic automation",
+          "source_ids": [
+            "src_glean_platform_2026",
+            "src_glean_graph_2026",
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_glean_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_glean_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "Glean is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_glean_official",
+          "url": "https://www.glean.com/",
+          "title": "Glean official website",
+          "publisher": "Glean",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_glean_platform_2026",
+          "url": "https://www.glean.com/platform",
+          "title": "Glean Platform",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_glean_graph_2026",
+          "url": "https://www.glean.com/enterprise-context/enterprise-graph",
+          "title": "Glean Enterprise Graph",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_glean_about_2026",
+          "url": "https://www.glean.com/about",
+          "title": "About Glean",
+          "publisher": "Glean",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "enterprise search",
+        "AI assistant",
+        "AI agents",
+        "enterprise graph",
+        "AI gateway",
+        "model hub",
+        "enterprise connectors"
+      ],
+      "services": [
+        "enterprise knowledge discovery",
+        "workplace search",
+        "agentic automation"
+      ],
+      "headquarters": "San Francisco, California, United States",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
+      "provider_types": [
+        "artificial-intelligence",
+        "enterprise-technology"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "agentic-ai",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.glean.com/about",
+          "title": "About Glean",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_servicenow",
+      "name": "ServiceNow",
+      "slug": "servicenow",
+      "entity_type": "Organization",
+      "description": "ServiceNow provides enterprise workflow, IT operations, automation and artificial-intelligence software.",
+      "website": "https://www.servicenow.com/",
+      "cxo_roles": [
+        "CIO",
+        "CTO",
+        "CISO",
+        "COO"
+      ],
+      "categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
+      "industries": [
+        "Financial Services",
+        "Healthcare",
+        "Government",
+        "Manufacturing",
+        "Technology",
+        "Telecommunications",
+        "Retail"
+      ],
+      "geographies": [
+        "United States",
+        "Silicon Valley",
+        "San Francisco Bay Area",
+        "London",
+        "Singapore"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_servicenow_identity_servicenow",
+          "field": "identity",
+          "value": "ServiceNow",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_description_servicenow-provides-enterprise-workflow-it-opera",
+          "field": "description",
+          "value": "ServiceNow provides enterprise workflow, IT operations, automation and artificial-intelligence software.",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_website_https-www-servicenow-com",
+          "field": "website",
+          "value": "https://www.servicenow.com/",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_categories_enterprise-technology",
+          "field": "categories",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_categories_artificial-intelligence",
+          "field": "categories",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_cio",
+          "field": "cxo_roles",
+          "value": "CIO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_cto",
+          "field": "cxo_roles",
+          "value": "CTO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_ciso",
+          "field": "cxo_roles",
+          "value": "CISO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_cxo-roles_coo",
+          "field": "cxo_roles",
+          "value": "COO",
+          "source_ids": [
+            "src_servicenow_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_enterprise-workflow-automation",
+          "field": "services",
+          "value": "enterprise workflow automation",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_ai-agents",
+          "field": "services",
+          "value": "AI agents",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_services_digital-transformation-platform",
+          "field": "services",
+          "value": "digital transformation platform",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_government",
+          "field": "industries",
+          "value": "Government",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_telecommunications",
+          "field": "industries",
+          "value": "Telecommunications",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_industries_retail",
+          "field": "industries",
+          "value": "Retail",
+          "source_ids": [
+            "src_servicenow_company_2026",
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_silicon-valley",
+          "field": "geographies",
+          "value": "Silicon Valley",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_servicenow_company_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_servicenow-ai-platform",
+          "field": "products",
+          "value": "ServiceNow AI Platform",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_it-service-management",
+          "field": "products",
+          "value": "IT service management",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_customer-service-management",
+          "field": "products",
+          "value": "customer service management",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_security-operations",
+          "field": "products",
+          "value": "security operations",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_governance-risk-and-compliance",
+          "field": "products",
+          "value": "governance risk and compliance",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_human-resources-service-delivery",
+          "field": "products",
+          "value": "human resources service delivery",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_servicenow_products_creator-workflows",
+          "field": "products",
+          "value": "creator workflows",
+          "source_ids": [
+            "src_servicenow_products_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "ServiceNow is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_servicenow_official",
+          "url": "https://www.servicenow.com/",
+          "title": "ServiceNow official website",
+          "publisher": "ServiceNow",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_servicenow_company_2026",
+          "url": "https://www.servicenow.com/company.html",
+          "title": "About ServiceNow",
+          "publisher": "ServiceNow",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_servicenow_products_2026",
+          "url": "https://www.servicenow.com/products-by-category.html",
+          "title": "ServiceNow Products by Category",
+          "publisher": "ServiceNow",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "ServiceNow AI Platform",
+        "IT service management",
+        "customer service management",
+        "security operations",
+        "governance risk and compliance",
+        "human resources service delivery",
+        "creator workflows"
+      ],
+      "services": [
+        "enterprise workflow automation",
+        "AI agents",
+        "digital transformation platform"
+      ],
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
+      "provider_types": [
+        "enterprise-technology",
+        "artificial-intelligence"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [],
+      "resource_types": [],
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "risk-management"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "cybersecurity",
+        "risk"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.servicenow.com/products-by-category.html",
+          "title": "ServiceNow Products by Category",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ent_pitchbook",
+      "name": "PitchBook",
+      "slug": "pitchbook",
+      "entity_type": "Organization",
+      "description": "PitchBook provides data, research and analytics on private and public capital markets.",
+      "website": "https://pitchbook.com/",
+      "cxo_roles": [
+        "CEO",
+        "CFO"
+      ],
+      "categories": [
+        "Research Firms",
+        "Private Market Infrastructure"
+      ],
+      "industries": [
+        "Private Equity",
+        "Venture Capital",
+        "Mergers and Acquisitions",
+        "Private Credit",
+        "Capital Markets"
+      ],
+      "geographies": [
+        "United States",
+        "Seattle",
+        "San Francisco Bay Area",
+        "New York",
+        "London"
+      ],
+      "aliases": [],
+      "parent_company": null,
+      "relationship_notes": null,
+      "editorial_priority": "A",
+      "facts": [
+        {
+          "id": "fact_pitchbook_identity_pitchbook",
+          "field": "identity",
+          "value": "PitchBook",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_description_pitchbook-provides-data-research-and-analytics-o",
+          "field": "description",
+          "value": "PitchBook provides data, research and analytics on private and public capital markets.",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_website_https-pitchbook-com",
+          "field": "website",
+          "value": "https://pitchbook.com/",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_categories_research-firms",
+          "field": "categories",
+          "value": "Research Firms",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_categories_private-market-infrastructure",
+          "field": "categories",
+          "value": "Private Market Infrastructure",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_cxo-roles_ceo",
+          "field": "cxo_roles",
+          "value": "CEO",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_cxo-roles_cfo",
+          "field": "cxo_roles",
+          "value": "CFO",
+          "source_ids": [
+            "src_pitchbook_official"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_pitchbook-platform",
+          "field": "products",
+          "value": "PitchBook Platform",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_private-capital-market-data",
+          "field": "products",
+          "value": "private capital market data",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_deal-sourcing-tools",
+          "field": "products",
+          "value": "deal sourcing tools",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_fund-benchmarking",
+          "field": "products",
+          "value": "fund benchmarking",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_market-research",
+          "field": "products",
+          "value": "market research",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_mobile-application",
+          "field": "products",
+          "value": "mobile application",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_products_excel-plugin",
+          "field": "products",
+          "value": "Excel plugin",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_services_private-market-intelligence",
+          "field": "services",
+          "value": "private market intelligence",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_services_financial-data-research",
+          "field": "services",
+          "value": "financial data research",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_services_market-analysis",
+          "field": "services",
+          "value": "market analysis",
+          "source_ids": [
+            "src_pitchbook_products_2026",
+            "src_pitchbook_research_2026",
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_founded-year_2007",
+          "field": "founded_year",
+          "value": 2007,
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_headquarters_seattle-washington-united-states",
+          "field": "headquarters",
+          "value": "Seattle, Washington, United States",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_geographies_seattle",
+          "field": "geographies",
+          "value": "Seattle",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_pitchbook_global_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_industries_private-equity",
+          "field": "industries",
+          "value": "Private Equity",
+          "source_ids": [
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_industries_venture-capital",
+          "field": "industries",
+          "value": "Venture Capital",
+          "source_ids": [
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_industries_mergers-and-acquisitions",
+          "field": "industries",
+          "value": "Mergers and Acquisitions",
+          "source_ids": [
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_industries_private-credit",
+          "field": "industries",
+          "value": "Private Credit",
+          "source_ids": [
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_pitchbook_industries_capital-markets",
+          "field": "industries",
+          "value": "Capital Markets",
+          "source_ids": [
+            "src_pitchbook_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        }
+      ],
+      "inclusion_basis": [
+        "PitchBook is included as an evidence-backed provider or ecosystem organization relevant to the listed executive functions."
+      ],
+      "sources": [
+        {
+          "id": "src_pitchbook_official",
+          "url": "https://pitchbook.com/",
+          "title": "PitchBook official website",
+          "publisher": "PitchBook",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "identity",
+            "description",
+            "website",
+            "categories",
+            "cxo_roles"
+          ]
+        },
+        {
+          "id": "src_pitchbook_products_2026",
+          "url": "https://pitchbook.com/products",
+          "title": "PitchBook Products",
+          "publisher": "PitchBook",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_pitchbook_research_2026",
+          "url": "https://pitchbook.com/research",
+          "title": "PitchBook Research",
+          "publisher": "PitchBook",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_pitchbook_global_2026",
+          "url": "https://pitchbook.com/media/press-releases/pitchbook-expands-four-global-offices-to-support-rapid-growth",
+          "title": "PitchBook Expands Four Global Offices",
+          "publisher": "PitchBook",
+          "source_class": "official company",
+          "published_date": "2019-12-05",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_pitchbook_about_2026",
+          "url": "https://pitchbook.com/about",
+          "title": "About PitchBook",
+          "publisher": "PitchBook",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products",
+            "services"
+          ]
+        }
+      ],
+      "date_added": "2026-08-11",
+      "last_verified": "2026-08-11",
+      "verification_status": "verified",
+      "products": [
+        "PitchBook Platform",
+        "private capital market data",
+        "deal sourcing tools",
+        "fund benchmarking",
+        "market research",
+        "mobile application",
+        "Excel plugin"
+      ],
+      "services": [
+        "private market intelligence",
+        "financial data research",
+        "market analysis"
+      ],
+      "founded_year": 2007,
+      "headquarters": "Seattle, Washington, United States",
+      "primary_category": "Research Firms",
+      "secondary_categories": [
+        "Private Market Infrastructure"
+      ],
+      "provider_types": [
+        "research-firms",
+        "private-market-infrastructure"
+      ],
+      "community_formats": [],
+      "event_formats": [],
+      "intelligence_types": [
+        "industry-intelligence",
+        "research-report",
+        "market-map",
+        "trends-research"
+      ],
+      "resource_types": [],
+      "executive_needs": [
+        "decision-support",
+        "deal-flow",
+        "strategic-insight"
+      ],
+      "topics": [
+        "private-markets",
+        "venture-capital",
+        "private-equity",
+        "dealmaking"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "venture-capital-investors",
+        "general-partners",
+        "limited-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://pitchbook.com/about",
+          "title": "About PitchBook",
+          "supports": [
+            "intelligence_types",
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_agentic_fabriq",

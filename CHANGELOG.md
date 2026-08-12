@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.5 — 2026-08-11 — Priority Profile Enrichment II
+
+- Researched the recalculated 50-record P1 queue against official organization, product, location, history, legal, investor-relations, and report sources.
+- Added 78 canonical sources, 529 source-linked facts, and 49 evidence-linked semantic classification records.
+- Raised the researched cohort's average completeness from 49.7 to 88.3 and moved 45 profiles to the maintenance tier.
+- Preserved unsupported history and location gaps for AirMDR, Axari Technologies, Findem, and Harden.
+- Kept Indian Hills Advisors unresolved and withheld current offerings and semantic claims.
+- Made enrichment and classification layers composable so later research batches preserve earlier sources and fields.
+
 ## 0.8.4 — 2026-08-11 — Publisher Authority & AEO
 
 - Added a canonical Open Future Forum publisher and evidence hub.

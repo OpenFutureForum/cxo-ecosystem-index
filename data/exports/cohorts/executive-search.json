@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "executive-search",
   "entity_ids": [
@@ -1252,7 +1252,15 @@
         "technology"
       ],
       "geographies": [
-        "United States"
+        "United States",
+        "New York",
+        "Boston",
+        "Austin",
+        "Los Angeles",
+        "Chicago",
+        "Washington DC",
+        "London",
+        "Singapore"
       ],
       "aliases": [
         "ZRG Partners"
@@ -1359,7 +1367,8 @@
           "field": "services",
           "value": "executive search",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1368,7 +1377,8 @@
           "field": "services",
           "value": "interim solutions",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1377,7 +1387,8 @@
           "field": "services",
           "value": "project consulting",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1386,7 +1397,8 @@
           "field": "services",
           "value": "fractional talent",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1395,7 +1407,8 @@
           "field": "services",
           "value": "full-time talent",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1404,7 +1417,8 @@
           "field": "services",
           "value": "strategic finance support",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1413,7 +1427,8 @@
           "field": "services",
           "value": "consulting solutions",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1422,7 +1437,8 @@
           "field": "services",
           "value": "embedded recruiting",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1629,7 +1645,8 @@
           "field": "industries",
           "value": "consumer",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1638,7 +1655,8 @@
           "field": "industries",
           "value": "education",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1647,7 +1665,8 @@
           "field": "industries",
           "value": "nonprofit and social impact",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1656,7 +1675,8 @@
           "field": "industries",
           "value": "financial services",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1665,7 +1685,8 @@
           "field": "industries",
           "value": "healthcare and life sciences",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1674,7 +1695,8 @@
           "field": "industries",
           "value": "industrial",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1683,7 +1705,8 @@
           "field": "industries",
           "value": "media and entertainment",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1692,7 +1715,8 @@
           "field": "industries",
           "value": "private equity",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1701,7 +1725,8 @@
           "field": "industries",
           "value": "professional and technology services",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1710,7 +1735,8 @@
           "field": "industries",
           "value": "real estate",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1719,7 +1745,8 @@
           "field": "industries",
           "value": "sports music and entertainment",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1728,7 +1755,107 @@
           "field": "industries",
           "value": "technology",
           "source_ids": [
-            "src_zrg_home_2026"
+            "src_zrg_home_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_headquarters_rochelle-park-new-jersey-united-states",
+          "field": "headquarters",
+          "value": "Rochelle Park, New Jersey, United States",
+          "source_ids": [
+            "src_zrg_locations_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_new-york",
+          "field": "geographies",
+          "value": "New York",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_boston",
+          "field": "geographies",
+          "value": "Boston",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_austin",
+          "field": "geographies",
+          "value": "Austin",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_los-angeles",
+          "field": "geographies",
+          "value": "Los Angeles",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_chicago",
+          "field": "geographies",
+          "value": "Chicago",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_washington-dc",
+          "field": "geographies",
+          "value": "Washington DC",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_zrg_geographies_singapore",
+          "field": "geographies",
+          "value": "Singapore",
+          "source_ids": [
+            "src_zrg_locations_2026",
+            "src_zrg_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1765,6 +1892,31 @@
             "capabilities",
             "industries",
             "countries_served"
+          ]
+        },
+        {
+          "id": "src_zrg_locations_2026",
+          "url": "https://www.zrgpartners.com/about-us/global-locations",
+          "title": "ZRG Global Locations",
+          "publisher": "ZRG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies"
+          ]
+        },
+        {
+          "id": "src_zrg_about_2026",
+          "url": "https://www.zrgpartners.com/about-us",
+          "title": "About ZRG",
+          "publisher": "ZRG",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries",
+            "geographies"
           ]
         }
       ],
@@ -1805,6 +1957,7 @@
         "strategy and transformation officer search",
         "supply-chain and operations search"
       ],
+      "headquarters": "Rochelle Park, New Jersey, United States",
       "products": [],
       "primary_category": "Executive Search",
       "secondary_categories": [
@@ -1818,10 +1971,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "transformation"
+      ],
+      "topics": [
+        "leadership",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "board-members",
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.zrgpartners.com/",
+          "title": "ZRG",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_robert_half",
@@ -2125,7 +2298,11 @@
         "Recruiting",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Human Resources",
+        "Talent Acquisition",
+        "Enterprise Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2203,7 +2380,8 @@
           "value": "talent sourcing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2213,7 +2391,8 @@
           "value": "talent marketing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2223,7 +2402,8 @@
           "value": "executive search platform",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2233,7 +2413,8 @@
           "value": "talent analytics",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2243,7 +2424,8 @@
           "value": "market intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2253,7 +2435,8 @@
           "value": "candidate relationship management",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2263,7 +2446,8 @@
           "value": "AI talent search",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2273,7 +2457,8 @@
           "value": "recruiting automation",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2283,7 +2468,35 @@
           "value": "workforce intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_talent-acquisition",
+          "field": "industries",
+          "value": "Talent Acquisition",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -2330,6 +2543,19 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_findem_about_2026",
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -2362,10 +2588,26 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_optimhire",

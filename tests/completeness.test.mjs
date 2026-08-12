@@ -49,6 +49,36 @@ test('the first P1 enrichment batch adds depth without inventing unresolved fact
  assert.ok(wti.services.includes('venture debt'));
 });
 
+test('the second 50-profile batch is complete, layered, and evidence-conservative',async()=>{
+ const [batch,manifest,classifications]=await Promise.all([
+  fs.readFile(path.join(root,'data/enrichments-p2.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/research-batch-v0.8.5.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/classifications-p2.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(batch.length,50);
+ assert.equal(new Set(batch.map(record=>record.entity_id)).size,50);
+ assert.deepEqual(new Set(batch.map(record=>record.entity_id)),new Set(manifest.entity_ids));
+ assert.equal(classifications.length,49);
+ assert.ok(classifications.every(record=>record.evidence?.length&&record.evidence.every(item=>item.supports?.length)));
+ const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);
+ const ids=new Set(manifest.entity_ids);const records=result.entities.filter(record=>ids.has(record.entity_id));
+ const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
+ assert.equal(records.length,50);
+ assert.equal(average,manifest.after_average_score);
+ assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
+ assert.equal(manifest.before_average_score,49.7);
+ assert.ok(manifest.after_average_score-manifest.before_average_score>=35);
+ const indianHills=entities.find(entity=>entity.id==='ent_indian_hills_advisors');
+ assert.equal(indianHills.verification_status,'needs verification');
+ assert.deepEqual(indianHills.services,[]);
+ assert.equal(indianHills.founded_year,undefined);
+ assert.equal(indianHills.headquarters,undefined);
+ const bmo=entities.find(entity=>entity.id==='ent_bmo');
+ assert.ok(bmo.sources.some(source=>source.id==='src_bmo_technology_2026'));
+ assert.ok(bmo.sources.some(source=>source.id==='src_bmo_about_2026'));
+ assert.ok(bmo.industries.includes('Technology'));
+});
+
 test('generated completeness exports and public explanations agree',async()=>{
  const [json,csv,quality,profile,methodology]=await Promise.all([
   fs.readFile(path.join(root,'docs/data/completeness.json'),'utf8'),

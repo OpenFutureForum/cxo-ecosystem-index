@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "executive-communities",
   "entity_ids": [
@@ -1865,9 +1865,16 @@
         "Professional Associations",
         "Executive Communities"
       ],
-      "industries": [],
+      "industries": [
+        "Middle-Market M&A",
+        "Private Equity",
+        "Corporate Development",
+        "Financial Services",
+        "Professional Services"
+      ],
       "geographies": [
-        "United States"
+        "United States",
+        "London"
       ],
       "aliases": [
         "ACG"
@@ -1954,7 +1961,8 @@
           "value": "middle-market professional membership",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1964,7 +1972,8 @@
           "value": "local chapter programming",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1974,7 +1983,8 @@
           "value": "business networking events",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1984,7 +1994,8 @@
           "value": "professional education",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1994,7 +2005,8 @@
           "value": "middle-market dealmaking community",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2004,7 +2016,80 @@
           "value": "industry content and insights",
           "source_ids": [
             "src_acg_about_2026",
-            "src_acg_history_2026"
+            "src_acg_history_2026",
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_founded-year_1954",
+          "field": "founded_year",
+          "value": 1954,
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_industries_middle-market-m-a",
+          "field": "industries",
+          "value": "Middle-Market M&A",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_industries_private-equity",
+          "field": "industries",
+          "value": "Private Equity",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_industries_corporate-development",
+          "field": "industries",
+          "value": "Corporate Development",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_acg_profile_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_association-for-corporate-growth_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_acg_profile_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -2050,6 +2135,20 @@
           "supports": [
             "services"
           ]
+        },
+        {
+          "id": "src_acg_profile_2026",
+          "url": "https://www.acg.org/about",
+          "title": "About ACG",
+          "publisher": "Association for Corporate Growth",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "industries",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -2063,6 +2162,7 @@
         "middle-market dealmaking community",
         "industry content and insights"
       ],
+      "founded_year": 1954,
       "products": [],
       "primary_category": "Professional Associations",
       "secondary_categories": [
@@ -2072,14 +2172,50 @@
         "professional-associations",
         "executive-communities"
       ],
-      "community_formats": [],
-      "event_formats": [],
-      "intelligence_types": [],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "executive-event",
+        "conference",
+        "networking-event"
+      ],
+      "intelligence_types": [
+        "industry-intelligence",
+        "executive-insights"
+      ],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "executive-networking",
+        "deal-flow",
+        "business-growth"
+      ],
+      "topics": [
+        "dealmaking",
+        "private-equity",
+        "growth"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "general-partners",
+        "limited-partners"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.acg.org/about",
+          "title": "About ACG",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "intelligence_types",
+            "executive_needs",
+            "topics",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_young_entrepreneur_council",
@@ -2095,7 +2231,10 @@
         "Executive Communities",
         "Professional Associations"
       ],
-      "industries": [],
+      "industries": [
+        "Entrepreneurship",
+        "Cross-industry"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2238,6 +2377,33 @@
             "src_yec_terms_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_industries_entrepreneurship",
+          "field": "industries",
+          "value": "Entrepreneurship",
+          "source_ids": [
+            "src_yec_membership_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_industries_cross-industry",
+          "field": "industries",
+          "value": "Cross-industry",
+          "source_ids": [
+            "src_yec_membership_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_young-entrepreneur-council_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_yec_geography_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2264,11 +2430,13 @@
           "id": "src_yec_membership_2026",
           "url": "https://yec.co/membership",
           "title": "YEC Membership",
-          "publisher": "Young Entrepreneur Council",
+          "publisher": "YEC",
           "source_class": "official organization",
           "accessed_date": "2026-08-11",
           "supports": [
-            "services"
+            "services",
+            "industries",
+            "programs"
           ]
         },
         {
@@ -2280,6 +2448,17 @@
           "accessed_date": "2026-08-11",
           "supports": [
             "services"
+          ]
+        },
+        {
+          "id": "src_yec_geography_2026",
+          "url": "https://yec.co/blog/yec-report-where-are-entrepreneurs-founding-new-companies/",
+          "title": "Where Are Entrepreneurs Founding New Companies?",
+          "publisher": "YEC",
+          "source_class": "official organization",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies"
           ]
         }
       ],
@@ -2304,14 +2483,49 @@
         "executive-communities",
         "professional-associations"
       ],
-      "community_formats": [],
-      "event_formats": [],
+      "community_formats": [
+        "executive-community",
+        "executive-network",
+        "peer-network",
+        "membership-organization"
+      ],
+      "event_formats": [
+        "executive-dinner",
+        "networking-event",
+        "peer-event"
+      ],
       "intelligence_types": [],
-      "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "resource_types": [
+        "playbook",
+        "toolkit"
+      ],
+      "executive_needs": [
+        "executive-networking",
+        "peer-learning",
+        "business-growth",
+        "collaboration"
+      ],
+      "topics": [
+        "leadership",
+        "growth"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://yec.co/membership",
+          "title": "YEC Membership",
+          "supports": [
+            "community_formats",
+            "event_formats",
+            "resource_types",
+            "executive_needs",
+            "topics",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_hacker_dojo",

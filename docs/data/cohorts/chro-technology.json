@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "chro-technology",
   "entity_ids": [
@@ -32,7 +32,13 @@
         "Accounting",
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Startups",
+        "Small and Midsize Businesses",
+        "Technology",
+        "Professional Services",
+        "Nonprofit"
+      ],
       "geographies": [
         "United States"
       ],
@@ -121,6 +127,134 @@
             "src_escalon_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_founded-year_2006",
+          "field": "founded_year",
+          "value": 2006,
+          "source_ids": [
+            "src_escalon_home_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_escalon_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_outsourced-accounting",
+          "field": "services",
+          "value": "outsourced accounting",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_fractional-cfo-services",
+          "field": "services",
+          "value": "fractional CFO services",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_tax-and-compliance",
+          "field": "services",
+          "value": "tax and compliance",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_human-resources",
+          "field": "services",
+          "value": "human resources",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_services_financial-operations",
+          "field": "services",
+          "value": "financial operations",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_industries_startups",
+          "field": "industries",
+          "value": "Startups",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_industries_small-and-midsize-businesses",
+          "field": "industries",
+          "value": "Small and Midsize Businesses",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_escalon_industries_nonprofit",
+          "field": "industries",
+          "value": "Nonprofit",
+          "source_ids": [
+            "src_escalon_about_2026",
+            "src_escalon_services_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -141,11 +275,57 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_escalon_home_2026",
+          "url": "https://escalon.services/",
+          "title": "Escalon",
+          "publisher": "Escalon",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year"
+          ]
+        },
+        {
+          "id": "src_escalon_about_2026",
+          "url": "https://escalon.services/about-us",
+          "title": "About Escalon",
+          "publisher": "Escalon",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_escalon_services_2026",
+          "url": "https://escalon.services/services",
+          "title": "Escalon Services",
+          "publisher": "Escalon",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 2006,
+      "services": [
+        "outsourced accounting",
+        "fractional CFO services",
+        "tax and compliance",
+        "payroll",
+        "human resources",
+        "financial operations"
+      ],
+      "products": [],
       "primary_category": "Finance Advisory",
       "secondary_categories": [
         "Accounting",
@@ -160,10 +340,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "operational-excellence",
+        "decision-support",
+        "business-growth"
+      ],
+      "topics": [
+        "finance-transformation",
+        "fpa"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://escalon.services/about-us",
+          "title": "About Escalon",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_findem",
@@ -180,7 +379,11 @@
         "Recruiting",
         "Artificial Intelligence"
       ],
-      "industries": [],
+      "industries": [
+        "Human Resources",
+        "Talent Acquisition",
+        "Enterprise Technology"
+      ],
       "geographies": [
         "United States"
       ],
@@ -258,7 +461,8 @@
           "value": "talent sourcing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -268,7 +472,8 @@
           "value": "talent marketing",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -278,7 +483,8 @@
           "value": "executive search platform",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -288,7 +494,8 @@
           "value": "talent analytics",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -298,7 +505,8 @@
           "value": "market intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -308,7 +516,8 @@
           "value": "candidate relationship management",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -318,7 +527,8 @@
           "value": "AI talent search",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -328,7 +538,8 @@
           "value": "recruiting automation",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -338,7 +549,35 @@
           "value": "workforce intelligence",
           "source_ids": [
             "src_findem_platform_2026",
-            "src_findem_sourcing_2026"
+            "src_findem_sourcing_2026",
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_human-resources",
+          "field": "industries",
+          "value": "Human Resources",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_talent-acquisition",
+          "field": "industries",
+          "value": "Talent Acquisition",
+          "source_ids": [
+            "src_findem_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_findem_industries_enterprise-technology",
+          "field": "industries",
+          "value": "Enterprise Technology",
+          "source_ids": [
+            "src_findem_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -385,6 +624,19 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_findem_about_2026",
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "publisher": "Findem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -417,10 +669,26 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "decision-support",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.findem.ai/about-us",
+          "title": "About Findem",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_rippling",
@@ -713,7 +981,14 @@
       "categories": [
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Fintech",
+        "Gaming",
+        "Marketing and Advertising",
+        "Business Process Outsourcing",
+        "Energy"
+      ],
       "geographies": [
         "United States"
       ],
@@ -791,7 +1066,8 @@
           "value": "global payroll",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -801,7 +1077,8 @@
           "value": "HR platform",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -811,7 +1088,8 @@
           "value": "IT management",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -821,7 +1099,8 @@
           "value": "benefits administration",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -831,7 +1110,8 @@
           "value": "global hiring",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -841,7 +1121,8 @@
           "value": "immigration and mobility",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -851,7 +1132,8 @@
           "value": "AI workforce tools",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -861,7 +1143,8 @@
           "value": "employer of record",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -871,7 +1154,8 @@
           "value": "contractor management",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -881,7 +1165,80 @@
           "value": "global compliance",
           "source_ids": [
             "src_deel_payroll_2026",
-            "src_deel_hr_2026"
+            "src_deel_hr_2026",
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_founded-year_2019",
+          "field": "founded_year",
+          "value": 2019,
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_fintech",
+          "field": "industries",
+          "value": "Fintech",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_gaming",
+          "field": "industries",
+          "value": "Gaming",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_marketing-and-advertising",
+          "field": "industries",
+          "value": "Marketing and Advertising",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_business-process-outsourcing",
+          "field": "industries",
+          "value": "Business Process Outsourcing",
+          "source_ids": [
+            "src_deel_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_deel_industries_energy",
+          "field": "industries",
+          "value": "Energy",
+          "source_ids": [
+            "src_deel_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -928,6 +1285,21 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_deel_about_2026",
+          "url": "https://www.deel.com/about/",
+          "title": "About Deel",
+          "publisher": "Deel",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -947,6 +1319,7 @@
         "contractor management",
         "global compliance"
       ],
+      "founded_year": 2019,
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -956,10 +1329,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "business-growth",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.deel.com/about/",
+          "title": "About Deel",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_lattice",
@@ -976,7 +1368,9 @@
       ],
       "industries": [],
       "geographies": [
-        "United States"
+        "United States",
+        "San Francisco Bay Area",
+        "London"
       ],
       "aliases": [],
       "parent_company": null,
@@ -1034,7 +1428,8 @@
           "value": "performance management",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1044,7 +1439,8 @@
           "value": "employee engagement",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1054,7 +1450,8 @@
           "value": "people analytics",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1064,7 +1461,8 @@
           "value": "compensation management",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1074,7 +1472,8 @@
           "value": "objectives and key results",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1084,7 +1483,8 @@
           "value": "employee growth tools",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1094,7 +1494,8 @@
           "value": "people management platform",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1104,7 +1505,8 @@
           "value": "performance reviews",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1114,7 +1516,44 @@
           "value": "engagement surveys",
           "source_ids": [
             "src_lattice_platform_2026",
-            "src_lattice_performance_2026"
+            "src_lattice_performance_2026",
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_san-francisco-bay-area",
+          "field": "geographies",
+          "value": "San Francisco Bay Area",
+          "source_ids": [
+            "src_lattice_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_lattice_geographies_london",
+          "field": "geographies",
+          "value": "London",
+          "source_ids": [
+            "src_lattice_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1161,6 +1600,20 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_lattice_about_2026",
+          "url": "https://lattice.com/about",
+          "title": "About Lattice",
+          "publisher": "Lattice",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1179,6 +1632,7 @@
         "performance reviews",
         "engagement surveys"
       ],
+      "headquarters": "San Francisco, California, United States",
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -1188,10 +1642,26 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "professional-development"
+      ],
+      "topics": [
+        "leadership",
+        "artificial-intelligence"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://lattice.com/about",
+          "title": "About Lattice",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_trinet",
@@ -1207,7 +1677,14 @@
       "categories": [
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Small and Midsize Businesses",
+        "Technology",
+        "Financial Services",
+        "Life Sciences",
+        "Professional Services",
+        "Nonprofit"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1276,7 +1753,8 @@
           "value": "TriNet PEO",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1286,7 +1764,8 @@
           "value": "TriNet HR Plus",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1296,7 +1775,8 @@
           "value": "TriNet Payroll",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1306,7 +1786,8 @@
           "value": "HR technology platform",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1316,7 +1797,8 @@
           "value": "professional employer organization services",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1326,7 +1808,8 @@
           "value": "payroll administration",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1336,7 +1819,8 @@
           "value": "employee benefits",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1346,7 +1830,8 @@
           "value": "HR compliance",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1356,7 +1841,8 @@
           "value": "risk mitigation",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1366,7 +1852,80 @@
           "value": "talent management",
           "source_ids": [
             "src_trinet_solutions_2026",
-            "src_trinet_peo_2026"
+            "src_trinet_peo_2026",
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_founded-year_1988",
+          "field": "founded_year",
+          "value": 1988,
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_small-and-midsize-businesses",
+          "field": "industries",
+          "value": "Small and Midsize Businesses",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_life-sciences",
+          "field": "industries",
+          "value": "Life Sciences",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_trinet_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_trinet_industries_nonprofit",
+          "field": "industries",
+          "value": "Nonprofit",
+          "source_ids": [
+            "src_trinet_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1413,6 +1972,21 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_trinet_about_2026",
+          "url": "https://www.trinet.com/about-us",
+          "title": "About TriNet",
+          "publisher": "TriNet",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "industries",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1432,6 +2006,7 @@
         "risk mitigation",
         "talent management"
       ],
+      "founded_year": 1988,
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -1441,10 +2016,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "talent",
+        "business-growth",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "corporate-strategy"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.trinet.com/about-us",
+          "title": "About TriNet",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_insperity",
@@ -1460,7 +2054,14 @@
       "categories": [
         "HR Technology"
       ],
-      "industries": [],
+      "industries": [
+        "Financial Services",
+        "Manufacturing",
+        "Professional Services",
+        "Technology",
+        "Healthcare",
+        "Nonprofit"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1569,7 +2170,8 @@
           "value": "full-service HR",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1579,7 +2181,8 @@
           "value": "payroll processing",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1589,7 +2192,8 @@
           "value": "benefits administration",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1599,7 +2203,8 @@
           "value": "HR compliance support",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1609,7 +2214,8 @@
           "value": "workforce administration",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1619,7 +2225,89 @@
           "value": "talent management",
           "source_ids": [
             "src_insperity_hr360_2026",
-            "src_insperity_hrscale_2026"
+            "src_insperity_hrscale_2026",
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_founded-year_1986",
+          "field": "founded_year",
+          "value": 1986,
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_headquarters_kingwood-texas-united-states",
+          "field": "headquarters",
+          "value": "Kingwood, Texas, United States",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_professional-services",
+          "field": "industries",
+          "value": "Professional Services",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_healthcare",
+          "field": "industries",
+          "value": "Healthcare",
+          "source_ids": [
+            "src_insperity_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_insperity_industries_nonprofit",
+          "field": "industries",
+          "value": "Nonprofit",
+          "source_ids": [
+            "src_insperity_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1666,6 +2354,21 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_insperity_about_2026",
+          "url": "https://www.insperity.com/about-us/",
+          "title": "About Insperity",
+          "publisher": "Insperity",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "industries",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1685,6 +2388,8 @@
         "workforce administration",
         "talent management"
       ],
+      "founded_year": 1986,
+      "headquarters": "Kingwood, Texas, United States",
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -1694,10 +2399,26 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "business-growth",
+        "operational-excellence"
+      ],
+      "topics": [
+        "leadership",
+        "corporate-strategy"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.insperity.com/about-us/",
+          "title": "About Insperity",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_15five",
@@ -1772,7 +2493,8 @@
           "value": "performance management platform",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1782,7 +2504,8 @@
           "value": "performance reviews",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1792,7 +2515,8 @@
           "value": "employee engagement surveys",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1802,7 +2526,8 @@
           "value": "manager effectiveness tools",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1812,7 +2537,8 @@
           "value": "objectives and key results",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1822,7 +2548,8 @@
           "value": "AI coaching and HR agents",
           "source_ids": [
             "src_15five_products_2026",
-            "src_15five_ai_2026"
+            "src_15five_ai_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1831,7 +2558,8 @@
           "field": "services",
           "value": "performance management",
           "source_ids": [
-            "src_15five_products_2026"
+            "src_15five_products_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1840,7 +2568,8 @@
           "field": "services",
           "value": "employee engagement measurement",
           "source_ids": [
-            "src_15five_products_2026"
+            "src_15five_products_2026",
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -1849,7 +2578,26 @@
           "field": "services",
           "value": "manager enablement",
           "source_ids": [
-            "src_15five_products_2026"
+            "src_15five_products_2026",
+            "src_15five_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_founded-year_2011",
+          "field": "founded_year",
+          "value": 2011,
+          "source_ids": [
+            "src_15five_founding_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_15five_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_15five_about_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -1895,6 +2643,30 @@
           "supports": [
             "products"
           ]
+        },
+        {
+          "id": "src_15five_founding_2026",
+          "url": "https://www.15five.com/blog/15five-welcomes-david-hassell-back-as-ceo",
+          "title": "15Five Welcomes David Hassell Back as CEO",
+          "publisher": "15Five",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year"
+          ]
+        },
+        {
+          "id": "src_15five_about_2026",
+          "url": "https://www.15five.com/about",
+          "title": "About 15Five",
+          "publisher": "15Five",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -1913,6 +2685,7 @@
         "employee engagement measurement",
         "manager enablement"
       ],
+      "founded_year": 2011,
       "primary_category": "HR Technology",
       "secondary_categories": [],
       "provider_types": [
@@ -1922,10 +2695,25 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "talent",
+        "leadership-development",
+        "professional-development"
+      ],
+      "topics": [
+        "leadership"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.15five.com/about",
+          "title": "About 15Five",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_optimhire",

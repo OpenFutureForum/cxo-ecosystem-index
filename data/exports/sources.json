@@ -1,7 +1,28 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "schema_version": "1.0.0",
   "sources": [
+    {
+      "id": "src_15five_about_2026",
+      "url": "https://www.15five.com/about",
+      "title": "About 15Five",
+      "publisher": "15Five",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_15five"
+      ],
+      "alias_source_ids": [
+        "src_15five_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "products",
+        "services"
+      ]
+    },
     {
       "id": "src_15five_ai_2026",
       "url": "https://www.15five.com/products/15five-ai",
@@ -19,6 +40,25 @@
       ],
       "supports": [
         "products"
+      ]
+    },
+    {
+      "id": "src_15five_founding_2026",
+      "url": "https://www.15five.com/blog/15five-welcomes-david-hassell-back-as-ceo",
+      "title": "15Five Welcomes David Hassell Back as CEO",
+      "publisher": "15Five",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_15five"
+      ],
+      "alias_source_ids": [
+        "src_15five_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -142,10 +182,14 @@
         "ent_association_for_corporate_growth"
       ],
       "alias_source_ids": [
-        "src_acg_about_2026"
+        "src_acg_about_2026",
+        "src_acg_profile_2026"
       ],
       "supports": [
-        "services"
+        "services",
+        "founded_year",
+        "geographies",
+        "industries"
       ]
     },
     {
@@ -431,6 +475,27 @@
       ]
     },
     {
+      "id": "src_airmdr_about_2026",
+      "url": "https://airmdr.com/about-us",
+      "title": "About AirMDR",
+      "publisher": "AirMDR",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_airmdr"
+      ],
+      "alias_source_ids": [
+        "src_airmdr_about_2026"
+      ],
+      "supports": [
+        "industries",
+        "services",
+        "products"
+      ]
+    },
+    {
       "id": "src_airmdr_official",
       "url": "https://www.airmdr.com/",
       "title": "AirMDR official website",
@@ -493,6 +558,46 @@
       ]
     },
     {
+      "id": "src_altair_how_2026",
+      "url": "https://altair.vc/how",
+      "title": "How AltaIR Invests",
+      "publisher": "AltaIR Capital",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_altair_capital"
+      ],
+      "alias_source_ids": [
+        "src_altair_how_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_altair_portfolio_2026",
+      "url": "https://altair.vc/portfolio",
+      "title": "AltaIR Capital Portfolio",
+      "publisher": "AltaIR Capital",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_altair_capital"
+      ],
+      "alias_source_ids": [
+        "src_altair_portfolio_2026"
+      ],
+      "supports": [
+        "geographies",
+        "industries"
+      ]
+    },
+    {
       "id": "src_altair-capital_official",
       "url": "https://altair.vc/",
       "title": "AltaIR Capital official website",
@@ -539,6 +644,27 @@
       ]
     },
     {
+      "id": "src_anrok_about_2026",
+      "url": "https://www.anrok.com/about",
+      "title": "About Anrok",
+      "publisher": "Anrok",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_anrok"
+      ],
+      "alias_source_ids": [
+        "src_anrok_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_anrok_borderless_2026",
       "url": "https://www.anrok.com/solutions/borderless-compliance",
       "title": "Borderless Compliance",
@@ -556,6 +682,26 @@
       "supports": [
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_anrok_founding_2026",
+      "url": "https://www.anrok.com/resources/physical-goods",
+      "title": "Anrok Expands to Physical Goods",
+      "publisher": "Anrok",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_anrok"
+      ],
+      "alias_source_ids": [
+        "src_anrok_founding_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies"
       ]
     },
     {
@@ -645,6 +791,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_armanino_services_2026",
+      "url": "https://www.armanino.com/services/",
+      "title": "Armanino Services",
+      "publisher": "Armanino",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_armanino"
+      ],
+      "alias_source_ids": [
+        "src_armanino_services_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_armanino_who_2026",
+      "url": "https://www.armanino.com/company/who-we-are/",
+      "title": "Who We Are",
+      "publisher": "Armanino",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_armanino"
+      ],
+      "alias_source_ids": [
+        "src_armanino_who_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
       ]
     },
     {
@@ -778,6 +964,47 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_axari_privacy_2026",
+      "url": "https://www.axari.ai/privacy-policy/",
+      "title": "Axari Privacy Policy",
+      "publisher": "Axari Technologies, Inc.",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_axari_technologies_inc"
+      ],
+      "alias_source_ids": [
+        "src_axari_privacy_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_axari_terms_2026",
+      "url": "https://www.axari.ai/terms-of-service/",
+      "title": "Axari Terms of Service",
+      "publisher": "Axari Technologies, Inc.",
+      "source_type": "official-company",
+      "published_date": "2025-07-22",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_axari_technologies_inc"
+      ],
+      "alias_source_ids": [
+        "src_axari_terms_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -979,6 +1206,28 @@
       ]
     },
     {
+      "id": "src_blackline_about_2026",
+      "url": "https://www.blackline.com/about/",
+      "title": "About BlackLine",
+      "publisher": "BlackLine",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_blackline"
+      ],
+      "alias_source_ids": [
+        "src_blackline_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries"
+      ]
+    },
+    {
       "id": "src_blackline_official",
       "url": "https://www.blackline.com/",
       "title": "BlackLine official website",
@@ -1007,6 +1256,26 @@
       ]
     },
     {
+      "id": "src_blackline_platform_2026",
+      "url": "https://www.blackline.com/products/",
+      "title": "BlackLine Products",
+      "publisher": "BlackLine",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_blackline"
+      ],
+      "alias_source_ids": [
+        "src_blackline_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
+      ]
+    },
+    {
       "id": "src_blackstone",
       "url": "https://www.blackstone.com/our-businesses/",
       "title": "Our Businesses",
@@ -1023,6 +1292,28 @@
       ],
       "supports": [
         "description",
+        "services"
+      ]
+    },
+    {
+      "id": "src_bmo_about_2026",
+      "url": "https://www.bmo.com/en-us/main/about-us/index.html",
+      "title": "About BMO",
+      "publisher": "BMO",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bmo"
+      ],
+      "alias_source_ids": [
+        "src_bmo_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "industries",
         "services"
       ]
     },
@@ -1071,6 +1362,66 @@
         "technology_credit_exposure",
         "technology_client_count",
         "technology_banking_experience_years"
+      ]
+    },
+    {
+      "id": "src_bny_about_2026",
+      "url": "https://www.bny.com/corporate/global/en/about-us/about-bny",
+      "title": "About BNY",
+      "publisher": "BNY",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bny"
+      ],
+      "alias_source_ids": [
+        "src_bny_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_bny_contact_2026",
+      "url": "https://www.bny.com/corporate/global/en/contact-us.html",
+      "title": "Contact BNY",
+      "publisher": "BNY",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bny"
+      ],
+      "alias_source_ids": [
+        "src_bny_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_bny_history_2026",
+      "url": "https://www.bny.com/corporate/global/en/about-us/history.html",
+      "title": "BNY History",
+      "publisher": "BNY",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bny"
+      ],
+      "alias_source_ids": [
+        "src_bny_history_2026"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -1299,6 +1650,46 @@
       ]
     },
     {
+      "id": "src_capgemini_about_2026",
+      "url": "https://www.capgemini.com/about-us/",
+      "title": "About Capgemini",
+      "publisher": "Capgemini",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_capgemini"
+      ],
+      "alias_source_ids": [
+        "src_capgemini_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_capgemini_locations_2026",
+      "url": "https://www.capgemini.com/about-us/locations/",
+      "title": "Capgemini Locations",
+      "publisher": "Capgemini",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_capgemini"
+      ],
+      "alias_source_ids": [
+        "src_capgemini_locations_2026"
+      ],
+      "supports": [
+        "geographies"
+      ]
+    },
+    {
       "id": "src_capgemini_official",
       "url": "https://www.capgemini.com/",
       "title": "Capgemini official website",
@@ -1372,6 +1763,28 @@
       ]
     },
     {
+      "id": "src_carta_about_2026",
+      "url": "https://carta.com/about/",
+      "title": "About Carta",
+      "publisher": "Carta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_carta"
+      ],
+      "alias_source_ids": [
+        "src_carta_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries"
+      ]
+    },
+    {
       "id": "src_carta_official",
       "url": "https://carta.com/",
       "title": "Carta official website",
@@ -1395,6 +1808,27 @@
       ]
     },
     {
+      "id": "src_carta_products_2026",
+      "url": "https://carta.com/products/",
+      "title": "Carta Products",
+      "publisher": "Carta",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_carta"
+      ],
+      "alias_source_ids": [
+        "src_carta_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_centific_data_2026",
       "url": "https://www.centific.com/solution/data-collection-creation",
       "title": "Data Collection and Creation",
@@ -1412,6 +1846,27 @@
       "supports": [
         "services",
         "products"
+      ]
+    },
+    {
+      "id": "src_centific_locations_2026",
+      "url": "https://www.centific.com/company/locations",
+      "title": "Centific Locations",
+      "publisher": "Centific",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_centific"
+      ],
+      "alias_source_ids": [
+        "src_centific_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "industries"
       ]
     },
     {
@@ -1629,6 +2084,28 @@
       ]
     },
     {
+      "id": "src_citizens_company_2026",
+      "url": "https://www.citizensbank.com/about-us/our-company/overview.aspx",
+      "title": "About Citizens Financial Group",
+      "publisher": "Citizens",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_citizens_private_bank"
+      ],
+      "alias_source_ids": [
+        "src_citizens_company_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_citizens_products_2026",
       "url": "https://www.citizensbank.com/investing-and-wealth-management/products-services-and-calculators.aspx",
       "title": "Wealth Products and Services",
@@ -1715,6 +2192,48 @@
       ]
     },
     {
+      "id": "src_cognizant_about_2026",
+      "url": "https://www.cognizant.com/us/en/about-cognizant",
+      "title": "About Cognizant",
+      "publisher": "Cognizant",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cognizant"
+      ],
+      "alias_source_ids": [
+        "src_cognizant_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_cognizant_industries_2026",
+      "url": "https://www.cognizant.com/us/en/industries",
+      "title": "Cognizant Industries",
+      "publisher": "Cognizant",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_cognizant"
+      ],
+      "alias_source_ids": [
+        "src_cognizant_industries_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_cognizant_official",
       "url": "https://www.cognizant.com/",
       "title": "Cognizant official website",
@@ -1758,6 +2277,29 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_comerica_overview_2026",
+      "url": "https://www.comerica.com/about-us/company-overview.html",
+      "title": "About Comerica",
+      "publisher": "Comerica",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_comerica"
+      ],
+      "alias_source_ids": [
+        "src_comerica_overview_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
       ]
     },
     {
@@ -1915,6 +2457,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_coupa_operations_2026",
+      "url": "https://get.coupa.com/rs/950-OLU-185/images/2023_ESG-Report.pdf",
+      "title": "Coupa 2023 ESG Report",
+      "publisher": "Coupa",
+      "source_type": "official-company",
+      "published_date": "2023-01-01",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_coupa"
+      ],
+      "alias_source_ids": [
+        "src_coupa_operations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "industries"
       ]
     },
     {
@@ -2129,6 +2692,29 @@
       ]
     },
     {
+      "id": "src_db_about_2026",
+      "url": "https://www.db.com/who-we-are/index?language_id=1",
+      "title": "About Deutsche Bank",
+      "publisher": "Deutsche Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deutsche_bank"
+      ],
+      "alias_source_ids": [
+        "src_db_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_db_products_2026",
       "url": "https://www.db.com/what-we-do/products-and-services",
       "title": "Deutsche Bank Products and Services",
@@ -2163,6 +2749,29 @@
         "src_db_what_we_do_2026"
       ],
       "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_deel_about_2026",
+      "url": "https://www.deel.com/about/",
+      "title": "About Deel",
+      "publisher": "Deel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_deel"
+      ],
+      "alias_source_ids": [
+        "src_deel_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "industries",
+        "products",
         "services"
       ]
     },
@@ -2406,6 +3015,27 @@
       ]
     },
     {
+      "id": "src_escalon_about_2026",
+      "url": "https://escalon.services/about-us",
+      "title": "About Escalon",
+      "publisher": "Escalon",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_escalon"
+      ],
+      "alias_source_ids": [
+        "src_escalon_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_escalon_official",
       "url": "https://escalon.services/",
       "title": "Escalon official website",
@@ -2418,14 +3048,36 @@
         "ent_escalon"
       ],
       "alias_source_ids": [
-        "src_escalon_official"
+        "src_escalon_official",
+        "src_escalon_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "founded_year"
+      ]
+    },
+    {
+      "id": "src_escalon_services_2026",
+      "url": "https://escalon.services/services",
+      "title": "Escalon Services",
+      "publisher": "Escalon",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_escalon"
+      ],
+      "alias_source_ids": [
+        "src_escalon_services_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -2553,6 +3205,27 @@
       ]
     },
     {
+      "id": "src_findem_about_2026",
+      "url": "https://www.findem.ai/about-us",
+      "title": "About Findem",
+      "publisher": "Findem",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_findem"
+      ],
+      "alias_source_ids": [
+        "src_findem_about_2026"
+      ],
+      "supports": [
+        "industries",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_findem_official",
       "url": "https://www.findem.ai/",
       "title": "Findem official website",
@@ -2640,6 +3313,49 @@
       ]
     },
     {
+      "id": "src_first_citizens_about_2026",
+      "url": "https://www.firstcitizens.com/about-us",
+      "title": "About First Citizens Bank",
+      "publisher": "First Citizens Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_first_citizens_bank"
+      ],
+      "alias_source_ids": [
+        "src_first_citizens_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_first_citizens_timeline_2026",
+      "url": "https://www.firstcitizens.com/about-us/timeline",
+      "title": "First Citizens Through the Years",
+      "publisher": "First Citizens Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_first_citizens_bank"
+      ],
+      "alias_source_ids": [
+        "src_first_citizens_timeline_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries"
+      ]
+    },
+    {
       "id": "src_first-citizens-bank_official",
       "url": "https://www.firstcitizens.com/",
       "title": "First Citizens Bank official website",
@@ -2662,6 +3378,47 @@
         "cxo_roles",
         "aliases",
         "parent_company"
+      ]
+    },
+    {
+      "id": "src_foley_about_2026",
+      "url": "https://www.foley.com/about-us/",
+      "title": "About Foley & Lardner",
+      "publisher": "Foley & Lardner",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_foley_lardner"
+      ],
+      "alias_source_ids": [
+        "src_foley_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_foley_sectors_2026",
+      "url": "https://www.foley.com/sectors/",
+      "title": "Foley Sectors",
+      "publisher": "Foley & Lardner",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_foley_lardner"
+      ],
+      "alias_source_ids": [
+        "src_foley_sectors_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -2812,6 +3569,28 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_glean_about_2026",
+      "url": "https://www.glean.com/about",
+      "title": "About Glean",
+      "publisher": "Glean",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_glean"
+      ],
+      "alias_source_ids": [
+        "src_glean_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "products",
+        "services"
       ]
     },
     {
@@ -2982,14 +3761,18 @@
         "ent_harden"
       ],
       "alias_source_ids": [
-        "src_harden_official"
+        "src_harden_official",
+        "src_harden_product_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -3376,6 +4159,68 @@
       ]
     },
     {
+      "id": "src_insight_about_2026",
+      "url": "https://www.insightpartners.com/about-us/",
+      "title": "About Insight Partners",
+      "publisher": "Insight Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insight_partners"
+      ],
+      "alias_source_ids": [
+        "src_insight_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_insight_onsite_2026",
+      "url": "https://www.insightpartners.com/onsite/",
+      "title": "Insight Onsite",
+      "publisher": "Insight Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insight_partners"
+      ],
+      "alias_source_ids": [
+        "src_insight_onsite_2026"
+      ],
+      "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_insight_portfolio_2026",
+      "url": "https://www.insightpartners.com/portfolio/",
+      "title": "Insight Portfolio",
+      "publisher": "Insight Partners",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insight_partners"
+      ],
+      "alias_source_ids": [
+        "src_insight_portfolio_2026"
+      ],
+      "supports": [
+        "geographies",
+        "industries"
+      ]
+    },
+    {
       "id": "src_insight-partners_official",
       "url": "https://www.insightpartners.com/",
       "title": "Insight Partners official website",
@@ -3396,6 +4241,29 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_insperity_about_2026",
+      "url": "https://www.insperity.com/about-us/",
+      "title": "About Insperity",
+      "publisher": "Insperity",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_insperity"
+      ],
+      "alias_source_ids": [
+        "src_insperity_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
       ]
     },
     {
@@ -3755,6 +4623,28 @@
       ]
     },
     {
+      "id": "src_lattice_about_2026",
+      "url": "https://lattice.com/about",
+      "title": "About Lattice",
+      "publisher": "Lattice",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_lattice"
+      ],
+      "alias_source_ids": [
+        "src_lattice_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_lattice_official",
       "url": "https://lattice.com/",
       "title": "Lattice official website",
@@ -4012,6 +4902,49 @@
       ]
     },
     {
+      "id": "src_microsoft_facts_2026",
+      "url": "https://news.microsoft.com/facts-about-microsoft/",
+      "title": "Facts About Microsoft",
+      "publisher": "Microsoft",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_microsoft"
+      ],
+      "alias_source_ids": [
+        "src_microsoft_facts_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_microsoft_locations_2026",
+      "url": "https://www.microsoft.com/en-us/about/office-locations",
+      "title": "Microsoft Office Locations",
+      "publisher": "Microsoft",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_microsoft"
+      ],
+      "alias_source_ids": [
+        "src_microsoft_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_microsoft_official",
       "url": "https://www.microsoft.com/",
       "title": "Microsoft official website",
@@ -4053,6 +4986,29 @@
         "description",
         "services",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_morgan_about_2026",
+      "url": "https://www.morganstanley.com/about-us",
+      "title": "About Morgan Stanley",
+      "publisher": "Morgan Stanley",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_morgan_stanley"
+      ],
+      "alias_source_ids": [
+        "src_morgan_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
       ]
     },
     {
@@ -4583,6 +5539,29 @@
       ]
     },
     {
+      "id": "src_orrick_about_2026",
+      "url": "https://www.orrick.com/en/About-Us",
+      "title": "About Orrick",
+      "publisher": "Orrick",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_orrick"
+      ],
+      "alias_source_ids": [
+        "src_orrick_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_orrick_official",
       "url": "https://www.orrick.com/",
       "title": "Orrick official website",
@@ -4747,6 +5726,68 @@
       ]
     },
     {
+      "id": "src_pilot_about_2026",
+      "url": "https://pilot.com/about",
+      "title": "About Pilot",
+      "publisher": "Pilot",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pilot"
+      ],
+      "alias_source_ids": [
+        "src_pilot_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_pilot_faq_2026",
+      "url": "https://pilot.com/faq",
+      "title": "Pilot Frequently Asked Questions",
+      "publisher": "Pilot",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pilot"
+      ],
+      "alias_source_ids": [
+        "src_pilot_faq_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_pilot_founding_2026",
+      "url": "https://pilot.com/blog/best-bookkeeping-service-pilot-founding-story",
+      "title": "Pilot's Founding Story",
+      "publisher": "Pilot",
+      "source_type": "official-company",
+      "published_date": "2019-06-13",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pilot"
+      ],
+      "alias_source_ids": [
+        "src_pilot_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
+      ]
+    },
+    {
       "id": "src_pilot_official",
       "url": "https://pilot.com/",
       "title": "Pilot official website",
@@ -4795,6 +5836,48 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_pitchbook_about_2026",
+      "url": "https://pitchbook.com/about",
+      "title": "About PitchBook",
+      "publisher": "PitchBook",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pitchbook"
+      ],
+      "alias_source_ids": [
+        "src_pitchbook_about_2026"
+      ],
+      "supports": [
+        "industries",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_pitchbook_global_2026",
+      "url": "https://pitchbook.com/media/press-releases/pitchbook-expands-four-global-offices-to-support-rapid-growth",
+      "title": "PitchBook Expands Four Global Offices",
+      "publisher": "PitchBook",
+      "source_type": "official-company",
+      "published_date": "2019-12-05",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_pitchbook"
+      ],
+      "alias_source_ids": [
+        "src_pitchbook_global_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -4861,6 +5944,27 @@
       ]
     },
     {
+      "id": "src_plaid_company_2026",
+      "url": "https://plaid.com/en-gb/company/",
+      "title": "About Plaid",
+      "publisher": "Plaid",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_plaid"
+      ],
+      "alias_source_ids": [
+        "src_plaid_company_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_plaid_official",
       "url": "https://plaid.com/",
       "title": "Plaid official website",
@@ -4881,6 +5985,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_plaid_products_2026",
+      "url": "https://plaid.com/products/",
+      "title": "Plaid Products",
+      "publisher": "Plaid",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_plaid"
+      ],
+      "alias_source_ids": [
+        "src_plaid_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -4907,6 +6032,47 @@
       ]
     },
     {
+      "id": "src_protiviti_solutions_2026",
+      "url": "https://www.protiviti.com/us-en/solutions",
+      "title": "Protiviti Solutions",
+      "publisher": "Protiviti",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_protiviti"
+      ],
+      "alias_source_ids": [
+        "src_protiviti_solutions_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_protiviti_who_2026",
+      "url": "https://www.protiviti.com/us-en/who-we-are",
+      "title": "Who We Are",
+      "publisher": "Protiviti",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_protiviti"
+      ],
+      "alias_source_ids": [
+        "src_protiviti_who_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_pulley_official",
       "url": "https://pulley.com/",
       "title": "Pulley official website",
@@ -4927,6 +6093,47 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_puzzle_about_2026",
+      "url": "https://puzzle.io/about",
+      "title": "About Puzzle",
+      "publisher": "Puzzle",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_puzzle"
+      ],
+      "alias_source_ids": [
+        "src_puzzle_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "products",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_puzzle_accounting_firms_2026",
+      "url": "https://puzzle.io/industries/accounting-firm",
+      "title": "Puzzle for Accounting Firms and Small Businesses",
+      "publisher": "Puzzle",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_puzzle"
+      ],
+      "alias_source_ids": [
+        "src_puzzle_accounting_firms_2026"
+      ],
+      "supports": [
+        "industries",
+        "products"
       ]
     },
     {
@@ -5100,6 +6307,27 @@
       ]
     },
     {
+      "id": "src_rillet_about_2026",
+      "url": "https://www.rillet.com/about",
+      "title": "About Rillet",
+      "publisher": "Rillet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rillet"
+      ],
+      "alias_source_ids": [
+        "src_rillet_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "products",
+        "industries"
+      ]
+    },
+    {
       "id": "src_rillet_official",
       "url": "https://www.rillet.com/",
       "title": "Rillet official website",
@@ -5126,6 +6354,26 @@
         "integrations",
         "customer_segments",
         "finance_team_customer_count"
+      ]
+    },
+    {
+      "id": "src_rillet_platform_2026",
+      "url": "https://www.rillet.com/platform/ai-accounting-software",
+      "title": "Rillet AI Accounting Software",
+      "publisher": "Rillet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rillet"
+      ],
+      "alias_source_ids": [
+        "src_rillet_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "industries"
       ]
     },
     {
@@ -5292,6 +6540,49 @@
       "supports": [
         "capabilities",
         "services"
+      ]
+    },
+    {
+      "id": "src_rsm_about_2026",
+      "url": "https://rsmus.com/about.html",
+      "title": "About RSM US",
+      "publisher": "RSM US",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rsm_us"
+      ],
+      "alias_source_ids": [
+        "src_rsm_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_rsm_locations_2026",
+      "url": "https://rsmus.com/locations.html",
+      "title": "RSM US Locations",
+      "publisher": "RSM US",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_rsm_us"
+      ],
+      "alias_source_ids": [
+        "src_rsm_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {
@@ -5471,6 +6762,27 @@
       ]
     },
     {
+      "id": "src_servicenow_company_2026",
+      "url": "https://www.servicenow.com/company.html",
+      "title": "About ServiceNow",
+      "publisher": "ServiceNow",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_servicenow"
+      ],
+      "alias_source_ids": [
+        "src_servicenow_company_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_servicenow_official",
       "url": "https://www.servicenow.com/",
       "title": "ServiceNow official website",
@@ -5491,6 +6803,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_servicenow_products_2026",
+      "url": "https://www.servicenow.com/products-by-category.html",
+      "title": "ServiceNow Products by Category",
+      "publisher": "ServiceNow",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_servicenow"
+      ],
+      "alias_source_ids": [
+        "src_servicenow_products_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -5651,6 +6984,66 @@
       ]
     },
     {
+      "id": "src_slalom_impact_2026",
+      "url": "https://www.slalom.com/content/dam/slalom/scom-site/us/home/who-we-are/environment-assets/environmental-impact-slalom-impact-report-2020-en-us.pdf",
+      "title": "Slalom Impact Report",
+      "publisher": "Slalom",
+      "source_type": "official-company",
+      "published_date": "2020-01-01",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_slalom"
+      ],
+      "alias_source_ids": [
+        "src_slalom_impact_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters"
+      ]
+    },
+    {
+      "id": "src_slalom_industries_2026",
+      "url": "https://www.slalom.com/us/en/industries",
+      "title": "Slalom Industries",
+      "publisher": "Slalom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_slalom"
+      ],
+      "alias_source_ids": [
+        "src_slalom_industries_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_slalom_locations_2026",
+      "url": "https://www.slalom.com/us/en/who-we-are/locations",
+      "title": "Slalom Locations",
+      "publisher": "Slalom",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_slalom"
+      ],
+      "alias_source_ids": [
+        "src_slalom_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
       "id": "src_slalom_official",
       "url": "https://www.slalom.com/",
       "title": "Slalom official website",
@@ -5774,6 +7167,29 @@
       ]
     },
     {
+      "id": "src_stifel_history_2026",
+      "url": "https://www.stifel.com/newsletters/adgraphics/pdf/sf/Stifel-History-Vertical.pdf",
+      "title": "Stifel History",
+      "publisher": "Stifel",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_stifel"
+      ],
+      "alias_source_ids": [
+        "src_stifel_history_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "industries",
+        "services"
+      ]
+    },
+    {
       "id": "src_stifel_official",
       "url": "https://www.stifel.com/",
       "title": "Stifel official website",
@@ -5820,6 +7236,50 @@
       ]
     },
     {
+      "id": "src_svb_about_2026",
+      "url": "https://www.svb.com/about-svb/",
+      "title": "About Silicon Valley Bank",
+      "publisher": "Silicon Valley Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_silicon_valley_bank"
+      ],
+      "alias_source_ids": [
+        "src_svb_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_svb_faq_2026",
+      "url": "https://www.svb.com/about-svb/svb-client-faqs/",
+      "title": "Silicon Valley Bank Client FAQs",
+      "publisher": "Silicon Valley Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_silicon_valley_bank"
+      ],
+      "alias_source_ids": [
+        "src_svb_faq_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_svb_rebrand_announcement",
       "url": "https://newsroom.firstcitizens.com/2026-04-23-First-Citizens-Bank-to-Expand-Commercial-Solutions-and-Align-Brand-Names-in-Q4-2026",
       "title": "First Citizens Bank to Align Brand Names in Q4 2026",
@@ -5837,6 +7297,28 @@
       "supports": [
         "current_display_name",
         "announced_future_name"
+      ]
+    },
+    {
+      "id": "src_tenet_about_2026",
+      "url": "https://tenetsecurity.ai/blog/tenet-wins-cybersecurity-excellence-awards/",
+      "title": "About Tenet Security",
+      "publisher": "Tenet Security",
+      "source_type": "official-company",
+      "published_date": "2026-04-01",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tenet_security"
+      ],
+      "alias_source_ids": [
+        "src_tenet_about_2026"
+      ],
+      "supports": [
+        "geographies",
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -5880,6 +7362,28 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_tesorio_about_2026",
+      "url": "https://www.tesorio.com/about",
+      "title": "About Tesorio",
+      "publisher": "Tesorio",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_tesorio"
+      ],
+      "alias_source_ids": [
+        "src_tesorio_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "industries",
+        "products",
+        "services"
       ]
     },
     {
@@ -6036,6 +7540,29 @@
       ]
     },
     {
+      "id": "src_trinet_about_2026",
+      "url": "https://www.trinet.com/about-us",
+      "title": "About TriNet",
+      "publisher": "TriNet",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_trinet"
+      ],
+      "alias_source_ids": [
+        "src_trinet_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "industries",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_trinet_official",
       "url": "https://www.trinet.com/",
       "title": "TriNet official website",
@@ -6146,6 +7673,27 @@
       ]
     },
     {
+      "id": "src_vic_about_2026",
+      "url": "https://www.vic.ai/about-us",
+      "title": "About Vic.ai",
+      "publisher": "Vic.ai",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vic_ai"
+      ],
+      "alias_source_ids": [
+        "src_vic_about_2026"
+      ],
+      "supports": [
+        "industries",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_vic_ap_2026",
       "url": "https://www.vic.ai/solutions/centralize-ap-operations",
       "title": "Centralize AP Operations",
@@ -6163,6 +7711,25 @@
       "supports": [
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_vic_founding_2026",
+      "url": "https://www.vic.ai/blog/vicai-the-future-of-accounting",
+      "title": "Vic.ai Is Defining the Future of Accounting",
+      "publisher": "Vic.ai",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_vic_ai"
+      ],
+      "alias_source_ids": [
+        "src_vic_founding_2026"
+      ],
+      "supports": [
+        "founded_year"
       ]
     },
     {
@@ -6729,10 +8296,29 @@
       ]
     },
     {
+      "id": "src_yec_geography_2026",
+      "url": "https://yec.co/blog/yec-report-where-are-entrepreneurs-founding-new-companies/",
+      "title": "Where Are Entrepreneurs Founding New Companies?",
+      "publisher": "YEC",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_young_entrepreneur_council"
+      ],
+      "alias_source_ids": [
+        "src_yec_geography_2026"
+      ],
+      "supports": [
+        "geographies"
+      ]
+    },
+    {
       "id": "src_yec_membership_2026",
       "url": "https://yec.co/membership",
       "title": "YEC Membership",
-      "publisher": "Young Entrepreneur Council",
+      "publisher": "YEC",
       "source_type": "official-company",
       "published_date": null,
       "accessed_date": "2026-08-11",
@@ -6744,7 +8330,9 @@
         "src_yec_membership_2026"
       ],
       "supports": [
-        "services"
+        "services",
+        "industries",
+        "programs"
       ]
     },
     {
@@ -6763,6 +8351,28 @@
         "src_yec_terms_2026"
       ],
       "supports": [
+        "services"
+      ]
+    },
+    {
+      "id": "src_you_about_2026",
+      "url": "https://you.com/about",
+      "title": "About You.com",
+      "publisher": "You.com",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_you_com"
+      ],
+      "alias_source_ids": [
+        "src_you_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "industries",
+        "products",
         "services"
       ]
     },
@@ -6982,6 +8592,47 @@
         "products",
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_zrg_about_2026",
+      "url": "https://www.zrgpartners.com/about-us",
+      "title": "About ZRG",
+      "publisher": "ZRG",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zrg"
+      ],
+      "alias_source_ids": [
+        "src_zrg_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_zrg_locations_2026",
+      "url": "https://www.zrgpartners.com/about-us/global-locations",
+      "title": "ZRG Global Locations",
+      "publisher": "ZRG",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_zrg"
+      ],
+      "alias_source_ids": [
+        "src_zrg_locations_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
       ]
     },
     {

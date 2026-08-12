@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "cohort_id": "technology-law-firms",
   "entity_ids": [
@@ -1256,7 +1256,14 @@
       "categories": [
         "Law Firms"
       ],
-      "industries": [],
+      "industries": [
+        "Energy and Infrastructure",
+        "Healthcare and Life Sciences",
+        "Technology",
+        "Manufacturing",
+        "Consumer",
+        "Sports and Entertainment"
+      ],
       "geographies": [
         "United States"
       ],
@@ -1347,6 +1354,135 @@
             "src_foley-lardner_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_foley_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_corporate-counsel",
+          "field": "services",
+          "value": "corporate counsel",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_intellectual-property-counsel",
+          "field": "services",
+          "value": "intellectual property counsel",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_litigation",
+          "field": "services",
+          "value": "litigation",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_regulatory-counsel",
+          "field": "services",
+          "value": "regulatory counsel",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_transactions",
+          "field": "services",
+          "value": "transactions",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_services_tax-and-benefits-counsel",
+          "field": "services",
+          "value": "tax and benefits counsel",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_energy-and-infrastructure",
+          "field": "industries",
+          "value": "Energy and Infrastructure",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_healthcare-and-life-sciences",
+          "field": "industries",
+          "value": "Healthcare and Life Sciences",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_manufacturing",
+          "field": "industries",
+          "value": "Manufacturing",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_consumer",
+          "field": "industries",
+          "value": "Consumer",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_foley-lardner_industries_sports-and-entertainment",
+          "field": "industries",
+          "value": "Sports and Entertainment",
+          "source_ids": [
+            "src_foley_about_2026",
+            "src_foley_sectors_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -1368,11 +1504,45 @@
             "cxo_roles",
             "aliases"
           ]
+        },
+        {
+          "id": "src_foley_about_2026",
+          "url": "https://www.foley.com/about-us/",
+          "title": "About Foley & Lardner",
+          "publisher": "Foley & Lardner",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_foley_sectors_2026",
+          "url": "https://www.foley.com/sectors/",
+          "title": "Foley Sectors",
+          "publisher": "Foley & Lardner",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "services": [
+        "corporate counsel",
+        "intellectual property counsel",
+        "litigation",
+        "regulatory counsel",
+        "transactions",
+        "tax and benefits counsel"
+      ],
+      "products": [],
       "primary_category": "Law Firms",
       "secondary_categories": [],
       "provider_types": [
@@ -1382,10 +1552,27 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "decision-support"
+      ],
+      "topics": [
+        "corporate-governance",
+        "risk",
+        "dealmaking"
+      ],
       "audiences": [],
-      "classification_evidence": []
+      "classification_evidence": [
+        {
+          "url": "https://www.foley.com/about-us/",
+          "title": "About Foley & Lardner",
+          "supports": [
+            "topics",
+            "executive_needs"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_dla_piper",
@@ -1995,7 +2182,12 @@
       "categories": [
         "Law Firms"
       ],
-      "industries": [],
+      "industries": [
+        "Technology",
+        "Energy and Infrastructure",
+        "Finance",
+        "Life Sciences and HealthTech"
+      ],
       "geographies": [
         "United States"
       ],
@@ -2178,7 +2370,8 @@
           "field": "services",
           "value": "technology-company counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2187,7 +2380,8 @@
           "field": "services",
           "value": "venture financing counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2196,7 +2390,8 @@
           "field": "services",
           "value": "intellectual-property counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2205,7 +2400,8 @@
           "field": "services",
           "value": "talent counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2214,7 +2410,8 @@
           "field": "services",
           "value": "data-privacy counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2223,7 +2420,8 @@
           "field": "services",
           "value": "public-policy counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2232,7 +2430,8 @@
           "field": "services",
           "value": "corporate-governance counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2241,7 +2440,8 @@
           "field": "services",
           "value": "mergers and acquisitions counsel",
           "source_ids": [
-            "src_orrick_technology_2026"
+            "src_orrick_technology_2026",
+            "src_orrick_about_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -2460,6 +2660,69 @@
             "src_orrick_technology_2026"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_founded-year_1863",
+          "field": "founded_year",
+          "value": 1863,
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_headquarters_san-francisco-california-united-states",
+          "field": "headquarters",
+          "value": "San Francisco, California, United States",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_technology",
+          "field": "industries",
+          "value": "Technology",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_energy-and-infrastructure",
+          "field": "industries",
+          "value": "Energy and Infrastructure",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_finance",
+          "field": "industries",
+          "value": "Finance",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_orrick_industries_life-sciences-and-healthtech",
+          "field": "industries",
+          "value": "Life Sciences and HealthTech",
+          "source_ids": [
+            "src_orrick_about_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -2500,6 +2763,21 @@
             "technology_company_lawyers",
             "technology_markets",
             "countries_of_client_activity"
+          ]
+        },
+        {
+          "id": "src_orrick_about_2026",
+          "url": "https://www.orrick.com/en/About-Us",
+          "title": "About Orrick",
+          "publisher": "Orrick",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "headquarters",
+            "geographies",
+            "industries",
+            "services"
           ]
         }
       ],
@@ -2544,6 +2822,8 @@
         "Latin America",
         "Middle East"
       ],
+      "founded_year": 1863,
+      "headquarters": "San Francisco, California, United States",
       "products": [],
       "primary_category": "Law Firms",
       "secondary_categories": [],
@@ -2554,10 +2834,33 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "governance",
+        "risk-management",
+        "decision-support",
+        "fundraising"
+      ],
+      "topics": [
+        "corporate-governance",
+        "dealmaking",
+        "risk",
+        "venture-capital"
+      ],
+      "audiences": [
+        "founders",
+        "venture-capital-investors"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.orrick.com/en/About-Us",
+          "title": "About Orrick",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_oguz_law",

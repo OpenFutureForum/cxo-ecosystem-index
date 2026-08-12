@@ -7,6 +7,9 @@ export const write=async(p,v)=>{const f=path.join(root,p);await fs.mkdir(path.di
 export const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const entityId=name=>`ent_${slug(name).replaceAll('-','_')}`;
+const mergeUnique=(left=[],right=[])=>[...new Set([...left,...right])];
+const mergeSources=(left=[],right=[])=>{const byId=new Map();for(const source of [...left,...right]){const current=byId.get(source.id);byId.set(source.id,current?{...current,...source,supports:mergeUnique(current.supports,source.supports)}:source);}return [...byId.values()];};
+const mergeLayer=(left,right,arrayFields)=>{const merged={...left,...right};for(const field of arrayFields)if(Array.isArray(left?.[field])||Array.isArray(right?.[field]))merged[field]=mergeUnique(left?.[field],right?.[field]);if(arrayFields.includes('sources')&&(Array.isArray(left?.sources)||Array.isArray(right?.sources)))merged.sources=mergeSources(left?.sources,right?.sources);return merged;};
 const expandRecord=(item,batchDate)=>({
  id:item.id||entityId(item.name),name:item.name,slug:item.slug||slug(item.name),entity_type:item.entity_type||'Organization',description:item.description,website:item.website,
  cxo_roles:item.cxo_roles,categories:item.categories,industries:item.industries||[],geographies:item.geographies||['United States'],
@@ -21,9 +24,8 @@ export async function load(){
  const batches=await Promise.all(files.map(x=>readJSON(`data/entities/${x}`)));
  const expansionDir=path.join(root,'data/expansions');
  let expansions=[];try{const expansionFiles=(await fs.readdir(expansionDir)).filter(x=>x.endsWith('.json')).sort();for(const file of expansionFiles){const manifest=await readJSON(`data/expansions/${file}`);expansions.push(...manifest.entities.filter(item=>item.status==='added').map(item=>expandRecord(item,manifest.verified_date)));}}catch(error){if(error.code!=='ENOENT')throw error;}
- let enrichments=[];for(const file of ['data/enrichments.json','data/enrichments-p1.json']){try{enrichments.push(...await readJSON(file))}catch(error){if(error.code!=='ENOENT')throw error;}}const enrichmentById=new Map(enrichments.map(item=>[item.entity_id,item]));
- const classifications=await readJSON('data/classifications.json');
- const byEntity=new Map(classifications.map(x=>[x.entity_id,x]));
+ let enrichments=[];for(const file of ['data/enrichments.json','data/enrichments-p1.json','data/enrichments-p2.json']){try{enrichments.push(...await readJSON(file))}catch(error){if(error.code!=='ENOENT')throw error;}}const enrichmentById=new Map();for(const item of enrichments)enrichmentById.set(item.entity_id,mergeLayer(enrichmentById.get(item.entity_id),item,['services','products','programs','capabilities','industries','geographies','sources']));
+ let classifications=[];for(const file of ['data/classifications.json','data/classifications-p2.json']){try{classifications.push(...await readJSON(file))}catch(error){if(error.code!=='ENOENT')throw error;}}const byEntity=new Map();for(const item of classifications)byEntity.set(item.entity_id,mergeLayer(byEntity.get(item.entity_id),item,['community_formats','event_formats','intelligence_types','resource_types','executive_needs','topics','audiences','evidence']));classifications=[...byEntity.values()];
  const enrichedRecords=[...batches.flat(),...expansions].map(entity=>{const addition=enrichmentById.get(entity.id);if(!addition)return entity;const {entity_id:ignored,sources=[],...fields}=addition;return {...entity,...fields,services:[...new Set([...(entity.services||[]),...(fields.services||[])])],products:[...new Set([...(entity.products||[]),...(fields.products||[])])],sources:[...(entity.sources||[]),...sources]};});
  const entities=enrichedRecords.map(entity=>{
   const {entity_id:ignored,evidence=[],...extra}=byEntity.get(entity.id)||{};

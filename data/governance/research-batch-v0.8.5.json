@@ -1,0 +1,21 @@
+{
+  "dataset_version":"0.8.5",
+  "title":"Priority Profile Enrichment II",
+  "researched_date":"2026-08-11",
+  "selection_basis":"The recalculated 50-record P1 queue published by dataset v0.8.4.",
+  "record_count":50,
+  "semantic_classification_count":49,
+  "before_average_score":49.7,
+  "after_average_score":88.3,
+  "advanced_to_maintenance":45,
+  "retained_in_research":5,
+  "unresolved_entity_ids":["ent_indian_hills_advisors"],
+  "evidence_policy":"Official organization, product, history, location, legal, investor-relations, and first-party report pages were used. Unsupported founding, headquarters, geography, industry, and offering fields remain unknown.",
+  "entity_ids":[
+    "ent_armanino","ent_bny","ent_carta","ent_escalon","ent_first_citizens_bank","ent_foley_lardner","ent_insight_partners","ent_plaid","ent_protiviti","ent_servicenow",
+    "ent_altair_capital","ent_axari_technologies_inc","ent_capgemini","ent_cognizant","ent_harden","ent_microsoft","ent_rsm_us","ent_silicon_valley_bank","ent_slalom","ent_indian_hills_advisors",
+    "ent_blackline","ent_pilot","ent_puzzle","ent_rillet","ent_tenet_security","ent_bmo","ent_comerica","ent_orrick","ent_zrg","ent_15five",
+    "ent_airmdr","ent_anrok","ent_association_for_corporate_growth","ent_centific","ent_citizens_private_bank","ent_coupa","ent_deel","ent_deutsche_bank","ent_findem","ent_glean",
+    "ent_insperity","ent_lattice","ent_morgan_stanley","ent_pitchbook","ent_stifel","ent_tesorio","ent_trinet","ent_vic_ai","ent_you_com","ent_young_entrepreneur_council"
+  ]
+}

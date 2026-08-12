@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "schema_version": "1.2.0",
   "calculated_at": "2026-08-11",
   "market_maps": [
@@ -7,7 +7,7 @@
       "id": "cfo-technology",
       "title": "CFO Technology Market Map",
       "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 18,
       "known_count": 16,
@@ -123,7 +123,7 @@
       "id": "ai-security",
       "title": "AI Security Market Map",
       "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 9,
@@ -179,13 +179,14 @@
         {
           "id": "ai-exposure-governance",
           "name": "AI Exposure & Governance",
-          "count": 4,
-          "share": 0.3636,
+          "count": 5,
+          "share": 0.4545,
           "entity_ids": [
             "ent_adaptive_security",
             "ent_witnessai",
             "ent_axari_technologies_inc",
-            "ent_harden"
+            "ent_harden",
+            "ent_tenet_security"
           ]
         },
         {
@@ -235,7 +236,7 @@
       "id": "executive-communities",
       "title": "Executive Communities Market Map",
       "definition": "Membership, peer and founder organizations classified as Executive Communities.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 10,
@@ -342,7 +343,7 @@
       "id": "executive-search",
       "title": "Executive Search Market Map",
       "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 8,
       "known_count": 8,
@@ -428,7 +429,7 @@
       "id": "technology-law-firms",
       "title": "Technology Law Firm Landscape",
       "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 9,
       "known_count": 8,
@@ -491,13 +492,14 @@
         {
           "id": "governance",
           "name": "Governance",
-          "count": 5,
-          "share": 0.5556,
+          "count": 6,
+          "share": 0.6667,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_latham_watkins",
             "ent_cooley",
+            "ent_foley_lardner",
             "ent_orrick"
           ]
         }
@@ -526,7 +528,7 @@
       "id": "banking-capital",
       "title": "Banking & Capital Ecosystem Map",
       "definition": "Banks and investment banks organized by documented business capabilities.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 23,
       "known_count": 23,
@@ -554,9 +556,10 @@
         {
           "id": "venture-startup-banking",
           "name": "Venture & Startup Banking",
-          "count": 2,
-          "share": 0.087,
+          "count": 3,
+          "share": 0.1304,
           "entity_ids": [
+            "ent_first_citizens_bank",
             "ent_silicon_valley_bank",
             "ent_capital_ip_investment_partners"
           ]
@@ -575,12 +578,14 @@
         {
           "id": "treasury-payments",
           "name": "Treasury & Payments",
-          "count": 6,
-          "share": 0.2609,
+          "count": 8,
+          "share": 0.3478,
           "entity_ids": [
             "ent_bank_of_america",
             "ent_jpmorgan",
             "ent_capital_one",
+            "ent_first_citizens_bank",
+            "ent_silicon_valley_bank",
             "ent_wells_fargo",
             "ent_comerica",
             "ent_bny"
@@ -671,7 +676,7 @@
       "id": "chro-technology",
       "title": "CHRO Technology Market Map",
       "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 10,
       "known_count": 10,
@@ -681,9 +686,10 @@
         {
           "id": "hris-workforce-management",
           "name": "HRIS & Workforce Management",
-          "count": 2,
-          "share": 0.2,
+          "count": 3,
+          "share": 0.3,
           "entity_ids": [
+            "ent_escalon",
             "ent_rippling",
             "ent_transform"
           ]
@@ -789,7 +795,7 @@
       "id": "enterprise-ai",
       "title": "Enterprise AI Market Map",
       "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 43,
       "known_count": 37,
@@ -809,10 +815,11 @@
         {
           "id": "data-ai-platforms",
           "name": "Data & AI Platforms",
-          "count": 5,
-          "share": 0.1163,
+          "count": 6,
+          "share": 0.1395,
           "entity_ids": [
             "ent_adobe",
+            "ent_cognizant",
             "ent_findem",
             "ent_vic_ai",
             "ent_databricks",
@@ -887,8 +894,8 @@
         {
           "id": "domain-specific-ai",
           "name": "Domain-Specific AI",
-          "count": 19,
-          "share": 0.4419,
+          "count": 21,
+          "share": 0.4884,
           "entity_ids": [
             "ent_oracle",
             "ent_sap",
@@ -899,9 +906,11 @@
             "ent_harvey",
             "ent_capgemini",
             "ent_findem",
+            "ent_vic_ai",
             "ent_zeni",
             "ent_microsoft",
             "ent_intel",
+            "ent_servicenow",
             "ent_you_com",
             "ent_witnessai",
             "ent_resemble_ai",
@@ -980,7 +989,7 @@
     {
       "comparison_id": "cfo-spend-platforms",
       "title": "CFO Spend & Finance Platforms",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_ramp",
@@ -1115,7 +1124,7 @@
     {
       "comparison_id": "accounting-close-systems",
       "title": "Accounting, Close & Finance Systems",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_blackline",
@@ -1249,7 +1258,7 @@
     {
       "comparison_id": "executive-communities",
       "title": "Executive Communities",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_vistage",
@@ -1430,7 +1439,7 @@
     {
       "comparison_id": "executive-search-firms",
       "title": "Executive Search Firms",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_korn_ferry",
@@ -1620,7 +1629,15 @@
               "Singapore"
             ],
             "ent_zrg": [
-              "United States"
+              "United States",
+              "New York",
+              "Boston",
+              "Austin",
+              "Los Angeles",
+              "Chicago",
+              "Washington DC",
+              "London",
+              "Singapore"
             ]
           }
         }
@@ -1629,7 +1646,7 @@
     {
       "comparison_id": "technology-law-firms",
       "title": "Technology Law Firms",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_wilson_sonsini",
@@ -1794,7 +1811,7 @@
     {
       "comparison_id": "technology-venture-banking",
       "title": "Technology & Venture Banking",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "generated_at": "2026-08-11",
       "entity_ids": [
         "ent_silicon_valley_bank",
@@ -1849,7 +1866,7 @@
           "fact_field": "startup",
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
-            "ent_silicon_valley_bank": "Not verified",
+            "ent_silicon_valley_bank": "Verified",
             "ent_first_citizens_bank": "Not verified",
             "ent_comerica": "Not verified",
             "ent_stifel": "Not verified",
@@ -1864,7 +1881,7 @@
           "fact_field": "venture",
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
-            "ent_silicon_valley_bank": "Not verified",
+            "ent_silicon_valley_bank": "Verified",
             "ent_first_citizens_bank": "Not verified",
             "ent_comerica": "Not verified",
             "ent_stifel": "Not verified",
@@ -1894,8 +1911,8 @@
           "fact_field": "treasury",
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
-            "ent_silicon_valley_bank": "Not verified",
-            "ent_first_citizens_bank": "Not verified",
+            "ent_silicon_valley_bank": "Verified",
+            "ent_first_citizens_bank": "Verified",
             "ent_comerica": "Verified",
             "ent_stifel": "Not verified",
             "ent_bmo": "Not verified",
@@ -1924,7 +1941,7 @@
           "fact_field": "private banking",
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
-            "ent_silicon_valley_bank": "Not verified",
+            "ent_silicon_valley_bank": "Verified",
             "ent_first_citizens_bank": "Not verified",
             "ent_comerica": "Not verified",
             "ent_stifel": "Not verified",
@@ -1940,7 +1957,9 @@
           "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
           "values": {
             "ent_silicon_valley_bank": [
-              "United States"
+              "United States",
+              "Silicon Valley",
+              "San Francisco Bay Area"
             ],
             "ent_first_citizens_bank": [
               "United States"
@@ -1949,7 +1968,9 @@
               "United States"
             ],
             "ent_stifel": [
-              "United States"
+              "United States",
+              "New York",
+              "London"
             ],
             "ent_bmo": [
               "United States"
@@ -1969,7 +1990,7 @@
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "metrics": [
         {
@@ -2018,7 +2039,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2062,7 +2083,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2159,7 +2180,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2227,7 +2248,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2299,7 +2320,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2341,7 +2362,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2377,7 +2398,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.4",
+          "dataset_version": "0.8.5",
           "schema_version": "1.2.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
@@ -2586,11 +2607,11 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
-      "known_count": 3,
-      "unknown_count": 191,
-      "coverage": 0.0155,
+      "known_count": 31,
+      "unknown_count": 163,
+      "coverage": 0.1598,
       "status": "insufficient coverage",
       "method": "Only source-supported founding_year values are eligible.",
       "source_fields": [
@@ -2794,7 +2815,35 @@
       ],
       "entity_ids": [
         "ent_young_presidents_organization",
+        "ent_first_citizens_bank",
+        "ent_silicon_valley_bank",
+        "ent_bmo",
+        "ent_morgan_stanley",
+        "ent_comerica",
+        "ent_stifel",
+        "ent_deutsche_bank",
+        "ent_bny",
+        "ent_insight_partners",
+        "ent_orrick",
+        "ent_rsm_us",
+        "ent_escalon",
+        "ent_slalom",
+        "ent_cognizant",
+        "ent_deel",
+        "ent_trinet",
+        "ent_insperity",
+        "ent_15five",
+        "ent_tesorio",
+        "ent_vic_ai",
         "ent_brex",
+        "ent_anrok",
+        "ent_blackline",
+        "ent_pilot",
+        "ent_carta",
+        "ent_microsoft",
+        "ent_you_com",
+        "ent_pitchbook",
+        "ent_association_for_corporate_growth",
         "ent_agentic_fabriq"
       ],
       "unknown_entity_ids": [
@@ -2849,20 +2898,11 @@
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
         "ent_capital_one",
-        "ent_first_citizens_bank",
-        "ent_silicon_valley_bank",
         "ent_wells_fargo",
         "ent_citizens_private_bank",
-        "ent_bmo",
-        "ent_morgan_stanley",
-        "ent_comerica",
-        "ent_stifel",
-        "ent_deutsche_bank",
-        "ent_bny",
         "ent_bernstein",
         "ent_leader_bank",
         "ent_northwestern_mutual",
-        "ent_insight_partners",
         "ent_next47",
         "ent_westcap",
         "ent_one_way_ventures",
@@ -2875,44 +2915,29 @@
         "ent_foley_lardner",
         "ent_dla_piper",
         "ent_simmons_simmons",
-        "ent_orrick",
         "ent_harvey",
-        "ent_rsm_us",
         "ent_cfgi",
         "ent_armanino",
         "ent_protiviti",
         "ent_frank_rimerman_co",
         "ent_burkland",
         "ent_danforth_advisors",
-        "ent_escalon",
         "ent_ghj",
         "ent_era_group",
         "ent_capgemini",
-        "ent_slalom",
-        "ent_cognizant",
         "ent_zrg",
         "ent_robert_half",
         "ent_findem",
         "ent_rippling",
-        "ent_deel",
         "ent_lattice",
-        "ent_trinet",
-        "ent_insperity",
-        "ent_15five",
         "ent_optimhire",
         "ent_coupa",
         "ent_puzzle",
-        "ent_tesorio",
-        "ent_vic_ai",
         "ent_ramp",
         "ent_plaid",
-        "ent_anrok",
-        "ent_blackline",
-        "ent_pilot",
         "ent_rillet",
         "ent_zenskar",
         "ent_bill",
-        "ent_carta",
         "ent_mercury",
         "ent_rho",
         "ent_payzen",
@@ -2923,7 +2948,6 @@
         "ent_pulley",
         "ent_hiive",
         "ent_sharevault",
-        "ent_microsoft",
         "ent_nvidia",
         "ent_intel",
         "ent_databricks",
@@ -2932,7 +2956,6 @@
         "ent_glean",
         "ent_servicenow",
         "ent_centific",
-        "ent_you_com",
         "ent_granica",
         "ent_gumloop",
         "ent_compose_ai",
@@ -2943,9 +2966,7 @@
         "ent_resemble_ai",
         "ent_lockton",
         "ent_heffernan_insurance_brokers",
-        "ent_pitchbook",
         "ent_hfs_research",
-        "ent_association_for_corporate_growth",
         "ent_young_entrepreneur_council",
         "ent_opal_group",
         "ent_hacker_dojo",
@@ -2995,11 +3016,11 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
-      "known_count": 3,
-      "unknown_count": 191,
-      "coverage": 0.0155,
+      "known_count": 27,
+      "unknown_count": 167,
+      "coverage": 0.1392,
       "status": "insufficient coverage",
       "method": "Headquarters is kept separate from office and service geography; only sourced headquarters fields qualify.",
       "source_fields": [
@@ -3202,8 +3223,32 @@
         "ent_curated_connections"
       ],
       "entity_ids": [
+        "ent_first_citizens_bank",
+        "ent_silicon_valley_bank",
+        "ent_citizens_private_bank",
+        "ent_bmo",
+        "ent_morgan_stanley",
+        "ent_comerica",
+        "ent_stifel",
+        "ent_deutsche_bank",
+        "ent_bny",
+        "ent_insight_partners",
+        "ent_orrick",
+        "ent_rsm_us",
+        "ent_slalom",
+        "ent_zrg",
+        "ent_lattice",
+        "ent_insperity",
+        "ent_coupa",
         "ent_ramp",
         "ent_brex",
+        "ent_blackline",
+        "ent_pilot",
+        "ent_carta",
+        "ent_microsoft",
+        "ent_glean",
+        "ent_centific",
+        "ent_pitchbook",
         "ent_agentic_fabriq"
       ],
       "unknown_entity_ids": [
@@ -3259,20 +3304,10 @@
         "ent_palo_alto_networks",
         "ent_harvard_business_school_exec_ed",
         "ent_capital_one",
-        "ent_first_citizens_bank",
-        "ent_silicon_valley_bank",
         "ent_wells_fargo",
-        "ent_citizens_private_bank",
-        "ent_bmo",
-        "ent_morgan_stanley",
-        "ent_comerica",
-        "ent_stifel",
-        "ent_deutsche_bank",
-        "ent_bny",
         "ent_bernstein",
         "ent_leader_bank",
         "ent_northwestern_mutual",
-        "ent_insight_partners",
         "ent_next47",
         "ent_westcap",
         "ent_one_way_ventures",
@@ -3285,9 +3320,7 @@
         "ent_foley_lardner",
         "ent_dla_piper",
         "ent_simmons_simmons",
-        "ent_orrick",
         "ent_harvey",
-        "ent_rsm_us",
         "ent_cfgi",
         "ent_armanino",
         "ent_protiviti",
@@ -3298,30 +3331,22 @@
         "ent_ghj",
         "ent_era_group",
         "ent_capgemini",
-        "ent_slalom",
         "ent_cognizant",
-        "ent_zrg",
         "ent_robert_half",
         "ent_findem",
         "ent_rippling",
         "ent_deel",
-        "ent_lattice",
         "ent_trinet",
-        "ent_insperity",
         "ent_15five",
         "ent_optimhire",
-        "ent_coupa",
         "ent_puzzle",
         "ent_tesorio",
         "ent_vic_ai",
         "ent_plaid",
         "ent_anrok",
-        "ent_blackline",
-        "ent_pilot",
         "ent_rillet",
         "ent_zenskar",
         "ent_bill",
-        "ent_carta",
         "ent_mercury",
         "ent_rho",
         "ent_payzen",
@@ -3332,15 +3357,12 @@
         "ent_pulley",
         "ent_hiive",
         "ent_sharevault",
-        "ent_microsoft",
         "ent_nvidia",
         "ent_intel",
         "ent_databricks",
         "ent_writer",
         "ent_scale_ai",
-        "ent_glean",
         "ent_servicenow",
-        "ent_centific",
         "ent_you_com",
         "ent_granica",
         "ent_gumloop",
@@ -3352,7 +3374,6 @@
         "ent_resemble_ai",
         "ent_lockton",
         "ent_heffernan_insurance_brokers",
-        "ent_pitchbook",
         "ent_hfs_research",
         "ent_association_for_corporate_growth",
         "ent_young_entrepreneur_council",
@@ -3404,7 +3425,7 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "known_count": 1,
       "unknown_count": 193,
@@ -3813,7 +3834,7 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
       "exactly_one": 30,
@@ -4069,21 +4090,21 @@
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
-      "total_facts": 2578,
-      "average_facts_per_entity": 13.29,
+      "total_facts": 3107,
+      "average_facts_per_entity": 16.02,
       "median_facts_per_entity": 9,
       "entities_with_3_plus": 178,
       "entities_with_5_plus": 169,
-      "entities_with_10_plus": 85,
-      "entities_with_20_plus": 31,
+      "entities_with_10_plus": 95,
+      "entities_with_20_plus": 64,
       "entities_needing_enrichment": 25,
       "verified_entities": 191,
       "verified_within_12_months": 194,
-      "missing_headquarters": 191,
-      "missing_founding_year": 190,
+      "missing_headquarters": 167,
+      "missing_founding_year": 162,
       "conflicting_facts": 0,
       "stale_facts": 0,
       "primary_source_entities": 194,
@@ -4099,15 +4120,15 @@
         ],
         [
           "6–10",
-          84
+          69
         ],
         [
           "11–20",
-          54
+          37
         ],
         [
           "20+",
-          31
+          64
         ]
       ],
       "source_fields": [

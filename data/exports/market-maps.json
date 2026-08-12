@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.8.4",
+  "dataset_version": "0.8.5",
   "calculated_at": "2026-08-11",
   "market_maps": [
     {
       "id": "cfo-technology",
       "title": "CFO Technology Market Map",
       "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 18,
       "known_count": 16,
@@ -122,7 +122,7 @@
       "id": "ai-security",
       "title": "AI Security Market Map",
       "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 9,
@@ -178,13 +178,14 @@
         {
           "id": "ai-exposure-governance",
           "name": "AI Exposure & Governance",
-          "count": 4,
-          "share": 0.3636,
+          "count": 5,
+          "share": 0.4545,
           "entity_ids": [
             "ent_adaptive_security",
             "ent_witnessai",
             "ent_axari_technologies_inc",
-            "ent_harden"
+            "ent_harden",
+            "ent_tenet_security"
           ]
         },
         {
@@ -234,7 +235,7 @@
       "id": "executive-communities",
       "title": "Executive Communities Market Map",
       "definition": "Membership, peer and founder organizations classified as Executive Communities.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 10,
@@ -341,7 +342,7 @@
       "id": "executive-search",
       "title": "Executive Search Market Map",
       "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 8,
       "known_count": 8,
@@ -427,7 +428,7 @@
       "id": "technology-law-firms",
       "title": "Technology Law Firm Landscape",
       "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 9,
       "known_count": 8,
@@ -490,13 +491,14 @@
         {
           "id": "governance",
           "name": "Governance",
-          "count": 5,
-          "share": 0.5556,
+          "count": 6,
+          "share": 0.6667,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_latham_watkins",
             "ent_cooley",
+            "ent_foley_lardner",
             "ent_orrick"
           ]
         }
@@ -525,7 +527,7 @@
       "id": "banking-capital",
       "title": "Banking & Capital Ecosystem Map",
       "definition": "Banks and investment banks organized by documented business capabilities.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 23,
       "known_count": 23,
@@ -553,9 +555,10 @@
         {
           "id": "venture-startup-banking",
           "name": "Venture & Startup Banking",
-          "count": 2,
-          "share": 0.087,
+          "count": 3,
+          "share": 0.1304,
           "entity_ids": [
+            "ent_first_citizens_bank",
             "ent_silicon_valley_bank",
             "ent_capital_ip_investment_partners"
           ]
@@ -574,12 +577,14 @@
         {
           "id": "treasury-payments",
           "name": "Treasury & Payments",
-          "count": 6,
-          "share": 0.2609,
+          "count": 8,
+          "share": 0.3478,
           "entity_ids": [
             "ent_bank_of_america",
             "ent_jpmorgan",
             "ent_capital_one",
+            "ent_first_citizens_bank",
+            "ent_silicon_valley_bank",
             "ent_wells_fargo",
             "ent_comerica",
             "ent_bny"
@@ -670,7 +675,7 @@
       "id": "chro-technology",
       "title": "CHRO Technology Market Map",
       "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 10,
       "known_count": 10,
@@ -680,9 +685,10 @@
         {
           "id": "hris-workforce-management",
           "name": "HRIS & Workforce Management",
-          "count": 2,
-          "share": 0.2,
+          "count": 3,
+          "share": 0.3,
           "entity_ids": [
+            "ent_escalon",
             "ent_rippling",
             "ent_transform"
           ]
@@ -788,7 +794,7 @@
       "id": "enterprise-ai",
       "title": "Enterprise AI Market Map",
       "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
-      "dataset_version": "0.8.4",
+      "dataset_version": "0.8.5",
       "calculated_at": "2026-08-11",
       "total_entities": 43,
       "known_count": 37,
@@ -808,10 +814,11 @@
         {
           "id": "data-ai-platforms",
           "name": "Data & AI Platforms",
-          "count": 5,
-          "share": 0.1163,
+          "count": 6,
+          "share": 0.1395,
           "entity_ids": [
             "ent_adobe",
+            "ent_cognizant",
             "ent_findem",
             "ent_vic_ai",
             "ent_databricks",
@@ -886,8 +893,8 @@
         {
           "id": "domain-specific-ai",
           "name": "Domain-Specific AI",
-          "count": 19,
-          "share": 0.4419,
+          "count": 21,
+          "share": 0.4884,
           "entity_ids": [
             "ent_oracle",
             "ent_sap",
@@ -898,9 +905,11 @@
             "ent_harvey",
             "ent_capgemini",
             "ent_findem",
+            "ent_vic_ai",
             "ent_zeni",
             "ent_microsoft",
             "ent_intel",
+            "ent_servicenow",
             "ent_you_com",
             "ent_witnessai",
             "ent_resemble_ai",
