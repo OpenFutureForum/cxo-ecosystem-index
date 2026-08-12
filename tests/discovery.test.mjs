@@ -76,6 +76,8 @@ test('robots and Data authority hub expose current canonical resources',async()=
  assert.match(dataPage,/data\/search-index\.[a-f0-9]{10}\.json/);
  for(const property of ['DataCatalog','Dataset','DataDownload','includedInDataCatalog','isBasedOn','sameAs'])assert.ok(dataPage.includes(`\"${property}\"`),`Data structured data missing ${property}`);
  assert.ok(dataPage.includes('CITATION.cff'));
+ const roleMappings=JSON.parse(await fs.readFile(path.join(docs,'data/role-mappings.json'),'utf8'));
+ assert.equal(roleMappings.dataset_version,manifest.dataset_version);
 });
 
 test('Search Console handoff is explicit and does not claim submission',async()=>{
