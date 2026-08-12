@@ -7,6 +7,9 @@ import {root} from './lib.mjs';
 const base=(process.env.BASE_URL||'https://openfutureforum.github.io/cxo-ecosystem-index/').replace(/\/?$/,'/');
 const expectedPath=path.resolve(root,process.env.EXPECTED_MANIFEST||'docs/data/build-manifest.json');
 const expected=JSON.parse(await fs.readFile(expectedPath,'utf8'));
+const expectedDecisionTools=JSON.parse(await fs.readFile(path.join(root,'docs/data/decision-tools.json'),'utf8'));
+const expectedAiGovernance=expectedDecisionTools.find(item=>item.id==='ai-governance-security');
+if(!expectedAiGovernance)throw new Error('expected ai-governance-security decision tool is missing');
 const expectedCommit=(process.env.GITHUB_SHA||process.env.BUILD_COMMIT||execFileSync('git',['rev-parse','HEAD'],{cwd:root,encoding:'utf8'}).trim()).slice(0,40);
 const wait=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const fetchText=async endpoint=>{const response=await fetch(`${base}${endpoint}`,{cache:'no-store',headers:{'cache-control':'no-cache'}});if(!response.ok)throw new Error(`HTTP ${response.status}`);return response.text();};
@@ -41,7 +44,9 @@ const checks=[
  ['intelligence/cfo-technology.html',html=>html.includes('<b>Dataset snapshot:</b>')&&html.includes('Category distribution')],
  ['intelligence/compare-cfo-spend-platforms.html',html=>html.includes('CFO Spend &amp; Finance Platforms')&&html.includes('<table>')],
  ['intelligence/ai-capability.html',html=>html.includes('AI Capability')&&html.includes('<meta name="robots" content="noindex,follow">')],
- ['intelligence/ai-governance-security.html',html=>html.includes('EXPLORATORY EVIDENCE VIEW')&&html.includes('COVERAGE-LIMITED RESEARCH')&&html.includes('Unknown records')&&html.includes('<meta name="robots" content="noindex,follow">')&&!html.includes('FAQPage')],
+ ['intelligence/ai-governance-security.html',html=>expectedAiGovernance.headline_eligible
+  ?html.includes('EVIDENCE-BACKED DECISION TOOL')&&html.includes('DIRECT ANSWER')&&html.includes('Unknown records')&&!html.includes('noindex,follow')&&html.includes('FAQPage')
+  :html.includes('EXPLORATORY EVIDENCE VIEW')&&html.includes('COVERAGE-LIMITED RESEARCH')&&html.includes('Unknown records')&&html.includes('<meta name="robots" content="noindex,follow">')&&!html.includes('FAQPage')],
  ['intelligence/',html=>html.includes('Decision-ready tools')&&html.includes('Coverage-limited research')&&html.includes('Publication gate')],
  ['research.html',html=>html.includes('Executive decision resources')&&html.includes('CISO GUIDE')&&html.includes('CEO GUIDE')&&html.includes('CHRO GUIDE')&&html.includes('Board GUIDE')],
  ['entities/chameleon-ventures.html',html=>html.includes('<dt>Geography evidence status</dt><dd>unknown</dd>')&&html.includes('<dt>Operating geography</dt><dd>Not verified</dd>')],
