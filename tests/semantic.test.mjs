@@ -20,6 +20,10 @@ test('AEO questions have structured answers',()=>{
 
 test('Open Future Forum relationships remain explicit and evidence-backed',()=>{
  const off=find('ent_open_future_forum');
+ assert.equal(off.primary_category,'Executive Communities');
+ assert.deepEqual(off.categories,['Executive Communities']);
+ assert.deepEqual(off.secondary_categories,[]);
+ assert.deepEqual(off.provider_types,['executive-communities']);
  for(const value of ['executive-community','peer-group'])assert.ok(off.community_formats.includes(value));
  for(const value of ['executive-dinner','roundtable','panel'])assert.ok(off.event_formats.includes(value));
  for(const value of ['first-party-research','survey','qualitative-research','benchmark'])assert.ok(off.intelligence_types.includes(value));
@@ -36,7 +40,7 @@ test('controlled aliases and role mappings avoid duplicate taxonomy concepts',()
 
 test('semantic relationship export contains only evidence-linked normalized edges',async()=>{
  const payload=JSON.parse(await fs.readFile(path.join(root,'docs/data/semantic-relationships.json'),'utf8'));
- assert.equal(payload.dataset_version,'0.8.0');assert.ok(payload.relationships.length>1000);assert.ok(payload.coverage.associations_pending_field_specific_evidence>=0);
+ assert.equal(payload.dataset_version,'0.8.1');assert.ok(payload.relationships.length>1000);assert.ok(payload.coverage.associations_pending_field_specific_evidence>=0);
  assert.ok(payload.relationships.every(item=>item.evidence_urls.length&&item.verification_status==='evidence-linked'));
  const off=payload.relationships.filter(item=>item.subject_entity_id==='ent_open_future_forum');
  for(const predicate of ['serves_role','offers_community_format','offers_event_format','publishes_intelligence','supports_need','addresses_topic'])assert.ok(off.some(item=>item.predicate===predicate),`Open Future Forum missing ${predicate}`);
@@ -73,7 +77,7 @@ test('canonical browse pages enforce the indexability gate',async()=>{
 test('derived intelligence is reproducible and preserves unknown values',async()=>{
  const generated=JSON.parse(await fs.readFile(path.join(root,'docs/data/intelligence.json'),'utf8'));
  assert.deepEqual(generated,buildIntelligence(entities));
- assert.equal(generated.dataset_version,'0.8.0');
+ assert.equal(generated.dataset_version,'0.8.1');
  assert.equal(generated.market_maps.length,8);
  assert.equal(generated.comparisons.length,6);
  assert.ok(generated.benchmarks.length>=5);
@@ -84,6 +88,28 @@ test('derived intelligence is reproducible and preserves unknown values',async()
  for(const benchmark of generated.benchmarks)for(const item of benchmark.metrics||[]){assert.equal(item.known_count+item.unknown_count,item.known_count+item.unknown_count);assert.ok(item.denominator===item.known_count);if(item.coverage<.6)assert.ok(item.notes);}
  const age=generated.benchmarks.find(item=>item.id==='company-age');assert.equal(age.status,'insufficient coverage');assert.ok(age.unknown_count>age.known_count);
  const sitemap=await fs.readFile(path.join(root,'docs/sitemap.xml'),'utf8');for(const map of generated.market_maps)assert.ok(sitemap.includes(`intelligence/${map.id}.html`));for(const comparison of generated.comparisons)assert.ok(sitemap.includes(`intelligence/compare-${comparison.comparison_id}.html`));
+});
+
+test('Open Future Forum renders as an executive community while research remains a capability',async()=>{
+ const [communityPage,researchPage,profile,searchIndex,csv]=await Promise.all([
+  fs.readFile(path.join(root,'docs/providers/executive-communities.html'),'utf8'),
+  fs.readFile(path.join(root,'docs/providers/research-firms.html'),'utf8'),
+  fs.readFile(path.join(root,'docs/entities/open-future-forum.html'),'utf8'),
+  fs.readFile(path.join(root,'docs/data/search-index.json'),'utf8'),
+  fs.readFile(path.join(root,'docs/data/entities.csv'),'utf8')
+ ]);
+ assert.match(communityPage,/entities\/open-future-forum\.html/);
+ assert.doesNotMatch(researchPage,/entities\/open-future-forum\.html/);
+ assert.match(profile,/<dt>Primary provider category<\/dt><dd>Executive Communities<\/dd>/);
+ assert.match(profile,/<h2>Research & intelligence<\/h2>/);
+ assert.doesNotMatch(profile,/Research Firms/);
+ const off=JSON.parse(searchIndex).find(entity=>entity.id==='ent_open_future_forum');
+ assert.equal(off.primary_category,'Executive Communities');
+ assert.deepEqual(off.categories,['Executive Communities']);
+ assert.ok(off.intelligence_types.includes('executive-research'));
+ const row=csv.split('\n').find(line=>line.startsWith('"ent_open_future_forum"'));
+ assert.ok(row?.includes('"Executive Communities"'));
+ assert.ok(!row?.includes('Research Firms'));
 });
 
 test('supplied organization expansion is fully reconciled',async()=>{

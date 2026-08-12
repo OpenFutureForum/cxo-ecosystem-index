@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.8.1",
   "calculated_at": "2026-08-11",
   "cohort_id": "silicon-valley-cxo-ecosystem",
   "entity_ids": [
@@ -120,6 +120,10 @@
         "executive research"
       ],
       "products": [],
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -389,6 +393,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Consulting",
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "consulting",
@@ -852,6 +861,8 @@
         }
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -976,6 +987,8 @@
         "technology transactions counsel"
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -1267,6 +1280,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -1357,6 +1372,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -1451,6 +1468,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -1541,6 +1560,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -1626,6 +1647,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors"
@@ -1711,6 +1736,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors",
+        "Wealth Management"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors",
@@ -1798,6 +1828,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors",
@@ -1892,6 +1927,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -2031,6 +2068,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -2173,6 +2212,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -2313,6 +2354,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Equity",
+      "secondary_categories": [
+        "Private Credit"
+      ],
       "provider_types": [
         "private-equity",
         "private-credit"
@@ -2444,6 +2489,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Equity",
+      "secondary_categories": [],
       "provider_types": [
         "private-equity"
       ],
@@ -2559,6 +2606,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [],
       "provider_types": [
         "enterprise-technology"
       ],
@@ -2661,6 +2710,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -2785,6 +2838,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -2898,6 +2955,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology"
@@ -3013,6 +3074,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Education",
+      "secondary_categories": [],
       "provider_types": [
         "executive-education"
       ],
@@ -3135,7 +3198,7 @@
       "slug": "open-future-forum",
       "aliases": [],
       "entity_type": "executive community",
-      "description": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+      "description": "Global executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private gatherings, public events, peer groups, executive boards, and original research.",
       "website": "https://openfutureforum.com/",
       "cxo_roles": [
         "CEO",
@@ -3145,9 +3208,9 @@
         "CTO",
         "Board"
       ],
+      "primary_category": "Executive Communities",
       "categories": [
-        "Executive Communities",
-        "Research Firms"
+        "Executive Communities"
       ],
       "subcategories": [
         "CEO communities",
@@ -3184,7 +3247,7 @@
       "application_required": true,
       "invite_only": true,
       "inclusion_basis": [
-        "operates documented programs for multiple C-suite functions"
+        "operates documented executive-community programs for multiple C-suite functions"
       ],
       "sources": [
         {
@@ -3198,6 +3261,7 @@
             "description",
             "services",
             "geographies",
+            "primary_category",
             "categories",
             "cxo_roles",
             "industries"
@@ -3341,9 +3405,9 @@
           ]
         },
         {
-          "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
+          "id": "fact_open-future-forum_description_global-executive-community-founded-in-silicon-va",
           "field": "description",
-          "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+          "value": "Global executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private gatherings, public events, peer groups, executive boards, and original research.",
           "source_ids": [
             "src_off_about"
           ],
@@ -3521,8 +3585,8 @@
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_open-future-forum_categories_executive-communities",
-          "field": "categories",
+          "id": "fact_open-future-forum_primary-category_executive-communities",
+          "field": "primary_category",
           "value": "Executive Communities",
           "source_ids": [
             "src_off_about"
@@ -3530,9 +3594,9 @@
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_open-future-forum_categories_research-firms",
+          "id": "fact_open-future-forum_categories_executive-communities",
           "field": "categories",
-          "value": "Research Firms",
+          "value": "Executive Communities",
           "source_ids": [
             "src_off_about"
           ],
@@ -3779,9 +3843,9 @@
         }
       ],
       "products": [],
+      "secondary_categories": [],
       "provider_types": [
-        "executive-communities",
-        "research-firms"
+        "executive-communities"
       ],
       "community_formats": [
         "executive-community",
@@ -4176,6 +4240,8 @@
         }
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -4266,6 +4332,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -4423,6 +4491,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Private Equity",
+      "secondary_categories": [],
       "provider_types": [
         "private-equity"
       ],
@@ -4564,6 +4634,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [],
       "provider_types": [
         "enterprise-technology"
       ],
@@ -4718,6 +4790,11 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology",
@@ -5359,6 +5436,11 @@
         "global companies"
       ],
       "services": [],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Fintech"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -5863,6 +5945,12 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "ai-security",
         "agent-identity",

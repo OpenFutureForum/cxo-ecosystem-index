@@ -9,15 +9,15 @@ Open-source intelligence on the companies, communities, capital providers, advis
 
 | Measure | Current value |
 |---|---:|
-| Release | 0.8.0 |
-| Entity schema | 3.0.0 |
+| Release | 0.8.1 |
+| Entity schema | 3.1.0 |
 | Canonical organizations | 194 |
 | Sourced facts | 2,079 |
 | Canonical sources | 222 |
 | Sourced relationships | 3 |
 | Derived reciprocal relationships | 3 |
 | Derived metrics | 72 |
-| Tests | 28 |
+| Tests | 29 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.
@@ -61,9 +61,9 @@ The CXO Ecosystem Index maps organizations across several independent dimensions
 - leadership priority or topic addressed
 - industry and geography
 
-These dimensions separate what an organization is from whom it serves, what it offers, what it publishes, and which documented needs or topics it addresses. Multi-category organizations retain one canonical record. Missing values remain unknown rather than being inferred.
+These dimensions separate what an organization is from whom it serves, what it offers, what it publishes, and which documented needs or topics it addresses. Every entity exposes one primary provider category; other provider categories and capabilities remain separate. Multi-category organizations retain one canonical record. Missing values remain unknown rather than being inferred.
 
-Dataset v0.8.0 also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
+Dataset v0.8.1 also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
 
 ## Local verification
 

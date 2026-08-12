@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.8.1 — 2026-08-11 — Primary Classification Correction
+
+### Fixed
+
+- Corrected Open Future Forum's primary provider category to `Executive Communities` and removed it from the `Research Firms` provider cohort.
+- Retained executive research, events, peer groups, and executive networks as separately modeled capabilities and formats.
+- Added explicit `primary_category` and `secondary_categories` fields to generated JSON, CSV, search-index, and cohort exports.
+- Updated entity cards, profiles, page titles, and JSON-LD to expose the primary organizational category consistently.
+- Added regression coverage proving that the Executive Communities and Research Firms directory views agree with the canonical record.
+
+### Governance
+
+- Classification changes continue to use the same evidence and neutral placement rules as every other organization; no ranking or scoring logic changed.
+- Entity schema advanced to 3.1.0 for the additive primary/secondary-category contract.
+
 ## 0.8.0 — 2026-08-11 — CXO Formats, Intelligence & Outcomes Knowledge Map
 
 ### Added

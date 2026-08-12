@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.8.1",
   "calculated_at": "2026-08-11",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -95,6 +95,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -221,6 +225,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -352,6 +360,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -476,6 +488,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -590,6 +606,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology",
@@ -719,6 +740,11 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology",
@@ -956,6 +982,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Legal Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "legal-technology",
         "artificial-intelligence"
@@ -1130,6 +1160,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -1286,6 +1322,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -1441,6 +1482,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -1566,6 +1612,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Recruiting",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "hr-technology",
         "recruiting",
@@ -1691,6 +1742,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "artificial-intelligence",
@@ -1826,6 +1882,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting",
@@ -2001,6 +2062,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence",
@@ -2137,6 +2204,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence",
@@ -2262,6 +2334,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "enterprise-technology",
         "ai-infrastructure"
@@ -2396,6 +2472,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence",
@@ -2521,6 +2602,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -2645,6 +2730,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-infrastructure"
@@ -2769,6 +2858,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -2913,6 +3006,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -3047,6 +3144,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Consulting",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "consulting",
@@ -3162,6 +3264,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [],
       "provider_types": [
         "artificial-intelligence"
       ],
@@ -3295,6 +3399,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -3429,6 +3537,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -3543,6 +3655,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [],
       "provider_types": [
         "artificial-intelligence"
       ],
@@ -3666,6 +3780,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -3800,6 +3918,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Cybersecurity",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-security",
         "cybersecurity",
@@ -3935,6 +4058,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Security"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-security"
@@ -4071,6 +4198,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "artificial-intelligence",
@@ -4236,6 +4368,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "Enterprise Automation"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -4371,6 +4508,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Machine Learning"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "machine-learning"
@@ -4495,6 +4636,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -4629,6 +4774,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -4753,6 +4902,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -5256,6 +5409,12 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "ai-security",
         "agent-identity",
@@ -5414,6 +5573,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "AI Security",
+        "GRC Automation",
+        "AI Agents"
+      ],
       "provider_types": [
         "cybersecurity",
         "ai-security",
@@ -5560,6 +5725,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "Semiconductor Technology",
+        "Electronic Design Automation"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -5706,6 +5877,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Marketing Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
       "provider_types": [
         "marketing-technology",
         "artificial-intelligence",
@@ -5843,6 +6019,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -5977,6 +6157,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "high confidence",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -6114,6 +6299,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -6280,6 +6469,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence",

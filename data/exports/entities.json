@@ -1,8 +1,8 @@
 {
-  "schema_version": "3.0.0",
-  "dataset_version": "0.8.0",
-  "build_commit": "146277e0b6a3d67ec40bbc589a47e89cb5f510d8",
-  "generated_at": "2026-08-11T23:35:23.443Z",
+  "schema_version": "3.1.0",
+  "dataset_version": "0.8.1",
+  "build_commit": "d780455c0cfc005001f4503ec46107b4eb0ad077",
+  "generated_at": "2026-08-12T01:33:36.924Z",
   "dimensions": [
     "provider_types",
     "community_formats",
@@ -52,6 +52,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Executive Coaching"
+      ],
       "provider_types": [
         "executive-communities",
         "executive-coaching"
@@ -381,6 +385,10 @@
         }
       ],
       "products": [],
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Corporate Membership Organizations"
+      ],
       "provider_types": [
         "executive-communities",
         "corporate-membership-organizations"
@@ -456,6 +464,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Executive Education"
+      ],
       "provider_types": [
         "executive-communities",
         "executive-education"
@@ -615,6 +627,11 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Consulting",
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "consulting",
@@ -970,6 +987,10 @@
         "executive research"
       ],
       "products": [],
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -1239,6 +1260,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Consulting",
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "consulting",
@@ -1702,6 +1728,8 @@
         }
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -1826,6 +1854,8 @@
         "technology transactions counsel"
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -2117,6 +2147,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -2209,6 +2241,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Consulting",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "consulting",
@@ -2307,6 +2344,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Consulting",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "consulting",
@@ -2402,6 +2444,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Consulting",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "consulting",
@@ -2495,6 +2542,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -2589,6 +2638,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -2679,6 +2730,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [],
       "provider_types": [
         "consulting"
       ],
@@ -2767,6 +2820,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -2855,6 +2913,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -2940,6 +3003,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -3024,6 +3092,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors"
@@ -3109,6 +3181,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors",
+        "Wealth Management"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors",
@@ -3196,6 +3273,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors",
@@ -3290,6 +3372,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -3429,6 +3513,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -3571,6 +3657,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -3711,6 +3799,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Equity",
+      "secondary_categories": [
+        "Private Credit"
+      ],
       "provider_types": [
         "private-equity",
         "private-credit"
@@ -3841,6 +3933,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Equity",
+      "secondary_categories": [
+        "Private Credit"
+      ],
       "provider_types": [
         "private-equity",
         "private-credit"
@@ -3936,6 +4032,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Equity",
+      "secondary_categories": [],
       "provider_types": [
         "private-equity"
       ],
@@ -4052,6 +4150,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -4178,6 +4280,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -4308,6 +4414,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [],
       "provider_types": [
         "enterprise-technology"
       ],
@@ -4410,6 +4518,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -4532,6 +4644,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [],
       "provider_types": [
         "enterprise-technology"
       ],
@@ -4645,6 +4759,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -4759,6 +4877,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology",
@@ -4872,6 +4995,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology"
@@ -4983,6 +5110,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology"
@@ -5097,6 +5228,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Education",
+      "secondary_categories": [],
       "provider_types": [
         "executive-education"
       ],
@@ -5261,6 +5394,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Education",
+      "secondary_categories": [],
       "provider_types": [
         "executive-education"
       ],
@@ -5423,6 +5558,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Education",
+      "secondary_categories": [],
       "provider_types": [
         "executive-education"
       ],
@@ -5544,7 +5681,7 @@
       "slug": "open-future-forum",
       "aliases": [],
       "entity_type": "executive community",
-      "description": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+      "description": "Global executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private gatherings, public events, peer groups, executive boards, and original research.",
       "website": "https://openfutureforum.com/",
       "cxo_roles": [
         "CEO",
@@ -5554,9 +5691,9 @@
         "CTO",
         "Board"
       ],
+      "primary_category": "Executive Communities",
       "categories": [
-        "Executive Communities",
-        "Research Firms"
+        "Executive Communities"
       ],
       "subcategories": [
         "CEO communities",
@@ -5593,7 +5730,7 @@
       "application_required": true,
       "invite_only": true,
       "inclusion_basis": [
-        "operates documented programs for multiple C-suite functions"
+        "operates documented executive-community programs for multiple C-suite functions"
       ],
       "sources": [
         {
@@ -5607,6 +5744,7 @@
             "description",
             "services",
             "geographies",
+            "primary_category",
             "categories",
             "cxo_roles",
             "industries"
@@ -5750,9 +5888,9 @@
           ]
         },
         {
-          "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
+          "id": "fact_open-future-forum_description_global-executive-community-founded-in-silicon-va",
           "field": "description",
-          "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+          "value": "Global executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private gatherings, public events, peer groups, executive boards, and original research.",
           "source_ids": [
             "src_off_about"
           ],
@@ -5930,8 +6068,8 @@
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_open-future-forum_categories_executive-communities",
-          "field": "categories",
+          "id": "fact_open-future-forum_primary-category_executive-communities",
+          "field": "primary_category",
           "value": "Executive Communities",
           "source_ids": [
             "src_off_about"
@@ -5939,9 +6077,9 @@
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_open-future-forum_categories_research-firms",
+          "id": "fact_open-future-forum_categories_executive-communities",
           "field": "categories",
-          "value": "Research Firms",
+          "value": "Executive Communities",
           "source_ids": [
             "src_off_about"
           ],
@@ -6188,9 +6326,9 @@
         }
       ],
       "products": [],
+      "secondary_categories": [],
       "provider_types": [
-        "executive-communities",
-        "research-firms"
+        "executive-communities"
       ],
       "community_formats": [
         "executive-community",
@@ -6650,6 +6788,10 @@
         }
       ],
       "products": [],
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Corporate Membership Organizations"
+      ],
       "provider_types": [
         "executive-communities",
         "corporate-membership-organizations"
@@ -6801,6 +6943,10 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Corporate Membership Organizations"
+      ],
       "provider_types": [
         "executive-communities",
         "corporate-membership-organizations"
@@ -6935,6 +7081,10 @@
         "operations officer search"
       ],
       "products": [],
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Board Advisory"
+      ],
       "provider_types": [
         "executive-search",
         "board-advisory"
@@ -7585,6 +7735,8 @@
         }
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -7694,6 +7846,11 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Consulting",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "consulting",
@@ -7850,6 +8007,11 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -7997,6 +8159,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -8154,6 +8318,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Private Equity",
+      "secondary_categories": [],
       "provider_types": [
         "private-equity"
       ],
@@ -8295,6 +8461,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [],
       "provider_types": [
         "enterprise-technology"
       ],
@@ -8449,6 +8617,11 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cybersecurity",
         "enterprise-technology",
@@ -8616,6 +8789,8 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "primary_category": "Executive Education",
+      "secondary_categories": [],
       "provider_types": [
         "executive-education"
       ],
@@ -8731,6 +8906,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Payments"
+      ],
       "provider_types": [
         "banks",
         "payments"
@@ -8978,6 +9157,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "wealth-management"
@@ -9162,6 +9345,8 @@
       "verification_status": "verified",
       "services": [],
       "products": [],
+      "primary_category": "Banks",
+      "secondary_categories": [],
       "provider_types": [
         "banks"
       ],
@@ -9295,6 +9480,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -9430,6 +9620,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "wealth-management"
@@ -9764,6 +9958,11 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -9899,6 +10098,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "investment-banks",
         "wealth-management"
@@ -10330,6 +10533,10 @@
         "New York"
       ],
       "products": [],
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "wealth-management"
@@ -10454,6 +10661,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "investment-banks",
         "wealth-management"
@@ -10588,6 +10799,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Investment Banks",
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "investment-banks",
@@ -10735,6 +10951,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "banks",
         "wealth-management"
@@ -10879,6 +11099,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Wealth Management",
+      "secondary_categories": [
+        "Research Firms"
+      ],
       "provider_types": [
         "wealth-management",
         "research-firms"
@@ -10993,6 +11217,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banks",
+      "secondary_categories": [],
       "provider_types": [
         "banks"
       ],
@@ -11116,6 +11342,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Insurance",
+      "secondary_categories": [
+        "Wealth Management"
+      ],
       "provider_types": [
         "insurance",
         "wealth-management"
@@ -11260,6 +11490,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [
+        "Growth Equity",
+        "Private Equity"
+      ],
       "provider_types": [
         "venture-capital",
         "growth-equity",
@@ -11385,6 +11620,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -11518,6 +11755,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Growth Equity",
+      "secondary_categories": [
+        "Private Equity"
+      ],
       "provider_types": [
         "growth-equity",
         "private-equity"
@@ -11632,6 +11873,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -11745,6 +11988,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -11870,6 +12115,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -12005,6 +12252,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Credit",
+      "secondary_categories": [
+        "Venture Debt"
+      ],
       "provider_types": [
         "private-credit",
         "venture-debt"
@@ -12119,6 +12370,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Credit",
+      "secondary_categories": [],
       "provider_types": [
         "private-credit"
       ],
@@ -12242,6 +12495,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors"
@@ -12366,6 +12623,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Investment Banks",
+      "secondary_categories": [
+        "M&A Advisors"
+      ],
       "provider_types": [
         "investment-banks",
         "m-a-advisors"
@@ -12512,6 +12773,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -12645,6 +12908,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -12768,6 +13033,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -13346,6 +13613,8 @@
         "Middle East"
       ],
       "products": [],
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -13489,6 +13758,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Legal Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "legal-technology",
         "artificial-intelligence"
@@ -13645,6 +13918,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Consulting",
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "consulting",
@@ -13770,6 +14048,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "Consulting"
+      ],
       "provider_types": [
         "accounting",
         "finance-advisory",
@@ -13915,6 +14198,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "Consulting"
+      ],
       "provider_types": [
         "accounting",
         "finance-advisory",
@@ -14060,6 +14348,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "consulting",
         "finance-advisory",
@@ -14197,6 +14490,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "finance-advisory"
@@ -14333,6 +14630,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Finance Advisory",
+      "secondary_categories": [
+        "Accounting"
+      ],
       "provider_types": [
         "finance-advisory",
         "accounting"
@@ -14457,6 +14758,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Finance Advisory",
+      "secondary_categories": [
+        "Accounting"
+      ],
       "provider_types": [
         "finance-advisory",
         "accounting"
@@ -14601,6 +14906,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Finance Advisory",
+      "secondary_categories": [
+        "Accounting",
+        "HR Technology"
+      ],
       "provider_types": [
         "finance-advisory",
         "accounting",
@@ -14738,6 +15048,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory"
+      ],
       "provider_types": [
         "accounting",
         "finance-advisory"
@@ -14872,6 +15186,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Finance Advisory"
+      ],
       "provider_types": [
         "consulting",
         "finance-advisory"
@@ -15046,6 +15364,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -15202,6 +15526,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -15357,6 +15686,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Consulting",
+      "secondary_categories": [
+        "Enterprise Technology",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "consulting",
         "enterprise-technology",
@@ -15956,6 +16290,10 @@
         "supply-chain and operations search"
       ],
       "products": [],
+      "primary_category": "Executive Search",
+      "secondary_categories": [
+        "Consulting"
+      ],
       "provider_types": [
         "executive-search",
         "consulting"
@@ -16090,6 +16428,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Recruiting",
+      "secondary_categories": [
+        "Consulting"
+      ],
       "provider_types": [
         "recruiting",
         "consulting"
@@ -16214,6 +16556,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Recruiting",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "hr-technology",
         "recruiting",
@@ -16349,6 +16696,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "hr-technology",
         "enterprise-technology"
@@ -16473,6 +16824,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
       "provider_types": [
         "hr-technology"
       ],
@@ -16576,6 +16929,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
       "provider_types": [
         "hr-technology"
       ],
@@ -16689,6 +17044,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
       "provider_types": [
         "hr-technology"
       ],
@@ -16802,6 +17159,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
       "provider_types": [
         "hr-technology"
       ],
@@ -16905,6 +17264,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "HR Technology",
+      "secondary_categories": [],
       "provider_types": [
         "hr-technology"
       ],
@@ -17028,6 +17389,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Recruiting",
+      "secondary_categories": [
+        "HR Technology"
+      ],
       "provider_types": [
         "recruiting",
         "hr-technology"
@@ -17162,6 +17527,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -17781,6 +18151,10 @@
         "high-transaction businesses"
       ],
       "services": [],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -17895,6 +18269,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Treasury Technology"
+      ],
       "provider_types": [
         "cfo-technology",
         "treasury-technology"
@@ -18019,6 +18397,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "artificial-intelligence",
@@ -18327,6 +18710,11 @@
       "services": [
         "finance automation",
         "AI-assisted finance workflows"
+      ],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Fintech"
       ],
       "provider_types": [
         "cfo-technology",
@@ -18877,6 +19265,11 @@
         "global companies"
       ],
       "services": [],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Fintech"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -19022,6 +19415,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Fintech",
+      "secondary_categories": [
+        "Payments",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "fintech",
         "payments",
@@ -19137,6 +19535,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Tax Technology"
+      ],
       "provider_types": [
         "cfo-technology",
         "tax-technology"
@@ -19764,6 +20166,10 @@
         "accounts-receivable teams"
       ],
       "services": [],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -20221,6 +20627,11 @@
         "founder-led businesses"
       ],
       "products": [],
+      "primary_category": "Accounting",
+      "secondary_categories": [
+        "Finance Advisory",
+        "CFO Technology"
+      ],
       "provider_types": [
         "accounting",
         "finance-advisory",
@@ -20972,6 +21383,10 @@
         "accounting firms"
       ],
       "services": [],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -21086,6 +21501,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting-software"
@@ -21896,6 +22315,11 @@
         "retail and ecommerce",
         "software and technology"
       ],
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Spend Management",
+        "Payments"
+      ],
       "provider_types": [
         "cfo-technology",
         "spend-management",
@@ -22041,6 +22465,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Equity Management",
+      "secondary_categories": [
+        "Private Market Infrastructure",
+        "CFO Technology"
+      ],
       "provider_types": [
         "equity-management",
         "private-market-infrastructure",
@@ -22186,6 +22615,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banking Platforms",
+      "secondary_categories": [
+        "Fintech",
+        "Treasury Technology"
+      ],
       "provider_types": [
         "banking-platforms",
         "fintech",
@@ -22321,6 +22755,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Banking Platforms",
+      "secondary_categories": [
+        "Fintech",
+        "Spend Management"
+      ],
       "provider_types": [
         "banking-platforms",
         "fintech",
@@ -22436,6 +22875,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Fintech",
+      "secondary_categories": [
+        "Payments"
+      ],
       "provider_types": [
         "fintech",
         "payments"
@@ -22570,6 +23013,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Accounting",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "cfo-technology",
         "accounting",
@@ -23315,6 +23763,10 @@
         "retail businesses"
       ],
       "services": [],
+      "primary_category": "Accounting Software",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
       "provider_types": [
         "accounting-software",
         "cfo-technology"
@@ -23449,6 +23901,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Accounting Software",
+      "secondary_categories": [
+        "Tax Technology",
+        "Fintech"
+      ],
       "provider_types": [
         "accounting-software",
         "tax-technology",
@@ -23594,6 +24051,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Payments",
+      "secondary_categories": [
+        "Fintech",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "payments",
         "fintech",
@@ -23729,6 +24191,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Equity Management",
+      "secondary_categories": [
+        "CFO Technology"
+      ],
       "provider_types": [
         "equity-management",
         "cfo-technology"
@@ -23843,6 +24309,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Market Infrastructure",
+      "secondary_categories": [
+        "Fintech"
+      ],
       "provider_types": [
         "private-market-infrastructure",
         "fintech"
@@ -23977,6 +24447,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Private Market Infrastructure",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "private-market-infrastructure",
         "enterprise-technology"
@@ -24151,6 +24625,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence",
@@ -24287,6 +24767,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence",
@@ -24412,6 +24897,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "enterprise-technology",
         "ai-infrastructure"
@@ -24546,6 +25035,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence",
@@ -24671,6 +25165,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -24795,6 +25293,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-infrastructure"
@@ -24919,6 +25421,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -25063,6 +25569,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -25197,6 +25707,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Consulting",
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "consulting",
@@ -25312,6 +25827,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [],
       "provider_types": [
         "artificial-intelligence"
       ],
@@ -25445,6 +25962,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -25579,6 +26100,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -25693,6 +26218,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [],
       "provider_types": [
         "artificial-intelligence"
       ],
@@ -25816,6 +26343,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Enterprise Technology",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "enterprise-technology",
         "artificial-intelligence"
@@ -25930,6 +26461,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Cybersecurity"
+      ],
       "provider_types": [
         "ai-security",
         "cybersecurity"
@@ -26064,6 +26599,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Cybersecurity",
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-security",
         "cybersecurity",
@@ -26179,6 +26719,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "AI Security"
+      ],
       "provider_types": [
         "cybersecurity",
         "ai-security"
@@ -26313,6 +26857,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Security"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-security"
@@ -26447,6 +26995,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Insurance",
+      "secondary_categories": [
+        "Consulting"
+      ],
       "provider_types": [
         "insurance",
         "consulting"
@@ -26571,6 +27123,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Insurance",
+      "secondary_categories": [],
       "provider_types": [
         "insurance"
       ],
@@ -26694,6 +27248,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Research Firms",
+      "secondary_categories": [
+        "Private Market Infrastructure"
+      ],
       "provider_types": [
         "research-firms",
         "private-market-infrastructure"
@@ -26828,6 +27386,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Research Firms",
+      "secondary_categories": [
+        "Analyst Firms"
+      ],
       "provider_types": [
         "research-firms",
         "analyst-firms"
@@ -26964,6 +27526,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Professional Associations",
+      "secondary_categories": [
+        "Executive Communities"
+      ],
       "provider_types": [
         "professional-associations",
         "executive-communities"
@@ -27090,6 +27656,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Professional Associations"
+      ],
       "provider_types": [
         "executive-communities",
         "professional-associations"
@@ -27204,6 +27774,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Conferences",
+      "secondary_categories": [],
       "provider_types": [
         "conferences"
       ],
@@ -27317,6 +27889,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [],
       "provider_types": [
         "executive-communities"
       ],
@@ -27440,6 +28014,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Events Technology",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "events-technology",
         "enterprise-technology"
@@ -27584,6 +28162,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Payments",
+      "secondary_categories": [
+        "Fintech",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "payments",
         "fintech",
@@ -27699,6 +28282,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Fintech",
+      "secondary_categories": [
+        "Payments"
+      ],
       "provider_types": [
         "fintech",
         "payments"
@@ -27823,6 +28410,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Fintech",
+      "secondary_categories": [
+        "Private Credit"
+      ],
       "provider_types": [
         "fintech",
         "private-credit"
@@ -27967,6 +28558,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Legal Technology",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "legal-technology",
         "enterprise-technology"
@@ -28091,6 +28686,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Research Firms",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "research-firms",
         "enterprise-technology"
@@ -28282,6 +28881,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [
+        "Early-Stage Venture Capital"
+      ],
       "provider_types": [
         "venture-capital",
         "early-stage-venture-capital"
@@ -28396,6 +28999,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -28509,6 +29114,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -28642,6 +29249,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [
+        "Early-Stage Venture Capital"
+      ],
       "provider_types": [
         "venture-capital",
         "early-stage-venture-capital"
@@ -28756,6 +29367,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "high confidence",
+      "primary_category": "Investment Advisory",
+      "secondary_categories": [],
       "provider_types": [
         "investment-advisory"
       ],
@@ -28899,6 +29512,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [
+        "Investment Banks",
+        "M&A Advisors"
+      ],
       "provider_types": [
         "venture-capital",
         "investment-banks",
@@ -29024,6 +29642,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "M&A Advisors",
+      "secondary_categories": [
+        "Investment Banks"
+      ],
       "provider_types": [
         "m-a-advisors",
         "investment-banks"
@@ -29138,6 +29760,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "M&A Advisors",
+      "secondary_categories": [],
       "provider_types": [
         "m-a-advisors"
       ],
@@ -29251,6 +29875,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Law Firms",
+      "secondary_categories": [],
       "provider_types": [
         "law-firms"
       ],
@@ -29364,6 +29990,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Fintech"
+      ],
       "provider_types": [
         "cfo-technology",
         "fintech"
@@ -29500,6 +30130,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "CFO Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "Accounting Software"
+      ],
       "provider_types": [
         "cfo-technology",
         "artificial-intelligence",
@@ -29665,6 +30300,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "Enterprise Automation"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -29800,6 +30440,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Machine Learning"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "machine-learning"
@@ -29924,6 +30568,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -30058,6 +30706,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -30182,6 +30834,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -30685,6 +31341,12 @@
       ],
       "services": [],
       "products": [],
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Agent Identity",
+        "Identity and Access Management",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "ai-security",
         "agent-identity",
@@ -30843,6 +31505,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "AI Security",
+        "GRC Automation",
+        "AI Agents"
+      ],
       "provider_types": [
         "cybersecurity",
         "ai-security",
@@ -30999,6 +31667,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Application Security",
+        "Runtime Security",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "ai-security",
         "application-security",
@@ -31362,6 +32036,11 @@
         "security-stack integration"
       ],
       "products": [],
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Runtime Security",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "ai-security",
         "runtime-security",
@@ -31477,6 +32156,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Consulting"
+      ],
       "provider_types": [
         "cybersecurity",
         "consulting"
@@ -31820,6 +32503,11 @@
         "email threat reporting"
       ],
       "products": [],
+      "primary_category": "Email Security",
+      "secondary_categories": [
+        "AI Security",
+        "Cybersecurity"
+      ],
       "provider_types": [
         "email-security",
         "ai-security",
@@ -31947,6 +32635,8 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Venture Capital",
+      "secondary_categories": [],
       "provider_types": [
         "venture-capital"
       ],
@@ -32090,6 +32780,12 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "Semiconductor Technology",
+        "Electronic Design Automation"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -32206,6 +32902,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Security",
+      "secondary_categories": [
+        "Cybersecurity"
+      ],
       "provider_types": [
         "ai-security",
         "cybersecurity"
@@ -32352,6 +33052,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "AI Security",
+        "Consulting"
+      ],
       "provider_types": [
         "cybersecurity",
         "ai-security",
@@ -32477,6 +33182,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Cybersecurity",
+      "secondary_categories": [
+        "Consulting"
+      ],
       "provider_types": [
         "cybersecurity",
         "consulting"
@@ -32621,6 +33330,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Marketing Technology",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
       "provider_types": [
         "marketing-technology",
         "artificial-intelligence",
@@ -32758,6 +33472,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "enterprise-technology"
@@ -32892,6 +33610,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "high confidence",
+      "primary_category": "Artificial Intelligence",
+      "secondary_categories": [
+        "AI Agents",
+        "AI Infrastructure"
+      ],
       "provider_types": [
         "artificial-intelligence",
         "ai-agents",
@@ -33029,6 +33752,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence"
@@ -33195,6 +33922,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "AI Infrastructure",
+      "secondary_categories": [
+        "Artificial Intelligence",
+        "AI Agents"
+      ],
       "provider_types": [
         "ai-infrastructure",
         "artificial-intelligence",
@@ -33330,6 +34062,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Conferences",
+        "HR Technology"
+      ],
       "provider_types": [
         "executive-communities",
         "conferences",
@@ -33465,6 +34202,11 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Executive Communities",
+      "secondary_categories": [
+        "Startup Programs",
+        "Accelerators"
+      ],
       "provider_types": [
         "executive-communities",
         "startup-programs",
@@ -33600,6 +34342,10 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "primary_category": "Community Technology",
+      "secondary_categories": [
+        "Enterprise Technology"
+      ],
       "provider_types": [
         "community-technology",
         "enterprise-technology"

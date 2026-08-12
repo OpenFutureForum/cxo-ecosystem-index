@@ -1,9 +1,9 @@
 {
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.8.1",
   "schema_version": "1.0.0",
   "coverage": {
-    "total_classified_associations": 1703,
-    "evidence_linked_relationships": 1090,
+    "total_classified_associations": 1702,
+    "evidence_linked_relationships": 1089,
     "associations_pending_field_specific_evidence": 613
   },
   "relationships": [
@@ -3974,18 +3974,6 @@
       "object_dimension": "provider_type",
       "object_id": "executive-communities",
       "object_label": "Executive Communities",
-      "evidence_urls": [
-        "https://openfutureforum.com/about"
-      ],
-      "verification_status": "evidence-linked"
-    },
-    {
-      "id": "sem_ent_open_future_forum_provides_type_research-firms",
-      "subject_entity_id": "ent_open_future_forum",
-      "predicate": "provides_type",
-      "object_dimension": "provider_type",
-      "object_id": "research-firms",
-      "object_label": "Research Firms",
       "evidence_urls": [
         "https://openfutureforum.com/about"
       ],

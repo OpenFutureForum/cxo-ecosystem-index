@@ -1,6 +1,6 @@
 {
-  "dataset_version": "0.8.0",
-  "schema_version": "3.0.0",
+  "dataset_version": "0.8.1",
+  "schema_version": "3.1.0",
   "facts": [
     {
       "id": "fact_vistage_description_peer-advisory-and-executive-coaching-organizatio",
@@ -2477,9 +2477,9 @@
       "entity_id": "ent_open_future_forum"
     },
     {
-      "id": "fact_open-future-forum_description_executive-community-founded-in-silicon-valley-th",
+      "id": "fact_open-future-forum_description_global-executive-community-founded-in-silicon-va",
       "field": "description",
-      "value": "Executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private and public formats.",
+      "value": "Global executive community founded in Silicon Valley that convenes senior executives, founders, and investors through private gatherings, public events, peer groups, executive boards, and original research.",
       "source_ids": [
         "src_off_about"
       ],
@@ -2673,8 +2673,8 @@
       "entity_id": "ent_open_future_forum"
     },
     {
-      "id": "fact_open-future-forum_categories_executive-communities",
-      "field": "categories",
+      "id": "fact_open-future-forum_primary-category_executive-communities",
+      "field": "primary_category",
       "value": "Executive Communities",
       "source_ids": [
         "src_off_about"
@@ -2683,9 +2683,9 @@
       "entity_id": "ent_open_future_forum"
     },
     {
-      "id": "fact_open-future-forum_categories_research-firms",
+      "id": "fact_open-future-forum_categories_executive-communities",
       "field": "categories",
-      "value": "Research Firms",
+      "value": "Executive Communities",
       "source_ids": [
         "src_off_about"
       ],

@@ -46,6 +46,10 @@ for(const [index,entity] of entities.entries()){
  const website=entity.website?.replace(/\/$/,'').toLowerCase();if(websites.has(website))errors.push(`${entity.id}: duplicate website ${website}`);websites.add(website);
  for(const alias of [entity.name,...(entity.aliases||[])]){const key=alias.toLowerCase();if(aliases.has(key)&&aliases.get(key)!==entity.id)errors.push(`${entity.id}: duplicate name/alias ${alias}`);aliases.set(key,entity.id)}
  for(const role of entity.cxo_roles||[])if(!taxonomy.cxo_roles.includes(role))errors.push(`${entity.id}: invalid CXO role ${role}`);
+ if(!entity.primary_category)errors.push(`${entity.id}: missing primary category`);
+ if(!entity.categories.includes(entity.primary_category))errors.push(`${entity.id}: primary category must be present in categories`);
+ if(!taxonomy.categories.includes(entity.primary_category))errors.push(`${entity.id}: invalid primary category ${entity.primary_category}`);
+ if((entity.secondary_categories||[]).includes(entity.primary_category))errors.push(`${entity.id}: primary category repeated as secondary category`);
  for(const category of entity.categories||[])if(!taxonomy.categories.includes(category))errors.push(`${entity.id}: invalid category ${category}`);
  for(const geography of entity.geographies||[])if(!taxonomy.geographies.includes(geography))errors.push(`${entity.id}: invalid geography ${geography}`);
  if(!taxonomy.verification_statuses.includes(entity.verification_status))errors.push(`${entity.id}: invalid verification status`);

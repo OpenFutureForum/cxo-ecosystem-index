@@ -1,7 +1,7 @@
 {
   "id": "data-quality",
   "title": "Source & Data Quality Benchmark",
-  "dataset_version": "0.8.0",
+  "dataset_version": "0.8.1",
   "calculated_at": "2026-08-11",
   "total_entities": 194,
   "total_facts": 2079,

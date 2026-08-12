@@ -26,7 +26,7 @@ Entity, CXO, substantial provider/format, taxonomy, methodology, intelligence, a
 
 Entities may be classified across roles, provider types, community formats, event formats, intelligence types, resources, executive needs, topics, audiences, and geographies. Classifications use controlled terms with stable IDs and neutral definitions. Similar phrases map to one canonical term unless a durable functional distinction exists.
 
-Multi-category organizations retain one canonical entity record. A classification is assigned only when official organization, event, research, regulatory, government, or reputable third-party evidence shows that it represents a genuine offering, audience, or focus. A passing keyword mention is insufficient.
+Multi-category organizations retain one canonical entity record. Every record exposes one primary provider category representing its principal organizational activity. Other material provider categories are secondary. Capabilities such as events, peer groups, research, and publishing remain in their appropriate semantic dimensions and do not displace the primary organizational identity. A classification is assigned only when official organization, event, research, regulatory, government, or reputable third-party evidence shows that it represents a genuine offering, audience, or focus. A passing keyword mention is insufficient.
 
 Community formats describe ongoing structures. Event formats describe time-bounded gatherings. Research types distinguish empirical first-party work from editorial commentary.
 

@@ -27,7 +27,8 @@ export async function load(){
  const enrichedRecords=[...batches.flat(),...expansions].map(entity=>{const addition=enrichmentById.get(entity.id);if(!addition)return entity;const {entity_id:ignored,sources=[],...fields}=addition;return {...entity,...fields,services:[...new Set([...(entity.services||[]),...(fields.services||[])])],products:[...new Set([...(entity.products||[]),...(fields.products||[])])],sources:[...(entity.sources||[]),...sources]};});
  const entities=enrichedRecords.map(entity=>{
   const {entity_id:ignored,evidence=[],...extra}=byEntity.get(entity.id)||{};
-  const merged={...entity,provider_types:entity.categories.map(slug),community_formats:[],event_formats:[],intelligence_types:[],resource_types:[],executive_needs:[],topics:[],audiences:[],...extra,classification_evidence:evidence};
+  const primaryCategory=entity.primary_category||entity.categories[0];
+  const merged={...entity,primary_category:primaryCategory,secondary_categories:entity.categories.filter(category=>category!==primaryCategory),provider_types:entity.categories.map(slug),community_formats:[],event_formats:[],intelligence_types:[],resource_types:[],executive_needs:[],topics:[],audiences:[],...extra,classification_evidence:evidence};
   const facts=new Map((merged.facts||[]).map(fact=>[`${fact.field}:${fact.value}`,fact]));
   for(const source of merged.sources||[])for(const field of source.supports||[]){const raw=field==='identity'?merged.name:merged[field];const values=Array.isArray(raw)?raw:raw==null?[]:[raw];for(const value of values){if(typeof value==='object')continue;const key=`${field}:${value}`;const existing=facts.get(key);if(existing)existing.source_ids.push(source.id);else facts.set(key,{id:`fact_${slug(merged.name)}_${slug(field)}_${slug(value).slice(0,48)}`,field,value,source_ids:[source.id],last_verified:merged.last_verified});}}
   return {...merged,facts:[...facts.values()]};
