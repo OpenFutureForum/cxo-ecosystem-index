@@ -1,0 +1,1682 @@
+[
+  {
+    "entity_id": "ent_workiva",
+    "description": "Workiva provides financial reporting, financial close, and governance, risk and compliance for executive and enterprise buyers.",
+    "services": [
+      "financial reporting",
+      "financial close",
+      "governance, risk and compliance"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_workiva_offerings_v096_functional",
+        "url": "https://www.workiva.com/platform",
+        "title": "Workiva products and services",
+        "publisher": "Workiva",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_planful",
+    "description": "Planful provides financial planning and analysis, financial close, and workforce planning for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "financial close",
+      "workforce planning"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_planful_offerings_v096_functional",
+        "url": "https://planful.com/platform/",
+        "title": "Planful products and services",
+        "publisher": "Planful",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_onestream",
+    "description": "OneStream provides financial consolidation, financial close, and financial planning and analysis for executive and enterprise buyers.",
+    "services": [
+      "financial consolidation",
+      "financial close",
+      "financial planning and analysis"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_onestream_offerings_v096_functional",
+        "url": "https://www.onestream.com/platform/",
+        "title": "OneStream products and services",
+        "publisher": "OneStream",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_highradius",
+    "description": "HighRadius provides accounts receivable automation, treasury management, and financial close for executive and enterprise buyers.",
+    "services": [
+      "accounts receivable automation",
+      "treasury management",
+      "financial close"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_highradius_offerings_v096_functional",
+        "url": "https://www.highradius.com/software/",
+        "title": "HighRadius products and services",
+        "publisher": "HighRadius",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_acumatica",
+    "description": "Acumatica provides cloud ERP, accounting software, and financial management for executive and enterprise buyers.",
+    "services": [
+      "cloud ERP",
+      "accounting software",
+      "financial management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_acumatica_offerings_v096_functional",
+        "url": "https://www.acumatica.com/cloud-erp-software/",
+        "title": "Acumatica products and services",
+        "publisher": "Acumatica",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_epicor",
+    "description": "Epicor provides enterprise resource planning, financial management, and supply-chain management for executive and enterprise buyers.",
+    "services": [
+      "enterprise resource planning",
+      "financial management",
+      "supply-chain management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_epicor_offerings_v096_functional",
+        "url": "https://www.epicor.com/en-us/products/",
+        "title": "Epicor products and services",
+        "publisher": "Epicor",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_infor",
+    "description": "Infor provides enterprise resource planning, financial management, and workforce management for executive and enterprise buyers.",
+    "services": [
+      "enterprise resource planning",
+      "financial management",
+      "workforce management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_infor_offerings_v096_functional",
+        "url": "https://www.infor.com/products",
+        "title": "Infor products and services",
+        "publisher": "Infor",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ifs",
+    "description": "IFS provides enterprise resource planning, financial management, and asset management for executive and enterprise buyers.",
+    "services": [
+      "enterprise resource planning",
+      "financial management",
+      "asset management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_ifs_offerings_v096_functional",
+        "url": "https://www.ifs.com/solutions",
+        "title": "IFS products and services",
+        "publisher": "IFS",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_vena_solutions",
+    "description": "Vena Solutions provides financial planning and analysis, budgeting and forecasting, and financial reporting for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "financial reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_vena-solutions_offerings_v096_functional",
+        "url": "https://www.venasolutions.com/platform",
+        "title": "Vena Solutions products and services",
+        "publisher": "Vena Solutions",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_blackbaud",
+    "description": "Blackbaud provides fund accounting, financial management, and payments for executive and enterprise buyers.",
+    "services": [
+      "fund accounting",
+      "financial management",
+      "payments"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_blackbaud_offerings_v096_functional",
+        "url": "https://www.blackbaud.com/products",
+        "title": "Blackbaud products and services",
+        "publisher": "Blackbaud",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_pigment",
+    "description": "Pigment provides financial planning and analysis, budgeting and forecasting, and workforce planning for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "workforce planning"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_pigment_offerings_v096_functional",
+        "url": "https://www.pigment.com/platform",
+        "title": "Pigment products and services",
+        "publisher": "Pigment",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cube",
+    "description": "Cube provides financial planning and analysis, budgeting and forecasting, and management reporting for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "management reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cube_offerings_v096_functional",
+        "url": "https://www.cubesoftware.com/platform",
+        "title": "Cube products and services",
+        "publisher": "Cube",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cch_tagetik",
+    "description": "CCH Tagetik provides financial close and consolidation, financial planning and analysis, and regulatory reporting for executive and enterprise buyers.",
+    "services": [
+      "financial close and consolidation",
+      "financial planning and analysis",
+      "regulatory reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cch-tagetik_offerings_v096_functional",
+        "url": "https://www.wolterskluwer.com/en/solutions/cch-tagetik",
+        "title": "CCH Tagetik products and services",
+        "publisher": "CCH Tagetik",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_oracle_netsuite",
+    "description": "Oracle NetSuite provides cloud ERP, accounting software, and financial management for executive and enterprise buyers.",
+    "services": [
+      "cloud ERP",
+      "accounting software",
+      "financial management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_oracle-netsuite_offerings_v096_functional",
+        "url": "https://www.netsuite.com/portal/products.shtml",
+        "title": "Oracle NetSuite products and services",
+        "publisher": "Oracle NetSuite",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_zuora",
+    "description": "Zuora provides subscription billing, revenue recognition, and accounts receivable for executive and enterprise buyers.",
+    "services": [
+      "subscription billing",
+      "revenue recognition",
+      "accounts receivable"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_zuora_offerings_v096_functional",
+        "url": "https://www.zuora.com/products/",
+        "title": "Zuora products and services",
+        "publisher": "Zuora",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_chargebee",
+    "description": "Chargebee provides subscription billing, revenue recognition, and accounts receivable automation for executive and enterprise buyers.",
+    "services": [
+      "subscription billing",
+      "revenue recognition",
+      "accounts receivable automation"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_chargebee_offerings_v096_functional",
+        "url": "https://www.chargebee.com/product-catalog/",
+        "title": "Chargebee products and services",
+        "publisher": "Chargebee",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_recurly",
+    "description": "Recurly provides subscription billing, recurring payments, and revenue management for executive and enterprise buyers.",
+    "services": [
+      "subscription billing",
+      "recurring payments",
+      "revenue management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_recurly_offerings_v096_functional",
+        "url": "https://recurly.com/product/",
+        "title": "Recurly products and services",
+        "publisher": "Recurly",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ordway",
+    "description": "Ordway provides billing automation, revenue recognition, and accounts receivable for executive and enterprise buyers.",
+    "services": [
+      "billing automation",
+      "revenue recognition",
+      "accounts receivable"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_ordway_offerings_v096_functional",
+        "url": "https://ordwaylabs.com/platform",
+        "title": "Ordway products and services",
+        "publisher": "Ordway",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_tabs",
+    "description": "Tabs provides accounts receivable automation, billing automation, and revenue recognition for executive and enterprise buyers.",
+    "services": [
+      "accounts receivable automation",
+      "billing automation",
+      "revenue recognition"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_tabs_offerings_v096_functional",
+        "url": "https://www.tabs.com/platform",
+        "title": "Tabs products and services",
+        "publisher": "Tabs",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mosaic",
+    "description": "Mosaic provides financial planning and analysis, budgeting and forecasting, and management reporting for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "management reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_mosaic_offerings_v096_functional",
+        "url": "https://www.mosaic.tech/platform",
+        "title": "Mosaic products and services",
+        "publisher": "Mosaic",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_abacum",
+    "description": "Abacum provides financial planning and analysis, budgeting and forecasting, and management reporting for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "management reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_abacum_offerings_v096_functional",
+        "url": "https://www.abacum.ai/product/reporting",
+        "title": "Abacum products and services",
+        "publisher": "Abacum",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_aleph",
+    "description": "Aleph provides financial planning and analysis, budgeting and forecasting, and financial reporting for executive and enterprise buyers.",
+    "services": [
+      "financial planning and analysis",
+      "budgeting and forecasting",
+      "financial reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_aleph_offerings_v096_functional",
+        "url": "https://www.getaleph.com/platform/overview",
+        "title": "Aleph products and services",
+        "publisher": "Aleph",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_numeric",
+    "description": "Numeric provides financial close, account reconciliation, and financial reporting for executive and enterprise buyers.",
+    "services": [
+      "financial close",
+      "account reconciliation",
+      "financial reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_numeric_offerings_v096_functional",
+        "url": "https://www.numeric.io/product/close",
+        "title": "Numeric products and services",
+        "publisher": "Numeric",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_trullion",
+    "description": "Trullion provides accounting automation, audit automation, and financial reporting for executive and enterprise buyers.",
+    "services": [
+      "accounting automation",
+      "audit automation",
+      "financial reporting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_trullion_offerings_v096_functional",
+        "url": "https://trullion.com/products",
+        "title": "Trullion products and services",
+        "publisher": "Trullion",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_mindbridge",
+    "description": "MindBridge provides audit analytics, financial risk analytics, and accounting controls for executive and enterprise buyers.",
+    "services": [
+      "audit analytics",
+      "financial risk analytics",
+      "accounting controls"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_mindbridge_offerings_v096_functional",
+        "url": "https://www.mindbridge.ai/platform",
+        "title": "MindBridge products and services",
+        "publisher": "MindBridge",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_auditboard",
+    "description": "AuditBoard provides audit management, risk management, and compliance management for executive and enterprise buyers.",
+    "services": [
+      "audit management",
+      "risk management",
+      "compliance management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_auditboard_offerings_v096_functional",
+        "url": "https://www.auditboard.com/platform/",
+        "title": "AuditBoard products and services",
+        "publisher": "AuditBoard",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_diligent",
+    "description": "Diligent provides governance, risk and compliance, audit management, and board management for executive and enterprise buyers.",
+    "services": [
+      "governance, risk and compliance",
+      "audit management",
+      "board management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_diligent_offerings_v096_functional",
+        "url": "https://www.diligent.com/platform",
+        "title": "Diligent products and services",
+        "publisher": "Diligent",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_corpay",
+    "description": "Corpay provides accounts payable automation, corporate payments, and expense management for executive and enterprise buyers.",
+    "services": [
+      "accounts payable automation",
+      "corporate payments",
+      "expense management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_corpay_offerings_v096_functional",
+        "url": "https://www.corpay.com/solutions-checklist-invoice-processing-netsuite",
+        "title": "Corpay products and services",
+        "publisher": "Corpay",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_wex",
+    "description": "WEX provides corporate payments, expense management, and fleet payments for executive and enterprise buyers.",
+    "services": [
+      "corporate payments",
+      "expense management",
+      "fleet payments"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_wex_offerings_v096_functional",
+        "url": "https://www.wexinc.com/products/",
+        "title": "WEX products and services",
+        "publisher": "WEX",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_marqeta",
+    "description": "Marqeta provides card issuing, payment processing, and embedded finance for executive and enterprise buyers.",
+    "services": [
+      "card issuing",
+      "payment processing",
+      "embedded finance"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_marqeta_offerings_v096_functional",
+        "url": "https://www.marqeta.com/platform",
+        "title": "Marqeta products and services",
+        "publisher": "Marqeta",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_checkout_com",
+    "description": "Checkout.com provides payment processing, payment acceptance, and fraud management for executive and enterprise buyers.",
+    "services": [
+      "payment processing",
+      "payment acceptance",
+      "fraud management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_checkout-com_offerings_v096_functional",
+        "url": "https://www.checkout.com/products/intelligent-acceptance",
+        "title": "Checkout.com products and services",
+        "publisher": "Checkout.com",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_fiserv",
+    "description": "Fiserv provides payment processing, banking platforms, and merchant acquiring for executive and enterprise buyers.",
+    "services": [
+      "payment processing",
+      "banking platforms",
+      "merchant acquiring"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_fiserv_offerings_v096_functional",
+        "url": "https://www.fiserv.com/en/solutions.html",
+        "title": "Fiserv products and services",
+        "publisher": "Fiserv",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_global_payments",
+    "description": "Global Payments provides payment processing, merchant acquiring, and commerce software for executive and enterprise buyers.",
+    "services": [
+      "payment processing",
+      "merchant acquiring",
+      "commerce software"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_global-payments_offerings_v096_functional",
+        "url": "https://www.globalpayments.com/solutions",
+        "title": "Global Payments products and services",
+        "publisher": "Global Payments",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_block",
+    "description": "Block provides payment processing, merchant services, and business banking for executive and enterprise buyers.",
+    "services": [
+      "payment processing",
+      "merchant services",
+      "business banking"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_block_offerings_v096_functional",
+        "url": "https://block.xyz/news/company-news",
+        "title": "Block products and services",
+        "publisher": "Block",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paypal",
+    "description": "PayPal provides online payments, payment processing, and merchant services for executive and enterprise buyers.",
+    "services": [
+      "online payments",
+      "payment processing",
+      "merchant services"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_paypal_offerings_v096_functional",
+        "url": "https://www.paypal.com/us/business",
+        "title": "PayPal products and services",
+        "publisher": "PayPal",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_toast",
+    "description": "Toast provides restaurant payments, point-of-sale software, and payroll for executive and enterprise buyers.",
+    "services": [
+      "restaurant payments",
+      "point-of-sale software",
+      "payroll"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_toast_offerings_v096_functional",
+        "url": "https://pos.toasttab.com/products",
+        "title": "Toast products and services",
+        "publisher": "Toast",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_flywire",
+    "description": "Flywire provides global payments, accounts receivable, and payment processing for executive and enterprise buyers.",
+    "services": [
+      "global payments",
+      "accounts receivable",
+      "payment processing"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_flywire_offerings_v096_functional",
+        "url": "https://www.flywire.com/solutions",
+        "title": "Flywire products and services",
+        "publisher": "Flywire",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_billtrust",
+    "description": "Billtrust provides accounts receivable automation, digital invoicing, and payment processing for executive and enterprise buyers.",
+    "services": [
+      "accounts receivable automation",
+      "digital invoicing",
+      "payment processing"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_billtrust_offerings_v096_functional",
+        "url": "https://www.billtrust.com/solutions",
+        "title": "Billtrust products and services",
+        "publisher": "Billtrust",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_versapay",
+    "description": "Versapay provides accounts receivable automation, digital invoicing, and payment processing for executive and enterprise buyers.",
+    "services": [
+      "accounts receivable automation",
+      "digital invoicing",
+      "payment processing"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_versapay_offerings_v096_functional",
+        "url": "https://www.versapay.com/solutions/digital-invoicing-customer-portal",
+        "title": "Versapay products and services",
+        "publisher": "Versapay",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_nium",
+    "description": "Nium provides multi-currency accounts, global payments, and payment infrastructure for executive and enterprise buyers.",
+    "services": [
+      "multi-currency accounts",
+      "global payments",
+      "payment infrastructure"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_nium_offerings_v096_functional",
+        "url": "https://www.nium.com/products/multi-currency-accounts",
+        "title": "Nium products and services",
+        "publisher": "Nium",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_thunes",
+    "description": "Thunes provides cross-border payments, payment infrastructure, and global payments for executive and enterprise buyers.",
+    "services": [
+      "cross-border payments",
+      "payment infrastructure",
+      "global payments"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_thunes_offerings_v096_functional",
+        "url": "https://www.thunes.com/products",
+        "title": "Thunes products and services",
+        "publisher": "Thunes",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_rapyd",
+    "description": "Rapyd provides payment processing, embedded finance, and global payments for executive and enterprise buyers.",
+    "services": [
+      "payment processing",
+      "embedded finance",
+      "global payments"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_rapyd_offerings_v096_functional",
+        "url": "https://www.rapyd.net/products/",
+        "title": "Rapyd products and services",
+        "publisher": "Rapyd",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_jack_henry",
+    "description": "Jack Henry provides banking platforms, digital banking, and payment processing for executive and enterprise buyers.",
+    "services": [
+      "banking platforms",
+      "digital banking",
+      "payment processing"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_jack-henry_offerings_v096_functional",
+        "url": "https://www.jackhenry.com/what-we-offer",
+        "title": "Jack Henry products and services",
+        "publisher": "Jack Henry",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gocardless",
+    "description": "GoCardless provides bank payments, recurring payments, and payment collection for executive and enterprise buyers.",
+    "services": [
+      "bank payments",
+      "recurring payments",
+      "payment collection"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_gocardless_offerings_v096_functional",
+        "url": "https://gocardless.com/en-us/solutions/collect-instalment-payments",
+        "title": "GoCardless products and services",
+        "publisher": "GoCardless",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_klarna",
+    "description": "Klarna provides consumer payments, merchant payments, and buy now pay later for executive and enterprise buyers.",
+    "services": [
+      "consumer payments",
+      "merchant payments",
+      "buy now pay later"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_klarna_offerings_v096_functional",
+        "url": "https://www.klarna.com/us/business/",
+        "title": "Klarna products and services",
+        "publisher": "Klarna",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_alkami",
+    "description": "Alkami provides digital banking, online banking platform, and banking analytics for executive and enterprise buyers.",
+    "services": [
+      "digital banking",
+      "online banking platform",
+      "banking analytics"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_alkami_offerings_v096_functional",
+        "url": "https://www.alkami.com/online-banking-platform/",
+        "title": "Alkami products and services",
+        "publisher": "Alkami",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gusto",
+    "description": "Gusto provides payroll, benefits administration, and HRIS for executive and enterprise buyers.",
+    "services": [
+      "payroll",
+      "benefits administration",
+      "HRIS"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_gusto_offerings_v096_functional",
+        "url": "https://gusto.com/product",
+        "title": "Gusto products and services",
+        "publisher": "Gusto",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_justworks",
+    "description": "Justworks provides professional employer organization, payroll, and benefits administration for executive and enterprise buyers.",
+    "services": [
+      "professional employer organization",
+      "payroll",
+      "benefits administration"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_justworks_offerings_v096_functional",
+        "url": "https://www.justworks.com/products",
+        "title": "Justworks products and services",
+        "publisher": "Justworks",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_personio",
+    "description": "Personio provides HRIS, recruiting, and performance management for executive and enterprise buyers.",
+    "services": [
+      "HRIS",
+      "recruiting",
+      "performance management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_personio_offerings_v096_functional",
+        "url": "https://www.personio.com/product/",
+        "title": "Personio products and services",
+        "publisher": "Personio",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_hibob",
+    "description": "HiBob provides HRIS, workforce management, and performance management for executive and enterprise buyers.",
+    "services": [
+      "HRIS",
+      "workforce management",
+      "performance management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_hibob_offerings_v096_functional",
+        "url": "https://www.hibob.com/platform/",
+        "title": "HiBob products and services",
+        "publisher": "HiBob",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_remote",
+    "description": "Remote provides employer of record, global payroll, and contractor management for executive and enterprise buyers.",
+    "services": [
+      "employer of record",
+      "global payroll",
+      "contractor management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_remote_offerings_v096_functional",
+        "url": "https://remote.com/platform",
+        "title": "Remote products and services",
+        "publisher": "Remote",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_oyster",
+    "description": "Oyster provides employer of record, global payroll, and global employment for executive and enterprise buyers.",
+    "services": [
+      "employer of record",
+      "global payroll",
+      "global employment"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_oyster_offerings_v096_functional",
+        "url": "https://www.oysterhr.com/product/employer-of-record",
+        "title": "Oyster products and services",
+        "publisher": "Oyster",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_papaya_global",
+    "description": "Papaya Global provides global payroll, employer of record, and workforce payments for executive and enterprise buyers.",
+    "services": [
+      "global payroll",
+      "employer of record",
+      "workforce payments"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_papaya-global_offerings_v096_functional",
+        "url": "https://www.papayaglobal.com/platform/",
+        "title": "Papaya Global products and services",
+        "publisher": "Papaya Global",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_darwinbox",
+    "description": "Darwinbox provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
+    "services": [
+      "payroll",
+      "HRIS",
+      "workforce management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_darwinbox_offerings_v096_functional",
+        "url": "https://darwinbox.com/products/payroll",
+        "title": "Darwinbox products and services",
+        "publisher": "Darwinbox",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_factorial",
+    "description": "Factorial provides HRIS, payroll, and time management for executive and enterprise buyers.",
+    "services": [
+      "HRIS",
+      "payroll",
+      "time management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_factorial_offerings_v096_functional",
+        "url": "https://factorialhr.com/product-updates",
+        "title": "Factorial products and services",
+        "publisher": "Factorial",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paylocity",
+    "description": "Paylocity provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
+    "services": [
+      "payroll",
+      "HRIS",
+      "workforce management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_paylocity_offerings_v096_functional",
+        "url": "https://www.paylocity.com/products/",
+        "title": "Paylocity products and services",
+        "publisher": "Paylocity",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_360learning",
+    "description": "360Learning provides learning management system, employee learning, and collaborative learning for executive and enterprise buyers.",
+    "services": [
+      "learning management system",
+      "employee learning",
+      "collaborative learning"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_360learning_offerings_v096_functional",
+        "url": "https://360learning.com/platform-overview/",
+        "title": "360Learning products and services",
+        "publisher": "360Learning",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_degreed",
+    "description": "Degreed provides learning experience platform, skills intelligence, and employee learning for executive and enterprise buyers.",
+    "services": [
+      "learning experience platform",
+      "skills intelligence",
+      "employee learning"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_degreed_offerings_v096_functional",
+        "url": "https://degreed.com/platform",
+        "title": "Degreed products and services",
+        "publisher": "Degreed",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_docebo",
+    "description": "Docebo provides learning management system, employee learning, and learning analytics for executive and enterprise buyers.",
+    "services": [
+      "learning management system",
+      "employee learning",
+      "learning analytics"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_docebo_offerings_v096_functional",
+        "url": "https://www.docebo.com/learning-platform/",
+        "title": "Docebo products and services",
+        "publisher": "Docebo",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_paycor",
+    "description": "Paycor provides payroll, HRIS, and recruiting for executive and enterprise buyers.",
+    "services": [
+      "payroll",
+      "HRIS",
+      "recruiting"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_paycor_offerings_v096_functional",
+        "url": "https://www.paycor.com/products/",
+        "title": "Paycor products and services",
+        "publisher": "Paycor",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_icims",
+    "description": "iCIMS provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "applicant tracking system",
+      "talent acquisition"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_icims_offerings_v096_functional",
+        "url": "https://www.icims.com/products/",
+        "title": "iCIMS products and services",
+        "publisher": "iCIMS",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_smartrecruiters",
+    "description": "SmartRecruiters provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "applicant tracking system",
+      "talent acquisition"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_smartrecruiters_offerings_v096_functional",
+        "url": "https://www.smartrecruiters.com/platform/",
+        "title": "SmartRecruiters products and services",
+        "publisher": "SmartRecruiters",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_jobvite",
+    "description": "Jobvite provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "applicant tracking system",
+      "talent acquisition"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_jobvite_offerings_v096_functional",
+        "url": "https://www.jobvite.com/products/",
+        "title": "Jobvite products and services",
+        "publisher": "Jobvite",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_ashby",
+    "description": "Ashby provides recruiting, applicant tracking system, and recruiting analytics for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "applicant tracking system",
+      "recruiting analytics"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_ashby_offerings_v096_functional",
+        "url": "https://www.ashbyhq.com/product-analytics",
+        "title": "Ashby products and services",
+        "publisher": "Ashby",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_gem",
+    "description": "Gem provides recruiting, talent sourcing, and recruiting analytics for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "talent sourcing",
+      "recruiting analytics"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_gem_offerings_v096_functional",
+        "url": "https://www.gem.com/platform",
+        "title": "Gem products and services",
+        "publisher": "Gem",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_seekout",
+    "description": "SeekOut provides recruiting, talent intelligence, and talent sourcing for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "talent intelligence",
+      "talent sourcing"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_seekout_offerings_v096_functional",
+        "url": "https://www.seekout.com/platform",
+        "title": "SeekOut products and services",
+        "publisher": "SeekOut",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_namely",
+    "description": "Namely provides HRIS, payroll, and benefits administration for executive and enterprise buyers.",
+    "services": [
+      "HRIS",
+      "payroll",
+      "benefits administration"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_namely_offerings_v096_functional",
+        "url": "https://www.namely.com/platform/",
+        "title": "Namely products and services",
+        "publisher": "Namely",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_charthop",
+    "description": "ChartHop provides people analytics, workforce planning, and HRIS for executive and enterprise buyers.",
+    "services": [
+      "people analytics",
+      "workforce planning",
+      "HRIS"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_charthop_offerings_v096_functional",
+        "url": "https://www.charthop.com/platform",
+        "title": "ChartHop products and services",
+        "publisher": "ChartHop",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_workable",
+    "description": "Workable provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
+    "services": [
+      "recruiting",
+      "applicant tracking system",
+      "talent acquisition"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_workable_offerings_v096_functional",
+        "url": "https://www.workable.com/features",
+        "title": "Workable products and services",
+        "publisher": "Workable",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  },
+  {
+    "entity_id": "ent_cezanne_hr",
+    "description": "Cezanne HR provides HRIS, payroll, and performance management for executive and enterprise buyers.",
+    "services": [
+      "HRIS",
+      "payroll",
+      "performance management"
+    ],
+    "last_verified": "2026-08-12",
+    "sources": [
+      {
+        "id": "src_cezanne-hr_offerings_v096_functional",
+        "url": "https://cezannehr.com/hr-software/",
+        "title": "Cezanne HR products and services",
+        "publisher": "Cezanne HR",
+        "source_class": "official company",
+        "accessed_date": "2026-08-12",
+        "supports": [
+          "description",
+          "services"
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.5",
+  "dataset_version": "0.9.6",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -203,11 +203,13 @@
         "ent_360learning"
       ],
       "alias_source_ids": [
-        "src_360learning_offerings"
+        "src_360learning_offerings",
+        "src_360learning_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -463,11 +465,13 @@
         "ent_abacum"
       ],
       "alias_source_ids": [
-        "src_abacum_offerings"
+        "src_abacum_offerings",
+        "src_abacum_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -790,11 +794,13 @@
         "ent_acumatica"
       ],
       "alias_source_ids": [
-        "src_acumatica_offerings"
+        "src_acumatica_offerings",
+        "src_acumatica_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -1760,11 +1766,13 @@
         "ent_aleph"
       ],
       "alias_source_ids": [
-        "src_aleph_offerings"
+        "src_aleph_offerings",
+        "src_aleph_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -1958,11 +1966,13 @@
         "ent_alkami"
       ],
       "alias_source_ids": [
-        "src_alkami_offerings"
+        "src_alkami_offerings",
+        "src_alkami_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -3000,11 +3010,13 @@
         "ent_ashby"
       ],
       "alias_source_ids": [
-        "src_ashby_offerings"
+        "src_ashby_offerings",
+        "src_ashby_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -3333,11 +3345,13 @@
         "ent_auditboard"
       ],
       "alias_source_ids": [
-        "src_auditboard_offerings"
+        "src_auditboard_offerings",
+        "src_auditboard_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -4684,11 +4698,13 @@
         "ent_billtrust"
       ],
       "alias_source_ids": [
-        "src_billtrust_offerings"
+        "src_billtrust_offerings",
+        "src_billtrust_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -4750,11 +4766,13 @@
         "ent_blackbaud"
       ],
       "alias_source_ids": [
-        "src_blackbaud_offerings"
+        "src_blackbaud_offerings",
+        "src_blackbaud_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -4906,11 +4924,13 @@
         "ent_block"
       ],
       "alias_source_ids": [
-        "src_block_offerings"
+        "src_block_offerings",
+        "src_block_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -6189,11 +6209,13 @@
         "ent_cch_tagetik"
       ],
       "alias_source_ids": [
-        "src_cch-tagetik_offerings"
+        "src_cch-tagetik_offerings",
+        "src_cch-tagetik_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -6471,11 +6493,13 @@
         "ent_cezanne_hr"
       ],
       "alias_source_ids": [
-        "src_cezanne-hr_offerings"
+        "src_cezanne-hr_offerings",
+        "src_cezanne-hr_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -6668,11 +6692,13 @@
         "ent_chargebee"
       ],
       "alias_source_ids": [
-        "src_chargebee_offerings"
+        "src_chargebee_offerings",
+        "src_chargebee_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -6734,11 +6760,13 @@
         "ent_charthop"
       ],
       "alias_source_ids": [
-        "src_charthop_offerings"
+        "src_charthop_offerings",
+        "src_charthop_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -6866,11 +6894,13 @@
         "ent_checkout_com"
       ],
       "alias_source_ids": [
-        "src_checkout-com_offerings"
+        "src_checkout-com_offerings",
+        "src_checkout-com_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -8445,11 +8475,13 @@
         "ent_corpay"
       ],
       "alias_source_ids": [
-        "src_corpay_offerings"
+        "src_corpay_offerings",
+        "src_corpay_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -8726,11 +8758,13 @@
         "ent_cube"
       ],
       "alias_source_ids": [
-        "src_cube_offerings"
+        "src_cube_offerings",
+        "src_cube_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -9184,11 +9218,13 @@
         "ent_darwinbox"
       ],
       "alias_source_ids": [
-        "src_darwinbox_offerings"
+        "src_darwinbox_offerings",
+        "src_darwinbox_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -9898,11 +9934,13 @@
         "ent_degreed"
       ],
       "alias_source_ids": [
-        "src_degreed_offerings"
+        "src_degreed_offerings",
+        "src_degreed_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -10337,11 +10375,13 @@
         "ent_diligent"
       ],
       "alias_source_ids": [
-        "src_diligent_offerings"
+        "src_diligent_offerings",
+        "src_diligent_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -10487,11 +10527,13 @@
         "ent_docebo"
       ],
       "alias_source_ids": [
-        "src_docebo_offerings"
+        "src_docebo_offerings",
+        "src_docebo_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -11326,11 +11368,13 @@
         "ent_epicor"
       ],
       "alias_source_ids": [
-        "src_epicor_offerings"
+        "src_epicor_offerings",
+        "src_epicor_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -11671,11 +11715,13 @@
         "ent_factorial"
       ],
       "alias_source_ids": [
-        "src_factorial_offerings"
+        "src_factorial_offerings",
+        "src_factorial_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -12301,11 +12347,13 @@
         "ent_fiserv"
       ],
       "alias_source_ids": [
-        "src_fiserv_offerings"
+        "src_fiserv_offerings",
+        "src_fiserv_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -12499,11 +12547,13 @@
         "ent_flywire"
       ],
       "alias_source_ids": [
-        "src_flywire_offerings"
+        "src_flywire_offerings",
+        "src_flywire_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -13110,11 +13160,13 @@
         "ent_gem"
       ],
       "alias_source_ids": [
-        "src_gem_offerings"
+        "src_gem_offerings",
+        "src_gem_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -13498,11 +13550,13 @@
         "ent_global_payments"
       ],
       "alias_source_ids": [
-        "src_global-payments_offerings"
+        "src_global-payments_offerings",
+        "src_global-payments_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -13564,11 +13618,13 @@
         "ent_gocardless"
       ],
       "alias_source_ids": [
-        "src_gocardless_offerings"
+        "src_gocardless_offerings",
+        "src_gocardless_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -14194,11 +14250,13 @@
         "ent_gusto"
       ],
       "alias_source_ids": [
-        "src_gusto_offerings"
+        "src_gusto_offerings",
+        "src_gusto_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -15128,11 +15186,13 @@
         "ent_hibob"
       ],
       "alias_source_ids": [
-        "src_hibob_offerings"
+        "src_hibob_offerings",
+        "src_hibob_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -15194,11 +15254,13 @@
         "ent_highradius"
       ],
       "alias_source_ids": [
-        "src_highradius_offerings"
+        "src_highradius_offerings",
+        "src_highradius_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -15689,11 +15751,13 @@
         "ent_icims"
       ],
       "alias_source_ids": [
-        "src_icims_offerings"
+        "src_icims_offerings",
+        "src_icims_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -15755,11 +15819,13 @@
         "ent_ifs"
       ],
       "alias_source_ids": [
-        "src_ifs_offerings"
+        "src_ifs_offerings",
+        "src_ifs_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -16017,11 +16083,13 @@
         "ent_infor"
       ],
       "alias_source_ids": [
-        "src_infor_offerings"
+        "src_infor_offerings",
+        "src_infor_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -16817,11 +16885,13 @@
         "ent_jack_henry"
       ],
       "alias_source_ids": [
-        "src_jack-henry_offerings"
+        "src_jack-henry_offerings",
+        "src_jack-henry_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -16883,11 +16953,13 @@
         "ent_jobvite"
       ],
       "alias_source_ids": [
-        "src_jobvite_offerings"
+        "src_jobvite_offerings",
+        "src_jobvite_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -16969,11 +17041,13 @@
         "ent_justworks"
       ],
       "alias_source_ids": [
-        "src_justworks_offerings"
+        "src_justworks_offerings",
+        "src_justworks_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -17320,11 +17394,13 @@
         "ent_klarna"
       ],
       "alias_source_ids": [
-        "src_klarna_offerings"
+        "src_klarna_offerings",
+        "src_klarna_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -18507,11 +18583,13 @@
         "ent_marqeta"
       ],
       "alias_source_ids": [
-        "src_marqeta_offerings"
+        "src_marqeta_offerings",
+        "src_marqeta_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -18895,11 +18973,13 @@
         "ent_mindbridge"
       ],
       "alias_source_ids": [
-        "src_mindbridge_offerings"
+        "src_mindbridge_offerings",
+        "src_mindbridge_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -19330,11 +19410,13 @@
         "ent_mosaic"
       ],
       "alias_source_ids": [
-        "src_mosaic_offerings"
+        "src_mosaic_offerings",
+        "src_mosaic_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -19505,11 +19587,13 @@
         "ent_namely"
       ],
       "alias_source_ids": [
-        "src_namely_offerings"
+        "src_namely_offerings",
+        "src_namely_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -20082,11 +20166,13 @@
         "ent_nium"
       ],
       "alias_source_ids": [
-        "src_nium_offerings"
+        "src_nium_offerings",
+        "src_nium_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -20384,11 +20470,13 @@
         "ent_numeric"
       ],
       "alias_source_ids": [
-        "src_numeric_offerings"
+        "src_numeric_offerings",
+        "src_numeric_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -21012,11 +21100,13 @@
         "ent_onestream"
       ],
       "alias_source_ids": [
-        "src_onestream_offerings"
+        "src_onestream_offerings",
+        "src_onestream_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -21475,11 +21565,13 @@
         "ent_oracle_netsuite"
       ],
       "alias_source_ids": [
-        "src_oracle-netsuite_offerings"
+        "src_oracle-netsuite_offerings",
+        "src_oracle-netsuite_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -21607,11 +21699,13 @@
         "ent_ordway"
       ],
       "alias_source_ids": [
-        "src_ordway_offerings"
+        "src_ordway_offerings",
+        "src_ordway_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -21814,11 +21908,13 @@
         "ent_oyster"
       ],
       "alias_source_ids": [
-        "src_oyster_offerings"
+        "src_oyster_offerings",
+        "src_oyster_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22099,11 +22195,13 @@
         "ent_papaya_global"
       ],
       "alias_source_ids": [
-        "src_papaya-global_offerings"
+        "src_papaya-global_offerings",
+        "src_papaya-global_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22384,11 +22482,13 @@
         "ent_paycor"
       ],
       "alias_source_ids": [
-        "src_paycor_offerings"
+        "src_paycor_offerings",
+        "src_paycor_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22473,11 +22573,13 @@
         "ent_paylocity"
       ],
       "alias_source_ids": [
-        "src_paylocity_offerings"
+        "src_paylocity_offerings",
+        "src_paylocity_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22539,11 +22641,13 @@
         "ent_paypal"
       ],
       "alias_source_ids": [
-        "src_paypal_offerings"
+        "src_paypal_offerings",
+        "src_paypal_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22692,11 +22796,13 @@
         "ent_personio"
       ],
       "alias_source_ids": [
-        "src_personio_offerings"
+        "src_personio_offerings",
+        "src_personio_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -22823,11 +22929,13 @@
         "ent_pigment"
       ],
       "alias_source_ids": [
-        "src_pigment_offerings"
+        "src_pigment_offerings",
+        "src_pigment_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -23327,11 +23435,13 @@
         "ent_planful"
       ],
       "alias_source_ids": [
-        "src_planful_offerings"
+        "src_planful_offerings",
+        "src_planful_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -24447,11 +24557,13 @@
         "ent_rapyd"
       ],
       "alias_source_ids": [
-        "src_rapyd_offerings"
+        "src_rapyd_offerings",
+        "src_rapyd_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -24579,11 +24691,13 @@
         "ent_recurly"
       ],
       "alias_source_ids": [
-        "src_recurly_offerings"
+        "src_recurly_offerings",
+        "src_recurly_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -24843,11 +24957,13 @@
         "ent_remote"
       ],
       "alias_source_ids": [
-        "src_remote_offerings"
+        "src_remote_offerings",
+        "src_remote_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -26166,11 +26282,13 @@
         "ent_seekout"
       ],
       "alias_source_ids": [
-        "src_seekout_offerings"
+        "src_seekout_offerings",
+        "src_seekout_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -27202,11 +27320,13 @@
         "ent_smartrecruiters"
       ],
       "alias_source_ids": [
-        "src_smartrecruiters_offerings"
+        "src_smartrecruiters_offerings",
+        "src_smartrecruiters_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -28290,11 +28410,13 @@
         "ent_tabs"
       ],
       "alias_source_ids": [
-        "src_tabs_offerings"
+        "src_tabs_offerings",
+        "src_tabs_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -29140,11 +29262,13 @@
         "ent_thunes"
       ],
       "alias_source_ids": [
-        "src_thunes_offerings"
+        "src_thunes_offerings",
+        "src_thunes_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -29272,11 +29396,13 @@
         "ent_toast"
       ],
       "alias_source_ids": [
-        "src_toast_offerings"
+        "src_toast_offerings",
+        "src_toast_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -29844,11 +29970,13 @@
         "ent_trullion"
       ],
       "alias_source_ids": [
-        "src_trullion_offerings"
+        "src_trullion_offerings",
+        "src_trullion_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -30198,11 +30326,13 @@
         "ent_vena_solutions"
       ],
       "alias_source_ids": [
-        "src_vena-solutions_offerings"
+        "src_vena-solutions_offerings",
+        "src_vena-solutions_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -30346,11 +30476,13 @@
         "ent_versapay"
       ],
       "alias_source_ids": [
-        "src_versapay_offerings"
+        "src_versapay_offerings",
+        "src_versapay_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -31016,11 +31148,13 @@
         "ent_wex"
       ],
       "alias_source_ids": [
-        "src_wex_offerings"
+        "src_wex_offerings",
+        "src_wex_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -31272,11 +31406,13 @@
         "ent_workable"
       ],
       "alias_source_ids": [
-        "src_workable_offerings"
+        "src_workable_offerings",
+        "src_workable_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -31463,11 +31599,13 @@
         "ent_workiva"
       ],
       "alias_source_ids": [
-        "src_workiva_offerings"
+        "src_workiva_offerings",
+        "src_workiva_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {
@@ -32577,11 +32715,13 @@
         "ent_zuora"
       ],
       "alias_source_ids": [
-        "src_zuora_offerings"
+        "src_zuora_offerings",
+        "src_zuora_offerings_v096_functional"
       ],
       "supports": [
         "services",
-        "industries"
+        "industries",
+        "description"
       ]
     },
     {

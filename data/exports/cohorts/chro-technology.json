@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.5",
+  "dataset_version": "0.9.6",
   "calculated_at": "2026-08-12",
   "cohort_id": "chro-technology",
   "entity_ids": [
@@ -3688,7 +3688,7 @@
       "name": "Gusto",
       "slug": "gusto",
       "entity_type": "human resources and marketing technology company",
-      "description": "Gusto is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Gusto provides payroll, benefits administration, and HRIS for executive and enterprise buyers.",
       "website": "https://gusto.com/",
       "cxo_roles": [
         "CHRO",
@@ -3708,7 +3708,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "payroll",
+        "benefits administration",
+        "HRIS"
       ],
       "inclusion_basis": [
         "Gusto provides documented products, services or programs used by one or more C-suite functions."
@@ -3755,11 +3758,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_gusto_offerings_v096_functional",
+          "url": "https://gusto.com/product",
+          "title": "Gusto products and services",
+          "publisher": "Gusto",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -3800,12 +3816,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_gusto_description_gusto-is-an-organization-providing-documented-wo",
+          "id": "fact_gusto_description_gusto-provides-payroll-benefits-administration-a",
           "field": "description",
-          "value": "Gusto is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Gusto provides payroll, benefits administration, and HRIS for executive and enterprise buyers.",
           "source_ids": [
             "src_gusto_official",
-            "src_gusto_about"
+            "src_gusto_about",
+            "src_gusto_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -3898,7 +3915,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_gusto_offerings"
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -3907,7 +3925,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_gusto_offerings"
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -3916,7 +3935,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_gusto_offerings"
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gusto_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gusto_services_benefits-administration",
+          "field": "services",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gusto_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_gusto_offerings",
+            "src_gusto_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -3927,7 +3977,7 @@
       "name": "Justworks",
       "slug": "justworks",
       "entity_type": "human resources and marketing technology company",
-      "description": "Justworks is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Justworks provides professional employer organization, payroll, and benefits administration for executive and enterprise buyers.",
       "website": "https://www.justworks.com/",
       "cxo_roles": [
         "CHRO",
@@ -3947,7 +3997,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "professional employer organization",
+        "payroll",
+        "benefits administration"
       ],
       "inclusion_basis": [
         "Justworks provides documented products, services or programs used by one or more C-suite functions."
@@ -3994,11 +4047,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_justworks_offerings_v096_functional",
+          "url": "https://www.justworks.com/products",
+          "title": "Justworks products and services",
+          "publisher": "Justworks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -4039,12 +4105,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_justworks_description_justworks-is-an-organization-providing-documente",
+          "id": "fact_justworks_description_justworks-provides-professional-employer-organiz",
           "field": "description",
-          "value": "Justworks is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Justworks provides professional employer organization, payroll, and benefits administration for executive and enterprise buyers.",
           "source_ids": [
             "src_justworks_official",
-            "src_justworks_about"
+            "src_justworks_about",
+            "src_justworks_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4137,7 +4204,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_justworks_offerings"
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4146,7 +4214,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_justworks_offerings"
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4155,7 +4224,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_justworks_offerings"
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_justworks_services_professional-employer-organization",
+          "field": "services",
+          "value": "professional employer organization",
+          "source_ids": [
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_justworks_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_justworks_services_benefits-administration",
+          "field": "services",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_justworks_offerings",
+            "src_justworks_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -4166,7 +4266,7 @@
       "name": "Personio",
       "slug": "personio",
       "entity_type": "human resources and marketing technology company",
-      "description": "Personio is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Personio provides HRIS, recruiting, and performance management for executive and enterprise buyers.",
       "website": "https://www.personio.com/",
       "cxo_roles": [
         "CHRO",
@@ -4186,7 +4286,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "HRIS",
+        "recruiting",
+        "performance management"
       ],
       "inclusion_basis": [
         "Personio provides documented products, services or programs used by one or more C-suite functions."
@@ -4233,11 +4336,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_personio_offerings_v096_functional",
+          "url": "https://www.personio.com/product/",
+          "title": "Personio products and services",
+          "publisher": "Personio",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -4278,12 +4394,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_personio_description_personio-is-an-organization-providing-documented",
+          "id": "fact_personio_description_personio-provides-hris-recruiting-and-performanc",
           "field": "description",
-          "value": "Personio is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Personio provides HRIS, recruiting, and performance management for executive and enterprise buyers.",
           "source_ids": [
             "src_personio_official",
-            "src_personio_about"
+            "src_personio_about",
+            "src_personio_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4376,7 +4493,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_personio_offerings"
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4385,7 +4503,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_personio_offerings"
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4394,7 +4513,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_personio_offerings"
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_personio_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_personio_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_personio_services_performance-management",
+          "field": "services",
+          "value": "performance management",
+          "source_ids": [
+            "src_personio_offerings",
+            "src_personio_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -4405,7 +4555,7 @@
       "name": "HiBob",
       "slug": "hibob",
       "entity_type": "human resources and marketing technology company",
-      "description": "HiBob is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "HiBob provides HRIS, workforce management, and performance management for executive and enterprise buyers.",
       "website": "https://www.hibob.com/",
       "cxo_roles": [
         "CHRO",
@@ -4425,7 +4575,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "HRIS",
+        "workforce management",
+        "performance management"
       ],
       "inclusion_basis": [
         "HiBob provides documented products, services or programs used by one or more C-suite functions."
@@ -4472,11 +4625,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_hibob_offerings_v096_functional",
+          "url": "https://www.hibob.com/platform/",
+          "title": "HiBob products and services",
+          "publisher": "HiBob",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -4517,12 +4683,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_hibob_description_hibob-is-an-organization-providing-documented-wo",
+          "id": "fact_hibob_description_hibob-provides-hris-workforce-management-and-per",
           "field": "description",
-          "value": "HiBob is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "HiBob provides HRIS, workforce management, and performance management for executive and enterprise buyers.",
           "source_ids": [
             "src_hibob_official",
-            "src_hibob_about"
+            "src_hibob_about",
+            "src_hibob_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4615,7 +4782,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_hibob_offerings"
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4624,7 +4792,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_hibob_offerings"
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4633,7 +4802,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_hibob_offerings"
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hibob_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hibob_services_workforce-management",
+          "field": "services",
+          "value": "workforce management",
+          "source_ids": [
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_hibob_services_performance-management",
+          "field": "services",
+          "value": "performance management",
+          "source_ids": [
+            "src_hibob_offerings",
+            "src_hibob_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -4644,7 +4844,7 @@
       "name": "Remote",
       "slug": "remote",
       "entity_type": "human resources and marketing technology company",
-      "description": "Remote is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Remote provides employer of record, global payroll, and contractor management for executive and enterprise buyers.",
       "website": "https://remote.com/",
       "cxo_roles": [
         "CHRO",
@@ -4664,7 +4864,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "employer of record",
+        "global payroll",
+        "contractor management"
       ],
       "inclusion_basis": [
         "Remote provides documented products, services or programs used by one or more C-suite functions."
@@ -4711,11 +4914,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_remote_offerings_v096_functional",
+          "url": "https://remote.com/platform",
+          "title": "Remote products and services",
+          "publisher": "Remote",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -4756,12 +4972,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_remote_description_remote-is-an-organization-providing-documented-w",
+          "id": "fact_remote_description_remote-provides-employer-of-record-global-payrol",
           "field": "description",
-          "value": "Remote is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Remote provides employer of record, global payroll, and contractor management for executive and enterprise buyers.",
           "source_ids": [
             "src_remote_official",
-            "src_remote_about"
+            "src_remote_about",
+            "src_remote_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4854,7 +5071,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_remote_offerings"
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4863,7 +5081,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_remote_offerings"
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -4872,7 +5091,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_remote_offerings"
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_remote_services_employer-of-record",
+          "field": "services",
+          "value": "employer of record",
+          "source_ids": [
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_remote_services_global-payroll",
+          "field": "services",
+          "value": "global payroll",
+          "source_ids": [
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_remote_services_contractor-management",
+          "field": "services",
+          "value": "contractor management",
+          "source_ids": [
+            "src_remote_offerings",
+            "src_remote_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -4883,7 +5133,7 @@
       "name": "Oyster",
       "slug": "oyster",
       "entity_type": "human resources and marketing technology company",
-      "description": "Oyster is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Oyster provides employer of record, global payroll, and global employment for executive and enterprise buyers.",
       "website": "https://www.oysterhr.com/",
       "cxo_roles": [
         "CHRO",
@@ -4903,7 +5153,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "employer of record",
+        "global payroll",
+        "global employment"
       ],
       "inclusion_basis": [
         "Oyster provides documented products, services or programs used by one or more C-suite functions."
@@ -4950,11 +5203,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_oyster_offerings_v096_functional",
+          "url": "https://www.oysterhr.com/product/employer-of-record",
+          "title": "Oyster products and services",
+          "publisher": "Oyster",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -4995,12 +5261,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_oyster_description_oyster-is-an-organization-providing-documented-w",
+          "id": "fact_oyster_description_oyster-provides-employer-of-record-global-payrol",
           "field": "description",
-          "value": "Oyster is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Oyster provides employer of record, global payroll, and global employment for executive and enterprise buyers.",
           "source_ids": [
             "src_oyster_official",
-            "src_oyster_about"
+            "src_oyster_about",
+            "src_oyster_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5093,7 +5360,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_oyster_offerings"
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5102,7 +5370,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_oyster_offerings"
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5111,7 +5380,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_oyster_offerings"
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_oyster_services_employer-of-record",
+          "field": "services",
+          "value": "employer of record",
+          "source_ids": [
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_oyster_services_global-payroll",
+          "field": "services",
+          "value": "global payroll",
+          "source_ids": [
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_oyster_services_global-employment",
+          "field": "services",
+          "value": "global employment",
+          "source_ids": [
+            "src_oyster_offerings",
+            "src_oyster_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -5122,7 +5422,7 @@
       "name": "Papaya Global",
       "slug": "papaya-global",
       "entity_type": "human resources and marketing technology company",
-      "description": "Papaya Global is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Papaya Global provides global payroll, employer of record, and workforce payments for executive and enterprise buyers.",
       "website": "https://www.papayaglobal.com/",
       "cxo_roles": [
         "CHRO",
@@ -5142,7 +5442,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "global payroll",
+        "employer of record",
+        "workforce payments"
       ],
       "inclusion_basis": [
         "Papaya Global provides documented products, services or programs used by one or more C-suite functions."
@@ -5189,11 +5492,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_papaya-global_offerings_v096_functional",
+          "url": "https://www.papayaglobal.com/platform/",
+          "title": "Papaya Global products and services",
+          "publisher": "Papaya Global",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -5234,12 +5550,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_papaya-global_description_papaya-global-is-an-organization-providing-docum",
+          "id": "fact_papaya-global_description_papaya-global-provides-global-payroll-employer-o",
           "field": "description",
-          "value": "Papaya Global is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Papaya Global provides global payroll, employer of record, and workforce payments for executive and enterprise buyers.",
           "source_ids": [
             "src_papaya-global_official",
-            "src_papaya-global_about"
+            "src_papaya-global_about",
+            "src_papaya-global_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5332,7 +5649,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_papaya-global_offerings"
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5341,7 +5659,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_papaya-global_offerings"
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5350,7 +5669,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_papaya-global_offerings"
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_papaya-global_services_global-payroll",
+          "field": "services",
+          "value": "global payroll",
+          "source_ids": [
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_papaya-global_services_employer-of-record",
+          "field": "services",
+          "value": "employer of record",
+          "source_ids": [
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_papaya-global_services_workforce-payments",
+          "field": "services",
+          "value": "workforce payments",
+          "source_ids": [
+            "src_papaya-global_offerings",
+            "src_papaya-global_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -5361,7 +5711,7 @@
       "name": "Darwinbox",
       "slug": "darwinbox",
       "entity_type": "human resources and marketing technology company",
-      "description": "Darwinbox is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Darwinbox provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
       "website": "https://darwinbox.com/",
       "cxo_roles": [
         "CHRO",
@@ -5381,7 +5731,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "payroll",
+        "HRIS",
+        "workforce management"
       ],
       "inclusion_basis": [
         "Darwinbox provides documented products, services or programs used by one or more C-suite functions."
@@ -5428,11 +5781,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_darwinbox_offerings_v096_functional",
+          "url": "https://darwinbox.com/products/payroll",
+          "title": "Darwinbox products and services",
+          "publisher": "Darwinbox",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -5473,12 +5839,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_darwinbox_description_darwinbox-is-an-organization-providing-documente",
+          "id": "fact_darwinbox_description_darwinbox-provides-payroll-hris-and-workforce-ma",
           "field": "description",
-          "value": "Darwinbox is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Darwinbox provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
           "source_ids": [
             "src_darwinbox_official",
-            "src_darwinbox_about"
+            "src_darwinbox_about",
+            "src_darwinbox_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5571,7 +5938,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_darwinbox_offerings"
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5580,7 +5948,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_darwinbox_offerings"
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5589,7 +5958,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_darwinbox_offerings"
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_darwinbox_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_darwinbox_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_darwinbox_services_workforce-management",
+          "field": "services",
+          "value": "workforce management",
+          "source_ids": [
+            "src_darwinbox_offerings",
+            "src_darwinbox_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -5600,7 +6000,7 @@
       "name": "Factorial",
       "slug": "factorial",
       "entity_type": "human resources and marketing technology company",
-      "description": "Factorial is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Factorial provides HRIS, payroll, and time management for executive and enterprise buyers.",
       "website": "https://factorialhr.com/",
       "cxo_roles": [
         "CHRO",
@@ -5620,7 +6020,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "HRIS",
+        "payroll",
+        "time management"
       ],
       "inclusion_basis": [
         "Factorial provides documented products, services or programs used by one or more C-suite functions."
@@ -5667,11 +6070,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_factorial_offerings_v096_functional",
+          "url": "https://factorialhr.com/product-updates",
+          "title": "Factorial products and services",
+          "publisher": "Factorial",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -5712,12 +6128,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_factorial_description_factorial-is-an-organization-providing-documente",
+          "id": "fact_factorial_description_factorial-provides-hris-payroll-and-time-managem",
           "field": "description",
-          "value": "Factorial is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Factorial provides HRIS, payroll, and time management for executive and enterprise buyers.",
           "source_ids": [
             "src_factorial_official",
-            "src_factorial_about"
+            "src_factorial_about",
+            "src_factorial_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5810,7 +6227,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_factorial_offerings"
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5819,7 +6237,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_factorial_offerings"
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -5828,7 +6247,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_factorial_offerings"
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_factorial_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_factorial_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_factorial_services_time-management",
+          "field": "services",
+          "value": "time management",
+          "source_ids": [
+            "src_factorial_offerings",
+            "src_factorial_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -5839,7 +6289,7 @@
       "name": "Paylocity",
       "slug": "paylocity",
       "entity_type": "human resources and marketing technology company",
-      "description": "Paylocity is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Paylocity provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
       "website": "https://www.paylocity.com/",
       "cxo_roles": [
         "CHRO",
@@ -5859,7 +6309,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "payroll",
+        "HRIS",
+        "workforce management"
       ],
       "inclusion_basis": [
         "Paylocity provides documented products, services or programs used by one or more C-suite functions."
@@ -5906,11 +6359,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_paylocity_offerings_v096_functional",
+          "url": "https://www.paylocity.com/products/",
+          "title": "Paylocity products and services",
+          "publisher": "Paylocity",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -5951,12 +6417,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_paylocity_description_paylocity-is-an-organization-providing-documente",
+          "id": "fact_paylocity_description_paylocity-provides-payroll-hris-and-workforce-ma",
           "field": "description",
-          "value": "Paylocity is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Paylocity provides payroll, HRIS, and workforce management for executive and enterprise buyers.",
           "source_ids": [
             "src_paylocity_official",
-            "src_paylocity_about"
+            "src_paylocity_about",
+            "src_paylocity_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6049,7 +6516,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_paylocity_offerings"
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6058,7 +6526,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_paylocity_offerings"
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6067,7 +6536,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_paylocity_offerings"
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paylocity_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paylocity_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paylocity_services_workforce-management",
+          "field": "services",
+          "value": "workforce management",
+          "source_ids": [
+            "src_paylocity_offerings",
+            "src_paylocity_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -6078,7 +6578,7 @@
       "name": "360Learning",
       "slug": "360learning",
       "entity_type": "human resources and marketing technology company",
-      "description": "360Learning is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "360Learning provides learning management system, employee learning, and collaborative learning for executive and enterprise buyers.",
       "website": "https://360learning.com/",
       "cxo_roles": [
         "CHRO",
@@ -6098,7 +6598,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "learning management system",
+        "employee learning",
+        "collaborative learning"
       ],
       "inclusion_basis": [
         "360Learning provides documented products, services or programs used by one or more C-suite functions."
@@ -6145,11 +6648,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_360learning_offerings_v096_functional",
+          "url": "https://360learning.com/platform-overview/",
+          "title": "360Learning products and services",
+          "publisher": "360Learning",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -6190,12 +6706,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_360learning_description_360learning-is-an-organization-providing-documen",
+          "id": "fact_360learning_description_360learning-provides-learning-management-system-",
           "field": "description",
-          "value": "360Learning is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "360Learning provides learning management system, employee learning, and collaborative learning for executive and enterprise buyers.",
           "source_ids": [
             "src_360learning_official",
-            "src_360learning_about"
+            "src_360learning_about",
+            "src_360learning_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6288,7 +6805,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_360learning_offerings"
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6297,7 +6815,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_360learning_offerings"
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6306,7 +6825,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_360learning_offerings"
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_360learning_services_learning-management-system",
+          "field": "services",
+          "value": "learning management system",
+          "source_ids": [
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_360learning_services_employee-learning",
+          "field": "services",
+          "value": "employee learning",
+          "source_ids": [
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_360learning_services_collaborative-learning",
+          "field": "services",
+          "value": "collaborative learning",
+          "source_ids": [
+            "src_360learning_offerings",
+            "src_360learning_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -6317,7 +6867,7 @@
       "name": "Degreed",
       "slug": "degreed",
       "entity_type": "human resources and marketing technology company",
-      "description": "Degreed is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Degreed provides learning experience platform, skills intelligence, and employee learning for executive and enterprise buyers.",
       "website": "https://degreed.com/",
       "cxo_roles": [
         "CHRO",
@@ -6337,7 +6887,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "learning experience platform",
+        "skills intelligence",
+        "employee learning"
       ],
       "inclusion_basis": [
         "Degreed provides documented products, services or programs used by one or more C-suite functions."
@@ -6384,11 +6937,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_degreed_offerings_v096_functional",
+          "url": "https://degreed.com/platform",
+          "title": "Degreed products and services",
+          "publisher": "Degreed",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -6429,12 +6995,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_degreed_description_degreed-is-an-organization-providing-documented-",
+          "id": "fact_degreed_description_degreed-provides-learning-experience-platform-sk",
           "field": "description",
-          "value": "Degreed is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Degreed provides learning experience platform, skills intelligence, and employee learning for executive and enterprise buyers.",
           "source_ids": [
             "src_degreed_official",
-            "src_degreed_about"
+            "src_degreed_about",
+            "src_degreed_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6527,7 +7094,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_degreed_offerings"
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6536,7 +7104,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_degreed_offerings"
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6545,7 +7114,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_degreed_offerings"
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_degreed_services_learning-experience-platform",
+          "field": "services",
+          "value": "learning experience platform",
+          "source_ids": [
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_degreed_services_skills-intelligence",
+          "field": "services",
+          "value": "skills intelligence",
+          "source_ids": [
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_degreed_services_employee-learning",
+          "field": "services",
+          "value": "employee learning",
+          "source_ids": [
+            "src_degreed_offerings",
+            "src_degreed_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -6556,7 +7156,7 @@
       "name": "Docebo",
       "slug": "docebo",
       "entity_type": "human resources and marketing technology company",
-      "description": "Docebo is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Docebo provides learning management system, employee learning, and learning analytics for executive and enterprise buyers.",
       "website": "https://www.docebo.com/",
       "cxo_roles": [
         "CHRO",
@@ -6576,7 +7176,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "learning management system",
+        "employee learning",
+        "learning analytics"
       ],
       "inclusion_basis": [
         "Docebo provides documented products, services or programs used by one or more C-suite functions."
@@ -6623,11 +7226,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_docebo_offerings_v096_functional",
+          "url": "https://www.docebo.com/learning-platform/",
+          "title": "Docebo products and services",
+          "publisher": "Docebo",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -6668,12 +7284,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_docebo_description_docebo-is-an-organization-providing-documented-w",
+          "id": "fact_docebo_description_docebo-provides-learning-management-system-emplo",
           "field": "description",
-          "value": "Docebo is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Docebo provides learning management system, employee learning, and learning analytics for executive and enterprise buyers.",
           "source_ids": [
             "src_docebo_official",
-            "src_docebo_about"
+            "src_docebo_about",
+            "src_docebo_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6766,7 +7383,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_docebo_offerings"
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6775,7 +7393,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_docebo_offerings"
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -6784,7 +7403,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_docebo_offerings"
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_docebo_services_learning-management-system",
+          "field": "services",
+          "value": "learning management system",
+          "source_ids": [
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_docebo_services_employee-learning",
+          "field": "services",
+          "value": "employee learning",
+          "source_ids": [
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_docebo_services_learning-analytics",
+          "field": "services",
+          "value": "learning analytics",
+          "source_ids": [
+            "src_docebo_offerings",
+            "src_docebo_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -6795,7 +7445,7 @@
       "name": "Paycor",
       "slug": "paycor",
       "entity_type": "human resources and marketing technology company",
-      "description": "Paycor is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Paycor provides payroll, HRIS, and recruiting for executive and enterprise buyers.",
       "website": "https://www.paycor.com/",
       "cxo_roles": [
         "CHRO",
@@ -6815,7 +7465,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "payroll",
+        "HRIS",
+        "recruiting"
       ],
       "inclusion_basis": [
         "Paycor provides documented products, services or programs used by one or more C-suite functions."
@@ -6862,11 +7515,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_paycor_offerings_v096_functional",
+          "url": "https://www.paycor.com/products/",
+          "title": "Paycor products and services",
+          "publisher": "Paycor",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -6907,12 +7573,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_paycor_description_paycor-is-an-organization-providing-documented-w",
+          "id": "fact_paycor_description_paycor-provides-payroll-hris-and-recruiting-for-",
           "field": "description",
-          "value": "Paycor is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Paycor provides payroll, HRIS, and recruiting for executive and enterprise buyers.",
           "source_ids": [
             "src_paycor_official",
-            "src_paycor_about"
+            "src_paycor_about",
+            "src_paycor_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7005,7 +7672,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_paycor_offerings"
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7014,7 +7682,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_paycor_offerings"
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7023,7 +7692,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_paycor_offerings"
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycor_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycor_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_paycor_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_paycor_offerings",
+            "src_paycor_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -7034,7 +7734,7 @@
       "name": "iCIMS",
       "slug": "icims",
       "entity_type": "human resources and marketing technology company",
-      "description": "iCIMS is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "iCIMS provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
       "website": "https://www.icims.com/",
       "cxo_roles": [
         "CHRO",
@@ -7054,7 +7754,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "applicant tracking system",
+        "talent acquisition"
       ],
       "inclusion_basis": [
         "iCIMS provides documented products, services or programs used by one or more C-suite functions."
@@ -7101,11 +7804,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_icims_offerings_v096_functional",
+          "url": "https://www.icims.com/products/",
+          "title": "iCIMS products and services",
+          "publisher": "iCIMS",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -7146,12 +7862,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_icims_description_icims-is-an-organization-providing-documented-wo",
+          "id": "fact_icims_description_icims-provides-recruiting-applicant-tracking-sys",
           "field": "description",
-          "value": "iCIMS is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "iCIMS provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
           "source_ids": [
             "src_icims_official",
-            "src_icims_about"
+            "src_icims_about",
+            "src_icims_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7244,7 +7961,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_icims_offerings"
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7253,7 +7971,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_icims_offerings"
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7262,7 +7981,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_icims_offerings"
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_icims_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_icims_services_applicant-tracking-system",
+          "field": "services",
+          "value": "applicant tracking system",
+          "source_ids": [
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_icims_services_talent-acquisition",
+          "field": "services",
+          "value": "talent acquisition",
+          "source_ids": [
+            "src_icims_offerings",
+            "src_icims_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -7273,7 +8023,7 @@
       "name": "SmartRecruiters",
       "slug": "smartrecruiters",
       "entity_type": "human resources and marketing technology company",
-      "description": "SmartRecruiters is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "SmartRecruiters provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
       "website": "https://www.smartrecruiters.com/",
       "cxo_roles": [
         "CHRO",
@@ -7293,7 +8043,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "applicant tracking system",
+        "talent acquisition"
       ],
       "inclusion_basis": [
         "SmartRecruiters provides documented products, services or programs used by one or more C-suite functions."
@@ -7340,11 +8093,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_smartrecruiters_offerings_v096_functional",
+          "url": "https://www.smartrecruiters.com/platform/",
+          "title": "SmartRecruiters products and services",
+          "publisher": "SmartRecruiters",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -7385,12 +8151,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_smartrecruiters_description_smartrecruiters-is-an-organization-providing-doc",
+          "id": "fact_smartrecruiters_description_smartrecruiters-provides-recruiting-applicant-tr",
           "field": "description",
-          "value": "SmartRecruiters is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "SmartRecruiters provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
           "source_ids": [
             "src_smartrecruiters_official",
-            "src_smartrecruiters_about"
+            "src_smartrecruiters_about",
+            "src_smartrecruiters_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7483,7 +8250,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_smartrecruiters_offerings"
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7492,7 +8260,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_smartrecruiters_offerings"
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7501,7 +8270,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_smartrecruiters_offerings"
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_smartrecruiters_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_smartrecruiters_services_applicant-tracking-system",
+          "field": "services",
+          "value": "applicant tracking system",
+          "source_ids": [
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_smartrecruiters_services_talent-acquisition",
+          "field": "services",
+          "value": "talent acquisition",
+          "source_ids": [
+            "src_smartrecruiters_offerings",
+            "src_smartrecruiters_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -7512,7 +8312,7 @@
       "name": "Jobvite",
       "slug": "jobvite",
       "entity_type": "human resources and marketing technology company",
-      "description": "Jobvite is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Jobvite provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
       "website": "https://www.jobvite.com/",
       "cxo_roles": [
         "CHRO",
@@ -7532,7 +8332,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "applicant tracking system",
+        "talent acquisition"
       ],
       "inclusion_basis": [
         "Jobvite provides documented products, services or programs used by one or more C-suite functions."
@@ -7579,11 +8382,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_jobvite_offerings_v096_functional",
+          "url": "https://www.jobvite.com/products/",
+          "title": "Jobvite products and services",
+          "publisher": "Jobvite",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -7624,12 +8440,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_jobvite_description_jobvite-is-an-organization-providing-documented-",
+          "id": "fact_jobvite_description_jobvite-provides-recruiting-applicant-tracking-s",
           "field": "description",
-          "value": "Jobvite is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Jobvite provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
           "source_ids": [
             "src_jobvite_official",
-            "src_jobvite_about"
+            "src_jobvite_about",
+            "src_jobvite_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7722,7 +8539,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_jobvite_offerings"
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7731,7 +8549,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_jobvite_offerings"
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7740,7 +8559,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_jobvite_offerings"
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_jobvite_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_jobvite_services_applicant-tracking-system",
+          "field": "services",
+          "value": "applicant tracking system",
+          "source_ids": [
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_jobvite_services_talent-acquisition",
+          "field": "services",
+          "value": "talent acquisition",
+          "source_ids": [
+            "src_jobvite_offerings",
+            "src_jobvite_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -7751,7 +8601,7 @@
       "name": "Ashby",
       "slug": "ashby",
       "entity_type": "human resources and marketing technology company",
-      "description": "Ashby is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Ashby provides recruiting, applicant tracking system, and recruiting analytics for executive and enterprise buyers.",
       "website": "https://www.ashbyhq.com/",
       "cxo_roles": [
         "CHRO",
@@ -7771,7 +8621,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "applicant tracking system",
+        "recruiting analytics"
       ],
       "inclusion_basis": [
         "Ashby provides documented products, services or programs used by one or more C-suite functions."
@@ -7818,11 +8671,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_ashby_offerings_v096_functional",
+          "url": "https://www.ashbyhq.com/product-analytics",
+          "title": "Ashby products and services",
+          "publisher": "Ashby",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -7863,12 +8729,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_ashby_description_ashby-is-an-organization-providing-documented-wo",
+          "id": "fact_ashby_description_ashby-provides-recruiting-applicant-tracking-sys",
           "field": "description",
-          "value": "Ashby is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Ashby provides recruiting, applicant tracking system, and recruiting analytics for executive and enterprise buyers.",
           "source_ids": [
             "src_ashby_official",
-            "src_ashby_about"
+            "src_ashby_about",
+            "src_ashby_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7961,7 +8828,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_ashby_offerings"
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7970,7 +8838,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_ashby_offerings"
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -7979,7 +8848,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_ashby_offerings"
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ashby_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ashby_services_applicant-tracking-system",
+          "field": "services",
+          "value": "applicant tracking system",
+          "source_ids": [
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_ashby_services_recruiting-analytics",
+          "field": "services",
+          "value": "recruiting analytics",
+          "source_ids": [
+            "src_ashby_offerings",
+            "src_ashby_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -7990,7 +8890,7 @@
       "name": "Gem",
       "slug": "gem",
       "entity_type": "human resources and marketing technology company",
-      "description": "Gem is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Gem provides recruiting, talent sourcing, and recruiting analytics for executive and enterprise buyers.",
       "website": "https://www.gem.com/",
       "cxo_roles": [
         "CHRO",
@@ -8010,7 +8910,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "talent sourcing",
+        "recruiting analytics"
       ],
       "inclusion_basis": [
         "Gem provides documented products, services or programs used by one or more C-suite functions."
@@ -8057,11 +8960,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_gem_offerings_v096_functional",
+          "url": "https://www.gem.com/platform",
+          "title": "Gem products and services",
+          "publisher": "Gem",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -8102,12 +9018,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_gem_description_gem-is-an-organization-providing-documented-work",
+          "id": "fact_gem_description_gem-provides-recruiting-talent-sourcing-and-recr",
           "field": "description",
-          "value": "Gem is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Gem provides recruiting, talent sourcing, and recruiting analytics for executive and enterprise buyers.",
           "source_ids": [
             "src_gem_official",
-            "src_gem_about"
+            "src_gem_about",
+            "src_gem_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8200,7 +9117,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_gem_offerings"
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8209,7 +9127,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_gem_offerings"
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8218,7 +9137,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_gem_offerings"
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gem_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gem_services_talent-sourcing",
+          "field": "services",
+          "value": "talent sourcing",
+          "source_ids": [
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_gem_services_recruiting-analytics",
+          "field": "services",
+          "value": "recruiting analytics",
+          "source_ids": [
+            "src_gem_offerings",
+            "src_gem_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -8229,7 +9179,7 @@
       "name": "SeekOut",
       "slug": "seekout",
       "entity_type": "human resources and marketing technology company",
-      "description": "SeekOut is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "SeekOut provides recruiting, talent intelligence, and talent sourcing for executive and enterprise buyers.",
       "website": "https://www.seekout.com/",
       "cxo_roles": [
         "CHRO",
@@ -8249,7 +9199,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "talent intelligence",
+        "talent sourcing"
       ],
       "inclusion_basis": [
         "SeekOut provides documented products, services or programs used by one or more C-suite functions."
@@ -8296,11 +9249,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_seekout_offerings_v096_functional",
+          "url": "https://www.seekout.com/platform",
+          "title": "SeekOut products and services",
+          "publisher": "SeekOut",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -8341,12 +9307,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_seekout_description_seekout-is-an-organization-providing-documented-",
+          "id": "fact_seekout_description_seekout-provides-recruiting-talent-intelligence-",
           "field": "description",
-          "value": "SeekOut is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "SeekOut provides recruiting, talent intelligence, and talent sourcing for executive and enterprise buyers.",
           "source_ids": [
             "src_seekout_official",
-            "src_seekout_about"
+            "src_seekout_about",
+            "src_seekout_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8439,7 +9406,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_seekout_offerings"
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8448,7 +9416,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_seekout_offerings"
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8457,7 +9426,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_seekout_offerings"
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_seekout_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_seekout_services_talent-intelligence",
+          "field": "services",
+          "value": "talent intelligence",
+          "source_ids": [
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_seekout_services_talent-sourcing",
+          "field": "services",
+          "value": "talent sourcing",
+          "source_ids": [
+            "src_seekout_offerings",
+            "src_seekout_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -8468,7 +9468,7 @@
       "name": "Namely",
       "slug": "namely",
       "entity_type": "human resources and marketing technology company",
-      "description": "Namely is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Namely provides HRIS, payroll, and benefits administration for executive and enterprise buyers.",
       "website": "https://www.namely.com/",
       "cxo_roles": [
         "CHRO",
@@ -8488,7 +9488,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "HRIS",
+        "payroll",
+        "benefits administration"
       ],
       "inclusion_basis": [
         "Namely provides documented products, services or programs used by one or more C-suite functions."
@@ -8535,11 +9538,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_namely_offerings_v096_functional",
+          "url": "https://www.namely.com/platform/",
+          "title": "Namely products and services",
+          "publisher": "Namely",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -8580,12 +9596,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_namely_description_namely-is-an-organization-providing-documented-w",
+          "id": "fact_namely_description_namely-provides-hris-payroll-and-benefits-admini",
           "field": "description",
-          "value": "Namely is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Namely provides HRIS, payroll, and benefits administration for executive and enterprise buyers.",
           "source_ids": [
             "src_namely_official",
-            "src_namely_about"
+            "src_namely_about",
+            "src_namely_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8678,7 +9695,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_namely_offerings"
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8687,7 +9705,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_namely_offerings"
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -8696,7 +9715,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_namely_offerings"
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_namely_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_namely_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_namely_services_benefits-administration",
+          "field": "services",
+          "value": "benefits administration",
+          "source_ids": [
+            "src_namely_offerings",
+            "src_namely_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -8946,7 +9996,7 @@
       "name": "ChartHop",
       "slug": "charthop",
       "entity_type": "human resources and marketing technology company",
-      "description": "ChartHop is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "ChartHop provides people analytics, workforce planning, and HRIS for executive and enterprise buyers.",
       "website": "https://www.charthop.com/",
       "cxo_roles": [
         "CHRO",
@@ -8966,7 +10016,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "people analytics",
+        "workforce planning",
+        "HRIS"
       ],
       "inclusion_basis": [
         "ChartHop provides documented products, services or programs used by one or more C-suite functions."
@@ -9013,11 +10066,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_charthop_offerings_v096_functional",
+          "url": "https://www.charthop.com/platform",
+          "title": "ChartHop products and services",
+          "publisher": "ChartHop",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -9058,12 +10124,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_charthop_description_charthop-is-an-organization-providing-documented",
+          "id": "fact_charthop_description_charthop-provides-people-analytics-workforce-pla",
           "field": "description",
-          "value": "ChartHop is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "ChartHop provides people analytics, workforce planning, and HRIS for executive and enterprise buyers.",
           "source_ids": [
             "src_charthop_official",
-            "src_charthop_about"
+            "src_charthop_about",
+            "src_charthop_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -9156,7 +10223,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_charthop_offerings"
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -9165,7 +10233,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_charthop_offerings"
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -9174,7 +10243,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_charthop_offerings"
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_charthop_services_people-analytics",
+          "field": "services",
+          "value": "people analytics",
+          "source_ids": [
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_charthop_services_workforce-planning",
+          "field": "services",
+          "value": "workforce planning",
+          "source_ids": [
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_charthop_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_charthop_offerings",
+            "src_charthop_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -9902,7 +11002,7 @@
       "name": "Workable",
       "slug": "workable",
       "entity_type": "human resources and marketing technology company",
-      "description": "Workable is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Workable provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
       "website": "https://www.workable.com/",
       "cxo_roles": [
         "CHRO",
@@ -9922,7 +11022,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "recruiting",
+        "applicant tracking system",
+        "talent acquisition"
       ],
       "inclusion_basis": [
         "Workable provides documented products, services or programs used by one or more C-suite functions."
@@ -9969,11 +11072,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_workable_offerings_v096_functional",
+          "url": "https://www.workable.com/features",
+          "title": "Workable products and services",
+          "publisher": "Workable",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -10014,12 +11130,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_workable_description_workable-is-an-organization-providing-documented",
+          "id": "fact_workable_description_workable-provides-recruiting-applicant-tracking-",
           "field": "description",
-          "value": "Workable is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Workable provides recruiting, applicant tracking system, and talent acquisition for executive and enterprise buyers.",
           "source_ids": [
             "src_workable_official",
-            "src_workable_about"
+            "src_workable_about",
+            "src_workable_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10112,7 +11229,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_workable_offerings"
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10121,7 +11239,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_workable_offerings"
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10130,7 +11249,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_workable_offerings"
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workable_services_recruiting",
+          "field": "services",
+          "value": "recruiting",
+          "source_ids": [
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workable_services_applicant-tracking-system",
+          "field": "services",
+          "value": "applicant tracking system",
+          "source_ids": [
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_workable_services_talent-acquisition",
+          "field": "services",
+          "value": "talent acquisition",
+          "source_ids": [
+            "src_workable_offerings",
+            "src_workable_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }
@@ -10141,7 +11291,7 @@
       "name": "Cezanne HR",
       "slug": "cezanne-hr",
       "entity_type": "human resources and marketing technology company",
-      "description": "Cezanne HR is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+      "description": "Cezanne HR provides HRIS, payroll, and performance management for executive and enterprise buyers.",
       "website": "https://cezannehr.com/",
       "cxo_roles": [
         "CHRO",
@@ -10161,7 +11311,10 @@
       "services": [
         "workforce or customer software",
         "analytics and automation",
-        "implementation and support"
+        "implementation and support",
+        "HRIS",
+        "payroll",
+        "performance management"
       ],
       "inclusion_basis": [
         "Cezanne HR provides documented products, services or programs used by one or more C-suite functions."
@@ -10208,11 +11361,24 @@
             "description",
             "geographies"
           ]
+        },
+        {
+          "id": "src_cezanne-hr_offerings_v096_functional",
+          "url": "https://cezannehr.com/hr-software/",
+          "title": "Cezanne HR products and services",
+          "publisher": "Cezanne HR",
+          "source_class": "official company",
+          "accessed_date": "2026-08-12",
+          "supports": [
+            "description",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-12",
       "last_verified": "2026-08-12",
       "verification_status": "verified",
+      "products": [],
       "geography_status": "verified",
       "primary_category": "HR Technology",
       "secondary_categories": [],
@@ -10253,12 +11419,13 @@
           "last_verified": "2026-08-12"
         },
         {
-          "id": "fact_cezanne-hr_description_cezanne-hr-is-an-organization-providing-document",
+          "id": "fact_cezanne-hr_description_cezanne-hr-provides-hris-payroll-and-performance",
           "field": "description",
-          "value": "Cezanne HR is an organization providing documented workforce or customer software, analytics and automation, and implementation and support relevant to executive decision-makers.",
+          "value": "Cezanne HR provides HRIS, payroll, and performance management for executive and enterprise buyers.",
           "source_ids": [
             "src_cezanne-hr_official",
-            "src_cezanne-hr_about"
+            "src_cezanne-hr_about",
+            "src_cezanne-hr_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10351,7 +11518,8 @@
           "field": "services",
           "value": "workforce or customer software",
           "source_ids": [
-            "src_cezanne-hr_offerings"
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10360,7 +11528,8 @@
           "field": "services",
           "value": "analytics and automation",
           "source_ids": [
-            "src_cezanne-hr_offerings"
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         },
@@ -10369,7 +11538,38 @@
           "field": "services",
           "value": "implementation and support",
           "source_ids": [
-            "src_cezanne-hr_offerings"
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cezanne-hr_services_hris",
+          "field": "services",
+          "value": "HRIS",
+          "source_ids": [
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cezanne-hr_services_payroll",
+          "field": "services",
+          "value": "payroll",
+          "source_ids": [
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
+          ],
+          "last_verified": "2026-08-12"
+        },
+        {
+          "id": "fact_cezanne-hr_services_performance-management",
+          "field": "services",
+          "value": "performance management",
+          "source_ids": [
+            "src_cezanne-hr_offerings",
+            "src_cezanne-hr_offerings_v096_functional"
           ],
           "last_verified": "2026-08-12"
         }

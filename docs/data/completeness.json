@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.9.5",
+  "dataset_version": "0.9.6",
   "schema_version": "1.0.0",
   "calculated_at": "2026-08-12",
   "standard": {
@@ -3088,7 +3088,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -3150,7 +3150,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -3274,7 +3274,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -3491,7 +3491,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -3584,7 +3584,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -3987,7 +3987,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4080,7 +4080,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4514,7 +4514,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4545,7 +4545,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4576,7 +4576,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -4979,7 +4979,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5072,7 +5072,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5103,7 +5103,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5134,7 +5134,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5196,7 +5196,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5692,7 +5692,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5754,7 +5754,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -5909,7 +5909,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6126,7 +6126,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6312,7 +6312,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6374,7 +6374,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6746,7 +6746,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6808,7 +6808,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -6963,7 +6963,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7056,7 +7056,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7304,7 +7304,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7397,7 +7397,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7428,7 +7428,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7645,7 +7645,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7800,7 +7800,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7831,7 +7831,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -7986,7 +7986,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8017,7 +8017,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8110,7 +8110,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8234,7 +8234,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8265,7 +8265,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8296,7 +8296,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8451,7 +8451,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8823,7 +8823,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -8885,7 +8885,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9040,7 +9040,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9102,7 +9102,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9350,7 +9350,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9443,7 +9443,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9567,7 +9567,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9660,7 +9660,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9722,7 +9722,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9784,7 +9784,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -9908,7 +9908,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10032,7 +10032,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10063,7 +10063,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10094,7 +10094,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10125,7 +10125,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10187,7 +10187,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10311,7 +10311,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10714,7 +10714,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10776,7 +10776,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -10900,7 +10900,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -11210,7 +11210,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -11489,7 +11489,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -11861,7 +11861,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12171,7 +12171,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12233,7 +12233,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12388,7 +12388,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12543,7 +12543,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12574,7 +12574,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12729,7 +12729,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12822,7 +12822,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 14,
+      "fact_count": 17,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -12884,7 +12884,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },
@@ -13070,7 +13070,7 @@
         "headquarters"
       ],
       "source_count": 3,
-      "fact_count": 15,
+      "fact_count": 18,
       "last_verified": "2026-08-12",
       "research_priority": "Maintain"
     },

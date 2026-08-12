@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.9.5",
+  "dataset_version": "0.9.6",
   "calculated_at": "2026-08-12",
   "benchmarks": [
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "coverage": 0.7778,
       "headline_eligible": true,
@@ -124,7 +124,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -217,7 +217,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -476,7 +476,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -601,7 +601,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -703,7 +703,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -761,7 +761,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -800,7 +800,7 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.9.5",
+          "dataset_version": "0.9.6",
           "schema_version": "1.4.0",
           "calculated_at": "2026-08-12",
           "source_fields": [
@@ -1315,7 +1315,7 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "known_count": 72,
       "unknown_count": 428,
@@ -2339,7 +2339,7 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "known_count": 71,
       "unknown_count": 429,
@@ -3363,7 +3363,7 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "known_count": 5,
       "unknown_count": 495,
@@ -4387,7 +4387,7 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "total_entities": 500,
       "known_count": 468,
@@ -4957,15 +4957,15 @@
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.9.5",
+      "dataset_version": "0.9.6",
       "calculated_at": "2026-08-12",
       "headline_eligible": true,
       "publication_status": "quality-report",
       "headline_coverage_threshold": 0.6,
       "total_entities": 500,
-      "total_facts": 8338,
-      "average_facts_per_entity": 16.68,
-      "median_facts_per_entity": 15,
+      "total_facts": 8548,
+      "average_facts_per_entity": 17.1,
+      "median_facts_per_entity": 16,
       "entities_with_3_plus": 484,
       "entities_with_5_plus": 475,
       "entities_with_10_plus": 448,

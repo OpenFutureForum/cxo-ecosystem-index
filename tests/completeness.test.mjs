@@ -185,6 +185,24 @@ test('the v0.9.5 expansion reaches 500 with 206 decision-ready profiles',async()
  assert.ok(records.every(record=>record.fact_count>=10));
 });
 
+test('the v0.9.6 depth pass makes CFO and CHRO maps decision-ready',async()=>{
+ const [batch,manifest]=await Promise.all([
+  fs.readFile(path.join(root,'data/enrichments-p6.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/depth-pass-v0.9.6.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(batch.length,70);
+ assert.equal(batch.length,manifest.enriched_entities);
+ assert.equal(batch.reduce((sum,record)=>sum+record.services.length,0),210);
+ assert.ok(batch.every(record=>record.description&&record.services.length===3));
+ assert.ok(batch.every(record=>record.sources.length===1&&record.sources[0].supports.includes('services')));
+ const {buildMarketMaps}=await import('../scripts/intelligence.mjs');
+ const maps=new Map(buildMarketMaps(entities).map(map=>[map.id,map]));
+ assert.ok(maps.get('cfo-technology').coverage>=.8);
+ assert.ok(maps.get('chro-technology').coverage>=.7);
+ assert.equal(maps.get('cfo-technology').headline_eligible,true);
+ assert.equal(maps.get('chro-technology').headline_eligible,true);
+});
+
 test('generated completeness exports and public explanations agree',async()=>{
  const [json,csv,quality,profile,methodology]=await Promise.all([
   fs.readFile(path.join(root,'docs/data/completeness.json'),'utf8'),

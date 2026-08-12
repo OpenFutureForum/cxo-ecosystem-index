@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.6 — 2026-08-12 — Functional Intelligence Depth Pass
+
+- Converted generic offering labels into 210 precise, source-supported functional facts across 70 CFO and CHRO technology profiles.
+- Added decision-useful classifications for ERP, accounting, close, FP&A, billing, accounts receivable, payments, banking, HRIS, payroll, employer-of-record, recruiting, learning and people analytics capabilities.
+- Raised CFO Technology market-map coverage from 30.0% to 88.8% and CHRO Technology coverage from 46.3% to 77.8%, making all eight market maps decision-ready.
+- Replaced generic descriptions on the enriched profiles with concise summaries derived from their official offering evidence.
+- Preserved the 500-organization dataset, neutral methodology and Open Future Forum's Executive Communities classification.
+
 ## 0.9.5 — 2026-08-12 — 500-Organization Evidence Expansion
 
 - Expanded the index from 294 to exactly 500 organizations across cybersecurity, enterprise technology, AI, finance technology, HR technology, marketing technology, consulting, accounting, recruiting and executive search.
