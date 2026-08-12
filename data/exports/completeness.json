@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "schema_version": "1.0.0",
   "calculated_at": "2026-08-11",
   "standard": {
@@ -118,19 +118,19 @@
   },
   "summary": {
     "total_entities": 194,
-    "average_score": 54,
-    "median_score": 40,
+    "average_score": 58.8,
+    "median_score": 50,
     "tier_counts": {
-      "decision-ready": 47,
-      "substantial": 35,
+      "decision-ready": 56,
+      "substantial": 38,
       "developing": 19,
-      "basic": 93
+      "basic": 81
     },
     "research_priority_counts": {
       "P1": 50,
       "P2": 50,
-      "P3": 47,
-      "Maintain": 47
+      "P3": 38,
+      "Maintain": 56
     }
   },
   "field_coverage": [
@@ -170,65 +170,65 @@
       "id": "founded_year",
       "label": "Founded year",
       "weight": 10,
-      "known_count": 32,
-      "unknown_count": 162,
-      "coverage": 0.1649
+      "known_count": 36,
+      "unknown_count": 158,
+      "coverage": 0.1856
     },
     {
       "id": "headquarters",
       "label": "Headquarters",
       "weight": 10,
-      "known_count": 27,
-      "unknown_count": 167,
-      "coverage": 0.1392
+      "known_count": 35,
+      "unknown_count": 159,
+      "coverage": 0.1804
     },
     {
       "id": "operating_geography",
       "label": "Operating geography",
       "weight": 5,
-      "known_count": 47,
-      "unknown_count": 147,
-      "coverage": 0.2423
+      "known_count": 51,
+      "unknown_count": 143,
+      "coverage": 0.2629
     },
     {
       "id": "offerings",
       "label": "Products, services, programs, or capabilities",
       "weight": 10,
-      "known_count": 99,
-      "unknown_count": 95,
-      "coverage": 0.5103
+      "known_count": 111,
+      "unknown_count": 83,
+      "coverage": 0.5722
     },
     {
       "id": "industries",
       "label": "Industries served",
       "weight": 5,
-      "known_count": 81,
-      "unknown_count": 113,
-      "coverage": 0.4175
+      "known_count": 93,
+      "unknown_count": 101,
+      "coverage": 0.4794
     },
     {
       "id": "semantic_profile",
       "label": "Evidence-linked semantic profile",
       "weight": 10,
-      "known_count": 100,
-      "unknown_count": 94,
-      "coverage": 0.5155
+      "known_count": 143,
+      "unknown_count": 51,
+      "coverage": 0.7371
     },
     {
       "id": "source_breadth",
       "label": "Three or more canonical sources",
       "weight": 10,
-      "known_count": 82,
-      "unknown_count": 112,
-      "coverage": 0.4227
+      "known_count": 93,
+      "unknown_count": 101,
+      "coverage": 0.4794
     },
     {
       "id": "fact_depth",
       "label": "Ten or more source-linked facts",
       "weight": 5,
-      "known_count": 95,
-      "unknown_count": 99,
-      "coverage": 0.4897
+      "known_count": 107,
+      "unknown_count": 87,
+      "coverage": 0.5515
     },
     {
       "id": "freshness",
@@ -241,10 +241,10 @@
   ],
   "entities": [
     {
-      "entity_id": "ent_909cyber",
-      "name": "909Cyber",
-      "slug": "909cyber",
-      "primary_category": "Cybersecurity",
+      "entity_id": "ent_applitools",
+      "name": "Applitools",
+      "slug": "applitools",
+      "primary_category": "Enterprise Technology",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -267,15 +267,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_affirm",
-      "name": "Affirm",
-      "slug": "affirm",
-      "primary_category": "Fintech",
+      "entity_id": "ent_atlas_cloud_ai",
+      "name": "Atlas Cloud AI",
+      "slug": "atlas-cloud-ai",
+      "primary_category": "AI Infrastructure",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -298,38 +298,7 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_bdev_ventures",
-      "name": "BDEV Ventures",
-      "slug": "bdev-ventures",
-      "primary_category": "Venture Capital",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
@@ -365,9 +334,9 @@
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_compose_ai",
-      "name": "Compose AI",
-      "slug": "compose-ai",
+      "entity_id": "ent_contextqa",
+      "name": "ContextQA",
+      "slug": "contextqa",
       "primary_category": "Artificial Intelligence",
       "editorial_priority": "B",
       "score": 35,
@@ -391,15 +360,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_counterrun_ai",
-      "name": "CounterRun.ai",
-      "slug": "counterrun-ai",
-      "primary_category": "AI Security",
+      "entity_id": "ent_era_group",
+      "name": "ERA Group",
+      "slug": "era-group",
+      "primary_category": "Consulting",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -422,15 +391,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 8,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_hiive",
-      "name": "Hiive",
-      "slug": "hiive",
-      "primary_category": "Private Market Infrastructure",
+      "entity_id": "ent_finrep",
+      "name": "Finrep",
+      "slug": "finrep",
+      "primary_category": "CFO Technology",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -453,15 +422,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 8,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_ironarc_ventures",
-      "name": "IronArc Ventures",
-      "slug": "ironarc-ventures",
-      "primary_category": "Venture Capital",
+      "entity_id": "ent_hackzero_ai",
+      "name": "HackZero.ai",
+      "slug": "hackzero-ai",
+      "primary_category": "Cybersecurity",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -484,15 +453,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_leader_bank",
-      "name": "Leader Bank",
-      "slug": "leader-bank",
-      "primary_category": "Banks",
+      "entity_id": "ent_hg_insights",
+      "name": "HG Insights",
+      "slug": "hg-insights",
+      "primary_category": "Research Firms",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -515,15 +484,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_oguz_law",
-      "name": "Oguz Law",
-      "slug": "oguz-law",
-      "primary_category": "Law Firms",
+      "entity_id": "ent_northwestern_mutual",
+      "name": "Northwestern Mutual",
+      "slug": "northwestern-mutual",
+      "primary_category": "Insurance",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -546,15 +515,15 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_opal_group",
-      "name": "Opal Group",
-      "slug": "opal-group",
-      "primary_category": "Conferences",
+      "entity_id": "ent_optimhire",
+      "name": "OptimHire",
+      "slug": "optimhire",
+      "primary_category": "Recruiting",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -577,7 +546,7 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
@@ -613,9 +582,40 @@
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_payzen",
-      "name": "PayZen",
-      "slug": "payzen",
+      "entity_id": "ent_pier_70_ventures",
+      "name": "Pier 70 Ventures",
+      "slug": "pier-70-ventures",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "B",
+      "score": 35,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 7,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_pipe",
+      "name": "Pipe",
+      "slug": "pipe",
       "primary_category": "Fintech",
       "editorial_priority": "B",
       "score": 35,
@@ -639,15 +639,46 @@
         "fact_depth"
       ],
       "source_count": 1,
-      "fact_count": 6,
+      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_transacta_capital",
-      "name": "Transacta Capital",
-      "slug": "transacta-capital",
-      "primary_category": "M&A Advisors",
+      "entity_id": "ent_secure_octane_investments",
+      "name": "Secure Octane Investments",
+      "slug": "secure-octane-investments",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "B",
+      "score": 35,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 7,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_verano_capital_partners",
+      "name": "Verano Capital Partners",
+      "slug": "verano-capital-partners",
+      "primary_category": "Investment Advisory",
       "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
@@ -706,440 +737,6 @@
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_bill",
-      "name": "BILL",
-      "slug": "bill",
-      "primary_category": "CFO Technology",
-      "editorial_priority": "A",
-      "score": 60,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "industries",
-        "semantic_profile"
-      ],
-      "source_count": 4,
-      "fact_count": 69,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_databricks",
-      "name": "Databricks",
-      "slug": "databricks",
-      "primary_category": "Enterprise Technology",
-      "editorial_priority": "A",
-      "score": 60,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "industries",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_ramp",
-      "name": "Ramp",
-      "slug": "ramp",
-      "primary_category": "CFO Technology",
-      "editorial_priority": "A",
-      "score": 60,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "headquarters",
-        "offerings",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "operating_geography",
-        "industries",
-        "semantic_profile",
-        "source_breadth"
-      ],
-      "source_count": 2,
-      "fact_count": 22,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_rippling",
-      "name": "Rippling",
-      "slug": "rippling",
-      "primary_category": "HR Technology",
-      "editorial_priority": "A",
-      "score": 60,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "industries",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_witnessai",
-      "name": "WitnessAI",
-      "slug": "witnessai",
-      "primary_category": "AI Security",
-      "editorial_priority": "A",
-      "score": 60,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "industries",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_adaptive_security",
-      "name": "Adaptive Security",
-      "slug": "adaptive-security",
-      "primary_category": "AI Security",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 15,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_avenue_capital_group",
-      "name": "Avenue Capital Group",
-      "slug": "avenue-capital-group",
-      "primary_category": "Private Credit",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 17,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_brighttower",
-      "name": "BrightTower",
-      "slug": "brighttower",
-      "primary_category": "Investment Banks",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 16,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_burkland",
-      "name": "Burkland",
-      "slug": "burkland",
-      "primary_category": "Finance Advisory",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_cfgi",
-      "name": "CFGI",
-      "slug": "cfgi",
-      "primary_category": "Accounting",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_danforth_advisors",
-      "name": "Danforth Advisors",
-      "slug": "danforth-advisors",
-      "primary_category": "Finance Advisory",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 16,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_dla_piper",
-      "name": "DLA Piper",
-      "slug": "dla-piper",
-      "primary_category": "Law Firms",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 21,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_frank_rimerman_co",
-      "name": "Frank, Rimerman + Co.",
-      "slug": "frank-rimerman-co",
-      "primary_category": "Accounting",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_ghj",
-      "name": "GHJ",
-      "slug": "ghj",
-      "primary_category": "Accounting",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 20,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
       "entity_id": "ent_harden",
       "name": "Harden",
       "slug": "harden",
@@ -1171,12 +768,12 @@
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_heffernan_insurance_brokers",
-      "name": "Heffernan Insurance Brokers",
-      "slug": "heffernan-insurance-brokers",
-      "primary_category": "Insurance",
+      "entity_id": "ent_bill",
+      "name": "BILL",
+      "slug": "bill",
+      "primary_category": "CFO Technology",
       "editorial_priority": "A",
-      "score": 65,
+      "score": 70,
       "tier": "substantial",
       "tier_label": "Substantial",
       "completed_criteria": [
@@ -1185,7 +782,7 @@
         "executive_relevance",
         "inclusion_basis",
         "offerings",
-        "industries",
+        "semantic_profile",
         "source_breadth",
         "fact_depth",
         "freshness"
@@ -1194,51 +791,20 @@
         "founded_year",
         "headquarters",
         "operating_geography",
-        "semantic_profile"
+        "industries"
       ],
-      "source_count": 3,
-      "fact_count": 18,
+      "source_count": 4,
+      "fact_count": 69,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_hfs_research",
-      "name": "HFS Research",
-      "slug": "hfs-research",
-      "primary_category": "Research Firms",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_intel",
-      "name": "Intel",
-      "slug": "intel",
+      "entity_id": "ent_databricks",
+      "name": "Databricks",
+      "slug": "databricks",
       "primary_category": "Enterprise Technology",
       "editorial_priority": "A",
-      "score": 65,
+      "score": 70,
       "tier": "substantial",
       "tier_label": "Substantial",
       "completed_criteria": [
@@ -1247,7 +813,7 @@
         "executive_relevance",
         "inclusion_basis",
         "offerings",
-        "industries",
+        "semantic_profile",
         "source_breadth",
         "fact_depth",
         "freshness"
@@ -1256,51 +822,20 @@
         "founded_year",
         "headquarters",
         "operating_geography",
-        "semantic_profile"
+        "industries"
       ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_intrepid_investment_bankers",
-      "name": "Intrepid Investment Bankers",
-      "slug": "intrepid-investment-bankers",
-      "primary_category": "Investment Banks",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
+      "source_count": 4,
       "fact_count": 18,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_lockton",
-      "name": "Lockton",
-      "slug": "lockton",
-      "primary_category": "Insurance",
+      "entity_id": "ent_ramp",
+      "name": "Ramp",
+      "slug": "ramp",
+      "primary_category": "CFO Technology",
       "editorial_priority": "A",
-      "score": 65,
+      "score": 70,
       "tier": "substantial",
       "tier_label": "Substantial",
       "completed_criteria": [
@@ -1308,185 +843,30 @@
         "classification",
         "executive_relevance",
         "inclusion_basis",
+        "headquarters",
         "offerings",
-        "industries",
-        "source_breadth",
+        "semantic_profile",
         "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
         "founded_year",
-        "headquarters",
         "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_next47",
-      "name": "Next47",
-      "slug": "next47",
-      "primary_category": "Venture Capital",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
         "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
+        "source_breadth"
       ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 18,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_nvidia",
-      "name": "NVIDIA",
-      "slug": "nvidia",
-      "primary_category": "AI Infrastructure",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 20,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_one_way_ventures",
-      "name": "One Way Ventures",
-      "slug": "one-way-ventures",
-      "primary_category": "Venture Capital",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 16,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_robert_half",
-      "name": "Robert Half",
-      "slug": "robert-half",
-      "primary_category": "Recruiting",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_scale_ai",
-      "name": "Scale AI",
-      "slug": "scale-ai",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
+      "source_count": 2,
       "fact_count": 22,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_wells_fargo",
-      "name": "Wells Fargo",
-      "slug": "wells-fargo",
-      "primary_category": "Banks",
+      "entity_id": "ent_rippling",
+      "name": "Rippling",
+      "slug": "rippling",
+      "primary_category": "HR Technology",
       "editorial_priority": "A",
-      "score": 65,
+      "score": 70,
       "tier": "substantial",
       "tier_label": "Substantial",
       "completed_criteria": [
@@ -1495,7 +875,7 @@
         "executive_relevance",
         "inclusion_basis",
         "offerings",
-        "industries",
+        "semantic_profile",
         "source_breadth",
         "fact_depth",
         "freshness"
@@ -1504,38 +884,7 @@
         "founded_year",
         "headquarters",
         "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 21,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_westcap",
-      "name": "WestCap",
-      "slug": "westcap",
-      "primary_category": "Growth Equity",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
+        "industries"
       ],
       "source_count": 3,
       "fact_count": 18,
@@ -1543,103 +892,10 @@
       "research_priority": "P1"
     },
     {
-      "entity_id": "ent_western_technology_investment",
-      "name": "Western Technology Investment",
-      "slug": "western-technology-investment",
-      "primary_category": "Private Credit",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 20,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_writer",
-      "name": "Writer",
-      "slug": "writer",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 21,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_zenskar",
-      "name": "Zenskar",
-      "slug": "zenskar",
-      "primary_category": "CFO Technology",
-      "editorial_priority": "A",
-      "score": 65,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "semantic_profile"
-      ],
-      "source_count": 3,
-      "fact_count": 19,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_brex",
-      "name": "Brex",
-      "slug": "brex",
-      "primary_category": "CFO Technology",
+      "entity_id": "ent_witnessai",
+      "name": "WitnessAI",
+      "slug": "witnessai",
+      "primary_category": "AI Security",
       "editorial_priority": "A",
       "score": 70,
       "tier": "substantial",
@@ -1649,40 +905,40 @@
         "classification",
         "executive_relevance",
         "inclusion_basis",
-        "founded_year",
-        "headquarters",
         "offerings",
+        "semantic_profile",
+        "source_breadth",
         "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
+        "founded_year",
+        "headquarters",
         "operating_geography",
+        "industries"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_adaptive_security",
+      "name": "Adaptive Security",
+      "slug": "adaptive-security",
+      "primary_category": "AI Security",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
         "industries",
         "semantic_profile",
-        "source_breadth"
-      ],
-      "source_count": 2,
-      "fact_count": 44,
-      "last_verified": "2026-08-11",
-      "research_priority": "P1"
-    },
-    {
-      "entity_id": "ent_simmons_simmons",
-      "name": "Simmons & Simmons",
-      "slug": "simmons-simmons",
-      "primary_category": "Law Firms",
-      "editorial_priority": "A",
-      "score": 70,
-      "tier": "substantial",
-      "tier_label": "Substantial",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "operating_geography",
-        "offerings",
-        "industries",
         "source_breadth",
         "fact_depth",
         "freshness"
@@ -1690,10 +946,10 @@
       "missing_criteria": [
         "founded_year",
         "headquarters",
-        "semantic_profile"
+        "operating_geography"
       ],
       "source_count": 3,
-      "fact_count": 19,
+      "fact_count": 15,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
     },
@@ -1729,6 +985,37 @@
       "research_priority": "P1"
     },
     {
+      "entity_id": "ent_avenue_capital_group",
+      "name": "Avenue Capital Group",
+      "slug": "avenue-capital-group",
+      "primary_category": "Private Credit",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 17,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
       "entity_id": "ent_axari_technologies_inc",
       "name": "Axari Technologies, Inc.",
       "slug": "axari-technologies-inc",
@@ -1760,6 +1047,161 @@
       "research_priority": "P1"
     },
     {
+      "entity_id": "ent_brighttower",
+      "name": "BrightTower",
+      "slug": "brighttower",
+      "primary_category": "Investment Banks",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 16,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_burkland",
+      "name": "Burkland",
+      "slug": "burkland",
+      "primary_category": "Finance Advisory",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_cfgi",
+      "name": "CFGI",
+      "slug": "cfgi",
+      "primary_category": "Accounting",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_danforth_advisors",
+      "name": "Danforth Advisors",
+      "slug": "danforth-advisors",
+      "primary_category": "Finance Advisory",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 16,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_dla_piper",
+      "name": "DLA Piper",
+      "slug": "dla-piper",
+      "primary_category": "Law Firms",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 21,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
       "entity_id": "ent_findem",
       "name": "Findem",
       "slug": "findem",
@@ -1786,6 +1228,564 @@
         "operating_geography"
       ],
       "source_count": 4,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_frank_rimerman_co",
+      "name": "Frank, Rimerman + Co.",
+      "slug": "frank-rimerman-co",
+      "primary_category": "Accounting",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_ghj",
+      "name": "GHJ",
+      "slug": "ghj",
+      "primary_category": "Accounting",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 20,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_heffernan_insurance_brokers",
+      "name": "Heffernan Insurance Brokers",
+      "slug": "heffernan-insurance-brokers",
+      "primary_category": "Insurance",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_hfs_research",
+      "name": "HFS Research",
+      "slug": "hfs-research",
+      "primary_category": "Research Firms",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_intel",
+      "name": "Intel",
+      "slug": "intel",
+      "primary_category": "Enterprise Technology",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_intrepid_investment_bankers",
+      "name": "Intrepid Investment Bankers",
+      "slug": "intrepid-investment-bankers",
+      "primary_category": "Investment Banks",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_lockton",
+      "name": "Lockton",
+      "slug": "lockton",
+      "primary_category": "Insurance",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_next47",
+      "name": "Next47",
+      "slug": "next47",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_nvidia",
+      "name": "NVIDIA",
+      "slug": "nvidia",
+      "primary_category": "AI Infrastructure",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 6,
+      "fact_count": 20,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_one_way_ventures",
+      "name": "One Way Ventures",
+      "slug": "one-way-ventures",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 16,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_robert_half",
+      "name": "Robert Half",
+      "slug": "robert-half",
+      "primary_category": "Recruiting",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_scale_ai",
+      "name": "Scale AI",
+      "slug": "scale-ai",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 22,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_simmons_simmons",
+      "name": "Simmons & Simmons",
+      "slug": "simmons-simmons",
+      "primary_category": "Law Firms",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_wells_fargo",
+      "name": "Wells Fargo",
+      "slug": "wells-fargo",
+      "primary_category": "Banks",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 21,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_westcap",
+      "name": "WestCap",
+      "slug": "westcap",
+      "primary_category": "Growth Equity",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_western_technology_investment",
+      "name": "Western Technology Investment",
+      "slug": "western-technology-investment",
+      "primary_category": "Private Credit",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 20,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_writer",
+      "name": "Writer",
+      "slug": "writer",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 21,
+      "last_verified": "2026-08-11",
+      "research_priority": "P1"
+    },
+    {
+      "entity_id": "ent_zenskar",
+      "name": "Zenskar",
+      "slug": "zenskar",
+      "primary_category": "CFO Technology",
+      "editorial_priority": "A",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year",
+        "headquarters",
+        "operating_geography"
+      ],
+      "source_count": 3,
       "fact_count": 19,
       "last_verified": "2026-08-11",
       "research_priority": "P1"
@@ -1915,6 +1915,285 @@
       "research_priority": "P2"
     },
     {
+      "entity_id": "ent_citi",
+      "name": "Citi",
+      "slug": "citi",
+      "primary_category": "Banks",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_evercore",
+      "name": "Evercore",
+      "slug": "evercore",
+      "primary_category": "Investment Banks",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_ey",
+      "name": "EY",
+      "slug": "ey",
+      "primary_category": "Accounting",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_heidrick_struggles",
+      "name": "Heidrick & Struggles",
+      "slug": "heidrick-struggles",
+      "primary_category": "Executive Search",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_houlihan_lokey",
+      "name": "Houlihan Lokey",
+      "slug": "houlihan-lokey",
+      "primary_category": "Investment Banks",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_hsbc",
+      "name": "HSBC",
+      "slug": "hsbc",
+      "primary_category": "Banks",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_kpmg",
+      "name": "KPMG",
+      "slug": "kpmg",
+      "primary_category": "Accounting",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_latham_watkins",
+      "name": "Latham & Watkins",
+      "slug": "latham-watkins",
+      "primary_category": "Law Firms",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
+      "entity_id": "ent_lazard",
+      "name": "Lazard",
+      "slug": "lazard",
+      "primary_category": "Investment Banks",
+      "editorial_priority": null,
+      "score": 25,
+      "tier": "basic",
+      "tier_label": "Basic",
+      "completed_criteria": [
+        "identity",
+        "inclusion_basis",
+        "semantic_profile",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "executive_relevance",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "source_breadth",
+        "fact_depth"
+      ],
+      "source_count": 1,
+      "fact_count": 1,
+      "last_verified": "2026-08-11",
+      "research_priority": "P2"
+    },
+    {
       "entity_id": "ent_agentrys",
       "name": "Agentrys",
       "slug": "agentrys",
@@ -1973,68 +2252,6 @@
       ],
       "source_count": 1,
       "fact_count": 9,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_applitools",
-      "name": "Applitools",
-      "slug": "applitools",
-      "primary_category": "Enterprise Technology",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_atlas_cloud_ai",
-      "name": "Atlas Cloud AI",
-      "slug": "atlas-cloud-ai",
-      "primary_category": "AI Infrastructure",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P2"
     },
@@ -2163,37 +2380,6 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_contextqa",
-      "name": "ContextQA",
-      "slug": "contextqa",
-      "primary_category": "Artificial Intelligence",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
       "entity_id": "ent_curated_connections",
       "name": "Curated Connections",
       "slug": "curated-connections",
@@ -2225,73 +2411,11 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_era_group",
-      "name": "ERA Group",
-      "slug": "era-group",
-      "primary_category": "Consulting",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 8,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
       "entity_id": "ent_everything_ai",
       "name": "Everything AI",
       "slug": "everything-ai",
       "primary_category": "Artificial Intelligence",
       "editorial_priority": "C",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 8,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_finrep",
-      "name": "Finrep",
-      "slug": "finrep",
-      "primary_category": "CFO Technology",
-      "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
       "tier_label": "Basic",
@@ -2411,37 +2535,6 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_hackzero_ai",
-      "name": "HackZero.ai",
-      "slug": "hackzero-ai",
-      "primary_category": "Cybersecurity",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
       "entity_id": "ent_harvey",
       "name": "Harvey",
       "slug": "harvey",
@@ -2500,37 +2593,6 @@
       ],
       "source_count": 1,
       "fact_count": 8,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_hg_insights",
-      "name": "HG Insights",
-      "slug": "hg-insights",
-      "primary_category": "Research Firms",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
       "last_verified": "2026-08-11",
       "research_priority": "P2"
     },
@@ -2659,37 +2721,6 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_northwestern_mutual",
-      "name": "Northwestern Mutual",
-      "slug": "northwestern-mutual",
-      "primary_category": "Insurance",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
       "entity_id": "ent_open_batch",
       "name": "Open Batch",
       "slug": "open-batch",
@@ -2726,99 +2757,6 @@
       "slug": "openwater",
       "primary_category": "Events Technology",
       "editorial_priority": "C",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_optimhire",
-      "name": "OptimHire",
-      "slug": "optimhire",
-      "primary_category": "Recruiting",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_pier_70_ventures",
-      "name": "Pier 70 Ventures",
-      "slug": "pier-70-ventures",
-      "primary_category": "Venture Capital",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_pipe",
-      "name": "Pipe",
-      "slug": "pipe",
-      "primary_category": "Fintech",
-      "editorial_priority": "B",
       "score": 35,
       "tier": "basic",
       "tier_label": "Basic",
@@ -2969,37 +2907,6 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_secure_octane_investments",
-      "name": "Secure Octane Investments",
-      "slug": "secure-octane-investments",
-      "primary_category": "Venture Capital",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
       "entity_id": "ent_sharevault",
       "name": "ShareVault",
       "slug": "sharevault",
@@ -3120,37 +3027,6 @@
       ],
       "source_count": 1,
       "fact_count": 8,
-      "last_verified": "2026-08-11",
-      "research_priority": "P2"
-    },
-    {
-      "entity_id": "ent_verano_capital_partners",
-      "name": "Verano Capital Partners",
-      "slug": "verano-capital-partners",
-      "primary_category": "Investment Advisory",
-      "editorial_priority": "B",
-      "score": 35,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 6,
       "last_verified": "2026-08-11",
       "research_priority": "P2"
     },
@@ -3341,283 +3217,128 @@
       "research_priority": "P2"
     },
     {
-      "entity_id": "ent_citi",
-      "name": "Citi",
-      "slug": "citi",
-      "primary_category": "Banks",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
+      "entity_id": "ent_compose_ai",
+      "name": "Compose AI",
+      "slug": "compose-ai",
+      "primary_category": "Artificial Intelligence",
+      "editorial_priority": "B",
+      "score": 65,
+      "tier": "substantial",
+      "tier_label": "Substantial",
       "completed_criteria": [
         "identity",
+        "classification",
+        "executive_relevance",
         "inclusion_basis",
+        "offerings",
+        "industries",
         "semantic_profile",
+        "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
-        "classification",
-        "executive_relevance",
         "founded_year",
         "headquarters",
         "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
+        "source_breadth"
       ],
       "source_count": 1,
-      "fact_count": 1,
+      "fact_count": 16,
       "last_verified": "2026-08-11",
-      "research_priority": "P3"
+      "research_priority": "P2"
     },
     {
-      "entity_id": "ent_evercore",
-      "name": "Evercore",
-      "slug": "evercore",
-      "primary_category": "Investment Banks",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
+      "entity_id": "ent_counterrun_ai",
+      "name": "CounterRun.ai",
+      "slug": "counterrun-ai",
+      "primary_category": "AI Security",
+      "editorial_priority": "B",
+      "score": 65,
+      "tier": "substantial",
+      "tier_label": "Substantial",
       "completed_criteria": [
         "identity",
+        "classification",
+        "executive_relevance",
         "inclusion_basis",
+        "offerings",
+        "industries",
         "semantic_profile",
+        "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
-        "classification",
-        "executive_relevance",
         "founded_year",
         "headquarters",
         "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
+        "source_breadth"
       ],
-      "source_count": 1,
-      "fact_count": 1,
+      "source_count": 2,
+      "fact_count": 12,
       "last_verified": "2026-08-11",
-      "research_priority": "P3"
+      "research_priority": "P2"
     },
     {
-      "entity_id": "ent_ey",
-      "name": "EY",
-      "slug": "ey",
-      "primary_category": "Accounting",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
+      "entity_id": "ent_hiive",
+      "name": "Hiive",
+      "slug": "hiive",
+      "primary_category": "Private Market Infrastructure",
+      "editorial_priority": "B",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
       "completed_criteria": [
         "identity",
+        "classification",
+        "executive_relevance",
         "inclusion_basis",
+        "offerings",
+        "industries",
         "semantic_profile",
+        "source_breadth",
+        "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
-        "classification",
-        "executive_relevance",
         "founded_year",
         "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
+        "operating_geography"
       ],
-      "source_count": 1,
-      "fact_count": 1,
+      "source_count": 5,
+      "fact_count": 17,
       "last_verified": "2026-08-11",
-      "research_priority": "P3"
+      "research_priority": "P2"
     },
     {
-      "entity_id": "ent_heidrick_struggles",
-      "name": "Heidrick & Struggles",
-      "slug": "heidrick-struggles",
-      "primary_category": "Executive Search",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
+      "entity_id": "ent_payzen",
+      "name": "PayZen",
+      "slug": "payzen",
+      "primary_category": "Fintech",
+      "editorial_priority": "B",
+      "score": 75,
+      "tier": "substantial",
+      "tier_label": "Substantial",
       "completed_criteria": [
         "identity",
+        "classification",
+        "executive_relevance",
         "inclusion_basis",
+        "offerings",
+        "industries",
         "semantic_profile",
+        "source_breadth",
+        "fact_depth",
         "freshness"
       ],
       "missing_criteria": [
-        "classification",
-        "executive_relevance",
         "founded_year",
         "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
+        "operating_geography"
       ],
-      "source_count": 1,
-      "fact_count": 1,
+      "source_count": 4,
+      "fact_count": 18,
       "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
-      "entity_id": "ent_houlihan_lokey",
-      "name": "Houlihan Lokey",
-      "slug": "houlihan-lokey",
-      "primary_category": "Investment Banks",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "inclusion_basis",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "executive_relevance",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 1,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
-      "entity_id": "ent_hsbc",
-      "name": "HSBC",
-      "slug": "hsbc",
-      "primary_category": "Banks",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "inclusion_basis",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "executive_relevance",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 1,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
-      "entity_id": "ent_kpmg",
-      "name": "KPMG",
-      "slug": "kpmg",
-      "primary_category": "Accounting",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "inclusion_basis",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "executive_relevance",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 1,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
-      "entity_id": "ent_latham_watkins",
-      "name": "Latham & Watkins",
-      "slug": "latham-watkins",
-      "primary_category": "Law Firms",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "inclusion_basis",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "executive_relevance",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 1,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
-      "entity_id": "ent_lazard",
-      "name": "Lazard",
-      "slug": "lazard",
-      "primary_category": "Investment Banks",
-      "editorial_priority": null,
-      "score": 25,
-      "tier": "basic",
-      "tier_label": "Basic",
-      "completed_criteria": [
-        "identity",
-        "inclusion_basis",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "executive_relevance",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 1,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
+      "research_priority": "P2"
     },
     {
       "entity_id": "ent_mckinsey",
@@ -4581,37 +4302,6 @@
       "research_priority": "P3"
     },
     {
-      "entity_id": "ent_workday",
-      "name": "Workday",
-      "slug": "workday",
-      "primary_category": "Enterprise Technology",
-      "editorial_priority": null,
-      "score": 45,
-      "tier": "developing",
-      "tier_label": "Developing",
-      "completed_criteria": [
-        "identity",
-        "executive_relevance",
-        "inclusion_basis",
-        "offerings",
-        "semantic_profile",
-        "freshness"
-      ],
-      "missing_criteria": [
-        "classification",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "industries",
-        "source_breadth",
-        "fact_depth"
-      ],
-      "source_count": 1,
-      "fact_count": 7,
-      "last_verified": "2026-08-11",
-      "research_priority": "P3"
-    },
-    {
       "entity_id": "ent_chief",
       "name": "Chief",
       "slug": "chief",
@@ -4798,6 +4488,37 @@
       "research_priority": "P3"
     },
     {
+      "entity_id": "ent_workday",
+      "name": "Workday",
+      "slug": "workday",
+      "primary_category": "Enterprise Technology",
+      "editorial_priority": null,
+      "score": 55,
+      "tier": "developing",
+      "tier_label": "Developing",
+      "completed_criteria": [
+        "identity",
+        "executive_relevance",
+        "inclusion_basis",
+        "offerings",
+        "semantic_profile",
+        "source_breadth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "classification",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "industries",
+        "fact_depth"
+      ],
+      "source_count": 3,
+      "fact_count": 7,
+      "last_verified": "2026-08-11",
+      "research_priority": "P3"
+    },
+    {
       "entity_id": "ent_agentic_fabriq",
       "name": "Agentic Fabriq",
       "slug": "agentic-fabriq",
@@ -4887,6 +4608,37 @@
       ],
       "source_count": 3,
       "fact_count": 26,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_brex",
+      "name": "Brex",
+      "slug": "brex",
+      "primary_category": "CFO Technology",
+      "editorial_priority": "A",
+      "score": 80,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "offerings",
+        "semantic_profile",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "operating_geography",
+        "industries",
+        "source_breadth"
+      ],
+      "source_count": 2,
+      "fact_count": 44,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
     },
@@ -5102,7 +4854,7 @@
         "founded_year",
         "headquarters"
       ],
-      "source_count": 3,
+      "source_count": 4,
       "fact_count": 31,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
@@ -5418,6 +5170,68 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_909cyber",
+      "name": "909Cyber",
+      "slug": "909cyber",
+      "primary_category": "Cybersecurity",
+      "editorial_priority": "B",
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 5,
+      "fact_count": 23,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_affirm",
+      "name": "Affirm",
+      "slug": "affirm",
+      "primary_category": "Fintech",
+      "editorial_priority": "B",
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 4,
+      "fact_count": 22,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_association_for_corporate_growth",
       "name": "Association for Corporate Growth",
       "slug": "association-for-corporate-growth",
@@ -5604,6 +5418,37 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_oguz_law",
+      "name": "Oguz Law",
+      "slug": "oguz-law",
+      "primary_category": "Law Firms",
+      "editorial_priority": "B",
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 4,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_open_future_forum",
       "name": "Open Future Forum",
       "slug": "open-future-forum",
@@ -5631,6 +5476,37 @@
       ],
       "source_count": 4,
       "fact_count": 50,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_transacta_capital",
+      "name": "Transacta Capital",
+      "slug": "transacta-capital",
+      "primary_category": "M&A Advisors",
+      "editorial_priority": "B",
+      "score": 90,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "founded_year"
+      ],
+      "source_count": 4,
+      "fact_count": 21,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
     },
@@ -5697,6 +5573,129 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_bmo",
+      "name": "BMO",
+      "slug": "bmo",
+      "primary_category": "Banks",
+      "editorial_priority": "A",
+      "score": 95,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 34,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_comerica",
+      "name": "Comerica",
+      "slug": "comerica",
+      "primary_category": "Banks",
+      "editorial_priority": "A",
+      "score": 95,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 44,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_orrick",
+      "name": "Orrick",
+      "slug": "orrick",
+      "primary_category": "Law Firms",
+      "editorial_priority": "A",
+      "score": 95,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [
+        "operating_geography"
+      ],
+      "source_count": 3,
+      "fact_count": 54,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_bdev_ventures",
+      "name": "BDEV Ventures",
+      "slug": "bdev-ventures",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "B",
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 21,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_blackline",
       "name": "BlackLine",
       "slug": "blackline",
@@ -5723,36 +5722,6 @@
       "missing_criteria": [],
       "source_count": 3,
       "fact_count": 64,
-      "last_verified": "2026-08-11",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_bmo",
-      "name": "BMO",
-      "slug": "bmo",
-      "primary_category": "Banks",
-      "editorial_priority": "A",
-      "score": 100,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [],
-      "source_count": 3,
-      "fact_count": 34,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
     },
@@ -5813,36 +5782,6 @@
       "missing_criteria": [],
       "source_count": 3,
       "fact_count": 28,
-      "last_verified": "2026-08-11",
-      "research_priority": "Maintain"
-    },
-    {
-      "entity_id": "ent_comerica",
-      "name": "Comerica",
-      "slug": "comerica",
-      "primary_category": "Banks",
-      "editorial_priority": "A",
-      "score": 100,
-      "tier": "decision-ready",
-      "tier_label": "Decision-ready",
-      "completed_criteria": [
-        "identity",
-        "classification",
-        "executive_relevance",
-        "inclusion_basis",
-        "founded_year",
-        "headquarters",
-        "operating_geography",
-        "offerings",
-        "industries",
-        "semantic_profile",
-        "source_breadth",
-        "fact_depth",
-        "freshness"
-      ],
-      "missing_criteria": [],
-      "source_count": 3,
-      "fact_count": 45,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
     },
@@ -5967,6 +5906,66 @@
       "research_priority": "Maintain"
     },
     {
+      "entity_id": "ent_ironarc_ventures",
+      "name": "IronArc Ventures",
+      "slug": "ironarc-ventures",
+      "primary_category": "Venture Capital",
+      "editorial_priority": "B",
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 3,
+      "fact_count": 19,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
+      "entity_id": "ent_leader_bank",
+      "name": "Leader Bank",
+      "slug": "leader-bank",
+      "primary_category": "Banks",
+      "editorial_priority": "B",
+      "score": 100,
+      "tier": "decision-ready",
+      "tier_label": "Decision-ready",
+      "completed_criteria": [
+        "identity",
+        "classification",
+        "executive_relevance",
+        "inclusion_basis",
+        "founded_year",
+        "headquarters",
+        "operating_geography",
+        "offerings",
+        "industries",
+        "semantic_profile",
+        "source_breadth",
+        "fact_depth",
+        "freshness"
+      ],
+      "missing_criteria": [],
+      "source_count": 4,
+      "fact_count": 18,
+      "last_verified": "2026-08-11",
+      "research_priority": "Maintain"
+    },
+    {
       "entity_id": "ent_microsoft",
       "name": "Microsoft",
       "slug": "microsoft",
@@ -6027,11 +6026,11 @@
       "research_priority": "Maintain"
     },
     {
-      "entity_id": "ent_orrick",
-      "name": "Orrick",
-      "slug": "orrick",
-      "primary_category": "Law Firms",
-      "editorial_priority": "A",
+      "entity_id": "ent_opal_group",
+      "name": "Opal Group",
+      "slug": "opal-group",
+      "primary_category": "Conferences",
+      "editorial_priority": "B",
       "score": 100,
       "tier": "decision-ready",
       "tier_label": "Decision-ready",
@@ -6051,8 +6050,8 @@
         "freshness"
       ],
       "missing_criteria": [],
-      "source_count": 3,
-      "fact_count": 55,
+      "source_count": 4,
+      "fact_count": 23,
       "last_verified": "2026-08-11",
       "research_priority": "Maintain"
     },

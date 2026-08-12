@@ -1,18 +1,20 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"CXO Ecosystem derived intelligence schema 1.2.0",
+  "title":"CXO Ecosystem derived intelligence schema 1.3.0",
   "type":"object",
-  "required":["dataset_version","calculated_at","market_maps","comparisons","benchmarks"],
+  "required":["dataset_version","calculated_at","market_maps","comparisons","benchmarks","decision_tools"],
   "properties":{
     "dataset_version":{"type":"string"},
     "calculated_at":{"type":"string","format":"date"},
     "market_maps":{"type":"array","items":{"$ref":"#/$defs/marketMap"}},
     "comparisons":{"type":"array","items":{"$ref":"#/$defs/comparison"}},
-    "benchmarks":{"type":"array","items":{"type":"object","required":["id","title","dataset_version","calculated_at"]}}
+    "benchmarks":{"type":"array","items":{"type":"object","required":["id","title","dataset_version","calculated_at"]}},
+    "decision_tools":{"type":"array","items":{"$ref":"#/$defs/decisionTool"}}
   },
   "$defs":{
     "marketMap":{"type":"object","required":["id","title","definition","dataset_version","calculated_at","total_entities","known_count","unknown_count","coverage","buckets","entity_ids","source_fields"]},
     "comparison":{"type":"object","required":["comparison_id","title","dataset_version","generated_at","entity_ids","dimensions"]},
-    "metric":{"type":"object","required":["id","name","value","value_type","numerator","denominator","known_count","unknown_count","coverage","scope","field_definition","method","dataset_version","calculated_at","source_fields","cohort_entity_ids","numerator_entity_ids","unknown_entity_ids","excluded_entity_ids","schema_version"]}
+    "metric":{"type":"object","required":["id","name","value","value_type","numerator","denominator","known_count","unknown_count","coverage","scope","field_definition","method","dataset_version","calculated_at","source_fields","cohort_entity_ids","numerator_entity_ids","unknown_entity_ids","excluded_entity_ids","schema_version"]},
+    "decisionTool":{"type":"object","required":["id","title","question","definition","direct_answer","dataset_version","schema_version","calculated_at","known_count","unknown_count","coverage","entity_ids","unknown_entity_ids","source_fields","method","caveat"]}
   }
 }

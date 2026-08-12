@@ -1,6 +1,6 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"CXO Ecosystem canonical entity schema 3.1.0",
+  "title":"CXO Ecosystem canonical entity schema 3.2.0",
   "type":"object",
   "required":["id","name","slug","entity_type","description","website","cxo_roles","primary_category","secondary_categories","categories","geographies","inclusion_basis","sources","date_added","last_verified","verification_status"],
   "properties":{
@@ -11,7 +11,7 @@
     "cxo_roles":{"$ref":"#/$defs/ids"},"primary_category":{"type":"string","minLength":1},"secondary_categories":{"$ref":"#/$defs/ids"},"categories":{"$ref":"#/$defs/required_ids"},"provider_types":{"$ref":"#/$defs/ids"},
     "community_formats":{"$ref":"#/$defs/ids"},"event_formats":{"$ref":"#/$defs/ids"},"intelligence_types":{"$ref":"#/$defs/ids"},"resource_types":{"$ref":"#/$defs/ids"},"executive_needs":{"$ref":"#/$defs/ids"},"topics":{"$ref":"#/$defs/ids"},"audiences":{"$ref":"#/$defs/ids"},
     "aliases":{"$ref":"#/$defs/ids"},"subcategories":{"$ref":"#/$defs/ids"},"capabilities":{"$ref":"#/$defs/ids"},"products":{"$ref":"#/$defs/ids"},"services":{"$ref":"#/$defs/ids"},"customer_segments":{"$ref":"#/$defs/ids"},"company_size_focus":{"$ref":"#/$defs/ids"},"ownership":{"type":["string","null"]},"parent_company":{"type":["string","null"]},"subsidiaries":{"$ref":"#/$defs/ids"},"investment_stage":{"$ref":"#/$defs/ids"},"application_required":{"type":["boolean","null"]},"invite_only":{"type":["boolean","null"]},"research_published":{"type":["boolean","null"]},"relationship_notes":{"type":["string","null"]},"editorial_priority":{"type":["string","null"],"enum":["A","B","C",null]},"facts":{"type":"array","items":{"$ref":"#/$defs/fact"}},
-    "geographies":{"$ref":"#/$defs/required_ids"},"inclusion_basis":{"type":"array","minItems":1,"items":{"type":"string"}},"sources":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/source"}},"classification_evidence":{"type":"array","items":{"$ref":"#/$defs/evidence"}}
+    "geographies":{"$ref":"#/$defs/ids"},"geography_status":{"enum":["verified","partial","unknown"]},"inclusion_basis":{"type":"array","minItems":1,"items":{"type":"string"}},"sources":{"type":"array","minItems":1,"items":{"$ref":"#/$defs/source"}},"classification_evidence":{"type":"array","items":{"$ref":"#/$defs/evidence"}}
   },
   "$defs":{
     "ids":{"type":"array","uniqueItems":true,"items":{"type":"string"}},"required_ids":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string"}},

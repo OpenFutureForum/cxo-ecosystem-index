@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "cohort_id": "ai-security",
   "entity_ids": [
@@ -36,9 +36,7 @@
         "Government",
         "Healthcare"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -239,6 +237,7 @@
         "deepfake and AI attack readiness"
       ],
       "services": [],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity"
@@ -251,10 +250,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "professional-development"
+      ],
+      "topics": [
+        "ai-security",
+        "cybersecurity",
+        "ai-governance",
+        "risk"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.adaptivesecurity.com/solutions/enterprise",
+          "title": "Adaptive Security for Enterprise",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_witnessai",
@@ -273,9 +293,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -515,6 +533,7 @@
         "shadow AI discovery",
         "data protection for AI"
       ],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity",
@@ -529,10 +548,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "ai-governance",
+        "cybersecurity",
+        "agent-governance"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://witness.ai/product/",
+          "title": "WitnessAI Product",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_airmdr",
@@ -553,9 +593,7 @@
         "Small and Midsize Enterprises",
         "Enterprise Technology"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -788,6 +826,7 @@
         "security investigations",
         "threat response"
       ],
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security"
@@ -840,9 +879,7 @@
         "AI Security"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -944,6 +981,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Security"
@@ -980,9 +1018,7 @@
         "AI Infrastructure"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -1451,6 +1487,7 @@
       ],
       "services": [],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Agent Identity",
@@ -1493,9 +1530,7 @@
         "Cybersecurity",
         "Information Technology"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "Axari"
       ],
@@ -1754,6 +1789,7 @@
         "GRC support",
         "security intelligence support"
       ],
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security",
@@ -1819,9 +1855,7 @@
         "Cybersecurity",
         "Enterprise Software"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2085,6 +2119,7 @@
         "cost controls",
         "vulnerability remediation"
       ],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Application Security",
@@ -2544,6 +2579,7 @@
         "security-stack integration"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Runtime Security",
@@ -2600,9 +2636,7 @@
         "Cybersecurity"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2913,6 +2947,7 @@
         "email threat reporting"
       ],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "Email Security",
       "secondary_categories": [
         "AI Security",
@@ -2946,10 +2981,11 @@
         "AI Security",
         "Cybersecurity"
       ],
-      "industries": [],
-      "geographies": [
-        "United States"
+      "industries": [
+        "Cybersecurity",
+        "Artificial Intelligence"
       ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -3008,6 +3044,60 @@
             "src_counterrun-ai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_products_ai-threat-intelligence-and-defense-platform",
+          "field": "products",
+          "value": "AI threat intelligence and defense platform",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_services_ai-powered-cyber-threat-intelligence",
+          "field": "services",
+          "value": "AI-powered cyber threat intelligence",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_services_autonomous-malware-defense",
+          "field": "services",
+          "value": "autonomous malware defense",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_services_machine-learning-attack-protection",
+          "field": "services",
+          "value": "machine-learning attack protection",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_industries_cybersecurity",
+          "field": "industries",
+          "value": "Cybersecurity",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_counterrun-ai_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_counterrun_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -3028,11 +3118,33 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_counterrun_product_2026",
+          "url": "https://www.counterrun.ai/",
+          "title": "CounterRun.ai",
+          "publisher": "CounterRun.ai",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "AI threat intelligence and defense platform"
+      ],
+      "services": [
+        "AI-powered cyber threat intelligence",
+        "autonomous malware defense",
+        "machine-learning attack protection"
+      ],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity"
@@ -3045,10 +3157,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance"
+      ],
+      "topics": [
+        "cybersecurity",
+        "ai-security",
+        "artificial-intelligence"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.counterrun.ai/",
+          "title": "CounterRun.ai",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_atomic_zero",
@@ -3067,9 +3198,7 @@
         "Consulting"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "AtomicZero"
       ],
@@ -3183,6 +3312,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security",

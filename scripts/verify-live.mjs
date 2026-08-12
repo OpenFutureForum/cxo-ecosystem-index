@@ -27,12 +27,15 @@ const checks=[
  ['robots.txt',text=>text.split('\n').filter(line=>line.startsWith('Sitemap:')).length===1&&text.includes(`${base}sitemap.xml`)],
  ['data/latest.json',text=>{const value=JSON.parse(text);return value.kind==='Current Release Manifest'&&value.release_fingerprint===expected.release_fingerprint;}],
  ['data/knowledge-graph.json'],['data/entities.json'],['data/facts.json'],['data/sources.json'],['data/completeness.json',text=>{const value=JSON.parse(text);return value.dataset_version===expected.dataset_version&&value.entities.length===expected.organizations&&value.summary.average_score===expected.average_profile_completeness;}],['data/completeness.csv'],['data/completeness.schema.json'],['data/relationships.json'],['data/semantic-relationships.json',text=>{const value=JSON.parse(text);return value.relationships.length===expected.semantic_relationships&&value.relationships.every(item=>item.evidence_urls.length);} ],['data/role-mappings.json',text=>JSON.parse(text).dataset_version===expected.dataset_version],
+ ['data/decision-tools.json',text=>{const value=JSON.parse(text);return value.length===5&&value.every(item=>item.known_count+item.unknown_count===item.total_entities&&item.caveat);} ],
  ['entities/open-future-forum.html',html=>html.includes('RECORD COMPLETENESS')&&html.includes('Primary provider category</dt><dd>Executive Communities')],
  ['entities/ramp.html',html=>html.includes(`<link rel="canonical" href="${base}entities/ramp.html">`)&&html.includes('<h1>Ramp</h1>')],
  ['providers/cfo-technology.html',html=>html.includes('CFO Technology')],['cfo-ecosystem.html',html=>html.includes('CFO Ecosystem')],
  ['intelligence/cfo-technology.html',html=>html.includes('<b>Dataset snapshot:</b>')&&html.includes('Category distribution')],
  ['intelligence/compare-cfo-spend-platforms.html',html=>html.includes('CFO Spend &amp; Finance Platforms')&&html.includes('<table>')],
  ['intelligence/ai-capability.html',html=>html.includes('AI Capability')],
+ ['intelligence/ai-governance-security.html',html=>html.includes('EVIDENCE-BACKED DECISION TOOL')&&html.includes('DIRECT ANSWER')&&html.includes('Unknown records')],
+ ['entities/chameleon-ventures.html',html=>html.includes('<dt>Geography evidence status</dt><dd>unknown</dd>')&&html.includes('<dt>Operating geography</dt><dd>Not verified</dd>')],
  ['reports/search-console-handoff.json',text=>JSON.parse(text).submission_status==='not submitted']
 ];
 for(const [endpoint,validate] of checks){let failure;for(let attempt=1;attempt<=6;attempt++){try{const text=await fetchText(endpoint);if(validate&&!validate(text))throw new Error('content mismatch');failure=null;break;}catch(error){failure=error;if(attempt<6)await wait(5000);}}if(failure)throw new Error(`${endpoint||'homepage'}: ${failure.message}`);}

@@ -1,11 +1,11 @@
 import {slug} from './lib.mjs';
 
-export const DATASET_VERSION='0.8.5';
+export const DATASET_VERSION='0.9.0';
 export const CALCULATED_AT='2026-08-11';
 const text=e=>JSON.stringify([e.description,e.categories,e.subcategories,e.products,e.services,e.topics,e.community_formats,e.event_formats,e.intelligence_types,e.resource_types]).toLowerCase();
 const hasText=(e,terms)=>terms.some(term=>text(e).includes(term.toLowerCase()));
 const matches=(e,rule={})=>(!rule.categories||rule.categories.some(x=>e.categories.includes(x)))&&(!rule.roles||rule.roles.some(x=>e.cxo_roles.includes(x)))&&(!rule.terms||hasText(e,rule.terms));
-const metric=(id,name,numerator,denominator,{knownCount=denominator,unknownCount=0,scope={},definition='',method='',sourceFields=[],cohortIds=[],numeratorIds=[],unknownIds=[],excludedIds=[]}={})=>({id,name,value:denominator?Number((numerator/denominator).toFixed(4)):null,value_type:'percentage',unit:'share',numerator,denominator,known_count:knownCount,unknown_count:unknownCount,coverage:knownCount+unknownCount?Number((knownCount/(knownCount+unknownCount)).toFixed(4)):0,cohort_entity_ids:cohortIds,numerator_entity_ids:numeratorIds,unknown_entity_ids:unknownIds,excluded_entity_ids:excludedIds,scope,filters:scope,field_definition:definition,method,dataset_version:DATASET_VERSION,schema_version:'1.2.0',calculated_at:CALCULATED_AT,source_fields:sourceFields,notes:knownCount+unknownCount&&knownCount/(knownCount+unknownCount)<.6?'Data coverage insufficient for a reliable headline benchmark.':null});
+const metric=(id,name,numerator,denominator,{knownCount=denominator,unknownCount=0,scope={},definition='',method='',sourceFields=[],cohortIds=[],numeratorIds=[],unknownIds=[],excludedIds=[]}={})=>({id,name,value:denominator?Number((numerator/denominator).toFixed(4)):null,value_type:'percentage',unit:'share',numerator,denominator,known_count:knownCount,unknown_count:unknownCount,coverage:knownCount+unknownCount?Number((knownCount/(knownCount+unknownCount)).toFixed(4)):0,cohort_entity_ids:cohortIds,numerator_entity_ids:numeratorIds,unknown_entity_ids:unknownIds,excluded_entity_ids:excludedIds,scope,filters:scope,field_definition:definition,method,dataset_version:DATASET_VERSION,schema_version:'1.3.0',calculated_at:CALCULATED_AT,source_fields:sourceFields,notes:knownCount+unknownCount&&knownCount/(knownCount+unknownCount)<.6?'Data coverage insufficient for a reliable headline benchmark.':null});
 
 const mapConfigs=[
  {id:'cfo-technology',title:'CFO Technology Market Map',definition:'Organizations explicitly classified as CFO Technology, organized by documented finance function.',cohort:{categories:['CFO Technology']},buckets:[['Spend Management',{categories:['Spend Management']}],['AP & Payments',{categories:['Payments']}],['Accounting, ERP & Close',{categories:['Accounting Software']}],['Treasury, Cash & AR',{categories:['Treasury Technology']}],['Tax',{categories:['Tax Technology']}],['Equity & Private Markets',{categories:['Equity Management','Private Market Infrastructure']}],['Banking & Finance Platforms',{categories:['Banking Platforms']}],['Finance AI',{categories:['Artificial Intelligence']}]]},
@@ -48,4 +48,33 @@ export function buildBenchmarks(entities){
  ];
 }
 
-export function buildIntelligence(entities){return {dataset_version:DATASET_VERSION,schema_version:'1.2.0',calculated_at:CALCULATED_AT,market_maps:buildMarketMaps(entities),comparisons:buildComparisons(entities),benchmarks:buildBenchmarks(entities)};}
+const decisionTool=(id,question,definition,entities,known,matched,sourceFields,method)=>({
+ id,title:question,question,definition,dataset_version:DATASET_VERSION,schema_version:'1.3.0',calculated_at:CALCULATED_AT,
+ direct_answer:matched.length?`${matched.length} organizations currently meet every documented criterion in this dataset.`:'No organization currently has evidence for every criterion in this dataset.',
+ total_entities:entities.length,known_count:known.length,unknown_count:entities.length-known.length,coverage:entities.length?Number((known.length/entities.length).toFixed(4)):0,
+ entity_ids:matched.map(entity=>entity.id),unknown_entity_ids:entities.filter(entity=>!known.includes(entity)).map(entity=>entity.id),source_fields:sourceFields,method,
+ caveat:'This is an evidence-backed dataset answer, not a recommendation. Missing evidence remains unknown rather than false.'
+});
+
+export function buildDecisionTools(entities){
+ const evidenceKnown=entity=>entity.classification_evidence?.length>0;
+ const cfoPeKnown=entities.filter(entity=>!entity.cxo_roles.includes('CFO')||evidenceKnown(entity)||(entity.industries||[]).length);
+ const cfoPe=cfoPeKnown.filter(entity=>entity.audiences.includes('private-equity-leaders')||entity.topics.includes('private-equity')||(entity.industries||[]).some(value=>/private equity/i.test(value)));
+ const communitiesKnown=entities.filter(entity=>!entity.categories.includes('Executive Communities')||evidenceKnown(entity));
+ const privateCommunity=communitiesKnown.filter(entity=>entity.community_formats.includes('peer-group')||entity.event_formats.some(value=>['private-dinner','executive-dinner','private-executive-gathering'].includes(value)));
+ const aiCohort=entities.filter(entity=>entity.categories.some(value=>['Artificial Intelligence','AI Security','AI Infrastructure','AI Agents'].includes(value)));
+ const aiKnown=aiCohort.filter(evidenceKnown);const aiGovernance=aiKnown.filter(entity=>entity.topics.some(value=>['ai-governance','ai-security','agent-governance','cybersecurity'].includes(value)));
+ const advisorCategories=['Law Firms','Finance Advisory','Accounting','Consulting','Investment Banks','M&A Advisors','Banks'];
+ const advisors=entities.filter(entity=>entity.categories.some(value=>advisorCategories.includes(value)));const advisorsKnown=advisors.filter(entity=>evidenceKnown(entity)&&(entity.industries||[]).length);
+ const ventureTech=advisorsKnown.filter(entity=>(entity.audiences.includes('founders')||entity.topics.includes('venture-capital'))&&(entity.industries||[]).some(value=>/technology|software|startup|saas/i.test(value)));
+ const geographyKnown=entities.filter(entity=>entity.geography_status==='verified');const siliconLondon=geographyKnown.filter(entity=>entity.geographies.some(value=>/silicon valley|san francisco bay area/i.test(value))&&entity.geographies.includes('London'));
+ return [
+  decisionTool('cfo-private-equity-providers','Which providers serve both CFOs and private equity firms?','Organizations must have a CFO role classification plus evidence of a private-equity audience, topic, or industry.',entities,cfoPeKnown,cfoPe,['cxo_roles','audiences','topics','industries'],'Intersect the canonical CFO cohort with evidence-backed private-equity fields.'),
+  decisionTool('executive-community-private-formats','Which executive communities offer private dinners or peer groups?','Executive Communities with evidence for peer groups, executive dinners, private dinners, or private executive gatherings.',entities,communitiesKnown,privateCommunity,['categories','community_formats','event_formats'],'Filter the Executive Communities cohort using evidence-linked format classifications.'),
+  decisionTool('ai-governance-security','Which AI providers address governance or security?','AI providers with evidence-linked AI governance, AI security, agent governance, or cybersecurity topics.',aiCohort,aiKnown,aiGovernance,['categories','topics'],'Filter the AI provider cohort using controlled, evidence-linked topic classifications.'),
+  decisionTool('venture-backed-technology-advisors','Which advisory firms serve venture-backed technology companies?','Advisory providers need both founder or venture-capital relevance and a documented technology, software, startup, or SaaS industry focus.',advisors,advisorsKnown,ventureTech,['categories','audiences','topics','industries'],'Intersect advisory provider types with evidence-backed venture/founder and technology-market fields.'),
+  decisionTool('silicon-valley-london','Which organizations operate in both Silicon Valley and London?','Organizations need verified operating geography for both Silicon Valley or the San Francisco Bay Area and London.',entities,geographyKnown,siliconLondon,['geographies','geography_status'],'Intersect only source-supported operating geographies; headquarters is not substituted for an operating market.')
+ ];
+}
+
+export function buildIntelligence(entities){return {dataset_version:DATASET_VERSION,schema_version:'1.3.0',calculated_at:CALCULATED_AT,market_maps:buildMarketMaps(entities),comparisons:buildComparisons(entities),benchmarks:buildBenchmarks(entities),decision_tools:buildDecisionTools(entities)};}

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "cohort_id": "banking-capital",
   "entity_ids": [
@@ -45,14 +45,7 @@
         "Investment Banks",
         "Wealth Management"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "Chicago",
-        "Los Angeles",
-        "London",
-        "Singapore"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented banking, treasury, lending, and capital-markets services"
       ],
@@ -73,6 +66,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -140,12 +134,7 @@
         "Investment Banks",
         "Wealth Management"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "London",
-        "Singapore"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented corporate banking, markets, treasury, and wealth services"
       ],
@@ -166,6 +155,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -230,12 +220,7 @@
         "Investment Banks",
         "Wealth Management"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "London",
-        "Singapore"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented commercial banking, markets, and wealth services"
       ],
@@ -256,6 +241,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -319,12 +305,7 @@
         "Investment Banks",
         "M&A Advisors"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "San Francisco Bay Area",
-        "London"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented strategic and financial advisory services to companies and boards"
       ],
@@ -345,6 +326,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"
@@ -408,12 +390,7 @@
         "M&A Advisors",
         "Wealth Management"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "San Francisco Bay Area",
-        "London"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented financial advisory and asset-management services"
       ],
@@ -434,6 +411,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors",
@@ -499,13 +477,7 @@
         "M&A Advisors",
         "Finance Advisory"
       ],
-      "geographies": [
-        "United States",
-        "Los Angeles",
-        "New York",
-        "San Francisco Bay Area",
-        "London"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented M&A, capital, restructuring, and valuation advisory services"
       ],
@@ -526,6 +498,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors",
@@ -607,12 +580,7 @@
         "Fintech",
         "Technology"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "London",
-        "Singapore"
-      ],
+      "geographies": [],
       "services": [
         "commercial banking",
         "investment banking",
@@ -641,6 +609,7 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "geography_status": "unknown",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -788,6 +757,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Payments"
@@ -1236,6 +1206,7 @@
         "foreign exchange and trade finance"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -1680,6 +1651,7 @@
         "startup banking"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [],
       "provider_types": [
@@ -1741,9 +1713,7 @@
         "Industrials",
         "Consumer and Retail"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2009,6 +1979,7 @@
         "global payments and liquidity"
       ],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -2023,10 +1994,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "deal-flow",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "private-markets",
+        "dealmaking"
+      ],
+      "audiences": [
+        "private-equity-leaders",
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.wellsfargo.com/cib/our-approach/",
+          "title": "Wells Fargo Corporate and Investment Banking",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_citizens_private_bank",
@@ -2330,6 +2322,7 @@
       ],
       "headquarters": "Providence, Rhode Island, United States",
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -2392,9 +2385,7 @@
         "Energy",
         "Consumer"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "Bank of Montreal"
       ],
@@ -2793,6 +2784,7 @@
       "headquarters": "Toronto, Ontario, Canada",
       "services": [],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -3182,6 +3174,7 @@
       "founded_year": 1935,
       "headquarters": "New York, New York, United States",
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -3244,9 +3237,7 @@
         "Energy",
         "Small Business"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -3598,15 +3589,6 @@
           "last_verified": "2026-08-11"
         },
         {
-          "id": "fact_comerica_geographies_united-states",
-          "field": "geographies",
-          "value": "United States",
-          "source_ids": [
-            "src_comerica_overview_2026"
-          ],
-          "last_verified": "2026-08-11"
-        },
-        {
           "id": "fact_comerica_industries_banking",
           "field": "industries",
           "value": "Banking",
@@ -3758,6 +3740,7 @@
       "founded_year": 1849,
       "headquarters": "Dallas, Texas, United States",
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -4120,6 +4103,7 @@
       "founded_year": 1890,
       "headquarters": "St. Louis, Missouri, United States",
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -4509,6 +4493,7 @@
       "founded_year": 1870,
       "headquarters": "Frankfurt am Main, Germany",
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Investment Banks",
@@ -4890,6 +4875,7 @@
         "markets and execution services"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [
         "Wealth Management"
@@ -4936,7 +4922,11 @@
       "categories": [
         "Banks"
       ],
-      "industries": [],
+      "industries": [
+        "Banking",
+        "Financial Services",
+        "Commercial Finance"
+      ],
       "geographies": [
         "United States"
       ],
@@ -4998,6 +4988,131 @@
             "src_leader-bank_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_founded-year_2002",
+          "field": "founded_year",
+          "value": 2002,
+          "source_ids": [
+            "src_leader_about_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_geographies_united-states",
+          "field": "geographies",
+          "value": "United States",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_business-banking",
+          "field": "services",
+          "value": "business banking",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_commercial-lending",
+          "field": "services",
+          "value": "commercial lending",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_residential-lending",
+          "field": "services",
+          "value": "residential lending",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_private-banking",
+          "field": "services",
+          "value": "private banking",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_deposit-services",
+          "field": "services",
+          "value": "deposit services",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_services_cash-management",
+          "field": "services",
+          "value": "cash management",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_industries_banking",
+          "field": "industries",
+          "value": "Banking",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_industries_financial-services",
+          "field": "industries",
+          "value": "Financial Services",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_industries_commercial-finance",
+          "field": "industries",
+          "value": "Commercial Finance",
+          "source_ids": [
+            "src_leader_about_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_leader-bank_headquarters_arlington-massachusetts-united-states",
+          "field": "headquarters",
+          "value": "Arlington, Massachusetts, United States",
+          "source_ids": [
+            "src_leader_contact_2026",
+            "src_leader_report_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -5018,11 +5133,64 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_leader_about_2026",
+          "url": "https://www.leaderbank.com/about",
+          "title": "About Leader Bank",
+          "publisher": "Leader Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "founded_year",
+            "geographies",
+            "services",
+            "industries"
+          ]
+        },
+        {
+          "id": "src_leader_contact_2026",
+          "url": "https://www.leaderbank.com/contact",
+          "title": "Contact Leader Bank",
+          "publisher": "Leader Bank",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "headquarters",
+            "geographies",
+            "services"
+          ]
+        },
+        {
+          "id": "src_leader_report_2026",
+          "url": "https://www.leaderbank.com/sites/default/files/2025-05/2024_AnnualReport_web.pdf",
+          "title": "Leader Bank 2024 Annual Report",
+          "publisher": "Leader Bank",
+          "source_class": "official company",
+          "published_date": "2025-05-01",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "services",
+            "industries",
+            "headquarters"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "founded_year": 2002,
+      "headquarters": "Arlington, Massachusetts, United States",
+      "services": [
+        "business banking",
+        "commercial lending",
+        "residential lending",
+        "private banking",
+        "deposit services",
+        "cash management"
+      ],
+      "products": [],
+      "geography_status": "verified",
       "primary_category": "Banks",
       "secondary_categories": [],
       "provider_types": [
@@ -5032,10 +5200,29 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "business-growth",
+        "decision-support"
+      ],
+      "topics": [
+        "capital-strategy",
+        "growth"
+      ],
+      "audiences": [
+        "founders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.leaderbank.com/about",
+          "title": "About Leader Bank",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_brighttower",
@@ -5058,9 +5245,7 @@
         "IT Business Services",
         "Information Services"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -5272,6 +5457,7 @@
         "sell-side representation"
       ],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"
@@ -5284,10 +5470,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "deal-flow",
+        "decision-support"
+      ],
+      "topics": [
+        "dealmaking",
+        "capital-strategy",
+        "exits"
+      ],
+      "audiences": [
+        "founders",
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.brighttower.com/",
+          "title": "BrightTower",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_intrepid_investment_bankers",
@@ -5311,9 +5518,7 @@
         "Digital Media",
         "Supply Chain and Logistics"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -5549,6 +5754,7 @@
         "capital markets advisory"
       ],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "Investment Banks",
       "secondary_categories": [
         "M&A Advisors"
@@ -5561,10 +5767,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "capital-formation",
+        "deal-flow",
+        "decision-support"
+      ],
+      "topics": [
+        "dealmaking",
+        "capital-strategy",
+        "exits"
+      ],
+      "audiences": [
+        "founders",
+        "private-equity-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://intrepidib.com/industries/",
+          "title": "Intrepid Industries",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_capital_ip_investment_partners",
@@ -5583,9 +5810,7 @@
         "M&A Advisors"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": "One canonical record covers both supplied category references.",
@@ -5697,6 +5922,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Venture Capital",
       "secondary_categories": [
         "Investment Banks",
@@ -5732,9 +5958,7 @@
         "Investment Banks"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": "The previously listed official domain resolves to a parked-domain page as of 2026-08-11. Current service claims are withheld pending entity resolution.",
@@ -5875,6 +6099,7 @@
       "verification_status": "needs verification",
       "services": [],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "M&A Advisors",
       "secondary_categories": [
         "Investment Banks"

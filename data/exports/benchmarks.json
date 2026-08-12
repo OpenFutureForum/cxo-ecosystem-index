@@ -1,11 +1,11 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "benchmarks": [
     {
       "id": "ai-capability",
       "title": "AI Capability Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "metrics": [
         {
@@ -54,8 +54,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -98,8 +98,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -195,8 +195,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -263,8 +263,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -335,8 +335,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -377,8 +377,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -413,8 +413,8 @@
           },
           "field_definition": "Current canonical category evidence explicitly includes an AI product or service category.",
           "method": "Count AI-classified entities among records with sourced category classification.",
-          "dataset_version": "0.8.5",
-          "schema_version": "1.2.0",
+          "dataset_version": "0.9.0",
+          "schema_version": "1.3.0",
           "calculated_at": "2026-08-11",
           "source_fields": [
             "categories"
@@ -622,11 +622,11 @@
     {
       "id": "company-age",
       "title": "Company Age & Founding Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
-      "known_count": 31,
-      "unknown_count": 163,
-      "coverage": 0.1598,
+      "known_count": 35,
+      "unknown_count": 159,
+      "coverage": 0.1804,
       "status": "insufficient coverage",
       "method": "Only source-supported founding_year values are eligible.",
       "source_fields": [
@@ -838,6 +838,7 @@
         "ent_stifel",
         "ent_deutsche_bank",
         "ent_bny",
+        "ent_leader_bank",
         "ent_insight_partners",
         "ent_orrick",
         "ent_rsm_us",
@@ -859,6 +860,9 @@
         "ent_you_com",
         "ent_pitchbook",
         "ent_association_for_corporate_growth",
+        "ent_opal_group",
+        "ent_bdev_ventures",
+        "ent_ironarc_ventures",
         "ent_agentic_fabriq"
       ],
       "unknown_entity_ids": [
@@ -916,7 +920,6 @@
         "ent_wells_fargo",
         "ent_citizens_private_bank",
         "ent_bernstein",
-        "ent_leader_bank",
         "ent_northwestern_mutual",
         "ent_next47",
         "ent_westcap",
@@ -983,7 +986,6 @@
         "ent_heffernan_insurance_brokers",
         "ent_hfs_research",
         "ent_young_entrepreneur_council",
-        "ent_opal_group",
         "ent_hacker_dojo",
         "ent_openwater",
         "ent_mastercard",
@@ -992,8 +994,6 @@
         "ent_signeasy",
         "ent_hg_insights",
         "ent_altair_capital",
-        "ent_bdev_ventures",
-        "ent_ironarc_ventures",
         "ent_nanostar_ventures",
         "ent_verano_capital_partners",
         "ent_capital_ip_investment_partners",
@@ -1031,11 +1031,11 @@
     {
       "id": "geographic-concentration",
       "title": "Geographic Concentration Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
-      "known_count": 27,
-      "unknown_count": 167,
-      "coverage": 0.1392,
+      "known_count": 35,
+      "unknown_count": 159,
+      "coverage": 0.1804,
       "status": "insufficient coverage",
       "method": "Headquarters is kept separate from office and service geography; only sourced headquarters fields qualify.",
       "source_fields": [
@@ -1247,6 +1247,7 @@
         "ent_stifel",
         "ent_deutsche_bank",
         "ent_bny",
+        "ent_leader_bank",
         "ent_insight_partners",
         "ent_orrick",
         "ent_rsm_us",
@@ -1264,7 +1265,14 @@
         "ent_glean",
         "ent_centific",
         "ent_pitchbook",
-        "ent_agentic_fabriq"
+        "ent_opal_group",
+        "ent_affirm",
+        "ent_bdev_ventures",
+        "ent_ironarc_ventures",
+        "ent_transacta_capital",
+        "ent_oguz_law",
+        "ent_agentic_fabriq",
+        "ent_909cyber"
       ],
       "unknown_entity_ids": [
         "ent_vistage",
@@ -1321,7 +1329,6 @@
         "ent_capital_one",
         "ent_wells_fargo",
         "ent_bernstein",
-        "ent_leader_bank",
         "ent_northwestern_mutual",
         "ent_next47",
         "ent_westcap",
@@ -1392,23 +1399,17 @@
         "ent_hfs_research",
         "ent_association_for_corporate_growth",
         "ent_young_entrepreneur_council",
-        "ent_opal_group",
         "ent_hacker_dojo",
         "ent_openwater",
         "ent_mastercard",
-        "ent_affirm",
         "ent_pipe",
         "ent_signeasy",
         "ent_hg_insights",
         "ent_altair_capital",
-        "ent_bdev_ventures",
-        "ent_ironarc_ventures",
         "ent_nanostar_ventures",
         "ent_verano_capital_partners",
         "ent_capital_ip_investment_partners",
         "ent_indian_hills_advisors",
-        "ent_transacta_capital",
-        "ent_oguz_law",
         "ent_paygentic",
         "ent_finrep",
         "ent_thinkingai",
@@ -1419,7 +1420,6 @@
         "ent_axari_technologies_inc",
         "ent_harden",
         "ent_tenet_security",
-        "ent_909cyber",
         "ent_aegisai",
         "ent_secure_octane_investments",
         "ent_agentrys",
@@ -1440,11 +1440,11 @@
     {
       "id": "pricing-transparency",
       "title": "Pricing Transparency Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
-      "known_count": 1,
-      "unknown_count": 193,
-      "coverage": 0.0052,
+      "known_count": 3,
+      "unknown_count": 191,
+      "coverage": 0.0155,
       "status": "insufficient coverage",
       "method": "Missing public pricing is unknown, not false.",
       "source_fields": [
@@ -1647,7 +1647,9 @@
         "ent_curated_connections"
       ],
       "entity_ids": [
-        "ent_bill"
+        "ent_bill",
+        "ent_compose_ai",
+        "ent_909cyber"
       ],
       "unknown_entity_ids": [
         "ent_vistage",
@@ -1788,7 +1790,6 @@
         "ent_you_com",
         "ent_granica",
         "ent_gumloop",
-        "ent_compose_ai",
         "ent_applitools",
         "ent_adaptive_security",
         "ent_witnessai",
@@ -1828,7 +1829,6 @@
         "ent_axari_technologies_inc",
         "ent_harden",
         "ent_tenet_security",
-        "ent_909cyber",
         "ent_aegisai",
         "ent_secure_octane_investments",
         "ent_agentrys",
@@ -1849,7 +1849,7 @@
     {
       "id": "c-suite-coverage",
       "title": "C-Suite Coverage Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
       "exactly_one": 30,
@@ -2105,21 +2105,21 @@
     {
       "id": "data-quality",
       "title": "Source & Data Quality Benchmark",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 194,
-      "total_facts": 3107,
-      "average_facts_per_entity": 16.02,
-      "median_facts_per_entity": 9,
+      "total_facts": 3262,
+      "average_facts_per_entity": 16.81,
+      "median_facts_per_entity": 16,
       "entities_with_3_plus": 178,
       "entities_with_5_plus": 169,
-      "entities_with_10_plus": 95,
-      "entities_with_20_plus": 64,
+      "entities_with_10_plus": 107,
+      "entities_with_20_plus": 69,
       "entities_needing_enrichment": 25,
       "verified_entities": 191,
       "verified_within_12_months": 194,
-      "missing_headquarters": 167,
-      "missing_founding_year": 162,
+      "missing_headquarters": 159,
+      "missing_founding_year": 158,
       "conflicting_facts": 0,
       "stale_facts": 0,
       "primary_source_entities": 194,
@@ -2135,15 +2135,15 @@
         ],
         [
           "6–10",
-          69
+          57
         ],
         [
           "11–20",
-          37
+          44
         ],
         [
           "20+",
-          64
+          69
         ]
       ],
       "source_fields": [

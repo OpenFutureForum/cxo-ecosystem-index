@@ -2,7 +2,7 @@
   {
     "comparison_id": "cfo-spend-platforms",
     "title": "CFO Spend & Finance Platforms",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_ramp",
@@ -137,7 +137,7 @@
   {
     "comparison_id": "accounting-close-systems",
     "title": "Accounting, Close & Finance Systems",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_blackline",
@@ -271,7 +271,7 @@
   {
     "comparison_id": "executive-communities",
     "title": "Executive Communities",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_vistage",
@@ -428,17 +428,16 @@
         "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
         "values": {
           "ent_vistage": [
-            "United States"
+            "Not verified"
           ],
           "ent_young_presidents_organization": [
             "United States"
           ],
           "ent_entrepreneurs_organization": [
-            "United States"
+            "Not verified"
           ],
           "ent_chief": [
-            "United States",
-            "New York"
+            "Not verified"
           ],
           "ent_open_future_forum": [
             "United States",
@@ -452,7 +451,7 @@
   {
     "comparison_id": "executive-search-firms",
     "title": "Executive Search Firms",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_korn_ferry",
@@ -611,35 +610,16 @@
         "comparability_rule": "Values originate from canonical fields; absence of evidence is shown as Not verified.",
         "values": {
           "ent_korn_ferry": [
-            "United States",
-            "Los Angeles",
-            "New York",
-            "London",
-            "Singapore"
+            "Not verified"
           ],
           "ent_spencer_stuart": [
-            "United States",
-            "New York",
-            "Boston",
-            "Chicago",
-            "London",
-            "Singapore"
+            "Not verified"
           ],
           "ent_russell_reynolds_associates": [
-            "United States",
-            "New York",
-            "Boston",
-            "San Francisco Bay Area",
-            "London",
-            "Singapore"
+            "Not verified"
           ],
           "ent_heidrick_struggles": [
-            "United States",
-            "Chicago",
-            "New York",
-            "San Francisco Bay Area",
-            "London",
-            "Singapore"
+            "Not verified"
           ],
           "ent_zrg": [
             "United States",
@@ -659,7 +639,7 @@
   {
     "comparison_id": "technology-law-firms",
     "title": "Technology Law Firms",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_wilson_sonsini",
@@ -795,27 +775,19 @@
             "London"
           ],
           "ent_cooley": [
-            "United States",
-            "Silicon Valley",
-            "San Francisco Bay Area",
-            "New York",
-            "Boston",
-            "London"
+            "Not verified"
           ],
           "ent_fenwick_west": [
-            "United States",
-            "Silicon Valley",
-            "San Francisco Bay Area",
-            "New York"
+            "Not verified"
           ],
           "ent_foley_lardner": [
             "United States"
           ],
           "ent_orrick": [
-            "United States"
+            "Not verified"
           ],
           "ent_dla_piper": [
-            "United States"
+            "Not verified"
           ]
         }
       }
@@ -824,7 +796,7 @@
   {
     "comparison_id": "technology-venture-banking",
     "title": "Technology & Venture Banking",
-    "dataset_version": "0.8.5",
+    "dataset_version": "0.9.0",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_silicon_valley_bank",
@@ -978,7 +950,7 @@
             "United States"
           ],
           "ent_comerica": [
-            "United States"
+            "Not verified"
           ],
           "ent_stifel": [
             "United States",
@@ -986,10 +958,10 @@
             "London"
           ],
           "ent_bmo": [
-            "United States"
+            "Not verified"
           ],
           "ent_wells_fargo": [
-            "United States"
+            "Not verified"
           ],
           "ent_citizens_private_bank": [
             "United States"

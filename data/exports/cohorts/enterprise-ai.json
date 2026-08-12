@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "cohort_id": "enterprise-ai",
   "entity_ids": [
@@ -70,10 +70,7 @@
         "SaaS",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "Austin"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented enterprise cloud, database, finance, and human-capital applications"
       ],
@@ -95,6 +92,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -198,12 +196,7 @@
         "SaaS",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "New York",
-        "London",
-        "Singapore"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented enterprise applications used by finance, technology, operations, and HR organizations"
       ],
@@ -225,6 +218,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -335,10 +329,7 @@
         "SaaS",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "San Francisco Bay Area"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented CRM, marketing, service, data, and AI applications"
       ],
@@ -360,6 +351,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -462,11 +454,7 @@
         "Media",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "Silicon Valley",
-        "San Francisco Bay Area"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented digital-experience, analytics, marketing, document, and creative software"
       ],
@@ -488,6 +476,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -581,10 +570,7 @@
         "Technology",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "Austin"
-      ],
+      "geographies": [],
       "inclusion_basis": [
         "provides documented enterprise cybersecurity products used by security organizations"
       ],
@@ -606,6 +592,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "Enterprise Technology",
@@ -707,11 +694,7 @@
         "Technology",
         "Artificial Intelligence"
       ],
-      "geographies": [
-        "United States",
-        "Silicon Valley",
-        "San Francisco Bay Area"
-      ],
+      "geographies": [],
       "products": [
         "network security",
         "cloud security",
@@ -740,6 +723,7 @@
       "last_verified": "2026-08-11",
       "verification_status": "verified",
       "confidence": "high",
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "Enterprise Technology",
@@ -869,9 +853,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -982,6 +964,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Legal Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -1381,6 +1364,7 @@
         "managed operations"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -1795,6 +1779,7 @@
         "organizational transformation"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -2208,6 +2193,7 @@
         "business process services"
       ],
       "products": [],
+      "geography_status": "verified",
       "primary_category": "Consulting",
       "secondary_categories": [
         "Enterprise Technology",
@@ -2267,9 +2253,7 @@
         "Talent Acquisition",
         "Enterprise Technology"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2538,6 +2522,7 @@
         "recruiting automation",
         "workforce intelligence"
       ],
+      "geography_status": "unknown",
       "primary_category": "HR Technology",
       "secondary_categories": [
         "Recruiting",
@@ -2593,9 +2578,7 @@
         "Accounting",
         "Technology"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -2897,6 +2880,7 @@
         "AP operations centralization"
       ],
       "founded_year": 2017,
+      "geography_status": "unknown",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -2953,9 +2937,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -3057,6 +3039,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Accounting",
@@ -3529,6 +3512,7 @@
         "cybersecurity",
         "developer tools"
       ],
+      "geography_status": "verified",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -3594,9 +3578,7 @@
         "Professional Visualization",
         "Automotive"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -3680,7 +3662,10 @@
           "value": "GPUs",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3690,7 +3675,10 @@
           "value": "DGX systems",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3700,7 +3688,10 @@
           "value": "HGX platforms",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3710,7 +3701,10 @@
           "value": "MGX systems",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3720,7 +3714,10 @@
           "value": "AI accelerators",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3730,7 +3727,10 @@
           "value": "networking products",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3740,7 +3740,10 @@
           "value": "AI software",
           "source_ids": [
             "src_nvidia_datacenter_2026",
-            "src_nvidia_dgx_2026"
+            "src_nvidia_dgx_2026",
+            "src_nvidia_industry_partners_2026",
+            "src_nvidia_servicenow_2026",
+            "src_nvidia_sap_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -3837,6 +3840,47 @@
             "products",
             "industries"
           ]
+        },
+        {
+          "id": "src_nvidia_industry_partners_2026",
+          "url": "https://www.nvidia.com/en-us/industries/industrial-sector/partners/",
+          "title": "NVIDIA Industrial and Manufacturing Partners",
+          "publisher": "NVIDIA",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships",
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_nvidia_servicenow_2026",
+          "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+          "title": "NVIDIA and ServiceNow expand autonomous AI collaboration",
+          "publisher": "NVIDIA",
+          "source_class": "official company",
+          "published_date": "2026-05-05",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships",
+            "products",
+            "services"
+          ]
+        },
+        {
+          "id": "src_nvidia_sap_2026",
+          "url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+          "title": "NVIDIA and SAP bring trust to specialized agents",
+          "publisher": "NVIDIA",
+          "source_class": "official company",
+          "published_date": "2026-05-12",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships",
+            "products",
+            "services"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -3852,6 +3896,7 @@
         "AI software"
       ],
       "services": [],
+      "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -3866,10 +3911,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "strategic-insight"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "emerging-technology",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.nvidia.com/en-us/data-center/products/",
+          "title": "NVIDIA Data Center Products",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_intel",
@@ -3893,9 +3959,7 @@
         "Artificial Intelligence",
         "Networking"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -4142,6 +4206,7 @@
         "semiconductor foundry services"
       ],
       "services": [],
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "AI Infrastructure"
@@ -4154,10 +4219,30 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "strategic-insight"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "emerging-technology"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.intel.com/content/www/us/en/products/overview.html",
+          "title": "Intel Products",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_databricks",
@@ -4176,9 +4261,7 @@
         "AI Infrastructure"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -4262,7 +4345,8 @@
           "value": "Data Intelligence Platform",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4272,7 +4356,8 @@
           "value": "data lakehouse",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4282,7 +4367,8 @@
           "value": "data engineering",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4292,7 +4378,8 @@
           "value": "data warehousing",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4302,7 +4389,8 @@
           "value": "machine learning and AI",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4312,7 +4400,8 @@
           "value": "data governance",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4322,7 +4411,8 @@
           "value": "business intelligence",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4332,7 +4422,8 @@
           "value": "data and AI platform",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4342,7 +4433,8 @@
           "value": "analytics workloads",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         },
@@ -4352,7 +4444,8 @@
           "value": "generative AI development",
           "source_ids": [
             "src_databricks_platform_2026",
-            "src_databricks_lakehouse_2026"
+            "src_databricks_lakehouse_2026",
+            "src_databricks_connectors_2026"
           ],
           "last_verified": "2026-08-11"
         }
@@ -4399,6 +4492,19 @@
             "products",
             "services"
           ]
+        },
+        {
+          "id": "src_databricks_connectors_2026",
+          "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/saas-overview",
+          "title": "Lakeflow Connect SaaS connectors",
+          "publisher": "Databricks",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "relationships"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -4418,6 +4524,7 @@
         "analytics workloads",
         "generative AI development"
       ],
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -4432,10 +4539,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support",
+        "governance"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "ai-transformation",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.databricks.com/product/platform",
+          "title": "Databricks Data Intelligence Platform",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_writer",
@@ -4458,9 +4586,7 @@
         "Technology",
         "Retail"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -4733,6 +4859,7 @@
         "enterprise knowledge retrieval",
         "workflow automation"
       ],
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -4745,10 +4872,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "enterprise-ai",
+        "agentic-ai",
+        "ai-governance",
+        "ai-transformation"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://writer.com/product/writer-agent/",
+          "title": "Writer Agent",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_scale_ai",
@@ -4772,9 +4920,7 @@
         "Automotive",
         "Financial Services"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -5057,6 +5203,7 @@
         "generative AI deployment",
         "public sector AI delivery"
       ],
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Infrastructure"
@@ -5069,10 +5216,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence",
+        "decision-support"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai",
+        "ai-transformation",
+        "agentic-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://scale.com/genai-platform",
+          "title": "Scale Generative AI Platform",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_glean",
@@ -5386,6 +5554,7 @@
         "agentic automation"
       ],
       "headquarters": "San Francisco, California, United States",
+      "geography_status": "verified",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -5795,6 +5964,17 @@
             "services",
             "industries"
           ]
+        },
+        {
+          "id": "src_servicenow_partner_awards_2026",
+          "url": "https://www.servicenow.com/partners/awards.html",
+          "title": "ServiceNow Partner Awards",
+          "publisher": "ServiceNow",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "relationships"
+          ]
         }
       ],
       "date_added": "2026-08-11",
@@ -5814,6 +5994,7 @@
         "AI agents",
         "digital transformation platform"
       ],
+      "geography_status": "verified",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -6152,6 +6333,7 @@
         "data annotation"
       ],
       "headquarters": "Redmond, Washington, United States",
+      "geography_status": "verified",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Consulting",
@@ -6210,9 +6392,7 @@
         "Enterprise Technology",
         "Search Infrastructure"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -6507,6 +6687,7 @@
         "finance research"
       ],
       "founded_year": 2020,
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [],
       "provider_types": [
@@ -6558,9 +6739,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -6662,6 +6841,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -6696,9 +6876,7 @@
         "Enterprise Technology"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -6800,6 +6978,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -6831,10 +7010,11 @@
       "categories": [
         "Artificial Intelligence"
       ],
-      "industries": [],
-      "geographies": [
-        "United States"
+      "industries": [
+        "Artificial Intelligence",
+        "Productivity Software"
       ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -6893,6 +7073,96 @@
             "src_compose-ai_official"
           ],
           "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_products_compose-ai-chrome-extension",
+          "field": "products",
+          "value": "Compose AI Chrome extension",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_products_ai-autocomplete",
+          "field": "products",
+          "value": "AI autocomplete",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_products_ai-writing-assistant",
+          "field": "products",
+          "value": "AI writing assistant",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_products_email-reply-generator",
+          "field": "products",
+          "value": "email reply generator",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_services_ai-assisted-writing",
+          "field": "services",
+          "value": "AI-assisted writing",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_services_text-generation",
+          "field": "services",
+          "value": "text generation",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_services_writing-personalization",
+          "field": "services",
+          "value": "writing personalization",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_industries_artificial-intelligence",
+          "field": "industries",
+          "value": "Artificial Intelligence",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_industries_productivity-software",
+          "field": "industries",
+          "value": "Productivity Software",
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
+        },
+        {
+          "id": "fact_compose-ai_public-pricing_true",
+          "field": "public_pricing",
+          "value": true,
+          "source_ids": [
+            "src_compose_product_2026"
+          ],
+          "last_verified": "2026-08-11"
         }
       ],
       "inclusion_basis": [
@@ -6913,11 +7183,38 @@
             "categories",
             "cxo_roles"
           ]
+        },
+        {
+          "id": "src_compose_product_2026",
+          "url": "https://www.compose.ai/",
+          "title": "Compose AI",
+          "publisher": "Compose AI",
+          "source_class": "official company",
+          "accessed_date": "2026-08-11",
+          "supports": [
+            "products",
+            "services",
+            "industries",
+            "public_pricing"
+          ]
         }
       ],
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "products": [
+        "Compose AI Chrome extension",
+        "AI autocomplete",
+        "AI writing assistant",
+        "email reply generator"
+      ],
+      "services": [
+        "AI-assisted writing",
+        "text generation",
+        "writing personalization"
+      ],
+      "public_pricing": true,
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [],
       "provider_types": [
@@ -6927,10 +7224,28 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "transformation",
+        "operational-excellence"
+      ],
+      "topics": [
+        "artificial-intelligence",
+        "enterprise-ai"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://www.compose.ai/",
+          "title": "Compose AI",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_applitools",
@@ -6948,9 +7263,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -7043,6 +7356,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Enterprise Technology",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -7077,9 +7391,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -7319,6 +7631,7 @@
         "shadow AI discovery",
         "data protection for AI"
       ],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Cybersecurity",
@@ -7333,10 +7646,31 @@
       "event_formats": [],
       "intelligence_types": [],
       "resource_types": [],
-      "executive_needs": [],
-      "topics": [],
-      "audiences": [],
-      "classification_evidence": []
+      "executive_needs": [
+        "risk-management",
+        "governance",
+        "operational-excellence"
+      ],
+      "topics": [
+        "ai-security",
+        "ai-governance",
+        "cybersecurity",
+        "agent-governance"
+      ],
+      "audiences": [
+        "ai-leaders"
+      ],
+      "classification_evidence": [
+        {
+          "url": "https://witness.ai/product/",
+          "title": "WitnessAI Product",
+          "supports": [
+            "topics",
+            "executive_needs",
+            "audiences"
+          ]
+        }
+      ]
     },
     {
       "id": "ent_resemble_ai",
@@ -7355,9 +7689,7 @@
         "AI Security"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -7459,6 +7791,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Security"
@@ -7492,9 +7825,7 @@
         "Accounting Software"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "Finrep.ai"
       ],
@@ -7599,6 +7930,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "CFO Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -7638,9 +7970,7 @@
         "Enterprise Automation"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -7769,6 +8099,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Agents",
@@ -7804,9 +8135,7 @@
         "Machine Learning"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": "This record refers to qognitive.io and is not associated with the unrelated qognitive.app organization.",
@@ -7909,6 +8238,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Machine Learning"
@@ -7942,9 +8272,7 @@
         "Enterprise Technology"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -8037,6 +8365,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -8071,9 +8400,7 @@
         "Enterprise Technology"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -8175,6 +8502,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -8208,9 +8536,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -8303,6 +8629,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -8339,9 +8666,7 @@
         "AI Infrastructure"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -8810,6 +9135,7 @@
       ],
       "services": [],
       "products": [],
+      "geography_status": "unknown",
       "primary_category": "AI Security",
       "secondary_categories": [
         "Agent Identity",
@@ -8852,9 +9178,7 @@
         "Cybersecurity",
         "Information Technology"
       ],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "Axari"
       ],
@@ -9113,6 +9437,7 @@
         "GRC support",
         "security intelligence support"
       ],
+      "geography_status": "unknown",
       "primary_category": "Cybersecurity",
       "secondary_categories": [
         "AI Security",
@@ -9173,9 +9498,7 @@
         "Electronic Design Automation"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -9286,6 +9609,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Agents",
@@ -9324,9 +9648,7 @@
         "AI Agents"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": "This record refers to agentweb.pro and not similarly named AgentWeb domains.",
@@ -9438,6 +9760,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Marketing Technology",
       "secondary_categories": [
         "Artificial Intelligence",
@@ -9473,9 +9796,7 @@
         "Enterprise Technology"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "CodeConductor.ai"
       ],
@@ -9580,6 +9901,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "Enterprise Technology"
@@ -9614,9 +9936,7 @@
         "AI Infrastructure"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [],
       "parent_company": null,
       "relationship_notes": null,
@@ -9718,6 +10038,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "high confidence",
+      "geography_status": "unknown",
       "primary_category": "Artificial Intelligence",
       "secondary_categories": [
         "AI Agents",
@@ -9753,9 +10074,7 @@
         "Artificial Intelligence"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "Xtrace AI"
       ],
@@ -9860,6 +10179,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence"
@@ -9895,9 +10215,7 @@
         "AI Agents"
       ],
       "industries": [],
-      "geographies": [
-        "United States"
-      ],
+      "geographies": [],
       "aliases": [
         "VelixAR AI",
         "Velixar"
@@ -10030,6 +10348,7 @@
       "date_added": "2026-08-11",
       "last_verified": "2026-08-11",
       "verification_status": "verified",
+      "geography_status": "unknown",
       "primary_category": "AI Infrastructure",
       "secondary_categories": [
         "Artificial Intelligence",

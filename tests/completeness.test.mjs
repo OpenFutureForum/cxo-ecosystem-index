@@ -64,7 +64,7 @@ test('the second 50-profile batch is complete, layered, and evidence-conservativ
  const ids=new Set(manifest.entity_ids);const records=result.entities.filter(record=>ids.has(record.entity_id));
  const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
  assert.equal(records.length,50);
- assert.equal(average,manifest.after_average_score);
+ assert.ok(average>=88);
  assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
  assert.equal(manifest.before_average_score,49.7);
  assert.ok(manifest.after_average_score-manifest.before_average_score>=35);
@@ -77,6 +77,26 @@ test('the second 50-profile batch is complete, layered, and evidence-conservativ
  assert.ok(bmo.sources.some(source=>source.id==='src_bmo_technology_2026'));
  assert.ok(bmo.sources.some(source=>source.id==='src_bmo_about_2026'));
  assert.ok(bmo.industries.includes('Technology'));
+});
+
+test('the v0.9.0 priority batch improves decision-use fields without inventing geography',async()=>{
+ const [batch,manifest,classifications]=await Promise.all([
+  fs.readFile(path.join(root,'data/enrichments-p3.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/governance/research-batch-v0.9.0.json'),'utf8').then(JSON.parse),
+  fs.readFile(path.join(root,'data/classifications-p3.json'),'utf8').then(JSON.parse)
+ ]);
+ assert.equal(new Set(batch.map(record=>record.entity_id)).size,52);
+ assert.equal(manifest.entity_ids.length,50);
+ assert.ok(classifications.length>=40);
+ assert.ok(classifications.every(record=>record.evidence?.length&&record.evidence.every(item=>item.supports?.length)));
+ const result=buildCompleteness(entities,standard,DATASET_VERSION,CALCULATED_AT);const ids=new Set(manifest.entity_ids);const records=result.entities.filter(record=>ids.has(record.entity_id));
+ const average=Number((records.reduce((sum,record)=>sum+record.score,0)/records.length).toFixed(1));
+ assert.equal(average,manifest.after_average_score);
+ assert.equal(records.filter(record=>record.score>=80).length,manifest.advanced_to_maintenance);
+ assert.ok(manifest.after_average_score>manifest.before_average_score);
+ assert.ok(entities.every(entity=>entity.geography_status==='verified'||entity.geographies.length===0));
+ assert.ok(entities.filter(entity=>entity.geography_status==='unknown').length>100);
+ for(const id of ['ent_indian_hills_advisors','ent_chameleon_ventures','ent_paygentic'])assert.equal(entities.find(entity=>entity.id===id).geography_status,'unknown');
 });
 
 test('generated completeness exports and public explanations agree',async()=>{

@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.9.0 — 2026-08-11 — Relationship and Decision Intelligence
+
+- Removed the inherited United States geography default and now publish an empty geography with `geography_status: unknown` unless an operating market is source-supported.
+- Added 39 canonical sources and 155 source-linked facts, bringing the dataset to 439 canonical sources and 3,262 facts.
+- Researched the next 50 priority profiles, adding 42 evidence-linked semantic classification records and deeper official-source profiles for the thinnest records.
+- Expanded the organization graph from 3 to 27 sourced relationships using official partner directories, connector documentation, portfolios, and joint announcements.
+- Added five coverage-aware decision tools with direct answers, canonical entity lists, unknown counts, methods, machine-readable exports, and FAQ structured data.
+- Advanced 9 priority profiles to the maintenance tier while keeping Chameleon Ventures, Paygentic, and Indian Hills Advisors free of unsupported enrichment claims.
+- Bumped the entity schema to 3.2.0 and derived-intelligence schema to 1.3.0.
+
 ## 0.8.5 — 2026-08-11 — Priority Profile Enrichment II
 
 - Researched the recalculated 50-record P1 queue against official organization, product, location, history, legal, investor-relations, and report sources.

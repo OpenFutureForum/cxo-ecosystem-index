@@ -43,7 +43,7 @@ for(const mapping of roleMappings.mappings||[]){
  for(const [field,dimension] of Object.entries(mappingDimensions))for(const id of mapping[field]||[])if(!vocab[dimension].has(id))errors.push(`role mappings/${mapping.id}: unknown ${dimension} term ${id}`);
 }
 for(const [index,entity] of entities.entries()){
- for(const key of required)if(entity[key]==null||(Array.isArray(entity[key])&&!entity[key].length))errors.push(`${entity.id||index}: missing ${key}`);
+ for(const key of required)if(entity[key]==null||(key!=='geographies'&&Array.isArray(entity[key])&&!entity[key].length))errors.push(`${entity.id||index}: missing ${key}`);
  for(const key of ['id','slug','name']){const value=entity[key]?.toLowerCase();if(seen[key].has(value))errors.push(`${entity.id}: duplicate ${key}`);seen[key].add(value)}
  try{new URL(entity.website)}catch{errors.push(`${entity.id}: invalid website`)}
  const website=entity.website?.replace(/\/$/,'').toLowerCase();if(websites.has(website))errors.push(`${entity.id}: duplicate website ${website}`);websites.add(website);
@@ -55,6 +55,8 @@ for(const [index,entity] of entities.entries()){
  if((entity.secondary_categories||[]).includes(entity.primary_category))errors.push(`${entity.id}: primary category repeated as secondary category`);
  for(const category of entity.categories||[])if(!taxonomy.categories.includes(category))errors.push(`${entity.id}: invalid category ${category}`);
  for(const geography of entity.geographies||[])if(!taxonomy.geographies.includes(geography))errors.push(`${entity.id}: invalid geography ${geography}`);
+ if(!['verified','partial','unknown'].includes(entity.geography_status))errors.push(`${entity.id}: invalid geography status`);
+ if(entity.geography_status==='unknown'&&entity.geographies.length)errors.push(`${entity.id}: unknown geography status cannot contain operating geographies`);
  if(!taxonomy.verification_statuses.includes(entity.verification_status))errors.push(`${entity.id}: invalid verification status`);
  for(const source of entity.sources||[]){try{new URL(source.url)}catch{errors.push(`${entity.id}: invalid source URL`)};for(const key of ['id','title','publisher','source_class','accessed_date','supports'])if(!source[key])errors.push(`${entity.id}/${source.id||'source'}: missing ${key}`)}
  const sourceIds=new Set((entity.sources||[]).map(source=>source.id));

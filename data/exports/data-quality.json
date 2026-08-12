@@ -1,21 +1,21 @@
 {
   "id": "data-quality",
   "title": "Source & Data Quality Benchmark",
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "total_entities": 194,
-  "total_facts": 3107,
-  "average_facts_per_entity": 16.02,
-  "median_facts_per_entity": 9,
+  "total_facts": 3262,
+  "average_facts_per_entity": 16.81,
+  "median_facts_per_entity": 16,
   "entities_with_3_plus": 178,
   "entities_with_5_plus": 169,
-  "entities_with_10_plus": 95,
-  "entities_with_20_plus": 64,
+  "entities_with_10_plus": 107,
+  "entities_with_20_plus": 69,
   "entities_needing_enrichment": 25,
   "verified_entities": 191,
   "verified_within_12_months": 194,
-  "missing_headquarters": 167,
-  "missing_founding_year": 162,
+  "missing_headquarters": 159,
+  "missing_founding_year": 158,
   "conflicting_facts": 0,
   "stale_facts": 0,
   "primary_source_entities": 194,
@@ -31,15 +31,15 @@
     ],
     [
       "6–10",
-      69
+      57
     ],
     [
       "11–20",
-      37
+      44
     ],
     [
       "20+",
-      64
+      69
     ]
   ],
   "source_fields": [

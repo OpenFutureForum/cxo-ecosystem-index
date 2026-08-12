@@ -1,12 +1,12 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "calculated_at": "2026-08-11",
   "market_maps": [
     {
       "id": "cfo-technology",
       "title": "CFO Technology Market Map",
       "definition": "Organizations explicitly classified as CFO Technology, organized by documented finance function.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 18,
       "known_count": 16,
@@ -122,7 +122,7 @@
       "id": "ai-security",
       "title": "AI Security Market Map",
       "definition": "Organizations explicitly classified as AI Security, organized by documented security function.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 9,
@@ -235,7 +235,7 @@
       "id": "executive-communities",
       "title": "Executive Communities Market Map",
       "definition": "Membership, peer and founder organizations classified as Executive Communities.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 11,
       "known_count": 10,
@@ -342,7 +342,7 @@
       "id": "executive-search",
       "title": "Executive Search Market Map",
       "definition": "Organizations providing retained search, recruiting, board search or talent intelligence.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 8,
       "known_count": 8,
@@ -428,31 +428,32 @@
       "id": "technology-law-firms",
       "title": "Technology Law Firm Landscape",
       "definition": "Indexed law firms with documented technology, venture, private-equity, transaction, governance or privacy relevance.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 9,
-      "known_count": 8,
-      "unknown_count": 1,
-      "coverage": 0.8889,
+      "known_count": 9,
+      "unknown_count": 0,
+      "coverage": 1,
       "buckets": [
         {
           "id": "venture-startup",
           "name": "Venture & Startup",
-          "count": 5,
-          "share": 0.5556,
+          "count": 6,
+          "share": 0.6667,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_cooley",
             "ent_simmons_simmons",
-            "ent_orrick"
+            "ent_orrick",
+            "ent_oguz_law"
           ]
         },
         {
           "id": "m-a",
           "name": "M&A",
-          "count": 7,
-          "share": 0.7778,
+          "count": 8,
+          "share": 0.8889,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
@@ -460,7 +461,17 @@
             "ent_foley_lardner",
             "ent_dla_piper",
             "ent_simmons_simmons",
-            "ent_orrick"
+            "ent_orrick",
+            "ent_oguz_law"
+          ]
+        },
+        {
+          "id": "artificial-intelligence",
+          "name": "Artificial Intelligence",
+          "count": 1,
+          "share": 0.1111,
+          "entity_ids": [
+            "ent_oguz_law"
           ]
         },
         {
@@ -491,15 +502,18 @@
         {
           "id": "governance",
           "name": "Governance",
-          "count": 6,
-          "share": 0.6667,
+          "count": 9,
+          "share": 1,
           "entity_ids": [
             "ent_wilson_sonsini",
             "ent_fenwick_west",
             "ent_latham_watkins",
             "ent_cooley",
             "ent_foley_lardner",
-            "ent_orrick"
+            "ent_dla_piper",
+            "ent_simmons_simmons",
+            "ent_orrick",
+            "ent_oguz_law"
           ]
         }
       ],
@@ -527,7 +541,7 @@
       "id": "banking-capital",
       "title": "Banking & Capital Ecosystem Map",
       "definition": "Banks and investment banks organized by documented business capabilities.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 23,
       "known_count": 23,
@@ -675,7 +689,7 @@
       "id": "chro-technology",
       "title": "CHRO Technology Market Map",
       "definition": "Organizations classified as HR Technology and serving CHRO or workforce buyers.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 10,
       "known_count": 10,
@@ -794,7 +808,7 @@
       "id": "enterprise-ai",
       "title": "Enterprise AI Market Map",
       "definition": "Enterprise-facing AI organizations organized by documented functional layer.",
-      "dataset_version": "0.8.5",
+      "dataset_version": "0.9.0",
       "calculated_at": "2026-08-11",
       "total_entities": 43,
       "known_count": 37,

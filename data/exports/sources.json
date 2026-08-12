@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.5",
+  "dataset_version": "0.9.0",
   "schema_version": "1.0.0",
   "sources": [
     {
@@ -102,6 +102,90 @@
       "supports": [
         "products",
         "services"
+      ]
+    },
+    {
+      "id": "src_909_about_2026",
+      "url": "https://www.909cyber.com/about",
+      "title": "About 909Cyber",
+      "publisher": "909Cyber",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_909cyber"
+      ],
+      "alias_source_ids": [
+        "src_909_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "products",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_909_consultancy_2026",
+      "url": "https://www.909cyber.com/consultancy",
+      "title": "909Cyber Consultancy",
+      "publisher": "909Cyber",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_909cyber"
+      ],
+      "alias_source_ids": [
+        "src_909_consultancy_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_909_pricing_2026",
+      "url": "https://www.909cyber.com/pricing",
+      "title": "909Cyber Pricing",
+      "publisher": "909Cyber",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_909cyber"
+      ],
+      "alias_source_ids": [
+        "src_909_pricing_2026"
+      ],
+      "supports": [
+        "services",
+        "public_pricing"
+      ]
+    },
+    {
+      "id": "src_909_program_2026",
+      "url": "https://www.909cyber.com/909cybers-security-program-essentials",
+      "title": "Security Program Essentials",
+      "publisher": "909Cyber",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_909cyber"
+      ],
+      "alias_source_ids": [
+        "src_909_program_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
       ]
     },
     {
@@ -336,6 +420,71 @@
         "capabilities",
         "services",
         "claimed_api_integration_minutes"
+      ]
+    },
+    {
+      "id": "src_affirm_adaptai_2026",
+      "url": "https://investors.affirm.com/node/11986/pdf",
+      "title": "Affirm AdaptAI announcement",
+      "publisher": "Affirm",
+      "source_type": "investor-relations",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_affirm"
+      ],
+      "alias_source_ids": [
+        "src_affirm_adaptai_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_affirm_business_hub_2026",
+      "url": "https://businesshub.affirm.com/hc/en-us/categories/4419125402644-About-Affirm",
+      "title": "About Affirm",
+      "publisher": "Affirm",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_affirm"
+      ],
+      "alias_source_ids": [
+        "src_affirm_business_hub_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_affirm_jpmorgan_2026",
+      "url": "https://investors.affirm.com/news-releases/news-release-details/affirm-inks-deal-jp-morgan-payments-deliver-more-flexible/",
+      "title": "Affirm and J.P. Morgan Payments agreement",
+      "publisher": "Affirm",
+      "source_type": "investor-relations",
+      "published_date": "2025-03-25",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_affirm"
+      ],
+      "alias_source_ids": [
+        "src_affirm_jpmorgan_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries",
+        "relationships",
+        "geographies",
+        "headquarters"
       ]
     },
     {
@@ -1068,6 +1217,72 @@
       ],
       "supports": [
         "description",
+        "services"
+      ]
+    },
+    {
+      "id": "src_bdev_home_2026",
+      "url": "https://www.bdevventures.com/",
+      "title": "BDev Ventures",
+      "publisher": "BDEV Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdev_ventures"
+      ],
+      "alias_source_ids": [
+        "src_bdev_home_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_bdev_portfolio_2026",
+      "url": "https://www.bdevventures.com/our-portfolio/",
+      "title": "BDev Ventures Portfolio",
+      "publisher": "BDEV Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdev_ventures"
+      ],
+      "alias_source_ids": [
+        "src_bdev_portfolio_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_bdev_team_2026",
+      "url": "https://www.bdevventures.com/team/",
+      "title": "BDev Ventures Team",
+      "publisher": "BDEV Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_bdev_ventures"
+      ],
+      "alias_source_ids": [
+        "src_bdev_team_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
         "services"
       ]
     },
@@ -2338,14 +2553,19 @@
         "ent_compose_ai"
       ],
       "alias_source_ids": [
-        "src_compose-ai_official"
+        "src_compose-ai_official",
+        "src_compose_product_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "products",
+        "services",
+        "industries",
+        "public_pricing"
       ]
     },
     {
@@ -2409,6 +2629,27 @@
       ],
       "supports": [
         "description",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_counterrun_product_2026",
+      "url": "https://www.counterrun.ai/",
+      "title": "CounterRun.ai",
+      "publisher": "CounterRun.ai",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_counterrun_ai"
+      ],
+      "alias_source_ids": [
+        "src_counterrun_product_2026"
+      ],
+      "supports": [
+        "products",
         "services",
         "industries"
       ]
@@ -2626,6 +2867,27 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_databricks_connectors_2026",
+      "url": "https://docs.databricks.com/aws/en/ingestion/lakeflow-connect/saas-overview",
+      "title": "Lakeflow Connect SaaS connectors",
+      "publisher": "Databricks",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_databricks"
+      ],
+      "alias_source_ids": [
+        "src_databricks_connectors_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "relationships"
       ]
     },
     {
@@ -4011,6 +4273,47 @@
       ]
     },
     {
+      "id": "src_hiive_disclosures_2026",
+      "url": "https://www.hiive.com/disclosures",
+      "title": "Hiive Disclosures",
+      "publisher": "Hiive",
+      "source_type": "regulatory",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hiive"
+      ],
+      "alias_source_ids": [
+        "src_hiive_disclosures_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_hiive_investors_2026",
+      "url": "https://www.hiive.com/funds-investors",
+      "title": "Hiive for Funds and Investors",
+      "publisher": "Hiive",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hiive"
+      ],
+      "alias_source_ids": [
+        "src_hiive_investors_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_hiive_official",
       "url": "https://www.hiive.com/",
       "title": "Hiive official website",
@@ -4031,6 +4334,46 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_hiive_seller_2026",
+      "url": "https://www.hiive.com/seller",
+      "title": "Sell Private Stock on Hiive",
+      "publisher": "Hiive",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hiive"
+      ],
+      "alias_source_ids": [
+        "src_hiive_seller_2026"
+      ],
+      "supports": [
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_hiive_story_2026",
+      "url": "https://www.hiive.com/our-story",
+      "title": "Our Story",
+      "publisher": "Hiive",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_hiive"
+      ],
+      "alias_source_ids": [
+        "src_hiive_story_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
       ]
     },
     {
@@ -4479,6 +4822,49 @@
       ]
     },
     {
+      "id": "src_ironarc_about_2026",
+      "url": "https://ironarcventures.com/about",
+      "title": "About IronArc",
+      "publisher": "IronArc Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ironarc_ventures"
+      ],
+      "alias_source_ids": [
+        "src_ironarc_about_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_ironarc_portfolio_2026",
+      "url": "https://ironarcventures.com/portfolio",
+      "title": "IronArc Portfolio",
+      "publisher": "IronArc Ventures",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_ironarc_ventures"
+      ],
+      "alias_source_ids": [
+        "src_ironarc_portfolio_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "relationships"
+      ]
+    },
+    {
       "id": "src_ironarc-ventures_official",
       "url": "https://ironarcventures.com/",
       "title": "IronArc Ventures official website",
@@ -4491,14 +4877,20 @@
         "ent_ironarc_ventures"
       ],
       "alias_source_ids": [
-        "src_ironarc-ventures_official"
+        "src_ironarc-ventures_official",
+        "src_ironarc_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
       ]
     },
     {
@@ -4725,6 +5117,70 @@
       "supports": [
         "description",
         "services"
+      ]
+    },
+    {
+      "id": "src_leader_about_2026",
+      "url": "https://www.leaderbank.com/about",
+      "title": "About Leader Bank",
+      "publisher": "Leader Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_leader_bank"
+      ],
+      "alias_source_ids": [
+        "src_leader_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_leader_contact_2026",
+      "url": "https://www.leaderbank.com/contact",
+      "title": "Contact Leader Bank",
+      "publisher": "Leader Bank",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_leader_bank"
+      ],
+      "alias_source_ids": [
+        "src_leader_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services"
+      ]
+    },
+    {
+      "id": "src_leader_report_2026",
+      "url": "https://www.leaderbank.com/sites/default/files/2025-05/2024_AnnualReport_web.pdf",
+      "title": "Leader Bank 2024 Annual Report",
+      "publisher": "Leader Bank",
+      "source_type": "official-company",
+      "published_date": "2025-05-01",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_leader_bank"
+      ],
+      "alias_source_ids": [
+        "src_leader_report_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "headquarters"
       ]
     },
     {
@@ -5225,6 +5681,27 @@
       ]
     },
     {
+      "id": "src_nvidia_industry_partners_2026",
+      "url": "https://www.nvidia.com/en-us/industries/industrial-sector/partners/",
+      "title": "NVIDIA Industrial and Manufacturing Partners",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_industry_partners_2026"
+      ],
+      "supports": [
+        "relationships",
+        "products",
+        "services"
+      ]
+    },
+    {
       "id": "src_nvidia_official",
       "url": "https://www.nvidia.com/",
       "title": "NVIDIA official website",
@@ -5245,6 +5722,48 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_nvidia_sap_2026",
+      "url": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+      "title": "NVIDIA and SAP bring trust to specialized agents",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": "2026-05-12",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_sap_2026"
+      ],
+      "supports": [
+        "relationships",
+        "products",
+        "services"
+      ]
+    },
+    {
+      "id": "src_nvidia_servicenow_2026",
+      "url": "https://blogs.nvidia.com/blog/servicenow-autonomous-ai-agents-enterprises/",
+      "title": "NVIDIA and ServiceNow expand autonomous AI collaboration",
+      "publisher": "NVIDIA",
+      "source_type": "official-company",
+      "published_date": "2026-05-05",
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_nvidia"
+      ],
+      "alias_source_ids": [
+        "src_nvidia_servicenow_2026"
+      ],
+      "supports": [
+        "relationships",
+        "products",
+        "services"
       ]
     },
     {
@@ -5339,6 +5858,69 @@
       ]
     },
     {
+      "id": "src_oguz_about_2026",
+      "url": "https://oguz.law/about-us/",
+      "title": "About Oguz Law",
+      "publisher": "Oguz Law",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_oguz_law"
+      ],
+      "alias_source_ids": [
+        "src_oguz_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_oguz_business_2026",
+      "url": "https://oguz.law/business-law/",
+      "title": "Business Law",
+      "publisher": "Oguz Law",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_oguz_law"
+      ],
+      "alias_source_ids": [
+        "src_oguz_business_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_oguz_funding_2026",
+      "url": "https://oguz.law/business-law/funding/",
+      "title": "Startup Funding and Venture Financing Law",
+      "publisher": "Oguz Law",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_oguz_law"
+      ],
+      "alias_source_ids": [
+        "src_oguz_funding_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_oguz-law_official",
       "url": "https://oguz.law/",
       "title": "Oguz Law official website",
@@ -5422,6 +6004,71 @@
       "supports": [
         "services",
         "industries"
+      ]
+    },
+    {
+      "id": "src_opal_about_2026",
+      "url": "https://opalgroup.net/about-us/",
+      "title": "About Opal Group",
+      "publisher": "Opal Group",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_opal_group"
+      ],
+      "alias_source_ids": [
+        "src_opal_about_2026"
+      ],
+      "supports": [
+        "founded_year",
+        "headquarters",
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_opal_conferences_2026",
+      "url": "https://opalgroup.net/conferences/",
+      "title": "Opal Group Conferences",
+      "publisher": "Opal Group",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_opal_group"
+      ],
+      "alias_source_ids": [
+        "src_opal_conferences_2026"
+      ],
+      "supports": [
+        "geographies",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_opal_dla_2026",
+      "url": "https://opalgroup.net/conference/beyond-the-balance-sheet-the-future-of-private-credit-fund-finance-summit-2026/",
+      "title": "Future of Private Credit and Fund Finance Summit",
+      "publisher": "Opal Group",
+      "source_type": "official-event",
+      "published_date": "2026-03-31",
+      "accessed_date": "2026-08-11",
+      "primary_source": false,
+      "supported_entity_ids": [
+        "ent_opal_group"
+      ],
+      "alias_source_ids": [
+        "src_opal_dla_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "relationships"
       ]
     },
     {
@@ -5679,6 +6326,27 @@
       ]
     },
     {
+      "id": "src_payzen_about_2026",
+      "url": "https://payzen.com/about-us/",
+      "title": "About PayZen",
+      "publisher": "PayZen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_payzen"
+      ],
+      "alias_source_ids": [
+        "src_payzen_about_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_payzen_official",
       "url": "https://payzen.com/",
       "title": "PayZen official website",
@@ -5699,6 +6367,49 @@
         "website",
         "categories",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_payzen_patients_2026",
+      "url": "https://payzen.com/for-patients/",
+      "title": "PayZen for Patients",
+      "publisher": "PayZen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_payzen"
+      ],
+      "alias_source_ids": [
+        "src_payzen_patients_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries"
+      ]
+    },
+    {
+      "id": "src_payzen_platform_2026",
+      "url": "https://payzen.com/platform/",
+      "title": "PayZen Platform",
+      "publisher": "PayZen",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_payzen"
+      ],
+      "alias_source_ids": [
+        "src_payzen_platform_2026"
+      ],
+      "supports": [
+        "products",
+        "services",
+        "industries",
+        "relationships"
       ]
     },
     {
@@ -6806,6 +7517,25 @@
       ]
     },
     {
+      "id": "src_servicenow_partner_awards_2026",
+      "url": "https://www.servicenow.com/partners/awards.html",
+      "title": "ServiceNow Partner Awards",
+      "publisher": "ServiceNow",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_servicenow"
+      ],
+      "alias_source_ids": [
+        "src_servicenow_partner_awards_2026"
+      ],
+      "supports": [
+        "relationships"
+      ]
+    },
+    {
       "id": "src_servicenow_products_2026",
       "url": "https://www.servicenow.com/products-by-category.html",
       "title": "ServiceNow Products by Category",
@@ -7494,6 +8224,67 @@
       ]
     },
     {
+      "id": "src_transacta_about_2026",
+      "url": "https://transactacapital.com/about-us/",
+      "title": "About Transacta Capital",
+      "publisher": "Transacta Capital",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_transacta_capital"
+      ],
+      "alias_source_ids": [
+        "src_transacta_about_2026"
+      ],
+      "supports": [
+        "services",
+        "industries",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_transacta_contact_2026",
+      "url": "https://transactacapital.com/contact-us/",
+      "title": "Contact Transacta Capital",
+      "publisher": "Transacta Capital",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_transacta_capital"
+      ],
+      "alias_source_ids": [
+        "src_transacta_contact_2026"
+      ],
+      "supports": [
+        "headquarters",
+        "geographies"
+      ]
+    },
+    {
+      "id": "src_transacta_solutions_2026",
+      "url": "https://transactacapital.com/solutions/",
+      "title": "Transacta Capital Solutions",
+      "publisher": "Transacta Capital",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_transacta_capital"
+      ],
+      "alias_source_ids": [
+        "src_transacta_solutions_2026"
+      ],
+      "supports": [
+        "services",
+        "industries"
+      ]
+    },
+    {
       "id": "src_transacta-capital_official",
       "url": "https://transactacapital.com/",
       "title": "Transacta Capital official website",
@@ -7506,14 +8297,18 @@
         "ent_transacta_capital"
       ],
       "alias_source_ids": [
-        "src_transacta-capital_official"
+        "src_transacta-capital_official",
+        "src_transacta_home_2026"
       ],
       "supports": [
         "identity",
         "description",
         "website",
         "categories",
-        "cxo_roles"
+        "cxo_roles",
+        "services",
+        "industries",
+        "geographies"
       ]
     },
     {
@@ -8049,6 +8844,44 @@
         "description",
         "products",
         "cxo_roles"
+      ]
+    },
+    {
+      "id": "src_workday_awards_2026",
+      "url": "https://blog.workday.com/en-us/announcing-our-2025-workday-partner-award-winners.html",
+      "title": "Workday Partner Award Winners",
+      "publisher": "Workday",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workday"
+      ],
+      "alias_source_ids": [
+        "src_workday_awards_2026"
+      ],
+      "supports": [
+        "relationships"
+      ]
+    },
+    {
+      "id": "src_workday_partners_2026",
+      "url": "https://marketplace.workday.com/en-US/pages/find-a-partner",
+      "title": "Workday Marketplace Find a Partner",
+      "publisher": "Workday",
+      "source_type": "official-company",
+      "published_date": null,
+      "accessed_date": "2026-08-11",
+      "primary_source": true,
+      "supported_entity_ids": [
+        "ent_workday"
+      ],
+      "alias_source_ids": [
+        "src_workday_partners_2026"
+      ],
+      "supports": [
+        "relationships"
       ]
     },
     {

@@ -1,0 +1,14 @@
+{
+  "dataset_version":"0.9.0",
+  "batch":"Relationship and Decision Intelligence priority 50",
+  "calculated_at":"2026-08-11",
+  "selection_rule":"The 50 P1 records present after v0.8.5, ordered by editorial priority, completeness, fact depth and name. Queue position is a research workflow signal, not an organization ranking.",
+  "entity_ids":["ent_909cyber","ent_affirm","ent_bdev_ventures","ent_chameleon_ventures","ent_compose_ai","ent_counterrun_ai","ent_hiive","ent_ironarc_ventures","ent_leader_bank","ent_oguz_law","ent_opal_group","ent_paygentic","ent_payzen","ent_transacta_capital","ent_indian_hills_advisors","ent_bill","ent_databricks","ent_ramp","ent_rippling","ent_witnessai","ent_adaptive_security","ent_avenue_capital_group","ent_brighttower","ent_burkland","ent_cfgi","ent_danforth_advisors","ent_dla_piper","ent_frank_rimerman_co","ent_ghj","ent_harden","ent_heffernan_insurance_brokers","ent_hfs_research","ent_intel","ent_intrepid_investment_bankers","ent_lockton","ent_next47","ent_nvidia","ent_one_way_ventures","ent_robert_half","ent_scale_ai","ent_wells_fargo","ent_westcap","ent_western_technology_investment","ent_writer","ent_zenskar","ent_brex","ent_simmons_simmons","ent_airmdr","ent_axari_technologies_inc","ent_findem"],
+  "before_average_score":56.5,
+  "after_average_score":75,
+  "advanced_to_maintenance":9,
+  "research_deferred":["ent_chameleon_ventures","ent_paygentic","ent_indian_hills_advisors"],
+  "research_note":"Chameleon Ventures and Paygentic retained their existing identity records but did not receive unsupported offering or geography claims. Indian Hills Advisors remains explicitly marked needs verification. Geography is now unknown unless a source supports an operating-market field.",
+  "relationship_layer":{"sourced_relationships_before":3,"sourced_relationships_after":27,"derived_reciprocals_after":27},
+  "decision_tools_added":5
+}
