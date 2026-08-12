@@ -9,7 +9,7 @@ Open-source intelligence on the companies, communities, capital providers, advis
 
 | Measure | Current value |
 |---|---:|
-| Release | 0.8.1 |
+| Release | 0.8.2 |
 | Entity schema | 3.1.0 |
 | Canonical organizations | 194 |
 | Sourced facts | 2,079 |
@@ -17,7 +17,7 @@ Open-source intelligence on the companies, communities, capital providers, advis
 | Sourced relationships | 3 |
 | Derived reciprocal relationships | 3 |
 | Derived metrics | 72 |
-| Tests | 29 |
+| Tests | 32 |
 <!-- DATASET_STATUS_END -->
 
 The build validates canonical records and evidence, generates the sourced knowledge graph and reproducible intelligence, produces CSV/JSON downloads, and renders the static site in `docs/`.
@@ -44,6 +44,7 @@ GitHub Pages uses the workflow deployment mode. The Actions-built `docs/` artifa
 - `data/taxonomy/role-mappings.json`: normalized CXO, private-equity, VC, and CVC semantic lenses
 - `data/definitions/`: stable terminology
 - `data/relationships/`: sourced relationship records
+- `data/governance/completeness-standard.json`: neutral 100-point record-depth standard and bounded research-queue policy
 - `data/exports/`: generated entities, facts, sources, organization and semantic relationships, knowledge graph, taxonomy, role mappings, search index, cohorts, market maps, comparisons, and benchmarks
 - `scripts/`: deterministic generation, governance, discovery auditing, and live deployment verification
 
@@ -63,7 +64,9 @@ The CXO Ecosystem Index maps organizations across several independent dimensions
 
 These dimensions separate what an organization is from whom it serves, what it offers, what it publishes, and which documented needs or topics it addresses. Every entity exposes one primary provider category; other provider categories and capabilities remain separate. Multi-category organizations retain one canonical record. Missing values remain unknown rather than being inferred.
 
-Dataset v0.8.1 also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
+The current dataset also publishes evidence-linked semantic edges such as `serves_role`, `offers_event_format`, `publishes_intelligence`, `supports_need`, and `addresses_topic`. Role and audience mappings describe relevant controlled vocabulary; they are not claims that every organization in a cohort offers every mapped format or outcome.
+
+Every organization also receives a public profile-completeness result. The score measures research depth in the Index—not organizational quality or rank—and converts missing evidence into a P1, P2, P3, or maintenance research workflow. Complete results are published as JSON and CSV.
 
 ## Local verification
 

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "title": "CXO Ecosystem Index profile completeness standard",
+  "purpose": "Measure research depth without treating missing evidence as a negative claim or quality ranking.",
+  "scoring_note": "Scores describe the completeness of the Index record, not the quality, size, reputation, or suitability of the organization.",
+  "research_queue": {
+    "priority_1_limit": 50,
+    "priority_2_limit": 50,
+    "ordering": "Editorial research priority first, then lowest completeness score, lowest fact count, and organization name. Organizations scoring 80 or more move to maintenance.",
+    "neutrality_note": "Queue position controls research workflow only and is not an organization ranking."
+  },
+  "tiers": [
+    {"id": "decision-ready", "label": "Decision-ready", "minimum_score": 80},
+    {"id": "substantial", "label": "Substantial", "minimum_score": 60},
+    {"id": "developing", "label": "Developing", "minimum_score": 40},
+    {"id": "basic", "label": "Basic", "minimum_score": 0}
+  ],
+  "criteria": [
+    {"id": "identity", "label": "Identity and description", "weight": 5, "rule": "identity"},
+    {"id": "classification", "label": "Primary provider classification", "weight": 10, "rule": "classification"},
+    {"id": "executive_relevance", "label": "Executive-role relevance", "weight": 10, "rule": "executive_relevance"},
+    {"id": "inclusion_basis", "label": "Documented inclusion basis", "weight": 5, "rule": "inclusion_basis"},
+    {"id": "founded_year", "label": "Founded year", "weight": 10, "rule": "founded_year"},
+    {"id": "headquarters", "label": "Headquarters", "weight": 10, "rule": "headquarters"},
+    {"id": "operating_geography", "label": "Operating geography", "weight": 5, "rule": "operating_geography"},
+    {"id": "offerings", "label": "Products, services, programs, or capabilities", "weight": 10, "rule": "offerings"},
+    {"id": "industries", "label": "Industries served", "weight": 5, "rule": "industries"},
+    {"id": "semantic_profile", "label": "Evidence-linked semantic profile", "weight": 10, "rule": "semantic_profile"},
+    {"id": "source_breadth", "label": "Three or more canonical sources", "weight": 10, "rule": "source_breadth"},
+    {"id": "fact_depth", "label": "Ten or more source-linked facts", "weight": 5, "rule": "fact_depth"},
+    {"id": "freshness", "label": "Verified within 12 months", "weight": 5, "rule": "freshness"}
+  ]
+}

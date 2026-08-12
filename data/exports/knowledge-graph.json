@@ -1,7 +1,7 @@
 {
-  "dataset_version": "0.8.1",
+  "dataset_version": "0.8.2",
   "schema_version": "3.1.0",
-  "build_commit": "8aa0586276d5761560efaab880e8e7f140e1b9f9",
+  "build_commit": "49a81d8b771806201a62f15ec841e4f460dd9366",
   "generated_at": "2026-08-11",
   "entities": [
     {
@@ -74525,7 +74525,7 @@
     },
     "role_mappings": {
       "schema_version": "1.0.0",
-      "dataset_version": "0.8.1",
+      "dataset_version": "0.8.2",
       "description": "Controlled semantic lenses for common executive and investment audiences. A mapping describes relevant vocabulary; it does not assert that every organization serving the audience offers every mapped format or topic.",
       "mappings": [
         {

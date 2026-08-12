@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.8.2 — 2026-08-11 — Profile Completeness & Research Queue
+
+- Added a neutral 100-point, evidence-aware profile-completeness standard.
+- Published completeness JSON, CSV, and schema exports covering every canonical organization.
+- Added completeness tier, source and fact counts, and explicit research gaps to every entity profile.
+- Added a public field-coverage matrix and a bounded 50-record P1 research queue to the data-quality dashboard.
+- Added completeness metrics to release manifests, statistics, search records, methodology, and the Data catalog.
+- Added validation and regression tests that prevent the completeness score from becoming an organization ranking.
+
 ## 0.8.1 — 2026-08-11 — Primary Classification Correction
 
 ### Fixed

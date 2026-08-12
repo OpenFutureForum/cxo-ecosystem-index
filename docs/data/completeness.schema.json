@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CXO Ecosystem Index profile completeness export",
+  "type": "object",
+  "required": ["dataset_version", "schema_version", "calculated_at", "standard", "summary", "field_coverage", "entities"],
+  "properties": {
+    "dataset_version": {"type": "string"},
+    "schema_version": {"const": "1.0.0"},
+    "calculated_at": {"type": "string", "format": "date"},
+    "standard": {"type": "object"},
+    "summary": {"type": "object"},
+    "field_coverage": {"type": "array"},
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entity_id", "name", "slug", "score", "tier", "completed_criteria", "missing_criteria", "source_count", "fact_count", "research_priority"]
+      }
+    }
+  }
+}

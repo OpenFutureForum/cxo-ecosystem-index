@@ -1,10 +1,13 @@
 import {load,readJSON} from './lib.mjs';
-import {buildSourceRegistry,buildKnowledgeGraph,SUPPORTED_CURRENCIES} from './governance.mjs';
+import {buildSourceRegistry,buildKnowledgeGraph,buildCompleteness,SUPPORTED_CURRENCIES} from './governance.mjs';
+import {DATASET_VERSION,CALCULATED_AT} from './intelligence.mjs';
 await readJSON('data/entity.schema.json');
 await readJSON('data/intelligence.schema.json');
 await readJSON('data/source.schema.json');
 await readJSON('data/relationship.schema.json');
 await readJSON('data/semantic-relationship.schema.json');
+await readJSON('data/completeness.schema.json');
+const completenessStandard=await readJSON('data/governance/completeness-standard.json');
 const {entities,taxonomy,semantic,taxonomyAliases,roleMappings,classifications}=await load();
 const relationships=await readJSON('data/relationships/relationships.json');
 const errors=[];
@@ -71,6 +74,7 @@ const entityIds=new Set(entities.map(e=>e.id));
 const sources=buildSourceRegistry(entities);
 if(new Set(sources.map(source=>source.url)).size!==sources.length)errors.push('sources: duplicate canonical URL');
 try{buildKnowledgeGraph(entities,relationships,sources)}catch(error){errors.push(`relationships: ${error.message}`)}
+try{const completeness=buildCompleteness(entities,completenessStandard,DATASET_VERSION,CALCULATED_AT);if(completeness.entities.length!==entities.length)errors.push('completeness: entity count mismatch');for(const record of completeness.entities)if(record.score<0||record.score>100)errors.push(`completeness: invalid score for ${record.entity_id}`);}catch(error){errors.push(`completeness: ${error.message}`)}
 const classifiedIds=new Set();
 for(const record of classifications){if(classifiedIds.has(record.entity_id))errors.push(`classifications: duplicate entity ${record.entity_id}`);classifiedIds.add(record.entity_id);if(!entityIds.has(record.entity_id))errors.push(`classifications: orphan entity ${record.entity_id}`)}
 if(errors.length){console.error(errors.join('\n'));process.exit(1)}

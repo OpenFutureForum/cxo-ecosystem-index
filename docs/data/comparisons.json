@@ -2,7 +2,7 @@
   {
     "comparison_id": "cfo-spend-platforms",
     "title": "CFO Spend & Finance Platforms",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_ramp",
@@ -137,7 +137,7 @@
   {
     "comparison_id": "accounting-close-systems",
     "title": "Accounting, Close & Finance Systems",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_blackline",
@@ -271,7 +271,7 @@
   {
     "comparison_id": "executive-communities",
     "title": "Executive Communities",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_vistage",
@@ -452,7 +452,7 @@
   {
     "comparison_id": "executive-search-firms",
     "title": "Executive Search Firms",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_korn_ferry",
@@ -651,7 +651,7 @@
   {
     "comparison_id": "technology-law-firms",
     "title": "Technology Law Firms",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_wilson_sonsini",
@@ -816,7 +816,7 @@
   {
     "comparison_id": "technology-venture-banking",
     "title": "Technology & Venture Banking",
-    "dataset_version": "0.8.1",
+    "dataset_version": "0.8.2",
     "generated_at": "2026-08-11",
     "entity_ids": [
       "ent_silicon_valley_bank",

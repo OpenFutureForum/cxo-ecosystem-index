@@ -36,6 +36,6 @@ test('quantitative facts and derived metrics retain audit traces',async()=>{
 test('governance exports are published',async()=>{
  for(const file of ['sources.json','facts.json','relationships.json','knowledge-graph.json','search-index.json'])await fs.access(path.join(root,'docs/data',file));
  const graph=JSON.parse(await fs.readFile(path.join(root,'docs/data/knowledge-graph.json'),'utf8'));
- assert.equal(graph.dataset_version,'0.8.1');
+ assert.equal(graph.dataset_version,'0.8.2');
  assert.equal(graph.schema_version,'3.1.0');
 });
