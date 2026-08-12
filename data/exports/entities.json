@@ -1,8 +1,8 @@
 {
   "schema_version": "3.1.0",
-  "dataset_version": "0.8.3",
-  "build_commit": "5640bb68ddc1d8f40d0b020b498d2e01a4ff2cc6",
-  "generated_at": "2026-08-12T03:28:29.875Z",
+  "dataset_version": "0.8.4",
+  "build_commit": "d804907b311cf865a99cd2424eb50140fab59c49",
+  "generated_at": "2026-08-12T03:50:16.932Z",
   "dimensions": [
     "provider_types",
     "community_formats",

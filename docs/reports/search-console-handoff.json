@@ -1,12 +1,14 @@
 {
-  "release": "v0.8.3",
-  "release_fingerprint": "12c52e0fdeb0f9a6e7745452d89d679532ca743e893b1d1397e0fc055790fcb6",
-  "generated_at": "2026-08-12T03:28:29.875Z",
+  "release": "v0.8.4",
+  "release_fingerprint": "193801245bc1b03fc42ed3f907f8fc4cd0ed8e23205ef891aef4e66d8d073a50",
+  "generated_at": "2026-08-12T03:50:16.932Z",
   "submission_status": "not submitted",
   "note": "Candidate URLs for a manual Search Console handoff. This build does not ping or claim submission to any search engine.",
   "sitemap_url": "https://openfutureforum.github.io/cxo-ecosystem-index/sitemap.xml",
   "priority_urls": [
     "https://openfutureforum.github.io/cxo-ecosystem-index/",
+    "https://openfutureforum.github.io/cxo-ecosystem-index/publisher.html",
+    "https://openfutureforum.github.io/cxo-ecosystem-index/entities/open-future-forum.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/data.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/data-quality.html",
     "https://openfutureforum.github.io/cxo-ecosystem-index/cxo-ecosystems.html",

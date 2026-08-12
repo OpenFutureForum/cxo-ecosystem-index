@@ -9,6 +9,8 @@ const base='https://openfutureforum.github.io/cxo-ecosystem-index/';
 const manifest=JSON.parse(await fs.readFile(path.join(docs,'data/build-manifest.json'),'utf8'));
 const home=await fs.readFile(path.join(docs,'index.html'),'utf8');
 const dataPage=await fs.readFile(path.join(docs,'data.html'),'utf8');
+const publisherPage=await fs.readFile(path.join(docs,'publisher.html'),'utf8');
+const offProfile=await fs.readFile(path.join(docs,'entities/open-future-forum.html'),'utf8');
 const sitemap=await fs.readFile(path.join(docs,'sitemap.xml'),'utf8');
 
 test('homepage, Data page and freshness endpoints match the build manifest',async()=>{
@@ -41,6 +43,27 @@ test('static HTML uses content-hashed assets and exposes primary discovery links
  for(const href of ['cxo-ecosystems.html','providers/','intelligence/','data.html','methodology.html','data-quality.html','intelligence/cfo-technology.html','intelligence/compare-cfo-spend-platforms.html'])assert.ok(home.includes(`href="${href}`),`homepage missing ${href}`);
 });
 
+test('publisher identity is explicit, linked and machine-readable without changing taxonomy',()=>{
+ for(const page of [home,dataPage,publisherPage,offProfile]){
+  assert.ok(page.includes('publisher.html#organization'));
+  assert.ok(page.includes('Open Future Forum'));
+ }
+ assert.ok(home.includes('Published by <a href="publisher.html">Open Future Forum</a>'));
+ assert.ok(publisherPage.includes('Publisher status does not affect'));
+ assert.ok(publisherPage.includes('https://openfutureforum.com/research/executive-ai-leverage-report'));
+ assert.ok(publisherPage.includes('FAQPage'));
+ assert.ok(sitemap.includes(`${base}publisher.html`));
+});
+
+test('Open Future Forum answer profile preserves neutral primary classification',()=>{
+ assert.ok(offProfile.includes('<h2>Open Future Forum is an executive community</h2>'));
+ assert.ok(offProfile.includes('<dt>Primary provider category</dt><dd>Executive Communities</dd>'));
+ assert.ok(offProfile.includes('Research is a secondary capability')||offProfile.includes('Original operator research is an evidence-backed secondary capability'));
+ assert.ok(offProfile.includes('https://github.com/OpenFutureForum'));
+ assert.ok(offProfile.includes('FAQPage'));
+ assert.ok(!offProfile.includes('Research Firms'));
+});
+
 test('README status block matches generated metrics',async()=>{
  const readme=await fs.readFile(path.join(root,'README.md'),'utf8');
  for(const value of [manifest.dataset_version,manifest.schema_version,manifest.organizations.toLocaleString('en-US'),manifest.sourced_facts.toLocaleString('en-US'),manifest.canonical_sources.toLocaleString('en-US')])assert.ok(readme.includes(`| ${value} |`),`README missing ${value}`);
@@ -57,6 +80,6 @@ test('robots and Data authority hub expose current canonical resources',async()=
 
 test('Search Console handoff is explicit and does not claim submission',async()=>{
  const handoff=JSON.parse(await fs.readFile(path.join(docs,'reports/search-console-handoff.json'),'utf8'));
- assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,16);
+ assert.equal(handoff.submission_status,'not submitted');assert.equal(handoff.priority_urls.length,18);
  assert.equal(handoff.sitemap_url,`${base}sitemap.xml`);assert.ok(handoff.priority_urls.every(url=>!url.includes('?')));
 });

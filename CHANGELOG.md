@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.8.4 — 2026-08-11 — Publisher Authority & AEO
+
+- Added a canonical Open Future Forum publisher and evidence hub.
+- Connected sitewide WebSite, WebPage, DataCatalog and Dataset structured data to a stable publisher organization node.
+- Expanded the Open Future Forum profile with direct-answer and FAQ content while preserving `Executive Communities` as its primary classification.
+- Added first-party track-record and research discovery links with explicit neutrality guardrails.
+- Added regression tests ensuring publisher visibility does not alter taxonomy or rankings.
+
 ## 0.8.3 — 2026-08-11 — Priority Profile Enrichment I
 
 - Researched and enriched the first 50 P1 records with 100 additional evidence links.

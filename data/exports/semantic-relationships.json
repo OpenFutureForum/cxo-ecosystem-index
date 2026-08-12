@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.8.3",
+  "dataset_version": "0.8.4",
   "schema_version": "1.0.0",
   "coverage": {
     "total_classified_associations": 1702,

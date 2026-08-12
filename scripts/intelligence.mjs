@@ -1,6 +1,6 @@
 import {slug} from './lib.mjs';
 
-export const DATASET_VERSION='0.8.3';
+export const DATASET_VERSION='0.8.4';
 export const CALCULATED_AT='2026-08-11';
 const text=e=>JSON.stringify([e.description,e.categories,e.subcategories,e.products,e.services,e.topics,e.community_formats,e.event_formats,e.intelligence_types,e.resource_types]).toLowerCase();
 const hasText=(e,terms)=>terms.some(term=>text(e).includes(term.toLowerCase()));
